@@ -1,0 +1,76 @@
+{
+  "id": "tap-04-bai-05-hai-piano-course-001-tap-04-bai-05-001",
+  "type": "concept",
+  "name": "Giới thiệu Bài 5 trong Tập 4: Hướng dẫn kỹ thuật đánh câu lót, câu dẫn (fill-in/passing line) trên giọng Thứ (A minor -",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-05",
+    "locator": "00:00:23-00:00:57 pdf p.22",
+    "media_id": "video_tap_04_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 22,
+        "section": "Bài 5 Overview"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu Bài 5 trong Tập 4: Hướng dẫn kỹ thuật đánh câu lót, câu dẫn (fill-in/passing line) trên giọng Thứ (A minor - La thứ) theo điệu Ballad.",
+    "music_entities": {
+      "chords": [
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "hands": {
+        "left": [
+          "A2"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu Bài 5 trong Tập 4: Hướng dẫn kỹ thuật đánh câu lót, câu dẫn (fill-in/passing line) trên giọng Thứ (A minor - La thứ) theo điệu Ballad."
+}

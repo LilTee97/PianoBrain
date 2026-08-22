@@ -1,0 +1,70 @@
+{
+  "id": "jazz-scales-bai-13-04-g-whole-tone",
+  "type": "concept",
+  "name": "Applying the whole tone scale starting on the root of a dominant 7th chord provides a hybrid mix",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-13",
+    "locator": "04:29-05:38",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm Eb7",
+    "Chọn gam / scale khi gặp hợp âm 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "G Whole Tone",
+      "root": "G",
+      "note_names": [
+        "G",
+        "A",
+        "B",
+        "C#",
+        "D#",
+        "F"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [
+        "7"
+      ],
+      "use_when": [
+        "hợp âm G7",
+        "hợp âm Eb7"
+      ]
+    },
+    "chord_symbol": "G7",
+    "notes": [
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D#",
+      "F"
+    ],
+    "source_text": "Applying the whole tone scale starting on the root of a dominant 7th chord provides a hybrid mix of inside and outside tones. Over a G7 chord, G Whole Tone contains: Root (G), 9 (A), 3 (B), #11/tritone (C#), b13 (D#/Eb), b7 (F). This yields 4 chord/diatonic tones and 2 altered tension tones (#11, b13)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 13 của nguồn Jazz Scales (YouTube), mốc 04:29-05:38. Applying the whole tone scale starting on the root of a dominant 7th chord provides a hybrid mix of inside and outside tones. Over a G7 chord, G Whole Tone contains: Root (G), 9 (A), 3 (B), #11/tritone (C#), b13 (D#/Eb), b7 (F). This yields 4 chord/diatonic tones and 2 altered tension tones (#11, b13). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

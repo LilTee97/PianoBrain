@@ -1,0 +1,69 @@
+{
+  "id": "tap-03-bai-03-r-piano-rhythm-accent-dynamics",
+  "type": "rule",
+  "name": "Quy tắc nhấn phách khi luyện ngón tiết tấu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-03",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Rhythm Practice, Sight Reading Strategy, Solo Piano, Technical Exercise"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "rhythm-practice",
+      "sight-reading-strategy",
+      "solo-piano",
+      "technical-exercise"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Rhythm Practice",
+        "Sight Reading Strategy",
+        "Solo Piano",
+        "Technical Exercise"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Quy tắc nhấn phách khi luyện ngón tiết tấu",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Đánh nốt đầu phách Mạnh (Accent / Strong), các nốt phụ sau đánh Nhẹ (Light/Unaccented)."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_PIANO_RHYTHM_ACCENT_DYNAMICS",
+      "name": "Quy tắc nhấn phách khi luyện ngón tiết tấu",
+      "trigger": "Luyện thang âm theo các âm hình tiết tấu (Móc đơn, Móc kép, Chùm ba, Đơn trước kép sau)",
+      "condition": "Nốt nằm ở đầu phách (chân dậm xuống)",
+      "action": "Đánh nốt đầu phách Mạnh (Accent / Strong), các nốt phụ sau đánh Nhẹ (Light/Unaccented).",
+      "rationale": "Luyện tập độ độc lập của ngón yếu (ngón 4, 5) và tạo cảm giác nhịp điệu uyển chuyển, tránh tình trạng gồng gân hay đánh đều chằn chặn cứng đờ.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_03"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Quy tắc nhấn phách khi luyện ngón tiết tấu"
+}

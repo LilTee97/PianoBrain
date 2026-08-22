@@ -1,0 +1,122 @@
+{
+  "id": "tap-06-bai-06-hai-piano-course-001-lesson-006-003",
+  "type": "accompaniment",
+  "name": "Bossa Nova Mẫu 1: Kỹ thuật đệm cơ bản với tiết tấu đảo phách đặc trưng Latin",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-06",
+    "locator": "00:02:37-00:06:45 pdf p.1",
+    "media_id": "hai_piano_course_001_video_006",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_pdf_006",
+        "page": 1,
+        "section": "Mẫu 1 - Tiết điệu Bossanova"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Em7, Fmaj7, G7",
+    "Giọng: C major",
+    "Nốt màu: maj7",
+    "Điệu / phong cách: Bossa Nova, Latin"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Em7",
+      "Fmaj7",
+      "G7"
+    ],
+    "style": [
+      "jazz",
+      "bossa-nova",
+      "latin"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bossa Nova Mẫu 1: Kỹ thuật đệm cơ bản với tiết tấu đảo phách đặc trưng Latin. Tay trái chơi nốt Bass luân phiên (Root - Nốt bậc 5) theo nét legato, tay phải dập hợp âm chát (non-legato) rơi vào các nhịp nảy đảo phách.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Em7",
+        "Fmaj7",
+        "G7"
+      ],
+      "tensions": [
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Bossa Nova",
+        "Latin"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C3",
+        "G2",
+        "E4",
+        "G4",
+        "B4",
+        "D5"
+      ],
+      "hands": {
+        "left": [
+          "C3 (nhịp 1)",
+          "G2 (nhịp 3)"
+        ],
+        "right": [
+          "Stab E4-G4-B4-D5 trên nhịp nảy/đảo phách"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C3",
+          "G2",
+          "E4",
+          "G4",
+          "B4",
+          "D5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3 (nhịp 1)",
+            "G2 (nhịp 3)"
+          ],
+          "right": [
+            "Stab E4-G4-B4-D5 trên nhịp nảy/đảo phách"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bossa Nova Mẫu 1: Kỹ thuật đệm cơ bản với tiết tấu đảo phách đặc trưng Latin. Tay trái chơi nốt Bass luân phiên (Root - Nốt bậc 5) theo nét legato, tay phải dập hợp âm chát (non-legato) rơi vào các nhịp nảy đảo phách."
+}

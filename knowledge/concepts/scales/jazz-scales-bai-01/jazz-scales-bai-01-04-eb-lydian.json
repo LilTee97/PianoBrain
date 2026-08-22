@@ -1,0 +1,43 @@
+{
+  "id": "jazz-scales-bai-01-04-eb-lydian",
+  "type": "scale",
+  "name": "Gam Eb Lydian cho hợp âm Ebmaj7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-01",
+    "locator": "05:21-06:03",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Ebmaj7",
+    "Chọn gam / scale khi gặp hợp âm maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Ebmaj7",
+    "notes": [
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D"
+    ],
+    "source_text": "Applying the technique to Eb maj 7 in the jazz standard 'Misty' produces the Eb Lydian scale (Eb, F, G, A, Bb, C, D)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 1 của nguồn Jazz Scales (YouTube), mốc 05:21-06:03. Applying the technique to Eb maj 7 in the jazz standard 'Misty' produces the Eb Lydian scale (Eb, F, G, A, Bb, C, D). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

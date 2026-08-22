@@ -1,0 +1,110 @@
+{
+  "id": "tap-06-bai-13-hai-piano-course-001-tap-06-bai-13-002",
+  "type": "voicing",
+  "name": "Mẫu 1: Mẫu tiết tấu Cha Cha Cha đệm 2 tay quãng xa octave",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-13",
+    "locator": "03:48-06:31 pdf p.13",
+    "media_id": "video_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 13,
+        "section": "Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, G, E7",
+    "Giọng: A minor",
+    "Điệu / phong cách: Cha Cha Cha, Latin"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "G",
+      "E7"
+    ],
+    "style": [
+      "cha-cha-cha",
+      "latin"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1: Mẫu tiết tấu Cha Cha Cha đệm 2 tay quãng xa octave. Hai tay chơi tiết tấu đồng bộ nhưng lệch quãng rộng (Left Hand dải trầm, Right Hand dải trung/cao). Nhấn vào các phách nhẹ và đảo phách (nhấn ngược) để tạo độ nảy chuẩn Latin.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "G",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Cha Cha Cha",
+        "Latin"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "C4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "Accenting off-beats on lower octaves"
+        ],
+        "right": [
+          "Syncopated block chord accents on upper octave"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A2",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "Accenting off-beats on lower octaves"
+          ],
+          "right": [
+            "Syncopated block chord accents on upper octave"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1: Mẫu tiết tấu Cha Cha Cha đệm 2 tay quãng xa octave. Hai tay chơi tiết tấu đồng bộ nhưng lệch quãng rộng (Left Hand dải trầm, Right Hand dải trung/cao). Nhấn vào các phách nhẹ và đảo phách (nhấn ngược) để tạo độ nảy chuẩn Latin."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "jazz-scales-bai-12-07-g-altered-scale",
+  "type": "arpeggio",
+  "name": "An arpeggio figure built on the minor triad starting from the b9 (Ab minor over G7), highlightin",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-12",
+    "locator": "11:12-12:08",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7alt",
+    "Ngẫu hứng jazz trên hợp âm Abm",
+    "Chọn gam / scale khi gặp hợp âm 7alt, m trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7alt",
+      "m"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G7alt",
+    "notes": [
+      "Ab",
+      "B",
+      "Eb",
+      "F"
+    ],
+    "source_text": "An arpeggio figure built on the minor triad starting from the b9 (Ab minor over G7), highlighting b9, #9, and b13."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 12 của nguồn Jazz Scales (YouTube), mốc 11:12-12:08. An arpeggio figure built on the minor triad starting from the b9 (Ab minor over G7), highlighting b9, #9, and b13. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

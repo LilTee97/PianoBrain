@@ -1,0 +1,63 @@
+{
+  "id": "tap-01-bai-08-rule-l08-003",
+  "type": "rule",
+  "name": "An intro can be created using 3 methods: Method 1 - Directly quoting a key melody sentence/refrain from the song",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-08",
+    "locator": "00:14:56-00:18:23 pdf p.6",
+    "extra_locators": [
+      "00:22:49-00:28:23 pdf p.6"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Slowrock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "slowrock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Slowrock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "An intro can be created using 3 methods: Method 1 - Directly quoting a key melody sentence/refrain from the song; Method 2 - Taking a melodic motif/rhythmic figure from the song and sequentially developing it (mô tiến); Method 3 - Composing a new melody over a standard chord progression (e.g., I - vi - ii - V - I or IV - iii - ii - V - I).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_l08_003",
+      "name": "Three Methods of Intro Construction",
+      "type": "arrangement_technique",
+      "description": "An intro can be created using 3 methods: Method 1 - Directly quoting a key melody sentence/refrain from the song; Method 2 - Taking a melodic motif/rhythmic figure from the song and sequentially developing it (mô tiến); Method 3 - Composing a new melody over a standard chord progression (e.g., I - vi - ii - V - I or IV - iii - ii - V - I).",
+      "applicability": "Intro composition and improvisation",
+      "confidence": "direct",
+      "lesson_folder": "Tap_01_Bai_08"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "An intro can be created using 3 methods: Method 1 - Directly quoting a key melody sentence/refrain from the song; Method 2 - Taking a melodic motif/rhythmic figure from the song and sequentially developing it (mô tiến); Method 3 - Composing a new melody over a standard chord progression (e.g., I - vi - ii - V - I or IV - iii - ii - V - I)."
+}

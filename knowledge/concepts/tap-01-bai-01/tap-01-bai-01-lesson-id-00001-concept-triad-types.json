@@ -1,0 +1,75 @@
+{
+  "id": "tap-01-bai-01-lesson-id-00001-concept-triad-types",
+  "type": "concept",
+  "name": "Hợp âm 3 (Triad) được cấu tạo từ 2 quãng 3 chồng lên nhau",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-01",
+    "locator": "15:19-22:24 pdf p.3",
+    "media_id": "video_input_0",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 3,
+        "section": "Hình 1 & Cấu tạo Hợp Âm 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Cm, Cdim, Caug",
+    "Giọng: C Major, C Minor"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Cm",
+      "Cdim",
+      "Caug"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Hợp âm 3 (Triad) được cấu tạo từ 2 quãng 3 chồng lên nhau. Có 4 loại hợp âm 3: Hợp âm 3 Trưởng (3T + 3t, Q5Đ), Hợp âm 3 Thứ (3t + 3T, Q5Đ), Hợp âm 3 Giảm (3t + 3t, Q5g), Hợp âm 3 Tăng (3T + 3T, Q5T).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Cm",
+        "Cdim",
+        "Caug"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major",
+        "C Minor"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C / Cm / Cdim / Caug",
+      "notes": [
+        "C-E-G",
+        "C-Eb-G",
+        "C-Eb-Gb",
+        "C-E-G#"
+      ],
+      "hands": {
+        "left": [
+          "C3-G3"
+        ],
+        "right": [
+          "E4-G4",
+          "Eb4-G4",
+          "Eb4-Gb4",
+          "E4-G#4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm 3 (Triad) được cấu tạo từ 2 quãng 3 chồng lên nhau. Có 4 loại hợp âm 3: Hợp âm 3 Trưởng (3T + 3t, Q5Đ), Hợp âm 3 Thứ (3t + 3T, Q5Đ), Hợp âm 3 Giảm (3t + 3t, Q5g), Hợp âm 3 Tăng (3T + 3T, Q5T)."
+}

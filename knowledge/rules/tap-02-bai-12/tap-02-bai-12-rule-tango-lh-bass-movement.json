@@ -1,0 +1,65 @@
+{
+  "id": "tap-02-bai-12-rule-tango-lh-bass-movement",
+  "type": "rule",
+  "name": "Tuyến Bass tay trái trong điệu Tango thường luân phiên giữa nốt Âm gốc (Root/Bậc 1) và nốt Âm quãng 5 (5th/Bậc 5) để tạo",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-12",
+    "locator": "00:13:41-00:16:14 pdf p.3",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Latin, Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "latin",
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Latin",
+        "Tango"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_tango_lh_bass_movement",
+      "title": "Tuyến Bass dịch chuyển Root - 5th tay trái",
+      "type": "voicing_movement",
+      "statement": "Tuyến Bass tay trái trong điệu Tango thường luân phiên giữa nốt Âm gốc (Root/Bậc 1) và nốt Âm quãng 5 (5th/Bậc 5) để tạo thế đứng nhịp vững chắc.",
+      "conditions": {
+        "style": "Tango",
+        "hand": "left"
+      },
+      "recommendation": "Sử dụng chuỗi nốt bass Bậc 1 - Bậc 5 (ví dụ trong Am: A - E hoặc A - C - E - A) kết hợp tiết tấu Legato dầy dặn.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_12"
+    },
+    "review_reason": "rule_rejected: empty description"
+  },
+  "origin": "extracted",
+  "status": "rejected",
+  "note_vi": "Tuyến Bass tay trái trong điệu Tango thường luân phiên giữa nốt Âm gốc (Root/Bậc 1) và nốt Âm quãng 5 (5th/Bậc 5) để tạo thế đứng nhịp vững chắc."
+}

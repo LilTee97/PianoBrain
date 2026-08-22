@@ -1,0 +1,87 @@
+{
+  "id": "tap-04-bai-08-lesson-id-00004",
+  "type": "voicing",
+  "name": "Câu lót/câu dẫn số 3 với việc mở rộng hợp âm 7 (Am7, Em7, Dm7, Bm7b5, E7)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-08",
+    "locator": "04:32:00-06:33:00 pdf p.39",
+    "media_id": "video_tap_04_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 39,
+        "section": "Bài 8 - Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am7, Em7, Dm7, Bm7b5, E7",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Nốt màu: 7th",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am7",
+      "Em7",
+      "Dm7",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Câu lót/câu dẫn số 3 với việc mở rộng hợp âm 7 (Am7, Em7, Dm7, Bm7b5, E7). Thêm nốt quãng 7 giúp hòa âm phong phú, tạo không khí sầu lắng và hiện đại hơn cho điệu Boston.",
+    "music_entities": {
+      "chords": [
+        "Am7",
+        "Em7",
+        "Dm7",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [
+        "7th"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7",
+      "notes": [
+        "G4",
+        "C4",
+        "E4",
+        "A3"
+      ],
+      "hands": {
+        "left": [
+          "A2"
+        ],
+        "right": [
+          "G4",
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu lót/câu dẫn số 3 với việc mở rộng hợp âm 7 (Am7, Em7, Dm7, Bm7b5, E7). Thêm nốt quãng 7 giúp hòa âm phong phú, tạo không khí sầu lắng và hiện đại hơn cho điệu Boston."
+}

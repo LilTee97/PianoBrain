@@ -1,0 +1,42 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-rule-rh-on-iv",
+  "type": "rule",
+  "name": "Sang bậc IV thì tay phải đổi sang C và Eb",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:04:48"
+  },
+  "use_when": [
+    "Ô nhịp 5-6 và ô 10 của vòng 12 bar",
+    "Tay trái vừa chuyển sang F"
+  ],
+  "input": {
+    "style": [
+      "blues"
+    ],
+    "chord_quality": [
+      "F7"
+    ]
+  },
+  "output": {
+    "if": "tay trái chuyển sang hợp âm bậc IV (F)",
+    "then": {
+      "rh_notes": [
+        "C",
+        "Eb"
+      ],
+      "degrees": [
+        "5",
+        "b7"
+      ]
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi tay trái chuyển sang hợp âm bậc IV là F, tay phải đổi sang bấm hai nốt cao của F7 là C và Eb."
+}

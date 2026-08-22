@@ -1,0 +1,88 @@
+{
+  "id": "tap-04-bai-09-hai-piano-t4-b09-004",
+  "type": "concept",
+  "name": "Câu 3: Bổ sung âm bậc 7 (Major 7th và Minor 7th) vào các hợp âm trong vòng I-IV-II-V (Cmaj7 - Fmaj7 - Dm7 - G7), tạo màu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-09",
+    "locator": "00:05:03-00:06:25 pdf p.44",
+    "media_id": "video_t04_b09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 44,
+        "section": "Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Fmaj7, Dm7, G7",
+    "Giọng: C Major",
+    "Gam: C Major Diatonic",
+    "Nốt màu: 7th, Maj7",
+    "Điệu / phong cách: 16-beat Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Fmaj7",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "16-beat-pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "tension",
+    "raw_text": "Câu 3: Bổ sung âm bậc 7 (Major 7th và Minor 7th) vào các hợp âm trong vòng I-IV-II-V (Cmaj7 - Fmaj7 - Dm7 - G7), tạo màu sắc hợp âm sang trọng và tinh tế cho phong cách 16-bit.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Fmaj7",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [
+        "7th",
+        "Maj7"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Diatonic"
+      ],
+      "styles": [
+        "16-beat Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C3",
+        "G3",
+        "B3",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "B3",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu 3: Bổ sung âm bậc 7 (Major 7th và Minor 7th) vào các hợp âm trong vòng I-IV-II-V (Cmaj7 - Fmaj7 - Dm7 - G7), tạo màu sắc hợp âm sang trọng và tinh tế cho phong cách 16-bit."
+}

@@ -1,0 +1,99 @@
+{
+  "id": "tap-03-bai-11-tap-03-bai-11-001",
+  "type": "scale",
+  "name": "Bài Tình Thôi Xót Xa được viết trên giọng Rê trưởng (D Major) có 2 dấu thăng (F#, C#)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-11",
+    "locator": "00:00:36-00:02:43 pdf p.11",
+    "media_id": "video_tap_03_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 11,
+        "section": "Tình Thôi Xót Xa - Page 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: D, G, A, Bm, Em, F#m, C#dim",
+    "Giọng: D major, B minor",
+    "Gam: D Major Scale",
+    "Điệu / phong cách: Ballad, Pop Solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "D",
+      "G",
+      "A",
+      "Bm",
+      "Em",
+      "F#m",
+      "C#dim"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "pop-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Bài Tình Thôi Xót Xa được viết trên giọng Rê trưởng (D Major) có 2 dấu thăng (F#, C#). Giọng song song là Si thứ (B minor). Cấu trúc hợp âm chính giọng Rê trưởng gồm bậc I (D), bậc IV (G), bậc V (A) và các hợp âm giọng Si thứ song song (Bm, Em, F#m, C#dim).",
+    "music_entities": {
+      "chords": [
+        "D",
+        "G",
+        "A",
+        "Bm",
+        "Em",
+        "F#m",
+        "C#dim"
+      ],
+      "tensions": [],
+      "keys": [
+        "D major",
+        "B minor"
+      ],
+      "scales": [
+        "D Major Scale"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop Solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "D",
+      "notes": [
+        "D4",
+        "E4",
+        "F#4",
+        "G4",
+        "A4",
+        "B4",
+        "C#5",
+        "D5"
+      ],
+      "hands": {
+        "left": [
+          "D3",
+          "A3",
+          "F#4"
+        ],
+        "right": [
+          "D4",
+          "F#4",
+          "A4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài Tình Thôi Xót Xa được viết trên giọng Rê trưởng (D Major) có 2 dấu thăng (F#, C#). Giọng song song là Si thứ (B minor). Cấu trúc hợp âm chính giọng Rê trưởng gồm bậc I (D), bậc IV (G), bậc V (A) và các hợp âm giọng Si thứ song song (Bm, Em, F#m, C#dim)."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "jazz-scales-bai-04-01-f-aeolian",
+  "type": "concept",
+  "name": "Arpeggio Formation Theory cơ bản bắt đầu từ việc trực tiếp rải (arpeggiate) một thế bấm hợp âm (",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-04",
+    "locator": "01:41-02:29",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F min7(11)",
+    "Ngẫu hứng jazz trên hợp âm Ab Maj(add2)/C",
+    "Chọn gam / scale khi gặp hợp âm m7(11), majj(add2)/C trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7(11)",
+      "majj(add2)/C"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F min7(11)",
+    "notes": [
+      "F2",
+      "C3",
+      "Eb3",
+      "Ab3",
+      "Bb3",
+      "C4"
+    ],
+    "source_text": "Arpeggio Formation Theory cơ bản bắt đầu từ việc trực tiếp rải (arpeggiate) một thế bấm hợp âm (voicing) của tay trái ra rộng khắp trên bàn phím bằng một hoặc hai tay."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 4 của nguồn Jazz Scales (YouTube), mốc 01:41-02:29. Arpeggio Formation Theory cơ bản bắt đầu từ việc trực tiếp rải (arpeggiate) một thế bấm hợp âm (voicing) của tay trái ra rộng khắp trên bàn phím bằng một hoặc hai tay. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,97 @@
+{
+  "id": "tap-02-bai-13-lesson-id-00004",
+  "type": "concept",
+  "name": "Vòng hợp âm 2: Cmaj79 - Dm7-5 - Cmaj79 - G/B - Gm/Bb - F/A - G/B - Cmaj79",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-13",
+    "locator": "05:09:00-07:37:00 pdf p.4",
+    "media_id": "Tap_02_Bai_13.mp4",
+    "supporting": [
+      {
+        "source_id": "PDF_Tap_2_Bai_11_15.pdf",
+        "page": 4,
+        "section": "Vòng 2: Cmj79.Dm7-5.Cmj79.G/B.Gm/Bb.F/A.G/B.Cmj79"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, Dm7-5, G/B, Gm/Bb, F/A",
+    "Giọng: C major",
+    "Gam: C Major",
+    "Nốt màu: maj7, 9, b5",
+    "Điệu / phong cách: Pop, Jazz Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "Dm7-5",
+      "G/B",
+      "Gm/Bb",
+      "F/A"
+    ],
+    "style": [
+      "pop",
+      "jazz",
+      "jazz-pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Vòng hợp âm 2: Cmaj79 - Dm7-5 - Cmaj79 - G/B - Gm/Bb - F/A - G/B - Cmaj79. Thay hợp âm C9 bằng Cmaj79 (C.major.7.9) tạo màu sắc hòa âm dày, mượt và sang trọng hơn.",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "Dm7-5",
+        "G/B",
+        "Gm/Bb",
+        "F/A"
+      ],
+      "tensions": [
+        "maj7",
+        "9",
+        "b5"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major"
+      ],
+      "styles": [
+        "Pop",
+        "Jazz Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj79",
+      "notes": [
+        "C3",
+        "G3",
+        "B3",
+        "D4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "B3",
+          "D4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hợp âm 2: Cmaj79 - Dm7-5 - Cmaj79 - G/B - Gm/Bb - F/A - G/B - Cmaj79. Thay hợp âm C9 bằng Cmaj79 (C.major.7.9) tạo màu sắc hòa âm dày, mượt và sang trọng hơn."
+}

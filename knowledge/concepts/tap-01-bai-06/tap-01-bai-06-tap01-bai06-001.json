@@ -1,0 +1,103 @@
+{
+  "id": "tap-01-bai-06-tap01-bai06-001",
+  "type": "concept",
+  "name": "Khai thác các hợp âm đảo (thế đảo 1 và thế đảo 2) với các nốt giai điệu nằm ở Bậc 3, Bậc 4, Bậc 6 của hợp âm nhằm tạo ra",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-06",
+    "locator": "00:00:44-00:02:24 pdf p.2",
+    "media_id": "video_tap01_bai06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 2,
+        "section": "BÀI 6 : KHAI THÁC HỢP ÂM BẬC 3 - BẬC 4 - BẬC 5 - BẬC 6 TRONG HỢP ÂM ĐẢO"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: F/A, G/B, Am/C, C/E, Dm/F, Em/G, C/G, Dm/A, Em/B, F/C, G/D, Am/E",
+    "Giọng: C Major",
+    "Gam: C Major Scale",
+    "Điệu / phong cách: Ballad, Pop, Sacred Music"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "F/A",
+      "G/B",
+      "Am/C",
+      "C/E",
+      "Dm/F",
+      "Em/G",
+      "C/G",
+      "Dm/A",
+      "Em/B",
+      "F/C",
+      "G/D",
+      "Am/E"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "sacred-music"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Khai thác các hợp âm đảo (thế đảo 1 và thế đảo 2) với các nốt giai điệu nằm ở Bậc 3, Bậc 4, Bậc 6 của hợp âm nhằm tạo ra tuyến Bass đi liền bậc (step-wise bass motion) mềm mại, mượt mà thay vì nhảy quãng rộng.",
+    "music_entities": {
+      "chords": [
+        "F/A",
+        "G/B",
+        "Am/C",
+        "C/E",
+        "Dm/F",
+        "Em/G",
+        "C/G",
+        "Dm/A",
+        "Em/B",
+        "F/C",
+        "G/D",
+        "Am/E"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop",
+        "Sacred Music"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G/B",
+      "notes": [
+        "B2",
+        "G3",
+        "B3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "B2"
+        ],
+        "right": [
+          "G3",
+          "B3",
+          "D4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khai thác các hợp âm đảo (thế đảo 1 và thế đảo 2) với các nốt giai điệu nằm ở Bậc 3, Bậc 4, Bậc 6 của hợp âm nhằm tạo ra tuyến Bass đi liền bậc (step-wise bass motion) mềm mại, mượt mà thay vì nhảy quãng rộng."
+}

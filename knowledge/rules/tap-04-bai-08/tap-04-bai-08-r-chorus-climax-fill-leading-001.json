@@ -1,0 +1,63 @@
+{
+  "id": "tap-04-bai-08-r-chorus-climax-fill-leading-001",
+  "type": "rule",
+  "name": "Để tạo cao trào chuyển sang đoạn Điệp khúc (Chorus) trong bài Boston giọng thứ, kết hợp các hợp âm mở rộng (7th, 9th, su",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-08",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Boston"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Để tạo cao trào chuyển sang đoạn Điệp khúc (Chorus) trong bài Boston giọng thứ, kết hợp các hợp âm mở rộng (7th, 9th, sus4) với âm hình rải/đánh chùm bè dày ở cả hai tay.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_CHORUS_CLIMAX_FILL_LEADING_001",
+      "name": "Chorus Climax Fill-in Technique",
+      "category": "Arrangement / Accompaniment",
+      "description": "Để tạo cao trào chuyển sang đoạn Điệp khúc (Chorus) trong bài Boston giọng thứ, kết hợp các hợp âm mở rộng (7th, 9th, sus4) với âm hình rải/đánh chùm bè dày ở cả hai tay.",
+      "conditions": {
+        "section": "Verse to Chorus Transition / Climax",
+        "style": "Boston"
+      },
+      "recommendation": "Sử dụng mẫu Câu 5 (trang 41 PDF) với chuỗi dồn tiết tấu và hợp âm V7sus4 - V7 trước khi giải quyết về hợp âm Chủ (i).",
+      "lesson_folder": "Tap_04_Bai_08"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Để tạo cao trào chuyển sang đoạn Điệp khúc (Chorus) trong bài Boston giọng thứ, kết hợp các hợp âm mở rộng (7th, 9th, sus4) với âm hình rải/đánh chùm bè dày ở cả hai tay."
+}

@@ -1,0 +1,124 @@
+{
+  "id": "tap-03-bai-07-tap-03-bai-07-004",
+  "type": "exercise",
+  "name": "Ghép hai tay bài Mùa Xuân: Tay trái chạy liên tục các nốt móc đơn đòi hỏi sự độc lập nhịp điệu so với tay phải chơi nốt",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-07",
+    "locator": "00:08:17-00:17:09 pdf p.4",
+    "media_id": "video_tap_03_bai_07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 4,
+        "section": "Bài 7 - Ghép Hai Tay"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, G7",
+    "Giọng: C Major",
+    "Điệu / phong cách: Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "G7"
+    ],
+    "style": [
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ghép hai tay bài Mùa Xuân: Tay trái chạy liên tục các nốt móc đơn đòi hỏi sự độc lập nhịp điệu so với tay phải chơi nốt đen và nốt trắng. Thực hành từ tốc độ cực chậm, đọc miệng giai điệu/tên nốt trước khi tăng tốc độ.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Solo Piano"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "E3",
+        "G3",
+        "C4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "E3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "C4",
+          "G4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "G3",
+          "E3",
+          "G3",
+          "C4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3",
+            "E3",
+            "G3"
+          ],
+          "right": [
+            "C4",
+            "C4",
+            "G4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ghép hai tay bài Mùa Xuân: Tay trái chạy liên tục các nốt móc đơn đòi hỏi sự độc lập nhịp điệu so với tay phải chơi nốt đen và nốt trắng. Thực hành từ tốc độ cực chậm, đọc miệng giai điệu/tên nốt trước khi tăng tốc độ."
+}

@@ -1,0 +1,136 @@
+{
+  "id": "tap-04-bai-12-hai-piano-tap-04-bai-12-003",
+  "type": "fill",
+  "name": "Bài 12 - Câu 2: Mẫu câu dẫn biến tấu nhịp điệu rải đảo hợp âm kết hợp giai điệu di chuyển ở quãng trung và cao, giúp liê",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-12",
+    "locator": "03:36:00-05:01:00 pdf p.58",
+    "media_id": "video_tap_04_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 58,
+        "section": "Bài 12 - Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Em/G, Fmaj7, C/E, Dm, Am/C, Bm7b5, Esus4, E7",
+    "Giọng: A minor",
+    "Gam: A minor",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Em/G",
+      "Fmaj7",
+      "C/E",
+      "Dm",
+      "Am/C",
+      "Bm7b5",
+      "Esus4",
+      "E7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bài 12 - Câu 2: Mẫu câu dẫn biến tấu nhịp điệu rải đảo hợp âm kết hợp giai điệu di chuyển ở quãng trung và cao, giúp liên kết các câu hát tự nhiên.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Em/G",
+        "Fmaj7",
+        "C/E",
+        "Dm",
+        "Am/C",
+        "Bm7b5",
+        "Esus4",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am - Em/G",
+      "notes": [
+        "A4",
+        "C5",
+        "E5",
+        "G4",
+        "B4",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "G2"
+        ],
+        "right": [
+          "C5",
+          "E5",
+          "B4",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am - Em/G",
+        "notes": [
+          "A4",
+          "C5",
+          "E5",
+          "G4",
+          "B4",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "G2"
+          ],
+          "right": [
+            "C5",
+            "E5",
+            "B4",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 12 - Câu 2: Mẫu câu dẫn biến tấu nhịp điệu rải đảo hợp âm kết hợp giai điệu di chuyển ở quãng trung và cao, giúp liên kết các câu hát tự nhiên."
+}

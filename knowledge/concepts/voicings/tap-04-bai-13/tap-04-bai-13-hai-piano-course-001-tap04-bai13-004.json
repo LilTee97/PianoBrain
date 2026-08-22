@@ -1,0 +1,134 @@
+{
+  "id": "tap-04-bai-13-hai-piano-course-001-tap04-bai13-004",
+  "type": "voicing",
+  "name": "Mẫu câu 3: Bổ sung màu sắc hợp âm bậc 7 (Cmaj7, Am7, Dm7, G7, Fmaj7, Em7) vào đường hòa âm, giúp câu lót mang tính chất",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-13",
+    "locator": "05:41:00-07:08:00 pdf p.64",
+    "media_id": "video_tap_04_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 64,
+        "section": "Bài 13 - Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Am7, Dm7, G7, Fmaj7, Em7",
+    "Giọng: C major",
+    "Gam: C major diatonic",
+    "Nốt màu: 7th",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Am7",
+      "Dm7",
+      "G7",
+      "Fmaj7",
+      "Em7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Mẫu câu 3: Bổ sung màu sắc hợp âm bậc 7 (Cmaj7, Am7, Dm7, G7, Fmaj7, Em7) vào đường hòa âm, giúp câu lót mang tính chất hiện đại, mềm mại và phong phú hơn.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Am7",
+        "Dm7",
+        "G7",
+        "Fmaj7",
+        "Em7"
+      ],
+      "tensions": [
+        "7th"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major diatonic"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C3",
+        "G3",
+        "B3",
+        "E4",
+        "G4",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "B3",
+          "E4",
+          "G4",
+          "B4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C3",
+          "G3",
+          "B3",
+          "E4",
+          "G4",
+          "B4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "B3",
+            "E4",
+            "G4",
+            "B4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 3: Bổ sung màu sắc hợp âm bậc 7 (Cmaj7, Am7, Dm7, G7, Fmaj7, Em7) vào đường hòa âm, giúp câu lót mang tính chất hiện đại, mềm mại và phong phú hơn."
+}

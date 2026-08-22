@@ -1,0 +1,53 @@
+{
+  "id": "tap-02-bai-09-tap02-bai09-k009",
+  "type": "rule",
+  "name": "Yêu cầu dịch giọng (transpose): Học viên cần thực hành 3 vòng hòa âm này trên các giọng khác nhau, đặc biệt là giọng có",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-09",
+    "locator": "00:27:07-00:28:53 pdf p.8",
+    "media_id": "video_tap02_bai09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap02_bai06_10",
+        "page": 8,
+        "section": "BÀI 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: A major, E major, Ab major"
+  ],
+  "avoid_when": [
+    "Yêu cầu dịch giọng (transpose): Học viên cần thực hành 3 vòng hòa âm này trên các giọng khác nhau, đặc biệt là giọng có phím đen (như A major, E major, Ab major) để làm chủ hoàn toàn ngón tay và khả năng cảm âm."
+  ],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "warning",
+    "raw_text": "Yêu cầu dịch giọng (transpose): Học viên cần thực hành 3 vòng hòa âm này trên các giọng khác nhau, đặc biệt là giọng có phím đen (như A major, E major, Ab major) để làm chủ hoàn toàn ngón tay và khả năng cảm âm.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "A major",
+        "E major",
+        "Ab major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Yêu cầu dịch giọng (transpose): Học viên cần thực hành 3 vòng hòa âm này trên các giọng khác nhau, đặc biệt là giọng có phím đen (như A major, E major, Ab major) để làm chủ hoàn toàn ngón tay và khả năng cảm âm."
+}

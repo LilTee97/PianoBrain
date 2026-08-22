@@ -1,0 +1,125 @@
+{
+  "id": "tap-04-bai-07-hai-piano-tap4-bai07-002",
+  "type": "fill",
+  "name": "Câu 1: Mẫu câu lót điệu Boston cơ bản sử dụng bậc 3 và bậc 5 của hợp âm, kết cấu tiết tấu 3/4 đơn giản giúp tạo nền lót",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-07",
+    "locator": "00:02:00-00:03:18 pdf p.32",
+    "media_id": "video_tap4_bai07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap4_75_mau_cau_lot_cau_dan",
+        "page": 32,
+        "section": "câu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm7, G7, Em7, Am7, F, G7, C",
+    "Giọng: C major",
+    "Gam: C major",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm7",
+      "G7",
+      "Em7",
+      "Am7",
+      "F",
+      "G7",
+      "C"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Câu 1: Mẫu câu lót điệu Boston cơ bản sử dụng bậc 3 và bậc 5 của hợp âm, kết cấu tiết tấu 3/4 đơn giản giúp tạo nền lót mượt mà.",
+    "music_entities": {
+      "chords": [
+        "Dm7",
+        "G7",
+        "Em7",
+        "Am7",
+        "F",
+        "G7",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm7",
+      "notes": [
+        "D",
+        "F",
+        "A",
+        "C"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "A2"
+        ],
+        "right": [
+          "F3",
+          "A3",
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm7",
+        "notes": [
+          "D",
+          "F",
+          "A",
+          "C"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D2",
+            "A2"
+          ],
+          "right": [
+            "F3",
+            "A3",
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu 1: Mẫu câu lót điệu Boston cơ bản sử dụng bậc 3 và bậc 5 của hợp âm, kết cấu tiết tấu 3/4 đơn giản giúp tạo nền lót mượt mà."
+}

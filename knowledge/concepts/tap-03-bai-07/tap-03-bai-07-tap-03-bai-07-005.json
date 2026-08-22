@@ -1,0 +1,47 @@
+{
+  "id": "tap-03-bai-07-tap-03-bai-07-005",
+  "type": "concept",
+  "name": "Lý thuyết Dấu Lặng (Rests): Dấu lặng là ký hiệu chỉ sự im lặng (không phát ra âm thanh) trong bản nhạc nhưng vẫn phải tí",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-07",
+    "locator": "00:17:10-00:20:30",
+    "media_id": "video_tap_03_bai_07",
+    "supporting": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Music Theory"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "music-theory"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Lý thuyết Dấu Lặng (Rests): Dấu lặng là ký hiệu chỉ sự im lặng (không phát ra âm thanh) trong bản nhạc nhưng vẫn phải tính và đập phách đầy đủ. Có 7 loại dấu lặng tương ứng với 7 hình nốt trường độ.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Music Theory"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Lý thuyết Dấu Lặng (Rests): Dấu lặng là ký hiệu chỉ sự im lặng (không phát ra âm thanh) trong bản nhạc nhưng vẫn phải tính và đập phách đầy đủ. Có 7 loại dấu lặng tương ứng với 7 hình nốt trường độ."
+}

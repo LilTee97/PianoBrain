@@ -1,0 +1,141 @@
+{
+  "id": "tap-02-bai-13-lesson-id-00008",
+  "type": "rule",
+  "name": "Quy tắc tạo Intro/Outro nâng cao: Kết hợp tuyến bass chuyển động liền bậc/chromatic với cấu trúc motif tiết tấu nhất quá",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-13",
+    "locator": "17:59:00-21:20:00 pdf p.4",
+    "media_id": "Tap_02_Bai_13.mp4",
+    "supporting": [
+      {
+        "source_id": "PDF_Tap_2_Bai_11_15.pdf",
+        "page": 4,
+        "section": "Bài 13"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, Cmaj79, Dm7-5, Fm6, Bb9, G+",
+    "Giọng: C major",
+    "Gam: C Major",
+    "Nốt màu: 9, maj7, b5, +5",
+    "Điệu / phong cách: Pop, Ballad, Jazz Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "Cmaj79",
+      "Dm7-5",
+      "Fm6",
+      "Bb9",
+      "G+"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "jazz-pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc tạo Intro/Outro nâng cao: Kết hợp tuyến bass chuyển động liền bậc/chromatic với cấu trúc motif tiết tấu nhất quán trên chuỗi hợp âm mượn và tension (9, maj7, b5, aug).",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "Cmaj79",
+        "Dm7-5",
+        "Fm6",
+        "Bb9",
+        "G+"
+      ],
+      "tensions": [
+        "9",
+        "maj7",
+        "b5",
+        "+5"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad",
+        "Jazz Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C9",
+      "notes": [
+        "C2",
+        "C3",
+        "G3",
+        "D4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "C3"
+        ],
+        "right": [
+          "G3",
+          "D4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C9",
+        "notes": [
+          "C2",
+          "C3",
+          "G3",
+          "D4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "C3"
+          ],
+          "right": [
+            "G3",
+            "D4",
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc tạo Intro/Outro nâng cao: Kết hợp tuyến bass chuyển động liền bậc/chromatic với cấu trúc motif tiết tấu nhất quán trên chuỗi hợp âm mượn và tension (9, maj7, b5, aug)."
+}

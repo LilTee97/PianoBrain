@@ -1,0 +1,89 @@
+{
+  "id": "tap-02-bai-14-rule-sixth-chord-cadence-01",
+  "type": "rule",
+  "name": "Using a minor 6th chord on the IV degree (IVm6, e.g. Fm6 in C major) creates a gentle, melancholic plagal cadence resolving to I.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:14:36-00:22:30 pdf p.7",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Acoustic, Ballad, Dân ca, Jazz, Pop, Pop Ballad, Smooth Jazz, Thánh ca, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "acoustic",
+      "pop_ballad",
+      "ballad",
+      "d-n-ca",
+      "jazz",
+      "pop",
+      "pop-ballad",
+      "smooth-jazz",
+      "th-nh-ca",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Acoustic",
+        "Ballad",
+        "Dân ca",
+        "Jazz",
+        "Pop",
+        "Pop Ballad",
+        "Smooth Jazz",
+        "Thánh ca",
+        "Worship"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Using a minor 6th chord on the IV degree (IVm6, e.g. Fm6 in C major) creates a gentle, melancholic plagal cadence resolving to I.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_SIXTH_CHORD_CADENCE_01",
+      "name": "Minor Subdominant 6th Plagal Cadence",
+      "category": "cadence",
+      "summary": "Using a minor 6th chord on the IV degree (IVm6, e.g. Fm6 in C major) creates a gentle, melancholic plagal cadence resolving to I.",
+      "conditions": {
+        "context": "cadence_ending",
+        "chord_type": "minor_6th"
+      },
+      "action": {
+        "progression": "IVm6 -> I"
+      },
+      "examples": [
+        {
+          "chord_sequence": [
+            "Fm6",
+            "C"
+          ]
+        }
+      ],
+      "lesson_folder": "Tap_02_Bai_14"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Using a minor 6th chord on the IV degree (IVm6, e.g. Fm6 in C major) creates a gentle, melancholic plagal cadence resolving to I."
+}

@@ -1,0 +1,135 @@
+{
+  "id": "tap-02-bai-11-hai-piano-tap02-bai11-004",
+  "type": "accompaniment",
+  "name": "Thế tay trái 3: Công thức bậc 1.5.3.5.3.5.3.5.1 đưa bậc 3 lên quãng 8 cao hơn (ngón cái vắt/di chuyển linh hoạt), tạo âm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-11",
+    "locator": "00:10:07-00:14:41 pdf p.2",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_002",
+        "page": 2,
+        "section": "Thế 3: 1.5.3.5.3.5.3.5.1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, F, G",
+    "Giọng: C major",
+    "Điệu / phong cách: Ballad, Arpeggio"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "F",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "arpeggio"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Thế tay trái 3: Công thức bậc 1.5.3.5.3.5.3.5.1 đưa bậc 3 lên quãng 8 cao hơn (ngón cái vắt/di chuyển linh hoạt), tạo âm thanh thoáng và dàn trải đều trong ô nhịp 4/4.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "F",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad",
+        "Arpeggio"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "E3",
+        "G2",
+        "E3",
+        "G2",
+        "E3",
+        "G2",
+        "C3"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "E3",
+          "G2",
+          "E3",
+          "G2",
+          "E3",
+          "G2",
+          "C3"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "G2",
+          "E3",
+          "G2",
+          "E3",
+          "G2",
+          "E3",
+          "G2",
+          "C3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "E3",
+            "G2",
+            "E3",
+            "G2",
+            "E3",
+            "G2",
+            "C3"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thế tay trái 3: Công thức bậc 1.5.3.5.3.5.3.5.1 đưa bậc 3 lên quãng 8 cao hơn (ngón cái vắt/di chuyển linh hoạt), tạo âm thanh thoáng và dàn trải đều trong ô nhịp 4/4."
+}

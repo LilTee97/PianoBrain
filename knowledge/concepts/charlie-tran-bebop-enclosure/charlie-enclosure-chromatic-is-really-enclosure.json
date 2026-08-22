@@ -1,0 +1,26 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-chromatic-is-really-enclosure",
+  "type": "concept",
+  "name": "Nhiều chuỗi chromatic trong solo bebop thực chất là enclosure bao quanh nốt đích",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:06:22"
+  },
+  "use_when": [
+    "Nghe solo bebop thấy toàn nốt chromatic mà không hiểu vì sao"
+  ],
+  "output": {
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Rất nhiều chuỗi nốt chromatic lướt qua trong câu solo bebop thực chất là thủ pháp enclosure bao quanh nốt đích, không nhất thiết phải là một âm giai phức tạp riêng.",
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "tap-04-bai-06-tap-04-bai-06-004",
+  "type": "concept",
+  "name": "Mẫu câu lót số 3 (Câu 3)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-06",
+    "locator": "00:05:32-00:06:47 pdf p.29",
+    "media_id": "video_tap_04_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 29,
+        "section": "Bài 6 - Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am7, Em7, FM7, Cmaj7, Dm7",
+    "Giọng: A minor",
+    "Gam: A minor",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am7",
+      "Em7",
+      "FM7",
+      "Cmaj7",
+      "Dm7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "tension",
+    "raw_text": "Mẫu câu lót số 3 (Câu 3). Bổ sung nốt bậc 7 (7th notes/chords) vào câu lót làm tăng tính hiện đại, màu sắc mở rộng và độ mượt cho tuyến giai điệu dẫn dắt giữa các hợp âm.",
+    "music_entities": {
+      "chords": [
+        "Am7",
+        "Em7",
+        "FM7",
+        "Cmaj7",
+        "Dm7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7",
+      "notes": [
+        "G4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "G4",
+          "C5",
+          "E5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 3 (Câu 3). Bổ sung nốt bậc 7 (7th notes/chords) vào câu lót làm tăng tính hiện đại, màu sắc mở rộng và độ mượt cho tuyến giai điệu dẫn dắt giữa các hợp âm."
+}

@@ -1,0 +1,114 @@
+{
+  "id": "tap-02-bai-02-lesson-id-00001",
+  "type": "scale",
+  "name": "Âm giai Đô trưởng tự nhiên bao gồm 7 nốt C - D - E - F - G - A - B - C, tạo ra 7 hợp âm ba bậc di chuyển chuẩn: C (I), D",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-02",
+    "locator": "01:43-04:14 pdf p.3",
+    "media_id": "video_tap_02_bai_02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 3,
+        "section": "Trưởng Tự Nhiên"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Dm, Em, F, G, Am, Bm-5",
+    "Giọng: C Major",
+    "Gam: C Natural Major",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G",
+      "Am",
+      "Bm-5"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Âm giai Đô trưởng tự nhiên bao gồm 7 nốt C - D - E - F - G - A - B - C, tạo ra 7 hợp âm ba bậc di chuyển chuẩn: C (I), Dm (ii), Em (iii), F (IV), G (V), Am (vi), Bm-5 (vii°).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Dm",
+        "Em",
+        "F",
+        "G",
+        "Am",
+        "Bm-5"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Natural Major"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "scale": {
+      "name": "Âm giai Đô trưởng tự nhiên bao gồm 7 nốt C - D - E - F - G -",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [],
+      "review": "rà tay từ raw_text: Âm giai Đô trưởng tự nhiên bao gồm 7 nốt C - D - E - F - G - A - B - C"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Âm giai Đô trưởng tự nhiên bao gồm 7 nốt C - D - E - F - G - A - B - C, tạo ra 7 hợp âm ba bậc di chuyển chuẩn: C (I), Dm (ii), Em (iii), F (IV), G (V), Am (vi), Bm-5 (vii°)."
+}

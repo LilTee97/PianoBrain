@@ -1,0 +1,130 @@
+{
+  "id": "tap-04-bai-07-hai-piano-tap4-bai07-005",
+  "type": "fill",
+  "name": "Câu 4: Mẫu câu lót Boston bổ sung Tension 9 (bậc 9) và ứng dụng kỹ thuật đánh ngay đầu phách 1 (phách mạnh) để tạo điểm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-07",
+    "locator": "00:07:12-00:09:54 pdf p.35",
+    "media_id": "video_tap4_bai07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap4_75_mau_cau_lot_cau_dan",
+        "page": 35,
+        "section": "câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm9, G9, Em7, Am9, Fmaj9, G9, Cadd9",
+    "Giọng: C major",
+    "Gam: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm9",
+      "G9",
+      "Em7",
+      "Am9",
+      "Fmaj9",
+      "G9",
+      "Cadd9"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Câu 4: Mẫu câu lót Boston bổ sung Tension 9 (bậc 9) và ứng dụng kỹ thuật đánh ngay đầu phách 1 (phách mạnh) để tạo điểm nhấn nhịp điệu chắc chắn, đặc trưng cho điệu Boston.",
+    "music_entities": {
+      "chords": [
+        "Dm9",
+        "G9",
+        "Em7",
+        "Am9",
+        "Fmaj9",
+        "G9",
+        "Cadd9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm9",
+      "notes": [
+        "D",
+        "F",
+        "A",
+        "C",
+        "E"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "A2"
+        ],
+        "right": [
+          "F3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm9",
+        "notes": [
+          "D",
+          "F",
+          "A",
+          "C",
+          "E"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D2",
+            "A2"
+          ],
+          "right": [
+            "F3",
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu 4: Mẫu câu lót Boston bổ sung Tension 9 (bậc 9) và ứng dụng kỹ thuật đánh ngay đầu phách 1 (phách mạnh) để tạo điểm nhấn nhịp điệu chắc chắn, đặc trưng cho điệu Boston."
+}

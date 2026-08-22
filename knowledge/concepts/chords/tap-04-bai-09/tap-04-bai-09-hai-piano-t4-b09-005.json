@@ -1,0 +1,89 @@
+{
+  "id": "tap-04-bai-09-hai-piano-t4-b09-005",
+  "type": "concept",
+  "name": "Câu 4: Sử dụng nốt bậc 9 (Add9 / 9th extension) trong giai điệu lót và voicing (Cadd9, Fadd9, Dm9, G9/G11), mang lại khô",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-09",
+    "locator": "00:06:25-00:08:00 pdf p.45",
+    "media_id": "video_t04_b09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 45,
+        "section": "Câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, Fadd9, Dm9, G9",
+    "Giọng: C Major",
+    "Gam: C Major Diatonic",
+    "Nốt màu: 9th, add9",
+    "Điệu / phong cách: 16-beat Modern Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "Fadd9",
+      "Dm9",
+      "G9"
+    ],
+    "style": [
+      "pop_ballad",
+      "16-beat-modern-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "tension",
+    "raw_text": "Câu 4: Sử dụng nốt bậc 9 (Add9 / 9th extension) trong giai điệu lót và voicing (Cadd9, Fadd9, Dm9, G9/G11), mang lại không gian hiện đại và lãng mạn cho tiết tấu 16-bit.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "Fadd9",
+        "Dm9",
+        "G9"
+      ],
+      "tensions": [
+        "9th",
+        "add9"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Diatonic"
+      ],
+      "styles": [
+        "16-beat Modern Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "C3",
+        "G3",
+        "D4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "D4",
+          "E4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu 4: Sử dụng nốt bậc 9 (Add9 / 9th extension) trong giai điệu lót và voicing (Cadd9, Fadd9, Dm9, G9/G11), mang lại không gian hiện đại và lãng mạn cho tiết tấu 16-bit."
+}

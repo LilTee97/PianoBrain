@@ -1,0 +1,14 @@
+{
+  "id": "charlie-tran",
+  "type": "teacher",
+  "name": "Charlie Tran",
+  "difficulty": 4,
+  "source": null,
+  "use_when": ["Người học hỏi về enclosure, bebop, cách bao vây nốt đích"],
+  "avoid_when": ["Câu hỏi ballad Việt (thầy Hải), blues shuffle hay walking bass (Pianote) — đừng trộn nhãn"],
+  "input": { "style": ["jazz"] },
+  "output": { "declared_focus": ["bebop", "enclosure", "target note"], "language": "en", "ingested_sources": 1 },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Kênh dạy jazz/bebop tiếng Anh. Đây là nguồn thứ tư của kho, tách hẳn với thầy Hải Joseph, Pianote và Mack Grout. Mọi item của Charlie Tran mang teacher_id 'charlie-tran' và style 'jazz'."
+}

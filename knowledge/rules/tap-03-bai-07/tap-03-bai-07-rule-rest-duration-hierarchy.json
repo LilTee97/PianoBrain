@@ -1,0 +1,66 @@
+{
+  "id": "tap-03-bai-07-rule-rest-duration-hierarchy",
+  "type": "rule",
+  "name": "7 loại dấu lặng tương ứng chính xác với 7 hình nốt: Lặng tròn (4 phách) = Nốt tròn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-07",
+    "locator": "00:18:00-00:20:10",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Accompaniment Pattern, Children Song, Classic, Music Theory"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment-pattern",
+      "children-song",
+      "classic",
+      "music-theory"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Accompaniment Pattern",
+        "Children Song",
+        "Classic",
+        "Music Theory"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "7 loại dấu lặng tương ứng chính xác với 7 hình nốt: Lặng tròn (4 phách) = Nốt tròn; Lặng trắng (2 phách) = Nốt trắng; Lặng đen (1 phách) = Nốt đen; Lặng đơn (1/2 phách) = Nốt móc đơn; Lặng kép (1/4 phách) = Nốt móc kép; Lặng tam (1/8 phách) = Nốt móc tam; Lặng tư (1/16 phách) = Nốt móc tư.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_rest_duration_hierarchy",
+      "type": "music_theory",
+      "description": "7 loại dấu lặng tương ứng chính xác với 7 hình nốt: Lặng tròn (4 phách) = Nốt tròn; Lặng trắng (2 phách) = Nốt trắng; Lặng đen (1 phách) = Nốt đen; Lặng đơn (1/2 phách) = Nốt móc đơn; Lặng kép (1/4 phách) = Nốt móc kép; Lặng tam (1/8 phách) = Nốt móc tam; Lặng tư (1/16 phách) = Nốt móc tư.",
+      "applies_to": [
+        "sight_reading"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_07"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "7 loại dấu lặng tương ứng chính xác với 7 hình nốt: Lặng tròn (4 phách) = Nốt tròn; Lặng trắng (2 phách) = Nốt trắng; Lặng đen (1 phách) = Nốt đen; Lặng đơn (1/2 phách) = Nốt móc đơn; Lặng kép (1/4 phách) = Nốt móc kép; Lặng tam (1/8 phách) = Nốt móc tam; Lặng tư (1/16 phách) = Nốt móc tư."
+}

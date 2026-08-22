@@ -1,0 +1,41 @@
+{
+  "id": "peter-bossa-rule-lh-half-beat-1-3",
+  "type": "rule",
+  "name": "Tay trái đánh nốt trắng ở phách 1 và phách 3",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "peter-martin",
+    "source_id": "peter-martin-bossa-nova",
+    "locator": "00:01:35"
+  },
+  "use_when": [
+    "Đệm bossa nova nhịp 4/4",
+    "Cần khung bass ổn định cho tay phải bám vào"
+  ],
+  "input": {
+    "style": [
+      "bossa_nova",
+      "latin"
+    ],
+    "hand": "LH"
+  },
+  "output": {
+    "if": "đang đệm bossa nova nhịp 4/4",
+    "then": {
+      "lh": "nốt trắng ở phách 1 và phách 3",
+      "beats": [
+        1,
+        3
+      ],
+      "duration": "1/2"
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Tay trái đánh nốt trắng đúng vào phách 1 và phách 3 của ô nhịp.",
+  "avoid_when": [
+    "Nhịp 3/4 hoặc 6/8 — khung phách 1 và 3 không còn đúng"
+  ]
+}

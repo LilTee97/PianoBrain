@@ -1,0 +1,96 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-001",
+  "type": "concept",
+  "name": "Trình diễn mẫu toàn bộ bài You Raise Me Up chuyển thể Solo Piano trên giọng Sol trưởng (G Major), thể hiện nét giai điệu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "00:00:00-00:00:36 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "YOU RAISE ME UP - Performance Demo"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: G, Gadd9, Cadd9, Em, D, Am7",
+    "Giọng: G Major",
+    "Gam: G Major Scale",
+    "Nốt màu: add9, 7",
+    "Điệu / phong cách: Ballad, Pop Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "G",
+      "Gadd9",
+      "Cadd9",
+      "Em",
+      "D",
+      "Am7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "pop-solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Trình diễn mẫu toàn bộ bài You Raise Me Up chuyển thể Solo Piano trên giọng Sol trưởng (G Major), thể hiện nét giai điệu trữ tình nhẹ nhàng kết hợp hòa âm hiện đại bổ sung hợp âm Gadd9, Cadd9, Em7.",
+    "music_entities": {
+      "chords": [
+        "G",
+        "Gadd9",
+        "Cadd9",
+        "Em",
+        "D",
+        "Am7"
+      ],
+      "tensions": [
+        "add9",
+        "7"
+      ],
+      "keys": [
+        "G Major"
+      ],
+      "scales": [
+        "G Major Scale"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop Solo Piano"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Gadd9",
+      "notes": [
+        "G2",
+        "D3",
+        "A3",
+        "B3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "D3"
+        ],
+        "right": [
+          "A3",
+          "B3",
+          "D4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trình diễn mẫu toàn bộ bài You Raise Me Up chuyển thể Solo Piano trên giọng Sol trưởng (G Major), thể hiện nét giai điệu trữ tình nhẹ nhàng kết hợp hòa âm hiện đại bổ sung hợp âm Gadd9, Cadd9, Em7."
+}

@@ -1,0 +1,133 @@
+{
+  "id": "tap-01-bai-11-lesson-id-0011-07",
+  "type": "rule",
+  "name": "Công dụng hợp âm Giảm: 1) Làm hợp âm dẫn đi lên hoặc đi xuống nửa cung (chromatic passing chord, e.g",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-11",
+    "locator": "00:19:50-00:23:28 pdf p.3",
+    "media_id": "video_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_11_15",
+        "page": 3,
+        "section": "Hợp âm Giảm dùng làm"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bdim, E, Am, F#m-5, F, G#dim, C",
+    "Giọng: Am, C",
+    "Điệu / phong cách: ballad, pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bdim",
+      "E",
+      "Am",
+      "F#m-5",
+      "F",
+      "G#dim",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Công dụng hợp âm Giảm: 1) Làm hợp âm dẫn đi lên hoặc đi xuống nửa cung (chromatic passing chord, e.g. C -> F#m-5 -> F, hoặc C -> G#dim -> Am). 2) Dùng trong công thức II-V-I giọng Thứ (Bdim -> E -> Am). 3) Tạo điểm nhấn hụt hẫng trước khi kết câu.",
+    "music_entities": {
+      "chords": [
+        "Bdim",
+        "E",
+        "Am",
+        "F#m-5",
+        "F",
+        "G#dim",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am",
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "ballad",
+        "pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Bdim -> E -> Am",
+      "notes": [
+        "B2",
+        "F3",
+        "Ab3",
+        "D4",
+        "E3",
+        "G#3",
+        "B3",
+        "E4",
+        "A2",
+        "E3",
+        "A3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "B2",
+          "F3"
+        ],
+        "right": [
+          "Ab3",
+          "D4",
+          "F4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "if": {
+        "chord_quality": null,
+        "chord_symbol": null,
+        "chord_function": null,
+        "key_context": null,
+        "progression_context": null,
+        "melody_context": null,
+        "style_tags": [
+          "ballad",
+          "gospel",
+          "pop"
+        ],
+        "difficulty_range": null
+      },
+      "then": {
+        "description": "Công dụng hợp âm Giảm: 1) Làm hợp âm dẫn đi lên hoặc đi xuống nửa cung (chromatic passing chord, e.g. C -> F#m-5 -> F, hoặc C -> G#dim -> Am). 2) Dùng trong công thức II-V-I giọng Thứ (Bdim -> E -> Am). 3) Tạo điểm nhấn hụt hẫng trước khi kết câu.",
+        "action": {
+          "select": [],
+          "add": [],
+          "transform": [],
+          "generate": []
+        }
+      },
+      "enforced_by": null,
+      "candidate": {
+        "rule_id": "lesson_id_0011_07",
+        "description": "Công dụng hợp âm Giảm: 1) Làm hợp âm dẫn đi lên hoặc đi xuống nửa cung (chromatic passing chord, e.g. C -> F#m-5 -> F, hoặc C -> G#dim -> Am). 2) Dùng trong công thức II-V-I giọng Thứ (Bdim -> E -> Am). 3) Tạo điểm nhấn hụt hẫng trước khi kết câu.",
+        "confidence": "direct",
+        "category": "rule_candidate",
+        "lesson_folder": "Tap_01_Bai_11"
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Công dụng hợp âm Giảm: 1) Làm hợp âm dẫn đi lên hoặc đi xuống nửa cung (chromatic passing chord, e.g. C -> F#m-5 -> F, hoặc C -> G#dim -> Am). 2) Dùng trong công thức II-V-I giọng Thứ (Bdim -> E -> Am). 3) Tạo điểm nhấn hụt hẫng trước khi kết câu."
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tap-01-bai-07-lesson-id-00005",
+  "type": "concept",
+  "name": "Các phương án hợp âm dẫn từ C về Am: 1) G#dim (đi lên nửa cung G# -> A)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-07",
+    "locator": "22:46-25:30 pdf p.4",
+    "media_id": "video_tap01_bai07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 4,
+        "section": "VD2: C -> Am"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G#dim, G/B, E/B, Am",
+    "Giọng: C major, A minor",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G#dim",
+      "G/B",
+      "E/B",
+      "Am"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Các phương án hợp âm dẫn từ C về Am: 1) G#dim (đi lên nửa cung G# -> A); 2) G/B hoặc E/B (đi xuống liền bậc C -> B -> A).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G#dim",
+        "G/B",
+        "E/B",
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major",
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G#dim",
+      "notes": [
+        "G#3",
+        "B3",
+        "D4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "G#3"
+        ],
+        "right": [
+          "B3",
+          "D4",
+          "F4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Các phương án hợp âm dẫn từ C về Am: 1) G#dim (đi lên nửa cung G# -> A); 2) G/B hoặc E/B (đi xuống liền bậc C -> B -> A)."
+}

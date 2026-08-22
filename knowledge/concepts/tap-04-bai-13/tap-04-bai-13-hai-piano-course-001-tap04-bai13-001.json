@@ -1,0 +1,77 @@
+{
+  "id": "tap-04-bai-13-hai-piano-course-001-tap04-bai13-001",
+  "type": "concept",
+  "name": "Bài 13 hướng dẫn phương pháp kết hợp hai vòng hòa âm phổ biến trong giọng Trưởng là 1-6-2-5-1 (C - Am - Dm - G - C) và 4",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-13",
+    "locator": "00:00:28-02:18:00 pdf p.62",
+    "media_id": "video_tap_04_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 62,
+        "section": "Bài 13 - Giới thiệu"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G, F, Em",
+    "Giọng: C major",
+    "Gam: C major diatonic",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G",
+      "F",
+      "Em"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Bài 13 hướng dẫn phương pháp kết hợp hai vòng hòa âm phổ biến trong giọng Trưởng là 1-6-2-5-1 (C - Am - Dm - G - C) và 4-3-2-5-1 (F - Em - Dm - G - C) để tạo thành chuỗi câu lót/câu dẫn dài hoàn chỉnh cho đoạn Intro, Giằng tấu (Interlude) hoặc Outro.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G",
+        "F",
+        "Em"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major diatonic"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - Am - Dm - G - C | F - Em - Dm - G - C",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 13 hướng dẫn phương pháp kết hợp hai vòng hòa âm phổ biến trong giọng Trưởng là 1-6-2-5-1 (C - Am - Dm - G - C) và 4-3-2-5-1 (F - Em - Dm - G - C) để tạo thành chuỗi câu lót/câu dẫn dài hoàn chỉnh cho đoạn Intro, Giằng tấu (Interlude) hoặc Outro."
+}

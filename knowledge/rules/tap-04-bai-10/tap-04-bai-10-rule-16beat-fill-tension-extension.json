@@ -1,0 +1,80 @@
+{
+  "id": "tap-04-bai-10-rule-16beat-fill-tension-extension",
+  "type": "rule",
+  "name": "Nâng cấp câu lót 16-Beat bằng cách bổ sung bậc 7 và bậc 9 (Am9, Dm9, Fmaj9).",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-10",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: 16-Beat, 16-Beat Pop/Jazz Ballad, Ballad, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "16-beat",
+      "pop_ballad",
+      "jazz",
+      "pop",
+      "16-beat-pop-jazz-ballad",
+      "ballad",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "16-Beat",
+        "16-Beat Pop/Jazz Ballad",
+        "Ballad",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Nâng cấp câu lót 16-Beat bằng cách bổ sung bậc 7 và bậc 9 (Am9, Dm9, Fmaj9).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_16beat_fill_tension_extension",
+      "description": "Nâng cấp câu lót 16-Beat bằng cách bổ sung bậc 7 và bậc 9 (Am9, Dm9, Fmaj9).",
+      "domain": "voicing_and_tensions",
+      "applicability": {
+        "styles": [
+          "16-Beat Ballad",
+          "Acoustic Pop"
+        ]
+      },
+      "pattern": {
+        "steps": [
+          "Cấp độ 1: Dùng bậc 3 & bậc 5 làm nốt thêu / nốt dẫn.",
+          "Cấp độ 2: Tích hợp bậc 7 (Am7, Dm7, Fmaj7).",
+          "Cấp độ 3: Tích hợp bậc 9 (Am9, Dm9) tạo màu sắc hiện đại, sang trọng."
+        ]
+      },
+      "recommendation": "Nốt bậc 9 nên đặt ở đỉnh giai điệu câu lót tay phải để tạo điểm nhấn thanh thoát.",
+      "lesson_folder": "Tap_04_Bai_10"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Nâng cấp câu lót 16-Beat bằng cách bổ sung bậc 7 và bậc 9 (Am9, Dm9, Fmaj9)."
+}

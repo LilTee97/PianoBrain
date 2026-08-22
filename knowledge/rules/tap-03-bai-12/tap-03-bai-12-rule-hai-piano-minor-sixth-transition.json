@@ -1,0 +1,70 @@
+{
+  "id": "tap-03-bai-12-rule-hai-piano-minor-sixth-transition",
+  "type": "rule",
+  "name": "Sử dụng hợp âm Fm6 (bậc IV thứ có nốt quãng 6) làm hợp âm chuyển tiếp ly khai trước khi giải kết về hợp âm chủ Đô trưởng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-12",
+    "locator": "00:22:32-00:27:30 pdf p.14",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Chorus, Pop Ballad, Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-chorus",
+      "pop",
+      "pop-ballad",
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Chorus",
+        "Pop Ballad",
+        "Solo Piano"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng hợp âm Fm6 (bậc IV thứ có nốt quãng 6) làm hợp âm chuyển tiếp ly khai trước khi giải kết về hợp âm chủ Đô trưởng hoặc La thứ.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_hai_piano_minor_sixth_transition",
+      "description": "Sử dụng hợp âm Fm6 (bậc IV thứ có nốt quãng 6) làm hợp âm chuyển tiếp ly khai trước khi giải kết về hợp âm chủ Đô trưởng hoặc La thứ.",
+      "domain": "harmony",
+      "origin": "extracted_from_lesson",
+      "confidence": "direct",
+      "associated_items": [
+        "tap_03_bai_12_006",
+        "tap_03_bai_12_009"
+      ],
+      "lesson_folder": "Tap_03_Bai_12"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Sử dụng hợp âm Fm6 (bậc IV thứ có nốt quãng 6) làm hợp âm chuyển tiếp ly khai trước khi giải kết về hợp âm chủ Đô trưởng hoặc La thứ."
+}

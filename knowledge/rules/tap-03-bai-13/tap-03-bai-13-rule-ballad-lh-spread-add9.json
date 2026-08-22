@@ -1,0 +1,72 @@
+{
+  "id": "tap-03-bai-13-rule-ballad-lh-spread-add9",
+  "type": "rule",
+  "name": "Trong điệu Pop/Ballad nhẹ nhàng, sử dụng voicings rải quãng 1-5-9 (Root-5th-9th) ở tay trái tạo cảm giác thoáng không gi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "14:44:00-18:42:00 pdf p.16",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Arpeggio, Chorus Peak, Pop Piano Solo, Pop Solo Piano, Voice Leading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-arpeggio",
+      "chorus-peak",
+      "pop",
+      "pop-piano-solo",
+      "pop-solo-piano",
+      "voice-leading"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Arpeggio",
+        "Chorus Peak",
+        "Pop Piano Solo",
+        "Pop Solo Piano",
+        "Voice Leading"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trong điệu Pop/Ballad nhẹ nhàng, sử dụng voicings rải quãng 1-5-9 (Root-5th-9th) ở tay trái tạo cảm giác thoáng không gian rộng mượt mà.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Play LH pattern 1 - 5 - 9 (e.g. G2 - D3 - A3) or 1 - 5 - 8 - 9."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_ballad_lh_spread_add9",
+      "description": "Trong điệu Pop/Ballad nhẹ nhàng, sử dụng voicings rải quãng 1-5-9 (Root-5th-9th) ở tay trái tạo cảm giác thoáng không gian rộng mượt mà.",
+      "domain": "accompaniment_voicing",
+      "condition": "Style = Ballad/Pop, Chord = Major/Minor triad",
+      "action": "Play LH pattern 1 - 5 - 9 (e.g. G2 - D3 - A3) or 1 - 5 - 8 - 9.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_13"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trong điệu Pop/Ballad nhẹ nhàng, sử dụng voicings rải quãng 1-5-9 (Root-5th-9th) ở tay trái tạo cảm giác thoáng không gian rộng mượt mà."
+}

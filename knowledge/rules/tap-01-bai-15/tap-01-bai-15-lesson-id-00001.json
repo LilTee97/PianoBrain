@@ -1,0 +1,79 @@
+{
+  "id": "tap-01-bai-15-lesson-id-00001",
+  "type": "rule",
+  "name": "Khi nốt giai điệu chìm xuống quá thấp (dưới F3/G3), không nên bấm hợp âm đầy đủ ở vùng âm trầm vì sẽ bị ù/om tiếng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-15",
+    "locator": "01:40-03:55 pdf p.11",
+    "media_id": "Tap_01_Bai_15",
+    "supporting": [
+      {
+        "source_id": "Tap_01_Bai_11_15_PDF",
+        "page": 11,
+        "section": "Mục 2 & 3 - Hiệu quả âm nhạc & Bass liền bậc"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, C",
+    "Giọng: C major, A minor",
+    "Điệu / phong cách: Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Khi nốt giai điệu chìm xuống quá thấp (dưới F3/G3), không nên bấm hợp âm đầy đủ ở vùng âm trầm vì sẽ bị ù/om tiếng. Giải pháp: Đưa giai điệu/phần đệm lên cao hơn 1 octave hoặc sử dụng quãng giai điệu (rải nốt đơn liên tiếp) thay cho hợp âm chùm.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major",
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "E3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu chìm xuống quá thấp (dưới F3/G3), không nên bấm hợp âm đầy đủ ở vùng âm trầm vì sẽ bị ù/om tiếng. Giải pháp: Đưa giai điệu/phần đệm lên cao hơn 1 octave hoặc sử dụng quãng giai điệu (rải nốt đơn liên tiếp) thay cho hợp âm chùm."
+}

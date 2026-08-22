@@ -1,0 +1,41 @@
+{
+  "id": "tap-01-bai-02-hai-piano-001-bai-02-008",
+  "type": "exercise",
+  "name": "Phương pháp luyện tập nhịp điệu với Metronome: Tập từng tay thật chậm ở tốc độ 45 - 60 BPM, đếm phách 1-2-3-4 rõ ràng tr",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-02",
+    "locator": "21:42-22:52",
+    "media_id": "video_001",
+    "supporting": []
+  },
+  "use_when": [
+    "Theo bài Tap_01_Bai_02"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Phương pháp luyện tập nhịp điệu với Metronome: Tập từng tay thật chậm ở tốc độ 45 - 60 BPM, đếm phách 1-2-3-4 rõ ràng trước khi ghép hai tay và tăng dần tempo.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phương pháp luyện tập nhịp điệu với Metronome: Tập từng tay thật chậm ở tốc độ 45 - 60 BPM, đếm phách 1-2-3-4 rõ ràng trước khi ghép hai tay và tăng dần tempo."
+}

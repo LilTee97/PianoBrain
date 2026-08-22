@@ -1,0 +1,31 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-two-parent-shapes",
+  "type": "concept",
+  "name": "Mọi enclosure bebop đều mọc ra từ hai khung mẹ bốn nốt: đối xứng và bất đối xứng",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:00:47"
+  },
+  "use_when": [
+    "Bắt đầu học enclosure",
+    "Thấy chuỗi chromatic bebop rối và muốn có khung để nhớ"
+  ],
+  "output": {
+    "shapes": {
+      "symmetric": "2 nốt phía trên, 2 nốt phía dưới",
+      "asymmetric": "1 nốt phía trên, 3 nốt phía dưới"
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Hầu hết mẫu enclosure phức tạp trong bebop đều bắt nguồn từ hai khung mẹ bốn nốt: dạng đối xứng (hai nốt trên, hai nốt dưới) và dạng bất đối xứng (một nốt trên, ba nốt dưới).",
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "tap-06-bai-10-hai-piano-001-t06-b10-001",
+  "type": "concept",
+  "name": "Tiết điệu Ballad Dân Ca áp dụng phổ biến cho các ca khúc nhạc dân ca Việt Nam (Bắc Bộ, Nam Bộ, Tây Nguyên, Tây Bắc) và n",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-10",
+    "locator": "00:39-02:16 pdf p.1",
+    "media_id": "hai_piano_course_001_t06_b10_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_t06_b10_pdf",
+        "page": 1,
+        "section": "Khái niệm Ballad Dân Ca"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: Am",
+    "Gam: Ngũ cung (Pentatonic)",
+    "Điệu / phong cách: Ballad Dân Ca, Folk Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad-d-n-ca",
+      "folk-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Tiết điệu Ballad Dân Ca áp dụng phổ biến cho các ca khúc nhạc dân ca Việt Nam (Bắc Bộ, Nam Bộ, Tây Nguyên, Tây Bắc) và nhạc Thánh Ca viết theo âm hưởng dân ca/thang âm ngũ cung.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "Ngũ cung (Pentatonic)"
+      ],
+      "styles": [
+        "Ballad Dân Ca",
+        "Folk Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết điệu Ballad Dân Ca áp dụng phổ biến cho các ca khúc nhạc dân ca Việt Nam (Bắc Bộ, Nam Bộ, Tây Nguyên, Tây Bắc) và nhạc Thánh Ca viết theo âm hưởng dân ca/thang âm ngũ cung."
+}

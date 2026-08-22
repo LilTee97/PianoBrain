@@ -1,0 +1,104 @@
+{
+  "id": "tap-02-bai-06-lesson-id-00005",
+  "type": "rule",
+  "name": "Hợp âm Bảy Thứ Giảm Bậc 5 (m7-5 / Half-Diminished): Thường đóng vai trò Bậc II trong chuỗi hòa âm II - V - I giọng Thứ (",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-06",
+    "locator": "00:17:15-00:22:28 pdf p.2",
+    "media_id": "video_tap_02_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 2,
+        "section": "Bm7-5 Thường dùng công thức II - V - I -> E/E7 -> A"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bm7-5, E7, Am, E7(-9), Am7",
+    "Giọng: Am",
+    "Nốt màu: b9",
+    "Điệu / phong cách: Jazz, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bm7-5",
+      "E7",
+      "Am",
+      "E7(-9)",
+      "Am7"
+    ],
+    "style": [
+      "jazz",
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Hợp âm Bảy Thứ Giảm Bậc 5 (m7-5 / Half-Diminished): Thường đóng vai trò Bậc II trong chuỗi hòa âm II - V - I giọng Thứ (ví dụ Bm7-5 -> E7 -> Am). Hợp âm này tạo sức hút căng mạnh về hợp âm Bảy Át đằng sau nó.",
+    "music_entities": {
+      "chords": [
+        "Bm7-5",
+        "E7",
+        "Am",
+        "E7(-9)",
+        "Am7"
+      ],
+      "tensions": [
+        "b9"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [],
+      "styles": [
+        "Jazz",
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Bm7-5 -> E7 -> Am7",
+      "notes": [
+        "B2",
+        "A3",
+        "D4",
+        "F4",
+        "E2",
+        "G#3",
+        "D4",
+        "E4",
+        "A2",
+        "G3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "B2",
+          "E2",
+          "A2"
+        ],
+        "right": [
+          "A3",
+          "D4",
+          "F4",
+          "G#3",
+          "D4",
+          "E4",
+          "G3",
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Bảy Thứ Giảm Bậc 5 (m7-5 / Half-Diminished): Thường đóng vai trò Bậc II trong chuỗi hòa âm II - V - I giọng Thứ (ví dụ Bm7-5 -> E7 -> Am). Hợp âm này tạo sức hút căng mạnh về hợp âm Bảy Át đằng sau nó."
+}

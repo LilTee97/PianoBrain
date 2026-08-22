@@ -1,0 +1,126 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-012",
+  "type": "voicing",
+  "name": "Cấu trúc Voicing chuẩn cho hợp âm 9: Tay trái chơi Bậc 1 - 5 (hoặc 1 - 7), Tay phải sắp xếp cấu trúc 3 - 7 - 9 hoặc 7 -",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:28:50-00:32:24 pdf p.6",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 6,
+        "section": "Quy tắc sắp xếp tay trái & tay phải cho hợp âm 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, Am79, Dm79, Fmaj79, G9",
+    "Giọng: C major",
+    "Gam: Diatonic",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Accompaniment Voicing"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "Am79",
+      "Dm79",
+      "Fmaj79",
+      "G9"
+    ],
+    "style": [
+      "accompaniment-voicing"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Cấu trúc Voicing chuẩn cho hợp âm 9: Tay trái chơi Bậc 1 - 5 (hoặc 1 - 7), Tay phải sắp xếp cấu trúc 3 - 7 - 9 hoặc 7 - 3 - 9. Khi nốt giai điệu chính là bậc 9, nốt bậc 9 sẽ nằm ở giọng cao nhất (top note/soprano).",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "Am79",
+        "Dm79",
+        "Fmaj79",
+        "G9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "Diatonic"
+      ],
+      "styles": [
+        "Accompaniment Voicing"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj79",
+      "notes": [
+        "C2",
+        "G2",
+        "E3",
+        "B3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "E3",
+          "B3",
+          "D4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj79",
+        "notes": [
+          "C2",
+          "G2",
+          "E3",
+          "B3",
+          "D4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "E3",
+            "B3",
+            "D4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Cấu trúc Voicing chuẩn cho hợp âm 9: Tay trái chơi Bậc 1 - 5 (hoặc 1 - 7), Tay phải sắp xếp cấu trúc 3 - 7 - 9 hoặc 7 - 3 - 9. Khi nốt giai điệu chính là bậc 9, nốt bậc 9 sẽ nằm ở giọng cao nhất (top note/soprano)."
+}

@@ -1,0 +1,36 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "source": {
+    "teacher_id": "kingsley",
+    "source_id": "kingsley-pop-ballad-fills",
+    "locator": "Folders 03, 05/03, 06, 11, 12"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "id": "kingsley-preceding-3-2-1",
+  "type": "fill",
+  "name": "Preceding 3-2-1: đẩy cụm fill vào phách 4 của hợp âm đứng trước",
+  "use_when": [
+    "Phách 4 của ô nhịp trước khi đổi hợp âm",
+    "Nhịp 4/4"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "F",
+      "G",
+      "Am"
+    ]
+  },
+  "output": {
+    "placement": "phách 4 của ô nhịp trước",
+    "device": "nốt hoa mỹ vào bậc 3 của cả hai hợp âm",
+    "purpose": "tạo đà để phách 1 rơi trúng hợp âm sau",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Đặt cụm 3-2-1 vào phách 4 của hợp âm đứng trước, dùng nốt hoa mỹ vào bậc 3 ở cả hai hợp âm, để tạo lực hút đổ về phách 1 của ô nhịp kế tiếp."
+}

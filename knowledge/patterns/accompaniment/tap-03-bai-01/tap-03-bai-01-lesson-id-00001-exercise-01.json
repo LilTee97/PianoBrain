@@ -1,0 +1,90 @@
+{
+  "id": "tap-03-bai-01-lesson-id-00001-exercise-01",
+  "type": "exercise",
+  "name": "Tư thế bàn tay và ngón tay chuẩn: Ngón tay cong tròn, đầu ngón tiếp xúc vuông góc với phím đàn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-01",
+    "locator": "00:05:58-00:08:08",
+    "media_id": "video_tap_03_bai_01",
+    "supporting": []
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_01"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Tư thế bàn tay và ngón tay chuẩn: Ngón tay cong tròn, đầu ngón tiếp xúc vuông góc với phím đàn. Cổ tay thả lỏng, không nâng quá cao hoặc hạ quá thấp. Ngón cái (ngón 1) là ngón trung chuyển, tuyệt đối không được gãy ngón hay đánh quá sâu vào phím đen.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [
+          "Finger 1",
+          "Finger 2",
+          "Finger 3",
+          "Finger 4",
+          "Finger 5"
+        ],
+        "right": [
+          "Finger 1",
+          "Finger 2",
+          "Finger 3",
+          "Finger 4",
+          "Finger 5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": null,
+        "notes": [],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "Finger 1",
+            "Finger 2",
+            "Finger 3",
+            "Finger 4",
+            "Finger 5"
+          ],
+          "right": [
+            "Finger 1",
+            "Finger 2",
+            "Finger 3",
+            "Finger 4",
+            "Finger 5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      },
+      "review_reason": "pattern_needs_review: missing example or source"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tư thế bàn tay và ngón tay chuẩn: Ngón tay cong tròn, đầu ngón tiếp xúc vuông góc với phím đàn. Cổ tay thả lỏng, không nâng quá cao hoặc hạ quá thấp. Ngón cái (ngón 1) là ngón trung chuyển, tuyệt đối không được gãy ngón hay đánh quá sâu vào phím đen."
+}

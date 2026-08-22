@@ -1,0 +1,143 @@
+{
+  "id": "tap-03-bai-04-lesson-tap3-bai4-004",
+  "type": "fill",
+  "name": "Gam Ngũ Cung (Pentatonic scale) ứng dụng cho nhạc dân ca, nhạc Thánh ca, và nhạc nhẹ Pop/Ballad",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "13:36-17:53 pdf p.1",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "sheet_001",
+        "page": 1,
+        "section": "Gam Ngũ Cung"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, C",
+    "Giọng: A minor, C major",
+    "Gam: A minor pentatonic, C major pentatonic",
+    "Điệu / phong cách: Folk, Hymn, Pop/Ballad Fill"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "C"
+    ],
+    "style": [
+      "folk",
+      "hymn",
+      "pop_ballad",
+      "pop",
+      "pop-ballad-fill"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Gam Ngũ Cung (Pentatonic scale) ứng dụng cho nhạc dân ca, nhạc Thánh ca, và nhạc nhẹ Pop/Ballad. Ví dụ trên giọng La thứ / Đô trưởng pentatonic (A - C - D - E - G). Sử dụng ngón 1-2-3-4-1 khi chạy móc kép 16th notes để tạo hiệu quả tiếng đàn tranh hoặc câu dẫn ngọt ngào.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor",
+        "C major"
+      ],
+      "scales": [
+        "A minor pentatonic",
+        "C major pentatonic"
+      ],
+      "styles": [
+        "Folk",
+        "Hymn",
+        "Pop/Ballad Fill"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A3",
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "A4",
+        "C5",
+        "D5",
+        "E5",
+        "G5"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "A3"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "D4",
+          "E4",
+          "G4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A3",
+          "C4",
+          "D4",
+          "E4",
+          "G4",
+          "A4",
+          "C5",
+          "D5",
+          "E5",
+          "G5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3",
+            "A3"
+          ],
+          "right": [
+            "A3",
+            "C4",
+            "D4",
+            "E4",
+            "G4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Gam Ngũ Cung (Pentatonic scale) ứng dụng cho nhạc dân ca, nhạc Thánh ca, và nhạc nhẹ Pop/Ballad. Ví dụ trên giọng La thứ / Đô trưởng pentatonic (A - C - D - E - G). Sử dụng ngón 1-2-3-4-1 khi chạy móc kép 16th notes để tạo hiệu quả tiếng đàn tranh hoặc câu dẫn ngọt ngào."
+}

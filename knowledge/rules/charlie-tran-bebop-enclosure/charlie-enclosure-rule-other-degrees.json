@@ -1,0 +1,35 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-rule-other-degrees",
+  "type": "rule",
+  "name": "Nốt đích là các bậc còn lại thì dùng dạng hai trên, hai dưới",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:04:24"
+  },
+  "use_when": [
+    "Nốt đích là nốt gốc, bậc 9, 4, 5 hoặc 6"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Cmaj7",
+      "C"
+    ]
+  },
+  "output": {
+    "if": "nốt đích là nốt gốc, bậc 9, bậc 4, bậc 5 hoặc bậc 6",
+    "then": {
+      "shape": "2 nốt trên, 2 nốt dưới"
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi nốt đích là các bậc còn lại — nốt gốc, bậc 9, bậc 4, bậc 5, bậc 6 — thì dùng dạng enclosure hai nốt trên hai nốt dưới."
+}

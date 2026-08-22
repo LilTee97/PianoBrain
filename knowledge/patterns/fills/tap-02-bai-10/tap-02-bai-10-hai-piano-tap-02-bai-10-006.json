@@ -1,0 +1,135 @@
+{
+  "id": "tap-02-bai-10-hai-piano-tap-02-bai-10-006",
+  "type": "fill",
+  "name": "Áp dụng tiết tấu Slow Rock / Dotted rhythm cho câu dẫn C -> F: Mi - Mi - Fa - Mi - Fa - Mi - Do - La",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-10",
+    "locator": "08:10:00-10:10:00 pdf p.9",
+    "media_id": "tap_02_bai_10_video",
+    "supporting": [
+      {
+        "source_id": "tap_02_pdf_3",
+        "page": 9,
+        "section": "1. Chuyển từ C -> F"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Cmaj7, F, Fmaj7",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: maj7",
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Cmaj7",
+      "F",
+      "Fmaj7"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Áp dụng tiết tấu Slow Rock / Dotted rhythm cho câu dẫn C -> F: Mi - Mi - Fa - Mi - Fa - Mi - Do - La. Tay trái giữ nhịp nhún 1-2-3 1-2-3.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Cmaj7",
+        "F",
+        "Fmaj7"
+      ],
+      "tensions": [
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "E4",
+        "E4",
+        "F4",
+        "E4",
+        "F4",
+        "E4",
+        "C4",
+        "A3"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "E4"
+        ],
+        "right": [
+          "E4",
+          "F4",
+          "C4",
+          "A3"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "E4",
+          "E4",
+          "F4",
+          "E4",
+          "F4",
+          "E4",
+          "C4",
+          "A3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3",
+            "E4"
+          ],
+          "right": [
+            "E4",
+            "F4",
+            "C4",
+            "A3"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Áp dụng tiết tấu Slow Rock / Dotted rhythm cho câu dẫn C -> F: Mi - Mi - Fa - Mi - Fa - Mi - Do - La. Tay trái giữ nhịp nhún 1-2-3 1-2-3."
+}

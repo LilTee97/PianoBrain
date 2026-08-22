@@ -1,0 +1,118 @@
+{
+  "id": "tap-04-bai-14-tap04-bai14-002",
+  "type": "exercise",
+  "name": "Mẫu câu 1 (Bài 14): Mẫu câu lót cơ bản ở mức độ nguyên thể / 3 nốt (triad) cho vòng hợp âm giọng Thứ, tạo giai điệu lót",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-14",
+    "locator": "00:01:54-00:03:00 pdf p.67",
+    "media_id": "video_tap04_bai14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04_75_mau_cau_lot",
+        "page": 67,
+        "section": "Bài 14 - Câu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm, Gm, Bb, A7",
+    "Giọng: D minor",
+    "Gam: D minor",
+    "Điệu / phong cách: Slow Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm",
+      "Gm",
+      "Bb",
+      "A7"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu 1 (Bài 14): Mẫu câu lót cơ bản ở mức độ nguyên thể / 3 nốt (triad) cho vòng hợp âm giọng Thứ, tạo giai điệu lót đơn giản, rõ ràng.",
+    "music_entities": {
+      "chords": [
+        "Dm",
+        "Gm",
+        "Bb",
+        "A7"
+      ],
+      "tensions": [],
+      "keys": [
+        "D minor"
+      ],
+      "scales": [
+        "D minor"
+      ],
+      "styles": [
+        "Slow Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm",
+      "notes": [
+        "D",
+        "F",
+        "A"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "A2"
+        ],
+        "right": [
+          "F4",
+          "A4",
+          "D5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm",
+        "notes": [
+          "D",
+          "F",
+          "A"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D2",
+            "A2"
+          ],
+          "right": [
+            "F4",
+            "A4",
+            "D5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 1 (Bài 14): Mẫu câu lót cơ bản ở mức độ nguyên thể / 3 nốt (triad) cho vòng hợp âm giọng Thứ, tạo giai điệu lót đơn giản, rõ ràng."
+}

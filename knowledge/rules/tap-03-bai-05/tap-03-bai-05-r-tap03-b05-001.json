@@ -1,0 +1,64 @@
+{
+  "id": "tap-03-bai-05-r-tap03-b05-001",
+  "type": "rule",
+  "name": "Khi bắt đầu vỡ một bài solo piano mới, phải tuân thủ nghiêm ngặt 5 bước theo thứ tự:\n1",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-05",
+    "locator": "05:12-06:40 pdf p.2",
+    "extra_locators": [
+      "29:15-33:50 pdf p.2"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Classical"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Classical"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi bắt đầu vỡ một bài solo piano mới, phải tuân thủ nghiêm ngặt 5 bước theo thứ tự:\n1. Cao độ: Đọc chính xác tên nốt nhạc.\n2. Số ngón tay: Xếp đúng số ngón tay chỉ định trên bản nhạc.\n3. Trường độ & Tiết tấu: Giữ đúng phách, giá trị nốt đen, nốt trắng, dấu chấm dôi.\n4. Hình thức chơi: Áp dụng đúng kỹ thuật xướng âm/kỹ thuật ngón (Legato, Non-legato, Staccato).\n5. Sắc thái: Áp dụng cường độ to nhỏ (Piano, Forte, Crescendo...).\n",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP03_B05_001",
+      "title": "Quy trình 5 bước vỡ bài solo Piano",
+      "category": "methodology",
+      "description": "Khi bắt đầu vỡ một bài solo piano mới, phải tuân thủ nghiêm ngặt 5 bước theo thứ tự:\n1. Cao độ: Đọc chính xác tên nốt nhạc.\n2. Số ngón tay: Xếp đúng số ngón tay chỉ định trên bản nhạc.\n3. Trường độ & Tiết tấu: Giữ đúng phách, giá trị nốt đen, nốt trắng, dấu chấm dôi.\n4. Hình thức chơi: Áp dụng đúng kỹ thuật xướng âm/kỹ thuật ngón (Legato, Non-legato, Staccato).\n5. Sắc thái: Áp dụng cường độ to nhỏ (Piano, Forte, Crescendo...).\n",
+      "conditions": [
+        "Khi học viên đọc bản nhạc mới (sight-reading / vỡ bài)"
+      ],
+      "actions": [
+        "Thực hiện lần lượt từ bước 1 đến bước 5, không nhảy bước hay tập ngược (không nhìn số ngón trước khi đọc cao độ)."
+      ],
+      "lesson_folder": "Tap_03_Bai_05"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi bắt đầu vỡ một bài solo piano mới, phải tuân thủ nghiêm ngặt 5 bước theo thứ tự:\n1. Cao độ: Đọc chính xác tên nốt nhạc.\n2. Số ngón tay: Xếp đúng số ngón tay chỉ định trên bản nhạc.\n3. Trường độ & Tiết tấu: Giữ đúng phách, giá trị nốt đen, nốt trắng, dấu chấm dôi.\n4. Hình thức chơi: Áp dụng đúng kỹ thuật xướng âm/kỹ thuật ngón (Legato, Non-legato, Staccato).\n5. Sắc thái: Áp dụng cường độ to nhỏ (Piano, Forte, Crescendo...)."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "tap-02-bai-12-rule-tango-syncopation-accent",
+  "type": "rule",
+  "name": "Tiết tấu Tango đòi hỏi điểm nhấn dứt khoát (Accent >) ở phách/tiết nhịp giật đảo phách (thường ở beat 4 hoặc tiết móc ké",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-12",
+    "locator": "00:13:41-00:16:14 pdf p.3",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Latin, Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "latin",
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Latin",
+        "Tango"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_tango_syncopation_accent",
+      "title": "Nhấn phách đảo (Accent) ở cuối ô nhịp",
+      "type": "rhythm",
+      "statement": "Tiết tấu Tango đòi hỏi điểm nhấn dứt khoát (Accent >) ở phách/tiết nhịp giật đảo phách (thường ở beat 4 hoặc tiết móc kép đảo phách).",
+      "conditions": {
+        "style": "Tango",
+        "meter": "4/4"
+      },
+      "recommendation": "Chơi các phách giữa ô nhịp vừa phải hoặc nhẹ dần, sau đó dồn lực đánh giật dứt khoát ở nốt đảo phách cuối câu/ô nhịp.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_12"
+    },
+    "review_reason": "rule_rejected: empty description"
+  },
+  "origin": "extracted",
+  "status": "rejected",
+  "note_vi": "Tiết tấu Tango đòi hỏi điểm nhấn dứt khoát (Accent >) ở phách/tiết nhịp giật đảo phách (thường ở beat 4 hoặc tiết móc kép đảo phách)."
+}

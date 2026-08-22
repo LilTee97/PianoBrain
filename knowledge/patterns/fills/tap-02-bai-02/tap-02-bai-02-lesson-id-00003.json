@@ -1,0 +1,119 @@
+{
+  "id": "tap-02-bai-02-lesson-id-00003",
+  "type": "fill",
+  "name": "Ứng dụng hợp âm Fm (Bậc iv thứ) trong giọng Đô Trưởng tạo chuyển đoạn kết F -> Fm -> C mang màu sắc hoài niệm, lắng đọng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-02",
+    "locator": "06:08-13:28 pdf p.3",
+    "media_id": "video_tap_02_bai_02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 3,
+        "section": "Trưởng Hoà Thanh"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: F, Fm, C",
+    "Giọng: C Major",
+    "Gam: C Harmonic Major",
+    "Nốt màu: b6",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "F",
+      "Fm",
+      "C"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Ứng dụng hợp âm Fm (Bậc iv thứ) trong giọng Đô Trưởng tạo chuyển đoạn kết F -> Fm -> C mang màu sắc hoài niệm, lắng đọng nhẹ nhàng, dùng rộng rãi trong câu kết bài hoặc Intro.",
+    "music_entities": {
+      "chords": [
+        "F",
+        "Fm",
+        "C"
+      ],
+      "tensions": [
+        "b6"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Harmonic Major"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fm",
+      "notes": [
+        "F3",
+        "Ab3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "F2"
+        ],
+        "right": [
+          "C4",
+          "F4",
+          "Ab4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Fm",
+        "notes": [
+          "F3",
+          "Ab3",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2"
+          ],
+          "right": [
+            "C4",
+            "F4",
+            "Ab4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng hợp âm Fm (Bậc iv thứ) trong giọng Đô Trưởng tạo chuyển đoạn kết F -> Fm -> C mang màu sắc hoài niệm, lắng đọng nhẹ nhàng, dùng rộng rãi trong câu kết bài hoặc Intro."
+}

@@ -1,0 +1,86 @@
+{
+  "id": "tap-01-bai-02-hai-piano-001-bai-02-001",
+  "type": "concept",
+  "name": "Thực hành đệm Ballad trên 2 vòng hợp âm cơ bản: Vòng 1 (1-6-2-5-1: C - Am - Dm - G - C) và Vòng 2 (4-3-2-5-1: F - Em - D",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-02",
+    "locator": "02:30-03:29 pdf p.6",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 6,
+        "section": "VÒNG 1 & VÒNG 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G, F, Em",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G",
+      "F",
+      "Em"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Thực hành đệm Ballad trên 2 vòng hợp âm cơ bản: Vòng 1 (1-6-2-5-1: C - Am - Dm - G - C) và Vòng 2 (4-3-2-5-1: F - Em - Dm - G - C).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G",
+        "F",
+        "Em"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - Am - Dm - G - C",
+      "notes": [],
+      "hands": {
+        "left": [
+          "C2",
+          "A2",
+          "D2",
+          "G2"
+        ],
+        "right": [
+          "C4-E4",
+          "A3-C4",
+          "F3-A3",
+          "B3-D4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành đệm Ballad trên 2 vòng hợp âm cơ bản: Vòng 1 (1-6-2-5-1: C - Am - Dm - G - C) và Vòng 2 (4-3-2-5-1: F - Em - Dm - G - C)."
+}

@@ -1,0 +1,93 @@
+{
+  "id": "jazz-scales-bai-02-05-c-minor-bebop",
+  "type": "scale",
+  "name": "Gam C Minor Bebop cho hợp âm Cm7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-02",
+    "locator": "05:33-07:31",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Ngẫu hứng jazz trên hợp âm Cm9",
+    "Ngẫu hứng jazz trên hợp âm Cm11",
+    "Ngẫu hứng jazz trên hợp âm Cm6/9",
+    "Ngẫu hứng jazz trên hợp âm Cm(maj7)",
+    "Ngẫu hứng jazz trên hợp âm Dm6",
+    "Chọn gam / scale khi gặp hợp âm m7, m9, m11, m6/9, m(maj7), m6 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "m9",
+      "m11",
+      "m6/9",
+      "m(maj7)",
+      "m6"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Minor Bebop",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "A",
+        "Bb",
+        "B"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10,
+        11
+      ],
+      "for_qualities": [
+        "m7",
+        "m9",
+        "m11",
+        "m6/9",
+        "m(maj7)"
+      ],
+      "use_when": [
+        "hợp âm Cm7",
+        "hợp âm Cm9",
+        "hợp âm Cm11",
+        "hợp âm Cm6/9",
+        "hợp âm Cm(maj7)",
+        "hợp âm Dm6"
+      ]
+    },
+    "chord_symbol": "Cm(maj7)",
+    "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "B"
+    ],
+    "source_text": "Scale #7 - Minor Bebop Scale ('The Minor-Rub Scale'): C Minor Bebop (C, D, Eb, F, G, A, Bb, B). Used on minor chords and Cm(maj7) 'Spy Chord'. Special trick: Think of Cm7 + Dm6."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 2 của nguồn Jazz Scales (YouTube), mốc 05:33-07:31. Scale #7 - Minor Bebop Scale ('The Minor-Rub Scale'): C Minor Bebop (C, D, Eb, F, G, A, Bb, B). Used on minor chords and Cm(maj7) 'Spy Chord'. Special trick: Think of Cm7 + Dm6. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

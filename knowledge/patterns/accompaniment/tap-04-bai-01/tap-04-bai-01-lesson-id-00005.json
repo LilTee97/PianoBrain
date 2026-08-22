@@ -1,0 +1,95 @@
+{
+  "id": "tap-04-bai-01-lesson-id-00005",
+  "type": "accompaniment",
+  "name": "Bài 1 - Câu 4: Mẫu câu lót khai thác nốt bậc 9 (9th degree / Add9 / Minor 9)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-01",
+    "locator": "00:10:18-00:12:07 pdf p.5",
+    "media_id": "video_tap_04_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 5,
+        "section": "Bài 1 - Câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, Am9, Dm9, G9, Gsus9",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: 9th degree",
+    "Điệu / phong cách: Pop Ballad, Smooth Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "Am9",
+      "Dm9",
+      "G9",
+      "Gsus9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad",
+      "smooth-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bài 1 - Câu 4: Mẫu câu lót khai thác nốt bậc 9 (9th degree / Add9 / Minor 9). Bậc 9 mang âm hưởng tinh tế, mượt mà kiểu nhạc Pop/Smooth Ballad (D cho Cadd9, B cho Am9, E cho Dm9, A cho G9/Gsus9).",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "Am9",
+        "Dm9",
+        "G9",
+        "Gsus9"
+      ],
+      "tensions": [
+        "9th degree"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Pop Ballad",
+        "Smooth Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9 -> Am9 -> Dm9 -> G9 -> C",
+      "notes": [
+        "D5",
+        "B4",
+        "E5",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "D3",
+          "E3"
+        ],
+        "right": [
+          "D5",
+          "C5",
+          "G4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 1 - Câu 4: Mẫu câu lót khai thác nốt bậc 9 (9th degree / Add9 / Minor 9). Bậc 9 mang âm hưởng tinh tế, mượt mà kiểu nhạc Pop/Smooth Ballad (D cho Cadd9, B cho Am9, E cho Dm9, A cho G9/Gsus9)."
+}

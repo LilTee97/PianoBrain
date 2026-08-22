@@ -1,0 +1,132 @@
+{
+  "id": "tap-02-bai-10-hai-piano-tap-02-bai-10-003",
+  "type": "fill",
+  "name": "Câu dẫn C sang F (Kiểu 1 & 2): Giai điệu hướng đi lên sử dụng nốt thuộc hợp âm (E4 - E4 - E4 - G4 - C5 - A4)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-10",
+    "locator": "02:08:00-04:15:00 pdf p.9",
+    "media_id": "tap_02_bai_10_video",
+    "supporting": [
+      {
+        "source_id": "tap_02_pdf_3",
+        "page": 9,
+        "section": "1. Chuyển từ C -> F"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Cadd9, Cmaj7, F, Fmaj7",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: add9, maj7",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Cadd9",
+      "Cmaj7",
+      "F",
+      "Fmaj7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Câu dẫn C sang F (Kiểu 1 & 2): Giai điệu hướng đi lên sử dụng nốt thuộc hợp âm (E4 - E4 - E4 - G4 - C5 - A4). Hòa âm nâng cao bằng Cmaj7 hoặc Cadd9 dẫn sang Fmaj7.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Cadd9",
+        "Cmaj7",
+        "F",
+        "Fmaj7"
+      ],
+      "tensions": [
+        "add9",
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "E4",
+        "E4",
+        "E4",
+        "G4",
+        "C5",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "D4",
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cadd9",
+        "notes": [
+          "E4",
+          "E4",
+          "E4",
+          "G4",
+          "C5",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "D4",
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu dẫn C sang F (Kiểu 1 & 2): Giai điệu hướng đi lên sử dụng nốt thuộc hợp âm (E4 - E4 - E4 - G4 - C5 - A4). Hòa âm nâng cao bằng Cmaj7 hoặc Cadd9 dẫn sang Fmaj7."
+}

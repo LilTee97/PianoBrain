@@ -1,0 +1,32 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-2-note",
+  "type": "solo_idea",
+  "name": "Enclosure 2 nốt: kẹp nốt đích bằng nửa cung trên và nửa cung dưới",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:05:23"
+  },
+  "use_when": [
+    "Chỗ trống rất ngắn",
+    "Chỉ cần chấm nhẹ trước nốt đích"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Cmaj7",
+      "C"
+    ]
+  },
+  "output": {
+    "shape": "một nốt nửa cung trên và một nốt nửa cung dưới kẹp lấy nốt đích",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Cặp nốt tiếp cận từ hai phía kẹp lấy nốt đích: một nốt nửa cung trên và một nốt nửa cung dưới."
+}

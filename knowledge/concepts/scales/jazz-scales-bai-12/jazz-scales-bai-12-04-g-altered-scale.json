@@ -1,0 +1,75 @@
+{
+  "id": "jazz-scales-bai-12-04-g-altered-scale",
+  "type": "scale",
+  "name": "Gam G Altered Scale cho hợp âm G7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-12",
+    "locator": "07:22-09:37",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm G7alt",
+    "Chọn gam / scale khi gặp hợp âm 7, 7alt trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "7alt"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "G Altered Scale",
+      "root": "G",
+      "note_names": [
+        "G",
+        "Ab",
+        "Bb",
+        "Cb",
+        "Db",
+        "Eb",
+        "F"
+      ],
+      "semitones_from_root": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [
+        "7",
+        "7alt"
+      ],
+      "use_when": [
+        "hợp âm G7",
+        "hợp âm G7alt"
+      ]
+    },
+    "chord_symbol": "G7alt",
+    "notes": [
+      "G",
+      "Ab",
+      "Bb",
+      "Cb",
+      "Db",
+      "Eb",
+      "F"
+    ],
+    "source_text": "The Altered Scale (Super Locrian) is the 7th mode of the ascending Melodic Minor scale (Ab Melodic Minor for G7alt). It contains all 4 altered notes: b9, #9, #11, b13."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 12 của nguồn Jazz Scales (YouTube), mốc 07:22-09:37. The Altered Scale (Super Locrian) is the 7th mode of the ascending Melodic Minor scale (Ab Melodic Minor for G7alt). It contains all 4 altered notes: b9, #9, #11, b13. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

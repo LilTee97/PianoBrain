@@ -1,0 +1,78 @@
+{
+  "id": "jazz-scales-bai-02-09-c-diminished",
+  "type": "scale",
+  "name": "Gam C Diminished cho hợp âm Cdim7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-02",
+    "locator": "12:39-14:21",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cdim7",
+    "Ngẫu hứng jazz trên hợp âm Ebdim7",
+    "Ngẫu hứng jazz trên hợp âm Ddim7",
+    "Chọn gam / scale khi gặp hợp âm dim7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Diminished",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "F#",
+        "G#",
+        "A",
+        "B"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "dim7"
+      ],
+      "use_when": [
+        "hợp âm Cdim7",
+        "hợp âm Ebdim7",
+        "hợp âm Ddim7"
+      ]
+    },
+    "chord_symbol": "Cdim7",
+    "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "G#",
+      "A",
+      "B"
+    ],
+    "source_text": "Scale #3 - Diminished Scale ('The Angsty Scale' / Whole-Half Diminished): C Diminished (C, D, Eb, F, F#, G#, A, B). Used on diminished 7th chords (Cdim7, Ebdim7). Special trick: Combine Cdim7 and Ddim7 chords."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 2 của nguồn Jazz Scales (YouTube), mốc 12:39-14:21. Scale #3 - Diminished Scale ('The Angsty Scale' / Whole-Half Diminished): C Diminished (C, D, Eb, F, F#, G#, A, B). Used on diminished 7th chords (Cdim7, Ebdim7). Special trick: Combine Cdim7 and Ddim7 chords. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

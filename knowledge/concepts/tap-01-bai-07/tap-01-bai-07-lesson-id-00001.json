@@ -1,0 +1,67 @@
+{
+  "id": "tap-01-bai-07-lesson-id-00001",
+  "type": "concept",
+  "name": "Khái niệm Hợp âm dẫn (Leading Chords) và Câu lót / Câu dẫn (Passing Lines): Dùng để kết nối hai hợp âm chính mềm mại, tr",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-07",
+    "locator": "02:11-05:44 pdf p.4",
+    "media_id": "video_tap01_bai07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 4,
+        "section": "Bài 7: Sử dụng hợp âm đã học để tạo câu dẫn - câu lót"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, Am",
+    "Giọng: C major",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "Am"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Khái niệm Hợp âm dẫn (Leading Chords) và Câu lót / Câu dẫn (Passing Lines): Dùng để kết nối hai hợp âm chính mềm mại, tránh việc tay phải bị nhảy quãng quá xa (vượt quá quãng 3) và tạo tuyến bass di chuyển liền bậc (nửa cung hoặc 1 cung).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C -> F",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khái niệm Hợp âm dẫn (Leading Chords) và Câu lót / Câu dẫn (Passing Lines): Dùng để kết nối hai hợp âm chính mềm mại, tránh việc tay phải bị nhảy quãng quá xa (vượt quá quãng 3) và tạo tuyến bass di chuyển liền bậc (nửa cung hoặc 1 cung)."
+}

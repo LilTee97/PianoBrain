@@ -1,0 +1,65 @@
+{
+  "id": "tap-04-bai-04-rule-slow-rock-fill-top-note-selection",
+  "type": "rule",
+  "name": "Hạn chế dừng câu lót ở nốt Chủ (Root - Bậc 1) ở quãng cao gây trùng lặp với giai điệu chính hoặc bass",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-04",
+    "locator": "00:03:25-00:03:45",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Theo bài Tap_04_Bai_04"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Hạn chế dừng câu lót ở nốt Chủ (Root - Bậc 1) ở quãng cao gây trùng lặp với giai điệu chính hoặc bass. Nên dừng ở nốt bậc 3, 5, 7, 9 hoặc 11 của hợp âm để tạo không gian âm thanh màu sắc và thanh thoát.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_slow_rock_fill_top_note_selection",
+      "title": "Chọn nốt đỉnh cho câu lót trong thể loại Slow / Slow Rock",
+      "description": "Hạn chế dừng câu lót ở nốt Chủ (Root - Bậc 1) ở quãng cao gây trùng lặp với giai điệu chính hoặc bass. Nên dừng ở nốt bậc 3, 5, 7, 9 hoặc 11 của hợp âm để tạo không gian âm thanh màu sắc và thanh thoát.",
+      "context": {
+        "style": "Slow Rock / Pop Ballad",
+        "harmony_type": "Diatonic / Extended Harmony"
+      },
+      "conditions": [
+        "Thực hiện câu lót/câu dẫn giữa các vế nhạc",
+        "Nốt kết thúc của đường melodical fill"
+      ],
+      "action": {
+        "recommendation": "Chọn nốt thuộc bậc 3, 5, 7, 9, 11 thay vì bậc 1."
+      },
+      "source_ref": {
+        "lesson_id": "hai_piano_course_001_tap4_bai4",
+        "timestamp": "00:03:25 - 00:03:45"
+      },
+      "lesson_folder": "Tap_04_Bai_04"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Hạn chế dừng câu lót ở nốt Chủ (Root - Bậc 1) ở quãng cao gây trùng lặp với giai điệu chính hoặc bass. Nên dừng ở nốt bậc 3, 5, 7, 9 hoặc 11 của hợp âm để tạo không gian âm thanh màu sắc và thanh thoát."
+}

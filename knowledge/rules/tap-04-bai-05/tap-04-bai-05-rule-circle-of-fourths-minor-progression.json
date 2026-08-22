@@ -1,0 +1,74 @@
+{
+  "id": "tap-04-bai-05-rule-circle-of-fourths-minor-progression",
+  "type": "rule",
+  "name": "Vòng hòa âm quãng 4 (Circle of 4ths) trên giọng thứ bắt đầu từ âm chủ i (Am) nhảy tiến theo khoảng quãng 4 đúng/giảm: i",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-05",
+    "locator": "00:00:58-00:02:34 pdf p.22",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Chất hợp âm: minor",
+    "Điệu / phong cách: Ballad, Modern Ballad, Pop, Pop/Jazz Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "minor"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "modern-ballad",
+      "pop",
+      "jazz",
+      "pop-jazz-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": "minor",
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Modern Ballad",
+        "Pop",
+        "Pop/Jazz Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Vòng hòa âm quãng 4 (Circle of 4ths) trên giọng thứ bắt đầu từ âm chủ i (Am) nhảy tiến theo khoảng quãng 4 đúng/giảm: i (Am) -> iv (Dm) -> VII (G) -> III (C) -> VI (F) -> ii° (Bm7b5) -> V7 (E7) -> i (Am).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_circle_of_fourths_minor_progression",
+      "type": "harmonic_progression",
+      "description": "Vòng hòa âm quãng 4 (Circle of 4ths) trên giọng thứ bắt đầu từ âm chủ i (Am) nhảy tiến theo khoảng quãng 4 đúng/giảm: i (Am) -> iv (Dm) -> VII (G) -> III (C) -> VI (F) -> ii° (Bm7b5) -> V7 (E7) -> i (Am).",
+      "conditions": {
+        "key_type": "minor",
+        "style": "Ballad / Pop Ballad"
+      },
+      "recommendations": [
+        "Sử dụng vòng hòa âm này làm khung kết cấu chuẩn cho câu lót, dạo đầu (Intro), dạo giữa (Interlude) hoặc kết bài (Outro)."
+      ],
+      "lesson_folder": "Tap_04_Bai_05"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm quãng 4 (Circle of 4ths) trên giọng thứ bắt đầu từ âm chủ i (Am) nhảy tiến theo khoảng quãng 4 đúng/giảm: i (Am) -> iv (Dm) -> VII (G) -> III (C) -> VI (F) -> ii° (Bm7b5) -> V7 (E7) -> i (Am)."
+}

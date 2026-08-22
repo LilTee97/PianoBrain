@@ -1,0 +1,124 @@
+{
+  "id": "tap-06-bai-05-lesson-tap06-bai05-003",
+  "type": "accompaniment",
+  "name": "Mẫu 1 (Pattern 1) điệu Boston: Tay trái chơi quãng rộng dải âm vực 1 - 5 - 3 - 9 (Bắt đầu với nốt Bass ở phách 1, phách",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-05",
+    "locator": "00:03:49-00:07:54 pdf p.1",
+    "media_id": "video_tap06_bai05",
+    "supporting": [
+      {
+        "source_id": "sheet_tap06_bai05_pdf",
+        "page": 1,
+        "section": "Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am9, Dm9, Fmaj7, Esus4",
+    "Giọng: A minor",
+    "Nốt màu: 9, maj7",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am9",
+      "Dm9",
+      "Fmaj7",
+      "Esus4"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1 (Pattern 1) điệu Boston: Tay trái chơi quãng rộng dải âm vực 1 - 5 - 3 - 9 (Bắt đầu với nốt Bass ở phách 1, phách 2 và 3 giữ hòa âm mềm mại). Giúp phần đệm dầy dặn, bao phủ từ âm quãng trầm đến quãng trung.",
+    "music_entities": {
+      "chords": [
+        "Am9",
+        "Dm9",
+        "Fmaj7",
+        "Esus4"
+      ],
+      "tensions": [
+        "9",
+        "maj7"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am9",
+      "notes": [
+        "A1",
+        "E2",
+        "C3",
+        "B3"
+      ],
+      "hands": {
+        "left": [
+          "A1",
+          "E2",
+          "C3",
+          "B3"
+        ],
+        "right": [
+          "E4",
+          "A4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am9",
+        "notes": [
+          "A1",
+          "E2",
+          "C3",
+          "B3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A1",
+            "E2",
+            "C3",
+            "B3"
+          ],
+          "right": [
+            "E4",
+            "A4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1 (Pattern 1) điệu Boston: Tay trái chơi quãng rộng dải âm vực 1 - 5 - 3 - 9 (Bắt đầu với nốt Bass ở phách 1, phách 2 và 3 giữ hòa âm mềm mại). Giúp phần đệm dầy dặn, bao phủ từ âm quãng trầm đến quãng trung."
+}

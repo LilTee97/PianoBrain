@@ -1,0 +1,94 @@
+{
+  "id": "tap-02-bai-13-rule-hp-tap02-b13-003",
+  "type": "rule",
+  "name": "Sử dụng tuyến bass chromatic đi xuống từ nốt C qua F# -> F -> E -> Eb -> D -> F# -> G -> C kết hợp hợp âm mượn thứ giai điệu (Fm6), nửa giảm (F#m7-5, D#m7-5) và bass đảo (D/#F) tạo bước chuyển dạt dào cảm xúc.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-13",
+    "locator": "17:59:00-21:20:00 pdf p.4",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Điệu / phong cách: Ballad, Bossa Nova, Jazz Pop, Pop, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "bossa-nova",
+      "pop",
+      "jazz-pop",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": "C major",
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Bossa Nova",
+        "Jazz Pop",
+        "Pop",
+        "Thánh ca"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng tuyến bass chromatic đi xuống từ nốt C qua F# -> F -> E -> Eb -> D -> F# -> G -> C kết hợp hợp âm mượn thứ giai điệu (Fm6), nửa giảm (F#m7-5, D#m7-5) và bass đảo (D/#F) tạo bước chuyển dạt dào cảm xúc.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_hp_tap02_b13_003",
+      "title": "Tuyến Bass Chromatic Đi Xuống Kết Hợp Hợp Âm Mượn Tự Nhiên",
+      "type": "chromatic_bass_borrowing",
+      "summary": "Sử dụng tuyến bass chromatic đi xuống từ nốt C qua F# -> F -> E -> Eb -> D -> F# -> G -> C kết hợp hợp âm mượn thứ giai điệu (Fm6), nửa giảm (F#m7-5, D#m7-5) và bass đảo (D/#F) tạo bước chuyển dạt dào cảm xúc.",
+      "conditions": {
+        "key": "C major",
+        "bass_line": [
+          "C",
+          "F#",
+          "F",
+          "E",
+          "Eb",
+          "D",
+          "F#",
+          "G",
+          "C"
+        ],
+        "chords": [
+          "C9",
+          "F#m7-5",
+          "Fm6",
+          "Em7",
+          "D#m7-5",
+          "Dm7",
+          "D/#F",
+          "Gsus4",
+          "G",
+          "C9"
+        ]
+      },
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_13"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng tuyến bass chromatic đi xuống từ nốt C qua F# -> F -> E -> Eb -> D -> F# -> G -> C kết hợp hợp âm mượn thứ giai điệu (Fm6), nửa giảm (F#m7-5, D#m7-5) và bass đảo (D/#F) tạo bước chuyển dạt dào cảm xúc."
+}

@@ -1,0 +1,53 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "source": {
+    "teacher_id": "kingsley",
+    "source_id": "kingsley-pop-ballad-fills",
+    "locator": "Folders 03, 05/03, 06, 11, 12"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "id": "kingsley-6th-fill-1-7-5-3",
+  "type": "fill",
+  "name": "6th Harmonic Fill I: giai điệu 1-7-5-3 kẹp quãng 6 bên dưới, dẫn vào Am",
+  "use_when": [
+    "Phách 3-4 của hợp âm C, chuẩn bị sang Am",
+    "Vòng C - G - Am - F"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "Cmaj7",
+      "Am"
+    ]
+  },
+  "output": {
+    "melody_degrees": [
+      1,
+      7,
+      5,
+      3
+    ],
+    "melody_on_c": [
+      "C",
+      "B",
+      "G",
+      "E"
+    ],
+    "harmony": "kẹp quãng 6 bên dưới",
+    "harmony_notes_if_sixths": [
+      "E",
+      "D",
+      "B",
+      "G"
+    ],
+    "leads_to": "Am",
+    "stage": "source_knowledge",
+    "review_note": "Bản ghi nói 'kẹp quãng 6 bên dưới (nốt cách 3rd dưới melody)' — hai cách này khác nhau. Quãng 6 dưới C-B-G-E cho bè E-D-B-G; quãng 3 dưới cho bè A-G-E-C. Tên kỹ thuật là 6th nên item ghi theo quãng 6, cần nghe lại để chốt."
+  },
+  "note_vi": "6th fill số 1: tay phải đi giai điệu bậc 1-7-5-3, trên C là C - B - G - E, mỗi nốt kẹp thêm một nốt quãng 6 bên dưới. Dùng ở phách 3-4 của hợp âm C để dẫn vào Am trong vòng C - G - Am - F."
+}

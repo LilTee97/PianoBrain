@@ -1,0 +1,14 @@
+{
+  "id": "color-ii-v-i-l2",
+  "type": "chord_color",
+  "name": "ii-V-I bảng màu 2 — 7 cơ bản",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Vòng ii-V-I trong pop và jazz nhập môn", "Kết đoạn"],
+  "avoid_when": ["Người học chưa biết hợp âm 7"],
+  "input": { "progression": ["ii", "V", "I"], "key_context": "major", "style": ["jazz", "pop_ballad"], "difficulty_max": 3 },
+  "output": { "qualities": { "ii": "m7", "V": "7", "I": "maj7" }, "inserts": [] },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Dạng gốc của ii-V-I. Nghe được ngay chuyển động bậc 3 và bậc 7 đổi chỗ cho nhau giữa ba hợp âm."
+}

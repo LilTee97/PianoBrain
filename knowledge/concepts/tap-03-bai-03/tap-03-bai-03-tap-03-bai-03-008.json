@@ -1,0 +1,63 @@
+{
+  "id": "tap-03-bai-03-tap-03-bai-03-008",
+  "type": "concept",
+  "name": "Phương pháp đọc nốt nhạc tốc độ cao trên Khóa Son (Treble Clef) dựa trên định vị 5 dòng kẻ chính (Line notes: E4, G4, B4",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-03",
+    "locator": "00:27:35-00:37:20 pdf p.1",
+    "media_id": "video_tap_03_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 1,
+        "section": "Hướng dẫn đọc nốt nhạc Khóa Son"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Sight Reading Strategy"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "sight-reading-strategy"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Phương pháp đọc nốt nhạc tốc độ cao trên Khóa Son (Treble Clef) dựa trên định vị 5 dòng kẻ chính (Line notes: E4, G4, B4, D5, F5 / Mi-Sol-Si-Rê-Pha) và 4 khe chính (Space notes: F4, A4, C5, E5 / Pha-La-Đô-Mi). Quy tắc luyện phản xạ: Viết xáo trộn tên nốt/ký hiệu chữ cái (E, G, B, D, F / F, A, C, E) ra giấy từ 1-2 trang mỗi ngày liên tục trong 21 ngày để tạo phản xạ chụp hình nốt nhạc tức thì khi vỡ bài solo.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Sight Reading Strategy"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "E4",
+        "G4",
+        "B4",
+        "D5",
+        "F5",
+        "F4",
+        "A4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phương pháp đọc nốt nhạc tốc độ cao trên Khóa Son (Treble Clef) dựa trên định vị 5 dòng kẻ chính (Line notes: E4, G4, B4, D5, F5 / Mi-Sol-Si-Rê-Pha) và 4 khe chính (Space notes: F4, A4, C5, E5 / Pha-La-Đô-Mi). Quy tắc luyện phản xạ: Viết xáo trộn tên nốt/ký hiệu chữ cái (E, G, B, D, F / F, A, C, E) ra giấy từ 1-2 trang mỗi ngày liên tục trong 21 ngày để tạo phản xạ chụp hình nốt nhạc tức thì khi vỡ bài solo."
+}

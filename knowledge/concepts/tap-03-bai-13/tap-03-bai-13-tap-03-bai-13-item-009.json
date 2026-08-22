@@ -1,0 +1,89 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-009",
+  "type": "concept",
+  "name": "Phần Điệp khúc (Part B - Cao trào): Giai điệu bùng nổ bắt đầu bằng Rê4 - Mi4 - Pha thăng4 - Sol4 - Si4..",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "11:13:00-14:43:00 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "Part B - Chorus Melody & Harmony"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Em, Cadd9, G/B, D/F#, D7",
+    "Giọng: G Major",
+    "Nốt màu: add9, 7",
+    "Điệu / phong cách: Chorus Peak"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Em",
+      "Cadd9",
+      "G/B",
+      "D/F#",
+      "D7"
+    ],
+    "style": [
+      "chorus-peak"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Phần Điệp khúc (Part B - Cao trào): Giai điệu bùng nổ bắt đầu bằng Rê4 - Mi4 - Pha thăng4 - Sol4 - Si4... Tay trái rải giọng rộng mở rộng quãng 1-5-8-9 (G-D-G-A) làm nền tựa vững chắc cho cao trào.",
+    "music_entities": {
+      "chords": [
+        "Em",
+        "Cadd9",
+        "G/B",
+        "D/F#",
+        "D7"
+      ],
+      "tensions": [
+        "add9",
+        "7"
+      ],
+      "keys": [
+        "G Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Chorus Peak"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9 (Chorus)",
+      "notes": [
+        "C2",
+        "G2",
+        "D3",
+        "E3",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "D3"
+        ],
+        "right": [
+          "E3",
+          "G4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phần Điệp khúc (Part B - Cao trào): Giai điệu bùng nổ bắt đầu bằng Rê4 - Mi4 - Pha thăng4 - Sol4 - Si4... Tay trái rải giọng rộng mở rộng quãng 1-5-8-9 (G-D-G-A) làm nền tựa vững chắc cho cao trào."
+}

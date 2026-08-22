@@ -1,0 +1,77 @@
+{
+  "id": "tap-06-bai-15-r-march-octave-bass",
+  "type": "rule",
+  "name": "Sử dụng tay trái chơi nốt Bass quãng 8 (Octave) để tạo âm hưởng hùng phê, dứt khoát và dồn dập cho đoạn điệp khúc hoặc p",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-15",
+    "locator": "11:00-15:18 pdf p.2",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: 16-beat, Bossa Nova, Fox, Hành khúc, March, Reggae, Swing, Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "16-beat",
+      "jazz",
+      "bossa-nova",
+      "fox",
+      "h-nh-kh-c",
+      "march",
+      "reggae",
+      "swing",
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "16-beat",
+        "Bossa Nova",
+        "Fox",
+        "Hành khúc",
+        "March",
+        "Reggae",
+        "Swing",
+        "Tango"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng tay trái chơi nốt Bass quãng 8 (Octave) để tạo âm hưởng hùng phê, dứt khoát và dồn dập cho đoạn điệp khúc hoặc phần cao trào bài hát.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_MARCH_OCTAVE_BASS",
+      "name": "Tăng cường Bass quãng 8 cho đoạn cao trào (Double Octave Bass)",
+      "category": "voicing_and_texture",
+      "description": "Sử dụng tay trái chơi nốt Bass quãng 8 (Octave) để tạo âm hưởng hùng phê, dứt khoát và dồn dập cho đoạn điệp khúc hoặc phần cao trào bài hát.",
+      "applicability": {
+        "styles": [
+          "March",
+          "Hành khúc"
+        ]
+      },
+      "lesson_folder": "Tap_06_Bai_15"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng tay trái chơi nốt Bass quãng 8 (Octave) để tạo âm hưởng hùng phê, dứt khoát và dồn dập cho đoạn điệp khúc hoặc phần cao trào bài hát."
+}

@@ -1,0 +1,101 @@
+{
+  "id": "tap-03-bai-03-tap-03-bai-03-007",
+  "type": "concept",
+  "name": "Kỹ thuật chạy Gam Arpeggio (Hợp âm rải 4 nốt Do-Mi-Sol-Do) trên 4 quãng 8",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-03",
+    "locator": "00:21:20-00:27:35 pdf p.4",
+    "media_id": "video_tap_03_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 4,
+        "section": "Bài 7 - Mùa Xuân"
+      },
+      {
+        "source_id": "pdf_tap_03",
+        "page": 5,
+        "section": "Bài 8 - Nơi Mình Dừng Chân"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, C/E, C/G",
+    "Giọng: C major",
+    "Gam: Arpeggio C major",
+    "Điệu / phong cách: Ballad, Pop Accompaniment, Arpeggio Technique"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "C/E",
+      "C/G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "pop-accompaniment",
+      "arpeggio-technique"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Kỹ thuật chạy Gam Arpeggio (Hợp âm rải 4 nốt Do-Mi-Sol-Do) trên 4 quãng 8. Hướng dẫn thế tay rải ngón 1-2-3-1 (C-E-G-C) ở tay phải và 5-4-2-1 / 5-3-2-1 ở tay trái. Luyện tập đảo hợp âm (Inversions) và đánh chùm 4 nốt đồng thời (Block Chords) kết hợp thả lỏng cổ tay kéo nốt (non-legato / portamento style) hỗ trợ đệm hát solo (ví dụ minh họa câu lót 'Hà Nội Mùa Thu').",
+    "music_entities": {
+      "chords": [
+        "C",
+        "C/E",
+        "C/G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "Arpeggio C major"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop Accompaniment",
+        "Arpeggio Technique"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "C5",
+        "E5",
+        "G5",
+        "C6"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "E2",
+          "G2",
+          "C3"
+        ],
+        "right": [
+          "C3",
+          "E3",
+          "G3",
+          "C4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật chạy Gam Arpeggio (Hợp âm rải 4 nốt Do-Mi-Sol-Do) trên 4 quãng 8. Hướng dẫn thế tay rải ngón 1-2-3-1 (C-E-G-C) ở tay phải và 5-4-2-1 / 5-3-2-1 ở tay trái. Luyện tập đảo hợp âm (Inversions) và đánh chùm 4 nốt đồng thời (Block Chords) kết hợp thả lỏng cổ tay kéo nốt (non-legato / portamento style) hỗ trợ đệm hát solo (ví dụ minh họa câu lót 'Hà Nội Mùa Thu')."
+}

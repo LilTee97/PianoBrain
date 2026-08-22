@@ -1,0 +1,94 @@
+{
+  "id": "tap-04-bai-01-lesson-id-00004",
+  "type": "accompaniment",
+  "name": "Bài 1 - Câu 3: Mẫu câu lót sử dụng nốt bậc 7 (Major 7th / Minor 7th) làm điểm nhấn giai điệu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-01",
+    "locator": "00:08:15-00:10:18 pdf p.4",
+    "media_id": "video_tap_04_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 4,
+        "section": "Bài 1 - Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Am7, Dm7, G7, G/B",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: 7th degree, Major 7th, Minor 7th",
+    "Điệu / phong cách: Modern Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Am7",
+      "Dm7",
+      "G7",
+      "G/B"
+    ],
+    "style": [
+      "pop_ballad",
+      "modern-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bài 1 - Câu 3: Mẫu câu lót sử dụng nốt bậc 7 (Major 7th / Minor 7th) làm điểm nhấn giai điệu. Nốt bậc 7 tạo màu sắc hiện đại, sang trọng (B cho Cmaj7, G cho Am7, C cho Dm7, F cho G7). Có thể chèn thêm hợp âm dẫn kết nối như G/B trước khi về Am.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Am7",
+        "Dm7",
+        "G7",
+        "G/B"
+      ],
+      "tensions": [
+        "7th degree",
+        "Major 7th",
+        "Minor 7th"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Modern Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7 -> Am7 -> Dm7 -> G7 -> C",
+      "notes": [
+        "B4",
+        "G4",
+        "C5",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "E3"
+        ],
+        "right": [
+          "B4",
+          "A4",
+          "G4",
+          "E4",
+          "C4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 1 - Câu 3: Mẫu câu lót sử dụng nốt bậc 7 (Major 7th / Minor 7th) làm điểm nhấn giai điệu. Nốt bậc 7 tạo màu sắc hiện đại, sang trọng (B cho Cmaj7, G cho Am7, C cho Dm7, F cho G7). Có thể chèn thêm hợp âm dẫn kết nối như G/B trước khi về Am."
+}

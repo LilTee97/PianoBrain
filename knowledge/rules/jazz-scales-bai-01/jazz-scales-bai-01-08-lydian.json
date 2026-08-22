@@ -1,0 +1,72 @@
+{
+  "id": "jazz-scales-bai-01-08-lydian",
+  "type": "rule",
+  "name": "Summary Scale Mapping Rule:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-01",
+    "locator": "07:54-08:45",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm maj7",
+    "Ngẫu hứng jazz trên hợp âm min7",
+    "Ngẫu hứng jazz trên hợp âm 7",
+    "Ngẫu hứng jazz trên hợp âm min7b5",
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": null,
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "Gb",
+        "Ab",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [],
+      "use_when": [
+        "hợp âm maj7",
+        "hợp âm min7",
+        "hợp âm 7",
+        "hợp âm min7b5"
+      ]
+    },
+    "chord_symbol": "C min 7 b5",
+    "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "Gb",
+      "Ab",
+      "Bb"
+    ],
+    "source_text": "Summary Scale Mapping Rule: Major 7 -> Lydian scale; Minor 7 -> Dorian scale; Dominant 7 -> Lydian-Dominant scale; Minor 7b5 -> Half-Diminished scale."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 1 của nguồn Jazz Scales (YouTube), mốc 07:54-08:45. Summary Scale Mapping Rule: Major 7 -> Lydian scale; Minor 7 -> Dorian scale; Dominant 7 -> Lydian-Dominant scale; Minor 7b5 -> Half-Diminished scale. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

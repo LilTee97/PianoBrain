@@ -1,0 +1,149 @@
+{
+  "id": "tap-04-bai-10-hai-piano-course-001-tap-04-bai-10-003",
+  "type": "fill",
+  "name": "Mẫu câu lót 16-Beat số 2: Biến tấu đảo nhịp và nhịp móc tư (16th notes) móc kép linh hoạt, phát triển giai điệu lót từ b",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-10",
+    "locator": "00:04:52-00:06:30 pdf p.48",
+    "media_id": "video_tap_04_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 48,
+        "section": "Bài 10 - Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, F, E7",
+    "Giọng: Am",
+    "Gam: A natural minor, A harmonic minor",
+    "Nốt màu: 3rd, 5th",
+    "Điệu / phong cách: 16-Beat, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "F",
+      "E7"
+    ],
+    "style": [
+      "16-beat",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu câu lót 16-Beat số 2: Biến tấu đảo nhịp và nhịp móc tư (16th notes) móc kép linh hoạt, phát triển giai điệu lót từ bậc 3, 5 kết hợp chuyển nốt bass dẫn sang Dm, F, E7.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "F",
+        "E7"
+      ],
+      "tensions": [
+        "3rd",
+        "5th"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A natural minor",
+        "A harmonic minor"
+      ],
+      "styles": [
+        "16-Beat",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm - F - E7",
+      "notes": [
+        "D4",
+        "F4",
+        "A4",
+        "C5",
+        "F4",
+        "A4",
+        "C5",
+        "E5",
+        "G#4",
+        "B4",
+        "D5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "F2",
+          "E2"
+        ],
+        "right": [
+          "F4",
+          "A4",
+          "C5",
+          "E5",
+          "G#4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm - F - E7",
+        "notes": [
+          "D4",
+          "F4",
+          "A4",
+          "C5",
+          "F4",
+          "A4",
+          "C5",
+          "E5",
+          "G#4",
+          "B4",
+          "D5",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D2",
+            "F2",
+            "E2"
+          ],
+          "right": [
+            "F4",
+            "A4",
+            "C5",
+            "E5",
+            "G#4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót 16-Beat số 2: Biến tấu đảo nhịp và nhịp móc tư (16th notes) móc kép linh hoạt, phát triển giai điệu lót từ bậc 3, 5 kết hợp chuyển nốt bass dẫn sang Dm, F, E7."
+}

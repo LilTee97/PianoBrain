@@ -1,0 +1,67 @@
+{
+  "id": "tap-01-bai-06-rule-hp-right-hand-voicing-range",
+  "type": "rule",
+  "name": "Các nốt bè đệm bên dưới giai điệu chính ở tay phải không được di chuyển nhảy quãng vượt quá quãng 3 khi chuyển hợp âm, g",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-06",
+    "locator": "17:40:00-18:55:00 pdf p.4",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Pop, Sacred Music"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "sacred-music"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop",
+        "Sacred Music"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Các nốt bè đệm bên dưới giai điệu chính ở tay phải không được di chuyển nhảy quãng vượt quá quãng 3 khi chuyển hợp âm, giữ vai trò làm nền đệm êm ái cho giai điệu vút lên.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_HP_RIGHT_HAND_VOICING_RANGE",
+      "name": "Giới hạn quãng di chuyển giọng đệm tay phải",
+      "description": "Các nốt bè đệm bên dưới giai điệu chính ở tay phải không được di chuyển nhảy quãng vượt quá quãng 3 khi chuyển hợp âm, giữ vai trò làm nền đệm êm ái cho giai điệu vút lên.",
+      "domain": "Piano Keyboard Voicing",
+      "type": "Constraint",
+      "confidence": "direct",
+      "source_reference": {
+        "video_timestamp": "17:40 - 18:30",
+        "pdf_page": "pdf_tap01_bai01_05, page 4"
+      },
+      "lesson_folder": "Tap_01_Bai_06"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Các nốt bè đệm bên dưới giai điệu chính ở tay phải không được di chuyển nhảy quãng vượt quá quãng 3 khi chuyển hợp âm, giữ vai trò làm nền đệm êm ái cho giai điệu vút lên."
+}

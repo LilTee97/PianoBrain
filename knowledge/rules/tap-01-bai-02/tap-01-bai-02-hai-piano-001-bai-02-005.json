@@ -1,0 +1,81 @@
+{
+  "id": "tap-01-bai-02-hai-piano-001-bai-02-005",
+  "type": "rule",
+  "name": "Nguyên tắc di chuyển tay phải khi đệm: Bè giữa/nốt đệm tay phải khi chuyển đổi giữa các hợp âm không được di chuyển nhảy",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-02",
+    "locator": "08:23-08:39 pdf p.6",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 6,
+        "section": "Ta thực hiện theo các Nguyên tắc sau"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_01_Bai_02"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Nguyên tắc di chuyển tay phải khi đệm: Bè giữa/nốt đệm tay phải khi chuyển đổi giữa các hợp âm không được di chuyển nhảy khoảng vượt quá Quãng 3 (Quảng 3). Sử dụng thể đảo gần nhất để nối âm mịn màng.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "if": {
+        "chord_quality": null,
+        "chord_symbol": null,
+        "chord_function": null,
+        "key_context": null,
+        "progression_context": null,
+        "melody_context": null,
+        "style_tags": [
+          "Ballad",
+          "Solo Piano",
+          "Vocal Accompaniment"
+        ],
+        "difficulty_range": null
+      },
+      "then": {
+        "description": "Nguyên tắc di chuyển tay phải khi đệm: Bè giữa/nốt đệm tay phải khi chuyển đổi giữa các hợp âm không được di chuyển nhảy khoảng vượt quá Quãng 3 (Quảng 3). Sử dụng thể đảo gần nhất để nối âm mịn màng.",
+        "action": {
+          "select": [],
+          "add": [],
+          "transform": [],
+          "generate": []
+        }
+      },
+      "enforced_by": null,
+      "candidate": {
+        "rule_id": "hai_piano_001_bai_02_005",
+        "description": "Nguyên tắc di chuyển tay phải khi đệm: Bè giữa/nốt đệm tay phải khi chuyển đổi giữa các hợp âm không được di chuyển nhảy khoảng vượt quá Quãng 3 (Quảng 3). Sử dụng thể đảo gần nhất để nối âm mịn màng.",
+        "confidence": "direct",
+        "category": "rule_candidate",
+        "lesson_folder": "Tap_01_Bai_02"
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nguyên tắc di chuyển tay phải khi đệm: Bè giữa/nốt đệm tay phải khi chuyển đổi giữa các hợp âm không được di chuyển nhảy khoảng vượt quá Quãng 3 (Quảng 3). Sử dụng thể đảo gần nhất để nối âm mịn màng."
+}

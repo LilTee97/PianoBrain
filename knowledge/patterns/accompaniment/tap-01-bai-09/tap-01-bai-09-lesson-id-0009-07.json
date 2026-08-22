@@ -1,0 +1,115 @@
+{
+  "id": "tap-01-bai-09-lesson-id-0009-07",
+  "type": "accompaniment",
+  "name": "Tiết tấu đệm Dân ca Kiểu 2 (Nhịp 4/4): Tay phải biến tấu bằng các nốt móc đơn rải nhịp nhàng hoặc giật phách nhẹ nhõm, k",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-09",
+    "locator": "26:49-29:20 pdf p.15",
+    "media_id": "Tap_01_Bai_09.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_01_Bai_06_10.pdf",
+        "page": 15,
+        "section": "TIẾT TẤU DÂN CA - Kiểu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G, Am",
+    "Giọng: C",
+    "Điệu / phong cách: Dân ca, Folk Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G",
+      "Am"
+    ],
+    "style": [
+      "d-n-ca",
+      "pop_ballad",
+      "folk-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Tiết tấu đệm Dân ca Kiểu 2 (Nhịp 4/4): Tay phải biến tấu bằng các nốt móc đơn rải nhịp nhàng hoặc giật phách nhẹ nhõm, kết hợp tay trái di chuyển nốt Bass quãng 5 linh hoạt. Hai kiểu tiết tấu 1 và 2 có thể hoán chuyển linh hoạt trong cùng một bài nhạc.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G",
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Dân ca",
+        "Folk Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C",
+        "G",
+        "E"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "G4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C",
+          "G",
+          "E"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "G4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết tấu đệm Dân ca Kiểu 2 (Nhịp 4/4): Tay phải biến tấu bằng các nốt móc đơn rải nhịp nhàng hoặc giật phách nhẹ nhõm, kết hợp tay trái di chuyển nốt Bass quãng 5 linh hoạt. Hai kiểu tiết tấu 1 và 2 có thể hoán chuyển linh hoạt trong cùng một bài nhạc."
+}

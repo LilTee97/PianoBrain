@@ -1,0 +1,84 @@
+{
+  "id": "tap-03-bai-09-lesson-id-00005",
+  "type": "voicing",
+  "name": "Kỹ thuật đệm tay trái dạng 1 - 5 - 3 (Gốc - Âm 5 - Âm 3 ở quãng cao) hoặc 1 - 5 - 8 - 9 tạo cảm giác không gian thoáng,",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-09",
+    "locator": "15:06-18:02 pdf p.8",
+    "media_id": "video_tap_03_bai_09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 8,
+        "section": "Mẫu đệm tay trái nâng cao 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, F, G",
+    "Giọng: C major, A minor",
+    "Nốt màu: add9",
+    "Điệu / phong cách: Ballad Solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "F",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Kỹ thuật đệm tay trái dạng 1 - 5 - 3 (Gốc - Âm 5 - Âm 3 ở quãng cao) hoặc 1 - 5 - 8 - 9 tạo cảm giác không gian thoáng, rộng rãi và trữ tình cho đệm piano solo.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "F",
+        "G"
+      ],
+      "tensions": [
+        "add9"
+      ],
+      "keys": [
+        "C major",
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad Solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "C2",
+        "G2",
+        "E3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "E3"
+        ],
+        "right": [
+          "D4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật đệm tay trái dạng 1 - 5 - 3 (Gốc - Âm 5 - Âm 3 ở quãng cao) hoặc 1 - 5 - 8 - 9 tạo cảm giác không gian thoáng, rộng rãi và trữ tình cho đệm piano solo."
+}

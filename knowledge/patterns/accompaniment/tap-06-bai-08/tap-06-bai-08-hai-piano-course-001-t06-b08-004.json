@@ -1,0 +1,113 @@
+{
+  "id": "tap-06-bai-08-hai-piano-course-001-t06-b08-004",
+  "type": "accompaniment",
+  "name": "Mẫu 2 - Medium Swing biến tấu Tay trái: Tay trái không đứng yên một nốt bass mà di chuyển qua nốt Bậc 5 hoặc bước dạo ng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-08",
+    "locator": "06:31-10:08 pdf p.2",
+    "media_id": "video_Tap_06_Bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_Tap_06_Bai_08",
+        "page": 2,
+        "section": "Mau_2_Swing_Bass_Move"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bm7b5, E7, Am7",
+    "Giọng: Am",
+    "Điệu / phong cách: Swing"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bm7b5",
+      "E7",
+      "Am7"
+    ],
+    "style": [
+      "jazz",
+      "swing"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 2 - Medium Swing biến tấu Tay trái: Tay trái không đứng yên một nốt bass mà di chuyển qua nốt Bậc 5 hoặc bước dạo ngắn (từ nốt gốc sang nốt quãng 5 hoặc nốt thắt), tay phải dập nhấn đúp phách nhẹ.",
+    "music_entities": {
+      "chords": [
+        "Bm7b5",
+        "E7",
+        "Am7"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [],
+      "styles": [
+        "Swing"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7",
+      "notes": [
+        "A1",
+        "E2",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "A1",
+          "E2"
+        ],
+        "right": [
+          "C4-E4-G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am7",
+        "notes": [
+          "A1",
+          "E2",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A1",
+            "E2"
+          ],
+          "right": [
+            "C4-E4-G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 2 - Medium Swing biến tấu Tay trái: Tay trái không đứng yên một nốt bass mà di chuyển qua nốt Bậc 5 hoặc bước dạo ngắn (từ nốt gốc sang nốt quãng 5 hoặc nốt thắt), tay phải dập nhấn đúp phách nhẹ."
+}

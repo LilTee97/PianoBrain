@@ -1,0 +1,125 @@
+{
+  "id": "tap-06-bai-11-tap-06-bai-11-00006",
+  "type": "accompaniment",
+  "name": "Mẫu 3 đệm Pop Rock: Tiết tấu dồn dập (tầm tầm chát...), tay trái đánh móc kép/móc đơn chạy Bass groove sôi động, tay phả",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-11",
+    "locator": "00:12:56-00:17:33 pdf p.2",
+    "media_id": "video_tap_06_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_11",
+        "page": 2,
+        "section": "Mẫu 3: Pop Rock sôi động / Cao trào"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G, Am, Em, F, D7",
+    "Giọng: C major",
+    "Gam: C Major Scale",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Pop Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G",
+      "Am",
+      "Em",
+      "F",
+      "D7"
+    ],
+    "style": [
+      "pop",
+      "pop-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 3 đệm Pop Rock: Tiết tấu dồn dập (tầm tầm chát...), tay trái đánh móc kép/móc đơn chạy Bass groove sôi động, tay phải dậm hợp âm giật chồm liên tục tạo sinh lực cực mạnh cho đoạn điệp khúc hoặc cao trào bài hát.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "Em",
+        "F",
+        "D7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Pop Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - G - Am - Em - F - C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C2-G2-C3-G2 (16th/8th driving pattern)"
+        ],
+        "right": [
+          "E4-G4-C5 (syncopated punches)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - G - Am - Em - F - C",
+        "notes": [
+          "C2",
+          "G2",
+          "C3",
+          "E4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2-G2-C3-G2 (16th/8th driving pattern)"
+          ],
+          "right": [
+            "E4-G4-C5 (syncopated punches)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 3 đệm Pop Rock: Tiết tấu dồn dập (tầm tầm chát...), tay trái đánh móc kép/móc đơn chạy Bass groove sôi động, tay phải dậm hợp âm giật chồm liên tục tạo sinh lực cực mạnh cho đoạn điệp khúc hoặc cao trào bài hát."
+}

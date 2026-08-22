@@ -1,0 +1,71 @@
+{
+  "id": "tap-02-bai-03-rule-vong-2-chromatic-bass-iv-minor",
+  "type": "rule",
+  "name": "Mượn hợp âm Fm từ C Harmonic Major và Gm từ C Melodic Major để tạo dòng Bass di chuyển bán cấp/liền bậc (C -> B -> Bb ->",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Giọng: C Major",
+    "Điệu / phong cách: Ballad, Contemporary, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": "C Major",
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Contemporary",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Mượn hợp âm Fm từ C Harmonic Major và Gm từ C Melodic Major để tạo dòng Bass di chuyển bán cấp/liền bậc (C -> B -> Bb -> A -> G).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_vong_2_chromatic_bass_iv_minor": null,
+      "rule_id": "rule_vong_2_chromatic_bass_iv_minor",
+      "name": "Ứng dụng Hợp âm iv Thứ (Fm/C) và v Thứ (Gm/Bb) trong Giọng Trưởng",
+      "category": "Voice Leading / Chromatic Bass",
+      "description": "Mượn hợp âm Fm từ C Harmonic Major và Gm từ C Melodic Major để tạo dòng Bass di chuyển bán cấp/liền bậc (C -> B -> Bb -> A -> G).",
+      "conditions": {
+        "key": "C Major",
+        "bass_line": "C -> B -> Bb -> A"
+      },
+      "examples": [
+        "C -> Fm/C -> C -> G/B -> Gm/Bb -> Am"
+      ],
+      "lesson_folder": "Tap_02_Bai_03"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mượn hợp âm Fm từ C Harmonic Major và Gm từ C Melodic Major để tạo dòng Bass di chuyển bán cấp/liền bậc (C -> B -> Bb -> A -> G)."
+}

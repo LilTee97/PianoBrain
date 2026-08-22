@@ -1,0 +1,85 @@
+{
+  "id": "tap-02-bai-08-r-tap02-b08-001",
+  "type": "rule",
+  "name": "Khi nốt giai điệu ngân dài hoặc rơi vào đầu phách mạnh, có thể chọn hợp âm mà nốt giai điệu đó đóng vai trò là bậc 9 (ni",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:02:10-00:04:12 pdf p.7",
+    "extra_locators": [
+      "00:04:12-00:05:25 pdf p.7",
+      "00:05:25-00:06:20 pdf p.7",
+      "00:06:20-00:09:13 pdf p.7",
+      "00:09:13-00:11:07 pdf p.7",
+      "00:11:07-00:12:24 pdf p.7",
+      "00:12:24-00:14:53 pdf p.7"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Accompaniment Voicing, Acoustic, Ballad, Ballad Fill-in, Cinematic, Contemporary, Jazz, Pop, Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment-voicing",
+      "acoustic",
+      "pop_ballad",
+      "ballad",
+      "ballad-fill-in",
+      "cinematic",
+      "pop",
+      "contemporary",
+      "jazz",
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Accompaniment Voicing",
+        "Acoustic",
+        "Ballad",
+        "Ballad Fill-in",
+        "Cinematic",
+        "Contemporary",
+        "Jazz",
+        "Pop",
+        "Solo Piano"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi nốt giai điệu ngân dài hoặc rơi vào đầu phách mạnh, có thể chọn hợp âm mà nốt giai điệu đó đóng vai trò là bậc 9 (ninth tension) để tạo màu sắc hiện đại và tinh tế.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Đặt hợp âm gốc Y cách nốt X một quãng 2 trưởng phía dưới (Y = X - 2 bán phong/quãng 2 trưởng), ví dụ X=D -> chọn C9/Cmaj79; X=E -> chọn Dm79; X=G -> chọn Fmaj79; X=A -> chọn G9; X=B -> chọn Am9."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP02_B08_001",
+      "name": "Melody Harmonization on 9th Scale Degree",
+      "category": "Harmonization",
+      "description": "Khi nốt giai điệu ngân dài hoặc rơi vào đầu phách mạnh, có thể chọn hợp âm mà nốt giai điệu đó đóng vai trò là bậc 9 (ninth tension) để tạo màu sắc hiện đại và tinh tế.",
+      "condition": "Nốt giai điệu X nằm trong thang âm chính.",
+      "action": "Đặt hợp âm gốc Y cách nốt X một quãng 2 trưởng phía dưới (Y = X - 2 bán phong/quãng 2 trưởng), ví dụ X=D -> chọn C9/Cmaj79; X=E -> chọn Dm79; X=G -> chọn Fmaj79; X=A -> chọn G9; X=B -> chọn Am9.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_08"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu ngân dài hoặc rơi vào đầu phách mạnh, có thể chọn hợp âm mà nốt giai điệu đó đóng vai trò là bậc 9 (ninth tension) để tạo màu sắc hiện đại và tinh tế."
+}

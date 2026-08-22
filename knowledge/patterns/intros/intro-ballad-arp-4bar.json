@@ -1,0 +1,20 @@
+{
+  "id": "intro-ballad-arp-4bar",
+  "type": "intro",
+  "name": "Intro ballad 4 ô nhịp rải",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Mở bài ballad", "Cần đặt tông cho người hát"],
+  "avoid_when": ["Bài vào thẳng chorus", "Nhịp nhanh"],
+  "input": { "section": ["intro"], "style": ["pop_ballad"], "progression": ["IV", "V", "vi", "V"] },
+  "output": {
+    "bars": 4,
+    "degrees": ["IV", "V", "vi", "V"],
+    "texture": "tay phải rải arp-maj7, tay trái giữ nốt gốc tròn",
+    "arpeggio_id": "arp-maj7",
+    "ends_on": "V để mở vào câu hát đầu"
+  },
+  "origin": "invented",
+  "status": "draft",
+  "note_vi": "Không bắt đầu ở I để câu hát đầu tiên nghe như một sự trở về. Kết ở V tạo chỗ trống cho người hát bước vào."
+}

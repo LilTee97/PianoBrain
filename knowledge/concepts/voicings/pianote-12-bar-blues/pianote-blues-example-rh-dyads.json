@@ -1,0 +1,51 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-example-rh-dyads",
+  "type": "voicing",
+  "name": "Ví dụ tay phải: C7 dùng G-Bb, F7 dùng C-Eb, G7 dùng D-F",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:04:21"
+  },
+  "use_when": [
+    "Tay phải đệm blues",
+    "Muốn hai nốt gọn thay quãng 8"
+  ],
+  "input": {
+    "style": [
+      "blues"
+    ],
+    "chord_quality": [
+      "C7",
+      "F7",
+      "G7"
+    ]
+  },
+  "output": {
+    "hand": "RH",
+    "example": {
+      "C7": [
+        "G",
+        "Bb"
+      ],
+      "F7": [
+        "C",
+        "Eb"
+      ],
+      "G7": [
+        "D",
+        "F"
+      ]
+    },
+    "degrees": [
+      "5",
+      "b7"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Tay phải trên C7 đánh cặp G-Bb, trên F7 đánh C-Eb, trên G7 đánh D-F. Cả ba cặp đều là bậc 5 cộng bậc b7 của hợp âm đang chạy."
+}

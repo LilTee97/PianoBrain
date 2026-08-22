@@ -1,0 +1,42 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-example-turnaround-ending",
+  "type": "outro",
+  "name": "Ví dụ turnaround: bass F# lên G, tay phải chốt G7 (F-G-B-D)",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:06:36"
+  },
+  "use_when": [
+    "Chốt vòng 12 bar để quay lại đầu"
+  ],
+  "input": {
+    "style": [
+      "blues"
+    ],
+    "chord_quality": [
+      "G7"
+    ]
+  },
+  "output": {
+    "bass": [
+      "F#",
+      "G"
+    ],
+    "rh_chord": {
+      "symbol": "G7",
+      "notes": [
+        "F",
+        "G",
+        "B",
+        "D"
+      ]
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Bass đi F# lên G, tay phải chốt hợp âm G7 xếp F - G - B - D."
+}

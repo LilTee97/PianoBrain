@@ -1,0 +1,79 @@
+{
+  "id": "tap-03-bai-05-lesson-id-00001",
+  "type": "concept",
+  "name": "Giới thiệu bài học Fur Elise (Beethoven) chuyển soạn đơn giản cho người mới bắt đầu ở nhịp 6/4, giọng Am (La thứ).",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-05",
+    "locator": "00:00:35-00:03:06 pdf p.2",
+    "media_id": "video_tap_03_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 2,
+        "section": "Bài 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, E",
+    "Giọng: A minor",
+    "Gam: A minor",
+    "Điệu / phong cách: Classical"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "E"
+    ],
+    "style": [
+      "classical"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu bài học Fur Elise (Beethoven) chuyển soạn đơn giản cho người mới bắt đầu ở nhịp 6/4, giọng Am (La thứ).",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "E"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Classical"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "A3"
+        ],
+        "right": [
+          "E5",
+          "D#5",
+          "E5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu bài học Fur Elise (Beethoven) chuyển soạn đơn giản cho người mới bắt đầu ở nhịp 6/4, giọng Am (La thứ)."
+}

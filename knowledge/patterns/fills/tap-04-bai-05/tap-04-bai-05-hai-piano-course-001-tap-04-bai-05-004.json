@@ -1,0 +1,126 @@
+{
+  "id": "tap-04-bai-05-hai-piano-course-001-tap-04-bai-05-004",
+  "type": "fill",
+  "name": "Bài 5 - Câu 2: Phát triển câu lót đan xen giữa bậc 3 và bậc 5 trên vòng quãng 4, kết hợp kỹ thuật liên kết câu và dịch c",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-05",
+    "locator": "00:04:51-00:06:03 pdf p.23",
+    "media_id": "video_tap_04_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 23,
+        "section": "Bài 5 - Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, G, C, F, Bm7b5, E7",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Nốt màu: 3, 5",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "G",
+      "C",
+      "F",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bài 5 - Câu 2: Phát triển câu lót đan xen giữa bậc 3 và bậc 5 trên vòng quãng 4, kết hợp kỹ thuật liên kết câu và dịch chuyển vị trí ngón linh hoạt.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "G",
+        "C",
+        "F",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [
+        "3",
+        "5"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm",
+      "notes": [
+        "F4",
+        "A4",
+        "D5"
+      ],
+      "hands": {
+        "left": [
+          "D3"
+        ],
+        "right": [
+          "A4",
+          "D5",
+          "F5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm",
+        "notes": [
+          "F4",
+          "A4",
+          "D5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D3"
+          ],
+          "right": [
+            "A4",
+            "D5",
+            "F5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 5 - Câu 2: Phát triển câu lót đan xen giữa bậc 3 và bậc 5 trên vòng quãng 4, kết hợp kỹ thuật liên kết câu và dịch chuyển vị trí ngón linh hoạt."
+}

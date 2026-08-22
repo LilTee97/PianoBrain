@@ -1,0 +1,30 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-right-hand-choice",
+  "type": "concept",
+  "name": "Tay trái đi bass thì tay phải chọn: chơi giai điệu hoặc chỉ đệm hợp âm",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:01:23"
+  },
+  "use_when": [
+    "Đang tập phối hợp hai tay khi đi walking bass"
+  ],
+  "output": {
+    "rh_options": [
+      "melody",
+      "chords comping"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi tay trái đi walking bass liên tục, tay phải có thể chọn đánh giai điệu bài hát, hoặc chỉ rải và giữ khối hợp âm.",
+  "input": {
+    "style": [
+      "pop_ballad"
+    ]
+  }
+}

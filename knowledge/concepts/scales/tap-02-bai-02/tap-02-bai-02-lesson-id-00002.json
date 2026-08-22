@@ -1,0 +1,95 @@
+{
+  "id": "tap-02-bai-02-lesson-id-00002",
+  "type": "scale",
+  "name": "Giọng Trưởng Hòa Thanh là Trưởng Tự Nhiên có Bậc 6 giáng xuống 1/2 cung (A thành Ab trong C Major)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-02",
+    "locator": "04:14-06:08 pdf p.3",
+    "media_id": "video_tap_02_bai_02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 3,
+        "section": "Trưởng Hoà Thanh"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Dm-5, Em, Fm, G, Ab+, Bm-5",
+    "Giọng: C Major",
+    "Gam: C Harmonic Major",
+    "Nốt màu: b6",
+    "Điệu / phong cách: Pop, Ballad, Hymn"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Dm-5",
+      "Em",
+      "Fm",
+      "G",
+      "Ab+",
+      "Bm-5"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "hymn"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Giọng Trưởng Hòa Thanh là Trưởng Tự Nhiên có Bậc 6 giáng xuống 1/2 cung (A thành Ab trong C Major). Hệ thống hợp âm thu được: C (I), Dm-5 (ii°), Em (iii), Fm (iv), G (V), Ab+ (bVI+), Bm-5 (vii°). Các hợp âm màu sắc mới xuất hiện: Dm-5, Fm, Ab+.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Dm-5",
+        "Em",
+        "Fm",
+        "G",
+        "Ab+",
+        "Bm-5"
+      ],
+      "tensions": [
+        "b6"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Harmonic Major"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad",
+        "Hymn"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fm",
+      "notes": [
+        "F3",
+        "Ab3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "F2"
+        ],
+        "right": [
+          "F3",
+          "Ab3",
+          "C4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giọng Trưởng Hòa Thanh là Trưởng Tự Nhiên có Bậc 6 giáng xuống 1/2 cung (A thành Ab trong C Major). Hệ thống hợp âm thu được: C (I), Dm-5 (ii°), Em (iii), Fm (iv), G (V), Ab+ (bVI+), Bm-5 (vii°). Các hợp âm màu sắc mới xuất hiện: Dm-5, Fm, Ab+."
+}

@@ -1,0 +1,128 @@
+{
+  "id": "tap-04-bai-07-hai-piano-tap4-bai07-004",
+  "type": "fill",
+  "name": "Câu 3: Mẫu câu lót nâng cao cấp độ với việc bổ sung hợp âm bậc 7 (Dm7, G7, Em7, Am7), duy trì các nốt chung giữa các hợp",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-07",
+    "locator": "00:05:44-00:07:12 pdf p.34",
+    "media_id": "video_tap4_bai07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap4_75_mau_cau_lot_cau_dan",
+        "page": 34,
+        "section": "câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm7, G7, Em7, Am7, Fmaj7, G7, C",
+    "Giọng: C major",
+    "Gam: C major",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm7",
+      "G7",
+      "Em7",
+      "Am7",
+      "Fmaj7",
+      "G7",
+      "C"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Câu 3: Mẫu câu lót nâng cao cấp độ với việc bổ sung hợp âm bậc 7 (Dm7, G7, Em7, Am7), duy trì các nốt chung giữa các hợp âm để tạo tiếng đàn êm ái, nối tiếp câu mượt mà.",
+    "music_entities": {
+      "chords": [
+        "Dm7",
+        "G7",
+        "Em7",
+        "Am7",
+        "Fmaj7",
+        "G7",
+        "C"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G7",
+      "notes": [
+        "G",
+        "B",
+        "D",
+        "F"
+      ],
+      "hands": {
+        "left": [
+          "G1",
+          "D2"
+        ],
+        "right": [
+          "F3",
+          "B3",
+          "D4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "G7",
+        "notes": [
+          "G",
+          "B",
+          "D",
+          "F"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "G1",
+            "D2"
+          ],
+          "right": [
+            "F3",
+            "B3",
+            "D4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu 3: Mẫu câu lót nâng cao cấp độ với việc bổ sung hợp âm bậc 7 (Dm7, G7, Em7, Am7), duy trì các nốt chung giữa các hợp âm để tạo tiếng đàn êm ái, nối tiếp câu mượt mà."
+}

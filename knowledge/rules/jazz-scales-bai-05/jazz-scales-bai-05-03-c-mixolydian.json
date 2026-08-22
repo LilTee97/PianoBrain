@@ -1,0 +1,73 @@
+{
+  "id": "jazz-scales-bai-05-03-c-mixolydian",
+  "type": "rule",
+  "name": "Khi chạy thang âm Mixolydian 7 nốt đi xuống theo nhịp móc đơn over C7, nốt bậc 4 (F - avoid note",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-05",
+    "locator": "02:00-03:04",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Chọn gam / scale khi gặp hợp âm 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Mixolydian",
+      "root": "C",
+      "note_names": [
+        "C",
+        "Bb",
+        "A",
+        "G",
+        "F",
+        "E",
+        "D",
+        "C"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "7"
+      ],
+      "use_when": [
+        "hợp âm C7"
+      ]
+    },
+    "chord_symbol": "C7",
+    "notes": [
+      "C",
+      "Bb",
+      "A",
+      "G",
+      "F",
+      "E",
+      "D",
+      "C"
+    ],
+    "source_text": "Khi chạy thang âm Mixolydian 7 nốt đi xuống theo nhịp móc đơn over C7, nốt bậc 4 (F - avoid note) bị rơi vào nhịp mạnh (phách 3), tạo ra sự va chạm âm học (clash) gay gắt với nốt bậc 3 (E) có trong hợp âm C7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 5 của nguồn Jazz Scales (YouTube), mốc 02:00-03:04. Khi chạy thang âm Mixolydian 7 nốt đi xuống theo nhịp móc đơn over C7, nốt bậc 4 (F - avoid note) bị rơi vào nhịp mạnh (phách 3), tạo ra sự va chạm âm học (clash) gay gắt với nốt bậc 3 (E) có trong hợp âm C7. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

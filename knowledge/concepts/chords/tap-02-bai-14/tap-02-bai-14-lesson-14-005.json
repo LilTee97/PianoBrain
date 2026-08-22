@@ -1,0 +1,88 @@
+{
+  "id": "tap-02-bai-14-lesson-14-005",
+  "type": "concept",
+  "name": "Hợp âm Đô 7.9#11 (C7.9#11 hoặc Cm7.9#11): Thêm nốt bậc 11 tăng (#11 / F#) tạo độ căng chói đặc trưng, thường chuyển giải",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:10:33-00:11:36 pdf p.5",
+    "media_id": "video_tap_02_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 5,
+        "section": "Cm7.9#11"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C7(9,#11), Cm7(9,#11)",
+    "Giọng: C major, C minor",
+    "Gam: Lydian Dominant",
+    "Nốt màu: 9, #11",
+    "Điệu / phong cách: Jazz, Modern Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C7(9,#11)",
+      "Cm7(9,#11)"
+    ],
+    "style": [
+      "jazz",
+      "pop",
+      "modern-pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "tension",
+    "raw_text": "Hợp âm Đô 7.9#11 (C7.9#11 hoặc Cm7.9#11): Thêm nốt bậc 11 tăng (#11 / F#) tạo độ căng chói đặc trưng, thường chuyển giải kết về hợp âm bậc 11 chuẩn hoặc hợp âm át/chủ.",
+    "music_entities": {
+      "chords": [
+        "C7(9,#11)",
+        "Cm7(9,#11)"
+      ],
+      "tensions": [
+        "9",
+        "#11"
+      ],
+      "keys": [
+        "C major",
+        "C minor"
+      ],
+      "scales": [
+        "Lydian Dominant"
+      ],
+      "styles": [
+        "Jazz",
+        "Modern Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C7(9,#11)",
+      "notes": [
+        "C2",
+        "G2",
+        "Bb3",
+        "D4",
+        "F#4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "Bb3",
+          "D4",
+          "F#4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Đô 7.9#11 (C7.9#11 hoặc Cm7.9#11): Thêm nốt bậc 11 tăng (#11 / F#) tạo độ căng chói đặc trưng, thường chuyển giải kết về hợp âm bậc 11 chuẩn hoặc hợp âm át/chủ."
+}

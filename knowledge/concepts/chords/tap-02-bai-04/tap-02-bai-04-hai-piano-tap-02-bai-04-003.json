@@ -1,0 +1,91 @@
+{
+  "id": "tap-02-bai-04-hai-piano-tap-02-bai-04-003",
+  "type": "concept",
+  "name": "Hợp âm Bảy Át (Dominant 7th - Ký hiệu C7): Cấu tạo bởi 1 Hợp âm 3 Trưởng + Quãng 3 thứ (H.A.3T + Q3t)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": "12:25:00-15:52:00 pdf p.5",
+    "media_id": "video_tap_02_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_book",
+        "page": 5,
+        "section": "2 Bảy Át"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C7, G7, A7, D7",
+    "Giọng: C, G",
+    "Gam: Dominant",
+    "Nốt màu: b7",
+    "Điệu / phong cách: pop, jazz, gospel"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C7",
+      "G7",
+      "A7",
+      "D7"
+    ],
+    "style": [
+      "pop",
+      "jazz",
+      "gospel"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hợp âm Bảy Át (Dominant 7th - Ký hiệu C7): Cấu tạo bởi 1 Hợp âm 3 Trưởng + Quãng 3 thứ (H.A.3T + Q3t). Hai âm ngoài cùng tạo thành Quãng 7 thứ (Q7t). Tính chất hòa âm hút rất mạnh về hợp âm bậc IV hoặc bậc I.",
+    "music_entities": {
+      "chords": [
+        "C7",
+        "G7",
+        "A7",
+        "D7"
+      ],
+      "tensions": [
+        "b7"
+      ],
+      "keys": [
+        "C",
+        "G"
+      ],
+      "scales": [
+        "Dominant"
+      ],
+      "styles": [
+        "pop",
+        "jazz",
+        "gospel"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C7",
+      "notes": [
+        "C4",
+        "E4",
+        "G4",
+        "Bb4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "Bb4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Bảy Át (Dominant 7th - Ký hiệu C7): Cấu tạo bởi 1 Hợp âm 3 Trưởng + Quãng 3 thứ (H.A.3T + Q3t). Hai âm ngoài cùng tạo thành Quãng 7 thứ (Q7t). Tính chất hòa âm hút rất mạnh về hợp âm bậc IV hoặc bậc I."
+}

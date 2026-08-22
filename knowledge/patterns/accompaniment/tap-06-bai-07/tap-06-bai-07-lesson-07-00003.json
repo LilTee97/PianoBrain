@@ -1,0 +1,130 @@
+{
+  "id": "tap-06-bai-07-lesson-07-00003",
+  "type": "accompaniment",
+  "name": "Mẫu 2 - Tiết tấu Rumba biến tấu: Tay trái sử dụng nốt đen chấm dôi kết hợp các nốt móc đơn (Fa - La - Do - Fa - Mi đối v",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-07",
+    "locator": "05:49-09:18 pdf p.1",
+    "media_id": "vid_tap_06_bai_07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 1,
+        "section": "Mau 2 - Tiet tau Rumba bien tau"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj7, Em7, Dm7, Cmaj7",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: maj7",
+    "Điệu / phong cách: Rumba"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj7",
+      "Em7",
+      "Dm7",
+      "Cmaj7"
+    ],
+    "style": [
+      "rumba"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 2 - Tiết tấu Rumba biến tấu: Tay trái sử dụng nốt đen chấm dôi kết hợp các nốt móc đơn (Fa - La - Do - Fa - Mi đối với Fmaj7), tạo giai điệu rải linh hoạt hơn cho tay trái.",
+    "music_entities": {
+      "chords": [
+        "Fmaj7",
+        "Em7",
+        "Dm7",
+        "Cmaj7"
+      ],
+      "tensions": [
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Rumba"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fmaj7",
+      "notes": [
+        "F2",
+        "A2",
+        "C3",
+        "F3",
+        "E3"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "A2",
+          "C3",
+          "F3",
+          "E3"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Fmaj7",
+        "notes": [
+          "F2",
+          "A2",
+          "C3",
+          "F3",
+          "E3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "A2",
+            "C3",
+            "F3",
+            "E3"
+          ],
+          "right": [
+            "A3",
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 2 - Tiết tấu Rumba biến tấu: Tay trái sử dụng nốt đen chấm dôi kết hợp các nốt móc đơn (Fa - La - Do - Fa - Mi đối với Fmaj7), tạo giai điệu rải linh hoạt hơn cho tay trái."
+}

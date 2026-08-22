@@ -1,0 +1,68 @@
+{
+  "id": "tap-02-bai-05-r-melody-as-7th-degree",
+  "type": "rule",
+  "name": "Để tạo màu sắc nâng cao và sang trọng cho giai điệu, chọn hợp âm sao cho nốt giai điệu trùng với bậc 7 của hợp âm đó.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Pop, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Để tạo màu sắc nâng cao và sang trọng cho giai điệu, chọn hợp âm sao cho nốt giai điệu trùng với bậc 7 của hợp âm đó.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_MELODY_AS_7TH_DEGREE",
+      "category": "harmonization",
+      "description": "Để tạo màu sắc nâng cao và sang trọng cho giai điệu, chọn hợp âm sao cho nốt giai điệu trùng với bậc 7 của hợp âm đó.",
+      "conditions": {
+        "melody_note": "any_diatonic_note",
+        "goal": "enhance_harmonic_color"
+      },
+      "recommendation": "Tra bảng hợp âm chứa nốt giai điệu ở bậc 7 (ví dụ nốt E -> chọn Fmaj7, Fm(maj7), hoặc F#m7-5).",
+      "source_ref": "tap_02_bai_05_004",
+      "lesson_folder": "Tap_02_Bai_05"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Để tạo màu sắc nâng cao và sang trọng cho giai điệu, chọn hợp âm sao cho nốt giai điệu trùng với bậc 7 của hợp âm đó."
+}

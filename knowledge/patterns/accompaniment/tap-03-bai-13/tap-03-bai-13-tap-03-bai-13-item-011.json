@@ -1,0 +1,130 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-011",
+  "type": "exercise",
+  "name": "Thực hành chơi trọn vẹn bài You Raise Me Up từ đầu đến hết ở tốc độ vừa phải, kết hợp pedal ngân ngân đúng phách chuyển",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "18:43:00-20:04:00 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "Full Song Playthrough"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Gadd9, Cadd9, Em7, D/F#, D7, G/B",
+    "Giọng: G Major",
+    "Nốt màu: add9, 7",
+    "Điệu / phong cách: Performance"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Gadd9",
+      "Cadd9",
+      "Em7",
+      "D/F#",
+      "D7",
+      "G/B"
+    ],
+    "style": [
+      "performance"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành chơi trọn vẹn bài You Raise Me Up từ đầu đến hết ở tốc độ vừa phải, kết hợp pedal ngân ngân đúng phách chuyển hợp âm để giữ tiếng ngân ấm áp.",
+    "music_entities": {
+      "chords": [
+        "Gadd9",
+        "Cadd9",
+        "Em7",
+        "D/F#",
+        "D7",
+        "G/B"
+      ],
+      "tensions": [
+        "add9",
+        "7"
+      ],
+      "keys": [
+        "G Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Performance"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Full Arrangement G Major",
+      "notes": [
+        "G2",
+        "D3",
+        "A3",
+        "B3",
+        "D4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "D3"
+        ],
+        "right": [
+          "A3",
+          "B3",
+          "D4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Full Arrangement G Major",
+        "notes": [
+          "G2",
+          "D3",
+          "A3",
+          "B3",
+          "D4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "G2",
+            "D3"
+          ],
+          "right": [
+            "A3",
+            "B3",
+            "D4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành chơi trọn vẹn bài You Raise Me Up từ đầu đến hết ở tốc độ vừa phải, kết hợp pedal ngân ngân đúng phách chuyển hợp âm để giữ tiếng ngân ấm áp."
+}

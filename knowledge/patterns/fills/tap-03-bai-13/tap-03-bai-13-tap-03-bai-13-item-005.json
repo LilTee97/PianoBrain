@@ -1,0 +1,118 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-005",
+  "type": "fill",
+  "name": "Kỹ thuật phân bổ hòa âm: Tay phải không chỉ đánh giai điệu chính mà còn chơi kẹp thêm các nốt hòa âm đệm ở tầm trung để",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "02:40:00-03:05:00 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "RH/LH Counterpoint Concept"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Gadd9, C/G",
+    "Giọng: G Major",
+    "Nốt màu: add9",
+    "Điệu / phong cách: Pop Piano Solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Gadd9",
+      "C/G"
+    ],
+    "style": [
+      "pop",
+      "pop-piano-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Kỹ thuật phân bổ hòa âm: Tay phải không chỉ đánh giai điệu chính mà còn chơi kẹp thêm các nốt hòa âm đệm ở tầm trung để hỗ trợ tay trái, giúp bài đệm dày dặn mà không bị nặng giọng bass.",
+    "music_entities": {
+      "chords": [
+        "Gadd9",
+        "C/G"
+      ],
+      "tensions": [
+        "add9"
+      ],
+      "keys": [
+        "G Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Piano Solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Gadd9 / C/G",
+      "notes": [
+        "G2",
+        "D3",
+        "A3",
+        "B3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "D3"
+        ],
+        "right": [
+          "A3",
+          "B3",
+          "D4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Gadd9 / C/G",
+        "notes": [
+          "G2",
+          "D3",
+          "A3",
+          "B3",
+          "D4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "G2",
+            "D3"
+          ],
+          "right": [
+            "A3",
+            "B3",
+            "D4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật phân bổ hòa âm: Tay phải không chỉ đánh giai điệu chính mà còn chơi kẹp thêm các nốt hòa âm đệm ở tầm trung để hỗ trợ tay trái, giúp bài đệm dày dặn mà không bị nặng giọng bass."
+}

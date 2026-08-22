@@ -1,0 +1,65 @@
+{
+  "id": "tap-03-bai-09-rule-lh-arpeggio-voicing-ballad",
+  "type": "rule",
+  "name": "Sử dụng cấu trúc arpeggio 1-5-8-9 hoặc 1-5-3 rải rộng cho đệm Pop/Ballad 4/4.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-09",
+    "locator": "00:40-02:05 pdf p.8",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Solo, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-solo",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Solo",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng cấu trúc arpeggio 1-5-8-9 hoặc 1-5-3 rải rộng cho đệm Pop/Ballad 4/4.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Rải tay trái theo chuỗi nốt Root -> 5th -> 8th/9th -> 3rd để âm thanh vang đầy không bị đục bass."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_lh_arpeggio_voicing_ballad",
+      "domain": "Left Hand Accompaniment",
+      "summary": "Sử dụng cấu trúc arpeggio 1-5-8-9 hoặc 1-5-3 rải rộng cho đệm Pop/Ballad 4/4.",
+      "trigger": "Đệm piano solo hòa âm Ballad tempo chậm đến trung bình.",
+      "action": "Rải tay trái theo chuỗi nốt Root -> 5th -> 8th/9th -> 3rd để âm thanh vang đầy không bị đục bass.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_09"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng cấu trúc arpeggio 1-5-8-9 hoặc 1-5-3 rải rộng cho đệm Pop/Ballad 4/4."
+}

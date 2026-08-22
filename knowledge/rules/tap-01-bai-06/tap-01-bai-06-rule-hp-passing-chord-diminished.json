@@ -1,0 +1,67 @@
+{
+  "id": "tap-01-bai-06-rule-hp-passing-chord-diminished",
+  "type": "rule",
+  "name": "Trước khi về hợp âm bậc thứ (như Em hoặc Am), có thể thêm hợp âm dẫn nửa giảm hoặc giảm b5 (như F#m7b5 hoặc G#dim) để tạ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-06",
+    "locator": "17:40:00-18:55:00 pdf p.4",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Pop, Sacred Music"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "sacred-music"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop",
+        "Sacred Music"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trước khi về hợp âm bậc thứ (như Em hoặc Am), có thể thêm hợp âm dẫn nửa giảm hoặc giảm b5 (như F#m7b5 hoặc G#dim) để tạo độ hút căng nhẹ và dâng trào cảm xúc cho câu hát.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_HP_PASSING_CHORD_DIMINISHED",
+      "name": "Sử dụng Hợp âm Dẫn Giảm / Nửa Giảm trước hợp âm mục tiêu",
+      "description": "Trước khi về hợp âm bậc thứ (như Em hoặc Am), có thể thêm hợp âm dẫn nửa giảm hoặc giảm b5 (như F#m7b5 hoặc G#dim) để tạo độ hút căng nhẹ và dâng trào cảm xúc cho câu hát.",
+      "domain": "Re-harmonization",
+      "type": "Arrangement Technique",
+      "confidence": "direct",
+      "source_reference": {
+        "video_timestamp": "23:10 - 24:30",
+        "pdf_page": "pdf_tap01_bai06_10, page 3"
+      },
+      "lesson_folder": "Tap_01_Bai_06"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trước khi về hợp âm bậc thứ (như Em hoặc Am), có thể thêm hợp âm dẫn nửa giảm hoặc giảm b5 (như F#m7b5 hoặc G#dim) để tạo độ hút căng nhẹ và dâng trào cảm xúc cho câu hát."
+}

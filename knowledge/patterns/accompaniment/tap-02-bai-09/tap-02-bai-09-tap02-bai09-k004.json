@@ -1,0 +1,133 @@
+{
+  "id": "tap-02-bai-09-tap02-bai09-k004",
+  "type": "exercise",
+  "name": "Ứng dụng Vòng 1 làm đoạn Intro mở đầu bài hát (Ví dụ: 'Mưa Hồng' - Trịnh Công Sơn, hoặc nhạc Thánh ca 'Lời Ngài là sức s",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-09",
+    "locator": "00:07:02-00:11:12 pdf p.8",
+    "media_id": "video_tap02_bai09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap02_bai06_10",
+        "page": 8,
+        "section": "BÀI 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, Fadd9, Gsus4, C9",
+    "Giọng: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Thánh ca, Nhạc nhẹ"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "Fadd9",
+      "Gsus4",
+      "C9"
+    ],
+    "style": [
+      "th-nh-ca",
+      "nh-c-nh"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ứng dụng Vòng 1 làm đoạn Intro mở đầu bài hát (Ví dụ: 'Mưa Hồng' - Trịnh Công Sơn, hoặc nhạc Thánh ca 'Lời Ngài là sức sống'). Điểm giai điệu Intro nhấn vào bậc 9 để tạo nét sang trọng.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "Fadd9",
+        "Gsus4",
+        "C9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Thánh ca",
+        "Nhạc nhẹ"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9 -> Fadd9 -> Gsus4",
+      "notes": [
+        "D4",
+        "E4",
+        "G4",
+        "G4",
+        "G4",
+        "A4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "C3-G3",
+          "F3-C4",
+          "G3-D4"
+        ],
+        "right": [
+          "Melody line with 9th notes"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cadd9 -> Fadd9 -> Gsus4",
+        "notes": [
+          "D4",
+          "E4",
+          "G4",
+          "G4",
+          "G4",
+          "A4",
+          "G4",
+          "F4",
+          "E4",
+          "D4",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3-G3",
+            "F3-C4",
+            "G3-D4"
+          ],
+          "right": [
+            "Melody line with 9th notes"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng Vòng 1 làm đoạn Intro mở đầu bài hát (Ví dụ: 'Mưa Hồng' - Trịnh Công Sơn, hoặc nhạc Thánh ca 'Lời Ngài là sức sống'). Điểm giai điệu Intro nhấn vào bậc 9 để tạo nét sang trọng."
+}

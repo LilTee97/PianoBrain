@@ -1,0 +1,144 @@
+{
+  "id": "tap-06-bai-03-hai-piano-course-001-lesson-03-006",
+  "type": "fill",
+  "name": "Mẫu 3 (High Dynamic / 16th-note sub-division): Chia nhỏ phách bằng liên nốt móc kép (16th notes) ở các phách đầu ô nhịp",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-03",
+    "locator": "00:11:50-00:14:30 pdf p.1",
+    "media_id": "Tap_06_Bai_03.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_06_Bai_03.pdf",
+        "page": 1,
+        "section": "Mẫu 3 - Móc Kép Cao Trào / Arpeggio Sub-division"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Fmaj7, Dm7(9), Gsus4",
+    "Giọng: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Fmaj7",
+      "Dm7(9)",
+      "Gsus4"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 3 (High Dynamic / 16th-note sub-division): Chia nhỏ phách bằng liên nốt móc kép (16th notes) ở các phách đầu ô nhịp (ví dụ: 1-5-8-9 ở phách 1) kết hợp chèn câu lót ngón (Fill-in) ở tay phải. Mẫu đệm này dùng cho đỉnh điểm cao trào (Climax) hoặc câu chuyển đoạn.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Fmaj7",
+        "Dm7(9)",
+        "Gsus4"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "D3",
+        "E3",
+        "D3",
+        "C3",
+        "G2"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3",
+          "D3",
+          "E3",
+          "D3",
+          "C3",
+          "G2"
+        ],
+        "right": [
+          "E5",
+          "D5",
+          "C5",
+          "B4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C2",
+          "G2",
+          "C3",
+          "D3",
+          "E3",
+          "D3",
+          "C3",
+          "G2"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "C3",
+            "D3",
+            "E3",
+            "D3",
+            "C3",
+            "G2"
+          ],
+          "right": [
+            "E5",
+            "D5",
+            "C5",
+            "B4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 3 (High Dynamic / 16th-note sub-division): Chia nhỏ phách bằng liên nốt móc kép (16th notes) ở các phách đầu ô nhịp (ví dụ: 1-5-8-9 ở phách 1) kết hợp chèn câu lót ngón (Fill-in) ở tay phải. Mẫu đệm này dùng cho đỉnh điểm cao trào (Climax) hoặc câu chuyển đoạn."
+}

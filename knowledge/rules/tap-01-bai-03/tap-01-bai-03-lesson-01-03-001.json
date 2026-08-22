@@ -1,0 +1,71 @@
+{
+  "id": "tap-01-bai-03-lesson-01-03-001",
+  "type": "rule",
+  "name": "Nguyên tắc đệm Ballad: Tay trái di chuyển 1-5 hoặc 1-5-1-3 thoải mái",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-03",
+    "locator": "00:00:36-00:06:27 pdf p.7",
+    "media_id": "video_lesson_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_1_5",
+        "page": 7,
+        "section": "Nguyên tắc"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C",
+    "Gam: C major",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Nguyên tắc đệm Ballad: Tay trái di chuyển 1-5 hoặc 1-5-1-3 thoải mái. Tay phải giữ các nốt bè giữa di chuyển không quá một quãng 3 để hòa âm mượt mà, không lấn át giai điệu và ca sĩ. Giữ âm lượng vừa phải.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nguyên tắc đệm Ballad: Tay trái di chuyển 1-5 hoặc 1-5-1-3 thoải mái. Tay phải giữ các nốt bè giữa di chuyển không quá một quãng 3 để hòa âm mượt mà, không lấn át giai điệu và ca sĩ. Giữ âm lượng vừa phải."
+}

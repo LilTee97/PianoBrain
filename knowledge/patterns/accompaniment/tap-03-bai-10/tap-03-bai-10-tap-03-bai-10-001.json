@@ -1,0 +1,144 @@
+{
+  "id": "tap-03-bai-10-tap-03-bai-10-001",
+  "type": "exercise",
+  "name": "Demo trình diễn Piano Solo bài Can't Help Falling In Love với tiết tấu Slow Rock (chùm 3 nốt) kết hợp hòa âm mở rộng.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-10",
+    "locator": "00:00:00-00:00:34 pdf p.9",
+    "media_id": "video_tap_03_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 9,
+        "section": "Score Page 1"
+      },
+      {
+        "source_id": "pdf_tap_03",
+        "page": 10,
+        "section": "Score Page 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: F, C/E, Dm, Bb, F/A, Gm, C7",
+    "Giọng: F Major",
+    "Gam: F Major Scale",
+    "Nốt màu: 9, 7",
+    "Điệu / phong cách: Slow Rock, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "F",
+      "C/E",
+      "Dm",
+      "Bb",
+      "F/A",
+      "Gm",
+      "C7"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Demo trình diễn Piano Solo bài Can't Help Falling In Love với tiết tấu Slow Rock (chùm 3 nốt) kết hợp hòa âm mở rộng.",
+    "music_entities": {
+      "chords": [
+        "F",
+        "C/E",
+        "Dm",
+        "Bb",
+        "F/A",
+        "Gm",
+        "C7"
+      ],
+      "tensions": [
+        "9",
+        "7"
+      ],
+      "keys": [
+        "F Major"
+      ],
+      "scales": [
+        "F Major Scale"
+      ],
+      "styles": [
+        "Slow Rock",
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "F",
+      "notes": [
+        "F2",
+        "C3",
+        "F3",
+        "A3",
+        "C4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3",
+          "F3"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "F4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "F",
+        "notes": [
+          "F2",
+          "C3",
+          "F3",
+          "A3",
+          "C4",
+          "F4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "C3",
+            "F3"
+          ],
+          "right": [
+            "A3",
+            "C4",
+            "F4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Demo trình diễn Piano Solo bài Can't Help Falling In Love với tiết tấu Slow Rock (chùm 3 nốt) kết hợp hòa âm mở rộng."
+}

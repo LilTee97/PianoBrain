@@ -1,0 +1,103 @@
+{
+  "id": "tap-02-bai-15-lesson-id-00005",
+  "type": "accompaniment",
+  "name": "Đoạn B (Verse 2 / Điệp khúc): C9 -> Bm7-5 -> E7.9.13 -> Am7 -> Am(maj7) -> Dm7 -> Dm(maj7) -> Gsus4 -> C9",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-15",
+    "locator": "08:28:00-11:20:00 pdf p.11",
+    "media_id": "video_tap_02_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 11,
+        "section": "Nàng Thơ Sheet Music - Đoạn B"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, Bm7-5, E7.9.13, Am7, Am(maj7), Dm7, Dm(maj7), Gsus4, C9",
+    "Giọng: C major, A minor",
+    "Gam: A harmonic minor, A melodic minor",
+    "Nốt màu: b9, 13, maj7",
+    "Điệu / phong cách: Pop Ballad Chorus"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "Bm7-5",
+      "E7.9.13",
+      "Am7",
+      "Am(maj7)",
+      "Dm7",
+      "Dm(maj7)",
+      "Gsus4",
+      "C9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad-chorus"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Đoạn B (Verse 2 / Điệp khúc): C9 -> Bm7-5 -> E7.9.13 -> Am7 -> Am(maj7) -> Dm7 -> Dm(maj7) -> Gsus4 -> C9. Áp dụng line cliché đảo nốt bậc 7 (Am7 -> Am(maj7), Dm7 -> Dm(maj7)) và hợp âm E7(b9,13) làm hợp âm át bậc V của Am7, tạo màu sắc lãng mạn sâu lắng.",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "Bm7-5",
+        "E7.9.13",
+        "Am7",
+        "Am(maj7)",
+        "Dm7",
+        "Dm(maj7)",
+        "Gsus4",
+        "C9"
+      ],
+      "tensions": [
+        "b9",
+        "13",
+        "maj7"
+      ],
+      "keys": [
+        "C major",
+        "A minor"
+      ],
+      "scales": [
+        "A harmonic minor",
+        "A melodic minor"
+      ],
+      "styles": [
+        "Pop Ballad Chorus"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "E7.9.13",
+      "notes": [
+        "E2",
+        "G#3",
+        "D4",
+        "F4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "E2"
+        ],
+        "right": [
+          "G#3",
+          "D4",
+          "F4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Đoạn B (Verse 2 / Điệp khúc): C9 -> Bm7-5 -> E7.9.13 -> Am7 -> Am(maj7) -> Dm7 -> Dm(maj7) -> Gsus4 -> C9. Áp dụng line cliché đảo nốt bậc 7 (Am7 -> Am(maj7), Dm7 -> Dm(maj7)) và hợp âm E7(b9,13) làm hợp âm át bậc V của Am7, tạo màu sắc lãng mạn sâu lắng."
+}

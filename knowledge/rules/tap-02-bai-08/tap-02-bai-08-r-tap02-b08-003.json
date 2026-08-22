@@ -1,0 +1,85 @@
+{
+  "id": "tap-02-bai-08-r-tap02-b08-003",
+  "type": "rule",
+  "name": "Cách phân bổ ngón giữa 2 tay cho hợp âm 9 trong đệm hát.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:02:10-00:04:12 pdf p.7",
+    "extra_locators": [
+      "00:04:12-00:05:25 pdf p.7",
+      "00:05:25-00:06:20 pdf p.7",
+      "00:06:20-00:09:13 pdf p.7",
+      "00:09:13-00:11:07 pdf p.7",
+      "00:11:07-00:12:24 pdf p.7",
+      "00:12:24-00:14:53 pdf p.7"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Accompaniment Voicing, Acoustic, Ballad, Ballad Fill-in, Cinematic, Contemporary, Jazz, Pop, Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment-voicing",
+      "acoustic",
+      "pop_ballad",
+      "ballad",
+      "ballad-fill-in",
+      "cinematic",
+      "pop",
+      "contemporary",
+      "jazz",
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Accompaniment Voicing",
+        "Acoustic",
+        "Ballad",
+        "Ballad Fill-in",
+        "Cinematic",
+        "Contemporary",
+        "Jazz",
+        "Pop",
+        "Solo Piano"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Cách phân bổ ngón giữa 2 tay cho hợp âm 9 trong đệm hát.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Tay trái bấm quãng Root - 5th (1-5) hoặc Root - 7th (1-7). Tay phải bấm vỏ hợp âm chứa 3rd - 7th - 9th hoặc 7th - 3rd - 9th với nốt 9th đặt ở lớp trên cùng nếu là giai điệu."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP02_B08_003",
+      "name": "Left/Right Hand Shell Voicing for 9th Chords",
+      "category": "Voicing",
+      "description": "Cách phân bổ ngón giữa 2 tay cho hợp âm 9 trong đệm hát.",
+      "condition": "Thực hành đệm hợp âm mở rộng bậc 9.",
+      "action": "Tay trái bấm quãng Root - 5th (1-5) hoặc Root - 7th (1-7). Tay phải bấm vỏ hợp âm chứa 3rd - 7th - 9th hoặc 7th - 3rd - 9th với nốt 9th đặt ở lớp trên cùng nếu là giai điệu.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_08"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Cách phân bổ ngón giữa 2 tay cho hợp âm 9 trong đệm hát."
+}

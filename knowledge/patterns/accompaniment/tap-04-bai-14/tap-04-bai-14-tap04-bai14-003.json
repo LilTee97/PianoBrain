@@ -1,0 +1,101 @@
+{
+  "id": "tap-04-bai-14-tap04-bai14-003",
+  "type": "exercise",
+  "name": "Mẫu câu 2 (Bài 14): Mẫu câu lót nâng cao nhịp điệu nhẹ, sử dụng nốt thắt (passing note) và tiết tấu móc kép lướt để câu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-14",
+    "locator": "00:03:22-00:04:10 pdf p.68",
+    "media_id": "video_tap04_bai14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04_75_mau_cau_lot",
+        "page": 68,
+        "section": "Bài 14 - Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm, Gm, C, F, Bb, A7",
+    "Giọng: D minor",
+    "Gam: D minor",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm",
+      "Gm",
+      "C",
+      "F",
+      "Bb",
+      "A7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu 2 (Bài 14): Mẫu câu lót nâng cao nhịp điệu nhẹ, sử dụng nốt thắt (passing note) và tiết tấu móc kép lướt để câu dẫn mềm mại hơn.",
+    "music_entities": {
+      "chords": [
+        "Dm",
+        "Gm",
+        "C",
+        "F",
+        "Bb",
+        "A7"
+      ],
+      "tensions": [],
+      "keys": [
+        "D minor"
+      ],
+      "scales": [
+        "D minor"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm - Gm",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm - Gm",
+        "notes": [],
+        "rhythm": [],
+        "hands": {
+          "left": [],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 2 (Bài 14): Mẫu câu lót nâng cao nhịp điệu nhẹ, sử dụng nốt thắt (passing note) và tiết tấu móc kép lướt để câu dẫn mềm mại hơn."
+}

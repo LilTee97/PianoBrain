@@ -1,0 +1,63 @@
+{
+  "id": "tap-01-bai-08-rule-l08-001",
+  "type": "rule",
+  "name": "In 2/4 or 4/4 time, Slowrock rhythm divides each beat into an 8th-note triplet (chùm liên 3)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-08",
+    "locator": "00:14:56-00:18:23 pdf p.6",
+    "extra_locators": [
+      "00:22:49-00:28:23 pdf p.6"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Slowrock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "slowrock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Slowrock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "In 2/4 or 4/4 time, Slowrock rhythm divides each beat into an 8th-note triplet (chùm liên 3). The first note of the triplet is played strong (bass/downbeat), while the 2nd and 3rd notes are played light (right-hand chord fill).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_l08_001",
+      "name": "Slowrock Triplet Accent Division",
+      "type": "rhythm_accent",
+      "description": "In 2/4 or 4/4 time, Slowrock rhythm divides each beat into an 8th-note triplet (chùm liên 3). The first note of the triplet is played strong (bass/downbeat), while the 2nd and 3rd notes are played light (right-hand chord fill).",
+      "applicability": "Slowrock accompaniment in 2/4 or 4/4 meter",
+      "confidence": "direct",
+      "lesson_folder": "Tap_01_Bai_08"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "In 2/4 or 4/4 time, Slowrock rhythm divides each beat into an 8th-note triplet (chùm liên 3). The first note of the triplet is played strong (bass/downbeat), while the 2nd and 3rd notes are played light (right-hand chord fill)."
+}

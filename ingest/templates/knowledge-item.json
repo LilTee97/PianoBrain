@@ -1,0 +1,14 @@
+{
+  "id": "doi-thanh-kebab-case",
+  "type": "chord_color",
+  "name": "Tên người đọc được",
+  "difficulty": 3,
+  "source": { "teacher_id": "hai-joseph", "source_id": "phai-co-trong-sources-index", "locator": "mm:ss" },
+  "use_when": ["khi nào dùng"],
+  "avoid_when": ["khi nào cấm"],
+  "input": { "progression": ["I", "vi", "IV", "V"], "key_context": "major", "style": ["pop_ballad"], "difficulty_max": 5 },
+  "output": {},
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Giải thích tại sao, cho người học."
+}

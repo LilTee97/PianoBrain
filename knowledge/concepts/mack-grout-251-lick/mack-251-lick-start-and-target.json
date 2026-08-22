@@ -1,0 +1,30 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-lick-start-and-target",
+  "type": "concept",
+  "name": "Lick xuất phát từ nốt gốc bậc ii (D) và hút về nốt đích trên bậc I",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:01:12"
+  },
+  "use_when": [
+    "Tập một câu lick ii-V-I",
+    "Muốn biết câu bắt đầu và kết ở đâu"
+  ],
+  "output": {
+    "start_note": "D",
+    "start_role": "root của ii",
+    "target_chord": "C",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Câu lick bắt đầu từ nốt gốc của hợp âm bậc ii (nốt D) và kết thúc hút về nốt đích trên hợp âm bậc I (C).",
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  }
+}

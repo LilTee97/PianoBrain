@@ -1,0 +1,141 @@
+{
+  "id": "tap-01-bai-14-lesson-14-00009",
+  "type": "accompaniment",
+  "name": "Bước 9 - Soạn Intro & Outro: Intro xây dựng theo vòng Canon đường Bass đi xuống liền bậc (C - G/B - Am - Em/G - F - C/E",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "25:05-28:00 pdf p.9",
+    "media_id": "video_tap_01_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_11_15",
+        "page": 9,
+        "section": "9. Tạo intro và Outro"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, Em/G, F, C/E, Dm, G, C",
+    "Giọng: C Major",
+    "Điệu / phong cách: Valse, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "Em/G",
+      "F",
+      "C/E",
+      "Dm",
+      "G",
+      "C"
+    ],
+    "style": [
+      "valse",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bước 9 - Soạn Intro & Outro: Intro xây dựng theo vòng Canon đường Bass đi xuống liền bậc (C - G/B - Am - Em/G - F - C/E - Dm - G - C). Outro áp dụng công thức 4-3-2-5-1 (F - C/E - Dm - G - C).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "Em/G",
+        "F",
+        "C/E",
+        "Dm",
+        "G",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Valse",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Outro: F - C/E - Dm - G - C",
+      "notes": [
+        "F2-A3-C4-F4",
+        "E2-G3-C4-E4",
+        "D2-F3-A3-D4",
+        "G1-B3-D4-G4",
+        "C2-G3-C4-E4"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "E2",
+          "D2",
+          "G1",
+          "C2"
+        ],
+        "right": [
+          "A3-C4-F4",
+          "G3-C4-E4",
+          "F3-A3-D4",
+          "B3-D4-G4",
+          "G3-C4-E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Outro: F - C/E - Dm - G - C",
+        "notes": [
+          "F2-A3-C4-F4",
+          "E2-G3-C4-E4",
+          "D2-F3-A3-D4",
+          "G1-B3-D4-G4",
+          "C2-G3-C4-E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "E2",
+            "D2",
+            "G1",
+            "C2"
+          ],
+          "right": [
+            "A3-C4-F4",
+            "G3-C4-E4",
+            "F3-A3-D4",
+            "B3-D4-G4",
+            "G3-C4-E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bước 9 - Soạn Intro & Outro: Intro xây dựng theo vòng Canon đường Bass đi xuống liền bậc (C - G/B - Am - Em/G - F - C/E - Dm - G - C). Outro áp dụng công thức 4-3-2-5-1 (F - C/E - Dm - G - C)."
+}

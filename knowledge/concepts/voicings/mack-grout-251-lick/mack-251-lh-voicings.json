@@ -1,0 +1,57 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-lh-voicings",
+  "type": "voicing",
+  "name": "Tay trái: Dm9 → G13/G7 → Cmaj7, hoặc rút gọn gốc-bậc 7 / gốc-bậc 3",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:01:06"
+  },
+  "use_when": [
+    "Tay trái giữ hòa âm để tay phải chạy lick",
+    "Chơi một mình không có bass"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Dm9",
+      "G13",
+      "G7",
+      "Cmaj7"
+    ]
+  },
+  "output": {
+    "hand": "LH",
+    "full": {
+      "Dm9": [
+        "D",
+        "F",
+        "A",
+        "C",
+        "E"
+      ],
+      "G13": [
+        "G",
+        "B",
+        "D",
+        "F",
+        "E"
+      ],
+      "Cmaj7": [
+        "C",
+        "E",
+        "G",
+        "B"
+      ]
+    },
+    "shell": "gốc + bậc 7, hoặc gốc + bậc 3",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Tay trái bấm Dm9 (D-F-A-C-E) → G13 hoặc G7 (G-B-D-F, thêm E hoặc A) → Cmaj7 (C-E-G-B). Hoặc bấm rút gọn chỉ gốc với bậc 7, hoặc gốc với bậc 3."
+}

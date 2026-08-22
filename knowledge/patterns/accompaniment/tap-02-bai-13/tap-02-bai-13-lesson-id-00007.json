@@ -1,0 +1,91 @@
+{
+  "id": "tap-02-bai-13-lesson-id-00007",
+  "type": "accompaniment",
+  "name": "Phần 2: Rhythmic Motifs (Tuýp tiết tấu)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-13",
+    "locator": "14:41:00-17:58:00 pdf p.4",
+    "media_id": "Tap_02_Bai_13.mp4",
+    "supporting": [
+      {
+        "source_id": "PDF_Tap_2_Bai_11_15.pdf",
+        "page": 4,
+        "section": "Tuýp : Ta dùng các chất liệu sau và kết hợp chúng lại"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, Dm7-5, G/B",
+    "Giọng: C major",
+    "Gam: C Major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Pop, Ballad, Bossa Nova"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "Dm7-5",
+      "G/B"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "bossa-nova"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Phần 2: Rhythmic Motifs (Tuýp tiết tấu). Phân tích các chất liệu tiết tấu cơ bản (nốt đen, móc đơn, giật sau, giật trước/đòn gánh, liên 3, móc kép) và phương pháp ghép nối tạo Motif đệm/Intro cá nhân.",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "Dm7-5",
+        "G/B"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad",
+        "Bossa Nova"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C9",
+      "notes": [
+        "C3",
+        "G3",
+        "E4",
+        "G4",
+        "D5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "D5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phần 2: Rhythmic Motifs (Tuýp tiết tấu). Phân tích các chất liệu tiết tấu cơ bản (nốt đen, móc đơn, giật sau, giật trước/đòn gánh, liên 3, móc kép) và phương pháp ghép nối tạo Motif đệm/Intro cá nhân."
+}

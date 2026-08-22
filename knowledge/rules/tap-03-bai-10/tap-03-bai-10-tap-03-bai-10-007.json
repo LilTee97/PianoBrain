@@ -1,0 +1,94 @@
+{
+  "id": "tap-03-bai-10-tap-03-bai-10-007",
+  "type": "rule",
+  "name": "Kỹ thuật nâng cao (Tips): Đưa âm vực rải lên cao hơn hoặc dùng hợp âm mở rộng (Add9, Sus4, 6th) để tránh tiếng trầm bị u",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-10",
+    "locator": "00:16:56-00:22:49 pdf p.9",
+    "media_id": "video_tap_03_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 9,
+        "section": "Re-harmonization & Tips"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: F(add9), Bb(add9), Csus4, C7, Bb6",
+    "Giọng: F Major",
+    "Gam: F Major Scale",
+    "Nốt màu: 9, sus4, 6",
+    "Điệu / phong cách: Piano Solo, Advanced Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "F(add9)",
+      "Bb(add9)",
+      "Csus4",
+      "C7",
+      "Bb6"
+    ],
+    "style": [
+      "piano-solo",
+      "pop_ballad",
+      "advanced-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Kỹ thuật nâng cao (Tips): Đưa âm vực rải lên cao hơn hoặc dùng hợp âm mở rộng (Add9, Sus4, 6th) để tránh tiếng trầm bị uồm đục khi đệm Piano Solo. Tay phải hỗ trợ bấm bớt các nốt hợp âm ở tầng trung (Middle range) khi tay trái đi nốt Bass rải rộng.",
+    "music_entities": {
+      "chords": [
+        "F(add9)",
+        "Bb(add9)",
+        "Csus4",
+        "C7",
+        "Bb6"
+      ],
+      "tensions": [
+        "9",
+        "sus4",
+        "6"
+      ],
+      "keys": [
+        "F Major"
+      ],
+      "scales": [
+        "F Major Scale"
+      ],
+      "styles": [
+        "Piano Solo",
+        "Advanced Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Csus4",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "F4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "F4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật nâng cao (Tips): Đưa âm vực rải lên cao hơn hoặc dùng hợp âm mở rộng (Add9, Sus4, 6th) để tránh tiếng trầm bị uồm đục khi đệm Piano Solo. Tay phải hỗ trợ bấm bớt các nốt hợp âm ở tầng trung (Middle range) khi tay trái đi nốt Bass rải rộng."
+}

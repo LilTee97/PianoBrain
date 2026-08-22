@@ -1,0 +1,80 @@
+{
+  "id": "tap-01-bai-11-lesson-id-0011-01",
+  "type": "concept",
+  "name": "Khái niệm hợp âm Sus (Sus4, Sus2): Hợp âm treo/lơ lửng, không chứa nốt bậc 3 (bỏ nốt bậc 3), làm mờ màu sắc Trưởng/Thứ r",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-11",
+    "locator": "00:00:45-00:03:38 pdf p.2",
+    "media_id": "video_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_11_15",
+        "page": 2,
+        "section": "1. SUS4 & 2. SUS2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Csus4, Csus2",
+    "Giọng: C",
+    "Điệu / phong cách: pop, ballad, gospel"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Csus4",
+      "Csus2"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "gospel"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Khái niệm hợp âm Sus (Sus4, Sus2): Hợp âm treo/lơ lửng, không chứa nốt bậc 3 (bỏ nốt bậc 3), làm mờ màu sắc Trưởng/Thứ rõ rệt. Tạo cảm giác mông lung, xa xăm, thích hợp cho nhạc nhẹ, đệm thánh ca, không gian rộng mở.",
+    "music_entities": {
+      "chords": [
+        "Csus4",
+        "Csus2"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "pop",
+        "ballad",
+        "gospel"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Csus4",
+      "notes": [
+        "C4",
+        "F4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "F4",
+          "G4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khái niệm hợp âm Sus (Sus4, Sus2): Hợp âm treo/lơ lửng, không chứa nốt bậc 3 (bỏ nốt bậc 3), làm mờ màu sắc Trưởng/Thứ rõ rệt. Tạo cảm giác mông lung, xa xăm, thích hợp cho nhạc nhẹ, đệm thánh ca, không gian rộng mở."
+}

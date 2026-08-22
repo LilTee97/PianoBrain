@@ -1,0 +1,48 @@
+{
+  "id": "jazz-scales-bai-09-06-c-altered",
+  "type": "arpeggio",
+  "name": "Practice arpeggiating broken 7th chords from each scale degree of the altered scale.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-09",
+    "locator": "09:50-10:48",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7alt",
+    "Ngẫu hứng jazz trên hợp âm Cm7b5",
+    "Ngẫu hứng jazz trên hợp âm Dbm(maj7)",
+    "Chọn gam / scale khi gặp hợp âm 7alt, m7b5, m(maj7) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7alt",
+      "m7b5",
+      "m(maj7)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C7alt",
+    "notes": [
+      "C",
+      "Eb",
+      "Gb",
+      "Bb",
+      "Db",
+      "E",
+      "Ab",
+      "C"
+    ],
+    "source_text": "Practice arpeggiating broken 7th chords from each scale degree of the altered scale. From the root C, it forms Cm7b5; from Db, it forms Dbm(maj7). Playing diatonically broken 3rds, 5ths, and 7ths builds fluency beyond linear scalar runs."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 9 của nguồn Jazz Scales (YouTube), mốc 09:50-10:48. Practice arpeggiating broken 7th chords from each scale degree of the altered scale. From the root C, it forms Cm7b5; from Db, it forms Dbm(maj7). Playing diatonically broken 3rds, 5ths, and 7ths builds fluency beyond linear scalar runs. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

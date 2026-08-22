@@ -1,0 +1,79 @@
+{
+  "id": "tap-02-bai-04-rule-7th-chord-voicing-hands-split",
+  "type": "rule",
+  "name": "Quy tắc phân bổ hai tay khi chơi Hợp âm 7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: accompaniment, ballad, gospel, pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment",
+      "pop_ballad",
+      "ballad",
+      "gospel",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "accompaniment",
+        "ballad",
+        "gospel",
+        "pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi đệm hát piano với hợp âm 7:\n- Tay trái bấm nốt 1 và nốt 5 (hoặc chỉ nốt 1).\n- Tay phải bấm cặp nốt dẫn hướng 3-7 hoặc 7-3.\n- Tay phải có thể tự do thêm nốt 1 hoặc nốt 5 để tạo câu lót/giai điệu mà không bị vướng ngón.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_7th_chord_voicing_hands_split",
+      "category": "voicing",
+      "summary": "Quy tắc phân bổ hai tay khi chơi Hợp âm 7",
+      "description": "Khi đệm hát piano với hợp âm 7:\n- Tay trái bấm nốt 1 và nốt 5 (hoặc chỉ nốt 1).\n- Tay phải bấm cặp nốt dẫn hướng 3-7 hoặc 7-3.\n- Tay phải có thể tự do thêm nốt 1 hoặc nốt 5 để tạo câu lót/giai điệu mà không bị vướng ngón.",
+      "conditions": {
+        "chord_family": "7th_chords",
+        "style": "accompaniment"
+      },
+      "action": {
+        "lh_pattern": [
+          1,
+          5
+        ],
+        "rh_pattern": [
+          3,
+          7
+        ]
+      },
+      "lesson_folder": "Tap_02_Bai_04"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Khi đệm hát piano với hợp âm 7:\n- Tay trái bấm nốt 1 và nốt 5 (hoặc chỉ nốt 1).\n- Tay phải bấm cặp nốt dẫn hướng 3-7 hoặc 7-3.\n- Tay phải có thể tự do thêm nốt 1 hoặc nốt 5 để tạo câu lót/giai điệu mà không bị vướng ngón."
+}

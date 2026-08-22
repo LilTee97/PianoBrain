@@ -1,0 +1,18 @@
+{
+  "id": "fingering-lh-shell-cmaj7",
+  "type": "fingering",
+  "name": "Ngón tay trái cho shell Cmaj7",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Chơi voicing-lh-shell", "Đệm hát ballad chậm"],
+  "avoid_when": ["Tay nhỏ không với được quãng 10 — đổi sang 1-7 rồi thêm bậc 3 ở tay phải"],
+  "input": { "chord_quality": ["maj7"], "hand": "LH" },
+  "output": {
+    "notes": ["C2", "B2", "E3"],
+    "fingers": [5, 2, 1],
+    "voicing_id": "voicing-lh-shell"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Ngón 5 giữ gốc, ngón 2 bậc 7, ngón 1 bậc 3. Giữ cổ tay thấp và mở lòng bàn tay, đừng với bằng cách xoay vai."
+}

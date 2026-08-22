@@ -1,0 +1,53 @@
+{
+  "id": "tap-03-bai-04-lesson-tap3-bai4-008",
+  "type": "exercise",
+  "name": "Phương pháp luyện tập phản xạ đọc sheet: Mỗi ngày chép tay 2 trang giấy tập kẻ khuôn nhạc các nốt thuộc Khóa Pha và Khóa",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "28:40-29:30 pdf p.2",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "sheet_001",
+        "page": 2,
+        "section": "Phương pháp chép nốt"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Practice Methodology"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "practice-methodology"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Phương pháp luyện tập phản xạ đọc sheet: Mỗi ngày chép tay 2 trang giấy tập kẻ khuôn nhạc các nốt thuộc Khóa Pha và Khóa Sol liên tục. Khi tập trên đàn, xem clip đến đâu bấm dừng (pause) và thực hành ngay trên phím đàn kết hợp máy gõ nhịp (Metronome).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Practice Methodology"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phương pháp luyện tập phản xạ đọc sheet: Mỗi ngày chép tay 2 trang giấy tập kẻ khuôn nhạc các nốt thuộc Khóa Pha và Khóa Sol liên tục. Khi tập trên đàn, xem clip đến đâu bấm dừng (pause) và thực hành ngay trên phím đàn kết hợp máy gõ nhịp (Metronome)."
+}

@@ -1,0 +1,96 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-005",
+  "type": "rule",
+  "name": "Khi nốt giai điệu là F, ta chọn hợp âm gốc Eb/E làm bậc 9 hoặc b9: Ebmaj79 (Eb-G-Bb-D-F), Eb9, Ebm79, E7(-9) / E7b9 (E-G",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:06:20-00:09:13 pdf p.7",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 7,
+        "section": "Cột F - Nốt F làm bậc 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Ebmaj79, Eb9, Ebm79, E7(-9), Em7b5(9)",
+    "Giọng: C minor, Eb major",
+    "Gam: Harmonic minor, Major",
+    "Nốt màu: 9, b9",
+    "Điệu / phong cách: Jazz, Cinematic, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Ebmaj79",
+      "Eb9",
+      "Ebm79",
+      "E7(-9)",
+      "Em7b5(9)"
+    ],
+    "style": [
+      "jazz",
+      "cinematic",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Khi nốt giai điệu là F, ta chọn hợp âm gốc Eb/E làm bậc 9 hoặc b9: Ebmaj79 (Eb-G-Bb-D-F), Eb9, Ebm79, E7(-9) / E7b9 (E-G#-B-D-F), Em7b5(9) (E-G-Bb-D-F).",
+    "music_entities": {
+      "chords": [
+        "Ebmaj79",
+        "Eb9",
+        "Ebm79",
+        "E7(-9)",
+        "Em7b5(9)"
+      ],
+      "tensions": [
+        "9",
+        "b9"
+      ],
+      "keys": [
+        "C minor",
+        "Eb major"
+      ],
+      "scales": [
+        "Harmonic minor",
+        "Major"
+      ],
+      "styles": [
+        "Jazz",
+        "Cinematic",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "E7(-9)",
+      "notes": [
+        "E2",
+        "B2",
+        "G#3",
+        "D4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "E2",
+          "B2"
+        ],
+        "right": [
+          "G#3",
+          "D4",
+          "F4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu là F, ta chọn hợp âm gốc Eb/E làm bậc 9 hoặc b9: Ebmaj79 (Eb-G-Bb-D-F), Eb9, Ebm79, E7(-9) / E7b9 (E-G#-B-D-F), Em7b5(9) (E-G-Bb-D-F)."
+}

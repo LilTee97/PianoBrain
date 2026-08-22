@@ -1,0 +1,122 @@
+{
+  "id": "tap-01-bai-06-tap01-bai06-003",
+  "type": "exercise",
+  "name": "Áp dụng hòa âm tuyến Bass liền bậc cho ca khúc 'Ước Gì': Thay vì dùng vòng gốc C -> G -> Am làm cho nốt Bass bị nhảy quã",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-06",
+    "locator": "02:24:00-04:38:00 pdf p.2",
+    "media_id": "video_tap01_bai06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 2,
+        "section": "Thực hành trên bài nhạc mẫu"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am/C, Em/G, F, C/E",
+    "Giọng: C Major",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am/C",
+      "Em/G",
+      "F",
+      "C/E"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Áp dụng hòa âm tuyến Bass liền bậc cho ca khúc 'Ước Gì': Thay vì dùng vòng gốc C -> G -> Am làm cho nốt Bass bị nhảy quãng cứng, ta dùng C -> G/B -> Am/C để nốt Bass đi xuống liền bậc (C -> B -> A), giúp giai điệu bay bổng và nền hòa âm mịn màng hơn.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am/C",
+        "Em/G",
+        "F",
+        "C/E"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - G/B - Am/C",
+      "notes": [
+        "C3",
+        "B2",
+        "A2"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "B2",
+          "A2"
+        ],
+        "right": [
+          "E4",
+          "D4",
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - G/B - Am/C",
+        "notes": [
+          "C3",
+          "B2",
+          "A2"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "B2",
+            "A2"
+          ],
+          "right": [
+            "E4",
+            "D4",
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Áp dụng hòa âm tuyến Bass liền bậc cho ca khúc 'Ước Gì': Thay vì dùng vòng gốc C -> G -> Am làm cho nốt Bass bị nhảy quãng cứng, ta dùng C -> G/B -> Am/C để nốt Bass đi xuống liền bậc (C -> B -> A), giúp giai điệu bay bổng và nền hòa âm mịn màng hơn."
+}

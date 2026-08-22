@@ -1,0 +1,116 @@
+{
+  "id": "tap-03-bai-04-rule-arpeggio-wide-fingering-001",
+  "type": "fingering",
+  "name": "Khi thi hành kỹ thuật rải Arpeggio quãng rộng liên octave tay phải, dùng ngón 1-2-3 cho 3 nốt của hợp âm (Ví dụ Đô-Mi-So",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "09:16-13:36 pdf p.1",
+    "extra_locators": [
+      "22:58-26:23 pdf p.1"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Classical, Folk, Hymn, Piano Solo, Pop/Ballad Fill, Sight Reading, Solo Fill"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical",
+      "folk",
+      "hymn",
+      "piano-solo",
+      "pop_ballad",
+      "pop",
+      "pop-ballad-fill",
+      "sight-reading",
+      "solo-fill"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Classical",
+        "Folk",
+        "Hymn",
+        "Piano Solo",
+        "Pop/Ballad Fill",
+        "Sight Reading",
+        "Solo Fill"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi thi hành kỹ thuật rải Arpeggio quãng rộng liên octave tay phải, dùng ngón 1-2-3 cho 3 nốt của hợp âm (Ví dụ Đô-Mi-Sol), sau đó xoay ngón 1 chui qua dưới lòng bàn tay để đáp chính xác vào nốt gốc (Đô) của octave kế tiếp. Phía đi xuống dùng ngón 3 vắt qua ngón 1.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_ARPEGGIO_WIDE_FINGERING_001",
+      "name": "Arpeggio Quãng Rộng Vắt Ngón 1-2-3-1",
+      "category": "Fingering & Technique",
+      "description": "Khi thi hành kỹ thuật rải Arpeggio quãng rộng liên octave tay phải, dùng ngón 1-2-3 cho 3 nốt của hợp âm (Ví dụ Đô-Mi-Sol), sau đó xoay ngón 1 chui qua dưới lòng bàn tay để đáp chính xác vào nốt gốc (Đô) của octave kế tiếp. Phía đi xuống dùng ngón 3 vắt qua ngón 1.",
+      "conditions": {
+        "hand": "Right Hand",
+        "pattern": "Extended Arpeggio"
+      },
+      "execution": {
+        "finger_sequence_ascending": [
+          1,
+          2,
+          3,
+          1,
+          2,
+          3,
+          5
+        ],
+        "finger_sequence_descending": [
+          5,
+          3,
+          2,
+          1,
+          3,
+          2,
+          1
+        ]
+      },
+      "lesson_folder": "Tap_03_Bai_04"
+    },
+    "fingering": {
+      "finger_sequence_ascending": [
+        1,
+        2,
+        3,
+        1,
+        2,
+        3,
+        5
+      ],
+      "finger_sequence_descending": [
+        5,
+        3,
+        2,
+        1,
+        3,
+        2,
+        1
+      ]
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi thi hành kỹ thuật rải Arpeggio quãng rộng liên octave tay phải, dùng ngón 1-2-3 cho 3 nốt của hợp âm (Ví dụ Đô-Mi-Sol), sau đó xoay ngón 1 chui qua dưới lòng bàn tay để đáp chính xác vào nốt gốc (Đô) của octave kế tiếp. Phía đi xuống dùng ngón 3 vắt qua ngón 1."
+}

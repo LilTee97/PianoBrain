@@ -1,0 +1,79 @@
+{
+  "id": "tap-03-bai-05-lesson-id-00003",
+  "type": "concept",
+  "name": "Giải thích Dấu chấm dôi: Dấu chấm đặt sau nốt nhạc sẽ làm nốt đó cộng thêm 1/2 giá trị trường độ của chính nó",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-05",
+    "locator": "06:41-08:14 pdf p.2",
+    "media_id": "video_tap_03_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 2,
+        "section": "Ô nhịp đầu"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_05"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giải thích Dấu chấm dôi: Dấu chấm đặt sau nốt nhạc sẽ làm nốt đó cộng thêm 1/2 giá trị trường độ của chính nó. Ví dụ: Nốt trắng (2 phách) + dấu chấm = 3 phách.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "A4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": null,
+        "notes": [
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [],
+          "right": [
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giải thích Dấu chấm dôi: Dấu chấm đặt sau nốt nhạc sẽ làm nốt đó cộng thêm 1/2 giá trị trường độ của chính nó. Ví dụ: Nốt trắng (2 phách) + dấu chấm = 3 phách."
+}

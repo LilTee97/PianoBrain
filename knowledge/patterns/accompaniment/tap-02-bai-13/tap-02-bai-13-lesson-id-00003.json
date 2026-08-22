@@ -1,0 +1,127 @@
+{
+  "id": "tap-02-bai-13-lesson-id-00003",
+  "type": "exercise",
+  "name": "Thực hành ứng dụng Vòng 1 vào đệm hát Pop, Ballad và Nhạc Thánh Ca",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-13",
+    "locator": "03:08:00-05:08:00 pdf p.4",
+    "media_id": "Tap_02_Bai_13.mp4",
+    "supporting": [
+      {
+        "source_id": "PDF_Tap_2_Bai_11_15.pdf",
+        "page": 4,
+        "section": "Bài 13"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, Dm7-5, G/B, Gm/Bb, F/A",
+    "Giọng: C major",
+    "Gam: C Major",
+    "Nốt màu: 9, b5",
+    "Điệu / phong cách: Thánh ca, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "Dm7-5",
+      "G/B",
+      "Gm/Bb",
+      "F/A"
+    ],
+    "style": [
+      "th-nh-ca",
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành ứng dụng Vòng 1 vào đệm hát Pop, Ballad và Nhạc Thánh Ca. Minh họa giai điệu với vòng bass liền bậc uyển chuyển.",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "Dm7-5",
+        "G/B",
+        "Gm/Bb",
+        "F/A"
+      ],
+      "tensions": [
+        "9",
+        "b5"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major"
+      ],
+      "styles": [
+        "Thánh ca",
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Gm/Bb",
+      "notes": [
+        "Bb2",
+        "G3",
+        "D4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "Bb2"
+        ],
+        "right": [
+          "G3",
+          "D4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Gm/Bb",
+        "notes": [
+          "Bb2",
+          "G3",
+          "D4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "Bb2"
+          ],
+          "right": [
+            "G3",
+            "D4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành ứng dụng Vòng 1 vào đệm hát Pop, Ballad và Nhạc Thánh Ca. Minh họa giai điệu với vòng bass liền bậc uyển chuyển."
+}

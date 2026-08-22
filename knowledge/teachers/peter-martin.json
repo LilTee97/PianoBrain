@@ -1,0 +1,14 @@
+{
+  "id": "peter-martin",
+  "type": "teacher",
+  "name": "Peter Martin",
+  "difficulty": 3,
+  "source": null,
+  "use_when": ["Người học hỏi về bossa nova, cách chia việc hai tay trong điệu Latin"],
+  "avoid_when": ["Câu hỏi ballad Việt (thầy Hải), blues/walking bass (Pianote), lick bebop (Mack Grout, Charlie Tran)"],
+  "input": { "style": ["bossa_nova", "latin"] },
+  "output": { "declared_focus": ["bossa nova", "comping", "groove"], "language": "en", "ingested_sources": 1 },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Kênh dạy jazz piano tiếng Anh. Đây là nguồn thứ năm của kho, tách hẳn với thầy Hải Joseph, Pianote, Mack Grout và Charlie Tran. Mọi item của Peter Martin mang teacher_id 'peter-martin'."
+}

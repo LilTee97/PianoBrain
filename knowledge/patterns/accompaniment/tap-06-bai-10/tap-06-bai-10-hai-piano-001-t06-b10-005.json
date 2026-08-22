@@ -1,0 +1,113 @@
+{
+  "id": "tap-06-bai-10-hai-piano-001-t06-b10-005",
+  "type": "accompaniment",
+  "name": "Mẫu 3 Ballad Dân Ca: Kỹ thuật đệm cao trào / Đoạn B (Điệp khúc)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-10",
+    "locator": "09:08-13:48 pdf p.2",
+    "media_id": "hai_piano_course_001_t06_b10_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_t06_b10_pdf",
+        "page": 2,
+        "section": "Mẫu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, E, Am",
+    "Giọng: Am",
+    "Điệu / phong cách: Ballad Dân Ca Cao Trào"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "E",
+      "Am"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad-d-n-ca-cao-tr-o"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 3 Ballad Dân Ca: Kỹ thuật đệm cao trào / Đoạn B (Điệp khúc). Tay trái nhân đôi nốt Bass (Double Bass Octave) giật lệch nhịp (syncopation), tay phải nảy hợp âm giật chát mạnh mẽ duy trì lực.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "E",
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad Dân Ca Cao Trào"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A1",
+        "A2",
+        "C4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "A1-A2 đập nốt gốc -> dậm nốt quãng 8 lệch nhịp"
+        ],
+        "right": [
+          "Đánh hợp âm đảo nhịp bùm-chát-bùm-chát dồn dập"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A1",
+          "A2",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A1-A2 đập nốt gốc -> dậm nốt quãng 8 lệch nhịp"
+          ],
+          "right": [
+            "Đánh hợp âm đảo nhịp bùm-chát-bùm-chát dồn dập"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 3 Ballad Dân Ca: Kỹ thuật đệm cao trào / Đoạn B (Điệp khúc). Tay trái nhân đôi nốt Bass (Double Bass Octave) giật lệch nhịp (syncopation), tay phải nảy hợp âm giật chát mạnh mẽ duy trì lực."
+}

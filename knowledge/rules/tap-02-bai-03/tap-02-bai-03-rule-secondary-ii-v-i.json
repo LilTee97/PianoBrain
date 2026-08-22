@@ -1,0 +1,70 @@
+{
+  "id": "tap-02-bai-03-rule-secondary-ii-v-i",
+  "type": "rule",
+  "name": "Để chuẩn bị về hợp âm F Major từ Am, chèn chuỗi 2-5-1 phụ của F Major bao gồm Gm (ii) -> C (V) -> F (I).",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Contemporary, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Contemporary",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Để chuẩn bị về hợp âm F Major từ Am, chèn chuỗi 2-5-1 phụ của F Major bao gồm Gm (ii) -> C (V) -> F (I).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_secondary_ii_v_i": null,
+      "rule_id": "rule_secondary_ii_v_i",
+      "name": "Chuyển tiếp bằng Chuỗi 2-5-1 Phụ (Secondary ii-V-I)",
+      "category": "Functional Harmony",
+      "description": "Để chuẩn bị về hợp âm F Major từ Am, chèn chuỗi 2-5-1 phụ của F Major bao gồm Gm (ii) -> C (V) -> F (I).",
+      "conditions": {
+        "target_key_center": "F Major",
+        "progression": "Gm7 -> C7 -> F"
+      },
+      "examples": [
+        "Am -> Gm -> C -> F"
+      ],
+      "lesson_folder": "Tap_02_Bai_03"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Để chuẩn bị về hợp âm F Major từ Am, chèn chuỗi 2-5-1 phụ của F Major bao gồm Gm (ii) -> C (V) -> F (I)."
+}

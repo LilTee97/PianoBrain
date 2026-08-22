@@ -1,0 +1,63 @@
+{
+  "id": "tap-03-bai-09-lesson-id-00002",
+  "type": "rule",
+  "name": "Xếp ngón tay phải cho giai điệu đoạn A: Xác định nốt cao nhất của quãng giai điệu (nốt Mi5), sắp xếp ngón 3 bắt đầu ở nố",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-09",
+    "locator": "00:40-02:05 pdf p.8",
+    "media_id": "video_tap_03_bai_09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 8,
+        "section": "Đoạn A - Giai điệu Tay Phải"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: A minor"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Xếp ngón tay phải cho giai điệu đoạn A: Xác định nốt cao nhất của quãng giai điệu (nốt Mi5), sắp xếp ngón 3 bắt đầu ở nốt Đô5 để đảm bảo ngón tay mở rộng mượt mà không bị thiếu ngón khi dịch chuyển quãng âm.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C5",
+        "E5",
+        "D5",
+        "C5",
+        "B4",
+        "A4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "Finger 3 (C5)",
+          "Finger 5 (E5)",
+          "Finger 4 (D5)",
+          "Finger 3 (C5)",
+          "Finger 2 (B4)",
+          "Finger 1 (A4)"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Xếp ngón tay phải cho giai điệu đoạn A: Xác định nốt cao nhất của quãng giai điệu (nốt Mi5), sắp xếp ngón 3 bắt đầu ở nốt Đô5 để đảm bảo ngón tay mở rộng mượt mà không bị thiếu ngón khi dịch chuyển quãng âm."
+}

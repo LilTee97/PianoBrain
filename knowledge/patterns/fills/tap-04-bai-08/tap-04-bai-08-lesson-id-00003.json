@@ -1,0 +1,125 @@
+{
+  "id": "tap-04-bai-08-lesson-id-00003",
+  "type": "fill",
+  "name": "Câu lót/câu dẫn số 2 trên giọng Am",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-08",
+    "locator": "03:32:00-04:31:00 pdf p.38",
+    "media_id": "video_tap_04_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 38,
+        "section": "Bài 8 - Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Em, Dm, Bm-5, E7",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Nốt màu: 3rds, 5ths",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Em",
+      "Dm",
+      "Bm-5",
+      "E7"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Câu lót/câu dẫn số 2 trên giọng Am. Sử dụng quãng 3 và quãng 5 bổ sung nét di chuyển giọng mượt mà hơn giữa các hợp âm. Giúp tay phải tạo đường nét tuyến giai điệu độc lập hơn so với bè bass.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Em",
+        "Dm",
+        "Bm-5",
+        "E7"
+      ],
+      "tensions": [
+        "3rds",
+        "5ths"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "C4",
+        "E4",
+        "G4",
+        "F4",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "C4",
+          "E4",
+          "G4",
+          "F4",
+          "D4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3"
+          ],
+          "right": [
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu lót/câu dẫn số 2 trên giọng Am. Sử dụng quãng 3 và quãng 5 bổ sung nét di chuyển giọng mượt mà hơn giữa các hợp âm. Giúp tay phải tạo đường nét tuyến giai điệu độc lập hơn so với bè bass."
+}

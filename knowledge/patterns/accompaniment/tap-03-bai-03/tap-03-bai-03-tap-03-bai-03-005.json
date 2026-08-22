@@ -1,0 +1,53 @@
+{
+  "id": "tap-03-bai-03-tap-03-bai-03-005",
+  "type": "accompaniment",
+  "name": "Phương pháp viết và phân tích 3 âm hình tiết tấu ứng dụng cho tập ngón: 1) Đơn trước kép sau (1/8 + 2/16, nhịp dậm chân",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-03",
+    "locator": "00:11:11-00:14:09 pdf p.1",
+    "media_id": "video_tap_03_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 1,
+        "section": "Âm hình tiết tấu"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Rhythm Practice"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "rhythm-practice"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Phương pháp viết và phân tích 3 âm hình tiết tấu ứng dụng cho tập ngón: 1) Đơn trước kép sau (1/8 + 2/16, nhịp dậm chân vào nốt móc đơn); 2) Chùm liên ba (Triplet / Eighth-note triplets, 3 nốt chia đều 1 phách); 3) Móc kép (16th notes / 4 nốt trong 1 phách, dậm chân vào nốt đầu tiên).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Rhythm Practice"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phương pháp viết và phân tích 3 âm hình tiết tấu ứng dụng cho tập ngón: 1) Đơn trước kép sau (1/8 + 2/16, nhịp dậm chân vào nốt móc đơn); 2) Chùm liên ba (Triplet / Eighth-note triplets, 3 nốt chia đều 1 phách); 3) Móc kép (16th notes / 4 nốt trong 1 phách, dậm chân vào nốt đầu tiên)."
+}

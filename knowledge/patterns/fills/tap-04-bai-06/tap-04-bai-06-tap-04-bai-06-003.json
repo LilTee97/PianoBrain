@@ -1,0 +1,128 @@
+{
+  "id": "tap-04-bai-06-tap-04-bai-06-003",
+  "type": "fill",
+  "name": "Mẫu câu lót số 2 (Câu 2)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-06",
+    "locator": "00:03:38-00:05:31 pdf p.28",
+    "media_id": "video_tap_04_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 28,
+        "section": "Bài 6 - Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Em, F, C, Dm",
+    "Giọng: A minor",
+    "Gam: A minor",
+    "Điệu / phong cách: Slow Rock, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Em",
+      "F",
+      "C",
+      "Dm"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu câu lót số 2 (Câu 2). Sử dụng các chuyển động giai điệu lượn sóng và có thể ứng dụng trực tiếp làm đoạn dạo đầu (Intro) hoặc đoạn kết (Outro) cho ca khúc hát ở điệu Slow Rock / Ballad thứ.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Em",
+        "F",
+        "C",
+        "Dm"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Slow Rock",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "E4",
+        "A4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "A3"
+        ],
+        "right": [
+          "E4",
+          "A4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "E4",
+          "A4",
+          "C5",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3",
+            "A3"
+          ],
+          "right": [
+            "E4",
+            "A4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 2 (Câu 2). Sử dụng các chuyển động giai điệu lượn sóng và có thể ứng dụng trực tiếp làm đoạn dạo đầu (Intro) hoặc đoạn kết (Outro) cho ca khúc hát ở điệu Slow Rock / Ballad thứ."
+}

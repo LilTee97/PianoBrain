@@ -1,0 +1,53 @@
+{
+  "id": "tap-03-bai-01-lesson-id-00001-rule-candidate-01",
+  "type": "rule",
+  "name": "Phương pháp luyện phản xạ phím đàn: Không học thuộc vẹt theo thứ tự tuần tự Đô-Rê-Mi-Pha-Sol-La-Si",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-01",
+    "locator": "00:04:39-00:05:58",
+    "media_id": "video_tap_03_bai_01",
+    "supporting": []
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_01"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Phương pháp luyện phản xạ phím đàn: Không học thuộc vẹt theo thứ tự tuần tự Đô-Rê-Mi-Pha-Sol-La-Si. Phải học nhận biết phím theo vị trí nhảy ngẫu nhiên (ví dụ: nhìn phím Mi, La, Rê, Sol trực tiếp) để đạt phản xạ thị giác tốc độ cao.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C4",
+        "E4",
+        "A4",
+        "D4",
+        "G4",
+        "B4",
+        "F4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "Thumb",
+          "Index",
+          "Middle"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phương pháp luyện phản xạ phím đàn: Không học thuộc vẹt theo thứ tự tuần tự Đô-Rê-Mi-Pha-Sol-La-Si. Phải học nhận biết phím theo vị trí nhảy ngẫu nhiên (ví dụ: nhìn phím Mi, La, Rê, Sol trực tiếp) để đạt phản xạ thị giác tốc độ cao."
+}

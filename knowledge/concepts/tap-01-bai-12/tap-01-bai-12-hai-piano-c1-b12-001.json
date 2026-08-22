@@ -1,0 +1,73 @@
+{
+  "id": "tap-01-bai-12-hai-piano-c1-b12-001",
+  "type": "concept",
+  "name": "Tiết tấu Bossa Nova là điệu nhạc Latin phổ biến, có thể áp dụng cho cả tốc độ chậm (Slow Bossa: tempo 100-120 BPM) và tố",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-12",
+    "locator": "01:31-03:30 pdf p.5",
+    "media_id": "video_hai_piano_tap1_bai12",
+    "supporting": [
+      {
+        "source_id": "pdf_hoam_coban_tap1_bai11_15",
+        "page": 5,
+        "section": "BÀI 12 : TIẾT TẤU BOSANOVA & VALSE - A. BOSANOVA"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: Am, C",
+    "Điệu / phong cách: Bossa Nova, Latin"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "bossa-nova",
+      "latin"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Tiết tấu Bossa Nova là điệu nhạc Latin phổ biến, có thể áp dụng cho cả tốc độ chậm (Slow Bossa: tempo 100-120 BPM) và tốc độ nhanh (Fast Bossa: tempo >130 BPM). Kỹ thuật chơi phối hợp hai tay: Tay trái chơi nốt Bass legato (liền tiếng), tay phải chơi hợp âm non-legato/staccato nảy giật theo nhịp đảo phách (syncopation).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "Am",
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Bossa Nova",
+        "Latin"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "E3",
+        "C4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "A4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết tấu Bossa Nova là điệu nhạc Latin phổ biến, có thể áp dụng cho cả tốc độ chậm (Slow Bossa: tempo 100-120 BPM) và tốc độ nhanh (Fast Bossa: tempo >130 BPM). Kỹ thuật chơi phối hợp hai tay: Tay trái chơi nốt Bass legato (liền tiếng), tay phải chơi hợp âm non-legato/staccato nảy giật theo nhịp đảo phách (syncopation)."
+}

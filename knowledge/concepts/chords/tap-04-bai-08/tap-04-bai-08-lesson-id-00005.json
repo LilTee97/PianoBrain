@@ -1,0 +1,91 @@
+{
+  "id": "tap-04-bai-08-lesson-id-00005",
+  "type": "concept",
+  "name": "Câu lót/câu dẫn số 4 sử dụng Tension bậc 9 (Am9, Em9, Dm9)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-08",
+    "locator": "06:34:00-08:25:00 pdf p.40",
+    "media_id": "video_tap_04_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 40,
+        "section": "Bài 8 - Câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am9, Em9, Dm9, Bm7b5, E7",
+    "Giọng: Am",
+    "Gam: A minor, E Dorian mode",
+    "Nốt màu: 9th, F#",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am9",
+      "Em9",
+      "Dm9",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "tension",
+    "raw_text": "Câu lót/câu dẫn số 4 sử dụng Tension bậc 9 (Am9, Em9, Dm9). Lưu ý đặc biệt đối với hợp âm Em9 trong giọng Am: nốt bậc 9 của E là F# (F sharp), tạo màu sắc huyễn hoặc, mượt mà khi di chuyển từ Em9 về Dm9 hay Am9.",
+    "music_entities": {
+      "chords": [
+        "Am9",
+        "Em9",
+        "Dm9",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [
+        "9th",
+        "F#"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor",
+        "E Dorian mode"
+      ],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Em9",
+      "notes": [
+        "F#4",
+        "G4",
+        "B3",
+        "D4",
+        "E3"
+      ],
+      "hands": {
+        "left": [
+          "E2",
+          "B2"
+        ],
+        "right": [
+          "F#4",
+          "G4",
+          "D4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu lót/câu dẫn số 4 sử dụng Tension bậc 9 (Am9, Em9, Dm9). Lưu ý đặc biệt đối với hợp âm Em9 trong giọng Am: nốt bậc 9 của E là F# (F sharp), tạo màu sắc huyễn hoặc, mượt mà khi di chuyển từ Em9 về Dm9 hay Am9."
+}

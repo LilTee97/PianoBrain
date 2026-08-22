@@ -1,0 +1,73 @@
+{
+  "id": "tap-04-bai-12-r-melody-top-note-voicing-001",
+  "type": "rule",
+  "name": "Khi phối bè đệm kẹp hợp âm (fill-in/dense voicing), các nốt hòa âm đệm phải nằm bên dưới nốt giai điệu chính",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-12",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Full Piano Arrangement, Hymn, Pop, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "full-piano-arrangement",
+      "hymn",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Full Piano Arrangement",
+        "Hymn",
+        "Pop",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi phối bè đệm kẹp hợp âm (fill-in/dense voicing), các nốt hòa âm đệm phải nằm bên dưới nốt giai điệu chính. Nốt giai điệu chính phải luôn ở bè cao nhất (Top note) để tránh làm mờ giai điệu.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_MELODY_TOP_NOTE_VOICING_001",
+      "name": "Melody Top Note Voice Leading Rule",
+      "category": "arrangement_voicing",
+      "description": "Khi phối bè đệm kẹp hợp âm (fill-in/dense voicing), các nốt hòa âm đệm phải nằm bên dưới nốt giai điệu chính. Nốt giai điệu chính phải luôn ở bè cao nhất (Top note) để tránh làm mờ giai điệu.",
+      "conditions": {
+        "texture": "dense_voicing",
+        "hand": "right_hand"
+      },
+      "recommendation": "Xếp các nốt hòa âm ở quãng 3, quãng 6 bên dưới nốt đỉnh giai điệu.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_04_Bai_12"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Khi phối bè đệm kẹp hợp âm (fill-in/dense voicing), các nốt hòa âm đệm phải nằm bên dưới nốt giai điệu chính. Nốt giai điệu chính phải luôn ở bè cao nhất (Top note) để tránh làm mờ giai điệu."
+}

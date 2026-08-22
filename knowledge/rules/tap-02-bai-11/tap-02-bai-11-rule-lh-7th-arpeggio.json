@@ -1,0 +1,97 @@
+{
+  "id": "tap-02-bai-11-rule-lh-7th-arpeggio",
+  "type": "rule",
+  "name": "Đối với hợp âm 7 (Major 7, Minor 7, Dominant 7), sử dụng chuỗi nốt 1.5.7.5.3.5.7.5.1 để thể hiện rõ màu sắc bậc 7 ở quãn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-11",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Arpeggio, Ballad, Ballad 3/4, Ballad 4/4, Classical/Pop, Contemporary Pop, Modern Ballad, Modern Jazz/Pop Ballad, Pop Ballad, Solo Piano, Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "arpeggio",
+      "pop_ballad",
+      "ballad",
+      "ballad-3-4",
+      "ballad-4-4",
+      "pop",
+      "classical-pop",
+      "contemporary-pop",
+      "modern-ballad",
+      "jazz",
+      "modern-jazz-pop-ballad",
+      "pop-ballad",
+      "solo-piano",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Arpeggio",
+        "Ballad",
+        "Ballad 3/4",
+        "Ballad 4/4",
+        "Classical/Pop",
+        "Contemporary Pop",
+        "Modern Ballad",
+        "Modern Jazz/Pop Ballad",
+        "Pop Ballad",
+        "Solo Piano",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Đối với hợp âm 7 (Major 7, Minor 7, Dominant 7), sử dụng chuỗi nốt 1.5.7.5.3.5.7.5.1 để thể hiện rõ màu sắc bậc 7 ở quãng trung-trầm.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_lh_7th_arpeggio",
+      "title": "Mẫu rải tay trái cho Hợp âm 7",
+      "type": "left_hand_pattern",
+      "description": "Đối với hợp âm 7 (Major 7, Minor 7, Dominant 7), sử dụng chuỗi nốt 1.5.7.5.3.5.7.5.1 để thể hiện rõ màu sắc bậc 7 ở quãng trung-trầm.",
+      "condition": {
+        "meter": "4/4",
+        "chord_type": "7th_chord"
+      },
+      "formula": "1 - 5 - 7 - 5 - 3 - 5 - 7 - 5 - 1",
+      "fingering_lh": [
+        5,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "lesson_folder": "Tap_02_Bai_11"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Đối với hợp âm 7 (Major 7, Minor 7, Dominant 7), sử dụng chuỗi nốt 1.5.7.5.3.5.7.5.1 để thể hiện rõ màu sắc bậc 7 ở quãng trung-trầm."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "jazz-scales-bai-08-11-d-melodic-minor",
+  "type": "scale",
+  "name": "Gam D Melodic Minor cho hợp âm Bm7(b5)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-08",
+    "locator": "22:20-25:47",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Bm7(b5)",
+    "Ngẫu hứng jazz trên hợp âm E7(alt)",
+    "Ngẫu hứng jazz trên hợp âm Am(maj7)",
+    "Ngẫu hứng jazz trên hợp âm F#m7(b5)",
+    "Chọn gam / scale khi gặp hợp âm m7(b5), 7(alt), m(maj7) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7(b5)",
+      "7(alt)",
+      "m(maj7)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Bm7(b5) - E7(alt) - Am(maj7)",
+    "notes": [
+      "A",
+      "C#",
+      "E",
+      "Bb",
+      "D",
+      "F",
+      "E",
+      "G#",
+      "B"
+    ],
+    "source_text": "Melodic Minor Improv Lick #3 (Polychords / Upper Structure Triads): Playing an A Major triad over Bm7b5 (from D Melodic Minor), a Bb Major triad over E7alt (tritone triad from F Melodic Minor), and an E Major triad over Am(maj7) (from A Melodic Minor)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 8 của nguồn Jazz Scales (YouTube), mốc 22:20-25:47. Melodic Minor Improv Lick #3 (Polychords / Upper Structure Triads): Playing an A Major triad over Bm7b5 (from D Melodic Minor), a Bb Major triad over E7alt (tritone triad from F Melodic Minor), and an E Major triad over Am(maj7) (from A Melodic Minor). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

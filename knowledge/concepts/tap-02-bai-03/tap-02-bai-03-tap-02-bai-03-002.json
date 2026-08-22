@@ -1,0 +1,49 @@
+{
+  "id": "tap-02-bai-03-tap-02-bai-03-002",
+  "type": "concept",
+  "name": "Khái niệm 'Tiếp cận' (Approach Chords): Việc di chuyển từ hợp âm này sang hợp âm khác thông qua các hợp âm tiếp cận (hợp",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": "00:00:29-00:01:40 pdf p.4",
+    "media_id": "hai_piano_video_tap_02_bai_03",
+    "supporting": [
+      {
+        "source_id": "HOÀ ÂM NÂNG CAO ĐỆM HÁT TẬP 2 BÀI 1 - BÀI 5",
+        "page": 4,
+        "section": "Khái niệm Tiếp Cận"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C major"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Khái niệm 'Tiếp cận' (Approach Chords): Việc di chuyển từ hợp âm này sang hợp âm khác thông qua các hợp âm tiếp cận (hợp âm dẫn) giúp tạo sự uyển chuyển, phong phú và cuốn hút trong đệm hát và hòa âm.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khái niệm 'Tiếp cận' (Approach Chords): Việc di chuyển từ hợp âm này sang hợp âm khác thông qua các hợp âm tiếp cận (hợp âm dẫn) giúp tạo sự uyển chuyển, phong phú và cuốn hút trong đệm hát và hòa âm."
+}

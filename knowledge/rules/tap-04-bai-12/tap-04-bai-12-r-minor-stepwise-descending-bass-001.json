@@ -1,0 +1,77 @@
+{
+  "id": "tap-04-bai-12-r-minor-stepwise-descending-bass-001",
+  "type": "rule",
+  "name": "Trong giọng Thứ (ví dụ A minor), khi nốt Bass di chuyển đi xuống liền bậc từ bậc I xuống bậc VII, VI, V, IV, III, II, V7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-12",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Chất hợp âm: minor",
+    "Điệu / phong cách: Ballad, Full Piano Arrangement, Hymn, Pop, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "minor"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "full-piano-arrangement",
+      "hymn",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": "minor",
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Full Piano Arrangement",
+        "Hymn",
+        "Pop",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trong giọng Thứ (ví dụ A minor), khi nốt Bass di chuyển đi xuống liền bậc từ bậc I xuống bậc VII, VI, V, IV, III, II, V7, hợp âm tương ứng thường được phối như sau: i (Am) -> v/7 (Em/G) -> VI (Fmaj7) -> III/5 (C/E) -> iv (Dm) -> i/3 (Am/C) -> iiø7 (Bm7b5) -> V4-3/V7 (Esus4 - E7) -> i (Am).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_MINOR_STEPWISE_DESCENDING_BASS_001",
+      "name": "Minor Stepwise Descending Bass Progression Rule",
+      "category": "harmony_progression",
+      "description": "Trong giọng Thứ (ví dụ A minor), khi nốt Bass di chuyển đi xuống liền bậc từ bậc I xuống bậc VII, VI, V, IV, III, II, V7, hợp âm tương ứng thường được phối như sau: i (Am) -> v/7 (Em/G) -> VI (Fmaj7) -> III/5 (C/E) -> iv (Dm) -> i/3 (Am/C) -> iiø7 (Bm7b5) -> V4-3/V7 (Esus4 - E7) -> i (Am).",
+      "conditions": {
+        "key_type": "minor",
+        "bass_movement": "stepwise_descending"
+      },
+      "recommendation": "Giữ nốt Bass di chuyển liền mạch mượt mà, tay phải phối quãng 3, 5 hoặc hợp âm 7/9 để làm mềm dải âm.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_04_Bai_12"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Trong giọng Thứ (ví dụ A minor), khi nốt Bass di chuyển đi xuống liền bậc từ bậc I xuống bậc VII, VI, V, IV, III, II, V7, hợp âm tương ứng thường được phối như sau: i (Am) -> v/7 (Em/G) -> VI (Fmaj7) -> III/5 (C/E) -> iv (Dm) -> i/3 (Am/C) -> iiø7 (Bm7b5) -> V4-3/V7 (Esus4 - E7) -> i (Am)."
+}

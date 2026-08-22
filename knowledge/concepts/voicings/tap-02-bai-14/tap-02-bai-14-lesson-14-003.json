@@ -1,0 +1,130 @@
+{
+  "id": "tap-02-bai-14-lesson-14-003",
+  "type": "voicing",
+  "name": "Cấu tạo hợp âm Đô thứ 7.9.11 (Cm7.9.11): Khác với hợp âm sus4 (bỏ bậc 3), hợp âm thứ 11 vẫn bắt buộc phải giữ lại nốt bậ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:04:12-00:08:35 pdf p.5",
+    "media_id": "video_tap_02_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 5,
+        "section": "Cm7.9.11"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cm7.9.11, Dm7.9.11, Am7.9.11",
+    "Giọng: C minor, A minor",
+    "Nốt màu: 9, 11",
+    "Điệu / phong cách: Ballad, Pop, Jazz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cm7.9.11",
+      "Dm7.9.11",
+      "Am7.9.11"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "jazz"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Cấu tạo hợp âm Đô thứ 7.9.11 (Cm7.9.11): Khác với hợp âm sus4 (bỏ bậc 3), hợp âm thứ 11 vẫn bắt buộc phải giữ lại nốt bậc 3 thứ (b3) để giữ chất thứ. Tay trái đánh C-G, tay phải bấm Eb-G-Bb-D-F hoặc Bb-Eb-F-G.",
+    "music_entities": {
+      "chords": [
+        "Cm7.9.11",
+        "Dm7.9.11",
+        "Am7.9.11"
+      ],
+      "tensions": [
+        "9",
+        "11"
+      ],
+      "keys": [
+        "C minor",
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad",
+        "Pop",
+        "Jazz"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cm7(9,11)",
+      "notes": [
+        "C2",
+        "G2",
+        "Eb3",
+        "Bb3",
+        "D4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "Eb3",
+          "Bb3",
+          "D4",
+          "F4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cm7(9,11)",
+        "notes": [
+          "C2",
+          "G2",
+          "Eb3",
+          "Bb3",
+          "D4",
+          "F4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "Eb3",
+            "Bb3",
+            "D4",
+            "F4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Cấu tạo hợp âm Đô thứ 7.9.11 (Cm7.9.11): Khác với hợp âm sus4 (bỏ bậc 3), hợp âm thứ 11 vẫn bắt buộc phải giữ lại nốt bậc 3 thứ (b3) để giữ chất thứ. Tay trái đánh C-G, tay phải bấm Eb-G-Bb-D-F hoặc Bb-Eb-F-G."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "solo-idea-target-third",
+  "type": "solo_idea",
+  "name": "Ngắm bậc 3 ở phách mạnh",
+  "difficulty": 3,
+  "source": null,
+  "use_when": ["Giang tấu giữa bài", "Ngẫu hứng trên vòng đã biết"],
+  "avoid_when": ["Chưa thuộc hợp âm — sẽ trượt nốt đích"],
+  "input": { "section": ["interlude", "solo"], "style": ["pop_ballad", "jazz"] },
+  "output": {
+    "principle": "mỗi lần đổi hợp âm, nốt ở phách 1 là bậc 3 của hợp âm mới",
+    "approach": "đi vào nốt đích từ nửa cung dưới hoặc bậc thang trên",
+    "scale_id": "scale-mixolydian",
+    "arpeggio_id": "arp-maj7"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Bậc 3 là nốt nói rõ hợp âm trưởng hay thứ. Ngắm đúng nó ở phách mạnh thì câu solo tự nghe đúng, phần còn lại chơi gì cũng được."
+}

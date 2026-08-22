@@ -1,0 +1,36 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-rule-target-3-or-7",
+  "type": "rule",
+  "name": "Nốt đích là bậc 3 hoặc bậc 7 thì dùng dạng một trên, ba dưới",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:04:02"
+  },
+  "use_when": [
+    "Chọn khung enclosure theo nốt đích"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Cmaj7",
+      "C"
+    ]
+  },
+  "output": {
+    "if": "nốt đích là bậc 3 (E trong tông C) hoặc bậc 7 (B)",
+    "then": {
+      "shape": "1 nốt trên, 3 nốt dưới",
+      "why": "nốt đỉnh luôn nằm trong thang âm tự nhiên"
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi nốt đích là bậc 3 hoặc bậc 7, ưu tiên dạng enclosure một nốt trên ba nốt dưới, để nốt đỉnh luôn nằm trong thang âm tự nhiên."
+}

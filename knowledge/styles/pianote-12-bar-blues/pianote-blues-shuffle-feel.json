@@ -1,0 +1,48 @@
+{
+  "difficulty": 2,
+  "avoid_when": [
+    "Nhạc straight-eighth — shuffle sẽ lệch với ban nhạc"
+  ],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-shuffle-feel",
+  "type": "style",
+  "name": "Cảm giác shuffle: quãng 5 đúng luân phiên quãng 6 trưởng",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:00:52"
+  },
+  "use_when": [
+    "Mọi bài blues nhịp 4/4",
+    "Cần tiết tấu nảy giật thay vì đều đặn"
+  ],
+  "output": {
+    "feel": "swing / shuffle",
+    "alternation": [
+      "quãng 5 đúng",
+      "quãng 6 trưởng"
+    ],
+    "sections": {
+      "verse": {
+        "density": 2,
+        "lh": "shuffle quãng 5 - quãng 6",
+        "rh": "thưa",
+        "note_vi": "giữ nhịp"
+      },
+      "chorus": {
+        "density": 3,
+        "lh": "shuffle chắc tay",
+        "rh": "thêm cặp nốt bậc 5 + b7",
+        "note_vi": "dày hơn"
+      }
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Cảm giác blues/shuffle được tạo ra bằng tiết tấu nảy giật trên nền quãng 5 đúng luân phiên với quãng 6 trưởng.",
+  "input": {
+    "style": [
+      "blues"
+    ]
+  }
+}

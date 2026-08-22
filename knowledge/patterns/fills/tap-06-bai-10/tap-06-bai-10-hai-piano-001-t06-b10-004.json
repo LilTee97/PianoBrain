@@ -1,0 +1,126 @@
+{
+  "id": "tap-06-bai-10-hai-piano-001-t06-b10-004",
+  "type": "fill",
+  "name": "Mẫu 2 Ballad Dân Ca: Tay trái chạy ngắt nốt rải liên tục kết hợp câu dẫn nốt liên bậc (A - C - E - C - E - D...) tạo chu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-10",
+    "locator": "05:27-09:08 pdf p.1",
+    "media_id": "hai_piano_course_001_t06_b10_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_t06_b10_pdf",
+        "page": 1,
+        "section": "Mẫu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, E, Am",
+    "Giọng: Am",
+    "Gam: Am pentatonic",
+    "Điệu / phong cách: Ballad Dân Ca nâng cao"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "E",
+      "Am"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad-d-n-ca-n-ng-cao"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 2 Ballad Dân Ca: Tay trái chạy ngắt nốt rải liên tục kết hợp câu dẫn nốt liên bậc (A - C - E - C - E - D...) tạo chuyển động liên tục mượt mà giữa các hợp âm.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "E",
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "Am pentatonic"
+      ],
+      "styles": [
+        "Ballad Dân Ca nâng cao"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am -> Dm",
+      "notes": [
+        "A2",
+        "C3",
+        "E3",
+        "C3",
+        "E3",
+        "D3",
+        "F3",
+        "A3",
+        "F3",
+        "E3"
+      ],
+      "hands": {
+        "left": [
+          "A2 -> C3 -> E3 -> C3 -> E3 -> nốt dẫn D3 sang Dm"
+        ],
+        "right": [
+          "Đánh dậm hợp âm nhịp ngắt chát phản hồi nhịp tay trái"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am -> Dm",
+        "notes": [
+          "A2",
+          "C3",
+          "E3",
+          "C3",
+          "E3",
+          "D3",
+          "F3",
+          "A3",
+          "F3",
+          "E3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2 -> C3 -> E3 -> C3 -> E3 -> nốt dẫn D3 sang Dm"
+          ],
+          "right": [
+            "Đánh dậm hợp âm nhịp ngắt chát phản hồi nhịp tay trái"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 2 Ballad Dân Ca: Tay trái chạy ngắt nốt rải liên tục kết hợp câu dẫn nốt liên bậc (A - C - E - C - E - D...) tạo chuyển động liên tục mượt mà giữa các hợp âm."
+}

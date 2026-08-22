@@ -1,0 +1,15 @@
+export { explainDecision } from "./explain/explainDecision.js";
+export { exportEngineBundle } from "./exporters/exportEngineBundle.js";
+export { selectTensions } from "./generators/selectTensions.js";
+export { selectVoicing } from "./generators/selectVoicing.js";
+export { suggestBassPattern } from "./generators/suggestBassPattern.js";
+export { suggestCompingPattern } from "./generators/suggestCompingPattern.js";
+export { suggestMelodicFill } from "./generators/suggestMelodicFill.js";
+export { loadPatterns } from "./loaders/loadPatterns.js";
+export { loadProfiles } from "./loaders/loadProfiles.js";
+export { loadRules } from "./loaders/loadRules.js";
+export { loadSourceIndex } from "./loaders/loadSourceIndex.js";
+export { queryPatterns } from "./query/queryPatterns.js";
+export { queryRules } from "./query/queryRules.js";
+export { validatePattern } from "./validators/validatePattern.js";
+export { validateRule } from "./validators/validateRule.js";

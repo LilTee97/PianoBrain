@@ -1,0 +1,146 @@
+{
+  "id": "tap-03-bai-11-tap-03-bai-11-008",
+  "type": "exercise",
+  "name": "Trình diễn toàn bộ tác phẩm Piano Solo 'Tình Thôi Xót Xa' với đầy đủ Intro, Verse A1, Verse A2, Chorus B, Giang tấu (Bri",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-11",
+    "locator": "00:27:55-00:31:11 pdf p.11",
+    "media_id": "video_tap_03_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 11,
+        "section": "Full Song Structure"
+      },
+      {
+        "source_id": "pdf_tap_03",
+        "page": 12,
+        "section": "Full Song Structure"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dadd9, A/C#, Am/C, G/B, Bm, F#m, Em7, A7, D",
+    "Giọng: D major",
+    "Nốt màu: add9, 7",
+    "Điệu / phong cách: Pop Solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dadd9",
+      "A/C#",
+      "Am/C",
+      "G/B",
+      "Bm",
+      "F#m",
+      "Em7",
+      "A7",
+      "D"
+    ],
+    "style": [
+      "pop",
+      "pop-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Trình diễn toàn bộ tác phẩm Piano Solo 'Tình Thôi Xót Xa' với đầy đủ Intro, Verse A1, Verse A2, Chorus B, Giang tấu (Bridge/Intro) và Outro kết bài ở hợp âm Dadd9 thả ngọn.",
+    "music_entities": {
+      "chords": [
+        "Dadd9",
+        "A/C#",
+        "Am/C",
+        "G/B",
+        "Bm",
+        "F#m",
+        "Em7",
+        "A7",
+        "D"
+      ],
+      "tensions": [
+        "add9",
+        "7"
+      ],
+      "keys": [
+        "D major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dadd9",
+      "notes": [
+        "D2",
+        "A2",
+        "F#3",
+        "A3",
+        "C#4",
+        "E4",
+        "F#4"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "A2"
+        ],
+        "right": [
+          "F#3",
+          "A3",
+          "C#4",
+          "E4",
+          "F#4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dadd9",
+        "notes": [
+          "D2",
+          "A2",
+          "F#3",
+          "A3",
+          "C#4",
+          "E4",
+          "F#4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D2",
+            "A2"
+          ],
+          "right": [
+            "F#3",
+            "A3",
+            "C#4",
+            "E4",
+            "F#4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trình diễn toàn bộ tác phẩm Piano Solo 'Tình Thôi Xót Xa' với đầy đủ Intro, Verse A1, Verse A2, Chorus B, Giang tấu (Bridge/Intro) và Outro kết bài ở hợp âm Dadd9 thả ngọn."
+}

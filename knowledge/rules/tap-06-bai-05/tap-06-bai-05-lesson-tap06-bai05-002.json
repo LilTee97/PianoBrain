@@ -1,0 +1,89 @@
+{
+  "id": "tap-06-bai-05-lesson-tap06-bai05-002",
+  "type": "rule",
+  "name": "Vòng hòa âm mẫu sử dụng cho điệu Boston trong giọng Am: 1 - 4 - 6 - 5 (Am7 -> Dm7 -> Fmaj7 -> Esus4/E7)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-05",
+    "locator": "00:03:01-00:03:48 pdf p.1",
+    "media_id": "video_tap06_bai05",
+    "supporting": [
+      {
+        "source_id": "sheet_tap06_bai05_pdf",
+        "page": 1,
+        "section": "Harmonic Progression"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am7, Dm7, Fmaj7, Esus4, E7",
+    "Giọng: A minor",
+    "Nốt màu: 7, maj7",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am7",
+      "Dm7",
+      "Fmaj7",
+      "Esus4",
+      "E7"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Vòng hòa âm mẫu sử dụng cho điệu Boston trong giọng Am: 1 - 4 - 6 - 5 (Am7 -> Dm7 -> Fmaj7 -> Esus4/E7). Đây là vòng hòa âm kinh điển tạo sự lãng mạn, dào dạt cho điệu Boston.",
+    "music_entities": {
+      "chords": [
+        "Am7",
+        "Dm7",
+        "Fmaj7",
+        "Esus4",
+        "E7"
+      ],
+      "tensions": [
+        "7",
+        "maj7"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7 - Dm7 - Fmaj7 - Esus4",
+      "notes": [
+        "A2",
+        "D3",
+        "F2",
+        "E2"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "D3",
+          "F2",
+          "E2"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4",
+          "B4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm mẫu sử dụng cho điệu Boston trong giọng Am: 1 - 4 - 6 - 5 (Am7 -> Dm7 -> Fmaj7 -> Esus4/E7). Đây là vòng hòa âm kinh điển tạo sự lãng mạn, dào dạt cho điệu Boston."
+}

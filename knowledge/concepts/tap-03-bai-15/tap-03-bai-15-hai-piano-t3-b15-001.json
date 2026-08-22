@@ -1,0 +1,96 @@
+{
+  "id": "tap-03-bai-15-hai-piano-t3-b15-001",
+  "type": "concept",
+  "name": "Chuyển giọng tác phẩm Happy New Year từ A Major (La trưởng nguyên bản) sang C Major (Đô trưởng) để đơn giản hóa nốt nhạc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-15",
+    "locator": "00:00:23-00:01:42 pdf p.19",
+    "media_id": "video_tap_03_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 19,
+        "section": "Title & Key Signature"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, G, Am, Dm, Em, Bdim",
+    "Giọng: C major, A major",
+    "Gam: C major scale",
+    "Điệu / phong cách: pop, ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "G",
+      "Am",
+      "Dm",
+      "Em",
+      "Bdim"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Chuyển giọng tác phẩm Happy New Year từ A Major (La trưởng nguyên bản) sang C Major (Đô trưởng) để đơn giản hóa nốt nhạc, dễ đọc sheet, không có dấu thăng giáng ở đầu khuông nhạc và thuận tiện thực hành cho người mới học Piano Solo.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "G",
+        "Am",
+        "Dm",
+        "Em",
+        "Bdim"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major",
+        "A major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "pop",
+        "ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Chuyển giọng tác phẩm Happy New Year từ A Major (La trưởng nguyên bản) sang C Major (Đô trưởng) để đơn giản hóa nốt nhạc, dễ đọc sheet, không có dấu thăng giáng ở đầu khuông nhạc và thuận tiện thực hành cho người mới học Piano Solo."
+}

@@ -1,0 +1,180 @@
+{
+  "difficulty": 4,
+  "avoid_when": [
+    "Đừng trích bảng này như sheet của Kingsley — nốt, phách và số ngón là tự soạn"
+  ],
+  "source": null,
+  "origin": "invented",
+  "status": "draft",
+  "id": "demo-kingsley-fill-grid-7bar",
+  "type": "fill",
+  "name": "Bảng phách 7 ô tự soạn: 6th fill, run 4-3-1-5, Fast 3-2-1 trên bass Am",
+  "use_when": [
+    "Muốn thấy công thức của Kingsley chạy ra nốt cụ thể",
+    "Tập từng ô một"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "F",
+      "Am"
+    ],
+    "hand": "both"
+  },
+  "output": {
+    "stage": "invented_demo",
+    "key": "C",
+    "meter": "4/4",
+    "tempo": "68-72",
+    "bars": [
+      {
+        "bar": 1,
+        "chord": "C",
+        "lh": "C2 (nốt đen) - G2 (nốt đen) - C3 (nốt trắng)",
+        "rh": "nghỉ — ca sĩ đang hát",
+        "lh_fingers": [
+          5,
+          2,
+          1
+        ]
+      },
+      {
+        "bar": 2,
+        "chord": "C",
+        "lh": "C2 nốt tròn",
+        "rh_beats": {
+          "1": "nghỉ nốt đen",
+          "2": "nốt đen [C4+E4]",
+          "3-4": "bốn nốt móc đơn C5 - B4 - G4 - E4"
+        },
+        "technique": "6th fill 1-7-5-3",
+        "lh_fingers": [
+          5
+        ],
+        "rh_fingers": [
+          "1+3",
+          5,
+          4,
+          2,
+          1
+        ]
+      },
+      {
+        "bar": 3,
+        "chord": "F",
+        "lh": "F1 - C2 - F2 rải, giữ tới hết phách 3",
+        "rh_beats": {
+          "1": "nghỉ nốt đen",
+          "2": "nốt đen [A3+C4]",
+          "3-4": "bốn nốt móc đơn F4 - E4 - C4 - A3"
+        },
+        "technique": "6th fill 4-3-1-6",
+        "lh_fingers": [
+          5,
+          2,
+          1
+        ],
+        "rh_fingers": [
+          "1+3",
+          4,
+          3,
+          1,
+          2
+        ]
+      },
+      {
+        "bar": 4,
+        "chord": "Am",
+        "lh": "A1 - E2, mỗi nốt một nốt trắng",
+        "rh_beats": {
+          "3": "móc đơn hoa mỹ Eb4→E4, rồi móc đơn hoa mỹ Eb4→D4",
+          "4": "móc đơn C4 rồi móc đơn G3",
+          "1-2": "nốt trắng [C4+E4]"
+        },
+        "technique": "Fast 3-2-1 của hợp âm C chơi trên nền bass Am — KHÔNG phải trill Am",
+        "lh_fingers": [
+          5,
+          1
+        ],
+        "rh_fingers": [
+          "1+3",
+          "2→3",
+          "2→2",
+          1,
+          1
+        ]
+      },
+      {
+        "bar": 5,
+        "chord": "C",
+        "lh": "C2 nốt trắng",
+        "rh_beats": {
+          "1-2": "nốt trắng [E4+G4]",
+          "3-4": "bốn móc đơn F4 - E4 - C4 - G3"
+        },
+        "technique": "run 4-3-1-5",
+        "lh_fingers": [
+          5
+        ],
+        "rh_fingers": [
+          "1+3",
+          4,
+          3,
+          1,
+          2
+        ]
+      },
+      {
+        "bar": 6,
+        "chord": "F",
+        "lh": "F1 nốt trắng",
+        "rh_beats": {
+          "1-2": "nốt trắng [A3+C4]",
+          "3-4": "bốn móc đơn Bb3 - A3 - F3 - C3"
+        },
+        "technique": "run 4-3-1-5",
+        "lh_fingers": [
+          5
+        ],
+        "rh_fingers": [
+          "1+3",
+          4,
+          3,
+          1,
+          1
+        ]
+      },
+      {
+        "bar": 7,
+        "chord": "Am",
+        "lh": "A1 nốt trắng",
+        "rh_beats": {
+          "1-2": "nốt trắng [C4+E4]",
+          "3-4": "bốn móc đơn D4 - C4 - A3 - E3"
+        },
+        "technique": "run 4-3-1-5",
+        "lh_fingers": [
+          5
+        ],
+        "rh_fingers": [
+          "1+3",
+          4,
+          3,
+          1,
+          1
+        ]
+      }
+    ],
+    "inspired_by": [
+      "kingsley-6th-fill-1-7-5-3",
+      "kingsley-6th-fill-4-3-1-6",
+      "kingsley-run-4-3-1-5",
+      "kingsley-fast-3-2-1-major",
+      "kingsley-rh-c-fill-over-f-am-bass"
+    ]
+  },
+  "note_vi": "Bảng phách bảy ô, tông Đô trưởng, nhịp 4/4, tốc độ 68-72. Ô 4 là fill của hợp âm C chơi trên nền bass Am, không phải trill trên Am. BẢNG NÀY LÀ TỰ SOẠN. Nốt, quãng tám, phách và số ngón do người viết đặt ra theo đúng công thức của Kingsley, KHÔNG phải bản ký âm trong khóa học. Khóa chỉ dạy công thức bậc, không đưa sheet từng ô nhịp."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "tap-01-bai-06-rule-hp-b3-harmonization-priority",
+  "type": "rule",
+  "name": "Khi chọn hợp âm cho nốt giai điệu nằm ở phách mạnh, ưu tiên xếp nốt đó làm Bậc 3 (B3) của hợp âm (gốc hoặc đảo) để tạo c",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-06",
+    "locator": "17:40:00-18:55:00 pdf p.4",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Pop, Sacred Music"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "sacred-music"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop",
+        "Sacred Music"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi chọn hợp âm cho nốt giai điệu nằm ở phách mạnh, ưu tiên xếp nốt đó làm Bậc 3 (B3) của hợp âm (gốc hoặc đảo) để tạo cảm giác hòa âm đầy màu sắc và trữ tình nhất, sau đó mới xét đến Bậc 5 (B5) và Bậc 1 (B1).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_HP_B3_HARMONIZATION_PRIORITY",
+      "name": "Ưu tiên đặt Hợp âm theo Bậc 3 của nốt Giai điệu",
+      "description": "Khi chọn hợp âm cho nốt giai điệu nằm ở phách mạnh, ưu tiên xếp nốt đó làm Bậc 3 (B3) của hợp âm (gốc hoặc đảo) để tạo cảm giác hòa âm đầy màu sắc và trữ tình nhất, sau đó mới xét đến Bậc 5 (B5) và Bậc 1 (B1).",
+      "domain": "Harmonization Selection",
+      "type": "Priority Rule",
+      "confidence": "direct",
+      "source_reference": {
+        "video_timestamp": "02:30 - 03:45",
+        "pdf_page": "pdf_tap01_bai01_05, page 11-12"
+      },
+      "lesson_folder": "Tap_01_Bai_06"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi chọn hợp âm cho nốt giai điệu nằm ở phách mạnh, ưu tiên xếp nốt đó làm Bậc 3 (B3) của hợp âm (gốc hoặc đảo) để tạo cảm giác hòa âm đầy màu sắc và trữ tình nhất, sau đó mới xét đến Bậc 5 (B5) và Bậc 1 (B1)."
+}

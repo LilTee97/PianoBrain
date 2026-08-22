@@ -1,0 +1,132 @@
+{
+  "id": "tap-02-bai-12-hai-piano-course-001-t2-b12-003",
+  "type": "accompaniment",
+  "name": "Mẫu Tango 1 (Kiểu A): Tay trái đi nốt Bass nốt đen liền tiếng (Legato) rơi vào các phách 1-2-3-4 (Root - 5th - Root - 5t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-12",
+    "locator": "00:03:10-00:09:21 pdf p.3",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 3,
+        "section": "BÀI 12 : TIẾT TẤU TANGO - Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Am7, Am9, Dm, E7",
+    "Giọng: Am",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Am7",
+      "Am9",
+      "Dm",
+      "E7"
+    ],
+    "style": [
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu Tango 1 (Kiểu A): Tay trái đi nốt Bass nốt đen liền tiếng (Legato) rơi vào các phách 1-2-3-4 (Root - 5th - Root - 5th). Tay phải đánh hợp âm nẩy (Staccato) ở các phách đầu và nhấn mạnh giật phách (Accent >) ở phách cuối ô nhịp.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Am7",
+        "Am9",
+        "Dm",
+        "E7"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [],
+      "styles": [
+        "Tango"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "C3",
+        "E3",
+        "A3",
+        "C4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "C3",
+          "E3",
+          "A3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A2",
+          "C3",
+          "E3",
+          "A3",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "C3",
+            "E3",
+            "A3"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu Tango 1 (Kiểu A): Tay trái đi nốt Bass nốt đen liền tiếng (Legato) rơi vào các phách 1-2-3-4 (Root - 5th - Root - 5th). Tay phải đánh hợp âm nẩy (Staccato) ở các phách đầu và nhấn mạnh giật phách (Accent >) ở phách cuối ô nhịp."
+}

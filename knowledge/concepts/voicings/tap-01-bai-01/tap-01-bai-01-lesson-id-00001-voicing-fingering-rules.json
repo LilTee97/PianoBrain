@@ -1,0 +1,117 @@
+{
+  "id": "tap-01-bai-01-lesson-id-00001-voicing-fingering-rules",
+  "type": "voicing",
+  "name": "Thế bấm hợp âm 3 khi đệm hát: Tay trái bấm Bậc 1 và Bậc 5 (1-5) bằng ngón 5 và ngón 2",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-01",
+    "locator": "24:41-29:32 pdf p.3",
+    "media_id": "video_input_0",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 3,
+        "section": "Bước 3: Thực hành trên đàn - Thế bấm hai tay"
+      },
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 4,
+        "section": "Những lưu ý"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, G",
+    "Giọng: C Major",
+    "Điệu / phong cách: Accompaniment"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "G"
+    ],
+    "style": [
+      "accompaniment"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Thế bấm hợp âm 3 khi đệm hát: Tay trái bấm Bậc 1 và Bậc 5 (1-5) bằng ngón 5 và ngón 2. Giữ ngón 1 trống để sau này phát triển đánh nốt bậc 9 hoặc quãng 8. Tay phải bấm 2 nốt (1-3 hoặc 3-5) hoặc 3 nốt (1-3-5) tạo nên hòa âm 4 bè.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Accompaniment"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3 (ngón 5)",
+          "G3 (ngón 2)"
+        ],
+        "right": [
+          "C4 (ngón 1)",
+          "E4 (ngón 3)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "G3",
+          "C4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3 (ngón 5)",
+            "G3 (ngón 2)"
+          ],
+          "right": [
+            "C4 (ngón 1)",
+            "E4 (ngón 3)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thế bấm hợp âm 3 khi đệm hát: Tay trái bấm Bậc 1 và Bậc 5 (1-5) bằng ngón 5 và ngón 2. Giữ ngón 1 trống để sau này phát triển đánh nốt bậc 9 hoặc quãng 8. Tay phải bấm 2 nốt (1-3 hoặc 3-5) hoặc 3 nốt (1-3-5) tạo nên hòa âm 4 bè."
+}

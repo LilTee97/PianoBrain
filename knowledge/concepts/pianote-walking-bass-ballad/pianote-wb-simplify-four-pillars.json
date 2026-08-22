@@ -1,0 +1,34 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-simplify-four-pillars",
+  "type": "concept",
+  "name": "Bỏ nốt phức tạp, chỉ lấy 4 bậc trụ cột đi đều 4 phách một ô nhịp",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:00:14"
+  },
+  "use_when": [
+    "Người mới sợ walking bass jazz phức tạp",
+    "Nhịp 4/4"
+  ],
+  "output": {
+    "pillars": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "notes_per_bar": 4,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Đơn giản hóa tư duy walking bass cho nhạc pop/ballad bằng cách bỏ bớt nốt phức tạp, chỉ lấy đúng bốn bậc trụ cột theo thang âm của hợp âm (bậc 1, 2, 3, 5), tạo chuyển động bước đều bốn phách trong một ô nhịp.",
+  "input": {
+    "style": [
+      "pop_ballad"
+    ]
+  }
+}

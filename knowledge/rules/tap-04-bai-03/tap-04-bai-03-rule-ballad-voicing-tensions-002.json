@@ -1,0 +1,78 @@
+{
+  "id": "tap-04-bai-03-rule-ballad-voicing-tensions-002",
+  "type": "rule",
+  "name": "Để tiếng đàn piano đệm Ballad dày và hiện đại, thêm nốt bậc 9 (add9) ở hợp âm Trưởng (I, IV) và nốt 7 (min7/maj7) ở các",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-03",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Contemporary Ballad, Modern Ballad, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary-ballad",
+      "modern-ballad",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Contemporary Ballad",
+        "Modern Ballad",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Để tiếng đàn piano đệm Ballad dày và hiện đại, thêm nốt bậc 9 (add9) ở hợp âm Trưởng (I, IV) và nốt 7 (min7/maj7) ở các hợp âm thứ/trưởng.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_ballad_voicing_tensions_002",
+      "name": "Ứng dụng Voicing Add9 và Major 7 trong câu lót Ballad",
+      "category": "voicing",
+      "description": "Để tiếng đàn piano đệm Ballad dày và hiện đại, thêm nốt bậc 9 (add9) ở hợp âm Trưởng (I, IV) và nốt 7 (min7/maj7) ở các hợp âm thứ/trưởng.",
+      "conditions": {
+        "style": "Ballad",
+        "chord_types": [
+          "Major",
+          "Minor"
+        ]
+      },
+      "recommendations": [
+        "Kẹp nốt bậc 9 ở tay phải gần nốt bậc 3 tạo màu sắc ngấm đọng.",
+        "Giữ nốt pedal duy trì (sustain pedal) đúng phách đổi hợp âm."
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_04_Bai_03"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Để tiếng đàn piano đệm Ballad dày và hiện đại, thêm nốt bậc 9 (add9) ở hợp âm Trưởng (I, IV) và nốt 7 (min7/maj7) ở các hợp âm thứ/trưởng."
+}

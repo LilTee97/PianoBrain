@@ -1,0 +1,94 @@
+{
+  "id": "tap-06-bai-08-hai-piano-course-001-t06-b08-001",
+  "type": "concept",
+  "name": "Demo trình diễn vòng hòa âm 2-5-1 giọng La thứ (Am) trên tiết điệu Swing với các hợp âm Bm7(b5) - E7 - Am7.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-08",
+    "locator": "00:10-00:47 pdf p.1",
+    "media_id": "video_Tap_06_Bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_Tap_06_Bai_08",
+        "page": 1,
+        "section": "Demo_Intro"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bm7b5, E7, Am7",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Nốt màu: b5",
+    "Điệu / phong cách: Swing, Jazz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bm7b5",
+      "E7",
+      "Am7"
+    ],
+    "style": [
+      "jazz",
+      "swing"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Demo trình diễn vòng hòa âm 2-5-1 giọng La thứ (Am) trên tiết điệu Swing với các hợp âm Bm7(b5) - E7 - Am7.",
+    "music_entities": {
+      "chords": [
+        "Bm7b5",
+        "E7",
+        "Am7"
+      ],
+      "tensions": [
+        "b5"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Swing",
+        "Jazz"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Bm7(b5) -> E7 -> Am7",
+      "notes": [
+        "B2",
+        "D3",
+        "F3",
+        "A3",
+        "E2",
+        "G#3",
+        "D4",
+        "A2",
+        "C3",
+        "E3",
+        "G3"
+      ],
+      "hands": {
+        "left": [
+          "B2",
+          "E2",
+          "A2"
+        ],
+        "right": [
+          "D3-F3-A3",
+          "G#3-D4",
+          "C3-E3-G3"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Demo trình diễn vòng hòa âm 2-5-1 giọng La thứ (Am) trên tiết điệu Swing với các hợp âm Bm7(b5) - E7 - Am7."
+}

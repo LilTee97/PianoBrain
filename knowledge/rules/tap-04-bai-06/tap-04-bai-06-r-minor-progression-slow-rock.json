@@ -1,0 +1,68 @@
+{
+  "id": "tap-04-bai-06-r-minor-progression-slow-rock",
+  "type": "rule",
+  "name": "Vòng hòa âm thứ cơ bản cho câu lót điệu Slow Rock / Ballad",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-06",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Contemporary Pop, Slow, Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary-pop",
+      "slow",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Contemporary Pop",
+        "Slow",
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Vòng hòa âm thứ cơ bản cho câu lót điệu Slow Rock / Ballad",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_MINOR_PROGRESSION_SLOW_ROCK",
+      "name": "Vòng hòa âm thứ cơ bản cho câu lót điệu Slow Rock / Ballad",
+      "category": "harmonic_progression",
+      "condition": "Đệm hát điệu Slow, Slow Rock, Ballad trên giọng thứ (Minor Key).",
+      "recommendation": "Sử dụng chuỗi hòa âm i - v - VI - III - iv - i - v - i (VD ở Am: Am -> Em -> F -> C -> Dm -> Am -> Em -> Am) để tạo tuyến bass và giai điệu dẫn tự nhiên.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_04_Bai_06"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Vòng hòa âm thứ cơ bản cho câu lót điệu Slow Rock / Ballad"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "tap-03-bai-03-tap-03-bai-03-002",
+  "type": "scale",
+  "name": "Kỹ thuật di chuyển thang âm Đô Trưởng (C Major) 2 quãng 8 từng tay lẻ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-03",
+    "locator": "00:02:56-00:05:22 pdf p.1",
+    "media_id": "video_tap_03_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 1,
+        "section": "Luyện ngón Gam Đô Trưởng"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: Technical Exercise"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "technical-exercise"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Kỹ thuật di chuyển thang âm Đô Trưởng (C Major) 2 quãng 8 từng tay lẻ. Tay phải đi lên: 1-2-3 luồn ngón 1 sang F4, tiếp tục 2-3-4 luồn ngón 1 sang C5. Khi đi xuống: ngón 4 vắt qua ngón 1 về B4, ngón 3 vắt qua ngón 1 về E4. Tay trái áp dụng quy tắc đối ứng ngược lại.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Technical Exercise"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
+        "A5",
+        "B5",
+        "C6"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "D3",
+          "E3",
+          "F3",
+          "G3",
+          "A3",
+          "B3",
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4",
+          "A4",
+          "B4",
+          "C5"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4",
+          "A4",
+          "B4",
+          "C5",
+          "D5",
+          "E5",
+          "F5",
+          "G5",
+          "A5",
+          "B5",
+          "C6"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật di chuyển thang âm Đô Trưởng (C Major) 2 quãng 8 từng tay lẻ. Tay phải đi lên: 1-2-3 luồn ngón 1 sang F4, tiếp tục 2-3-4 luồn ngón 1 sang C5. Khi đi xuống: ngón 4 vắt qua ngón 1 về B4, ngón 3 vắt qua ngón 1 về E4. Tay trái áp dụng quy tắc đối ứng ngược lại."
+}

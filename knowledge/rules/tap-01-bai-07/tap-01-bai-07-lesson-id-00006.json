@@ -1,0 +1,92 @@
+{
+  "id": "tap-01-bai-07-lesson-id-00006",
+  "type": "rule",
+  "name": "Ứng dụng công thức II - V - I của giọng thứ đích để làm chuỗi hợp âm dẫn/câu lót",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-07",
+    "locator": "25:31-28:18 pdf p.4",
+    "media_id": "video_tap01_bai07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 4,
+        "section": "Công thức 2.5.1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Bdim, E, Am",
+    "Giọng: A minor",
+    "Gam: A harmonic minor",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Bdim",
+      "E",
+      "Am"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Ứng dụng công thức II - V - I của giọng thứ đích để làm chuỗi hợp âm dẫn/câu lót. Ví dụ khi chuyển từ C về Am: II = Bdim (Bm-5), V = E (E7), I = Am -> Tạo chuỗi C -> Bdim -> E -> Am.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Bdim",
+        "E",
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A harmonic minor"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Bdim -> E -> Am",
+      "notes": [
+        "B2",
+        "D4",
+        "F4",
+        "E3",
+        "G#3",
+        "B3",
+        "A2",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "B2",
+          "E3",
+          "A2"
+        ],
+        "right": [
+          "D4-F4",
+          "G#3-B3",
+          "C4-E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng công thức II - V - I của giọng thứ đích để làm chuỗi hợp âm dẫn/câu lót. Ví dụ khi chuyển từ C về Am: II = Bdim (Bm-5), V = E (E7), I = Am -> Tạo chuỗi C -> Bdim -> E -> Am."
+}

@@ -1,0 +1,88 @@
+{
+  "id": "tap-02-bai-09-r-tap02-bai09-002",
+  "type": "rule",
+  "name": "Sử dụng hợp âm đảo C9/E (hoặc Cadd9/E) làm hợp âm chuyển giữa bậc I (Cmaj79) và bậc IV (F9) để nốt bass di chuyển tuyến tính C -> E -> F.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-09",
+    "locator": "00:02:30-00:07:01 pdf p.8",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Gospel, Pop, Pop Ballad, Slow Ballad, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "gospel",
+      "pop",
+      "pop-ballad",
+      "slow-ballad",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Gospel",
+        "Pop",
+        "Pop Ballad",
+        "Slow Ballad",
+        "Thánh ca"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng hợp âm đảo C9/E (hoặc Cadd9/E) làm hợp âm chuyển giữa bậc I (Cmaj79) và bậc IV (F9) để nốt bass di chuyển tuyến tính C -> E -> F.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP02_BAI09_002",
+      "title": "Tạo liên kết Bass bước tiến bằng Hợp âm Đảo C9/E",
+      "summary": "Sử dụng hợp âm đảo C9/E (hoặc Cadd9/E) làm hợp âm chuyển giữa bậc I (Cmaj79) và bậc IV (F9) để nốt bass di chuyển tuyến tính C -> E -> F.",
+      "domain": "harmony_progression",
+      "applicability": {
+        "keys": [
+          "C major",
+          "All major keys"
+        ],
+        "styles": [
+          "Pop",
+          "Ballad",
+          "Acoustic"
+        ]
+      },
+      "conditions": [
+        "Chuyển từ hợp âm bậc I sang hợp âm bậc IV."
+      ],
+      "action": {
+        "left_hand": "Di chuyển nốt Bass từ C3 lên E3 trước khi sang F3.",
+        "right_hand": "Giữ âm sắc 9th (D4, G4) để tạo màu sắc chuyển tiếp êm ái."
+      },
+      "example": {
+        "progression": "Cmaj7(9) -> C9/E -> F9 -> Gsus4"
+      },
+      "lesson_folder": "Tap_02_Bai_09"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng hợp âm đảo C9/E (hoặc Cadd9/E) làm hợp âm chuyển giữa bậc I (Cmaj79) và bậc IV (F9) để nốt bass di chuyển tuyến tính C -> E -> F."
+}

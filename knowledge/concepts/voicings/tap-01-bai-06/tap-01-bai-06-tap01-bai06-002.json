@@ -1,0 +1,127 @@
+{
+  "id": "tap-01-bai-06-tap01-bai06-002",
+  "type": "voicing",
+  "name": "Tra cứu nốt giai điệu Đô Trưởng (C, D, E, F, G, A, B) tương ứng với các cấu trúc hợp âm đảo: Nốt C là Bậc 3 của F/A, Bậc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-06",
+    "locator": "00:01:48-00:02:24 pdf p.2",
+    "media_id": "video_tap01_bai06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 2,
+        "section": "Bảng Bậc 3 - Bậc 4 - BẬC 6 trong Hợp Âm Đảo"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: F/A, G/B, Am/C, C/E, Dm/F, Em/G, C/G, Dm/A, Em/B, F/C, G/D, Am/E",
+    "Giọng: C Major",
+    "Gam: C Major Scale"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "F/A",
+      "G/B",
+      "Am/C",
+      "C/E",
+      "Dm/F",
+      "Em/G",
+      "C/G",
+      "Dm/A",
+      "Em/B",
+      "F/C",
+      "G/D",
+      "Am/E"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Tra cứu nốt giai điệu Đô Trưởng (C, D, E, F, G, A, B) tương ứng với các cấu trúc hợp âm đảo: Nốt C là Bậc 3 của F/A, Bậc 4 của C/G, Bậc 6 của C/E; Nốt D là Bậc 3 của G/B, Bậc 4 của Dm/A, Bậc 6 của Dm/F; Nốt E là Bậc 3 của Am/C, Bậc 4 của Em/B, Bậc 6 của Em/G; Nốt F là Bậc 4 của F/C, Bậc 6 của F/A; Nốt G là Bậc 3 của C/E, Bậc 4 của G/D, Bậc 6 của G/B; Nốt A là Bậc 3 của Dm/F, Bậc 4 của Am/E, Bậc 6 của Am/C; Nốt B là Bậc 3 của Em/G.",
+    "music_entities": {
+      "chords": [
+        "F/A",
+        "G/B",
+        "Am/C",
+        "C/E",
+        "Dm/F",
+        "Em/G",
+        "C/G",
+        "Dm/A",
+        "Em/B",
+        "F/C",
+        "G/D",
+        "Am/E"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "F/A",
+      "notes": [
+        "A2",
+        "F3",
+        "A3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "A2"
+        ],
+        "right": [
+          "F3",
+          "A3",
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "F/A",
+        "notes": [
+          "A2",
+          "F3",
+          "A3",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2"
+          ],
+          "right": [
+            "F3",
+            "A3",
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tra cứu nốt giai điệu Đô Trưởng (C, D, E, F, G, A, B) tương ứng với các cấu trúc hợp âm đảo: Nốt C là Bậc 3 của F/A, Bậc 4 của C/G, Bậc 6 của C/E; Nốt D là Bậc 3 của G/B, Bậc 4 của Dm/A, Bậc 6 của Dm/F; Nốt E là Bậc 3 của Am/C, Bậc 4 của Em/B, Bậc 6 của Em/G; Nốt F là Bậc 4 của F/C, Bậc 6 của F/A; Nốt G là Bậc 3 của C/E, Bậc 4 của G/D, Bậc 6 của G/B; Nốt A là Bậc 3 của Dm/F, Bậc 4 của Am/E, Bậc 6 của Am/C; Nốt B là Bậc 3 của Em/G."
+}

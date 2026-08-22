@@ -1,0 +1,85 @@
+{
+  "id": "tap-03-bai-06-rule-sight-reading-vertical-order-001",
+  "type": "rule",
+  "name": "When coordinating hands together from staff notation, scan vertically from bottom to top (Bass Clef / Left Hand first, t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "03:05-05:55 pdf p.3",
+    "extra_locators": [
+      "09:20-09:35 pdf p.3",
+      "13:00-16:45 pdf p.3",
+      "31:10-34:00 pdf p.3"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Waltz"
+  ],
+  "avoid_when": [
+    "Lead melody soloist focus during preliminary ear-training"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "When coordinating hands together from staff notation, scan vertically from bottom to top (Bass Clef / Left Hand first, then Treble Clef / Right Hand).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_sight_reading_vertical_order_001",
+      "name": "Bottom-Up Sight-Reading Order for Hands Together",
+      "domain": "sight_reading_coordination",
+      "description": "When coordinating hands together from staff notation, scan vertically from bottom to top (Bass Clef / Left Hand first, then Treble Clef / Right Hand).",
+      "if_conditions": [
+        {
+          "condition": "practice_mode == 'hands_together'"
+        },
+        {
+          "condition": "reading_sheet_music == true"
+        }
+      ],
+      "then_actions": [
+        {
+          "action": "read_and_process_bass_clef_note_first"
+        },
+        {
+          "action": "read_and_process_treble_clef_note_second"
+        }
+      ],
+      "exceptions": [
+        "Lead melody soloist focus during preliminary ear-training"
+      ],
+      "lesson_folder": "Tap_03_Bai_06"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "When coordinating hands together from staff notation, scan vertically from bottom to top (Bass Clef / Left Hand first, then Treble Clef / Right Hand)."
+}

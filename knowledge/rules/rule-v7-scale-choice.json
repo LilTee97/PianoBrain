@@ -1,0 +1,18 @@
+{
+  "id": "rule-v7-scale-choice",
+  "type": "rule",
+  "name": "Gam cho hợp âm át",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Chọn gam để solo hoặc lót trên một hợp âm"],
+  "avoid_when": ["Hợp âm át đã biến âm"],
+  "input": { "chord_quality": ["7", "7sus4", "13"] },
+  "output": {
+    "if": "hợp âm là 7 / 7sus4 / 13 chưa biến âm",
+    "then": "dùng scale-mixolydian, tránh dừng ở bậc 4",
+    "enforced_by": "src/mrhai/answer.ts"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Luật này chạy được: Mr Hai tra hợp âm rồi trả đúng gam trong kho, không tự nghĩ gam mới."
+}

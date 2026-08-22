@@ -1,0 +1,122 @@
+{
+  "id": "tap-01-bai-14-lesson-14-00007",
+  "type": "voicing",
+  "name": "Thực hành tuyến Bass di chuyển liền bậc trong 'Cho Con': Dùng hợp âm đảo F/C, C/E, Dm, C, G/F để tạo đường Bass đi xuống",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "14:28-18:22 pdf p.10",
+    "media_id": "video_tap_01_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_11_15",
+        "page": 10,
+        "section": "Score Cho Con - Line 2 & 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, C/G, F, C/E, Dm, G/F",
+    "Giọng: C Major",
+    "Điệu / phong cách: Valse 3/4"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "C/G",
+      "F",
+      "C/E",
+      "Dm",
+      "G/F"
+    ],
+    "style": [
+      "valse-3-4"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Thực hành tuyến Bass di chuyển liền bậc trong 'Cho Con': Dùng hợp âm đảo F/C, C/E, Dm, C, G/F để tạo đường Bass đi xuống mượt mà C -> B -> A -> G -> F -> E -> D -> C.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "C/G",
+        "F",
+        "C/E",
+        "Dm",
+        "G/F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Valse 3/4"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C/G",
+      "notes": [
+        "G1",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "G1"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C/G",
+        "notes": [
+          "G1",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "G1"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành tuyến Bass di chuyển liền bậc trong 'Cho Con': Dùng hợp âm đảo F/C, C/E, Dm, C, G/F để tạo đường Bass đi xuống mượt mà C -> B -> A -> G -> F -> E -> D -> C."
+}

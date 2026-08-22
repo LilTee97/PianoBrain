@@ -1,0 +1,84 @@
+{
+  "id": "tap-01-bai-01-lesson-id-00001-concept-major-scale-c",
+  "type": "scale",
+  "name": "Âm giai Đô Trưởng (C Dur / C Major Scale) gồm 7 bậc nốt cơ bản: C - D - E - F - G - A - B - (C)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-01",
+    "locator": "11:09-12:20 pdf p.2",
+    "media_id": "video_input_0",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 2,
+        "section": "Bước 1: Âm giai Đô Trưởng"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C Major",
+    "Gam: C Major Scale"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Âm giai Đô Trưởng (C Dur / C Major Scale) gồm 7 bậc nốt cơ bản: C - D - E - F - G - A - B - (C). Tương ứng bậc I đến VII.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    },
+    "scale": {
+      "name": "Âm giai Đô Trưởng",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [],
+      "review": "rà tay từ raw_text: Âm giai Đô Trưởng gồm 7 bậc nốt cơ bản: C - D - E - F - G - A - B - (C)"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Âm giai Đô Trưởng (C Dur / C Major Scale) gồm 7 bậc nốt cơ bản: C - D - E - F - G - A - B - (C). Tương ứng bậc I đến VII."
+}

@@ -1,0 +1,94 @@
+{
+  "id": "tap-03-bai-14-lesson-tap-03-bai-14-001",
+  "type": "concept",
+  "name": "Bài 14 hướng dẫn độc tấu piano bài 'Cơn Gió Lạ' (sáng tác Phương Linh)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-14",
+    "locator": "00:00:30-01:38:00 pdf p.17",
+    "media_id": "video_tap_03_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 17,
+        "section": "Bài 14 - Cơn Gió Lạ"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, G, Am, Dm, Em",
+    "Giọng: C Major, B Major",
+    "Gam: C Major Scale",
+    "Điệu / phong cách: Pop, Ballad, Piano Solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "G",
+      "Am",
+      "Dm",
+      "Em"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "piano-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Bài 14 hướng dẫn độc tấu piano bài 'Cơn Gió Lạ' (sáng tác Phương Linh). Bài gốc ở giọng B trưởng (5 dấu thăng), được chuyển tông sang Đô trưởng (C Major) không có dấu hoá ở đầu khuông nhạc để người học dễ tiếp cận và luyện tập kỹ thuật solo.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "G",
+        "Am",
+        "Dm",
+        "Em"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major",
+        "B Major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad",
+        "Piano Solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C",
+        "E",
+        "G"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "E4"
+        ],
+        "right": [
+          "G4",
+          "C5",
+          "D5",
+          "E5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 14 hướng dẫn độc tấu piano bài 'Cơn Gió Lạ' (sáng tác Phương Linh). Bài gốc ở giọng B trưởng (5 dấu thăng), được chuyển tông sang Đô trưởng (C Major) không có dấu hoá ở đầu khuông nhạc để người học dễ tiếp cận và luyện tập kỹ thuật solo."
+}

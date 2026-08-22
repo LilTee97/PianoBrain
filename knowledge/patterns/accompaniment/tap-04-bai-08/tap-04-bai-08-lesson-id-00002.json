@@ -1,0 +1,87 @@
+{
+  "id": "tap-04-bai-08-lesson-id-00002",
+  "type": "accompaniment",
+  "name": "Câu lót/câu dẫn số 1 cho điệu Boston giọng Am",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-08",
+    "locator": "02:12:00-03:31:00 pdf p.37",
+    "media_id": "video_tap_04_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 37,
+        "section": "Bài 8 - Câu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Em, Dm, Bm-5, E7",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Em",
+      "Dm",
+      "Bm-5",
+      "E7"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Câu lót/câu dẫn số 1 cho điệu Boston giọng Am. Sử dụng nét giai điệu cơ bản kết hợp hợp âm ba (triads) nối từ bậc i (Am) sang v (Em), iv (Dm), i (Am), ii° (Bm-5), V7 (E7). Phù hợp đệm lót cho câu hát nhẹ nhàng ở phiên khúc.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Em",
+        "Dm",
+        "Bm-5",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "E4",
+        "C4",
+        "A3",
+        "B3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "A3"
+        ],
+        "right": [
+          "E4",
+          "C4",
+          "A3"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu lót/câu dẫn số 1 cho điệu Boston giọng Am. Sử dụng nét giai điệu cơ bản kết hợp hợp âm ba (triads) nối từ bậc i (Am) sang v (Em), iv (Dm), i (Am), ii° (Bm-5), V7 (E7). Phù hợp đệm lót cho câu hát nhẹ nhàng ở phiên khúc."
+}

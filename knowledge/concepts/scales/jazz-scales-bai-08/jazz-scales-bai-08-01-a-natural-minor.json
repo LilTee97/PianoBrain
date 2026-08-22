@@ -1,0 +1,65 @@
+{
+  "id": "jazz-scales-bai-08-01-a-natural-minor",
+  "type": "scale",
+  "name": "Gam A Natural Minor",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-08",
+    "locator": "00:39-01:29",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "A Natural Minor",
+      "root": "A",
+      "note_names": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "for_qualities": [],
+      "use_when": []
+    },
+    "chord_symbol": "Am",
+    "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A"
+    ],
+    "source_text": "The Natural Minor Scale (Aeolian Mode) is derived from the Major scale starting 3 half-steps down (e.g., C Major scale starting on A yields A Natural Minor: A-B-C-D-E-F-G-A)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 8 của nguồn Jazz Scales (YouTube), mốc 00:39-01:29. The Natural Minor Scale (Aeolian Mode) is derived from the Major scale starting 3 half-steps down (e.g., C Major scale starting on A yields A Natural Minor: A-B-C-D-E-F-G-A). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

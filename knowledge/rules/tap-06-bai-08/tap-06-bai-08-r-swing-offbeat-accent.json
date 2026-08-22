@@ -1,0 +1,74 @@
+{
+  "id": "tap-06-bai-08-r-swing-offbeat-accent",
+  "type": "rule",
+  "name": "Trong tiết điệu Swing, tay phải không dập hợp âm vào đầu phách mạnh mà nảy nhẹ vào các phách phụ (off-beats) hoặc phách",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-08",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Fast Swing, Jazz, Medium Swing, Pop, Swing, Walking Bass"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "fast-swing",
+      "medium-swing",
+      "pop",
+      "swing",
+      "walking-bass"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Fast Swing",
+        "Jazz",
+        "Medium Swing",
+        "Pop",
+        "Swing",
+        "Walking Bass"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trong tiết điệu Swing, tay phải không dập hợp âm vào đầu phách mạnh mà nảy nhẹ vào các phách phụ (off-beats) hoặc phách 2, 4 để tạo nhịp giật đảo nhịp nhún nhảy đặc trưng.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Play chord accents on off-beats / upbeat weak beats"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_SWING_OFFBEAT_ACCENT",
+      "title": "Nhấn phách nhẹ (Off-beat Syncopation) trong Tiết điệu Swing",
+      "description": "Trong tiết điệu Swing, tay phải không dập hợp âm vào đầu phách mạnh mà nảy nhẹ vào các phách phụ (off-beats) hoặc phách 2, 4 để tạo nhịp giật đảo nhịp nhún nhảy đặc trưng.",
+      "conditions": {
+        "style": "Swing",
+        "hand": "right_hand"
+      },
+      "action": "Play chord accents on off-beats / upbeat weak beats",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_08"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trong tiết điệu Swing, tay phải không dập hợp âm vào đầu phách mạnh mà nảy nhẹ vào các phách phụ (off-beats) hoặc phách 2, 4 để tạo nhịp giật đảo nhịp nhún nhảy đặc trưng."
+}

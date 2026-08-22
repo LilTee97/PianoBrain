@@ -1,0 +1,92 @@
+{
+  "id": "jazz-scales-bai-02-04-c-dorian",
+  "type": "scale",
+  "name": "Gam C Dorian cho hợp âm Cm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-02",
+    "locator": "04:11-05:32",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm",
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Ngẫu hứng jazz trên hợp âm Cm9",
+    "Ngẫu hứng jazz trên hợp âm Cm11",
+    "Ngẫu hứng jazz trên hợp âm Cm6/9",
+    "Ngẫu hứng jazz trên hợp âm F7",
+    "Ngẫu hứng jazz trên hợp âm Gm",
+    "Chọn gam / scale khi gặp hợp âm m, m7, m9, m11, m6/9, 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m",
+      "m7",
+      "m9",
+      "m11",
+      "m6/9",
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Dorian",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "A",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "m",
+        "m7",
+        "m9",
+        "m11",
+        "m6/9"
+      ],
+      "use_when": [
+        "hợp âm Cm",
+        "hợp âm Cm7",
+        "hợp âm Cm9",
+        "hợp âm Cm11",
+        "hợp âm Cm6/9",
+        "hợp âm F7",
+        "hợp âm Gm"
+      ]
+    },
+    "chord_symbol": "Cm7",
+    "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "Bb"
+    ],
+    "source_text": "Scale #8 - Dorian Scale ('The Happy-Sad Scale'): C Dorian (C, D, Eb, F, G, A, Bb). Used on minor chords (Cm, Cm7, Cm9, Cm11, Cm6/9). Special trick: Think of F7 + Gm chord shapes."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 2 của nguồn Jazz Scales (YouTube), mốc 04:11-05:32. Scale #8 - Dorian Scale ('The Happy-Sad Scale'): C Dorian (C, D, Eb, F, G, A, Bb). Used on minor chords (Cm, Cm7, Cm9, Cm11, Cm6/9). Special trick: Think of F7 + Gm chord shapes. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

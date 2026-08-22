@@ -1,0 +1,44 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-example-target-c",
+  "type": "solo_idea",
+  "name": "Ví dụ bao quanh nốt C: bốn nốt D-Db-Bb-B-C, ba nốt D-B-C",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:01:04"
+  },
+  "use_when": [
+    "Tập enclosure vào nốt gốc",
+    "Tông C"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Cmaj7",
+      "C"
+    ]
+  },
+  "output": {
+    "target": "C",
+    "four_note": [
+      "D",
+      "Db",
+      "Bb",
+      "B",
+      "C"
+    ],
+    "three_note": [
+      "D",
+      "B",
+      "C"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Nhắm nốt đích C: mẫu bốn nốt đi D - Db - Bb - B - C; mẫu ba nốt đi D - B - C. Nhớ D cách C một nguyên cung, không phải nửa cung."
+}

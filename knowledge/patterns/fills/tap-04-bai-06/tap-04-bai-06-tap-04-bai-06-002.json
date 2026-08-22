@@ -1,0 +1,126 @@
+{
+  "id": "tap-04-bai-06-tap-04-bai-06-002",
+  "type": "fill",
+  "name": "Mẫu câu lót số 1 (Câu 1) trên vòng hòa âm thứ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-06",
+    "locator": "00:02:20-00:03:37 pdf p.27",
+    "media_id": "video_tap_04_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 27,
+        "section": "Bài 6 - Câu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Em, F, C, Dm",
+    "Giọng: A minor",
+    "Gam: A minor",
+    "Điệu / phong cách: Slow Rock, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Em",
+      "F",
+      "C",
+      "Dm"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu câu lót số 1 (Câu 1) trên vòng hòa âm thứ. Giai điệu tập trung xoay quanh các nốt hòa âm cơ bản (bậc 3 và bậc 5 của từng hợp âm) giúp tạo câu lót đơn giản, tính giai điệu rõ ràng, không bị tranh chấp với giọng hát chính.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Em",
+        "F",
+        "C",
+        "Dm"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Slow Rock",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "C5",
+        "B4",
+        "A4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "C5",
+          "B4",
+          "A4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "C5",
+          "B4",
+          "A4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3"
+          ],
+          "right": [
+            "C5",
+            "B4",
+            "A4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 1 (Câu 1) trên vòng hòa âm thứ. Giai điệu tập trung xoay quanh các nốt hòa âm cơ bản (bậc 3 và bậc 5 của từng hợp âm) giúp tạo câu lót đơn giản, tính giai điệu rõ ràng, không bị tranh chấp với giọng hát chính."
+}

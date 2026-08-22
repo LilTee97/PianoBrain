@@ -1,0 +1,66 @@
+{
+  "id": "tap-03-bai-09-rule-transposition-for-beginners",
+  "type": "rule",
+  "name": "Dịch chuyển ca khúc từ giọng khó (nhiều dấu thăng/giáng) sang giọng song song/tương đương ít dấu hóa (như Am/C) giúp người mới dễ nắm bắt ngón và hòa âm.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-09",
+    "locator": "00:40-02:05 pdf p.8",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Solo, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-solo",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Solo",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Dịch chuyển ca khúc từ giọng khó (nhiều dấu thăng/giáng) sang giọng song song/tương đương ít dấu hóa (như Am/C) giúp người mới dễ nắm bắt ngón và hòa âm.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Transpose bài hát về A minor (Am) để tập luyện nền tảng."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_transposition_for_beginners",
+      "domain": "Arrangement & Pedagogy",
+      "summary": "Dịch chuyển ca khúc từ giọng khó (nhiều dấu thăng/giáng) sang giọng song song/tương đương ít dấu hóa (như Am/C) giúp người mới dễ nắm bắt ngón và hòa âm.",
+      "trigger": "Ca khúc gốc ở giọng C#m hoặc F#m có nhiều dấu hóa phức tạp.",
+      "action": "Transpose bài hát về A minor (Am) để tập luyện nền tảng.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_09"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Dịch chuyển ca khúc từ giọng khó (nhiều dấu thăng/giáng) sang giọng song song/tương đương ít dấu hóa (như Am/C) giúp người mới dễ nắm bắt ngón và hòa âm."
+}

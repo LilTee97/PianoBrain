@@ -1,0 +1,81 @@
+{
+  "id": "tap-03-bai-14-rule-right-hand-thumb-positioning-wide-melody",
+  "type": "rule",
+  "name": "When the melody starts at a lower pitch and quickly jumps upward, assign finger 1 (thumb) to the lowest starting note to",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-14",
+    "locator": "05:52:00-10:03:00 pdf p.17",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Syncopation, Piano Solo, Pop, Pop Ballad, Pop Ballad Chorus, Solo Piano Voicing"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-syncopation",
+      "piano-solo",
+      "pop",
+      "pop-ballad",
+      "pop-ballad-chorus",
+      "solo-piano-voicing"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Syncopation",
+        "Piano Solo",
+        "Pop",
+        "Pop Ballad",
+        "Pop Ballad Chorus",
+        "Solo Piano Voicing"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "When the melody starts at a lower pitch and quickly jumps upward, assign finger 1 (thumb) to the lowest starting note to allow fingers 3, 4, and 5 to reach higher notes smoothly without abrupt hand position breaks.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Place finger 1 on lower pivot note, pivot or cross thumb if necessary."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_right_hand_thumb_positioning_wide_melody",
+      "name": "Right Hand Thumb Positioning for Wide Melodic Ranges",
+      "description": "When the melody starts at a lower pitch and quickly jumps upward, assign finger 1 (thumb) to the lowest starting note to allow fingers 3, 4, and 5 to reach higher notes smoothly without abrupt hand position breaks.",
+      "type": "fingering",
+      "domain": "solo_melody",
+      "conditions": {
+        "melodic_jump": "ascending octave or fifth",
+        "hand": "right_hand"
+      },
+      "action": "Place finger 1 on lower pivot note, pivot or cross thumb if necessary.",
+      "source_ref": {
+        "lesson_id": "Tap_03_Bai_14",
+        "timestamp": "02:34"
+      },
+      "lesson_folder": "Tap_03_Bai_14"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "When the melody starts at a lower pitch and quickly jumps upward, assign finger 1 (thumb) to the lowest starting note to allow fingers 3, 4, and 5 to reach higher notes smoothly without abrupt hand position breaks."
+}

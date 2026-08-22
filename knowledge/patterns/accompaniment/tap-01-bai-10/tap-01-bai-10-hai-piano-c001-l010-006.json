@@ -1,0 +1,123 @@
+{
+  "id": "tap-01-bai-10-hai-piano-c001-l010-006",
+  "type": "accompaniment",
+  "name": "Tiết tấu Boston Kiểu A trong nhịp 3/4: Mô hình 'Bum - Chát - Chát'",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-10",
+    "locator": "24:46:00-29:50:00 pdf p.9",
+    "media_id": "video_l10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap1_bai6_10",
+        "page": 9,
+        "section": "Boston - Kiểu A"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G7",
+    "Giọng: C major",
+    "Gam: C major",
+    "Điệu / phong cách: Boston, Valse chậm"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G7"
+    ],
+    "style": [
+      "boston",
+      "valse-ch-m"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Tiết tấu Boston Kiểu A trong nhịp 3/4: Mô hình 'Bum - Chát - Chát'. Phách 1 đánh nốt Bass (Mạnh), phách 2 và 3 tay phải đệm hợp âm Nonlegato (Nhẹ - Nhẹ). Tay trái bấm bậc 1 và 5 (nốt trắng có dấu chấm) giữ nền ngân vang.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Boston",
+        "Valse chậm"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "G3",
+          "E4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết tấu Boston Kiểu A trong nhịp 3/4: Mô hình 'Bum - Chát - Chát'. Phách 1 đánh nốt Bass (Mạnh), phách 2 và 3 tay phải đệm hợp âm Nonlegato (Nhẹ - Nhẹ). Tay trái bấm bậc 1 và 5 (nốt trắng có dấu chấm) giữ nền ngân vang."
+}

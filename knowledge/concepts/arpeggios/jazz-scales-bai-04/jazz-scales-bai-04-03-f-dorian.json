@@ -1,0 +1,48 @@
+{
+  "id": "jazz-scales-bai-04-03-f-dorian",
+  "type": "arpeggio",
+  "name": "Kỹ thuật 3-Shape Arpeggio đảo chiều:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-04",
+    "locator": "05:03-06:24",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F min13(9,11)",
+    "Chọn gam / scale khi gặp hợp âm m13(9,11) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m13(9,11)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F min13(9,11)",
+    "notes": [
+      "F3",
+      "Ab3",
+      "C4",
+      "Eb4",
+      "G4",
+      "Bb4",
+      "D5",
+      "F5",
+      "Eb5",
+      "C5",
+      "Bb4",
+      "G4"
+    ],
+    "source_text": "Kỹ thuật 3-Shape Arpeggio đảo chiều: Sử dụng 2 hình khối đi lên (ascending shapes) kết hợp với 1 hình khối đi xuống (descending shape) ngay trong cùng một lượt rải để tạo hiệu ứng gợn sóng phức hợp."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 4 của nguồn Jazz Scales (YouTube), mốc 05:03-06:24. Kỹ thuật 3-Shape Arpeggio đảo chiều: Sử dụng 2 hình khối đi lên (ascending shapes) kết hợp với 1 hình khối đi xuống (descending shape) ngay trong cùng một lượt rải để tạo hiệu ứng gợn sóng phức hợp. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

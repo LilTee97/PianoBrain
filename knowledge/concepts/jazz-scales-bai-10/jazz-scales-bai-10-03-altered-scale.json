@@ -1,0 +1,65 @@
+{
+  "id": "jazz-scales-bai-10-03-altered-scale",
+  "type": "concept",
+  "name": "Shortcut to construct an Altered Scale on Root R:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-10",
+    "locator": "02:21-03:15",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": null,
+      "root": "Db",
+      "note_names": [
+        "Db",
+        "Eb",
+        "E",
+        "Gb",
+        "Ab",
+        "Bb",
+        "C",
+        "Db"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [],
+      "use_when": []
+    },
+    "chord_symbol": "C Altered / Db melodic minor",
+    "notes": [
+      "Db",
+      "Eb",
+      "E",
+      "Gb",
+      "Ab",
+      "Bb",
+      "C",
+      "Db"
+    ],
+    "source_text": "Shortcut to construct an Altered Scale on Root R: Go up a half-step (R + 1 semitone) and play the Melodic Minor scale starting from that note. Technically, the Altered Scale is the 7th mode of the Melodic Minor Scale."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 10 của nguồn Jazz Scales (YouTube), mốc 02:21-03:15. Shortcut to construct an Altered Scale on Root R: Go up a half-step (R + 1 semitone) and play the Melodic Minor scale starting from that note. Technically, the Altered Scale is the 7th mode of the Melodic Minor Scale. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

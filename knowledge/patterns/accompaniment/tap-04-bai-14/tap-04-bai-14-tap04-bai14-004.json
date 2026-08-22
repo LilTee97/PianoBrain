@@ -1,0 +1,131 @@
+{
+  "id": "tap-04-bai-14-tap04-bai14-004",
+  "type": "exercise",
+  "name": "Mẫu câu 3 (Bài 14): Ứng dụng hợp âm 7 (m7, maj7, dominant 7) vào câu lót giọng Thứ để tạo độ màu sắc và chiều sâu không",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-14",
+    "locator": "00:04:45-00:05:48 pdf p.69",
+    "media_id": "video_tap04_bai14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04_75_mau_cau_lot",
+        "page": 69,
+        "section": "Bài 14 - Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm7, Gm7, C7, Fmaj7, Bbmaj7, Em7b5, A7",
+    "Giọng: D minor",
+    "Gam: D minor",
+    "Nốt màu: 7th",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm7",
+      "Gm7",
+      "C7",
+      "Fmaj7",
+      "Bbmaj7",
+      "Em7b5",
+      "A7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu 3 (Bài 14): Ứng dụng hợp âm 7 (m7, maj7, dominant 7) vào câu lót giọng Thứ để tạo độ màu sắc và chiều sâu không gian hòa âm.",
+    "music_entities": {
+      "chords": [
+        "Dm7",
+        "Gm7",
+        "C7",
+        "Fmaj7",
+        "Bbmaj7",
+        "Em7b5",
+        "A7"
+      ],
+      "tensions": [
+        "7th"
+      ],
+      "keys": [
+        "D minor"
+      ],
+      "scales": [
+        "D minor"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm7 - Gm7 - C7 - Fmaj7",
+      "notes": [
+        "D",
+        "F",
+        "A",
+        "C"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "A2"
+        ],
+        "right": [
+          "F3",
+          "A3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm7 - Gm7 - C7 - Fmaj7",
+        "notes": [
+          "D",
+          "F",
+          "A",
+          "C"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D2",
+            "A2"
+          ],
+          "right": [
+            "F3",
+            "A3",
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 3 (Bài 14): Ứng dụng hợp âm 7 (m7, maj7, dominant 7) vào câu lót giọng Thứ để tạo độ màu sắc và chiều sâu không gian hòa âm."
+}

@@ -1,0 +1,68 @@
+{
+  "id": "tap-04-bai-06-r-fill-in-chord-tones",
+  "type": "rule",
+  "name": "Tạo câu lót đơn giản bằng nốt bậc 3 và bậc 5",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-06",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Contemporary Pop, Slow, Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary-pop",
+      "slow",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Contemporary Pop",
+        "Slow",
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Tạo câu lót đơn giản bằng nốt bậc 3 và bậc 5",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_FILL_IN_CHORD_TONES",
+      "name": "Tạo câu lót đơn giản bằng nốt bậc 3 và bậc 5",
+      "category": "melodic_fill",
+      "condition": "Cần tạo câu lót rõ ràng, không làm rối giai điệu chính của ca sĩ.",
+      "recommendation": "Xây dựng nét giai điệu lót dựa trên âm tự do thuộc bậc 3 và bậc 5 của hợp âm đang vang.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_04_Bai_06"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Tạo câu lót đơn giản bằng nốt bậc 3 và bậc 5"
+}

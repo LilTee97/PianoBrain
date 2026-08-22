@@ -1,0 +1,36 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-rule-target-9-enclose-3",
+  "type": "rule",
+  "name": "Sang hợp âm át thì nhắm bậc 9 rồi bao vây bậc 3",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:01:52"
+  },
+  "use_when": [
+    "Hòa thanh vừa chuyển sang bậc V"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "G7",
+      "G13"
+    ]
+  },
+  "output": {
+    "if": "hòa thanh chuyển sang hợp âm át bậc V (G7)",
+    "then": {
+      "target": "bậc 9 (A)",
+      "device": "enclosure quanh bậc 3 (B)"
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi hòa thanh chuyển sang hợp âm át bậc V (G7), giai điệu nhắm vào nốt bậc 9 (A) kết hợp enclosure bao quanh nốt bậc 3 (B) để làm nổi bật tính dẫn hút của hợp âm át."
+}

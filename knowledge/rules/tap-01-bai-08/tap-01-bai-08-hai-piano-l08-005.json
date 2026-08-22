@@ -1,0 +1,56 @@
+{
+  "id": "tap-01-bai-08-hai-piano-l08-005",
+  "type": "rule",
+  "name": "Độ dài chuẩn cho câu Intro: Với nhịp đơn (2/4, 3/4, 4/4) trung bình làm 8 ô nhịp",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-08",
+    "locator": "00:14:56-00:18:23 pdf p.6",
+    "media_id": "video_hai_piano_l08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_06_10",
+        "page": 6,
+        "section": "Cách làm Intro"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Slowrock, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "slowrock",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Độ dài chuẩn cho câu Intro: Với nhịp đơn (2/4, 3/4, 4/4) trung bình làm 8 ô nhịp; Với nhịp kép (6/8, 12/8) trung bình làm 4 ô nhịp. Không nên làm quá ngắn khiến người nghe chưa kịp định hình tiết tấu/điệu tính.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Slowrock",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Độ dài chuẩn cho câu Intro: Với nhịp đơn (2/4, 3/4, 4/4) trung bình làm 8 ô nhịp; Với nhịp kép (6/8, 12/8) trung bình làm 4 ô nhịp. Không nên làm quá ngắn khiến người nghe chưa kịp định hình tiết tấu/điệu tính."
+}

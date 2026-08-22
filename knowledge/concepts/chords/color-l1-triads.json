@@ -1,0 +1,17 @@
+{
+  "id": "color-l1-triads",
+  "type": "chord_color",
+  "name": "Bảng màu 1 — hợp âm ba (triad)",
+  "difficulty": 1,
+  "source": null,
+  "use_when": ["Người mới", "Đệm hát cần chỗ trống cho giọng", "Verse mộc"],
+  "avoid_when": ["Cần màu jazz", "Bài đã có nhiều nốt ở giai điệu"],
+  "input": { "progression": ["I", "vi", "IV", "V"], "key_context": "major", "style": ["pop_ballad", "pop"], "difficulty_max": 2 },
+  "output": {
+    "qualities": { "I": "", "vi": "m", "IV": "", "V": "" },
+    "inserts": []
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Ba nốt gốc, không thêm màu. Đây là mốc để so sánh: mọi bảng màu sau đều là bảng này cộng thêm nốt."
+}

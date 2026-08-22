@@ -1,0 +1,78 @@
+{
+  "id": "tap-04-bai-01-lesson-id-00007",
+  "type": "exercise",
+  "name": "Phương pháp luyện tập nâng cao: Đã luyện thạo 5 mẫu câu trên giọng Đô trưởng (C Major), học viên nên tự dịch giọng (tran",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-01",
+    "locator": "00:14:43-00:15:50 pdf p.6",
+    "media_id": "video_tap_04_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 6,
+        "section": "Lời khuyên thực hành"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: D, Bm, Em, A7, Eb, E",
+    "Giọng: C major, D major, Eb major, E major",
+    "Gam: 12 semitones",
+    "Điệu / phong cách: Dịch giọng (Transposition)"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "D",
+      "Bm",
+      "Em",
+      "A7",
+      "Eb",
+      "E"
+    ],
+    "style": [
+      "d-ch-gi-ng-transposition"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Phương pháp luyện tập nâng cao: Đã luyện thạo 5 mẫu câu trên giọng Đô trưởng (C Major), học viên nên tự dịch giọng (transposition) và thực hành trên 12 nửa tông (12 semitones) như Rê trưởng (D Major), Mi bẩy/Mi trưởng (Eb / E Major)... để làm chủ kỹ năng ứng tác trên mọi giọng.",
+    "music_entities": {
+      "chords": [
+        "D",
+        "Bm",
+        "Em",
+        "A7",
+        "Eb",
+        "E"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major",
+        "D major",
+        "Eb major",
+        "E major"
+      ],
+      "scales": [
+        "12 semitones"
+      ],
+      "styles": [
+        "Dịch giọng (Transposition)"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "D -> Bm -> Em -> A7 -> D (Ví dụ dịch giọng sang D major)",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phương pháp luyện tập nâng cao: Đã luyện thạo 5 mẫu câu trên giọng Đô trưởng (C Major), học viên nên tự dịch giọng (transposition) và thực hành trên 12 nửa tông (12 semitones) như Rê trưởng (D Major), Mi bẩy/Mi trưởng (Eb / E Major)... để làm chủ kỹ năng ứng tác trên mọi giọng."
+}

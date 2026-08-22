@@ -1,0 +1,82 @@
+{
+  "id": "tap-04-bai-01-rule-tap04-004",
+  "type": "rule",
+  "name": "Sử dụng Bậc 7 (Major 7th / Minor 7th) tạo màu sắc hiện đại cho câu lót.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-01",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: 16-bit, Ballad, Blues, Boston, Contemporary Ballad, Modern Ballad, Pop Ballad, Slow Rock, Smooth Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "16-bit",
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "blues",
+      "boston",
+      "pop",
+      "contemporary-ballad",
+      "modern-ballad",
+      "pop-ballad",
+      "slow-rock",
+      "smooth-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "16-bit",
+        "Ballad",
+        "Blues",
+        "Boston",
+        "Contemporary Ballad",
+        "Modern Ballad",
+        "Pop Ballad",
+        "Slow Rock",
+        "Smooth Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng Bậc 7 (Major 7th / Minor 7th) tạo màu sắc hiện đại cho câu lót.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Nhấn hoặc ngừng câu lót tại nốt Bậc 7 của hợp âm (B cho Cmaj7, G cho Am7, C cho Dm7, F cho G7)."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_tap04_004",
+      "name": "Fill_Pattern_Degree_7_Color",
+      "domain": "lead_in_and_fills",
+      "summary": "Sử dụng Bậc 7 (Major 7th / Minor 7th) tạo màu sắc hiện đại cho câu lót.",
+      "condition": "Muốn câu lót mang phong cách Pop Ballad hiện đại, màu sắc Jazz/J-Pop nhẹ nhàng.",
+      "action": "Nhấn hoặc ngừng câu lót tại nốt Bậc 7 của hợp âm (B cho Cmaj7, G cho Am7, C cho Dm7, F cho G7).",
+      "explanation": "Nốt bậc 7 tạo ra quãng ngân mượt mà, giảm độ thô của hợp âm 3 nốt truyền thống.",
+      "lesson_folder": "Tap_04_Bai_01"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Sử dụng Bậc 7 (Major 7th / Minor 7th) tạo màu sắc hiện đại cho câu lót."
+}

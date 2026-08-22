@@ -1,0 +1,64 @@
+{
+  "id": "tap-04-bai-04-rule-progression-1-3-6-4-2-5-1-arranging",
+  "type": "rule",
+  "name": "Vòng hòa âm I - iii - vi - IV - ii - V - I tạo cảm giác chuyển động mượt mà liên tục",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-04",
+    "locator": "00:01:50-00:02:40",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Theo bài Tap_04_Bai_04"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Vòng hòa âm I - iii - vi - IV - ii - V - I tạo cảm giác chuyển động mượt mà liên tục. Khi ứng dụng đệm hát/lót câu, việc phân bổ mật độ nốt tăng dần từ Verse (hợp âm 3 nốt cơ bản) sang Chorus (hợp âm 7/9/11 voicing dầy) giúp tạo sự phát triển cảm xúc tự nhiên.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_progression_1_3_6_4_2_5_1_arranging",
+      "title": "Ứng dụng vòng hòa âm I - iii - vi - IV - ii - V - I trong Slow Rock",
+      "description": "Vòng hòa âm I - iii - vi - IV - ii - V - I tạo cảm giác chuyển động mượt mà liên tục. Khi ứng dụng đệm hát/lót câu, việc phân bổ mật độ nốt tăng dần từ Verse (hợp âm 3 nốt cơ bản) sang Chorus (hợp âm 7/9/11 voicing dầy) giúp tạo sự phát triển cảm xúc tự nhiên.",
+      "context": {
+        "style": "Slow / Slow Rock / Ballad",
+        "chord_progression": "I - iii - vi - IV - ii - V - I"
+      },
+      "conditions": [
+        "Chuyển đoạn từ Đoạn Phiên khúc (Verse) sang Điệp khúc (Chorus)"
+      ],
+      "action": {
+        "recommendation": "Sử dụng voicing dầy hơn kết hợp tension 7th/9th ở đoạn cao trào."
+      },
+      "source_ref": {
+        "lesson_id": "hai_piano_course_001_tap4_bai4",
+        "timestamp": "00:01:50 - 00:02:40"
+      },
+      "lesson_folder": "Tap_04_Bai_04"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Vòng hòa âm I - iii - vi - IV - ii - V - I tạo cảm giác chuyển động mượt mà liên tục. Khi ứng dụng đệm hát/lót câu, việc phân bổ mật độ nốt tăng dần từ Verse (hợp âm 3 nốt cơ bản) sang Chorus (hợp âm 7/9/11 voicing dầy) giúp tạo sự phát triển cảm xúc tự nhiên."
+}

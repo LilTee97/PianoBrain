@@ -1,0 +1,81 @@
+{
+  "id": "tap-04-bai-01-lesson-id-00001",
+  "type": "concept",
+  "name": "Giới thiệu tổng quan Tập 4: Bộ giáo trình gồm 75 mẫu câu lót và câu dẫn nâng cao dành cho đệm hát piano, chia thành 15 b",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-01",
+    "locator": "00:00:00-00:04:03 pdf p.1",
+    "media_id": "video_tap_04_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 1,
+        "section": "Trang tiêu đề Tập 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: Ballad, Boston, Slow Rock, 16-bit, Blues"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "boston",
+      "slow-rock",
+      "16-bit",
+      "jazz",
+      "blues"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu tổng quan Tập 4: Bộ giáo trình gồm 75 mẫu câu lót và câu dẫn nâng cao dành cho đệm hát piano, chia thành 15 bài học. Mỗi bài học hướng dẫn 5 mẫu câu ứng dụng trên các vòng hợp âm và tiết tấu phổ biến (Ballad, Boston, Slow Rock, 16-bit, Blues...).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad",
+        "Boston",
+        "Slow Rock",
+        "16-bit",
+        "Blues"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - Am - Dm - G - C",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu tổng quan Tập 4: Bộ giáo trình gồm 75 mẫu câu lót và câu dẫn nâng cao dành cho đệm hát piano, chia thành 15 bài học. Mỗi bài học hướng dẫn 5 mẫu câu ứng dụng trên các vòng hợp âm và tiết tấu phổ biến (Ballad, Boston, Slow Rock, 16-bit, Blues...)."
+}

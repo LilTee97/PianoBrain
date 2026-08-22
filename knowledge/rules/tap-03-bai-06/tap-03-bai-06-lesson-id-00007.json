@@ -1,0 +1,62 @@
+{
+  "id": "tap-03-bai-06-lesson-id-00007",
+  "type": "rule",
+  "name": "Quy tắc thị tấu ghép hai tay: Khi nhìn bản nhạc để ghép hai tay, phải quan sát và đọc nốt từ dưới lên trên (đọc nốt Khóa",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "13:00-16:45 pdf p.3",
+    "media_id": "hai_piano_video_t03_b06",
+    "supporting": [
+      {
+        "source_id": "hai_piano_pdf_t03",
+        "page": 3,
+        "section": "Silent Night Line 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_06"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc thị tấu ghép hai tay: Khi nhìn bản nhạc để ghép hai tay, phải quan sát và đọc nốt từ dưới lên trên (đọc nốt Khóa Pha/tay trái trước, rồi đọc nốt Khóa Sol/tay phải sau). Tuyệt đối không đọc từ trên xuống dưới.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G4",
+        "E3",
+        "A4",
+        "G3",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "E3",
+          "G3"
+        ],
+        "right": [
+          "G4",
+          "A4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc thị tấu ghép hai tay: Khi nhìn bản nhạc để ghép hai tay, phải quan sát và đọc nốt từ dưới lên trên (đọc nốt Khóa Pha/tay trái trước, rồi đọc nốt Khóa Sol/tay phải sau). Tuyệt đối không đọc từ trên xuống dưới."
+}

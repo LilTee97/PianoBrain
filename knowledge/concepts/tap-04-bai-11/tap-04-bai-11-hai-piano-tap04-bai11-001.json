@@ -1,0 +1,108 @@
+{
+  "id": "tap-04-bai-11-hai-piano-tap04-bai11-001",
+  "type": "concept",
+  "name": "Vòng hòa âm nốt bass đi xuống liền bậc (Descending bassline progression) trong giọng Đô trưởng (C major): C - G/B - Am -",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-11",
+    "locator": "00:00:24-00:02:05 pdf p.52",
+    "media_id": "video_tap04_bai11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04_bai11",
+        "page": 52,
+        "section": "Bài 11 - Giới thiệu vòng hòa âm"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, C/G, F, C/E, Dm7, G7",
+    "Giọng: C major",
+    "Gam: C major",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "C/G",
+      "F",
+      "C/E",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Vòng hòa âm nốt bass đi xuống liền bậc (Descending bassline progression) trong giọng Đô trưởng (C major): C - G/B - Am - C/G - F - C/E - Dm7 - G7 - C. Được ứng dụng cực kỳ phổ biến trong nhạc Việt và nhạc ngoại.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "C/G",
+        "F",
+        "C/E",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C -> G/B -> Am -> C/G -> F -> C/E -> Dm7 -> G7",
+      "notes": [
+        "C",
+        "B",
+        "A",
+        "G",
+        "F",
+        "E",
+        "D",
+        "G"
+      ],
+      "hands": {
+        "left": [
+          "C",
+          "B",
+          "A",
+          "G",
+          "F",
+          "E",
+          "D",
+          "G"
+        ],
+        "right": [
+          "G-C-E",
+          "G-B-D",
+          "E-A-C",
+          "G-C-E",
+          "F-A-C",
+          "G-C-E",
+          "F-A-C-D",
+          "F-G-B-D"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm nốt bass đi xuống liền bậc (Descending bassline progression) trong giọng Đô trưởng (C major): C - G/B - Am - C/G - F - C/E - Dm7 - G7 - C. Được ứng dụng cực kỳ phổ biến trong nhạc Việt và nhạc ngoại."
+}

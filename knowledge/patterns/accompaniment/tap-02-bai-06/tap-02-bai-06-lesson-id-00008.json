@@ -1,0 +1,189 @@
+{
+  "id": "tap-02-bai-06-lesson-id-00008",
+  "type": "exercise",
+  "name": "Ứng dụng phối hợp toàn bộ các hợp âm 7 để xây dựng Intro/Outro và lót giai điệu cho bài hát thực tế",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-06",
+    "locator": "00:33:36-00:36:36 pdf p.2",
+    "media_id": "video_tap_02_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 2,
+        "section": "Thực hành Vòng hòa âm Intro/Outro"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, C7/Bb, F/A, Fm/Ab, C/G, G, Fm, C",
+    "Giọng: C",
+    "Điệu / phong cách: Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "C7/Bb",
+      "F/A",
+      "Fm/Ab",
+      "C/G",
+      "G",
+      "Fm",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ứng dụng phối hợp toàn bộ các hợp âm 7 để xây dựng Intro/Outro và lót giai điệu cho bài hát thực tế. Ví dụ chuỗi vòng hòa âm kết hợp: Cmaj7 -> C7/Bb -> F/A -> Fm/Ab -> C/G -> G -> Fm -> C.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "C7/Bb",
+        "F/A",
+        "Fm/Ab",
+        "C/G",
+        "G",
+        "Fm",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7 -> C7/Bb -> F/A -> Fm/Ab -> C/G",
+      "notes": [
+        "C3",
+        "B3",
+        "E4",
+        "G4",
+        "Bb2",
+        "Bb3",
+        "E4",
+        "G4",
+        "A2",
+        "A3",
+        "F4",
+        "C5",
+        "Ab2",
+        "Ab3",
+        "F4",
+        "C5",
+        "G2",
+        "G3",
+        "E4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "Bb2",
+          "A2",
+          "Ab2",
+          "G2"
+        ],
+        "right": [
+          "B3",
+          "E4",
+          "G4",
+          "Bb3",
+          "E4",
+          "G4",
+          "A3",
+          "F4",
+          "C5",
+          "Ab3",
+          "F4",
+          "C5",
+          "G3",
+          "E4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7 -> C7/Bb -> F/A -> Fm/Ab -> C/G",
+        "notes": [
+          "C3",
+          "B3",
+          "E4",
+          "G4",
+          "Bb2",
+          "Bb3",
+          "E4",
+          "G4",
+          "A2",
+          "A3",
+          "F4",
+          "C5",
+          "Ab2",
+          "Ab3",
+          "F4",
+          "C5",
+          "G2",
+          "G3",
+          "E4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "Bb2",
+            "A2",
+            "Ab2",
+            "G2"
+          ],
+          "right": [
+            "B3",
+            "E4",
+            "G4",
+            "Bb3",
+            "E4",
+            "G4",
+            "A3",
+            "F4",
+            "C5",
+            "Ab3",
+            "F4",
+            "C5",
+            "G3",
+            "E4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng phối hợp toàn bộ các hợp âm 7 để xây dựng Intro/Outro và lót giai điệu cho bài hát thực tế. Ví dụ chuỗi vòng hòa âm kết hợp: Cmaj7 -> C7/Bb -> F/A -> Fm/Ab -> C/G -> G -> Fm -> C."
+}

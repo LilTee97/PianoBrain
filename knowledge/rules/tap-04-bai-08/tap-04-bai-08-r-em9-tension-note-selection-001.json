@@ -1,0 +1,64 @@
+{
+  "id": "tap-04-bai-08-r-em9-tension-note-selection-001",
+  "type": "rule",
+  "name": "Khi áp dụng hợp âm Em9 trong vòng giọng Am thứ, nốt bậc 9 của hợp âm E (Em) là nốt F# (F sharp)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-08",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Giọng: Am",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": "Am",
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Boston"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi áp dụng hợp âm Em9 trong vòng giọng Am thứ, nốt bậc 9 của hợp âm E (Em) là nốt F# (F sharp). Nốt F# tạo màu hòa âm Jazz/Pop mượt mà trước khi chuyển sang Dm hoặc Am.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_EM9_TENSION_NOTE_SELECTION_001",
+      "name": "Em9 Tension 9th Pitch Selection Rule",
+      "category": "Voice Leading / Tension",
+      "description": "Khi áp dụng hợp âm Em9 trong vòng giọng Am thứ, nốt bậc 9 của hợp âm E (Em) là nốt F# (F sharp). Nốt F# tạo màu hòa âm Jazz/Pop mượt mà trước khi chuyển sang Dm hoặc Am.",
+      "conditions": {
+        "chord": "Em9",
+        "key": "Am"
+      },
+      "recommendation": "Bao gồm nốt F# ở bè tay phải hoặc nốt giai điệu lót khi đánh hợp âm Em9.",
+      "lesson_folder": "Tap_04_Bai_08"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Khi áp dụng hợp âm Em9 trong vòng giọng Am thứ, nốt bậc 9 của hợp âm E (Em) là nốt F# (F sharp). Nốt F# tạo màu hòa âm Jazz/Pop mượt mà trước khi chuyển sang Dm hoặc Am."
+}

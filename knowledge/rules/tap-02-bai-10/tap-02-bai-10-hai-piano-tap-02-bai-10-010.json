@@ -1,0 +1,90 @@
+{
+  "id": "tap-02-bai-10-hai-piano-tap-02-bai-10-010",
+  "type": "rule",
+  "name": "Quy tắc ứng dụng câu dẫn: Bắt đầu từ nốt thuộc hợp âm gốc (chord tone), di chuyển qua nốt liền kề (passing tone) ở phách",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-10",
+    "locator": "18:20:00-21:53:00 pdf p.9",
+    "media_id": "tap_02_bai_10_video",
+    "supporting": [
+      {
+        "source_id": "tap_02_pdf_3",
+        "page": 9,
+        "section": "BÀI 10 : THỰC HÀNH CÂU DẪN"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Fmaj7, Dm7, Am7",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: General Accompaniment"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Fmaj7",
+      "Dm7",
+      "Am7"
+    ],
+    "style": [
+      "general-accompaniment"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc ứng dụng câu dẫn: Bắt đầu từ nốt thuộc hợp âm gốc (chord tone), di chuyển qua nốt liền kề (passing tone) ở phách nhẹ, và hạ cánh (land) vào nốt thuộc hợp âm đích ở phách mạnh. Kết hợp thay thế chord màu 7, 9 để câu đệm sang trọng.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Fmaj7",
+        "Dm7",
+        "Am7"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "General Accompaniment"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7 -> Fmaj7",
+      "notes": [
+        "Do",
+        "Re",
+        "Mi",
+        "Fa",
+        "Sol",
+        "La"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "F3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5",
+          "A4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc ứng dụng câu dẫn: Bắt đầu từ nốt thuộc hợp âm gốc (chord tone), di chuyển qua nốt liền kề (passing tone) ở phách nhẹ, và hạ cánh (land) vào nốt thuộc hợp âm đích ở phách mạnh. Kết hợp thay thế chord màu 7, 9 để câu đệm sang trọng."
+}

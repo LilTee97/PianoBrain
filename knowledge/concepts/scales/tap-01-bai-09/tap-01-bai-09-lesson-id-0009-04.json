@@ -1,0 +1,97 @@
+{
+  "id": "tap-01-bai-09-lesson-id-0009-04",
+  "type": "scale",
+  "name": "Thang âm Dân ca Nam Bộ giọng Thứ gồm các bậc 1 - 3 - 4 - 5 - 6",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-09",
+    "locator": "15:41-18:35 pdf p.15",
+    "media_id": "Tap_01_Bai_09.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_01_Bai_06_10.pdf",
+        "page": 15,
+        "section": "3. THANH ÂM NAM BỘ"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: Dm",
+    "Gam: Southern Folk Pentatonic, Thang âm Nam Bộ",
+    "Điệu / phong cách: Nam Bộ, Đờn ca tài tử"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "nam-b",
+      "n-ca-t-i-t"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Thang âm Dân ca Nam Bộ giọng Thứ gồm các bậc 1 - 3 - 4 - 5 - 6. Điểm đặc thù: Trong giọng Thứ tự nhiên (như Dm) có nốt B♭, nhưng ở thang âm Nam Bộ ta thay bằng nốt B thường (bậc 6 trưởng / 6 tự nhiên: D - F - G - A - B). Thang âm này dùng phổ biến trong Đờn ca tài tử và dân ca Nam Bộ.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "Dm"
+      ],
+      "scales": [
+        "Southern Folk Pentatonic",
+        "Thang âm Nam Bộ"
+      ],
+      "styles": [
+        "Nam Bộ",
+        "Đờn ca tài tử"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm",
+      "notes": [
+        "D",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "hands": {
+        "left": [
+          "D3"
+        ],
+        "right": [
+          "D4",
+          "F4",
+          "G4",
+          "A4",
+          "B4",
+          "D5"
+        ]
+      }
+    },
+    "scale": {
+      "name": "Thang âm Dân ca Nam Bộ giọng Thứ gồm các bậc 1 - 3 - 4 - 5 -",
+      "root": "D",
+      "note_names": [
+        "D",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "semitones_from_root": [
+        0,
+        3,
+        5,
+        7,
+        9
+      ],
+      "for_qualities": [],
+      "review": "rà tay từ raw_text: Thang âm Dân ca Nam Bộ giọng Thứ bậc 1 - 3 - 4 - 5 - 6; ví dụ trên Dm gồm D - F - G - A - B (bậc 6 tự nhiên)"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thang âm Dân ca Nam Bộ giọng Thứ gồm các bậc 1 - 3 - 4 - 5 - 6. Điểm đặc thù: Trong giọng Thứ tự nhiên (như Dm) có nốt B♭, nhưng ở thang âm Nam Bộ ta thay bằng nốt B thường (bậc 6 trưởng / 6 tự nhiên: D - F - G - A - B). Thang âm này dùng phổ biến trong Đờn ca tài tử và dân ca Nam Bộ."
+}

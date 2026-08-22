@@ -1,0 +1,63 @@
+{
+  "id": "tap-01-bai-15-lesson-id-00004",
+  "type": "rule",
+  "name": "Phạm vi âm vực đẹp nhất của tay phải khi đệm hát piano nằm trong khoảng từ F3 đến B4, trong đó khu vực lý tưởng nhất (sw",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-15",
+    "locator": "11:15-14:28 pdf p.11",
+    "media_id": "Tap_01_Bai_15",
+    "supporting": [
+      {
+        "source_id": "Tap_01_Bai_11_15_PDF",
+        "page": 11,
+        "section": "Mục 2 - Hiệu quả âm nhạc"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Vocal Accompaniment"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "vocal-accompaniment"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Phạm vi âm vực đẹp nhất của tay phải khi đệm hát piano nằm trong khoảng từ F3 đến B4, trong đó khu vực lý tưởng nhất (sweet spot) là từ G3 đến G4. Nếu giọng Nam hát bài tông Nữ (hoặc ngược lại), cần dịch giọng (transpose) lên/ลง một quãng 4 đúng (Perfect 4th) để phù hợp tầm xướng âm.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Vocal Accompaniment"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "F3",
+        "G3",
+        "G4",
+        "B4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "G3",
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phạm vi âm vực đẹp nhất của tay phải khi đệm hát piano nằm trong khoảng từ F3 đến B4, trong đó khu vực lý tưởng nhất (sweet spot) là từ G3 đến G4. Nếu giọng Nam hát bài tông Nữ (hoặc ngược lại), cần dịch giọng (transpose) lên/ลง một quãng 4 đúng (Perfect 4th) để phù hợp tầm xướng âm."
+}

@@ -1,0 +1,90 @@
+{
+  "id": "tap-02-bai-07-lesson-id-00037",
+  "type": "rule",
+  "name": "Quy tắc xếp voicing hợp âm 9 trên hai tay: Tay trái giữ khung quãng 1-5 (hoặc 1-5-1)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-07",
+    "locator": "00:15:15-00:22:30 pdf p.6",
+    "media_id": "hai_piano_t2_b07_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_t2_pdf3",
+        "page": 6,
+        "section": "Sắp xếp thế bấm Tay Trái & Tay Phải"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, Am79, Fmaj79",
+    "Giọng: C major",
+    "Gam: Major",
+    "Nốt màu: 7, 9, 3, 5",
+    "Điệu / phong cách: All Styles"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "Am79",
+      "Fmaj79"
+    ],
+    "style": [
+      "all-styles"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc xếp voicing hợp âm 9 trên hai tay: Tay trái giữ khung quãng 1-5 (hoặc 1-5-1). Tay phải bấm linh hoạt 3 thế cơ bản rootless/essential voicing: (1) Thế 7 - 9 - 3; (2) Thế 9 - 3 - 7; (3) Thế 3 - 7 - 9. Có thể gấp đôi nốt bậc 1 hoặc bậc 5 ở ngón 5 tay phải để tạo thêm dầy dặn hoặc đi giai điệu lót.",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "Am79",
+        "Fmaj79"
+      ],
+      "tensions": [
+        "7",
+        "9",
+        "3",
+        "5"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "Major"
+      ],
+      "styles": [
+        "All Styles"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj79",
+      "notes": [
+        "C3",
+        "G3",
+        "B3",
+        "D4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "B3",
+          "D4",
+          "E4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc xếp voicing hợp âm 9 trên hai tay: Tay trái giữ khung quãng 1-5 (hoặc 1-5-1). Tay phải bấm linh hoạt 3 thế cơ bản rootless/essential voicing: (1) Thế 7 - 9 - 3; (2) Thế 9 - 3 - 7; (3) Thế 3 - 7 - 9. Có thể gấp đôi nốt bậc 1 hoặc bậc 5 ở ngón 5 tay phải để tạo thêm dầy dặn hoặc đi giai điệu lót."
+}

@@ -1,0 +1,52 @@
+{
+  "id": "jazz-scales-bai-03-02-ami7",
+  "type": "arpeggio",
+  "name": "Luyện tập Rải Arpeggio hợp âm Ami7 (A minor 7) qua các thể đảo (Inversions) tay phải:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-03",
+    "locator": "02:27-06:29",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Ami7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Ami7",
+    "notes": [
+      "A3",
+      "C4",
+      "E4",
+      "G4",
+      "C4",
+      "E4",
+      "G4",
+      "A4",
+      "E4",
+      "G4",
+      "A4",
+      "C5",
+      "G4",
+      "A4",
+      "C5",
+      "E5"
+    ],
+    "source_text": "Luyện tập Rải Arpeggio hợp âm Ami7 (A minor 7) qua các thể đảo (Inversions) tay phải: Root (A-C-E-G), 1st inv (C-E-G-A), 2nd inv (E-G-A-C), 3rd inv (G-A-C-E) đi lên và đi xuống theo nhịp Swing."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 3 của nguồn Jazz Scales (YouTube), mốc 02:27-06:29. Luyện tập Rải Arpeggio hợp âm Ami7 (A minor 7) qua các thể đảo (Inversions) tay phải: Root (A-C-E-G), 1st inv (C-E-G-A), 2nd inv (E-G-A-C), 3rd inv (G-A-C-E) đi lên và đi xuống theo nhịp Swing. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

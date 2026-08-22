@@ -1,0 +1,131 @@
+{
+  "id": "tap-02-bai-11-hai-piano-tap02-bai11-005",
+  "type": "accompaniment",
+  "name": "Thế tay trái 4 dành cho hợp âm đảo (Inverted Chords): Công thức bậc 1.6.3.6.3.6.3.6.1 tính tương đối từ nốt Bass đảo",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-11",
+    "locator": "00:14:41-00:16:16 pdf p.2",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_002",
+        "page": 2,
+        "section": "Thế 4: 1.6.3.6.3.6.3.6.1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: G/B, C/E, Am/G",
+    "Giọng: C major",
+    "Điệu / phong cách: Classical/Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "G/B",
+      "C/E",
+      "Am/G"
+    ],
+    "style": [
+      "pop",
+      "classical-pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Thế tay trái 4 dành cho hợp âm đảo (Inverted Chords): Công thức bậc 1.6.3.6.3.6.3.6.1 tính tương đối từ nốt Bass đảo. Ví dụ G/B thì Bass B là 1, nốt G cao hơn là quãng 6 so với B, D là quãng 3.",
+    "music_entities": {
+      "chords": [
+        "G/B",
+        "C/E",
+        "Am/G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Classical/Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G/B",
+      "notes": [
+        "B1",
+        "G2",
+        "D3",
+        "G2",
+        "D3",
+        "G2",
+        "D3",
+        "G2",
+        "B2"
+      ],
+      "hands": {
+        "left": [
+          "B1",
+          "G2",
+          "D3",
+          "G2",
+          "D3",
+          "G2",
+          "D3",
+          "G2",
+          "B2"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "G/B",
+        "notes": [
+          "B1",
+          "G2",
+          "D3",
+          "G2",
+          "D3",
+          "G2",
+          "D3",
+          "G2",
+          "B2"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "B1",
+            "G2",
+            "D3",
+            "G2",
+            "D3",
+            "G2",
+            "D3",
+            "G2",
+            "B2"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thế tay trái 4 dành cho hợp âm đảo (Inverted Chords): Công thức bậc 1.6.3.6.3.6.3.6.1 tính tương đối từ nốt Bass đảo. Ví dụ G/B thì Bass B là 1, nốt G cao hơn là quãng 6 so với B, D là quãng 3."
+}

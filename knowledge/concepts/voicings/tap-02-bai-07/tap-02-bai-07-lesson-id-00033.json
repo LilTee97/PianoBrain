@@ -1,0 +1,129 @@
+{
+  "id": "tap-02-bai-07-lesson-id-00033",
+  "type": "voicing",
+  "name": "Phân biệt Cadd9 và C Dominant 9 (C9/C79): Cadd9 (C.E.G.D) chỉ gồm hợp âm ba trưởng cộng nốt bậc 9 mà không có nốt bậc 7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-07",
+    "locator": "00:03:50-00:06:40 pdf p.4",
+    "media_id": "hai_piano_t2_b07_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_t2_pdf3",
+        "page": 4,
+        "section": "Hợp âm Đô 9 - C9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, C9, C79, C7",
+    "Giọng: C major, F major",
+    "Gam: Mixolydian",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Pop Ballad, Soul"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "C9",
+      "C79",
+      "C7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad",
+      "soul"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Phân biệt Cadd9 và C Dominant 9 (C9/C79): Cadd9 (C.E.G.D) chỉ gồm hợp âm ba trưởng cộng nốt bậc 9 mà không có nốt bậc 7. Trong khi C Dominant 9 (C79 / C9: C.E.G.bB.D) được cấu tạo từ hợp âm Bảy Át (C7: C-E-G-bB) cộng quãng 3 trưởng (bB-D), mang tính chất át hút mạnh về bậc IV (F) hoặc bậc I.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "C9",
+        "C79",
+        "C7"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major",
+        "F major"
+      ],
+      "scales": [
+        "Mixolydian"
+      ],
+      "styles": [
+        "Pop Ballad",
+        "Soul"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C9",
+      "notes": [
+        "C3",
+        "G3",
+        "Bb3",
+        "D4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "Bb3",
+          "D4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C9",
+        "notes": [
+          "C3",
+          "G3",
+          "Bb3",
+          "D4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "Bb3",
+            "D4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phân biệt Cadd9 và C Dominant 9 (C9/C79): Cadd9 (C.E.G.D) chỉ gồm hợp âm ba trưởng cộng nốt bậc 9 mà không có nốt bậc 7. Trong khi C Dominant 9 (C79 / C9: C.E.G.bB.D) được cấu tạo từ hợp âm Bảy Át (C7: C-E-G-bB) cộng quãng 3 trưởng (bB-D), mang tính chất át hút mạnh về bậc IV (F) hoặc bậc I."
+}

@@ -1,0 +1,121 @@
+{
+  "id": "tap-01-bai-10-hai-piano-c001-l010-002",
+  "type": "accompaniment",
+  "name": "Tiết tấu March Kiểu B trong nhịp 2/4: Phách 1 đánh nốt đen, phách 2 đánh nốt móc đơn chấm giật hoặc 2 nốt móc kép ('Pầm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-10",
+    "locator": "08:42:00-11:10:00 pdf p.8",
+    "media_id": "video_l10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap1_bai6_10",
+        "page": 8,
+        "section": "March - Kiểu B"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G, Am, F",
+    "Giọng: C major",
+    "Gam: C major",
+    "Điệu / phong cách: March"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G",
+      "Am",
+      "F"
+    ],
+    "style": [
+      "march"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Tiết tấu March Kiểu B trong nhịp 2/4: Phách 1 đánh nốt đen, phách 2 đánh nốt móc đơn chấm giật hoặc 2 nốt móc kép ('Pầm - pầm pờ-pầm'). Tay trái có thể đánh quãng 8 (double bass) để tiếng bass trầm dày hơn.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "March"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "C3",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "C3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "C3",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "C3"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết tấu March Kiểu B trong nhịp 2/4: Phách 1 đánh nốt đen, phách 2 đánh nốt móc đơn chấm giật hoặc 2 nốt móc kép ('Pầm - pầm pờ-pầm'). Tay trái có thể đánh quãng 8 (double bass) để tiếng bass trầm dày hơn."
+}

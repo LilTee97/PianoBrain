@@ -1,0 +1,28 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-think-target-first",
+  "type": "concept",
+  "name": "Nghĩ trước nốt đích của ô nhịp sau rồi mới tung enclosure",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:07:33"
+  },
+  "use_when": [
+    "Ngẫu hứng trên vòng đã biết",
+    "Sắp đổi hợp âm"
+  ],
+  "output": {
+    "method": "chọn nốt đích (thường bậc 3 hoặc nốt gốc) của hợp âm kế tiếp, rồi chơi enclosure ngay trước khi đổi hợp âm",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Tư duy ngẫu hứng bebop chủ động: nghĩ trước về nốt đích — thường là nốt bậc 3 hoặc nốt gốc — của ô nhịp kế tiếp, rồi tung cụm enclosure ngay trước khi chuyển sang hợp âm mới.",
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  }
+}

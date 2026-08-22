@@ -1,0 +1,93 @@
+{
+  "id": "tap-02-bai-10-r-passing-chord-chromatic-bass",
+  "type": "rule",
+  "name": "Dùng C#dim/C#m7b5 nối giữa C và Dm7, hoặc F#m7b5/F#dim để tạo lực hút bán âm về F/Fmaj7.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-10",
+    "locator": "18:20:00-21:53:00 pdf p.9",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, General Accompaniment, Jazz Pop, Pop Ballad, Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "general-accompaniment",
+      "jazz",
+      "pop",
+      "jazz-pop",
+      "pop-ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "General Accompaniment",
+        "Jazz Pop",
+        "Pop Ballad",
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Dùng C#dim/C#m7b5 nối giữa C và Dm7, hoặc F#m7b5/F#dim để tạo lực hút bán âm về F/Fmaj7.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_PASSING_CHORD_CHROMATIC_BASS",
+      "name": "Hợp âm dẫn chuyển vùng C -> Dm7 và C -> Fmaj7",
+      "domain": "Reharmonization",
+      "summary": "Dùng C#dim/C#m7b5 nối giữa C và Dm7, hoặc F#m7b5/F#dim để tạo lực hút bán âm về F/Fmaj7.",
+      "condition": {
+        "from_chord": "C / Cmaj7",
+        "to_chord": "Dm7 / Fmaj7"
+      },
+      "action": {
+        "insert_passing_chord": {
+          "for_target_Dm": "C#dim hoặc C#m7b5",
+          "for_target_F": "F#m7b5 hoặc F#dim"
+        },
+        "bass_movement": "Chromatic bass rising (C -> C# -> D / F -> F# -> G)"
+      },
+      "confidence": "direct",
+      "sources": [
+        {
+          "primary_source_id": "tap_02_bai_10_video",
+          "timestamps": [
+            "06:23:00-08:10:00",
+            "10:10:00-13:00:00"
+          ]
+        },
+        {
+          "supporting_source_id": "tap_02_pdf_3",
+          "page": 9,
+          "section": "BÀI 10 : THỰC HÀNH CÂU DẪN"
+        }
+      ],
+      "lesson_folder": "Tap_02_Bai_10"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Dùng C#dim/C#m7b5 nối giữa C và Dm7, hoặc F#m7b5/F#dim để tạo lực hút bán âm về F/Fmaj7."
+}

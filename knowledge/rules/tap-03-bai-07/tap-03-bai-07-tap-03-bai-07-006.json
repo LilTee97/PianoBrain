@@ -1,0 +1,47 @@
+{
+  "id": "tap-03-bai-07-tap-03-bai-07-006",
+  "type": "rule",
+  "name": "Bảng hệ thống 7 loại dấu lặng và giá trị trường độ: 1",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-07",
+    "locator": "00:18:00-00:20:10",
+    "media_id": "video_tap_03_bai_07",
+    "supporting": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Music Theory"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "music-theory"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Bảng hệ thống 7 loại dấu lặng và giá trị trường độ: 1. Lặng tròn (4 phách) -> 2. Lặng trắng (2 phách) -> 3. Lặng đen (1 phách) -> 4. Lặng đơn (1/2 phách) -> 5. Lặng kép (1/4 phách) -> 6. Lặng tam (1/8 phách) -> 7. Lặng tư (1/16 phách).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Music Theory"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bảng hệ thống 7 loại dấu lặng và giá trị trường độ: 1. Lặng tròn (4 phách) -> 2. Lặng trắng (2 phách) -> 3. Lặng đen (1 phách) -> 4. Lặng đơn (1/2 phách) -> 5. Lặng kép (1/4 phách) -> 6. Lặng tam (1/8 phách) -> 7. Lặng tư (1/16 phách)."
+}

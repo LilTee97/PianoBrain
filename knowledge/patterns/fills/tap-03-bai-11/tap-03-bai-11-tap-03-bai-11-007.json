@@ -1,0 +1,133 @@
+{
+  "id": "tap-03-bai-11-tap-03-bai-11-007",
+  "type": "fill",
+  "name": "Đoạn Điệp khúc B (Anh ch chớ biết...): Tay trái chuyển sang đánh nốt Bass quãng 8 kết hợp nhịp nhấn đảo phách (syncopati",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-11",
+    "locator": "00:20:12-00:25:54 pdf p.12",
+    "media_id": "video_tap_03_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 12,
+        "section": "Section B (Chorus - Điệp khúc)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: D, A/C#, Bm, F#m, G, D/F#, Em7, A7",
+    "Giọng: D major",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Pop Solo, Power Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "D",
+      "A/C#",
+      "Bm",
+      "F#m",
+      "G",
+      "D/F#",
+      "Em7",
+      "A7"
+    ],
+    "style": [
+      "pop",
+      "pop-solo",
+      "pop_ballad",
+      "power-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Đoạn Điệp khúc B (Anh ch chớ biết...): Tay trái chuyển sang đánh nốt Bass quãng 8 kết hợp nhịp nhấn đảo phách (syncopation) để tạo sức nặng và năng lượng cao trào cho bài hát. Tay phải đánh giai điệu dầy dặn, có thể chèn thêm nốt hòa âm quãng 3 hoặc quãng 6.",
+    "music_entities": {
+      "chords": [
+        "D",
+        "A/C#",
+        "Bm",
+        "F#m",
+        "G",
+        "D/F#",
+        "Em7",
+        "A7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "D major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Solo",
+        "Power Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "D",
+      "notes": [
+        "D2",
+        "D3",
+        "F#4",
+        "A4",
+        "D5"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "D3"
+        ],
+        "right": [
+          "F#4",
+          "A4",
+          "D5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "D",
+        "notes": [
+          "D2",
+          "D3",
+          "F#4",
+          "A4",
+          "D5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D2",
+            "D3"
+          ],
+          "right": [
+            "F#4",
+            "A4",
+            "D5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Đoạn Điệp khúc B (Anh ch chớ biết...): Tay trái chuyển sang đánh nốt Bass quãng 8 kết hợp nhịp nhấn đảo phách (syncopation) để tạo sức nặng và năng lượng cao trào cho bài hát. Tay phải đánh giai điệu dầy dặn, có thể chèn thêm nốt hòa âm quãng 3 hoặc quãng 6."
+}

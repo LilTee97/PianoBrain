@@ -1,0 +1,49 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "source": {
+    "teacher_id": "kingsley",
+    "source_id": "kingsley-pop-ballad-fills",
+    "locator": "Folders 03, 05/03, 06, 11, 12"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "id": "kingsley-6th-fill-4-3-1-6",
+  "type": "fill",
+  "name": "6th Harmonic Fill II: giai điệu 4-3-1-6, tay trái đổi hợp âm ở nốt thứ hai",
+  "use_when": [
+    "Đang ở C hoặc Am, cần dẫn vào F hoặc Dm"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "Am",
+      "F",
+      "Dm"
+    ]
+  },
+  "output": {
+    "melody_degrees": [
+      4,
+      3,
+      1,
+      6
+    ],
+    "melody_on_c": [
+      "F",
+      "E",
+      "C",
+      "A"
+    ],
+    "lh_change_at": "nốt thứ hai của câu (E)",
+    "leads_to": [
+      "Dm",
+      "F"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "6th fill số 2: giai điệu bậc 4-3-1-6, trên C là F - E - C - A. Tay trái đổi hợp âm rơi đúng vào nốt thứ hai của câu, tức nốt E. Dùng khi dẫn vào Dm hoặc F."
+}

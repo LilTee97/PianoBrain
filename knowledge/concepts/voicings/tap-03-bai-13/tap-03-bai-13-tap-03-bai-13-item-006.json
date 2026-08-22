@@ -1,0 +1,110 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-006",
+  "type": "voicing",
+  "name": "Thế bấm hợp âm Gadd9 cho tay trái ở ô nhịp mở đầu: G2 (ngón 5) - D3 (ngón 2) - A3 (ngón 1) - B3",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "05:06:00-06:15:00 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "Left Hand Arpeggio Pattern - Part A"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Gadd9",
+    "Giọng: G Major",
+    "Nốt màu: add9",
+    "Điệu / phong cách: Ballad Arpeggio"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Gadd9"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad-arpeggio"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Thế bấm hợp âm Gadd9 cho tay trái ở ô nhịp mở đầu: G2 (ngón 5) - D3 (ngón 2) - A3 (ngón 1) - B3. Âm hình đệm rải quãng 1-5-9 gia tăng độ mở không gian cho giai điệu.",
+    "music_entities": {
+      "chords": [
+        "Gadd9"
+      ],
+      "tensions": [
+        "add9"
+      ],
+      "keys": [
+        "G Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad Arpeggio"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Gadd9",
+      "notes": [
+        "G2",
+        "D3",
+        "A3",
+        "B3"
+      ],
+      "hands": {
+        "left": [
+          "G2(5)",
+          "D3(2)",
+          "A3(1)",
+          "B3(2)"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Gadd9",
+        "notes": [
+          "G2",
+          "D3",
+          "A3",
+          "B3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "G2(5)",
+            "D3(2)",
+            "A3(1)",
+            "B3(2)"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thế bấm hợp âm Gadd9 cho tay trái ở ô nhịp mở đầu: G2 (ngón 5) - D3 (ngón 2) - A3 (ngón 1) - B3. Âm hình đệm rải quãng 1-5-9 gia tăng độ mở không gian cho giai điệu."
+}

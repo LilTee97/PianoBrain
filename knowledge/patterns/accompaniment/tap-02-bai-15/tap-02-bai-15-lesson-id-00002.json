@@ -1,0 +1,100 @@
+{
+  "id": "tap-02-bai-15-lesson-id-00002",
+  "type": "accompaniment",
+  "name": "Vòng Intro nâng cao cho bài 'Nàng Thơ': C9 -> F9/A -> G9/B -> C9 -> F -> C/E -> Bb9 -> Fm(maj7)/G -> F/G -> C9",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-15",
+    "locator": "01:31:00-03:17:00 pdf p.9",
+    "media_id": "video_tap_02_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 9,
+        "section": "Intro: C9 -> F9/A -> G9/B -> C9 -> F -> C/E -> Bb9 -> Fm.mj.7/G -> F/G -> C9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, F9/A, G9/B, C9, F, C/E, Bb9, Fm(maj7)/G, F/G",
+    "Giọng: C major",
+    "Gam: C major, C melodic minor",
+    "Nốt màu: add9, maj7",
+    "Điệu / phong cách: Ballade Intro"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "F9/A",
+      "G9/B",
+      "C9",
+      "F",
+      "C/E",
+      "Bb9",
+      "Fm(maj7)/G",
+      "F/G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballade-intro"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Vòng Intro nâng cao cho bài 'Nàng Thơ': C9 -> F9/A -> G9/B -> C9 -> F -> C/E -> Bb9 -> Fm(maj7)/G -> F/G -> C9. Việc sử dụng Bb9 và Fm(maj7)/G tạo màu sắc vay mượn hòa âm (modal interchange) từ giọng thứ song song/đồng tên, tạo sức hút đặc biệt trước khi vào đầu bài hát.",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "F9/A",
+        "G9/B",
+        "C9",
+        "F",
+        "C/E",
+        "Bb9",
+        "Fm(maj7)/G",
+        "F/G"
+      ],
+      "tensions": [
+        "add9",
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major",
+        "C melodic minor"
+      ],
+      "styles": [
+        "Ballade Intro"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "F9/A",
+      "notes": [
+        "A2",
+        "F3",
+        "C4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "A2"
+        ],
+        "right": [
+          "F3",
+          "C4",
+          "G4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng Intro nâng cao cho bài 'Nàng Thơ': C9 -> F9/A -> G9/B -> C9 -> F -> C/E -> Bb9 -> Fm(maj7)/G -> F/G -> C9. Việc sử dụng Bb9 và Fm(maj7)/G tạo màu sắc vay mượn hòa âm (modal interchange) từ giọng thứ song song/đồng tên, tạo sức hút đặc biệt trước khi vào đầu bài hát."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "tap-03-bai-06-lesson-id-00010",
+  "type": "rule",
+  "name": "Tổng hợp quy tắc biểu diễn kỹ thuật ngón: 1) Legato: Chơi nối tiếng khi các nốt khác tên/cao độ hoặc dưới dấu luyến",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "31:10-34:00 pdf p.3",
+    "media_id": "hai_piano_video_t03_b06",
+    "supporting": [
+      {
+        "source_id": "hai_piano_pdf_t03",
+        "page": 3,
+        "section": "Theory Summary"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_06"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Tổng hợp quy tắc biểu diễn kỹ thuật ngón: 1) Legato: Chơi nối tiếng khi các nốt khác tên/cao độ hoặc dưới dấu luyến. 2) Non-legato: Chơi nhấc ngón nhẹ khi nốt lặp lại cùng cao độ, nốt có dấu chấm dưới luyến, hoặc nốt gạch ngang (tenuto/portato). 3) Staccato: Chơi nảy ngón dứt khoát khi có dấu chấm đặt trên/dưới đầu nốt nhạc.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tổng hợp quy tắc biểu diễn kỹ thuật ngón: 1) Legato: Chơi nối tiếng khi các nốt khác tên/cao độ hoặc dưới dấu luyến. 2) Non-legato: Chơi nhấc ngón nhẹ khi nốt lặp lại cùng cao độ, nốt có dấu chấm dưới luyến, hoặc nốt gạch ngang (tenuto/portato). 3) Staccato: Chơi nảy ngón dứt khoát khi có dấu chấm đặt trên/dưới đầu nốt nhạc."
+}

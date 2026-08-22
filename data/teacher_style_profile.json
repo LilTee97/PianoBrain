@@ -1,0 +1,193 @@
+{
+  "profile_id": "teacher_style_profile",
+  "teacher_name": "Hải Piano",
+  "course_id": "hai_piano_course_001",
+  "style_tags": [
+    "Ballad",
+    "Pop Ballad",
+    "Pop",
+    "Jazz",
+    "Thánh ca",
+    "Slow Rock",
+    "Boston",
+    "Bossa Nova"
+  ],
+  "preferred_chord_colors": {
+    "major7": [
+      "maj7",
+      "9"
+    ],
+    "minor7": [
+      "7",
+      "9"
+    ],
+    "dominant7": [
+      "7",
+      "9",
+      "sus4"
+    ],
+    "diminished": [
+      "dim"
+    ]
+  },
+  "preferred_voicing_types": [
+    "voicing",
+    "fingering",
+    "Fingering & Technique",
+    "outro_technique",
+    "fingering_technique",
+    "rhythm_accompaniment"
+  ],
+  "melodic_language": {
+    "common_devices": [
+      "smooth_voice_leading",
+      "fill_or_lead_in",
+      "bass_motion"
+    ],
+    "phrase_tendencies": [
+      "target_chord_tone"
+    ],
+    "note_targeting_rules": [
+      "Tap_01_Bai_03_rh_voicing_below_melody",
+      "Tap_01_Bai_03_accompaniment_dynamic_balance",
+      "Tap_01_Bai_07_rule_passing_line_construction",
+      "Tap_01_Bai_08_rule_l08_001",
+      "Tap_01_Bai_08_rule_l08_003",
+      "Tap_02_Bai_07_R_RH_FINGER_5_MELODIC_LEAD",
+      "Tap_02_Bai_13_rule_hp_tap02_b13_004",
+      "Tap_03_Bai_04_RULE_PENTATONIC_RUN_RHYTHM_001",
+      "Tap_03_Bai_05_R_TAP03_B05_001",
+      "Tap_03_Bai_09_rule_rh_fingering_by_melodic_peak",
+      "Tap_03_Bai_10_R_TWO_HAND_BALANCED_VOICING",
+      "Tap_03_Bai_12_rule_hai_piano_fingering_voicing_lead"
+    ]
+  },
+  "comping_language": {
+    "rhythmic_density": "medium",
+    "syncopation_level": "medium",
+    "preferred_patterns": [
+      "Tap_01_Bai_03_lesson_01_03_002",
+      "Tap_01_Bai_03_lesson_01_03_005",
+      "Tap_01_Bai_11_lesson_id_0011_05",
+      "Tap_01_Bai_14_lesson_14_00008",
+      "Tap_02_Bai_01_lesson_tap02_bai01_004",
+      "Tap_02_Bai_03_tap_02_bai_03_001",
+      "Tap_02_Bai_03_tap_02_bai_03_003",
+      "Tap_02_Bai_03_tap_02_bai_03_005",
+      "Tap_02_Bai_03_tap_02_bai_03_008",
+      "Tap_02_Bai_04_hai_piano_tap_02_bai_04_009",
+      "Tap_02_Bai_05_tap_02_bai_05_001",
+      "Tap_02_Bai_05_tap_02_bai_05_010"
+    ]
+  },
+  "bass_language": {
+    "common_patterns": [
+      "Tap_01_Bai_02_hai_piano_001_bai_02_002",
+      "Tap_01_Bai_02_hai_piano_001_bai_02_003",
+      "Tap_01_Bai_06_tap01_bai06_003",
+      "Tap_01_Bai_06_tap01_bai06_004",
+      "Tap_01_Bai_08_hai_piano_l08_003",
+      "Tap_01_Bai_08_hai_piano_l08_004",
+      "Tap_01_Bai_09_lesson_id_0009_06",
+      "Tap_01_Bai_09_lesson_id_0009_07",
+      "Tap_01_Bai_10_hai_piano_c001_l010_002",
+      "Tap_01_Bai_10_hai_piano_c001_l010_004",
+      "Tap_01_Bai_10_hai_piano_c001_l010_005",
+      "Tap_01_Bai_10_hai_piano_c001_l010_006"
+    ]
+  },
+  "difficulty_bias": {
+    "beginner": {
+      "allowed_tensions": [],
+      "avoid": [
+        "13",
+        "altered",
+        "dim"
+      ],
+      "rule_ids": [
+        "Tap_01_Bai_01_R_00001_DOUBLING_AND_OMISSION_RULES",
+        "Tap_01_Bai_03_ballad_lh_arpeggio_pattern",
+        "Tap_01_Bai_08_rule_l08_002",
+        "Tap_01_Bai_12_rule_valse_pattern_arrangement_contrast",
+        "Tap_01_Bai_15_RULE_ACCOMPANIMENT_REGISTER",
+        "Tap_02_Bai_09_R_TAP02_BAI09_004",
+        "Tap_02_Bai_14_RULE_CHORD_11_VOICING_01",
+        "Tap_02_Bai_14_RULE_CHORD_13_VOICING_01"
+      ]
+    },
+    "intermediate": {
+      "allowed_tensions": [
+        "7",
+        "9",
+        "sus4",
+        "sus2"
+      ],
+      "avoid": [
+        "altered"
+      ],
+      "rule_ids": [
+        "Tap_01_Bai_01_R_00001_LEFT_HAND_FINGERING_15",
+        "Tap_01_Bai_03_rh_voicing_below_melody",
+        "Tap_01_Bai_03_accompaniment_dynamic_balance",
+        "Tap_01_Bai_06_RULE_HP_B3_HARMONIZATION_PRIORITY",
+        "Tap_01_Bai_07_rule_passing_line_construction",
+        "Tap_01_Bai_08_rule_l08_001",
+        "Tap_01_Bai_08_rule_l08_003",
+        "Tap_01_Bai_11_lesson_id_0011_03"
+      ]
+    },
+    "advanced": {
+      "allowed_tensions": [
+        "7",
+        "9",
+        "11",
+        "13",
+        "sus4",
+        "dim"
+      ],
+      "avoid": [],
+      "rule_ids": [
+        "Tap_01_Bai_06_RULE_HP_PASSING_CHORD_DIMINISHED",
+        "Tap_01_Bai_07_rule_minor_target_2_5_1_fill",
+        "Tap_01_Bai_08_rule_l08_004",
+        "Tap_01_Bai_11_lesson_id_0011_07",
+        "Tap_01_Bai_11_lesson_id_0011_09",
+        "Tap_01_Bai_12_rule_bossa_articulation_contrast",
+        "Tap_01_Bai_12_rule_bossa_bass_alternation",
+        "Tap_01_Bai_12_rule_valse_bass_holding"
+      ]
+    }
+  },
+  "source_refs": [
+    {
+      "module_id": "Tap_01",
+      "lessons": 15,
+      "note": "derived from approved rules/patterns only"
+    },
+    {
+      "module_id": "Tap_02",
+      "lessons": 15,
+      "note": "derived from approved rules/patterns only"
+    },
+    {
+      "module_id": "Tap_03",
+      "lessons": 15,
+      "note": "derived from approved rules/patterns only"
+    },
+    {
+      "module_id": "Tap_04",
+      "lessons": 15,
+      "note": "derived from approved rules/patterns only"
+    },
+    {
+      "module_id": "Tap_06",
+      "lessons": 15,
+      "note": "derived from approved rules/patterns only"
+    }
+  ],
+  "confidence_summary": {
+    "direct_rules": 140,
+    "inferred_rules": 2,
+    "unresolved_items": 167
+  }
+}

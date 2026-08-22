@@ -1,0 +1,67 @@
+{
+  "id": "tap-02-bai-05-r-balance-7th-harmonization",
+  "type": "rule",
+  "name": "Tránh dùng hợp âm 7 liên tục ở tất cả các nốt giai điệu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Pop, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Tránh dùng hợp âm 7 liên tục ở tất cả các nốt giai điệu; nên phối hợp linh hoạt giữa hợp âm 3 nốt (bậc 3, 5) và hợp âm 7/6/9.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_BALANCE_7TH_HARMONIZATION",
+      "category": "arrangement",
+      "description": "Tránh dùng hợp âm 7 liên tục ở tất cả các nốt giai điệu; nên phối hợp linh hoạt giữa hợp âm 3 nốt (bậc 3, 5) và hợp âm 7/6/9.",
+      "conditions": {
+        "arrangement_density": "full_song_harmonization"
+      },
+      "recommendation": "Xoay vòng linh hoạt giữa các bậc hòa âm để giữ độ thanh thoát và điểm nhấn phân đoạn.",
+      "source_ref": "tap_02_bai_05_014",
+      "lesson_folder": "Tap_02_Bai_05"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Tránh dùng hợp âm 7 liên tục ở tất cả các nốt giai điệu; nên phối hợp linh hoạt giữa hợp âm 3 nốt (bậc 3, 5) và hợp âm 7/6/9."
+}

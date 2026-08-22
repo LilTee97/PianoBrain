@@ -1,0 +1,126 @@
+{
+  "id": "tap-01-bai-12-hai-piano-c1-b12-006",
+  "type": "accompaniment",
+  "name": "Mẫu Valse Kiểu 3 (Rải luân phiên liên tục): Tay trái đánh Bass phách 1, tay phải rải liên tục các nốt thành phần hợp âm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-12",
+    "locator": "20:05-22:37 pdf p.6",
+    "media_id": "video_hai_piano_tap1_bai12",
+    "supporting": [
+      {
+        "source_id": "pdf_hoam_coban_tap1_bai11_15",
+        "page": 6,
+        "section": "Kiểu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Em, F, G",
+    "Giọng: C",
+    "Điệu / phong cách: Valse"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Em",
+      "F",
+      "G"
+    ],
+    "style": [
+      "valse"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu Valse Kiểu 3 (Rải luân phiên liên tục): Tay trái đánh Bass phách 1, tay phải rải liên tục các nốt thành phần hợp âm đi lên và đi xuống ở nốt móc đơn (ví dụ: Sol - Đô - Mi - Sol - Mi - Đô), tạo dòng chảy giai điệu đệm dạt dào và cuốn hút.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Em",
+        "F",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Valse"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3 (nốt Bass phách 1)"
+        ],
+        "right": [
+          "G3",
+          "C4",
+          "E4",
+          "G4",
+          "E4",
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "G3",
+          "C4",
+          "E4",
+          "G4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3 (nốt Bass phách 1)"
+          ],
+          "right": [
+            "G3",
+            "C4",
+            "E4",
+            "G4",
+            "E4",
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu Valse Kiểu 3 (Rải luân phiên liên tục): Tay trái đánh Bass phách 1, tay phải rải liên tục các nốt thành phần hợp âm đi lên và đi xuống ở nốt móc đơn (ví dụ: Sol - Đô - Mi - Sol - Mi - Đô), tạo dòng chảy giai điệu đệm dạt dào và cuốn hút."
+}

@@ -1,0 +1,119 @@
+{
+  "id": "tap-06-bai-13-hai-piano-course-001-tap-06-bai-13-003",
+  "type": "accompaniment",
+  "name": "Mẫu 2: Mẫu đệm biến tấu Cha Cha Cha với tiết tấu dồn dập hơn ở tay phải, tay trái giữ nhịp trầm chắc chắn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-13",
+    "locator": "06:32-08:53 pdf p.13",
+    "media_id": "video_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 13,
+        "section": "Mẫu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, G, E7",
+    "Giọng: A minor",
+    "Điệu / phong cách: Cha Cha Cha, Latin Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "G",
+      "E7"
+    ],
+    "style": [
+      "cha-cha-cha",
+      "pop",
+      "latin-pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 2: Mẫu đệm biến tấu Cha Cha Cha với tiết tấu dồn dập hơn ở tay phải, tay trái giữ nhịp trầm chắc chắn. Thích hợp dùng cho đoạn Giang tấu (Interlude) hoặc Intro tạo sự sôi động.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "G",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Cha Cha Cha",
+        "Latin Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am - G",
+      "notes": [
+        "A2",
+        "E3",
+        "C4",
+        "E4",
+        "G2",
+        "D3",
+        "B3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "Root-5th rhythmic bass line"
+        ],
+        "right": [
+          "Continuous syncopated staccato chords"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am - G",
+        "notes": [
+          "A2",
+          "E3",
+          "C4",
+          "E4",
+          "G2",
+          "D3",
+          "B3",
+          "D4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "Root-5th rhythmic bass line"
+          ],
+          "right": [
+            "Continuous syncopated staccato chords"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 2: Mẫu đệm biến tấu Cha Cha Cha với tiết tấu dồn dập hơn ở tay phải, tay trái giữ nhịp trầm chắc chắn. Thích hợp dùng cho đoạn Giang tấu (Interlude) hoặc Intro tạo sự sôi động."
+}

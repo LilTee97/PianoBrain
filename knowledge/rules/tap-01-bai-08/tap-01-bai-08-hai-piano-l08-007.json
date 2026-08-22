@@ -1,0 +1,91 @@
+{
+  "id": "tap-01-bai-08-hai-piano-l08-007",
+  "type": "rule",
+  "name": "Cách 3 làm Intro: Soạn câu mới dựa trên vòng hòa âm chuẩn (Vòng 1-6-2-5-1 hoặc 4-3-2-5-1)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-08",
+    "locator": "00:22:49-00:28:23 pdf p.6",
+    "media_id": "video_hai_piano_l08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_06_10",
+        "page": 6,
+        "section": "Cách làm Intro - Cách 3 & Cách làm Outro"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: F, G, C, Bdim, E, Am",
+    "Giọng: C major, A minor"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "F",
+      "G",
+      "C",
+      "Bdim",
+      "E",
+      "Am"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Cách 3 làm Intro: Soạn câu mới dựa trên vòng hòa âm chuẩn (Vòng 1-6-2-5-1 hoặc 4-3-2-5-1). Cách làm Outro (Kết bài): Sử dụng công thức hòa âm kết thúc để tạo cảm giác về đích êm ái: Công thức 1 (IV - V - I), Công thức 2 (IV - I), Công thức 3 (ii° - V - i / vòng 2-5-1 cho giọng thứ).",
+    "music_entities": {
+      "chords": [
+        "F",
+        "G",
+        "C",
+        "Bdim",
+        "E",
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major",
+        "A minor"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "F-G-C",
+      "notes": [
+        "F3",
+        "A3",
+        "C4",
+        "G3",
+        "B3",
+        "D4",
+        "C3",
+        "E3",
+        "G3"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "G2",
+          "C2"
+        ],
+        "right": [
+          "F3",
+          "A3",
+          "C4",
+          "G3",
+          "B3",
+          "D4",
+          "C3",
+          "E3",
+          "G3"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Cách 3 làm Intro: Soạn câu mới dựa trên vòng hòa âm chuẩn (Vòng 1-6-2-5-1 hoặc 4-3-2-5-1). Cách làm Outro (Kết bài): Sử dụng công thức hòa âm kết thúc để tạo cảm giác về đích êm ái: Công thức 1 (IV - V - I), Công thức 2 (IV - I), Công thức 3 (ii° - V - i / vòng 2-5-1 cho giọng thứ)."
+}

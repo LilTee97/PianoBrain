@@ -1,0 +1,131 @@
+{
+  "id": "tap-03-bai-02-tap-03-bai-02-005",
+  "type": "exercise",
+  "name": "Ghép hai tay Gam Đô Trưởng 1 octave ở các sắc thái Non-legato, Legato và Staccato",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-02",
+    "locator": "08:28:00-10:40:00",
+    "media_id": "video_tap_03_bai_02",
+    "supporting": []
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Gam: C Major Scale",
+    "Điệu / phong cách: Piano Technique"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "piano-technique"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ghép hai tay Gam Đô Trưởng 1 octave ở các sắc thái Non-legato, Legato và Staccato. Lưu ý điểm luồn/vắt ngón không đồng thời giữa hai tay: khi đi lên, tay phải luồn ngón 1 ở F4 trước, sau đó tay trái vắt ngón 3 ở A3; khi đi xuống, tay trái luồn ngón 1 ở G3 trước, sau đó tay phải vắt ngón 3 ở E4.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Piano Technique"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3/C4",
+        "D3/D4",
+        "E3/E4",
+        "F3/F4",
+        "G3/G4",
+        "A3/A4",
+        "B3/B4",
+        "C4/C5"
+      ],
+      "hands": {
+        "left": [
+          "5",
+          "4",
+          "3",
+          "2",
+          "1",
+          "3",
+          "2",
+          "1"
+        ],
+        "right": [
+          "1",
+          "2",
+          "3",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3/C4",
+          "D3/D4",
+          "E3/E4",
+          "F3/F4",
+          "G3/G4",
+          "A3/A4",
+          "B3/B4",
+          "C4/C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "5",
+            "4",
+            "3",
+            "2",
+            "1",
+            "3",
+            "2",
+            "1"
+          ],
+          "right": [
+            "1",
+            "2",
+            "3",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ghép hai tay Gam Đô Trưởng 1 octave ở các sắc thái Non-legato, Legato và Staccato. Lưu ý điểm luồn/vắt ngón không đồng thời giữa hai tay: khi đi lên, tay phải luồn ngón 1 ở F4 trước, sau đó tay trái vắt ngón 3 ở A3; khi đi xuống, tay trái luồn ngón 1 ở G3 trước, sau đó tay phải vắt ngón 3 ở E4."
+}

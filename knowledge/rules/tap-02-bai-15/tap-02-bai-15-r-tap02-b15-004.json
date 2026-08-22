@@ -1,0 +1,78 @@
+{
+  "id": "tap-02-bai-15-r-tap02-b15-004",
+  "type": "rule",
+  "name": "Approach a target minor chord (Am7) from half-step below using a diminished 7th or half-diminished chord (G#m7-5 / G#dim",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-15",
+    "locator": "11:20:00-13:21:00 pdf p.11",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Arranging Rule, Ballade, Ballade Intro, Jazz-influenced Pop Ballad, Pop Ballad Chorus, Pop Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "arranging-rule",
+      "pop_ballad",
+      "ballade",
+      "ballade-intro",
+      "jazz",
+      "pop",
+      "jazz-influenced-pop-ballad",
+      "pop-ballad-chorus",
+      "pop-piano"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Arranging Rule",
+        "Ballade",
+        "Ballade Intro",
+        "Jazz-influenced Pop Ballad",
+        "Pop Ballad Chorus",
+        "Pop Piano"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Approach a target minor chord (Am7) from half-step below using a diminished 7th or half-diminished chord (G#m7-5 / G#dim7).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "{'preceding_chord': 'G#m7-5 or G#dim7', 'target': 'Am7'}"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP02_B15_004",
+      "name": "Diminished Chromatic Approach to Minor Chord",
+      "description": "Approach a target minor chord (Am7) from half-step below using a diminished 7th or half-diminished chord (G#m7-5 / G#dim7).",
+      "conditions": {
+        "target_chord": "Am7"
+      },
+      "implementation": {
+        "preceding_chord": "G#m7-5 or G#dim7",
+        "target": "Am7"
+      },
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_15"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Approach a target minor chord (Am7) from half-step below using a diminished 7th or half-diminished chord (G#m7-5 / G#dim7)."
+}

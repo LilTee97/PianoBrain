@@ -1,0 +1,120 @@
+{
+  "id": "tap-06-bai-11-tap-06-bai-11-00004",
+  "type": "accompaniment",
+  "name": "Mẫu 1 đệm Pop Rock: Tay trái đánh nốt Bass ở phách 1 và đảo phách nhẹ (đúp bass / chồm phách)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-11",
+    "locator": "00:03:43-00:08:21 pdf p.1",
+    "media_id": "video_tap_06_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_11",
+        "page": 1,
+        "section": "Mẫu 1: Tiết tấu Pop Rock cơ bản"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G, Am, F",
+    "Giọng: C major",
+    "Gam: C Major Scale",
+    "Điệu / phong cách: Pop Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G",
+      "Am",
+      "F"
+    ],
+    "style": [
+      "pop",
+      "pop-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1 đệm Pop Rock: Tay trái đánh nốt Bass ở phách 1 và đảo phách nhẹ (đúp bass / chồm phách). Tay phải dậm hợp âm ngắn/gọn vào phách 2 và 4 (phách nhẹ).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Pop Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - G - Am - F",
+      "notes": [
+        "C2",
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C2 (phách 1)",
+          "C3 (chồm phách)"
+        ],
+        "right": [
+          "E3-G3-C4 (phách 2, 4)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - G - Am - F",
+        "notes": [
+          "C2",
+          "C3",
+          "G3",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2 (phách 1)",
+            "C3 (chồm phách)"
+          ],
+          "right": [
+            "E3-G3-C4 (phách 2, 4)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1 đệm Pop Rock: Tay trái đánh nốt Bass ở phách 1 và đảo phách nhẹ (đúp bass / chồm phách). Tay phải dậm hợp âm ngắn/gọn vào phách 2 và 4 (phách nhẹ)."
+}

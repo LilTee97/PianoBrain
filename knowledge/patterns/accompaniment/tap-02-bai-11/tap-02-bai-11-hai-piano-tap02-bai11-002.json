@@ -1,0 +1,131 @@
+{
+  "id": "tap-02-bai-11-hai-piano-tap02-bai11-002",
+  "type": "accompaniment",
+  "name": "Thế tay trái 1: Công thức bậc 1.5.1.5.3.5.1.5 áp dụng cho hợp âm ba cơ bản (Triad) trong nhịp 4/4 với tiết tấu nốt móc đ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-11",
+    "locator": "00:02:09-00:07:04 pdf p.2",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_002",
+        "page": 2,
+        "section": "Thế 1: 1.5.1.5.3.5.1.5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, F, G, C/E",
+    "Giọng: C major",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "F",
+      "G",
+      "C/E"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Thế tay trái 1: Công thức bậc 1.5.1.5.3.5.1.5 áp dụng cho hợp âm ba cơ bản (Triad) trong nhịp 4/4 với tiết tấu nốt móc đơn. Khi ô nhịp có 2 hợp âm thì thu ngắn mẫu lại thành 1.5.1.3 hoặc 1.5.3.5.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "F",
+        "G",
+        "C/E"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "G2",
+        "E3",
+        "G2",
+        "C3",
+        "G2"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3",
+          "G2",
+          "E3",
+          "G2",
+          "C3",
+          "G2"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "G2",
+          "C3",
+          "G2",
+          "E3",
+          "G2",
+          "C3",
+          "G2"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "C3",
+            "G2",
+            "E3",
+            "G2",
+            "C3",
+            "G2"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thế tay trái 1: Công thức bậc 1.5.1.5.3.5.1.5 áp dụng cho hợp âm ba cơ bản (Triad) trong nhịp 4/4 với tiết tấu nốt móc đơn. Khi ô nhịp có 2 hợp âm thì thu ngắn mẫu lại thành 1.5.1.3 hoặc 1.5.3.5."
+}

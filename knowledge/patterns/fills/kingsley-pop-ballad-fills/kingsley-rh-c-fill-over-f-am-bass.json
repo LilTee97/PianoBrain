@@ -1,0 +1,43 @@
+{
+  "difficulty": 4,
+  "avoid_when": [
+    "Đừng gọi đây là trill trên Am — tay phải đang chơi vốn liếng của hợp âm C"
+  ],
+  "source": {
+    "teacher_id": "kingsley",
+    "source_id": "kingsley-pop-ballad-fills",
+    "locator": "Folders 03, 05/03, 06, 11, 12"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "id": "kingsley-rh-c-fill-over-f-am-bass",
+  "type": "fill",
+  "name": "Tay trái giữ bass F hoặc Am, tay phải chơi câu lót của hợp âm C",
+  "use_when": [
+    "Tay trái đang giữ bass F hoặc Am",
+    "Muốn hòa thanh mở rộng nghe sang"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "F",
+      "Am",
+      "C"
+    ]
+  },
+  "output": {
+    "lh_bass": [
+      "F",
+      "Am"
+    ],
+    "rh_material": "câu lót của hợp âm C (kể cả Fast 3-2-1 với Eb lên E)",
+    "resulting_sound": {
+      "over_F": "Fmaj9 (F A C E G)",
+      "over_Am": "Am7 (A C E G)"
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi tay trái giữ bass F hoặc bass Am, tay phải chơi câu lót của hợp âm C. Chồng lên nhau ra Fmaj9 trên bass F, và Am7 trên bass Am — nghe mở rộng và sang. Đây KHÔNG phải trill trên Am, mà là fill của hợp âm bậc I chơi trên nền bass khác."
+}

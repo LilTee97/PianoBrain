@@ -1,0 +1,76 @@
+{
+  "id": "tap-04-bai-09-hai-piano-t4-b09-001",
+  "type": "concept",
+  "name": "Bài 9 hướng dẫn áp dụng các mẫu câu lót và câu dẫn trên tiết tấu 16-bit (16-beat pop/ballad) cho giọng Trưởng trên vòng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-09",
+    "locator": "00:00:25-00:02:18 pdf p.42",
+    "media_id": "video_t04_b09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 42,
+        "section": "Title & Overview"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, Dm, G",
+    "Giọng: C Major",
+    "Gam: C Major Pentatonic, C Diatonic Major",
+    "Điệu / phong cách: 16-beat, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "16-beat",
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Bài 9 hướng dẫn áp dụng các mẫu câu lót và câu dẫn trên tiết tấu 16-bit (16-beat pop/ballad) cho giọng Trưởng trên vòng hợp âm chuẩn I - IV - II - V - I (C - F - Dm - G - C).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Pentatonic",
+        "C Diatonic Major"
+      ],
+      "styles": [
+        "16-beat",
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - F - Dm - G - C",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 9 hướng dẫn áp dụng các mẫu câu lót và câu dẫn trên tiết tấu 16-bit (16-beat pop/ballad) cho giọng Trưởng trên vòng hợp âm chuẩn I - IV - II - V - I (C - F - Dm - G - C)."
+}

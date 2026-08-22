@@ -1,0 +1,122 @@
+{
+  "id": "tap-02-bai-04-hai-piano-tap-02-bai-04-008",
+  "type": "voicing",
+  "name": "Quy tắc xếp ngón thực hành cho Hợp âm 7 trên đàn Piano:\n- Tay trái: Đánh khung nốt Bậc 1 và Bậc 5 (Thế 1.5)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": "27:50:00-31:48:00 pdf p.7",
+    "media_id": "video_tap_02_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_book",
+        "page": 7,
+        "section": "Thực hành"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Fmaj7, Em7, Dm7",
+    "Giọng: C",
+    "Nốt màu: 3, 7, 1, 5",
+    "Điệu / phong cách: pop, accompaniment"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Fmaj7",
+      "Em7",
+      "Dm7"
+    ],
+    "style": [
+      "pop",
+      "accompaniment"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Quy tắc xếp ngón thực hành cho Hợp âm 7 trên đàn Piano:\n- Tay trái: Đánh khung nốt Bậc 1 và Bậc 5 (Thế 1.5).\n- Tay phải: Đánh cặp nốt Bậc 3 và Bậc 7 (Thế 3-7) hoặc Bậc 7 và Bậc 3 (Thế 7-3).\n- Bổ sung: Tay phải có thể thêm nốt Bậc 1 hoặc Bậc 5 để làm giai điệu hoặc câu lót.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Fmaj7",
+        "Em7",
+        "Dm7"
+      ],
+      "tensions": [
+        "3",
+        "7",
+        "1",
+        "5"
+      ],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "pop",
+        "accompaniment"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C3",
+        "G3",
+        "E4",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "E4",
+          "B4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C3",
+          "G3",
+          "E4",
+          "B4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "E4",
+            "B4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc xếp ngón thực hành cho Hợp âm 7 trên đàn Piano:\n- Tay trái: Đánh khung nốt Bậc 1 và Bậc 5 (Thế 1.5).\n- Tay phải: Đánh cặp nốt Bậc 3 và Bậc 7 (Thế 3-7) hoặc Bậc 7 và Bậc 3 (Thế 7-3).\n- Bổ sung: Tay phải có thể thêm nốt Bậc 1 hoặc Bậc 5 để làm giai điệu hoặc câu lót."
+}

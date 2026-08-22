@@ -1,0 +1,72 @@
+{
+  "id": "tap-02-bai-12-hai-piano-course-001-t2-b12-001",
+  "type": "concept",
+  "name": "Giới thiệu tiết tấu Tango trong đệm hát và hòa âm nâng cao Piano",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-12",
+    "locator": "00:00:00-00:01:12 pdf p.3",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 3,
+        "section": "BÀI 12 : TIẾT TẤU TANGO"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: Am",
+    "Điệu / phong cách: Tango, Latin"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "tango",
+      "latin"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu tiết tấu Tango trong đệm hát và hòa âm nâng cao Piano. Tiết tấu Tango thuộc nhóm nhịp Latin/Groove, mang tính chất sôi nổi, dứt khoát, dồn dập và có nhịp điệu đặc trưng ở ô nhịp 4/4.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [],
+      "styles": [
+        "Tango",
+        "Latin"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "C3",
+        "E3",
+        "A3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E2"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "A4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu tiết tấu Tango trong đệm hát và hòa âm nâng cao Piano. Tiết tấu Tango thuộc nhóm nhịp Latin/Groove, mang tính chất sôi nổi, dứt khoát, dồn dập và có nhịp điệu đặc trưng ở ô nhịp 4/4."
+}

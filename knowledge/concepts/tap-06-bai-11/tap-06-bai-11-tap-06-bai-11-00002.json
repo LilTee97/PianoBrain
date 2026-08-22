@@ -1,0 +1,57 @@
+{
+  "id": "tap-06-bai-11-tap-06-bai-11-00002",
+  "type": "concept",
+  "name": "Giới thiệu tiết điệu Pop Rock: Đặc trưng bởi tiết tấu tươi trẻ, vui vẻ, sôi động, hiện đại",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-11",
+    "locator": "00:00:40-00:01:20 pdf p.1",
+    "media_id": "video_tap_06_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_11",
+        "page": 1,
+        "section": "Khái niệm Tiết điệu Pop Rock"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Pop Rock, Pop, Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop",
+      "pop-rock",
+      "rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu tiết điệu Pop Rock: Đặc trưng bởi tiết tấu tươi trẻ, vui vẻ, sôi động, hiện đại. Thích hợp cho đệm hát nhạc trẻ, nhạc nhẹ tươi mới, hoặc các bài thánh ca vui ngoài phụng vụ.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Pop Rock",
+        "Pop",
+        "Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu tiết điệu Pop Rock: Đặc trưng bởi tiết tấu tươi trẻ, vui vẻ, sôi động, hiện đại. Thích hợp cho đệm hát nhạc trẻ, nhạc nhẹ tươi mới, hoặc các bài thánh ca vui ngoài phụng vụ."
+}

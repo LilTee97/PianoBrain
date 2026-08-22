@@ -1,0 +1,19 @@
+{
+  "id": "voicing-lh-shell",
+  "type": "voicing",
+  "name": "Tay trái shell 1-7-3",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Đệm hát", "Có bass thật hoặc không", "Mọi hợp âm 7"],
+  "avoid_when": ["Dưới quãng tám thứ 2 sẽ đục", "Cần bass đi giai điệu"],
+  "input": { "chord_quality": ["maj7", "m7", "7", "m9", "maj9"], "hand": "LH", "style": ["pop_ballad", "jazz"] },
+  "output": {
+    "intervals_from_root": [0, 10, 16],
+    "shape_note": "gốc ở tay trái, bậc 7 ngay trên, bậc 3 ở quãng tám kế",
+    "example": { "chord": "Cmaj7", "notes": ["C2", "B2", "E3"] },
+    "fingering_id": "fingering-lh-shell-cmaj7"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Chỉ giữ nốt gốc, bậc 7 và bậc 3 — ba nốt quyết định màu hợp âm. Bỏ bậc 5 để tay trái không đục và chừa chỗ cho tay phải."
+}

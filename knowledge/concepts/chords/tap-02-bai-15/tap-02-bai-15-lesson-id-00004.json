@@ -1,0 +1,106 @@
+{
+  "id": "tap-02-bai-15-lesson-id-00004",
+  "type": "concept",
+  "name": "Đoạn A (Verse 1): C9 -> Em7 -> Am7 -> Gm7-9 -> C7(-9) -> Fmaj79 -> Dm79 -> Gsus4",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-15",
+    "locator": "05:22:00-08:28:00 pdf p.10",
+    "media_id": "video_tap_02_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 10,
+        "section": "Nàng Thơ Sheet Music - Đoạn A"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, Em7, Am7, Gm79, C7(-9), Fmaj79, Dm79, Gsus4, G#m-5, F#m7-5, Fm6",
+    "Giọng: C major",
+    "Gam: C major, A harmonic minor",
+    "Nốt màu: -9, 9, 7",
+    "Điệu / phong cách: Pop Ballad Verse"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "Em7",
+      "Am7",
+      "Gm79",
+      "C7(-9)",
+      "Fmaj79",
+      "Dm79",
+      "Gsus4",
+      "G#m-5",
+      "F#m7-5",
+      "Fm6"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad-verse"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Đoạn A (Verse 1): C9 -> Em7 -> Am7 -> Gm7-9 -> C7(-9) -> Fmaj79 -> Dm79 -> Gsus4. Ở đây sử dụng chuỗi 2-5-1 phụ về Fmaj7 (Gm7 -> C7(-9) -> Fmaj79), kết hợp với hợp âm dẫn chromatic G#m-5 (G#dim) tiến về Am7, F#m7-5 -> Fm6 -> G tiến về Am.",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "Em7",
+        "Am7",
+        "Gm79",
+        "C7(-9)",
+        "Fmaj79",
+        "Dm79",
+        "Gsus4",
+        "G#m-5",
+        "F#m7-5",
+        "Fm6"
+      ],
+      "tensions": [
+        "-9",
+        "9",
+        "7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major",
+        "A harmonic minor"
+      ],
+      "styles": [
+        "Pop Ballad Verse"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C7(-9)",
+      "notes": [
+        "C3",
+        "E3",
+        "Bb3",
+        "Db4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "E3",
+          "Bb3",
+          "Db4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Đoạn A (Verse 1): C9 -> Em7 -> Am7 -> Gm7-9 -> C7(-9) -> Fmaj79 -> Dm79 -> Gsus4. Ở đây sử dụng chuỗi 2-5-1 phụ về Fmaj7 (Gm7 -> C7(-9) -> Fmaj79), kết hợp với hợp âm dẫn chromatic G#m-5 (G#dim) tiến về Am7, F#m7-5 -> Fm6 -> G tiến về Am."
+}

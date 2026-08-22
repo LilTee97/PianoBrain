@@ -1,0 +1,104 @@
+{
+  "id": "tap-02-bai-03-tap-02-bai-03-008",
+  "type": "exercise",
+  "name": "Bài tập áp dụng hợp âm tiếp cận và các vòng hòa âm Trưởng/Thứ Hòa thanh & Giai điệu: 1",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": "00:37:38-00:38:22 pdf p.4",
+    "media_id": "hai_piano_video_tap_02_bai_03",
+    "supporting": [
+      {
+        "source_id": "HOÀ ÂM NÂNG CAO ĐỆM HÁT TẬP 2 BÀI 1 - BÀI 5",
+        "page": 4,
+        "section": "Bài Tập"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: D, G, Em, A, Am, Dm, C",
+    "Giọng: D major, A minor, C major",
+    "Gam: D major, A minor",
+    "Điệu / phong cách: Practice"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "D",
+      "G",
+      "Em",
+      "A",
+      "Am",
+      "Dm",
+      "C"
+    ],
+    "style": [
+      "practice"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Bài tập áp dụng hợp âm tiếp cận và các vòng hòa âm Trưởng/Thứ Hòa thanh & Giai điệu: 1. D - G - Em - A; 2. Am - Dm - G - C. Học viên thực hành tự thêm hợp âm dẫn vào giữa các hợp âm gốc.",
+    "music_entities": {
+      "chords": [
+        "D",
+        "G",
+        "Em",
+        "A",
+        "Am",
+        "Dm",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "D major",
+        "A minor",
+        "C major"
+      ],
+      "scales": [
+        "D major",
+        "A minor"
+      ],
+      "styles": [
+        "Practice"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "1. D - G - Em - A | 2. Am - Dm - G - C",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "1. D - G - Em - A | 2. Am - Dm - G - C",
+        "notes": [],
+        "rhythm": [],
+        "hands": {
+          "left": [],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài tập áp dụng hợp âm tiếp cận và các vòng hòa âm Trưởng/Thứ Hòa thanh & Giai điệu: 1. D - G - Em - A; 2. Am - Dm - G - C. Học viên thực hành tự thêm hợp âm dẫn vào giữa các hợp âm gốc."
+}

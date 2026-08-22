@@ -1,0 +1,137 @@
+{
+  "id": "tap-02-bai-11-hai-piano-tap02-bai11-006",
+  "type": "accompaniment",
+  "name": "Thế tay trái 5 & 6 dành cho hợp âm 79 (Thứ 79 hoặc Trưởng 79): Thế 5 là đệm block/chữ 1.5.7.9",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-11",
+    "locator": "00:16:16-00:18:25 pdf p.2",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_002",
+        "page": 2,
+        "section": "Thế 5 & 6: Hợp âm 79"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, Am79, Fmaj79, G79",
+    "Giọng: C major",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: Modern Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "Am79",
+      "Fmaj79",
+      "G79"
+    ],
+    "style": [
+      "pop_ballad",
+      "modern-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Thế tay trái 5 & 6 dành cho hợp âm 79 (Thứ 79 hoặc Trưởng 79): Thế 5 là đệm block/chữ 1.5.7.9. Thế 6 rải theo công thức 1.5.7.5.9.5.7.5.1 chứa đủ cả bậc 7 và bậc 9 ở tay trái.",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "Am79",
+        "Fmaj79",
+        "G79"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Modern Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj79",
+      "notes": [
+        "C2",
+        "G2",
+        "B2",
+        "G2",
+        "D3",
+        "G2",
+        "B2",
+        "G2",
+        "C3"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "B2",
+          "G2",
+          "D3",
+          "G2",
+          "B2",
+          "G2",
+          "C3"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj79",
+        "notes": [
+          "C2",
+          "G2",
+          "B2",
+          "G2",
+          "D3",
+          "G2",
+          "B2",
+          "G2",
+          "C3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "B2",
+            "G2",
+            "D3",
+            "G2",
+            "B2",
+            "G2",
+            "C3"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thế tay trái 5 & 6 dành cho hợp âm 79 (Thứ 79 hoặc Trưởng 79): Thế 5 là đệm block/chữ 1.5.7.9. Thế 6 rải theo công thức 1.5.7.5.9.5.7.5.1 chứa đủ cả bậc 7 và bậc 9 ở tay trái."
+}

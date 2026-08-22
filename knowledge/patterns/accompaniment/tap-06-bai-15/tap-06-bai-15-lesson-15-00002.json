@@ -1,0 +1,124 @@
+{
+  "id": "tap-06-bai-15-lesson-15-00002",
+  "type": "accompaniment",
+  "name": "Mẫu 1: Hai tay bấm hợp âm giữ nhịp MARCH",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-15",
+    "locator": "04:50-07:23 pdf p.1",
+    "media_id": "video_lesson_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_15",
+        "page": 1,
+        "section": "Tiết điệu MARCH - Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Dm, Em, F, G",
+    "Giọng: C major",
+    "Điệu / phong cách: March"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ],
+    "style": [
+      "march"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1: Hai tay bấm hợp âm giữ nhịp MARCH. Nhịp 4/4 gồm các nốt đen kết hợp chùm 3 (triplet) ở phách cuối để tạo lực nhịp đi dồn dập.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Dm",
+        "Em",
+        "F",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "March"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "C4"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "E3",
+          "G3",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3",
+            "C4"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1: Hai tay bấm hợp âm giữ nhịp MARCH. Nhịp 4/4 gồm các nốt đen kết hợp chùm 3 (triplet) ở phách cuối để tạo lực nhịp đi dồn dập."
+}

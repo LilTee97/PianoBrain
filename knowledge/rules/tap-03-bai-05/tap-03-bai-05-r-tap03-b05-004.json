@@ -1,0 +1,64 @@
+{
+  "id": "tap-03-bai-05-r-tap03-b05-004",
+  "type": "rule",
+  "name": "Ô nhịp lấy đà là ô nhịp thiếu phách ở đầu bản nhạc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-05",
+    "locator": "05:12-06:40 pdf p.2",
+    "extra_locators": [
+      "29:15-33:50 pdf p.2"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Classical"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Classical"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Ô nhịp lấy đà là ô nhịp thiếu phách ở đầu bản nhạc. Khi bắt đầu chơi nhịp lấy đà:\n- Không đập phách chân/metronome vào phách đầu của nhịp lấy đà.\n- Bắt đầu giậm phách chuẩn xác tại phách 1 của ô nhịp đầy đủ đầu tiên (ô nhịp số 2).\n",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP03_B05_004",
+      "title": "Xử lý nhịp lấy đà (Anacrusis Execution)",
+      "category": "rhythm_execution",
+      "description": "Ô nhịp lấy đà là ô nhịp thiếu phách ở đầu bản nhạc. Khi bắt đầu chơi nhịp lấy đà:\n- Không đập phách chân/metronome vào phách đầu của nhịp lấy đà.\n- Bắt đầu giậm phách chuẩn xác tại phách 1 của ô nhịp đầy đủ đầu tiên (ô nhịp số 2).\n",
+      "conditions": [
+        "Tác phẩm bắt đầu bằng ô nhịp không đủ phách (Anacrusis)"
+      ],
+      "actions": [
+        "Xướng âm nốt lấy đà tự do/theo đúng trường độ nhưng không đập chân nhịp cho tới phách 1 ô nhịp sau."
+      ],
+      "lesson_folder": "Tap_03_Bai_05"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ô nhịp lấy đà là ô nhịp thiếu phách ở đầu bản nhạc. Khi bắt đầu chơi nhịp lấy đà:\n- Không đập phách chân/metronome vào phách đầu của nhịp lấy đà.\n- Bắt đầu giậm phách chuẩn xác tại phách 1 của ô nhịp đầy đủ đầu tiên (ô nhịp số 2)."
+}

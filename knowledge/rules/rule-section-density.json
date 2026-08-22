@@ -1,0 +1,18 @@
+{
+  "id": "rule-section-density",
+  "type": "rule",
+  "name": "Mật độ chorus phải cao hơn verse",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Dựng bản phối theo đoạn"],
+  "avoid_when": ["Bài cố tình làm chorus mộc hơn verse"],
+  "input": { "section": ["verse", "pre", "chorus"] },
+  "output": {
+    "if": "bài có cả verse và chorus",
+    "then": "density(chorus) > density(pre) > density(verse)",
+    "enforced_by": "src/tests/mrhai.test.ts"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Nếu chorus không dày hơn verse thì người nghe không thấy bài mở ra. Test kiểm luật này trên item điệu."
+}

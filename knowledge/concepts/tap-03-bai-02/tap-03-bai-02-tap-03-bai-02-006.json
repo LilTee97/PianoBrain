@@ -1,0 +1,47 @@
+{
+  "id": "tap-03-bai-02-tap-03-bai-02-006",
+  "type": "concept",
+  "name": "Lý thuyết trường độ (Note Durations) và khái niệm Phách (Beat)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-02",
+    "locator": "11:45:00-16:26:00",
+    "media_id": "video_tap_03_bai_02",
+    "supporting": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Music Theory"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "music-theory"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Lý thuyết trường độ (Note Durations) và khái niệm Phách (Beat). Một phách gồm 1 động tác dậm xuống (nửa phách) và nhấc lên (nửa phách). Nốt tròn (Whole note) = 4 phách; Nốt trắng (Half note) = 2 phách; Nốt đen (Quarter note) = 1 phách; Nốt móc đơn (Eighth note) = 1/2 phách.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Music Theory"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Lý thuyết trường độ (Note Durations) và khái niệm Phách (Beat). Một phách gồm 1 động tác dậm xuống (nửa phách) và nhấc lên (nửa phách). Nốt tròn (Whole note) = 4 phách; Nốt trắng (Half note) = 2 phách; Nốt đen (Quarter note) = 1 phách; Nốt móc đơn (Eighth note) = 1/2 phách."
+}

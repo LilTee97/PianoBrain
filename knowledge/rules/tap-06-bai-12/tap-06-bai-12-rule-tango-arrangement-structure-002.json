@@ -1,0 +1,74 @@
+{
+  "id": "tap-06-bai-12-rule-tango-arrangement-structure-002",
+  "type": "rule",
+  "name": "Sử dụng Mẫu 1 (Cơ bản) hoặc Mẫu 2 (Nốt đen & Chồm phách 4) cho Phiên khúc (Verse)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-12",
+    "locator": "06:00-13:45 pdf p.2",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Latin, Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "latin",
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Latin",
+        "Tango"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng Mẫu 1 (Cơ bản) hoặc Mẫu 2 (Nốt đen & Chồm phách 4) cho Phiên khúc (Verse). Chuyển sang Mẫu 3 (Đảo nhịp cao trào) ở Điệp khúc (Chorus) để tạo lực đẩy kịch tính.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_tango_arrangement_structure_002",
+      "name": "Phân bổ mẫu đệm Tango cho Phiên khúc và Điệp khúc",
+      "category": "arrangement",
+      "description": "Sử dụng Mẫu 1 (Cơ bản) hoặc Mẫu 2 (Nốt đen & Chồm phách 4) cho Phiên khúc (Verse). Chuyển sang Mẫu 3 (Đảo nhịp cao trào) ở Điệp khúc (Chorus) để tạo lực đẩy kịch tính.",
+      "conditions": {
+        "song_section": [
+          "Verse",
+          "Chorus"
+        ],
+        "style": "Tango"
+      },
+      "action": {
+        "verse_pattern": "Pattern 1 hoặc Pattern 2",
+        "chorus_pattern": "Pattern 3 (Cao trào)"
+      },
+      "examples": [
+        "Hãy Yêu Thương Nhau",
+        "Bài Tango Cho Anh"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_12"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng Mẫu 1 (Cơ bản) hoặc Mẫu 2 (Nốt đen & Chồm phách 4) cho Phiên khúc (Verse). Chuyển sang Mẫu 3 (Đảo nhịp cao trào) ở Điệp khúc (Chorus) để tạo lực đẩy kịch tính."
+}

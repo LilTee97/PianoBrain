@@ -1,0 +1,123 @@
+{
+  "id": "tap-04-bai-09-hai-piano-t4-b09-002",
+  "type": "accompaniment",
+  "name": "Câu 1: Xây dựng nét giai điệu lót 16-bit cơ bản dựa trên nốt bậc 3 và bậc 5 của hợp âm, tạo nên giai điệu móc đôi uyển c",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-09",
+    "locator": "00:02:18-00:03:26 pdf p.42",
+    "media_id": "video_t04_b09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 42,
+        "section": "Câu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, Dm, G, C",
+    "Giọng: C Major",
+    "Gam: C Major Diatonic",
+    "Nốt màu: 3rd, 5th",
+    "Điệu / phong cách: 16-beat"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "Dm",
+      "G",
+      "C"
+    ],
+    "style": [
+      "16-beat"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Câu 1: Xây dựng nét giai điệu lót 16-bit cơ bản dựa trên nốt bậc 3 và bậc 5 của hợp âm, tạo nên giai điệu móc đôi uyển chuyển giữa tay trái và tay phải.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "Dm",
+        "G",
+        "C"
+      ],
+      "tensions": [
+        "3rd",
+        "5th"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Diatonic"
+      ],
+      "styles": [
+        "16-beat"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "G3",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu 1: Xây dựng nét giai điệu lót 16-bit cơ bản dựa trên nốt bậc 3 và bậc 5 của hợp âm, tạo nên giai điệu móc đôi uyển chuyển giữa tay trái và tay phải."
+}

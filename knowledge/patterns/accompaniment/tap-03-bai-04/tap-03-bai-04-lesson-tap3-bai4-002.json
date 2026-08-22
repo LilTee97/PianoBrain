@@ -1,0 +1,157 @@
+{
+  "id": "tap-03-bai-04-lesson-tap3-bai4-002",
+  "type": "exercise",
+  "name": "Luyện tập Arpeggio quãng rộng kết hợp với Pedal đệm hát và ứng dụng trên 12 giọng Trưởng/Thứ (D, E, F, G, A, B Major",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "05:07-09:16 pdf p.1",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "sheet_001",
+        "page": 1,
+        "section": "Luyện Arpeggio 12 giọng"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, D, E, F, G, A, B, Cm, Dm, Em, Fm, Gm, Am, Bm",
+    "Giọng: C major, D major, E major, F major, G major, A major, B major, C minor, D minor, E minor, F minor, G minor, A minor, B minor",
+    "Gam: Arpeggio",
+    "Điệu / phong cách: Ballad, Intro/Outro Fill"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "B",
+      "Cm",
+      "Dm",
+      "Em",
+      "Fm",
+      "Gm",
+      "Am",
+      "Bm"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "intro-outro-fill"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Luyện tập Arpeggio quãng rộng kết hợp với Pedal đệm hát và ứng dụng trên 12 giọng Trưởng/Thứ (D, E, F, G, A, B Major; Cm, Dm, Em, Fm, Gm, Am, Bm). Áp dụng đa dạng các tiết tấu: nốt đen, nốt móc đơn, chùm liên 3 và nốt móc kép để tạo câu lót cao trào.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B",
+        "Cm",
+        "Dm",
+        "Em",
+        "Fm",
+        "Gm",
+        "Am",
+        "Bm"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major",
+        "D major",
+        "E major",
+        "F major",
+        "G major",
+        "A major",
+        "B major",
+        "C minor",
+        "D minor",
+        "E minor",
+        "F minor",
+        "G minor",
+        "A minor",
+        "B minor"
+      ],
+      "scales": [
+        "Arpeggio"
+      ],
+      "styles": [
+        "Ballad",
+        "Intro/Outro Fill"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "D",
+      "notes": [
+        "D4",
+        "F#4",
+        "A4",
+        "D5"
+      ],
+      "hands": {
+        "left": [
+          "D3",
+          "A3"
+        ],
+        "right": [
+          "D4",
+          "F#4",
+          "A4",
+          "D5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "D",
+        "notes": [
+          "D4",
+          "F#4",
+          "A4",
+          "D5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D3",
+            "A3"
+          ],
+          "right": [
+            "D4",
+            "F#4",
+            "A4",
+            "D5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Luyện tập Arpeggio quãng rộng kết hợp với Pedal đệm hát và ứng dụng trên 12 giọng Trưởng/Thứ (D, E, F, G, A, B Major; Cm, Dm, Em, Fm, Gm, Am, Bm). Áp dụng đa dạng các tiết tấu: nốt đen, nốt móc đơn, chùm liên 3 và nốt móc kép để tạo câu lót cao trào."
+}

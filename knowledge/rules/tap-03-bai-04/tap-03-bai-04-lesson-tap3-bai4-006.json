@@ -1,0 +1,69 @@
+{
+  "id": "tap-03-bai-04-lesson-tap3-bai4-006",
+  "type": "rule",
+  "name": "Vị trí 5 dòng kẻ chính trong Khóa Pha: Dòng 1 = Sol2 (G2), Dòng 2 = Si2 (B2), Dòng 3 = Rê3 (D3), Dòng 4 = Fa3 (F3), Dòng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "22:58-26:23 pdf p.1",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "sheet_001",
+        "page": 1,
+        "section": "Đọc nốt Khóa Pha"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Sight Reading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "sight-reading"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Vị trí 5 dòng kẻ chính trong Khóa Pha: Dòng 1 = Sol2 (G2), Dòng 2 = Si2 (B2), Dòng 3 = Rê3 (D3), Dòng 4 = Fa3 (F3), Dòng 5 = La3 (A3). Vị trí 4 khe chính: Khe 1 = La2 (A2), Khe 2 = Đô3 (C3), Khe 3 = Mi3 (E3), Khe 4 = Sol3 (G3). Nguyên tắc học: Học độc lập như một khóa mới dành riêng cho tay trái, tuyệt đối không dịch từ Khóa Sol sang Khóa Pha.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Sight Reading"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "G2",
+        "B2",
+        "D3",
+        "F3",
+        "A3",
+        "A2",
+        "C3",
+        "E3",
+        "G3"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "B2",
+          "D3",
+          "F3",
+          "A3"
+        ],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vị trí 5 dòng kẻ chính trong Khóa Pha: Dòng 1 = Sol2 (G2), Dòng 2 = Si2 (B2), Dòng 3 = Rê3 (D3), Dòng 4 = Fa3 (F3), Dòng 5 = La3 (A3). Vị trí 4 khe chính: Khe 1 = La2 (A2), Khe 2 = Đô3 (C3), Khe 3 = Mi3 (E3), Khe 4 = Sol3 (G3). Nguyên tắc học: Học độc lập như một khóa mới dành riêng cho tay trái, tuyệt đối không dịch từ Khóa Sol sang Khóa Pha."
+}

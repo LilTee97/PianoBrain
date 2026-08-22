@@ -1,0 +1,82 @@
+{
+  "id": "tap-03-bai-05-lesson-id-00005",
+  "type": "exercise",
+  "name": "Luyện tập tay phải câu giai điệu chính Fur Elise: E5 (ngón 5) - D#5 (ngón 4) - E5 - D#5 - E5 - B4 (ngón 2) - D5 (ngón 4)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-05",
+    "locator": "03:40-05:11 pdf p.2",
+    "media_id": "video_tap_03_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 2,
+        "section": "Tay phải ô nhịp 1-3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am",
+    "Giọng: A minor",
+    "Điệu / phong cách: Classical"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am"
+    ],
+    "style": [
+      "classical"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Luyện tập tay phải câu giai điệu chính Fur Elise: E5 (ngón 5) - D#5 (ngón 4) - E5 - D#5 - E5 - B4 (ngón 2) - D5 (ngón 4) - C5 (ngón 3) - A4 (ngón 1).",
+    "music_entities": {
+      "chords": [
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Classical"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "E5",
+        "D#5",
+        "E5",
+        "D#5",
+        "E5",
+        "B4",
+        "D5",
+        "C5",
+        "A4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "E5",
+          "D#5",
+          "E5",
+          "D#5",
+          "E5",
+          "B4",
+          "D5",
+          "C5",
+          "A4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Luyện tập tay phải câu giai điệu chính Fur Elise: E5 (ngón 5) - D#5 (ngón 4) - E5 - D#5 - E5 - B4 (ngón 2) - D5 (ngón 4) - C5 (ngón 3) - A4 (ngón 1)."
+}

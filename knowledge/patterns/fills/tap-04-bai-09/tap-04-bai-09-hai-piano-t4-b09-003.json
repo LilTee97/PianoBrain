@@ -1,0 +1,127 @@
+{
+  "id": "tap-04-bai-09-hai-piano-t4-b09-003",
+  "type": "fill",
+  "name": "Câu 2: Phát triển câu lót 16-bit kết hợp bậc 3 và bậc 5 cùng các nốt thêu/nốt nối giữa các phách, tạo sự liên kết tự nhi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-09",
+    "locator": "00:03:26-00:05:03 pdf p.43",
+    "media_id": "video_t04_b09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 43,
+        "section": "Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, Dm, G7, C",
+    "Giọng: C Major",
+    "Gam: C Major Diatonic",
+    "Nốt màu: 3, 5",
+    "Điệu / phong cách: 16-beat"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "Dm",
+      "G7",
+      "C"
+    ],
+    "style": [
+      "16-beat"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Câu 2: Phát triển câu lót 16-bit kết hợp bậc 3 và bậc 5 cùng các nốt thêu/nốt nối giữa các phách, tạo sự liên kết tự nhiên khi chuyển giữa hợp âm bậc I sang IV và II sang V.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "Dm",
+        "G7",
+        "C"
+      ],
+      "tensions": [
+        "3",
+        "5"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Diatonic"
+      ],
+      "styles": [
+        "16-beat"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "E4",
+        "G4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "G3",
+          "E4",
+          "G4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu 2: Phát triển câu lót 16-bit kết hợp bậc 3 và bậc 5 cùng các nốt thêu/nốt nối giữa các phách, tạo sự liên kết tự nhiên khi chuyển giữa hợp âm bậc I sang IV và II sang V."
+}

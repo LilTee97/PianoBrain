@@ -1,0 +1,69 @@
+{
+  "id": "tap-04-bai-11-r-add9-modern-color-01",
+  "type": "rule",
+  "name": "Thêm bậc 9 (Add9/Tension 9) vào các hợp âm trưởng/thứ trong vòng lót để tạo âm sắc hiện đại, sang trọng.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-11",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Thêm bậc 9 (Add9/Tension 9) vào các hợp âm trưởng/thứ trong vòng lót để tạo âm sắc hiện đại, sang trọng.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_ADD9_MODERN_COLOR_01",
+      "name": "Add9 Tension for Modern Sang Trọng Sound",
+      "description": "Thêm bậc 9 (Add9/Tension 9) vào các hợp âm trưởng/thứ trong vòng lót để tạo âm sắc hiện đại, sang trọng.",
+      "domain": "tension_and_voicing",
+      "applied_conditions": {
+        "chord_types": [
+          "Major",
+          "Minor"
+        ]
+      },
+      "musical_action": {
+        "add_tension": 9
+      },
+      "lesson_folder": "Tap_04_Bai_11"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Thêm bậc 9 (Add9/Tension 9) vào các hợp âm trưởng/thứ trong vòng lót để tạo âm sắc hiện đại, sang trọng."
+}

@@ -1,0 +1,94 @@
+{
+  "id": "tap-02-bai-14-lesson-14-001",
+  "type": "concept",
+  "name": "Giới thiệu tổng quan về hợp âm mở rộng Bậc 11 (11th) và Bậc 13 (13th), cùng mối liên hệ giữa hợp âm Bậc 13 và hợp âm Bậc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:00:32-00:01:31 pdf p.5",
+    "media_id": "video_tap_02_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 5,
+        "section": "BÀI 14 : HỢP ÂM 11 và 13"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C7.9.11, Cm7.9.11, C13, G6",
+    "Giọng: C major, C minor",
+    "Nốt màu: 11, 13, 9",
+    "Điệu / phong cách: Pop, Ballad, Jazz, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C7.9.11",
+      "Cm7.9.11",
+      "C13",
+      "G6"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu tổng quan về hợp âm mở rộng Bậc 11 (11th) và Bậc 13 (13th), cùng mối liên hệ giữa hợp âm Bậc 13 và hợp âm Bậc 6 (6th chords).",
+    "music_entities": {
+      "chords": [
+        "C7.9.11",
+        "Cm7.9.11",
+        "C13",
+        "G6"
+      ],
+      "tensions": [
+        "11",
+        "13",
+        "9"
+      ],
+      "keys": [
+        "C major",
+        "C minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop",
+        "Ballad",
+        "Jazz",
+        "Thánh ca"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C7(9,11)",
+      "notes": [
+        "C",
+        "G",
+        "Bb",
+        "D",
+        "F"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "Bb3",
+          "D4",
+          "F4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu tổng quan về hợp âm mở rộng Bậc 11 (11th) và Bậc 13 (13th), cùng mối liên hệ giữa hợp âm Bậc 13 và hợp âm Bậc 6 (6th chords)."
+}

@@ -1,0 +1,75 @@
+{
+  "id": "tap-02-bai-03-rule-approach-chord-passing",
+  "type": "rule",
+  "name": "Khi chuyển từ hợp âm gốc này sang hợp âm gốc khác trong ô nhịp 4/4, sử dụng hợp âm tiếp cận (thuộc Trưởng/Thứ Hòa thanh",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Chất hợp âm: Major / Minor",
+    "Điệu / phong cách: Ballad, Contemporary, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Major / Minor"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": "Major / Minor",
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Contemporary",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi chuyển từ hợp âm gốc này sang hợp âm gốc khác trong ô nhịp 4/4, sử dụng hợp âm tiếp cận (thuộc Trưởng/Thứ Hòa thanh hoặc Giai điệu) đặt ở phách nhẹ (thường là phách 4 hoặc phách 3) để tạo đường chuyển tiếp nốt Bass mượt mà.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_approach_chord_passing",
+      "name": "Sử dụng Hợp âm Tiếp cận (Approach Chord) tại Phách nhẹ",
+      "category": "Harmony / Voice Leading",
+      "description": "Khi chuyển từ hợp âm gốc này sang hợp âm gốc khác trong ô nhịp 4/4, sử dụng hợp âm tiếp cận (thuộc Trưởng/Thứ Hòa thanh hoặc Giai điệu) đặt ở phách nhẹ (thường là phách 4 hoặc phách 3) để tạo đường chuyển tiếp nốt Bass mượt mà.",
+      "conditions": {
+        "key_type": "Major / Minor",
+        "time_signature": "4/4 or 3/4",
+        "placement": "Weak beats (Beat 4 or Beat 3)"
+      },
+      "examples": [
+        "C -> F#m7b5 -> F (F#m7b5 ở phách 4 dẫn từ C lên F)",
+        "Em -> Ebm5 -> Dm (Ebm5 ở phách 4 dẫn cromatique từ Em xuống Dm)"
+      ],
+      "lesson_folder": "Tap_02_Bai_03"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi chuyển từ hợp âm gốc này sang hợp âm gốc khác trong ô nhịp 4/4, sử dụng hợp âm tiếp cận (thuộc Trưởng/Thứ Hòa thanh hoặc Giai điệu) đặt ở phách nhẹ (thường là phách 4 hoặc phách 3) để tạo đường chuyển tiếp nốt Bass mượt mà."
+}

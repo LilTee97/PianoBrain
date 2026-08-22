@@ -1,0 +1,69 @@
+{
+  "id": "tap-03-bai-03-r-piano-thumb-tuck-mechanics",
+  "type": "rule",
+  "name": "Quy tắc luồn ngón cái khi chạy Gam/Scale",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-03",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Rhythm Practice, Sight Reading Strategy, Solo Piano, Technical Exercise"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "rhythm-practice",
+      "sight-reading-strategy",
+      "solo-piano",
+      "technical-exercise"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Rhythm Practice",
+        "Sight Reading Strategy",
+        "Solo Piano",
+        "Technical Exercise"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Quy tắc luồn ngón cái khi chạy Gam/Scale",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Luồn ngón cái (ngón 1) di chuyển chủ động dưới lòng bàn tay vào vị trí phím tiếp theo (Pha/F hoặc Đô/C) mà không làm vặn hay xoay lắc cổ tay, duy trì hướng bàn tay vuông góc với bàn phím."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_PIANO_THUMB_TUCK_MECHANICS",
+      "name": "Quy tắc luồn ngón cái khi chạy Gam/Scale",
+      "trigger": "Chạy thang âm liên tục qua nhiều quãng 8",
+      "condition": "Ngón 3 (ở nốt Mi/E) hoặc ngón 4 (ở nốt Si/B) đang chuẩn bị bấm",
+      "action": "Luồn ngón cái (ngón 1) di chuyển chủ động dưới lòng bàn tay vào vị trí phím tiếp theo (Pha/F hoặc Đô/C) mà không làm vặn hay xoay lắc cổ tay, duy trì hướng bàn tay vuông góc với bàn phím.",
+      "rationale": "Giúp giai điệu liền nét (legato), duy trì tốc độ đều đặn và tránh chấn thương cổ tay do vặn lắc.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_03"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Quy tắc luồn ngón cái khi chạy Gam/Scale"
+}

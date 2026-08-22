@@ -1,0 +1,63 @@
+{
+  "id": "tap-06-bai-03-rule-progression-14251-application",
+  "type": "rule",
+  "name": "Vòng hòa âm I - IV - ii - V - I (dùng hợp âm bậc 7 và tension 9) tạo chuyển động hài hòa, liền mạch, cực kỳ hiệu quả khi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-03",
+    "locator": "00:05:00-00:05:35 pdf p.1",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Vòng hòa âm I - IV - ii - V - I (dùng hợp âm bậc 7 và tension 9) tạo chuyển động hài hòa, liền mạch, cực kỳ hiệu quả khi luyện tập các mẫu tiết tấu đệm hát và làm Intro/Outro.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_progression_14251_application",
+      "title": "Ứng dụng vòng hòa âm I - IV - ii - V - I",
+      "description": "Vòng hòa âm I - IV - ii - V - I (dùng hợp âm bậc 7 và tension 9) tạo chuyển động hài hòa, liền mạch, cực kỳ hiệu quả khi luyện tập các mẫu tiết tấu đệm hát và làm Intro/Outro.",
+      "confidence": "direct",
+      "applied_in": [
+        {
+          "lesson_id": "hai_piano_course_001_lesson_03",
+          "timestamp": "00:01:48"
+        }
+      ],
+      "lesson_folder": "Tap_06_Bai_03"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm I - IV - ii - V - I (dùng hợp âm bậc 7 và tension 9) tạo chuyển động hài hòa, liền mạch, cực kỳ hiệu quả khi luyện tập các mẫu tiết tấu đệm hát và làm Intro/Outro."
+}

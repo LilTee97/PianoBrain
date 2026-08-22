@@ -1,0 +1,110 @@
+{
+  "id": "tap-01-bai-14-lesson-14-00010",
+  "type": "fill",
+  "name": "Bước 10 - Tạo câu lót (Fill-ins): Dùng các nốt thuộc hợp âm (Chord Tones) rải nhanh hoặc đi giai điệu phụ (Counter-melod",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "28:00-30:30 pdf p.9",
+    "media_id": "video_tap_01_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_11_15",
+        "page": 9,
+        "section": "10. Tạo câu Lót thích hợp"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G",
+    "Giọng: C Major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bước 10 - Tạo câu lót (Fill-ins): Dùng các nốt thuộc hợp âm (Chord Tones) rải nhanh hoặc đi giai điệu phụ (Counter-melody) ở khoảng lặng cuối câu hát trước khi bước sang phách mạnh ô nhịp kế tiếp.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C Fill-in",
+      "notes": [
+        "G4",
+        "C5",
+        "E5",
+        "G5"
+      ],
+      "hands": {
+        "left": [
+          "C2"
+        ],
+        "right": [
+          "G4",
+          "C5",
+          "E5",
+          "G5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C Fill-in",
+        "notes": [
+          "G4",
+          "C5",
+          "E5",
+          "G5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2"
+          ],
+          "right": [
+            "G4",
+            "C5",
+            "E5",
+            "G5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bước 10 - Tạo câu lót (Fill-ins): Dùng các nốt thuộc hợp âm (Chord Tones) rải nhanh hoặc đi giai điệu phụ (Counter-melody) ở khoảng lặng cuối câu hát trước khi bước sang phách mạnh ô nhịp kế tiếp."
+}

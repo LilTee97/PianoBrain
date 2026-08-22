@@ -1,0 +1,87 @@
+{
+  "id": "tap-03-bai-03-tap-03-bai-03-004",
+  "type": "scale",
+  "name": "Phát triển thang âm C Major lên 4 quãng 8 (C3 - C7 ở tay phải và C2 - C6 ở tay trái)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-03",
+    "locator": "00:08:33-00:11:11 pdf p.1",
+    "media_id": "video_tap_03_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 1,
+        "section": "Mở rộng 4 quãng 8"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: Technical Exercise"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "technical-exercise"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Phát triển thang âm C Major lên 4 quãng 8 (C3 - C7 ở tay phải và C2 - C6 ở tay trái). Quy luật chuyển ngón khi mở rộng quãng: Luồn ngón 1 sau ngón 3 ở vị trí E/F, luồn ngón 1 sau ngón 4 ở vị trí B/C; điểm kết thúc điểm cao nhất mới dùng ngón 5.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Technical Exercise"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "D2",
+          "E2",
+          "F2",
+          "G2",
+          "A2",
+          "B2",
+          "C3",
+          "...",
+          "C6"
+        ],
+        "right": [
+          "C3",
+          "D3",
+          "E3",
+          "F3",
+          "G3",
+          "A3",
+          "B3",
+          "C4",
+          "...",
+          "C7"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phát triển thang âm C Major lên 4 quãng 8 (C3 - C7 ở tay phải và C2 - C6 ở tay trái). Quy luật chuyển ngón khi mở rộng quãng: Luồn ngón 1 sau ngón 3 ở vị trí E/F, luồn ngón 1 sau ngón 4 ở vị trí B/C; điểm kết thúc điểm cao nhất mới dùng ngón 5."
+}

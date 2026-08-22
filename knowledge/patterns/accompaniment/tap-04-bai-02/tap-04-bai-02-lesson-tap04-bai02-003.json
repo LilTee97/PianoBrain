@@ -1,0 +1,141 @@
+{
+  "id": "tap-04-bai-02-lesson-tap04-bai02-003",
+  "type": "exercise",
+  "name": "Mẫu câu 2 (Câu 2): Kết hợp giữa bậc 3 và bậc 5 của hợp âm trong các giai điệu lót tay phải",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-02",
+    "locator": "03:06:00-04:48:00 pdf p.8",
+    "media_id": "video_tap04_bai02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04",
+        "page": 8,
+        "section": "Bài 2 - Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm, Em, G7, C",
+    "Giọng: C major",
+    "Nốt màu: 3rd, 5th",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm",
+      "Em",
+      "G7",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu 2 (Câu 2): Kết hợp giữa bậc 3 và bậc 5 của hợp âm trong các giai điệu lót tay phải. Việc đi luân phiên hoặc nhấn bậc 3 - bậc 5 giúp câu dẫn mượt mà hơn và tạo chiều sâu cho phần đệm Intro/Outro.",
+    "music_entities": {
+      "chords": [
+        "Dm",
+        "Em",
+        "G7",
+        "C"
+      ],
+      "tensions": [
+        "3rd",
+        "5th"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm - Em - G7 - C",
+      "notes": [
+        "F4",
+        "A4",
+        "G4",
+        "B4",
+        "F4",
+        "A4",
+        "D5",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "D3",
+          "E3",
+          "D3",
+          "G2",
+          "C3"
+        ],
+        "right": [
+          "F4",
+          "A4",
+          "G4",
+          "B4",
+          "D5",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm - Em - G7 - C",
+        "notes": [
+          "F4",
+          "A4",
+          "G4",
+          "B4",
+          "F4",
+          "A4",
+          "D5",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D3",
+            "E3",
+            "D3",
+            "G2",
+            "C3"
+          ],
+          "right": [
+            "F4",
+            "A4",
+            "G4",
+            "B4",
+            "D5",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 2 (Câu 2): Kết hợp giữa bậc 3 và bậc 5 của hợp âm trong các giai điệu lót tay phải. Việc đi luân phiên hoặc nhấn bậc 3 - bậc 5 giúp câu dẫn mượt mà hơn và tạo chiều sâu cho phần đệm Intro/Outro."
+}

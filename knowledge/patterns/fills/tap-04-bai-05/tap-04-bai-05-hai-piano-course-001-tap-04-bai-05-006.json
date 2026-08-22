@@ -1,0 +1,127 @@
+{
+  "id": "tap-04-bai-05-hai-piano-course-001-tap-04-bai-05-006",
+  "type": "fill",
+  "name": "Bài 5 - Câu 4: Sử dụng nốt bậc 9 (tension 9/add9) trong câu lót và voicing hợp âm, đem lại âm hưởng hiện đại, tinh tế và",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-05",
+    "locator": "00:07:26-00:08:28 pdf p.25",
+    "media_id": "video_tap_04_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 25,
+        "section": "Bài 5 - Câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am9, Dm9, G9, Cmaj9, Fmaj9, E7b9",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Nốt màu: 9, add9, b9",
+    "Điệu / phong cách: Modern Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am9",
+      "Dm9",
+      "G9",
+      "Cmaj9",
+      "Fmaj9",
+      "E7b9"
+    ],
+    "style": [
+      "pop_ballad",
+      "modern-ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bài 5 - Câu 4: Sử dụng nốt bậc 9 (tension 9/add9) trong câu lót và voicing hợp âm, đem lại âm hưởng hiện đại, tinh tế và sang trọng cho bài đệm Ballad giọng thứ.",
+    "music_entities": {
+      "chords": [
+        "Am9",
+        "Dm9",
+        "G9",
+        "Cmaj9",
+        "Fmaj9",
+        "E7b9"
+      ],
+      "tensions": [
+        "9",
+        "add9",
+        "b9"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Modern Ballad",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am9",
+      "notes": [
+        "B4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "A2"
+        ],
+        "right": [
+          "B4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am9",
+        "notes": [
+          "B4",
+          "C5",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2"
+          ],
+          "right": [
+            "B4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 5 - Câu 4: Sử dụng nốt bậc 9 (tension 9/add9) trong câu lót và voicing hợp âm, đem lại âm hưởng hiện đại, tinh tế và sang trọng cho bài đệm Ballad giọng thứ."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "tap-01-bai-01-lesson-id-00001-concept-formula-145",
+  "type": "rule",
+  "name": "Công thức 1.4.5 (Công thức gốc) trong giọng Đô Trưởng gồm 3 hợp âm 3 trưởng gốc: Bậc I là Đô Trưởng (C-E-G), Bậc IV là F",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-01",
+    "locator": "12:21-15:18 pdf p.2",
+    "media_id": "video_input_0",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 2,
+        "section": "Bước 2: Dùng Công Thức 1.4.5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, G",
+    "Giọng: C Major",
+    "Gam: C Major Scale",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Công thức 1.4.5 (Công thức gốc) trong giọng Đô Trưởng gồm 3 hợp âm 3 trưởng gốc: Bậc I là Đô Trưởng (C-E-G), Bậc IV là Fa Trưởng (F-A-C), Bậc V là Sol Trưởng (G-B-D). Bộ 3 hợp âm này chứa đầy đủ 7 nốt của âm giai.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C, F, G",
+      "notes": [
+        "C-E-G",
+        "F-A-C",
+        "G-B-D"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "F3",
+          "C4",
+          "G3",
+          "D4"
+        ],
+        "right": [
+          "E4-G4",
+          "A4-C5",
+          "B4-D5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Công thức 1.4.5 (Công thức gốc) trong giọng Đô Trưởng gồm 3 hợp âm 3 trưởng gốc: Bậc I là Đô Trưởng (C-E-G), Bậc IV là Fa Trưởng (F-A-C), Bậc V là Sol Trưởng (G-B-D). Bộ 3 hợp âm này chứa đầy đủ 7 nốt của âm giai."
+}

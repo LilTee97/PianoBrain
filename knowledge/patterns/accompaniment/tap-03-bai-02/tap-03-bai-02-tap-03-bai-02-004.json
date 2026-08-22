@@ -1,0 +1,113 @@
+{
+  "id": "tap-03-bai-02-tap-03-bai-02-004",
+  "type": "exercise",
+  "name": "Luyện tập Gam Đô Trưởng (C Major Scale) 1 octave tay trái",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-02",
+    "locator": "06:08:00-08:28:00",
+    "media_id": "video_tap_03_bai_02",
+    "supporting": []
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Gam: C Major Scale",
+    "Điệu / phong cách: Piano Technique"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "piano-technique"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Luyện tập Gam Đô Trưởng (C Major Scale) 1 octave tay trái. Đi lên dùng ngón 5-4-3-2-1 cho C3-D3-E3-F3-G3, vắt ngón 3 qua ngón 1 để bấm A3-B3-C4 (3-2-1). Đi xuống dùng 1-2-3 cho C4-B3-A3, luồn ngón 1 dưới ngón 3 để bấm G3-F3-E3-D3-C3 (1-2-3-4-5).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Piano Technique"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "C3(5)",
+          "D3(4)",
+          "E3(3)",
+          "F3(2)",
+          "G3(1)",
+          "A3(3)",
+          "B3(2)",
+          "C4(1)"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "D3",
+          "E3",
+          "F3",
+          "G3",
+          "A3",
+          "B3",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3(5)",
+            "D3(4)",
+            "E3(3)",
+            "F3(2)",
+            "G3(1)",
+            "A3(3)",
+            "B3(2)",
+            "C4(1)"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Luyện tập Gam Đô Trưởng (C Major Scale) 1 octave tay trái. Đi lên dùng ngón 5-4-3-2-1 cho C3-D3-E3-F3-G3, vắt ngón 3 qua ngón 1 để bấm A3-B3-C4 (3-2-1). Đi xuống dùng 1-2-3 cho C4-B3-A3, luồn ngón 1 dưới ngón 3 để bấm G3-F3-E3-D3-C3 (1-2-3-4-5)."
+}

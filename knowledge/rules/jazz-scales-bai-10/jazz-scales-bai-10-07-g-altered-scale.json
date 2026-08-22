@@ -1,0 +1,40 @@
+{
+  "id": "jazz-scales-bai-10-07-g-altered-scale",
+  "type": "rule",
+  "name": "When playing lines with the altered scale over V7alt, focus on voice leading and smooth resoluti",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-10",
+    "locator": "06:14-07:38",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7alt",
+    "Ngẫu hứng jazz trên hợp âm Cmaj7",
+    "Chọn gam / scale khi gặp hợp âm 7alt, maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7alt",
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G7alt -> Cmaj7",
+    "notes": [
+      "Eb",
+      "E"
+    ],
+    "source_text": "When playing lines with the altered scale over V7alt, focus on voice leading and smooth resolution into chord tones of the target I chord (e.g. Eb/D# or Bb resolving to E or B/D in Cmaj7). Resolution is key to making altered scale improvisations sound musical."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 10 của nguồn Jazz Scales (YouTube), mốc 06:14-07:38. When playing lines with the altered scale over V7alt, focus on voice leading and smooth resolution into chord tones of the target I chord (e.g. Eb/D# or Bb resolving to E or B/D in Cmaj7). Resolution is key to making altered scale improvisations sound musical. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

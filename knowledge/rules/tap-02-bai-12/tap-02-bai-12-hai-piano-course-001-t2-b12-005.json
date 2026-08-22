@@ -1,0 +1,79 @@
+{
+  "id": "tap-02-bai-12-hai-piano-course-001-t2-b12-005",
+  "type": "rule",
+  "name": "Quy tắc ứng dụng độ mạnh nhẹ (Dynamics) và tách biệt khớp ngón trong Tango: Tay trái luôn giữ nốt bass Legato vang đủ dầ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-12",
+    "locator": "00:13:41-00:16:14 pdf p.3",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 3,
+        "section": "BÀI 12 : TIẾT TẤU TANGO"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, E7",
+    "Giọng: Am",
+    "Điệu / phong cách: Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "E7"
+    ],
+    "style": [
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc ứng dụng độ mạnh nhẹ (Dynamics) và tách biệt khớp ngón trong Tango: Tay trái luôn giữ nốt bass Legato vang đủ dầy, Tay phải dứt khoát Staccato. Cường độ đi từ Mạnh -> Nhẹ dần và giật mạnh ở cuối ô nhịp để làm bật tính chất Tango.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [],
+      "styles": [
+        "Tango"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "E2",
+        "C4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E2"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "A4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc ứng dụng độ mạnh nhẹ (Dynamics) và tách biệt khớp ngón trong Tango: Tay trái luôn giữ nốt bass Legato vang đủ dầy, Tay phải dứt khoát Staccato. Cường độ đi từ Mạnh -> Nhẹ dần và giật mạnh ở cuối ô nhịp để làm bật tính chất Tango."
+}

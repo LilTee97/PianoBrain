@@ -1,0 +1,88 @@
+{
+  "id": "tap-02-bai-04-hai-piano-tap-02-bai-04-004",
+  "type": "concept",
+  "name": "Hợp âm Bảy Thứ (Minor 7th - Ký hiệu Cm7): Cấu tạo bởi 1 Hợp âm 3 thứ + Quãng 3 thứ (H.A.3t + Q3t)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": "15:52:00-18:59:00 pdf p.6",
+    "media_id": "video_tap_02_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_book",
+        "page": 6,
+        "section": "3 Bảy Thứ"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cm7, Am7, Dm7",
+    "Giọng: C, Am",
+    "Gam: Minor",
+    "Nốt màu: b7",
+    "Điệu / phong cách: pop, ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cm7",
+      "Am7",
+      "Dm7"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hợp âm Bảy Thứ (Minor 7th - Ký hiệu Cm7): Cấu tạo bởi 1 Hợp âm 3 thứ + Quãng 3 thứ (H.A.3t + Q3t). Hai âm ngoài cùng tạo thành Quãng 7 thứ (Q7t). Âm sắc rất mềm mại, tạo cảm giác êm ả, buồn nhẹ nhàng, đóng vai trò hợp âm trung gian giải tỏa căng thẳng.",
+    "music_entities": {
+      "chords": [
+        "Cm7",
+        "Am7",
+        "Dm7"
+      ],
+      "tensions": [
+        "b7"
+      ],
+      "keys": [
+        "C",
+        "Am"
+      ],
+      "scales": [
+        "Minor"
+      ],
+      "styles": [
+        "pop",
+        "ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cm7",
+      "notes": [
+        "C4",
+        "Eb4",
+        "G4",
+        "Bb4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "Eb4",
+          "G4",
+          "Bb4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Bảy Thứ (Minor 7th - Ký hiệu Cm7): Cấu tạo bởi 1 Hợp âm 3 thứ + Quãng 3 thứ (H.A.3t + Q3t). Hai âm ngoài cùng tạo thành Quãng 7 thứ (Q7t). Âm sắc rất mềm mại, tạo cảm giác êm ả, buồn nhẹ nhàng, đóng vai trò hợp âm trung gian giải tỏa căng thẳng."
+}

@@ -1,0 +1,55 @@
+{
+  "id": "tap-06-bai-04-tap-06-bai-04-001",
+  "type": "concept",
+  "name": "Giới thiệu bài học số 4: Tiết tấu Fox - Country Fox",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-04",
+    "locator": "00:00:31-00:01:08 pdf p.1",
+    "media_id": "video_tap_06_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_04",
+        "page": 1,
+        "section": "Tiêu đề Bài 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Fox, Country Fox"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "fox",
+      "country-fox"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu bài học số 4: Tiết tấu Fox - Country Fox. Đây là tiết tấu vui tươi, nhịp 2/4 nhanh, kết hợp giữa phong cách Fox truyền thống và Country Fox, ứng dụng rất phổ biến trong nhạc phổ thông và nhạc Thánh ca.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Fox",
+        "Country Fox"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu bài học số 4: Tiết tấu Fox - Country Fox. Đây là tiết tấu vui tươi, nhịp 2/4 nhanh, kết hợp giữa phong cách Fox truyền thống và Country Fox, ứng dụng rất phổ biến trong nhạc phổ thông và nhạc Thánh ca."
+}

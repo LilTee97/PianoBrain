@@ -1,0 +1,110 @@
+{
+  "id": "tap-06-bai-03-hai-piano-course-001-lesson-03-002",
+  "type": "concept",
+  "name": "Vòng hòa âm ứng dụng trong bài học là I - IV - ii - V - I (Cmaj7 - Fmaj7 - Dm7(9) - Gsus4/G7 - Cmaj7), vòng hòa âm kinh",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-03",
+    "locator": "00:01:48-00:02:35 pdf p.1",
+    "media_id": "Tap_06_Bai_03.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_06_Bai_03.pdf",
+        "page": 1,
+        "section": "Vòng Hòa Âm Bài 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Fmaj7, Dm7, Gsus4, G7",
+    "Giọng: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Fmaj7",
+      "Dm7",
+      "Gsus4",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Vòng hòa âm ứng dụng trong bài học là I - IV - ii - V - I (Cmaj7 - Fmaj7 - Dm7(9) - Gsus4/G7 - Cmaj7), vòng hòa âm kinh điển ứng dụng đệm hát, sáng tác, làm đoạn mở đầu (Intro) hoặc kết bài (Outro).",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Fmaj7",
+        "Dm7",
+        "Gsus4",
+        "G7"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7 - Fmaj7 - Dm7(9) - Gsus4 - G7",
+      "notes": [
+        "C",
+        "E",
+        "G",
+        "B",
+        "F",
+        "A",
+        "D",
+        "F",
+        "A",
+        "C",
+        "E",
+        "G",
+        "C",
+        "D",
+        "F",
+        "B"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "F2",
+          "D2",
+          "G2"
+        ],
+        "right": [
+          "B3",
+          "E4",
+          "G4",
+          "A3",
+          "C4",
+          "E4",
+          "A3",
+          "C4",
+          "E4",
+          "G4",
+          "C4",
+          "D4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm ứng dụng trong bài học là I - IV - ii - V - I (Cmaj7 - Fmaj7 - Dm7(9) - Gsus4/G7 - Cmaj7), vòng hòa âm kinh điển ứng dụng đệm hát, sáng tác, làm đoạn mở đầu (Intro) hoặc kết bài (Outro)."
+}

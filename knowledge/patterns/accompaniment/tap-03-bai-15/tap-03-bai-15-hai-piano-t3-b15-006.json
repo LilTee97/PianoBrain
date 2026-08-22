@@ -1,0 +1,135 @@
+{
+  "id": "tap-03-bai-15-hai-piano-t3-b15-006",
+  "type": "exercise",
+  "name": "Thực hành trình diễn hoàn chỉnh bài Happy New Year trên piano solo ở nhịp 4/4 tốc độ vừa phải (q=60), chú ý nhịp đảo phá",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-15",
+    "locator": "00:20:33-00:22:46 pdf p.19",
+    "media_id": "video_tap_03_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 19,
+        "section": "Sheet Music Page 1"
+      },
+      {
+        "source_id": "pdf_tap_03",
+        "page": 20,
+        "section": "Sheet Music Page 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Dm7b5/C, Am, F, G7, E7/G#",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: pop solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Dm7b5/C",
+      "Am",
+      "F",
+      "G7",
+      "E7/G#"
+    ],
+    "style": [
+      "pop",
+      "pop-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành trình diễn hoàn chỉnh bài Happy New Year trên piano solo ở nhịp 4/4 tốc độ vừa phải (q=60), chú ý nhịp đảo phách và duy trì sự cân bằng lực giữa giai điệu tay phải và tiếng bass tay trái.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Dm7b5/C",
+        "Am",
+        "F",
+        "G7",
+        "E7/G#"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "pop solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "G3",
+          "C4",
+          "E4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành trình diễn hoàn chỉnh bài Happy New Year trên piano solo ở nhịp 4/4 tốc độ vừa phải (q=60), chú ý nhịp đảo phách và duy trì sự cân bằng lực giữa giai điệu tay phải và tiếng bass tay trái."
+}

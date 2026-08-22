@@ -1,0 +1,71 @@
+{
+  "id": "tap-02-bai-05-tap-02-bai-05-008",
+  "type": "rule",
+  "name": "Khi nốt giai điệu là nốt La (A), các hợp âm chứa bậc 7 là A gồm Bm7-5, B7, Bm7.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": "13:37-14:12 pdf p.8",
+    "media_id": "video_tap_02_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 8,
+        "section": "Bảng Thang Âm Bậc 7 - Nốt A"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bm7-5, B7, Bm7",
+    "Giọng: C Major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bm7-5",
+      "B7",
+      "Bm7"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "harmony_rule",
+    "raw_text": "Khi nốt giai điệu là nốt La (A), các hợp âm chứa bậc 7 là A gồm Bm7-5, B7, Bm7.",
+    "music_entities": {
+      "chords": [
+        "Bm7-5",
+        "B7",
+        "Bm7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "Bm7-5",
+      "notes": [
+        "B1",
+        "F2",
+        "D3",
+        "A3"
+      ],
+      "hands": {
+        "left": [
+          "B1",
+          "F2"
+        ],
+        "right": [
+          "D3",
+          "A3"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu là nốt La (A), các hợp âm chứa bậc 7 là A gồm Bm7-5, B7, Bm7."
+}

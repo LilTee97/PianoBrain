@@ -1,0 +1,123 @@
+{
+  "id": "tap-03-bai-14-lesson-tap-03-bai-14-007",
+  "type": "voicing",
+  "name": "Kỹ thuật phân chia nhiệm vụ hai tay ở trang 2: Khi tay trái phải di chuyển âm vực bass quá xa, tay phải chịu trách nhiệm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-14",
+    "locator": "16:50:00-22:18:00 pdf p.18",
+    "media_id": "video_tap_03_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 18,
+        "section": "Bài 14 - Trang 2 (Chorus 2 & Outro)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bb, C/Bb, Am7, Dm7, D7, G",
+    "Giọng: C Major",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Solo Piano Voicing"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bb",
+      "C/Bb",
+      "Am7",
+      "Dm7",
+      "D7",
+      "G"
+    ],
+    "style": [
+      "solo-piano-voicing"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Kỹ thuật phân chia nhiệm vụ hai tay ở trang 2: Khi tay trái phải di chuyển âm vực bass quá xa, tay phải chịu trách nhiệm bấm thêm các nốt hòa âm trung (inner voices) trùng phách nhẹ để tiếng đàn đầy đặn mà không làm gián đoạn câu giai điệu chính.",
+    "music_entities": {
+      "chords": [
+        "Bb",
+        "C/Bb",
+        "Am7",
+        "Dm7",
+        "D7",
+        "G"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Solo Piano Voicing"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Bb",
+      "notes": [
+        "Bb",
+        "F",
+        "D",
+        "F"
+      ],
+      "hands": {
+        "left": [
+          "Bb2",
+          "F3"
+        ],
+        "right": [
+          "D4",
+          "F4",
+          "Bb4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Bb",
+        "notes": [
+          "Bb",
+          "F",
+          "D",
+          "F"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "Bb2",
+            "F3"
+          ],
+          "right": [
+            "D4",
+            "F4",
+            "Bb4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật phân chia nhiệm vụ hai tay ở trang 2: Khi tay trái phải di chuyển âm vực bass quá xa, tay phải chịu trách nhiệm bấm thêm các nốt hòa âm trung (inner voices) trùng phách nhẹ để tiếng đàn đầy đặn mà không làm gián đoạn câu giai điệu chính."
+}

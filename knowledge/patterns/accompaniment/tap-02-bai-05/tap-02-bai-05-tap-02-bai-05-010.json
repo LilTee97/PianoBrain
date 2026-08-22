@@ -1,0 +1,122 @@
+{
+  "id": "tap-02-bai-05-tap-02-bai-05-010",
+  "type": "accompaniment",
+  "name": "Thực hành ứng dụng vòng hợp âm 7 vào giai điệu bài 'Người Ta Cứ Nói': Fmaj7 -> G7/F -> Em7 -> Ebm0-7 -> Dm7 -> G7 -> Cma",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": "15:58-22:42 pdf p.8",
+    "media_id": "video_tap_02_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 8,
+        "section": "Ứng dụng Vòng 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj7, G7/F, Em7, Ebm0-7, Dm7, G7, Cmaj7",
+    "Giọng: C Major",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj7",
+      "G7/F",
+      "Em7",
+      "Ebm0-7",
+      "Dm7",
+      "G7",
+      "Cmaj7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Thực hành ứng dụng vòng hợp âm 7 vào giai điệu bài 'Người Ta Cứ Nói': Fmaj7 -> G7/F -> Em7 -> Ebm0-7 -> Dm7 -> G7 -> Cmaj7. Nốt giai điệu chính rơi vào bậc 7 của hợp âm tạo cảm giác bay bổng và đắt giá.",
+    "music_entities": {
+      "chords": [
+        "Fmaj7",
+        "G7/F",
+        "Em7",
+        "Ebm0-7",
+        "Dm7",
+        "G7",
+        "Cmaj7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fmaj7",
+      "notes": [
+        "F2",
+        "C3",
+        "A3",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3"
+        ],
+        "right": [
+          "A3",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Fmaj7",
+        "notes": [
+          "F2",
+          "C3",
+          "A3",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "C3"
+          ],
+          "right": [
+            "A3",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành ứng dụng vòng hợp âm 7 vào giai điệu bài 'Người Ta Cứ Nói': Fmaj7 -> G7/F -> Em7 -> Ebm0-7 -> Dm7 -> G7 -> Cmaj7. Nốt giai điệu chính rơi vào bậc 7 của hợp âm tạo cảm giác bay bổng và đắt giá."
+}

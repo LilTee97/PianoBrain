@@ -1,0 +1,103 @@
+{
+  "id": "tap-02-bai-14-rule-chord-13-voicing-01",
+  "type": "rule",
+  "name": "In a dominant 13th chord (e.g., C13), the 11th interval is typically omitted to avoid dissonance with the 3rd. The right hand voicing commonly uses b7-9-3-13.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:14:36-00:22:30 pdf p.7",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Acoustic, Ballad, Dân ca, Jazz, Pop, Pop Ballad, Smooth Jazz, Thánh ca, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "acoustic",
+      "pop_ballad",
+      "ballad",
+      "d-n-ca",
+      "jazz",
+      "pop",
+      "pop-ballad",
+      "smooth-jazz",
+      "th-nh-ca",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Acoustic",
+        "Ballad",
+        "Dân ca",
+        "Jazz",
+        "Pop",
+        "Pop Ballad",
+        "Smooth Jazz",
+        "Thánh ca",
+        "Worship"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "In a dominant 13th chord (e.g., C13), the 11th interval is typically omitted to avoid dissonance with the 3rd. The right hand voicing commonly uses b7-9-3-13.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_CHORD_13_VOICING_01",
+      "name": "Dominant 13th Standard Shell Voicing",
+      "category": "voicing",
+      "summary": "In a dominant 13th chord (e.g., C13), the 11th interval is typically omitted to avoid dissonance with the 3rd. The right hand voicing commonly uses b7-9-3-13.",
+      "conditions": {
+        "chord_type": "dominant_13th"
+      },
+      "action": {
+        "left_hand": [
+          1,
+          5
+        ],
+        "right_hand": [
+          "b7",
+          9,
+          3,
+          13
+        ]
+      },
+      "examples": [
+        {
+          "chord": "C13",
+          "notes_lh": [
+            "C2",
+            "G2"
+          ],
+          "notes_rh": [
+            "Bb3",
+            "D4",
+            "E4",
+            "A4"
+          ]
+        }
+      ],
+      "lesson_folder": "Tap_02_Bai_14"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "In a dominant 13th chord (e.g., C13), the 11th interval is typically omitted to avoid dissonance with the 3rd. The right hand voicing commonly uses b7-9-3-13."
+}

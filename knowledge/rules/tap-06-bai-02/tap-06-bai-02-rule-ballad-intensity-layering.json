@@ -1,0 +1,67 @@
+{
+  "id": "tap-06-bai-02-rule-ballad-intensity-layering",
+  "type": "rule",
+  "name": "Phân bổ 3 mẫu tiết tấu đệm theo tiến trình cảm xúc bài hát: Mẫu 1 cho Phiên khúc (Verse), Mẫu 2 cho Tiền điệp khúc (Pre-",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-02",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Phân bổ 3 mẫu tiết tấu đệm theo tiến trình cảm xúc bài hát: Mẫu 1 cho Phiên khúc (Verse), Mẫu 2 cho Tiền điệp khúc (Pre-Chorus), Mẫu 3 cho Điệp khúc (Chorus).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Apply Pattern 1 in Verse, Pattern 2 in Pre-Chorus, Pattern 3 in Chorus to create dynamic growth."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_ballad_intensity_layering",
+      "description": "Phân bổ 3 mẫu tiết tấu đệm theo tiến trình cảm xúc bài hát: Mẫu 1 cho Phiên khúc (Verse), Mẫu 2 cho Tiền điệp khúc (Pre-Chorus), Mẫu 3 cho Điệp khúc (Chorus).",
+      "category": "arrangement",
+      "conditions": {
+        "style": "Pop Ballad",
+        "song_structure": "Verse / Pre-Chorus / Chorus"
+      },
+      "action": "Apply Pattern 1 in Verse, Pattern 2 in Pre-Chorus, Pattern 3 in Chorus to create dynamic growth.",
+      "confidence": "inferred",
+      "lesson_folder": "Tap_06_Bai_02"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Phân bổ 3 mẫu tiết tấu đệm theo tiến trình cảm xúc bài hát: Mẫu 1 cho Phiên khúc (Verse), Mẫu 2 cho Tiền điệp khúc (Pre-Chorus), Mẫu 3 cho Điệp khúc (Chorus)."
+}

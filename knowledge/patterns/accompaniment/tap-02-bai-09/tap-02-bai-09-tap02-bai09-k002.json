@@ -1,0 +1,145 @@
+{
+  "id": "tap-02-bai-09-tap02-bai09-k002",
+  "type": "accompaniment",
+  "name": "Vòng hòa âm cơ bản 1: C9 -> F9 -> Gsus4 (hoặc Cadd9 -> Fadd9 -> Gsus4)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-09",
+    "locator": "00:01:25-00:02:29 pdf p.8",
+    "media_id": "video_tap02_bai09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap02_bai06_10",
+        "page": 8,
+        "section": "Ta thấy: C9 F9 -> Gsus4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, F9, Gsus4, Cadd9, Fadd9",
+    "Giọng: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "F9",
+      "Gsus4",
+      "Cadd9",
+      "Fadd9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Vòng hòa âm cơ bản 1: C9 -> F9 -> Gsus4 (hoặc Cadd9 -> Fadd9 -> Gsus4). Giữ nốt giai điệu chung ở các hợp âm để tạo sự liên kết hòa âm êm ái.",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "F9",
+        "Gsus4",
+        "Cadd9",
+        "Fadd9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C9 - F9 - Gsus4",
+      "notes": [
+        "C3",
+        "G3",
+        "D4",
+        "E4",
+        "G4",
+        "F3",
+        "C4",
+        "G4",
+        "A4",
+        "C5",
+        "G3",
+        "D4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3-G3",
+          "F3-C4",
+          "G3-D4"
+        ],
+        "right": [
+          "D4-E4-G4",
+          "G4-A4-C5",
+          "G4-C5-D5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C9 - F9 - Gsus4",
+        "notes": [
+          "C3",
+          "G3",
+          "D4",
+          "E4",
+          "G4",
+          "F3",
+          "C4",
+          "G4",
+          "A4",
+          "C5",
+          "G3",
+          "D4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3-G3",
+            "F3-C4",
+            "G3-D4"
+          ],
+          "right": [
+            "D4-E4-G4",
+            "G4-A4-C5",
+            "G4-C5-D5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm cơ bản 1: C9 -> F9 -> Gsus4 (hoặc Cadd9 -> Fadd9 -> Gsus4). Giữ nốt giai điệu chung ở các hợp âm để tạo sự liên kết hòa âm êm ái."
+}

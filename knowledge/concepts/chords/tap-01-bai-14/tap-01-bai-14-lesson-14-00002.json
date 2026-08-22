@@ -1,0 +1,87 @@
+{
+  "id": "tap-01-bai-14-lesson-14-00002",
+  "type": "concept",
+  "name": "Bước 3: Sử dụng công thức bậc 1-4-5 cho giọng chính C (C - F - G) và giọng song song Am (Am - Dm - Em) cùng hợp âm giảm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "07:12-08:35 pdf p.8",
+    "media_id": "video_tap_01_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_11_15",
+        "page": 8,
+        "section": "3. Công thức: 1.4.5 & Giọng Song Song"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, G, Am, Dm, Em, Bdim",
+    "Giọng: C Major, A Minor"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "G",
+      "Am",
+      "Dm",
+      "Em",
+      "Bdim"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Bước 3: Sử dụng công thức bậc 1-4-5 cho giọng chính C (C - F - G) và giọng song song Am (Am - Dm - Em) cùng hợp âm giảm bậc 7 (Bdim).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "G",
+        "Am",
+        "Dm",
+        "Em",
+        "Bdim"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major",
+        "A Minor"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C, F, G, Am, Dm, Em",
+      "notes": [
+        "C-E-G",
+        "F-A-C",
+        "G-B-D",
+        "A-C-E",
+        "D-F-A",
+        "E-G-B"
+      ],
+      "hands": {
+        "left": [
+          "C",
+          "F",
+          "G",
+          "A",
+          "D",
+          "E"
+        ],
+        "right": [
+          "C4-E4-G4",
+          "F4-A4-C5",
+          "G4-B4-D5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bước 3: Sử dụng công thức bậc 1-4-5 cho giọng chính C (C - F - G) và giọng song song Am (Am - Dm - Em) cùng hợp âm giảm bậc 7 (Bdim)."
+}

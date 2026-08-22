@@ -1,0 +1,76 @@
+{
+  "id": "tap-01-bai-01-r-00001-relative-key-calculation",
+  "type": "rule",
+  "name": "Quy tắc xác định giọng song song bằng quãng 3 thứ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-01",
+    "locator": "12:21-15:18 pdf p.2",
+    "extra_locators": [
+      "29:33-31:12 pdf p.4",
+      "31:13-32:30 pdf p.4"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Accompaniment, Ballad, Pop, Sacred Music"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment",
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "sacred-music"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Accompaniment",
+        "Ballad",
+        "Pop",
+        "Sacred Music"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Từ giọng Trưởng chính, đếm xuống 1 quãng 3 thứ (1.5 cung) để tìm giọng Thứ song song. Từ giọng Thứ chính, đếm lên 1 quãng 3 thứ (1.5 cung) để tìm giọng Trưởng song song.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "{'major_to_minor': '-1.5 semitones (Quảng 3t xuống)', 'minor_to_major': '+1.5 semitones (Quảng 3t lên)'}"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_00001_RELATIVE_KEY_CALCULATION",
+      "category": "theory",
+      "summary": "Quy tắc xác định giọng song song bằng quãng 3 thứ",
+      "description": "Từ giọng Trưởng chính, đếm xuống 1 quãng 3 thứ (1.5 cung) để tìm giọng Thứ song song. Từ giọng Thứ chính, đếm lên 1 quãng 3 thứ (1.5 cung) để tìm giọng Trưởng song song.",
+      "conditions": {
+        "task": "find_relative_key"
+      },
+      "implementation": {
+        "major_to_minor": "-1.5 semitones (Quảng 3t xuống)",
+        "minor_to_major": "+1.5 semitones (Quảng 3t lên)"
+      },
+      "lesson_folder": "Tap_01_Bai_01"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Từ giọng Trưởng chính, đếm xuống 1 quãng 3 thứ (1.5 cung) để tìm giọng Thứ song song. Từ giọng Thứ chính, đếm lên 1 quãng 3 thứ (1.5 cung) để tìm giọng Trưởng song song."
+}

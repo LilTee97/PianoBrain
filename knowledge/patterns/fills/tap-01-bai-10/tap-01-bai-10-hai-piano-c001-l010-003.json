@@ -1,0 +1,113 @@
+{
+  "id": "tap-01-bai-10-hai-piano-c001-l010-003",
+  "type": "fill",
+  "name": "Tiết tấu March Kiểu C trong nhịp 2/4: Kết hợp phách 1 nốt đen và phách 2 chùm liên 3 (triplets) hoặc 2 chùm liên 3",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-10",
+    "locator": "11:10:00-16:00:00 pdf p.8",
+    "media_id": "video_l10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap1_bai6_10",
+        "page": 8,
+        "section": "March - Kiểu C"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G7",
+    "Giọng: C major",
+    "Gam: C major",
+    "Điệu / phong cách: March"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G7"
+    ],
+    "style": [
+      "march"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Tiết tấu March Kiểu C trong nhịp 2/4: Kết hợp phách 1 nốt đen và phách 2 chùm liên 3 (triplets) hoặc 2 chùm liên 3. Thường dùng để nhồi nhịp, đánh câu lót, kết câu nối sang đoạn mới giúp bài hát thêm dồn dập, hùng hồn.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "March"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "E4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết tấu March Kiểu C trong nhịp 2/4: Kết hợp phách 1 nốt đen và phách 2 chùm liên 3 (triplets) hoặc 2 chùm liên 3. Thường dùng để nhồi nhịp, đánh câu lót, kết câu nối sang đoạn mới giúp bài hát thêm dồn dập, hùng hồn."
+}

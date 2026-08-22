@@ -1,0 +1,19 @@
+{
+  "id": "fingering-rh-major-scale-1oct",
+  "type": "fingering",
+  "name": "Ngón tay phải chạy gam trưởng một quãng tám",
+  "difficulty": 1,
+  "source": null,
+  "use_when": ["Câu chạy ngắn", "Fill lên chorus", "Luyện ngón"],
+  "avoid_when": ["Gam có nhiều phím đen — ngón bấm khác, chưa có trong kho"],
+  "input": { "chord_quality": ["maj7", ""], "hand": "RH", "key_context": "major" },
+  "output": {
+    "scale_degrees": [1, 2, 3, 4, 5, 6, 7, 8],
+    "fingers_up": [1, 2, 3, 1, 2, 3, 4, 5],
+    "fingers_down": [5, 4, 3, 2, 1, 3, 2, 1],
+    "example_key": "C"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Ngón cái luồn dưới sau nốt thứ ba đi lên, ngón 3 bắc qua khi đi xuống. Chỉ đúng cho gam toàn phím trắng — gam khác cần item riêng."
+}

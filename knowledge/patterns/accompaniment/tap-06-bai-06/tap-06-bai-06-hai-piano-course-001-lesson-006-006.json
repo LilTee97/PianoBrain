@@ -1,0 +1,122 @@
+{
+  "id": "tap-06-bai-06-hai-piano-course-001-lesson-006-006",
+  "type": "accompaniment",
+  "name": "Bossa Nova Mẫu 3: Tiết điệu sôi nổi, nhiều đảo phách và mật độ chát dày hơn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-06",
+    "locator": "00:09:32-00:13:42 pdf p.2",
+    "media_id": "hai_piano_course_001_video_006",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_pdf_006",
+        "page": 2,
+        "section": "Mẫu 3 - Tiết điệu Bossanova"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Em7, Fmaj7, G7",
+    "Giọng: C major",
+    "Nốt màu: maj7",
+    "Điệu / phong cách: Bossa Nova, Latin Jazz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Em7",
+      "Fmaj7",
+      "G7"
+    ],
+    "style": [
+      "jazz",
+      "bossa-nova",
+      "latin-jazz"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bossa Nova Mẫu 3: Tiết điệu sôi nổi, nhiều đảo phách và mật độ chát dày hơn. Tay trái chạy câu Bass rải linh hoạt (Root - 3 - 5 - 8), tay phải dập hợp âm liên tục theo tiết tấu nảy đặc trưng của Latin Jazz/Bossa Nova nâng cao.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Em7",
+        "Fmaj7",
+        "G7"
+      ],
+      "tensions": [
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Bossa Nova",
+        "Latin Jazz"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "C3 - E3 - G3 - C4 đi câu rải nhịp nảy"
+        ],
+        "right": [
+          "Dập chát đảo phách dồn dập hơn Mẫu 1 và 2"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C3",
+          "E3",
+          "G3",
+          "C4",
+          "E4",
+          "G4",
+          "B4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3 - E3 - G3 - C4 đi câu rải nhịp nảy"
+          ],
+          "right": [
+            "Dập chát đảo phách dồn dập hơn Mẫu 1 và 2"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bossa Nova Mẫu 3: Tiết điệu sôi nổi, nhiều đảo phách và mật độ chát dày hơn. Tay trái chạy câu Bass rải linh hoạt (Root - 3 - 5 - 8), tay phải dập hợp âm liên tục theo tiết tấu nảy đặc trưng của Latin Jazz/Bossa Nova nâng cao."
+}

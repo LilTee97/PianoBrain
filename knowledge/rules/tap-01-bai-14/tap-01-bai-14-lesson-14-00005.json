@@ -1,0 +1,74 @@
+{
+  "id": "tap-01-bai-14-lesson-14-00005",
+  "type": "rule",
+  "name": "Bước 8 - Quy tắc đặt hợp âm cho giai điệu: Ưu tiên chọn hợp âm chứa nốt giai điệu ở Bậc 3 (B3) để tạo màu sắc ấm áp/rõ t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "09:57-11:45 pdf p.8",
+    "media_id": "video_tap_01_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_11_15",
+        "page": 8,
+        "section": "8. Đặt Hợp Âm"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Em, F, Dm, G",
+    "Giọng: C Major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Em",
+      "F",
+      "Dm",
+      "G"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Bước 8 - Quy tắc đặt hợp âm cho giai điệu: Ưu tiên chọn hợp âm chứa nốt giai điệu ở Bậc 3 (B3) để tạo màu sắc ấm áp/rõ tính Trưởng-Thứ, sau đó đến Bậc 5 (B5), và hạn chế nốt giai điệu là Bậc 1 (B1) trùng nốt Bass để tránh lỗi quãng 8 song song.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Em",
+        "F",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C2"
+        ],
+        "right": [
+          "G3",
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bước 8 - Quy tắc đặt hợp âm cho giai điệu: Ưu tiên chọn hợp âm chứa nốt giai điệu ở Bậc 3 (B3) để tạo màu sắc ấm áp/rõ tính Trưởng-Thứ, sau đó đến Bậc 5 (B5), và hạn chế nốt giai điệu là Bậc 1 (B1) trùng nốt Bass để tránh lỗi quãng 8 song song."
+}

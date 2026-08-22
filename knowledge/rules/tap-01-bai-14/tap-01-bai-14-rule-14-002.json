@@ -1,0 +1,68 @@
+{
+  "id": "tap-01-bai-14-rule-14-002",
+  "type": "rule",
+  "name": "Sử dụng các thế hợp âm đảo (C/E, G/B, C/G, F/C, Dm/F) để tạo đường chuyển nốt Bass di chuyển liền bậc (Stepwise motion) tăng tính liên kết mềm mại giữa các ô nhịp.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "09:57-11:45 pdf p.8",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Valse, Valse 3/4"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "valse",
+      "valse-3-4"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Valse",
+        "Valse 3/4"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng các thế hợp âm đảo (C/E, G/B, C/G, F/C, Dm/F) để tạo đường chuyển nốt Bass di chuyển liền bậc (Stepwise motion) tăng tính liên kết mềm mại giữa các ô nhịp.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "use_chord_inversions"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_14_002",
+      "name": "Stepwise Descending Bassline Rule",
+      "category": "voice_leading",
+      "summary": "Sử dụng các thế hợp âm đảo (C/E, G/B, C/G, F/C, Dm/F) để tạo đường chuyển nốt Bass di chuyển liền bậc (Stepwise motion) tăng tính liên kết mềm mại giữa các ô nhịp.",
+      "conditions": {
+        "bass_movement": "stepwise"
+      },
+      "action": "use_chord_inversions",
+      "confidence": "direct",
+      "lesson_folder": "Tap_01_Bai_14"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng các thế hợp âm đảo (C/E, G/B, C/G, F/C, Dm/F) để tạo đường chuyển nốt Bass di chuyển liền bậc (Stepwise motion) tăng tính liên kết mềm mại giữa các ô nhịp."
+}

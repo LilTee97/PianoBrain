@@ -1,0 +1,199 @@
+{
+  "id": "tap-02-bai-03-tap-02-bai-03-006",
+  "type": "accompaniment",
+  "name": "Vòng 5: C - Bm - E - Am - Em/G - F#m-5 - F - B/D# - Em - Ebm-5 - Dm - Fm - Gsus4 - G",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": "00:25:46-00:31:38 pdf p.4",
+    "media_id": "hai_piano_video_tap_02_bai_03",
+    "supporting": [
+      {
+        "source_id": "HOÀ ÂM NÂNG CAO ĐỆM HÁT TẬP 2 BÀI 1 - BÀI 5",
+        "page": 4,
+        "section": "Vòng 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Bm, E, Am, Em/G, F#m-5, F, B/D#, Em, Ebm-5, Dm, Fm, Gsus4, G",
+    "Giọng: C major",
+    "Gam: C major, A harmonic minor, E minor",
+    "Điệu / phong cách: Ballad, Contemporary"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Bm",
+      "E",
+      "Am",
+      "Em/G",
+      "F#m-5",
+      "F",
+      "B/D#",
+      "Em",
+      "Ebm-5",
+      "Dm",
+      "Fm",
+      "Gsus4",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Vòng 5: C - Bm - E - Am - Em/G - F#m-5 - F - B/D# - Em - Ebm-5 - Dm - Fm - Gsus4 - G. Chuỗi hòa âm mở rộng tạo đường Bass cromatique và liền bậc phức hợp, ứng dụng các hợp âm giảm/nửa giảm và Secondary Dominants.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Bm",
+        "E",
+        "Am",
+        "Em/G",
+        "F#m-5",
+        "F",
+        "B/D#",
+        "Em",
+        "Ebm-5",
+        "Dm",
+        "Fm",
+        "Gsus4",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major",
+        "A harmonic minor",
+        "E minor"
+      ],
+      "styles": [
+        "Ballad",
+        "Contemporary"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Em - Ebm-5 - Dm - Fm - Gsus4 - G",
+      "notes": [
+        "E3",
+        "G3",
+        "B3",
+        "E4",
+        "Eb3",
+        "F#3",
+        "A3",
+        "C4",
+        "D3",
+        "F3",
+        "A3",
+        "D4",
+        "F3",
+        "Ab3",
+        "C4",
+        "F4",
+        "G2",
+        "C4",
+        "D4",
+        "G4",
+        "G2",
+        "B3",
+        "D4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "E3",
+          "Eb3",
+          "D3",
+          "F3",
+          "G2",
+          "G2"
+        ],
+        "right": [
+          "G3-B3-E4",
+          "F#3-A3-C4",
+          "F3-A3-D4",
+          "Ab3-C4-F4",
+          "C4-D4-G4",
+          "B3-D4-G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Em - Ebm-5 - Dm - Fm - Gsus4 - G",
+        "notes": [
+          "E3",
+          "G3",
+          "B3",
+          "E4",
+          "Eb3",
+          "F#3",
+          "A3",
+          "C4",
+          "D3",
+          "F3",
+          "A3",
+          "D4",
+          "F3",
+          "Ab3",
+          "C4",
+          "F4",
+          "G2",
+          "C4",
+          "D4",
+          "G4",
+          "G2",
+          "B3",
+          "D4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "E3",
+            "Eb3",
+            "D3",
+            "F3",
+            "G2",
+            "G2"
+          ],
+          "right": [
+            "G3-B3-E4",
+            "F#3-A3-C4",
+            "F3-A3-D4",
+            "Ab3-C4-F4",
+            "C4-D4-G4",
+            "B3-D4-G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng 5: C - Bm - E - Am - Em/G - F#m-5 - F - B/D# - Em - Ebm-5 - Dm - Fm - Gsus4 - G. Chuỗi hòa âm mở rộng tạo đường Bass cromatique và liền bậc phức hợp, ứng dụng các hợp âm giảm/nửa giảm và Secondary Dominants."
+}

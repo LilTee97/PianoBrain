@@ -1,0 +1,69 @@
+{
+  "id": "tap-06-bai-10-rule-ballad-dan-ca-arrangement-dynamic-03",
+  "type": "rule",
+  "name": "Sử dụng Mẫu 1 cho đoạn Phiên khúc (Đoạn A) êm dịu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-10",
+    "locator": "07:55-08:20 pdf p.2",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad Dân Ca, Ballad Dân Ca Cao Trào, Ballad Dân Ca nâng cao, Folk Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad-d-n-ca",
+      "ballad-d-n-ca-cao-tr-o",
+      "ballad-d-n-ca-n-ng-cao",
+      "folk-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad Dân Ca",
+        "Ballad Dân Ca Cao Trào",
+        "Ballad Dân Ca nâng cao",
+        "Folk Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng Mẫu 1 cho đoạn Phiên khúc (Đoạn A) êm dịu; Mẫu 2 cho đoạn Chuyển tiếp/Đoạn A2 tạo sự uyển chuyển; Mẫu 3 (Double Bass + Đảo nhịp) cho Điệp khúc (Đoạn B) cao trào.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_BALLAD_DAN_CA_ARRANGEMENT_DYNAMIC_03",
+      "name": "Phân bổ 3 mẫu đệm theo cấu trúc bài hát",
+      "description": "Sử dụng Mẫu 1 cho đoạn Phiên khúc (Đoạn A) êm dịu; Mẫu 2 cho đoạn Chuyển tiếp/Đoạn A2 tạo sự uyển chuyển; Mẫu 3 (Double Bass + Đảo nhịp) cho Điệp khúc (Đoạn B) cao trào.",
+      "applicability": {
+        "structure": "Song Form (A - A2 - B)",
+        "styles": [
+          "Ballad Dân Ca"
+        ]
+      },
+      "confidence": "inferred",
+      "lesson_folder": "Tap_06_Bai_10"
+    }
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Sử dụng Mẫu 1 cho đoạn Phiên khúc (Đoạn A) êm dịu; Mẫu 2 cho đoạn Chuyển tiếp/Đoạn A2 tạo sự uyển chuyển; Mẫu 3 (Double Bass + Đảo nhịp) cho Điệp khúc (Đoạn B) cao trào."
+}

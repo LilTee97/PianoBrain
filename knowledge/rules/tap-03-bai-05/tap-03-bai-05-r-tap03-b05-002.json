@@ -1,0 +1,65 @@
+{
+  "id": "tap-03-bai-05-r-tap03-b05-002",
+  "type": "rule",
+  "name": "Khi tập ghép 2 tay:\n- Lần ghép 1 nếu bị vấp: Giảm tốc độ ở Lần 2 xuống còn 1/2 tốc độ Lần 1",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-05",
+    "locator": "05:12-06:40 pdf p.2",
+    "extra_locators": [
+      "29:15-33:50 pdf p.2"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Classical"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Classical"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi tập ghép 2 tay:\n- Lần ghép 1 nếu bị vấp: Giảm tốc độ ở Lần 2 xuống còn 1/2 tốc độ Lần 1.\n- Lần ghép 2 nếu vẫn vấp: Giảm tốc độ ở Lần 3 xuống còn 1/2 tốc độ Lần 2.\n- Nếu bị vấp 3 lần liên tiếp: Dừng ghép 2 tay lập tức, quay lại tách riêng từng tay để luyện tập kỹ hơn.\n- Không đánh lại từ đầu khi vấp ở giữa bài; khoanh vùng vị trí vấp để sửa tại chỗ.\n",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP03_B05_002",
+      "title": "Quy tắc xử lý vấp khi ghép hai tay (Half-Speed Stumble Mitigation)",
+      "category": "practice_technique",
+      "description": "Khi tập ghép 2 tay:\n- Lần ghép 1 nếu bị vấp: Giảm tốc độ ở Lần 2 xuống còn 1/2 tốc độ Lần 1.\n- Lần ghép 2 nếu vẫn vấp: Giảm tốc độ ở Lần 3 xuống còn 1/2 tốc độ Lần 2.\n- Nếu bị vấp 3 lần liên tiếp: Dừng ghép 2 tay lập tức, quay lại tách riêng từng tay để luyện tập kỹ hơn.\n- Không đánh lại từ đầu khi vấp ở giữa bài; khoanh vùng vị trí vấp để sửa tại chỗ.\n",
+      "conditions": [
+        "Khi thực hành ghép tay trái và tay phải"
+      ],
+      "actions": [
+        "Giảm tốc độ lũy thừa 1/2 cho mỗi lần vấp.",
+        "Giới hạn tối đa 3 lần vấp liên tiếp trước khi hạ cấp về tập từng tay."
+      ],
+      "lesson_folder": "Tap_03_Bai_05"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi tập ghép 2 tay:\n- Lần ghép 1 nếu bị vấp: Giảm tốc độ ở Lần 2 xuống còn 1/2 tốc độ Lần 1.\n- Lần ghép 2 nếu vẫn vấp: Giảm tốc độ ở Lần 3 xuống còn 1/2 tốc độ Lần 2.\n- Nếu bị vấp 3 lần liên tiếp: Dừng ghép 2 tay lập tức, quay lại tách riêng từng tay để luyện tập kỹ hơn.\n- Không đánh lại từ đầu khi vấp ở giữa bài; khoanh vùng vị trí vấp để sửa tại chỗ."
+}

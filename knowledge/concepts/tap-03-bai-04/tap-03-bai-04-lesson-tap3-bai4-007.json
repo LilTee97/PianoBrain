@@ -1,0 +1,69 @@
+{
+  "id": "tap-03-bai-04-lesson-tap3-bai4-007",
+  "type": "concept",
+  "name": "Tầm âm tiêu chuẩn để đọc sheet nhạc piano cơ bản gồm 4 quãng 8 liên tục từ C2 đến C6",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "26:23-28:40 pdf p.1",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "sheet_001",
+        "page": 1,
+        "section": "Tầm âm Khóa Pha và Khóa Sol"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Piano Solo, Sight Reading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "piano-solo",
+      "sight-reading"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Tầm âm tiêu chuẩn để đọc sheet nhạc piano cơ bản gồm 4 quãng 8 liên tục từ C2 đến C6. Khóa Pha chịu trách nhiệm từ C2 đến C4 (đòng kẻ phụ thứ 1 phía trên Khóa Pha là Đô4 / C4). Khóa Sol chịu trách nhiệm từ C4 (kẻ phụ 1 phía dưới) đến C6 (kẻ phụ 2 phía trên).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Piano Solo",
+        "Sight Reading"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "C3",
+          "C4"
+        ],
+        "right": [
+          "C4",
+          "C5",
+          "C6"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tầm âm tiêu chuẩn để đọc sheet nhạc piano cơ bản gồm 4 quãng 8 liên tục từ C2 đến C6. Khóa Pha chịu trách nhiệm từ C2 đến C4 (đòng kẻ phụ thứ 1 phía trên Khóa Pha là Đô4 / C4). Khóa Sol chịu trách nhiệm từ C4 (kẻ phụ 1 phía dưới) đến C6 (kẻ phụ 2 phía trên)."
+}

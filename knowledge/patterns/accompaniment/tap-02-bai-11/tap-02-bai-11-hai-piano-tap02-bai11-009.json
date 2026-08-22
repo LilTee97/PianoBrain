@@ -1,0 +1,132 @@
+{
+  "id": "tap-02-bai-11-hai-piano-tap02-bai11-009",
+  "type": "accompaniment",
+  "name": "Thế tay trái 9 dành cho hợp âm 9: Công thức bậc 1.5.9.5.3.5.1",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-11",
+    "locator": "00:23:08-00:24:49 pdf p.2",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_002",
+        "page": 2,
+        "section": "Thế 9: 1.5.9.5.3.5.1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, Am9, Fadd9, G9",
+    "Giọng: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Waltz, Ballad 3/4, Ballad 4/4"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "Am9",
+      "Fadd9",
+      "G9"
+    ],
+    "style": [
+      "waltz",
+      "pop_ballad",
+      "ballad-3-4",
+      "ballad-4-4"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Thế tay trái 9 dành cho hợp âm 9: Công thức bậc 1.5.9.5.3.5.1. Tùy biến linh hoạt cho nhịp 3/4 (1.9.3.1) hoặc nhịp 4/4 (1.5.9.5.3.5.9.5.1) tạo lượn sóng mượt mà.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "Am9",
+        "Fadd9",
+        "G9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Waltz",
+        "Ballad 3/4",
+        "Ballad 4/4"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "C2",
+        "G2",
+        "D3",
+        "G2",
+        "E3",
+        "G2",
+        "C3"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "D3",
+          "G2",
+          "E3",
+          "G2",
+          "C3"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cadd9",
+        "notes": [
+          "C2",
+          "G2",
+          "D3",
+          "G2",
+          "E3",
+          "G2",
+          "C3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "D3",
+            "G2",
+            "E3",
+            "G2",
+            "C3"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thế tay trái 9 dành cho hợp âm 9: Công thức bậc 1.5.9.5.3.5.1. Tùy biến linh hoạt cho nhịp 3/4 (1.9.3.1) hoặc nhịp 4/4 (1.5.9.5.3.5.9.5.1) tạo lượn sóng mượt mà."
+}

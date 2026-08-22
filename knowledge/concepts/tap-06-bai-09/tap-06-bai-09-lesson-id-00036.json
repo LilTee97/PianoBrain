@@ -1,0 +1,100 @@
+{
+  "id": "tap-06-bai-09-lesson-id-00036",
+  "type": "concept",
+  "name": "Tiết tấu Waltz thuộc nhịp 3/4, có tốc độ nhanh hơn Boston (Boston: 63-70 BPM, Waltz: 110-120 BPM), mang sắc thái tươi vu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-09",
+    "locator": "00:00:32-00:01:34 pdf p.1",
+    "media_id": "Tap_06_Bai_09_Video",
+    "supporting": [
+      {
+        "source_id": "Tap_06_Bai_09_PDF",
+        "page": 1,
+        "section": "Khái niệm tiết tấu Waltz"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Điệu / phong cách: Waltz, Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "waltz",
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Tiết tấu Waltz thuộc nhịp 3/4, có tốc độ nhanh hơn Boston (Boston: 63-70 BPM, Waltz: 110-120 BPM), mang sắc thái tươi vui, rộn rã và ứng dụng rộng rãi trong nhạc nhẹ, nhạc xưa và nhạc thánh ca.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Waltz",
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3"
+          ],
+          "right": [
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết tấu Waltz thuộc nhịp 3/4, có tốc độ nhanh hơn Boston (Boston: 63-70 BPM, Waltz: 110-120 BPM), mang sắc thái tươi vui, rộn rã và ứng dụng rộng rãi trong nhạc nhẹ, nhạc xưa và nhạc thánh ca."
+}

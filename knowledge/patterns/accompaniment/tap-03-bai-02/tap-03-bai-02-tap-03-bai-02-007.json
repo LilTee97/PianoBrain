@@ -1,0 +1,69 @@
+{
+  "id": "tap-03-bai-02-tap-03-bai-02-007",
+  "type": "accompaniment",
+  "name": "Thực hành vỗ tay/dậm phách đếm trường độ các loại nốt",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-02",
+    "locator": "16:26:00-20:36:00",
+    "media_id": "video_tap_03_bai_02",
+    "supporting": []
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_02"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Thực hành vỗ tay/dậm phách đếm trường độ các loại nốt. Nốt tròn đếm 'Đô - 2 - 3 - 4', nốt trắng đếm 'Đô - 2', nốt đen đếm 'Đô' (mỗi đập 1 nốt), nốt móc đơn đếm 'Đô - Rê' trong một nhịp đập phách.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C4"
+      ],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành vỗ tay/dậm phách đếm trường độ các loại nốt. Nốt tròn đếm 'Đô - 2 - 3 - 4', nốt trắng đếm 'Đô - 2', nốt đen đếm 'Đô' (mỗi đập 1 nốt), nốt móc đơn đếm 'Đô - Rê' trong một nhịp đập phách."
+}

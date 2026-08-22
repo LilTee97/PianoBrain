@@ -1,0 +1,92 @@
+{
+  "id": "tap-03-bai-12-tap-03-bai-12-006",
+  "type": "concept",
+  "name": "Hướng dẫn câu chuyển tiền điệp khúc (Pre-Chorus) sử dụng hợp âm ly khai/màu sắc Fm6 (Fa thứ 6) hoặc C7 dẫn về Fmaj7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-12",
+    "locator": "00:11:15-00:16:02 pdf p.13",
+    "media_id": "video_tap_03_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03_bai_12",
+        "page": 13,
+        "section": "Ô nhịp 13 - 18"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C7, Fmaj7, Fm6, C/E",
+    "Giọng: C major, A minor",
+    "Gam: C major",
+    "Nốt màu: 7, 6, maj7",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C7",
+      "Fmaj7",
+      "Fm6",
+      "C/E"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hướng dẫn câu chuyển tiền điệp khúc (Pre-Chorus) sử dụng hợp âm ly khai/màu sắc Fm6 (Fa thứ 6) hoặc C7 dẫn về Fmaj7. Kỹ thuật đảo ngón mềm mại chuyển tiếp qua các quãng xa.",
+    "music_entities": {
+      "chords": [
+        "C7",
+        "Fmaj7",
+        "Fm6",
+        "C/E"
+      ],
+      "tensions": [
+        "7",
+        "6",
+        "maj7"
+      ],
+      "keys": [
+        "C major",
+        "A minor"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fm6",
+      "notes": [
+        "F2",
+        "C3",
+        "Ab3",
+        "D4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3"
+        ],
+        "right": [
+          "Ab3",
+          "D4",
+          "F4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hướng dẫn câu chuyển tiền điệp khúc (Pre-Chorus) sử dụng hợp âm ly khai/màu sắc Fm6 (Fa thứ 6) hoặc C7 dẫn về Fmaj7. Kỹ thuật đảo ngón mềm mại chuyển tiếp qua các quãng xa."
+}

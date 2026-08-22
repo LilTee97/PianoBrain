@@ -1,0 +1,46 @@
+{
+  "id": "jazz-scales-bai-07-06-d-dorian",
+  "type": "accompaniment",
+  "name": "A classic bebop motif over a short ii-V bar (2 beats Dm7, 2 beats G7) utilizes a scalar line lea",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-07",
+    "locator": "09:47-10:36",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Chọn gam / scale khi gặp hợp âm m7, 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Dm7 - G7",
+    "notes": [
+      "F4",
+      "E4",
+      "D4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "source_text": "A classic bebop motif over a short ii-V bar (2 beats Dm7, 2 beats G7) utilizes a scalar line leading into an eighth-note triplet figure that resolves smoothly onto a strong beat."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 7 của nguồn Jazz Scales (YouTube), mốc 09:47-10:36. A classic bebop motif over a short ii-V bar (2 beats Dm7, 2 beats G7) utilizes a scalar line leading into an eighth-note triplet figure that resolves smoothly onto a strong beat. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

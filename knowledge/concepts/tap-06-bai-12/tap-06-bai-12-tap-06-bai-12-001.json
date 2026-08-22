@@ -1,0 +1,55 @@
+{
+  "id": "tap-06-bai-12-tap-06-bai-12-001",
+  "type": "concept",
+  "name": "Tiết điệu Tango thuộc dòng nhạc Latin (cùng nhóm Bossa Nova, Rumba, Cha Cha Cha, Mambo, Salsa)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-12",
+    "locator": "00:00:52-01:47 pdf p.1",
+    "media_id": "video_tap_06_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_12",
+        "page": 1,
+        "section": "Ly_Thuyet_Tango"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Tango, Latin"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "tango",
+      "latin"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Tiết điệu Tango thuộc dòng nhạc Latin (cùng nhóm Bossa Nova, Rumba, Cha Cha Cha, Mambo, Salsa). Đặc trưng của Tango là âm nhạc dứt khoát, vui tươi, giàu tính nhịp điệu và mô phỏng các động tác khiêu vũ dứt khoát.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Tango",
+        "Latin"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết điệu Tango thuộc dòng nhạc Latin (cùng nhóm Bossa Nova, Rumba, Cha Cha Cha, Mambo, Salsa). Đặc trưng của Tango là âm nhạc dứt khoát, vui tươi, giàu tính nhịp điệu và mô phỏng các động tác khiêu vũ dứt khoát."
+}

@@ -1,0 +1,118 @@
+{
+  "id": "tap-06-bai-06-hai-piano-course-001-lesson-006-005",
+  "type": "accompaniment",
+  "name": "Bossa Nova Mẫu 2: Tay trái phát triển đường Bass luân chuyển liên tục hơn giữa nốt gốc (Root), nốt bậc 5 và nốt bậc 3/8,",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-06",
+    "locator": "00:06:55-00:09:32 pdf p.1",
+    "media_id": "hai_piano_course_001_video_006",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_pdf_006",
+        "page": 1,
+        "section": "Mẫu 2 - Tiết điệu Bossanova"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Em7, Fmaj7, G7",
+    "Giọng: C major",
+    "Nốt màu: maj7",
+    "Điệu / phong cách: Bossa Nova"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Em7",
+      "Fmaj7",
+      "G7"
+    ],
+    "style": [
+      "jazz",
+      "bossa-nova"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bossa Nova Mẫu 2: Tay trái phát triển đường Bass luân chuyển liên tục hơn giữa nốt gốc (Root), nốt bậc 5 và nốt bậc 3/8, tạo chuyển động liên kết mượt mà giữa các chuyển hợp âm. Thích hợp áp dụng cho đoạn B (điệp khúc) hoặc khi muốn đẩy lực đệm mạnh hơn.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Em7",
+        "Fmaj7",
+        "G7"
+      ],
+      "tensions": [
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Bossa Nova"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C3",
+        "G2",
+        "C3",
+        "E4",
+        "G4",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "C3 -> G2 -> C3 chuyển tuyến câu Bass"
+        ],
+        "right": [
+          "Đệm chát đảo phách giữ nhịp non-legato"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C3",
+          "G2",
+          "C3",
+          "E4",
+          "G4",
+          "B4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3 -> G2 -> C3 chuyển tuyến câu Bass"
+          ],
+          "right": [
+            "Đệm chát đảo phách giữ nhịp non-legato"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bossa Nova Mẫu 2: Tay trái phát triển đường Bass luân chuyển liên tục hơn giữa nốt gốc (Root), nốt bậc 5 và nốt bậc 3/8, tạo chuyển động liên kết mượt mà giữa các chuyển hợp âm. Thích hợp áp dụng cho đoạn B (điệp khúc) hoặc khi muốn đẩy lực đệm mạnh hơn."
+}

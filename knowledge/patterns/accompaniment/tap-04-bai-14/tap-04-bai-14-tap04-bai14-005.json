@@ -1,0 +1,131 @@
+{
+  "id": "tap-04-bai-14-tap04-bai14-005",
+  "type": "exercise",
+  "name": "Mẫu câu 4 (Bài 14): Mở rộng bậc 9 (add9, m9, maj9) cho câu lót và câu dẫn giọng Thứ, làm cho tiếng đàn vang dày, hiện đạ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-14",
+    "locator": "00:06:23-00:07:18 pdf p.70",
+    "media_id": "video_tap04_bai14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04_75_mau_cau_lot",
+        "page": 70,
+        "section": "Bài 14 - Câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm9, Gm9, C9, Fmaj9, Bbmaj9, A7b9",
+    "Giọng: D minor",
+    "Gam: D minor",
+    "Nốt màu: 9th",
+    "Điệu / phong cách: Modern Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm9",
+      "Gm9",
+      "C9",
+      "Fmaj9",
+      "Bbmaj9",
+      "A7b9"
+    ],
+    "style": [
+      "pop_ballad",
+      "modern-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu 4 (Bài 14): Mở rộng bậc 9 (add9, m9, maj9) cho câu lót và câu dẫn giọng Thứ, làm cho tiếng đàn vang dày, hiện đại và lãng mạn hơn.",
+    "music_entities": {
+      "chords": [
+        "Dm9",
+        "Gm9",
+        "C9",
+        "Fmaj9",
+        "Bbmaj9",
+        "A7b9"
+      ],
+      "tensions": [
+        "9th"
+      ],
+      "keys": [
+        "D minor"
+      ],
+      "scales": [
+        "D minor"
+      ],
+      "styles": [
+        "Modern Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm9",
+      "notes": [
+        "D",
+        "F",
+        "A",
+        "C",
+        "E"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "A2"
+        ],
+        "right": [
+          "F3",
+          "C4",
+          "E4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm9",
+        "notes": [
+          "D",
+          "F",
+          "A",
+          "C",
+          "E"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D2",
+            "A2"
+          ],
+          "right": [
+            "F3",
+            "C4",
+            "E4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 4 (Bài 14): Mở rộng bậc 9 (add9, m9, maj9) cho câu lót và câu dẫn giọng Thứ, làm cho tiếng đàn vang dày, hiện đại và lãng mạn hơn."
+}

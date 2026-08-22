@@ -1,0 +1,157 @@
+{
+  "id": "tap-01-bai-06-tap01-bai06-004",
+  "type": "exercise",
+  "name": "Áp dụng chuỗi Bass đi xuống liền bậc cho ca khúc 'Vì Ngoài Chúa Ra' / 'Chúa Ơi Hồn Con': C -> G/B -> Am -> Em/G -> F ->",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-06",
+    "locator": "04:38:00-06:45:00 pdf p.2",
+    "media_id": "video_tap01_bai06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 2,
+        "section": "Thực hành bài Thánh Ca"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, Em/G, F, C/E, Dm, G",
+    "Giọng: C Major",
+    "Điệu / phong cách: Sacred Music, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "Em/G",
+      "F",
+      "C/E",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "sacred-music",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Áp dụng chuỗi Bass đi xuống liền bậc cho ca khúc 'Vì Ngoài Chúa Ra' / 'Chúa Ơi Hồn Con': C -> G/B -> Am -> Em/G -> F -> C/E -> Dm -> G. Tuyến Bass đi từ C xuống B, A, G, F, E, D, G tạo cảm giác liền mạch, rất phù hợp với phong cách Thánh ca và nhạc trữ tình.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "Em/G",
+        "F",
+        "C/E",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Sacred Music",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - G/B - Am - Em/G - F - C/E - Dm - G",
+      "notes": [
+        "C3",
+        "B2",
+        "A2",
+        "G2",
+        "F2",
+        "E2",
+        "D2",
+        "G2"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "B2",
+          "A2",
+          "G2",
+          "F2",
+          "E2",
+          "D2",
+          "G2"
+        ],
+        "right": [
+          "G3-C4-E4",
+          "G3-B3-D4",
+          "E3-A3-C4",
+          "E3-G3-B3",
+          "F3-A3-C4",
+          "E3-G3-C4",
+          "F3-A3-D4",
+          "G3-B3-D4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - G/B - Am - Em/G - F - C/E - Dm - G",
+        "notes": [
+          "C3",
+          "B2",
+          "A2",
+          "G2",
+          "F2",
+          "E2",
+          "D2",
+          "G2"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "B2",
+            "A2",
+            "G2",
+            "F2",
+            "E2",
+            "D2",
+            "G2"
+          ],
+          "right": [
+            "G3-C4-E4",
+            "G3-B3-D4",
+            "E3-A3-C4",
+            "E3-G3-B3",
+            "F3-A3-C4",
+            "E3-G3-C4",
+            "F3-A3-D4",
+            "G3-B3-D4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Áp dụng chuỗi Bass đi xuống liền bậc cho ca khúc 'Vì Ngoài Chúa Ra' / 'Chúa Ơi Hồn Con': C -> G/B -> Am -> Em/G -> F -> C/E -> Dm -> G. Tuyến Bass đi từ C xuống B, A, G, F, E, D, G tạo cảm giác liền mạch, rất phù hợp với phong cách Thánh ca và nhạc trữ tình."
+}

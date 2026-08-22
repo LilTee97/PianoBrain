@@ -1,0 +1,82 @@
+{
+  "id": "tap-01-bai-01-r-00001-left-hand-fingering-15",
+  "type": "fingering",
+  "name": "Sử dụng ngón 5 và ngón 2 cho bè bass 1-5 ở tay trái",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-01",
+    "locator": "12:21-15:18 pdf p.2",
+    "extra_locators": [
+      "29:33-31:12 pdf p.4",
+      "31:13-32:30 pdf p.4"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Accompaniment, Ballad, Pop, Sacred Music"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment",
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "sacred-music"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Accompaniment",
+        "Ballad",
+        "Pop",
+        "Sacred Music"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi bấm hợp âm 3 ở tay trái dạng 1-5, bắt buộc dùng ngón 5 (nốt Root) và ngón 2 (nốt Bậc 5). Để trống ngón 1 để sẵn sàng mở rộng đánh nốt bậc 9 hoặc nốt quãng 8.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "{'finger_root': 5, 'finger_fifth': 2, 'finger_thumb_status': 'reserved_free'}"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_00001_LEFT_HAND_FINGERING_15",
+      "category": "execution",
+      "summary": "Sử dụng ngón 5 và ngón 2 cho bè bass 1-5 ở tay trái",
+      "description": "Khi bấm hợp âm 3 ở tay trái dạng 1-5, bắt buộc dùng ngón 5 (nốt Root) và ngón 2 (nốt Bậc 5). Để trống ngón 1 để sẵn sàng mở rộng đánh nốt bậc 9 hoặc nốt quãng 8.",
+      "conditions": {
+        "hand": "left_hand",
+        "pattern": "1-5 interval"
+      },
+      "implementation": {
+        "finger_root": 5,
+        "finger_fifth": 2,
+        "finger_thumb_status": "reserved_free"
+      },
+      "lesson_folder": "Tap_01_Bai_01"
+    },
+    "fingering": {
+      "finger_root": 5,
+      "finger_fifth": 2,
+      "finger_thumb_status": "reserved_free"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi bấm hợp âm 3 ở tay trái dạng 1-5, bắt buộc dùng ngón 5 (nốt Root) và ngón 2 (nốt Bậc 5). Để trống ngón 1 để sẵn sàng mở rộng đánh nốt bậc 9 hoặc nốt quãng 8."
+}

@@ -1,0 +1,103 @@
+{
+  "id": "tap-02-bai-13-lesson-id-00005",
+  "type": "concept",
+  "name": "Vòng hợp âm 3: C9 - F#m7-5 - Fm6 - Em7 - D#m7-5 (Ebm7-5) - Dm7 - D/#F - Gsus4 - G - C9",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-13",
+    "locator": "07:38:00-11:11:00 pdf p.4",
+    "media_id": "Tap_02_Bai_13.mp4",
+    "supporting": [
+      {
+        "source_id": "PDF_Tap_2_Bai_11_15.pdf",
+        "page": 4,
+        "section": "Vòng 3: C9.F#m7-5.Fm6.Em7.D#m7-5.Dm7.D/#F.Gsus4.G.C9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, F#m7-5, Fm6, Em7, D#m7-5, Dm7, D/#F, Gsus4, G",
+    "Giọng: C major",
+    "Gam: C Chromatic, C Melodic Minor, C Major",
+    "Nốt màu: 9, b5, 6",
+    "Điệu / phong cách: Pop Ballad, Nhạc ngoại"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "F#m7-5",
+      "Fm6",
+      "Em7",
+      "D#m7-5",
+      "Dm7",
+      "D/#F",
+      "Gsus4",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad",
+      "nh-c-ngo-i"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Vòng hợp âm 3: C9 - F#m7-5 - Fm6 - Em7 - D#m7-5 (Ebm7-5) - Dm7 - D/#F - Gsus4 - G - C9. Sử dụng tuyến bass chromatic đi xuống (C - F# - F - E - D#/Eb - D - F# - G - C) kết hợp hợp âm mượn (Fm6) và hợp âm giảm/nửa giảm.",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "F#m7-5",
+        "Fm6",
+        "Em7",
+        "D#m7-5",
+        "Dm7",
+        "D/#F",
+        "Gsus4",
+        "G"
+      ],
+      "tensions": [
+        "9",
+        "b5",
+        "6"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Chromatic",
+        "C Melodic Minor",
+        "C Major"
+      ],
+      "styles": [
+        "Pop Ballad",
+        "Nhạc ngoại"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fm6",
+      "notes": [
+        "F3",
+        "C4",
+        "D4",
+        "Ab4"
+      ],
+      "hands": {
+        "left": [
+          "F3"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "Ab4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hợp âm 3: C9 - F#m7-5 - Fm6 - Em7 - D#m7-5 (Ebm7-5) - Dm7 - D/#F - Gsus4 - G - C9. Sử dụng tuyến bass chromatic đi xuống (C - F# - F - E - D#/Eb - D - F# - G - C) kết hợp hợp âm mượn (Fm6) và hợp âm giảm/nửa giảm."
+}

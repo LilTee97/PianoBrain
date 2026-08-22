@@ -1,0 +1,85 @@
+{
+  "id": "tap-02-bai-04-hai-piano-tap-02-bai-04-002",
+  "type": "concept",
+  "name": "Hợp âm Bảy Trưởng (Major 7th - Ký hiệu C.Tam giác.7, CΔ7 hoặc CMajor7): Cấu tạo bởi 1 Hợp âm 3 Trưởng + Quãng 3 Trưởng (",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": "04:08:00-07:15:00 pdf p.5",
+    "media_id": "video_tap_02_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_book",
+        "page": 5,
+        "section": "1 Bảy Trưởng"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Fmaj7",
+    "Giọng: C",
+    "Gam: Major",
+    "Nốt màu: 7",
+    "Điệu / phong cách: pop, ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Fmaj7"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hợp âm Bảy Trưởng (Major 7th - Ký hiệu C.Tam giác.7, CΔ7 hoặc CMajor7): Cấu tạo bởi 1 Hợp âm 3 Trưởng + Quãng 3 Trưởng (H.A.3T + Q3T). Hai âm ngoài cùng tạo thành Quãng 7 Trưởng (Q7T). Tính chất âm thanh rất sáng, độ sáng gấp 3 lần so với hợp âm 3 trưởng thông thường.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Fmaj7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "C"
+      ],
+      "scales": [
+        "Major"
+      ],
+      "styles": [
+        "pop",
+        "ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C4",
+        "E4",
+        "G4",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "B4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Bảy Trưởng (Major 7th - Ký hiệu C.Tam giác.7, CΔ7 hoặc CMajor7): Cấu tạo bởi 1 Hợp âm 3 Trưởng + Quãng 3 Trưởng (H.A.3T + Q3T). Hai âm ngoài cùng tạo thành Quãng 7 Trưởng (Q7T). Tính chất âm thanh rất sáng, độ sáng gấp 3 lần so với hợp âm 3 trưởng thông thường."
+}

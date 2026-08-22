@@ -1,0 +1,70 @@
+{
+  "id": "tap-01-bai-09-r-pentatonic-harmony-quartal",
+  "type": "rule",
+  "name": "Khi đệm các ca khúc mang tính chất dân ca hoặc sử dụng thang âm ngũ cung, ưu tiên dùng các cấu trúc hợp âm dựng theo quã",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-09",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Dân ca, Folk Ballad, Folk Harmony, Hòa âm ngũ cung"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "d-n-ca",
+      "pop_ballad",
+      "folk-ballad",
+      "folk-harmony",
+      "h-a-m-ng-cung"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Dân ca",
+        "Folk Ballad",
+        "Folk Harmony",
+        "Hòa âm ngũ cung"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi đệm các ca khúc mang tính chất dân ca hoặc sử dụng thang âm ngũ cung, ưu tiên dùng các cấu trúc hợp âm dựng theo quãng 4 (xếp chồng quãng 4 đúng hoặc sus4/sus2) thay vì hợp âm 3 ba nốt truyền thống để không bị mất đi màu sắc dân gian.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_PENTATONIC_HARMONY_QUARTAL",
+      "title": "Sử dụng Hòa âm Quãng 4 (Quartal Harmony) cho Nhạc Dân ca Ngũ cung",
+      "category": "harmony",
+      "description": "Khi đệm các ca khúc mang tính chất dân ca hoặc sử dụng thang âm ngũ cung, ưu tiên dùng các cấu trúc hợp âm dựng theo quãng 4 (xếp chồng quãng 4 đúng hoặc sus4/sus2) thay vì hợp âm 3 ba nốt truyền thống để không bị mất đi màu sắc dân gian.",
+      "conditions": {
+        "style": "Folk / Dân ca",
+        "scale_type": "Pentatonic"
+      },
+      "recommendation": "Sử dụng voicing dạng 1-4-7 hoặc các chùm nốt quãng 4 như D-G-C, E-A-D.",
+      "lesson_folder": "Tap_01_Bai_09"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Khi đệm các ca khúc mang tính chất dân ca hoặc sử dụng thang âm ngũ cung, ưu tiên dùng các cấu trúc hợp âm dựng theo quãng 4 (xếp chồng quãng 4 đúng hoặc sus4/sus2) thay vì hợp âm 3 ba nốt truyền thống để không bị mất đi màu sắc dân gian."
+}

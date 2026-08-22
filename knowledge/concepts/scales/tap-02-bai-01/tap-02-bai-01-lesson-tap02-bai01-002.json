@@ -1,0 +1,115 @@
+{
+  "id": "tap-02-bai-01-lesson-tap02-bai01-002",
+  "type": "scale",
+  "name": "Âm giai Thứ Hòa Thanh (Harmonic Minor Scale) nâng bậc 7 lên 1/2 cung (G -> G#)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-01",
+    "locator": "00:05:11-00:09:05 pdf p.2",
+    "media_id": "video.mp4",
+    "supporting": [
+      {
+        "source_id": "hai_piano_tap_2_1_5.pdf",
+        "page": 2,
+        "section": "Thứ Hoà Thanh"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Bm-5, C+, Dm, E, F, G#m-5",
+    "Giọng: Am",
+    "Gam: A Harmonic Minor",
+    "Điệu / phong cách: Ballad, Hymn"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Bm-5",
+      "C+",
+      "Dm",
+      "E",
+      "F",
+      "G#m-5"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "hymn"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Âm giai Thứ Hòa Thanh (Harmonic Minor Scale) nâng bậc 7 lên 1/2 cung (G -> G#). Hệ thống hợp âm tạo ra 3 hợp âm mới đặc trưng: C+ (Caug: C-E-G#), E major (E-G#-B) ở bậc V, và G#m-5 (G#dim: G#-B-D) ở bậc VII.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Bm-5",
+        "C+",
+        "Dm",
+        "E",
+        "F",
+        "G#m-5"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A Harmonic Minor"
+      ],
+      "styles": [
+        "Ballad",
+        "Hymn"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G#m-5",
+      "notes": [
+        "G#2",
+        "B2",
+        "D3",
+        "G#3"
+      ],
+      "hands": {
+        "left": [
+          "G#2"
+        ],
+        "right": [
+          "B2",
+          "D3",
+          "G#3"
+        ]
+      }
+    },
+    "scale": {
+      "name": "Âm giai Thứ Hòa Thanh",
+      "root": "A",
+      "note_names": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G#"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "for_qualities": [],
+      "review": "rà tay từ raw_text: Âm giai Thứ Hòa Thanh nâng bậc 7 lên 1/2 cung (G -> G#)"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Âm giai Thứ Hòa Thanh (Harmonic Minor Scale) nâng bậc 7 lên 1/2 cung (G -> G#). Hệ thống hợp âm tạo ra 3 hợp âm mới đặc trưng: C+ (Caug: C-E-G#), E major (E-G#-B) ở bậc V, và G#m-5 (G#dim: G#-B-D) ở bậc VII."
+}

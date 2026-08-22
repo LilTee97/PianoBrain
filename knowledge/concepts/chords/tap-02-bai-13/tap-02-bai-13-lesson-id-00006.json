@@ -1,0 +1,105 @@
+{
+  "id": "tap-02-bai-13-lesson-id-00006",
+  "type": "concept",
+  "name": "Vòng hợp âm 4: C9 - B7 - Em7 - F9 - Bb9 - F9/G - Gsus4 - G+ - C9",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-13",
+    "locator": "11:12:00-14:40:00 pdf p.4",
+    "media_id": "Tap_02_Bai_13.mp4",
+    "supporting": [
+      {
+        "source_id": "PDF_Tap_2_Bai_11_15.pdf",
+        "page": 4,
+        "section": "Vòng 4: C9.B7.Em7.F9.Bb9.F9/G.Gsus.G+"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, B7, Em7, F9, Bb9, F9/G, Gsus4, G+",
+    "Giọng: C major",
+    "Gam: C Major, E Minor, C Mixolydian b6",
+    "Nốt màu: 9, 7, +5",
+    "Điệu / phong cách: Pop, Ballad, Bossa Nova"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "B7",
+      "Em7",
+      "F9",
+      "Bb9",
+      "F9/G",
+      "Gsus4",
+      "G+"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "bossa-nova"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Vòng hợp âm 4: C9 - B7 - Em7 - F9 - Bb9 - F9/G - Gsus4 - G+ - C9. Sử dụng át thứ cấp (B7 -> Em7), ly điệu bVII9 (Bb9) và át tăng G+ tạo sức hút căng thẳng về chủ âm C.",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "B7",
+        "Em7",
+        "F9",
+        "Bb9",
+        "F9/G",
+        "Gsus4",
+        "G+"
+      ],
+      "tensions": [
+        "9",
+        "7",
+        "+5"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major",
+        "E Minor",
+        "C Mixolydian b6"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad",
+        "Bossa Nova"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G+",
+      "notes": [
+        "G2",
+        "G3",
+        "B3",
+        "D#4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "G3"
+        ],
+        "right": [
+          "B3",
+          "D#4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hợp âm 4: C9 - B7 - Em7 - F9 - Bb9 - F9/G - Gsus4 - G+ - C9. Sử dụng át thứ cấp (B7 -> Em7), ly điệu bVII9 (Bb9) và át tăng G+ tạo sức hút căng thẳng về chủ âm C."
+}

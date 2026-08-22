@@ -1,0 +1,85 @@
+{
+  "id": "tap-04-bai-03-rule-canon-progression-ballad-001",
+  "type": "rule",
+  "name": "Vòng hợp âm Canon chuẩn gồm các bậc I - V - vi - iii - IV - I - IV - V (hoặc thay thế bậc IV áp cuối bằng ii7)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-03",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Giọng: Any major key",
+    "Điệu / phong cách: Ballad, Contemporary Ballad, Modern Ballad, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary-ballad",
+      "modern-ballad",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": "Any major key",
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Contemporary Ballad",
+        "Modern Ballad",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Vòng hợp âm Canon chuẩn gồm các bậc I - V - vi - iii - IV - I - IV - V (hoặc thay thế bậc IV áp cuối bằng ii7). Khi đệm Ballad, việc giữ đều tiết tấu và bổ sung nốt dẫn ở chuyển giao phách giúp liên kết giai điệu liền mạch.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_canon_progression_ballad_001",
+      "name": "Cấu trúc vòng Canon chuẩn trong điệu Ballad",
+      "category": "harmony",
+      "description": "Vòng hợp âm Canon chuẩn gồm các bậc I - V - vi - iii - IV - I - IV - V (hoặc thay thế bậc IV áp cuối bằng ii7). Khi đệm Ballad, việc giữ đều tiết tấu và bổ sung nốt dẫn ở chuyển giao phách giúp liên kết giai điệu liền mạch.",
+      "conditions": {
+        "key": "Any major key",
+        "progression": [
+          "I",
+          "V",
+          "vi",
+          "iii",
+          "IV",
+          "I",
+          "IV",
+          "V"
+        ]
+      },
+      "recommendations": [
+        "Chèn nốt lót ở phách 2 và 4 để tạo dòng chảy mềm mại.",
+        "Sử dụng bass đảo (VD: V/7b, iii/5) để tạo đường bass đi xuống êm ái."
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_04_Bai_03"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Vòng hợp âm Canon chuẩn gồm các bậc I - V - vi - iii - IV - I - IV - V (hoặc thay thế bậc IV áp cuối bằng ii7). Khi đệm Ballad, việc giữ đều tiết tấu và bổ sung nốt dẫn ở chuyển giao phách giúp liên kết giai điệu liền mạch."
+}

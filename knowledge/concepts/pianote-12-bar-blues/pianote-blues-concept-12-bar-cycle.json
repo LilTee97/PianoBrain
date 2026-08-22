@@ -1,0 +1,28 @@
+{
+  "difficulty": 1,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-concept-12-bar-cycle",
+  "type": "concept",
+  "name": "Toàn bộ vòng hòa thanh lặp đúng 12 ô nhịp",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:02:06"
+  },
+  "use_when": [
+    "Đếm ô nhịp khi đệm blues",
+    "Biết khi nào vòng quay lại từ đầu"
+  ],
+  "output": {
+    "bars": 12,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Toàn bộ chuỗi hòa thanh diễn ra và lặp lại trong đúng chu kỳ 12 ô nhịp.",
+  "input": {
+    "style": [
+      "blues"
+    ]
+  }
+}

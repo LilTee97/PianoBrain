@@ -1,0 +1,66 @@
+{
+  "id": "jazz-scales-bai-09-01-altered-scale",
+  "type": "concept",
+  "name": "The altered scale is an intense, unstable, transitional dominant scale used to create high tensi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-09",
+    "locator": "02:08-02:40",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm V7alt",
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "altered scale",
+      "root": "C",
+      "note_names": [
+        "C",
+        "Db",
+        "Eb",
+        "E",
+        "Gb",
+        "Ab",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [],
+      "use_when": [
+        "hợp âm V7alt"
+      ]
+    },
+    "chord_symbol": "C7alt",
+    "notes": [
+      "C",
+      "Db",
+      "Eb",
+      "E",
+      "Gb",
+      "Ab",
+      "Bb"
+    ],
+    "source_text": "The altered scale is an intense, unstable, transitional dominant scale used to create high tension that demands resolution."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 9 của nguồn Jazz Scales (YouTube), mốc 02:08-02:40. The altered scale is an intense, unstable, transitional dominant scale used to create high tension that demands resolution. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

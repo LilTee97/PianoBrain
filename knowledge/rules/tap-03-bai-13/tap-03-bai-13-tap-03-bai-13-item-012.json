@@ -1,0 +1,51 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-012",
+  "type": "rule",
+  "name": "Cảnh báo ngón tay: Không nên cố gượng duỗi ngón vượt quá quãng 8 khi đánh các nốt rải tay trái nếu tay nhỏ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "03:30:00-03:45:00 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "Fingering Warning"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_13"
+  ],
+  "avoid_when": [
+    "Cảnh báo ngón tay: Không nên cố gượng duỗi ngón vượt quá quãng 8 khi đánh các nốt rải tay trái nếu tay nhỏ; hãy nhấc cổ tay di chuyển linh hoạt (wrist movement) thay vì ép căng cơ bàn tay."
+  ],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "warning",
+    "raw_text": "Cảnh báo ngón tay: Không nên cố gượng duỗi ngón vượt quá quãng 8 khi đánh các nốt rải tay trái nếu tay nhỏ; hãy nhấc cổ tay di chuyển linh hoạt (wrist movement) thay vì ép căng cơ bàn tay.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "Wrist Movement Technique",
+      "notes": [],
+      "hands": {
+        "left": [
+          "Flexible Wrist Transition"
+        ],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Cảnh báo ngón tay: Không nên cố gượng duỗi ngón vượt quá quãng 8 khi đánh các nốt rải tay trái nếu tay nhỏ; hãy nhấc cổ tay di chuyển linh hoạt (wrist movement) thay vì ép căng cơ bàn tay."
+}

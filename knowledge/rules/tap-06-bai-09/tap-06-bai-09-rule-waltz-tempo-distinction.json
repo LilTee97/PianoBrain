@@ -1,0 +1,68 @@
+{
+  "id": "tap-06-bai-09-rule-waltz-tempo-distinction",
+  "type": "rule",
+  "name": "Phân biệt điệu Waltz và Boston qua tốc độ Tempo: Boston chơi trong khoảng 63-70 BPM (Waltz chậm), Waltz chuẩn chơi trong",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-09",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Boston, Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "boston",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Boston",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Phân biệt điệu Waltz và Boston qua tốc độ Tempo: Boston chơi trong khoảng 63-70 BPM (Waltz chậm), Waltz chuẩn chơi trong khoảng 110-120 BPM với sắc thái tươi vui.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_waltz_tempo_distinction",
+      "description": "Phân biệt điệu Waltz và Boston qua tốc độ Tempo: Boston chơi trong khoảng 63-70 BPM (Waltz chậm), Waltz chuẩn chơi trong khoảng 110-120 BPM với sắc thái tươi vui.",
+      "type": "style_rule",
+      "applicable_styles": [
+        "Waltz",
+        "Boston"
+      ],
+      "conditions": {
+        "time_signature": "3/4"
+      },
+      "recommendation": "Sử dụng tempo 110-120 BPM cho bài nhạc điệu Waltz tươi trẻ và 63-70 BPM cho bài Waltz tình cảm, trầm lắng (Boston).",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_09"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Phân biệt điệu Waltz và Boston qua tốc độ Tempo: Boston chơi trong khoảng 63-70 BPM (Waltz chậm), Waltz chuẩn chơi trong khoảng 110-120 BPM với sắc thái tươi vui."
+}

@@ -1,0 +1,115 @@
+{
+  "id": "tap-01-bai-14-lesson-14-00008",
+  "type": "accompaniment",
+  "name": "Khai thác hợp âm bán âm/hợp âm dẫn phụ: Dùng Bdim hoặc Ebdim / Eb0, E/G# để chuyển sạng Am (tiến trình 2-5-1 thứ: Bdim -",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "18:22-22:33 pdf p.10",
+    "media_id": "video_tap_01_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_11_15",
+        "page": 10,
+        "section": "Score Cho Con - Chromatic & Substitution"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bdim, E7, E/G#, Am, Ebdim",
+    "Giọng: A Minor, C Major",
+    "Nốt màu: 7, dim"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bdim",
+      "E7",
+      "E/G#",
+      "Am",
+      "Ebdim"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Khai thác hợp âm bán âm/hợp âm dẫn phụ: Dùng Bdim hoặc Ebdim / Eb0, E/G# để chuyển sạng Am (tiến trình 2-5-1 thứ: Bdim -> E7 -> Am) tạo sắc thái hoài niệm, sâu lắng.",
+    "music_entities": {
+      "chords": [
+        "Bdim",
+        "E7",
+        "E/G#",
+        "Am",
+        "Ebdim"
+      ],
+      "tensions": [
+        "7",
+        "dim"
+      ],
+      "keys": [
+        "A Minor",
+        "C Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "E/G#",
+      "notes": [
+        "G#1",
+        "E4",
+        "G#4",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "G#1"
+        ],
+        "right": [
+          "E4",
+          "G#4",
+          "B4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "E/G#",
+        "notes": [
+          "G#1",
+          "E4",
+          "G#4",
+          "B4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "G#1"
+          ],
+          "right": [
+            "E4",
+            "G#4",
+            "B4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khai thác hợp âm bán âm/hợp âm dẫn phụ: Dùng Bdim hoặc Ebdim / Eb0, E/G# để chuyển sạng Am (tiến trình 2-5-1 thứ: Bdim -> E7 -> Am) tạo sắc thái hoài niệm, sâu lắng."
+}

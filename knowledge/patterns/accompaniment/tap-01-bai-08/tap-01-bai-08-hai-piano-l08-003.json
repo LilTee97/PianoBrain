@@ -1,0 +1,111 @@
+{
+  "id": "tap-01-bai-08-hai-piano-l08-003",
+  "type": "accompaniment",
+  "name": "Mô hình đệm Slowrock cơ bản nhịp 2/4 trên hợp âm C: Tay trái đánh nốt Bass (C) ở đầu phách 1 (mạnh), tay phải đánh quãng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-08",
+    "locator": "00:06:18-00:09:07 pdf p.5",
+    "media_id": "video_hai_piano_l08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_06_10",
+        "page": 5,
+        "section": "TAY TRÁI & TAY PHẢI"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C",
+    "Giọng: C major",
+    "Điệu / phong cách: Slowrock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "slowrock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mô hình đệm Slowrock cơ bản nhịp 2/4 trên hợp âm C: Tay trái đánh nốt Bass (C) ở đầu phách 1 (mạnh), tay phải đánh quãng 3/triad (E-G) ở 2 nốt nhẹ phía sau của chùm 3, phách 2 lặp lại nốt Bass/Hợp âm tương tự. Nốt 1 mạnh, nốt 2 nhẹ, nốt 3 nhẹ.",
+    "music_entities": {
+      "chords": [
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Slowrock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "G3",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mô hình đệm Slowrock cơ bản nhịp 2/4 trên hợp âm C: Tay trái đánh nốt Bass (C) ở đầu phách 1 (mạnh), tay phải đánh quãng 3/triad (E-G) ở 2 nốt nhẹ phía sau của chùm 3, phách 2 lặp lại nốt Bass/Hợp âm tương tự. Nốt 1 mạnh, nốt 2 nhẹ, nốt 3 nhẹ."
+}

@@ -1,0 +1,148 @@
+{
+  "id": "tap-01-bai-03-lesson-01-03-002",
+  "type": "exercise",
+  "name": "Thực hành câu Intro bài 'Proud of You' ở giọng C Major với vòng hợp âm C - G - Am - Em - F - C - Dm - G - C",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-03",
+    "locator": "00:06:27-00:11:48 pdf p.7",
+    "media_id": "video_lesson_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_1_5",
+        "page": 7,
+        "section": "Proud of You ! - Vòng Hợp Âm intro"
+      },
+      {
+        "source_id": "pdf_tap_1_bai_1_5",
+        "page": 8,
+        "section": "Proud of You Sheet Music"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G, Am, Em, F, Dm",
+    "Giọng: C",
+    "Gam: C major",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G",
+      "Am",
+      "Em",
+      "F",
+      "Dm"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành câu Intro bài 'Proud of You' ở giọng C Major với vòng hợp âm C - G - Am - Em - F - C - Dm - G - C. Tay trái đi nốt rải 1-5-1-3, tay phải đi nốt giai điệu kết hợp bấm thế tay hợp âm gọn gàng.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "Em",
+        "F",
+        "Dm"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - G - Am - Em - F - C - Dm - G - C",
+      "notes": [
+        "E4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5",
+        "C5",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "C4",
+          "E4"
+        ],
+        "right": [
+          "E4",
+          "F4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - G - Am - Em - F - C - Dm - G - C",
+        "notes": [
+          "E4",
+          "E4",
+          "F4",
+          "G4",
+          "A4",
+          "B4",
+          "C5",
+          "C5",
+          "E4",
+          "F4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3",
+            "C4",
+            "E4"
+          ],
+          "right": [
+            "E4",
+            "F4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành câu Intro bài 'Proud of You' ở giọng C Major với vòng hợp âm C - G - Am - Em - F - C - Dm - G - C. Tay trái đi nốt rải 1-5-1-3, tay phải đi nốt giai điệu kết hợp bấm thế tay hợp âm gọn gàng."
+}

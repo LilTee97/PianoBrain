@@ -1,0 +1,152 @@
+{
+  "id": "tap-03-bai-06-lesson-id-00009",
+  "type": "exercise",
+  "name": "Thực hành Dòng 3 (ô nhịp 17-24): Tay phải Re5(3) - Re5(3) - Fa5(5)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "23:15-31:00 pdf p.3",
+    "media_id": "hai_piano_video_t03_b06",
+    "supporting": [
+      {
+        "source_id": "hai_piano_pdf_t03",
+        "page": 3,
+        "section": "Silent Night Line 3 (m.17-24)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: G7, C",
+    "Giọng: C major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "G7",
+      "C"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành Dòng 3 (ô nhịp 17-24): Tay phải Re5(3) - Re5(3) - Fa5(5). - Re5(3) - Si4(1) - Do5(2) - Mi5(4) - Do5(5) - Sol4(2) - Mi4(1) - Sol4(5) - Fa4(4) - Re4(2) - Do4(1). Tay trái đổi hợp âm G7 (Si2(5) - Re3(3) - Sol3(1)) rồi về C (Do3 - Mi3 - Sol3). Ngón tay dịch chuyển nhịp nhàng theo chiều giai điệu.",
+    "music_entities": {
+      "chords": [
+        "G7",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "G7 - C",
+      "notes": [
+        "D5",
+        "F5",
+        "D5",
+        "B4",
+        "C5",
+        "E5",
+        "C5",
+        "G4",
+        "E4",
+        "G4",
+        "F4",
+        "D4",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "B2(5)",
+          "D3(3)",
+          "G3(1)",
+          "C3(5)",
+          "E3(3)",
+          "G3(1)"
+        ],
+        "right": [
+          "D5(3)",
+          "F5(5)",
+          "D5(3)",
+          "B4(1)",
+          "C5(2)",
+          "E5(4)",
+          "C5(5)",
+          "G4(2)",
+          "E4(1)",
+          "G4(5)",
+          "F4(4)",
+          "D4(2)",
+          "C4(1)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "G7 - C",
+        "notes": [
+          "D5",
+          "F5",
+          "D5",
+          "B4",
+          "C5",
+          "E5",
+          "C5",
+          "G4",
+          "E4",
+          "G4",
+          "F4",
+          "D4",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "B2(5)",
+            "D3(3)",
+            "G3(1)",
+            "C3(5)",
+            "E3(3)",
+            "G3(1)"
+          ],
+          "right": [
+            "D5(3)",
+            "F5(5)",
+            "D5(3)",
+            "B4(1)",
+            "C5(2)",
+            "E5(4)",
+            "C5(5)",
+            "G4(2)",
+            "E4(1)",
+            "G4(5)",
+            "F4(4)",
+            "D4(2)",
+            "C4(1)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành Dòng 3 (ô nhịp 17-24): Tay phải Re5(3) - Re5(3) - Fa5(5). - Re5(3) - Si4(1) - Do5(2) - Mi5(4) - Do5(5) - Sol4(2) - Mi4(1) - Sol4(5) - Fa4(4) - Re4(2) - Do4(1). Tay trái đổi hợp âm G7 (Si2(5) - Re3(3) - Sol3(1)) rồi về C (Do3 - Mi3 - Sol3). Ngón tay dịch chuyển nhịp nhàng theo chiều giai điệu."
+}

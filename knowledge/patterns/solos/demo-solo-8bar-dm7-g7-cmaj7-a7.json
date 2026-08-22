@@ -1,0 +1,390 @@
+{
+  "id": "demo-solo-8bar-dm7-g7-cmaj7-a7",
+  "type": "solo_idea",
+  "name": "Câu solo mẫu 8 ô: Dm7 - G7 - Cmaj7 - A7 (tự soạn, có enclosure và nốt dẫn nửa cung)",
+  "difficulty": 4,
+  "source": null,
+  "use_when": [
+    "Tập ngẫu hứng trên vòng Dm7 - G7 - Cmaj7 - A7",
+    "Muốn một câu mẫu đủ dài để thấy enclosure và chromatic approach chạy thật",
+    "Tập chừa chỗ trống trong câu solo thay vì chạy nốt liên tục"
+  ],
+  "avoid_when": [
+    "Đừng trích câu này như lời của thầy nào — đây là câu tự soạn, không có nguồn",
+    "Nhịp quá nhanh thì chùm ba ở ô 3 sẽ không kịp"
+  ],
+  "input": {
+    "key_context": "major",
+    "progression": [
+      "ii",
+      "ii",
+      "V",
+      "V",
+      "I",
+      "I",
+      "VI",
+      "VI"
+    ],
+    "chord_quality": [
+      "Dm7",
+      "G7",
+      "Cmaj7",
+      "A7"
+    ],
+    "style": [
+      "jazz"
+    ],
+    "hand": "both"
+  },
+  "output": {
+    "stage": "invented_demo",
+    "key": "C",
+    "meter": "4/4",
+    "bars": [
+      {
+        "bar": 1,
+        "chord": "Dm7",
+        "events": [
+          {
+            "note": "D4",
+            "dur": "1/4",
+            "role": "root"
+          },
+          {
+            "note": "C#4",
+            "dur": "1/8",
+            "role": "nốt dẫn nửa cung dưới"
+          },
+          {
+            "note": "D4",
+            "dur": "1/8",
+            "role": "root"
+          },
+          {
+            "note": "F4",
+            "dur": "1/4",
+            "role": "bậc 3 thứ — nốt đích"
+          },
+          {
+            "rest": true,
+            "dur": "1/4"
+          }
+        ],
+        "target": "F4",
+        "technique": "chromatic approach C#→D rồi hạ cánh F4, chừa một phách trống",
+        "fingers": [
+          1,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "chord": "Dm7",
+        "events": [
+          {
+            "note": "C4",
+            "dur": "1/4",
+            "role": "bậc b7"
+          },
+          {
+            "note": "A4",
+            "dur": "1/4",
+            "role": "bậc 5"
+          },
+          {
+            "note": "F4",
+            "dur": "1/4",
+            "role": "bậc 3 thứ — nốt đích"
+          },
+          {
+            "note": "G4",
+            "dur": "1/8",
+            "role": "nốt lướt"
+          },
+          {
+            "note": "A4",
+            "dur": "1/8",
+            "role": "bậc 5, đà sang ô sau"
+          }
+        ],
+        "target": "F4",
+        "technique": "đi nốt hợp âm rồi lấy đà G-A sang ô nhịp G7",
+        "fingers": [
+          5,
+          2,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "bar": 3,
+        "chord": "G7",
+        "events": [
+          {
+            "note": "F4",
+            "dur": "1/4",
+            "role": "bậc b7"
+          },
+          {
+            "note": "A4",
+            "dur": "1/12",
+            "role": "nốt thang âm trên (chùm ba)"
+          },
+          {
+            "note": "F#4",
+            "dur": "1/12",
+            "role": "nửa cung dưới (chùm ba)"
+          },
+          {
+            "note": "G4",
+            "dur": "1/12",
+            "role": "nốt gốc G7 — nốt đích (chùm ba)"
+          },
+          {
+            "rest": true,
+            "dur": "1/4"
+          },
+          {
+            "rest": true,
+            "dur": "1/4"
+          }
+        ],
+        "target": "G4",
+        "technique": "enclosure ba nốt A-F#-G bao quanh G4, rồi để trống hai phách",
+        "fingers": [
+          2,
+          3,
+          2,
+          1
+        ]
+      },
+      {
+        "bar": 4,
+        "chord": "G7",
+        "events": [
+          {
+            "note": "D4",
+            "dur": "1/4",
+            "role": "bậc 5"
+          },
+          {
+            "note": "B4",
+            "dur": "1/4",
+            "role": "bậc 3"
+          },
+          {
+            "note": "G4",
+            "dur": "1/4",
+            "role": "nốt gốc — nốt đích"
+          },
+          {
+            "note": "F4",
+            "dur": "1/4",
+            "role": "bậc b7"
+          }
+        ],
+        "target": "G4",
+        "technique": "rải nốt hợp âm G7, kết ở bậc b7 để hút về Cmaj7",
+        "fingers": [
+          1,
+          3,
+          2,
+          1
+        ]
+      },
+      {
+        "bar": 5,
+        "chord": "Cmaj7",
+        "events": [
+          {
+            "note": "E4",
+            "dur": "1/4",
+            "role": "bậc 3 — nốt đích"
+          },
+          {
+            "note": "D#4",
+            "dur": "1/8",
+            "role": "nốt dẫn nửa cung dưới"
+          },
+          {
+            "note": "E4",
+            "dur": "1/8",
+            "role": "bậc 3"
+          },
+          {
+            "note": "G4",
+            "dur": "1/4",
+            "role": "bậc 5"
+          },
+          {
+            "rest": true,
+            "dur": "1/4"
+          }
+        ],
+        "target": "E4",
+        "technique": "chromatic approach D#→E, chừa một phách trống",
+        "fingers": [
+          3,
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "bar": 6,
+        "chord": "Cmaj7",
+        "events": [
+          {
+            "note": "B4",
+            "dur": "1/4",
+            "role": "bậc 7"
+          },
+          {
+            "note": "G4",
+            "dur": "1/4",
+            "role": "bậc 5"
+          },
+          {
+            "note": "E4",
+            "dur": "1/4",
+            "role": "bậc 3"
+          },
+          {
+            "note": "C4",
+            "dur": "1/8",
+            "role": "nốt gốc — nốt đích"
+          },
+          {
+            "note": "D4",
+            "dur": "1/8",
+            "role": "bậc 9, lấy đà sang A7"
+          }
+        ],
+        "target": "C4",
+        "technique": "đi xuống theo nốt hợp âm rồi lấy đà C-D",
+        "fingers": [
+          4,
+          2,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "bar": 7,
+        "chord": "A7",
+        "events": [
+          {
+            "note": "D4",
+            "dur": "1/8",
+            "role": "nốt trên (nguyên cung)"
+          },
+          {
+            "note": "C4",
+            "dur": "1/8",
+            "role": "nửa cung dưới"
+          },
+          {
+            "note": "C#4",
+            "dur": "1/4",
+            "role": "bậc 3 — nốt đích"
+          },
+          {
+            "note": "A3",
+            "dur": "1/4",
+            "role": "nốt gốc"
+          },
+          {
+            "rest": true,
+            "dur": "1/4"
+          }
+        ],
+        "target": "C#4",
+        "technique": "enclosure hai nốt D-C kẹp lấy C#4, rồi buông về A3 và nghỉ",
+        "fingers": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      {
+        "bar": 8,
+        "chord": "A7",
+        "events": [
+          {
+            "note": "C#4",
+            "dur": "1/4",
+            "role": "bậc 3 — nốt đích"
+          },
+          {
+            "note": "E4",
+            "dur": "1/4",
+            "role": "bậc 5"
+          },
+          {
+            "note": "G4",
+            "dur": "1/4",
+            "role": "bậc b7"
+          },
+          {
+            "note": "A4",
+            "dur": "1/4",
+            "role": "nốt gốc"
+          }
+        ],
+        "target": "C#4",
+        "technique": "rải nốt hợp âm A7 đi lên, mở đường quay lại Dm7",
+        "fingers": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "left_hand_shell": {
+      "note": "mỗi hai ô nhịp một thế, giữ nốt gốc với bậc 3 và bậc 7",
+      "Dm7": [
+        "D3",
+        "F3",
+        "C4"
+      ],
+      "G7": [
+        "G3",
+        "F3",
+        "B3"
+      ],
+      "Cmaj7": [
+        "C3",
+        "E3",
+        "B3"
+      ],
+      "A7": [
+        "A2",
+        "G3",
+        "C#4"
+      ]
+    },
+    "techniques_used": [
+      "chromatic approach (ô 1, ô 5)",
+      "enclosure 3 nốt A-F#-G (ô 3)",
+      "enclosure 2 nốt D-C vào C# (ô 7)",
+      "nốt hợp âm làm nốt đích ở mọi ô",
+      "rest để câu có chỗ thở (ô 1, 3, 5, 7)"
+    ],
+    "inspired_by": [
+      "charlie-enclosure-3-note",
+      "charlie-enclosure-2-note",
+      "charlie-enclosure-think-target-first",
+      "mack-251-rule-resolve-to-fifth"
+    ],
+    "review_note": "Bản chép tay ghi ô 3 là 'target G4 (5 of G7)'. Đo lại: G là NỐT GỐC của G7 (G-B-D-F), bậc 5 của G7 là D. G đúng là bậc 5 nhưng là bậc 5 CỦA GIỌNG ĐÔ TRƯỞNG. Item này ghi theo cách đúng."
+  },
+  "origin": "invented",
+  "status": "draft",
+  "note_vi": "Câu solo tám ô nhịp tự soạn trên vòng Dm7 - G7 - Cmaj7 - A7, giọng Đô trưởng, nhịp 4/4. Mỗi ô có một nốt đích là nốt hợp âm, và câu luôn chừa chỗ trống để thở. Ô 3 dùng enclosure ba nốt A4 - F#4 - G4 (chùm ba) bao quanh G4: A là nốt thang âm cách G một nguyên cung ở trên, F# cách G nửa cung ở dưới — viết Ab là sai vì Ab nằm ngoài gam. Lưu ý G4 ở đây là NỐT GỐC của G7, không phải bậc 5 của G7 (bậc 5 của G7 là D); G là bậc 5 của giọng Đô trưởng. ĐÂY LÀ CÂU TỰ SOẠN, không phải của thầy Hải, Pianote, Mack Grout hay Charlie Tran. Nó chỉ lấy cảm hứng từ kỹ thuật enclosure và nốt dẫn nửa cung đã có sẵn trong kho, xem output.inspired_by."
+}

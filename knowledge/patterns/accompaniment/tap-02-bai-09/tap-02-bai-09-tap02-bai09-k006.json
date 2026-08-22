@@ -1,0 +1,121 @@
+{
+  "id": "tap-02-bai-09-tap02-bai09-k006",
+  "type": "accompaniment",
+  "name": "Vòng hòa âm 2: Cmajor79 -> C9/E -> F9 -> Gsus4",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-09",
+    "locator": "00:12:29-00:18:42 pdf p.8",
+    "media_id": "video_tap02_bai09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap02_bai06_10",
+        "page": 8,
+        "section": "Cmajor79 C9/E -> F9 -> Gsus4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, C9/E, F9, Gsus4",
+    "Giọng: C major",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "C9/E",
+      "F9",
+      "Gsus4"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Vòng hòa âm 2: Cmajor79 -> C9/E -> F9 -> Gsus4. Nốt Bass di chuyển liền bậc C -> E -> F -> G giúp đường bass đi mượt mà và tạo lực đẩy dẫn sang hợp âm bậc IV (F9).",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "C9/E",
+        "F9",
+        "Gsus4"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C9/E",
+      "notes": [
+        "E3",
+        "C4",
+        "D4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "E3"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C9/E",
+        "notes": [
+          "E3",
+          "C4",
+          "D4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "E3"
+          ],
+          "right": [
+            "C4",
+            "D4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm 2: Cmajor79 -> C9/E -> F9 -> Gsus4. Nốt Bass di chuyển liền bậc C -> E -> F -> G giúp đường bass đi mượt mà và tạo lực đẩy dẫn sang hợp âm bậc IV (F9)."
+}

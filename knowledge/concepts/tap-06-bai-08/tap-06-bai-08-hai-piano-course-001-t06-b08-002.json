@@ -1,0 +1,71 @@
+{
+  "id": "tap-06-bai-08-hai-piano-course-001-t06-b08-002",
+  "type": "concept",
+  "name": "Vòng hòa âm II-V-i trong giọng thứ: Bậc II là Bm7(b5) (thứ 7 giáng 5/bán giảm), Bậc V là E7 (Dom7/Át 7), Bậc I là Am7 (T",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-08",
+    "locator": "01:48-03:12 pdf p.1",
+    "media_id": "video_Tap_06_Bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_Tap_06_Bai_08",
+        "page": 1,
+        "section": "Ly_Thuyet_Vong_251"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bm7b5, E7, Am7",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Điệu / phong cách: Jazz, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bm7b5",
+      "E7",
+      "Am7"
+    ],
+    "style": [
+      "jazz",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Vòng hòa âm II-V-i trong giọng thứ: Bậc II là Bm7(b5) (thứ 7 giáng 5/bán giảm), Bậc V là E7 (Dom7/Át 7), Bậc I là Am7 (Thứ 7). Đây là vòng hòa âm nền tảng kinh điển trong Jazz và Pop nâng cao.",
+    "music_entities": {
+      "chords": [
+        "Bm7b5",
+        "E7",
+        "Am7"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Jazz",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Bm7(b5) - E7 - Am7",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm II-V-i trong giọng thứ: Bậc II là Bm7(b5) (thứ 7 giáng 5/bán giảm), Bậc V là E7 (Dom7/Át 7), Bậc I là Am7 (Thứ 7). Đây là vòng hòa âm nền tảng kinh điển trong Jazz và Pop nâng cao."
+}

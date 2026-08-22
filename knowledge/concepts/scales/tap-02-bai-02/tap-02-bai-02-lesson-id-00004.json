@@ -1,0 +1,96 @@
+{
+  "id": "tap-02-bai-02-lesson-id-00004",
+  "type": "scale",
+  "name": "Giọng Trưởng Giai Điệu là Trưởng Tự Nhiên có Bậc 6 và Bậc 7 giáng xuống 1/2 cung (A thành Ab, B thành Bb)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-02",
+    "locator": "13:28-16:32 pdf p.3",
+    "media_id": "video_tap_02_bai_02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 3,
+        "section": "Trưởng Giai điệu"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Dm-5, Em-5, Fm, Gm, Ab+, Bb",
+    "Giọng: C Major",
+    "Gam: C Melodic Major",
+    "Nốt màu: b6, b7",
+    "Điệu / phong cách: Pop, Jazz, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Dm-5",
+      "Em-5",
+      "Fm",
+      "Gm",
+      "Ab+",
+      "Bb"
+    ],
+    "style": [
+      "pop",
+      "jazz",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Giọng Trưởng Giai Điệu là Trưởng Tự Nhiên có Bậc 6 và Bậc 7 giáng xuống 1/2 cung (A thành Ab, B thành Bb). Hệ thống hợp âm thu được gồm: C (I), Dm-5 (ii°), Em-5 (iii°), Fm (iv), Gm (v), Ab+ (bVI+), Bb (bVII). Các hợp âm màu mới: Em-5, Gm, Bb.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Dm-5",
+        "Em-5",
+        "Fm",
+        "Gm",
+        "Ab+",
+        "Bb"
+      ],
+      "tensions": [
+        "b6",
+        "b7"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Melodic Major"
+      ],
+      "styles": [
+        "Pop",
+        "Jazz",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Bb",
+      "notes": [
+        "Bb3",
+        "D4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "Bb2"
+        ],
+        "right": [
+          "Bb3",
+          "D4",
+          "F4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giọng Trưởng Giai Điệu là Trưởng Tự Nhiên có Bậc 6 và Bậc 7 giáng xuống 1/2 cung (A thành Ab, B thành Bb). Hệ thống hợp âm thu được gồm: C (I), Dm-5 (ii°), Em-5 (iii°), Fm (iv), Gm (v), Ab+ (bVI+), Bb (bVII). Các hợp âm màu mới: Em-5, Gm, Bb."
+}

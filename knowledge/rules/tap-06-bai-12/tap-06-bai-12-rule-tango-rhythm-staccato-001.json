@@ -1,0 +1,71 @@
+{
+  "id": "tap-06-bai-12-rule-tango-rhythm-staccato-001",
+  "type": "rule",
+  "name": "Trong tiết điệu Tango, cả tay trái và tay phải đều cần nhả phím nhanh (staccato) để tạo độ nảy, dứt khoát và giữ đúng tí",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-12",
+    "locator": "06:00-13:45 pdf p.2",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Latin, Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "latin",
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Latin",
+        "Tango"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trong tiết điệu Tango, cả tay trái và tay phải đều cần nhả phím nhanh (staccato) để tạo độ nảy, dứt khoát và giữ đúng tính chất nhịp bước khiêu vũ của Tango.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_tango_rhythm_staccato_001",
+      "name": "Kỹ thuật ngắt tiếng Staccato trong đệm piano Tango",
+      "category": "rhythm_technique",
+      "description": "Trong tiết điệu Tango, cả tay trái và tay phải đều cần nhả phím nhanh (staccato) để tạo độ nảy, dứt khoát và giữ đúng tính chất nhịp bước khiêu vũ của Tango.",
+      "conditions": {
+        "style": "Tango",
+        "time_signature": "4/4"
+      },
+      "action": {
+        "left_hand": "Chơi nốt bass ngắn, nhả phím dứt khoát.",
+        "right_hand": "Đánh hợp âm ngắt tiếng (staccato chát chát)."
+      },
+      "examples": [
+        "Bài Tango Cho Em",
+        "Bài Tango Xa Rồi"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_12"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trong tiết điệu Tango, cả tay trái và tay phải đều cần nhả phím nhanh (staccato) để tạo độ nảy, dứt khoát và giữ đúng tính chất nhịp bước khiêu vũ của Tango."
+}

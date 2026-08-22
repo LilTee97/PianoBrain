@@ -1,0 +1,58 @@
+{
+  "id": "tap-01-bai-12-hai-piano-c1-b12-003",
+  "type": "concept",
+  "name": "Điệu Valse (Waltz) viết ở nhịp đơn 3/4, gồm 1 phách mạnh (phách 1) và 2 phách nhẹ (phách 2, 3)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-12",
+    "locator": "11:25-13:30 pdf p.5",
+    "media_id": "video_hai_piano_tap1_bai12",
+    "supporting": [
+      {
+        "source_id": "pdf_hoam_coban_tap1_bai11_15",
+        "page": 5,
+        "section": "BÀI 12 : TIẾT TẤU BOSANOVA & VALSE - B. VALSE"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C",
+    "Điệu / phong cách: Valse, Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "valse",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Điệu Valse (Waltz) viết ở nhịp đơn 3/4, gồm 1 phách mạnh (phách 1) và 2 phách nhẹ (phách 2, 3). Điệu Valse tạo cảm giác nhịp nhàng, vui tươi, ứng dụng nhiều trong nhạc trữ tình, thánh ca và nhạc ngoại quốc.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Valse",
+        "Waltz"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Điệu Valse (Waltz) viết ở nhịp đơn 3/4, gồm 1 phách mạnh (phách 1) và 2 phách nhẹ (phách 2, 3). Điệu Valse tạo cảm giác nhịp nhàng, vui tươi, ứng dụng nhiều trong nhạc trữ tình, thánh ca và nhạc ngoại quốc."
+}

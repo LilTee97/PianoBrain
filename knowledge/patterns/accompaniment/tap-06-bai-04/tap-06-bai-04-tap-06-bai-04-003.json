@@ -1,0 +1,108 @@
+{
+  "id": "tap-06-bai-04-tap-06-bai-04-003",
+  "type": "accompaniment",
+  "name": "Mẫu 1 (Fox cơ bản): Tay trái đánh nốt Bass ở phách 1 và phách 2 (nốt đen legatop), tay phải đánh hợp âm nảy staccato ở c",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-04",
+    "locator": "00:01:46-00:04:43 pdf p.1",
+    "media_id": "video_tap_06_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_04",
+        "page": 1,
+        "section": "Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am",
+    "Giọng: A minor",
+    "Điệu / phong cách: Fox"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am"
+    ],
+    "style": [
+      "fox"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1 (Fox cơ bản): Tay trái đánh nốt Bass ở phách 1 và phách 2 (nốt đen legatop), tay phải đánh hợp âm nảy staccato ở các tiết phách ngắt quãng (Bùm - Chát - Bùm - Chát).",
+    "music_entities": {
+      "chords": [
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Fox"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "E3",
+        "C4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "A2 (Phách 1)",
+          "E3 (Phách 2)"
+        ],
+        "right": [
+          "C4-E4-A4 (Staccato phách 1 và 2)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A2",
+          "E3",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2 (Phách 1)",
+            "E3 (Phách 2)"
+          ],
+          "right": [
+            "C4-E4-A4 (Staccato phách 1 và 2)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1 (Fox cơ bản): Tay trái đánh nốt Bass ở phách 1 và phách 2 (nốt đen legatop), tay phải đánh hợp âm nảy staccato ở các tiết phách ngắt quãng (Bùm - Chát - Bùm - Chát)."
+}

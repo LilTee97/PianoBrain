@@ -1,0 +1,42 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-example-g7-to-cmaj7",
+  "type": "solo_idea",
+  "name": "Câu lick G7 về Cmaj7: rải trên G7 rồi enclosure F-C#-D-D# đáp trúng E",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:06:30"
+  },
+  "use_when": [
+    "Chỗ chuyển từ hợp âm át về hợp âm chủ",
+    "Vòng ii-V-I"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "G7",
+      "Cmaj7"
+    ]
+  },
+  "output": {
+    "on_G7": "đi arpeggio quãng 9 hoặc hợp âm dẫn",
+    "enclosure": [
+      "F",
+      "C#",
+      "D",
+      "D#"
+    ],
+    "lands_on": {
+      "note": "E",
+      "when": "ngay đầu phách của hợp âm C"
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Trên G7 đi arpeggio quãng 9 hoặc hợp âm dẫn; chuẩn bị về Cmaj7 thì tung cụm enclosure F - C# - D - D# để đáp trúng nốt E ngay đầu phách của hợp âm C."
+}

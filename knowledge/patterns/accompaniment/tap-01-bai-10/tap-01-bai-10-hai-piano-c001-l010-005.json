@@ -1,0 +1,117 @@
+{
+  "id": "tap-01-bai-10-hai-piano-c001-l010-005",
+  "type": "accompaniment",
+  "name": "Tiết tấu Fox Kiểu B trong nhịp 2/4: Mô hình 'Bum - chát chát'",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-10",
+    "locator": "21:05:00-24:46:00 pdf p.9",
+    "media_id": "video_l10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap1_bai6_10",
+        "page": 9,
+        "section": "Fox - Kiểu B"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G",
+    "Giọng: C major",
+    "Gam: C major",
+    "Điệu / phong cách: Fox"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "fox"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Tiết tấu Fox Kiểu B trong nhịp 2/4: Mô hình 'Bum - chát chát'. Phách 1 tay trái đánh bass, phách phụ tay phải dập 2 nốt móc kép/móc đơn liên tiếp. Tạo âm hình đệm sôi nổi, nhảy múa cho các bài hát nhịp nhanh vui tươi.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Fox"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "E4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết tấu Fox Kiểu B trong nhịp 2/4: Mô hình 'Bum - chát chát'. Phách 1 tay trái đánh bass, phách phụ tay phải dập 2 nốt móc kép/móc đơn liên tiếp. Tạo âm hình đệm sôi nổi, nhảy múa cho các bài hát nhịp nhanh vui tươi."
+}

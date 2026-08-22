@@ -1,0 +1,92 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-006",
+  "type": "rule",
+  "name": "Khi nốt giai điệu là G, chọn hợp âm gốc F có G làm bậc 9: Fmaj79 (F-A-C-E-G), F9 (F-A-C-Eb-G), Fm79 (F-Ab-C-Eb-G), Fadd9",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:09:13-00:11:07 pdf p.7",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 7,
+        "section": "Cột G - Nốt G làm bậc 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj79, F9, Fm79, Fadd9",
+    "Giọng: C major, F major",
+    "Gam: Major, Minor",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj79",
+      "F9",
+      "Fm79",
+      "Fadd9"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Khi nốt giai điệu là G, chọn hợp âm gốc F có G làm bậc 9: Fmaj79 (F-A-C-E-G), F9 (F-A-C-Eb-G), Fm79 (F-Ab-C-Eb-G), Fadd9.",
+    "music_entities": {
+      "chords": [
+        "Fmaj79",
+        "F9",
+        "Fm79",
+        "Fadd9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major",
+        "F major"
+      ],
+      "scales": [
+        "Major",
+        "Minor"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fmaj79",
+      "notes": [
+        "F2",
+        "C3",
+        "A3",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3"
+        ],
+        "right": [
+          "A3",
+          "E4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu là G, chọn hợp âm gốc F có G làm bậc 9: Fmaj79 (F-A-C-E-G), F9 (F-A-C-Eb-G), Fm79 (F-Ab-C-Eb-G), Fadd9."
+}

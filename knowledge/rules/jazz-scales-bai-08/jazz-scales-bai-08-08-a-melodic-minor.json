@@ -1,0 +1,69 @@
+{
+  "id": "jazz-scales-bai-08-08-a-melodic-minor",
+  "type": "rule",
+  "name": "Over the minor vi chord in turnaround (F#m7b5 in key of A minor), play the Melodic Minor scale u",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-08",
+    "locator": "14:41-16:19",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F#m7(b5)",
+    "Chọn gam / scale khi gặp hợp âm m7(b5) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7(b5)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "A Melodic Minor",
+      "root": "A",
+      "note_names": [
+        "F#",
+        "G#",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [],
+      "use_when": [
+        "hợp âm F#m7(b5)"
+      ]
+    },
+    "chord_symbol": "F#m7(b5)",
+    "notes": [
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "source_text": "Over the minor vi chord in turnaround (F#m7b5 in key of A minor), play the Melodic Minor scale up a minor 3rd from the root (e.g., over F#m7b5, play A Melodic Minor). This creates F# Locrian #2."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 8 của nguồn Jazz Scales (YouTube), mốc 14:41-16:19. Over the minor vi chord in turnaround (F#m7b5 in key of A minor), play the Melodic Minor scale up a minor 3rd from the root (e.g., over F#m7b5, play A Melodic Minor). This creates F# Locrian #2. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

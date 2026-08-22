@@ -1,0 +1,85 @@
+{
+  "id": "tap-02-bai-11-rule-lh-9th-add9-arpeggio",
+  "type": "rule",
+  "name": "Đối với hợp âm 9/add9, sử dụng các chuỗi 1.5.9.3, 1.5.1.9.3.9 hoặc 1.5.9.5.3.5.1",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-11",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Arpeggio, Ballad, Ballad 3/4, Ballad 4/4, Classical/Pop, Contemporary Pop, Modern Ballad, Modern Jazz/Pop Ballad, Pop Ballad, Solo Piano, Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "arpeggio",
+      "pop_ballad",
+      "ballad",
+      "ballad-3-4",
+      "ballad-4-4",
+      "pop",
+      "classical-pop",
+      "contemporary-pop",
+      "modern-ballad",
+      "jazz",
+      "modern-jazz-pop-ballad",
+      "pop-ballad",
+      "solo-piano",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Arpeggio",
+        "Ballad",
+        "Ballad 3/4",
+        "Ballad 4/4",
+        "Classical/Pop",
+        "Contemporary Pop",
+        "Modern Ballad",
+        "Modern Jazz/Pop Ballad",
+        "Pop Ballad",
+        "Solo Piano",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Đối với hợp âm 9/add9, sử dụng các chuỗi 1.5.9.3, 1.5.1.9.3.9 hoặc 1.5.9.5.3.5.1. Bậc 9 đặt giữa quãng 5 và quãng 3 (ở quãng 8 trên) mang lại âm thanh trong trẻo, hiện đại.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_lh_9th_add9_arpeggio",
+      "title": "Mẫu rải tay trái cho Hợp âm 9 và Add9",
+      "type": "left_hand_pattern",
+      "description": "Đối với hợp âm 9/add9, sử dụng các chuỗi 1.5.9.3, 1.5.1.9.3.9 hoặc 1.5.9.5.3.5.1. Bậc 9 đặt giữa quãng 5 và quãng 3 (ở quãng 8 trên) mang lại âm thanh trong trẻo, hiện đại.",
+      "condition": {
+        "chord_type": "9th_or_add9"
+      },
+      "formula": "1 - 5 - 9 - 3 or 1 - 5 - 9 - 5 - 3 - 5 - 1",
+      "lesson_folder": "Tap_02_Bai_11"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Đối với hợp âm 9/add9, sử dụng các chuỗi 1.5.9.3, 1.5.1.9.3.9 hoặc 1.5.9.5.3.5.1. Bậc 9 đặt giữa quãng 5 và quãng 3 (ở quãng 8 trên) mang lại âm thanh trong trẻo, hiện đại."
+}

@@ -1,0 +1,32 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-shorten-to-three-and-two",
+  "type": "concept",
+  "name": "Rút bớt nốt từ khung bốn nốt thành enclosure ba nốt và hai nốt",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:04:45"
+  },
+  "use_when": [
+    "Chỗ trống ngắn không đủ bốn nốt",
+    "Muốn câu gọn hơn"
+  ],
+  "output": {
+    "variants": [
+      "4 nốt",
+      "3 nốt",
+      "2 nốt"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Rút bớt nốt từ mẫu bốn nốt sẽ tạo thành enclosure ba nốt (thường xuất phát từ nốt thang âm bên trên) và enclosure hai nốt (tiếp cận từ trên hoặc từ dưới).",
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  }
+}

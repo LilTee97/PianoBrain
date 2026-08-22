@@ -1,0 +1,141 @@
+{
+  "id": "tap-04-bai-01-lesson-id-00003",
+  "type": "fill",
+  "name": "Bài 1 - Câu 2: Mẫu câu lót nâng cao kết hợp giai điệu di chuyển giữa bậc 3 và bậc 5 (3rd & 5th degrees) của hợp âm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-01",
+    "locator": "00:06:45-00:08:15 pdf p.3",
+    "media_id": "video_tap_04_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 3,
+        "section": "Bài 1 - Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am7, Dm7, G7, C",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: 3rd degree, 5th degree",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am7",
+      "Dm7",
+      "G7",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bài 1 - Câu 2: Mẫu câu lót nâng cao kết hợp giai điệu di chuyển giữa bậc 3 và bậc 5 (3rd & 5th degrees) của hợp âm. Nét nhạc kết hợp đi lên/đi xuống liền bậc giúp tạo sự liên kết tự nhiên giữa các dịch chuyển hợp âm.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am7",
+        "Dm7",
+        "G7",
+        "C"
+      ],
+      "tensions": [
+        "3rd degree",
+        "5th degree"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C -> Am7 -> Dm7 -> G7",
+      "notes": [
+        "E",
+        "F",
+        "G",
+        "C",
+        "D",
+        "E"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3"
+        ],
+        "right": [
+          "E4",
+          "F4",
+          "G4",
+          "C5",
+          "B4",
+          "A4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C -> Am7 -> Dm7 -> G7",
+        "notes": [
+          "E",
+          "F",
+          "G",
+          "C",
+          "D",
+          "E"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "C3"
+          ],
+          "right": [
+            "E4",
+            "F4",
+            "G4",
+            "C5",
+            "B4",
+            "A4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 1 - Câu 2: Mẫu câu lót nâng cao kết hợp giai điệu di chuyển giữa bậc 3 và bậc 5 (3rd & 5th degrees) của hợp âm. Nét nhạc kết hợp đi lên/đi xuống liền bậc giúp tạo sự liên kết tự nhiên giữa các dịch chuyển hợp âm."
+}

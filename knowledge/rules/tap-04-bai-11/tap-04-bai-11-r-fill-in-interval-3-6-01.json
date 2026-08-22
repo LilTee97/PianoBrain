@@ -1,0 +1,66 @@
+{
+  "id": "tap-04-bai-11-r-fill-in-interval-3-6-01",
+  "type": "rule",
+  "name": "Khi đệm hợp âm đảo hoặc hòa âm bass đi xuống, dùng quãng 3 và quãng 6 bổ sung vào tay phải để câu lót mượt mà và ngâm gi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-11",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi đệm hợp âm đảo hoặc hòa âm bass đi xuống, dùng quãng 3 và quãng 6 bổ sung vào tay phải để câu lót mượt mà và ngâm giai điệu hay hơn.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_FILL_IN_INTERVAL_3_6_01",
+      "name": "Fill-in Melody using 3rd and 6th Intervals",
+      "description": "Khi đệm hợp âm đảo hoặc hòa âm bass đi xuống, dùng quãng 3 và quãng 6 bổ sung vào tay phải để câu lót mượt mà và ngâm giai điệu hay hơn.",
+      "domain": "voicing_and_fill",
+      "applied_conditions": {
+        "harmonic_context": "inverted_chords"
+      },
+      "musical_action": {
+        "right_hand": "use_intervals_3rd_and_6th"
+      },
+      "lesson_folder": "Tap_04_Bai_11"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Khi đệm hợp âm đảo hoặc hòa âm bass đi xuống, dùng quãng 3 và quãng 6 bổ sung vào tay phải để câu lót mượt mà và ngâm giai điệu hay hơn."
+}

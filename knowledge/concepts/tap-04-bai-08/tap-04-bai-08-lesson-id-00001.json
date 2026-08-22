@@ -1,0 +1,74 @@
+{
+  "id": "tap-04-bai-08-lesson-id-00001",
+  "type": "concept",
+  "name": "Hướng dẫn vòng hợp âm giọng thứ (A minor) trong nhịp Boston (3/4): i (Am) - v (Em) - iv (Dm) - i (Am) - ii° (Bm-5 / Bm7b",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-08",
+    "locator": "00:00:00-02:11:00 pdf p.37",
+    "media_id": "video_tap_04_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 37,
+        "section": "Bài 8 - Tổng quan Vòng Hợp Âm Giọng Thứ"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Em, Dm, Bm-5, E7",
+    "Giọng: Am",
+    "Gam: A natural minor, A harmonic minor",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Em",
+      "Dm",
+      "Bm-5",
+      "E7"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Hướng dẫn vòng hợp âm giọng thứ (A minor) trong nhịp Boston (3/4): i (Am) - v (Em) - iv (Dm) - i (Am) - ii° (Bm-5 / Bm7b5) - V7 (E7) - i (Am). Vòng này thường được dùng làm Intro, Outro, hoặc tạo câu lót/câu dẫn trong nhạc phẩm Boston điệu thứ.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Em",
+        "Dm",
+        "Bm-5",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A natural minor",
+        "A harmonic minor"
+      ],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am - Em - Dm - Am - Bm-5 - E7 - Am",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hướng dẫn vòng hợp âm giọng thứ (A minor) trong nhịp Boston (3/4): i (Am) - v (Em) - iv (Dm) - i (Am) - ii° (Bm-5 / Bm7b5) - V7 (E7) - i (Am). Vòng này thường được dùng làm Intro, Outro, hoặc tạo câu lót/câu dẫn trong nhạc phẩm Boston điệu thứ."
+}

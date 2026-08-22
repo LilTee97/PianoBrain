@@ -1,0 +1,26 @@
+{
+  "id": "charlie-enclosure-slip-recovery-unsure",
+  "type": "solo_idea",
+  "name": "Cách thoát khi bấm trượt vào nốt lạ — video không ký âm",
+  "difficulty": 4,
+  "source": null,
+  "use_when": [
+    "Ai tập enclosure và muốn biết chỗ này còn để ngỏ"
+  ],
+  "avoid_when": [
+    "Đừng trích item này như lời Charlie Tran — video không có ký âm nốt cố định"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "stage": "unsure",
+    "needs_human_review": true,
+    "source_hint": "charlie-tran-bebop-enclosure @ 00:13:36"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Ở mốc 00:13:36 tác giả diễn tấu nhanh phần thoát nốt khi bấm trượt vào nốt lạ, hoàn toàn ngẫu hứng thị phạm, không có ký âm nốt cố định. Vì vậy chỗ này chưa chốt được nốt nào. Đây là ghi chú suy ra, KHÔNG phải lời của Charlie Tran — item không mang nguồn."
+}

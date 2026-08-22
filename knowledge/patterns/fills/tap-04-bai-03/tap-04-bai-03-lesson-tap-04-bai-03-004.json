@@ -1,0 +1,135 @@
+{
+  "id": "tap-04-bai-03-lesson-tap-04-bai-03-004",
+  "type": "fill",
+  "name": "Mẫu câu lót số 3: Bổ sung hợp âm 7 (Am7, Em7, Fmaj7) và tuyến nốt bass đảo bậc 7/bậc 3 để tạo chiều sâu màu sắc hòa âm c",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-03",
+    "locator": "05:55-06:56 pdf p.14",
+    "media_id": "video_tap_04_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 14,
+        "section": "Bài 3 - Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am7, Em/G, Fmaj7, C/E, Dm7, G7",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: 7, maj7",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am7",
+      "Em/G",
+      "Fmaj7",
+      "C/E",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu câu lót số 3: Bổ sung hợp âm 7 (Am7, Em7, Fmaj7) và tuyến nốt bass đảo bậc 7/bậc 3 để tạo chiều sâu màu sắc hòa âm cho đoạn đệm.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am7",
+        "Em/G",
+        "Fmaj7",
+        "C/E",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [
+        "7",
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7",
+      "notes": [
+        "A2",
+        "E3",
+        "G3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "G3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am7",
+        "notes": [
+          "A2",
+          "E3",
+          "G3",
+          "C4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3"
+          ],
+          "right": [
+            "G3",
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 3: Bổ sung hợp âm 7 (Am7, Em7, Fmaj7) và tuyến nốt bass đảo bậc 7/bậc 3 để tạo chiều sâu màu sắc hòa âm cho đoạn đệm."
+}

@@ -1,0 +1,89 @@
+{
+  "id": "tap-03-bai-09-lesson-id-00004",
+  "type": "accompaniment",
+  "name": "Vắt ngón và dịch chuyển vị trí tay phải ở đoạn Điệp Khúc: Khi điệu nhạc đi lên từ nốt Đô4 lên nốt Sol4/La4, tay phải vắt",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-09",
+    "locator": "06:00-08:30 pdf p.8",
+    "media_id": "video_tap_03_bai_09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 8,
+        "section": "Đoạn B - Điệp khúc"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: F, G, C, Am, Dm, E7",
+    "Giọng: A minor"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "F",
+      "G",
+      "C",
+      "Am",
+      "Dm",
+      "E7"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Vắt ngón và dịch chuyển vị trí tay phải ở đoạn Điệp Khúc: Khi điệu nhạc đi lên từ nốt Đô4 lên nốt Sol4/La4, tay phải vắt ngón 1 hoặc ngón 3 linh hoạt để chuẩn bị cho tuyến giai điệu cao trào.",
+    "music_entities": {
+      "chords": [
+        "F",
+        "G",
+        "C",
+        "Am",
+        "Dm",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "F",
+      "notes": [
+        "C5",
+        "B4",
+        "A4",
+        "B4",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3",
+          "F3",
+          "A3"
+        ],
+        "right": [
+          "Finger 3",
+          "Finger 2",
+          "Finger 1",
+          "Finger 2",
+          "Finger 3",
+          "Finger 4",
+          "Cross thumb to E5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vắt ngón và dịch chuyển vị trí tay phải ở đoạn Điệp Khúc: Khi điệu nhạc đi lên từ nốt Đô4 lên nốt Sol4/La4, tay phải vắt ngón 1 hoặc ngón 3 linh hoạt để chuẩn bị cho tuyến giai điệu cao trào."
+}

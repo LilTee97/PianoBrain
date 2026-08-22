@@ -1,0 +1,28 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-scale-tone-sounds-inside",
+  "type": "concept",
+  "name": "Nốt trên cùng là nốt trong thang âm thì câu nghe êm (inside)",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:01:56"
+  },
+  "use_when": [
+    "Muốn enclosure nghe mượt, hợp tai người nghe phổ thông"
+  ],
+  "output": {
+    "top_note": "scale tone",
+    "color": "inside",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Muốn enclosure mang màu hòa thanh êm dịu, nốt khởi đầu hay nốt trên cùng nên là một nốt nằm trong thang âm.",
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  }
+}

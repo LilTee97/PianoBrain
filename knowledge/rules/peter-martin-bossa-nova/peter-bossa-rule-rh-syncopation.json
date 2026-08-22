@@ -1,0 +1,36 @@
+{
+  "id": "peter-bossa-rule-rh-syncopation",
+  "type": "rule",
+  "name": "Tay phải lo phần đảo phách và giữ groove",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "peter-martin",
+    "source_id": "peter-martin-bossa-nova",
+    "locator": "00:01:54"
+  },
+  "use_when": [
+    "Tay trái đã giữ khung phách 1 và 3",
+    "Muốn có chất bossa thật sự"
+  ],
+  "input": {
+    "style": [
+      "bossa_nova",
+      "latin"
+    ],
+    "hand": "RH"
+  },
+  "output": {
+    "if": "tay trái đã giữ khung nốt trắng phách 1 và 3",
+    "then": {
+      "rh": "gánh phần đảo phách (syncopation) và giữ groove"
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Phần đảo phách và groove là việc của tay phải. Tay trái chỉ giữ khung, tay phải mới là chỗ tạo ra chất bossa.",
+  "avoid_when": [
+    "Người học chưa giữ vững được khung tay trái thì đừng đảo phách tay phải vội"
+  ]
+}

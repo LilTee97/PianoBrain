@@ -1,0 +1,67 @@
+{
+  "id": "tap-01-bai-03-rh-inner-voice-motion-limit",
+  "type": "rule",
+  "name": "Khi chuyển hợp âm đệm hát, các nốt bè giữa tay phải không được nhảy xa quá 1 quãng 3 (Minor/Major 3rd) để giữ cho tuyến",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-03",
+    "locator": "00:00:36-00:06:27 pdf p.7",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi chuyển hợp âm đệm hát, các nốt bè giữa tay phải không được nhảy xa quá 1 quãng 3 (Minor/Major 3rd) để giữ cho tuyến hòa âm luôn êm ái, mượt mà.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rh_inner_voice_motion_limit",
+      "name": "Giới hạn di chuyển bè giữa tay phải dưới quãng 3",
+      "description": "Khi chuyển hợp âm đệm hát, các nốt bè giữa tay phải không được nhảy xa quá 1 quãng 3 (Minor/Major 3rd) để giữ cho tuyến hòa âm luôn êm ái, mượt mà.",
+      "applies_to": {
+        "hands": [
+          "right"
+        ],
+        "role": [
+          "accompaniment"
+        ]
+      },
+      "constraints": {
+        "max_voice_leading_interval_semitones": 4
+      },
+      "lesson_folder": "Tap_01_Bai_03"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi chuyển hợp âm đệm hát, các nốt bè giữa tay phải không được nhảy xa quá 1 quãng 3 (Minor/Major 3rd) để giữ cho tuyến hòa âm luôn êm ái, mượt mà."
+}

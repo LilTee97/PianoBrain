@@ -1,0 +1,74 @@
+{
+  "id": "tap-01-bai-12-hai-piano-c1-b12-007",
+  "type": "rule",
+  "name": "Nguyên tắc phối hợp biến tấu đệm hát nhịp 3/4: Đoạn A (Verse) dùng Kiểu 1 hoặc Kiểu 2 để không gian âm nhạc nhẹ nhàng, t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-12",
+    "locator": "22:38-24:47 pdf p.6",
+    "media_id": "video_hai_piano_tap1_bai12",
+    "supporting": [
+      {
+        "source_id": "pdf_hoam_coban_tap1_bai11_15",
+        "page": 6,
+        "section": "Kiểu 1, Kiểu 2, Kiểu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, Em, F, Dm, G",
+    "Giọng: C",
+    "Điệu / phong cách: Valse"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "Em",
+      "F",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "valse"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Nguyên tắc phối hợp biến tấu đệm hát nhịp 3/4: Đoạn A (Verse) dùng Kiểu 1 hoặc Kiểu 2 để không gian âm nhạc nhẹ nhàng, tĩnh lặng. Đoạn B (Chorus/Cao trào) chuyển sang Kiểu 3 (rải móc đơn liên tục) hoặc nhân đôi tiếng Bass để đẩy cảm xúc và tạo sự sống động cho bài hát.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "Em",
+        "F",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Valse"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nguyên tắc phối hợp biến tấu đệm hát nhịp 3/4: Đoạn A (Verse) dùng Kiểu 1 hoặc Kiểu 2 để không gian âm nhạc nhẹ nhàng, tĩnh lặng. Đoạn B (Chorus/Cao trào) chuyển sang Kiểu 3 (rải móc đơn liên tục) hoặc nhân đôi tiếng Bass để đẩy cảm xúc và tạo sự sống động cho bài hát."
+}

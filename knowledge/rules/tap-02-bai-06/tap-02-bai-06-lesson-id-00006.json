@@ -1,0 +1,95 @@
+{
+  "id": "tap-02-bai-06-lesson-id-00006",
+  "type": "rule",
+  "name": "Hợp âm Bảy Giảm (Diminished 7th - Bm07/Bdim7): Dùng trong chuỗi vòng hòa âm Quảng 4 hoặc chuyển tiếp quãng nửa cung để t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-06",
+    "locator": "00:22:28-00:27:19 pdf p.3",
+    "media_id": "video_tap_02_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 3,
+        "section": "Bm0-7 Dòng trong Vòng Hoà Âm Quảng 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bm07, F#m7-5, Bm7-5, E7, Am7, G#dim7",
+    "Giọng: Am, C",
+    "Điệu / phong cách: Jazz, Classic Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bm07",
+      "F#m7-5",
+      "Bm7-5",
+      "E7",
+      "Am7",
+      "G#dim7"
+    ],
+    "style": [
+      "jazz",
+      "pop",
+      "classic-pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Hợp âm Bảy Giảm (Diminished 7th - Bm07/Bdim7): Dùng trong chuỗi vòng hòa âm Quảng 4 hoặc chuyển tiếp quãng nửa cung để tạo mức độ gắt/căng cao nhất, sau đó bắt buộc hút giải tỏa về hợp âm thứ nhẹ nhàng hơn hoặc hợp âm Bảy Át. Chuỗi ví dụ: Cmaj7 -> F#m7-5 -> Bm7-5 -> E7 -> Am7.",
+    "music_entities": {
+      "chords": [
+        "Bm07",
+        "F#m7-5",
+        "Bm7-5",
+        "E7",
+        "Am7",
+        "G#dim7"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am",
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Jazz",
+        "Classic Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G#dim7 -> Am7",
+      "notes": [
+        "G#2",
+        "F3",
+        "B3",
+        "D4",
+        "A2",
+        "E3",
+        "G3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "G#2",
+          "A2"
+        ],
+        "right": [
+          "F3",
+          "B3",
+          "D4",
+          "E3",
+          "G3",
+          "C4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Bảy Giảm (Diminished 7th - Bm07/Bdim7): Dùng trong chuỗi vòng hòa âm Quảng 4 hoặc chuyển tiếp quãng nửa cung để tạo mức độ gắt/căng cao nhất, sau đó bắt buộc hút giải tỏa về hợp âm thứ nhẹ nhàng hơn hoặc hợp âm Bảy Át. Chuỗi ví dụ: Cmaj7 -> F#m7-5 -> Bm7-5 -> E7 -> Am7."
+}

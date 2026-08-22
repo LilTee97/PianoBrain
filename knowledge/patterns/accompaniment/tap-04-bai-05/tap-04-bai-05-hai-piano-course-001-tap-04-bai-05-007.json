@@ -1,0 +1,131 @@
+{
+  "id": "tap-04-bai-05-hai-piano-course-001-tap-04-bai-05-007",
+  "type": "exercise",
+  "name": "Bài 5 - Câu 5: Ứng dụng nâng cao tổng hợp các câu lót/câu dẫn trên vòng hòa âm quãng 4 vào đệm hát thực tế (ví dụ ca khú",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-05",
+    "locator": "00:08:29-00:10:14 pdf p.26",
+    "media_id": "video_tap_04_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 26,
+        "section": "Bài 5 - Câu 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm7, G7, Cmaj7, Fmaj7, Bm7b5, E7",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Nốt màu: 7, 9, 11",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm7",
+      "G7",
+      "Cmaj7",
+      "Fmaj7",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Bài 5 - Câu 5: Ứng dụng nâng cao tổng hợp các câu lót/câu dẫn trên vòng hòa âm quãng 4 vào đệm hát thực tế (ví dụ ca khúc 'Anh Cứ Đi Đi'). Kết hợp linh hoạt giữa fill-in 2 phách, 4 phách, Intro và Outro.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm7",
+        "G7",
+        "Cmaj7",
+        "Fmaj7",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [
+        "7",
+        "9",
+        "11"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A4",
+        "B4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "A4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A4",
+          "B4",
+          "C5",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3"
+          ],
+          "right": [
+            "A4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 5 - Câu 5: Ứng dụng nâng cao tổng hợp các câu lót/câu dẫn trên vòng hòa âm quãng 4 vào đệm hát thực tế (ví dụ ca khúc 'Anh Cứ Đi Đi'). Kết hợp linh hoạt giữa fill-in 2 phách, 4 phách, Intro và Outro."
+}

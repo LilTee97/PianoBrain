@@ -1,0 +1,116 @@
+{
+  "id": "tap-06-bai-01-tap-06-bai-01-item-004",
+  "type": "accompaniment",
+  "name": "Mẫu 2: Tăng cường tiết tấu móc kép ở tay trái (Bass line) mô phỏng tiếng đàn Bass Guitar trong bản phối chuyên nghiệp, t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-01",
+    "locator": "00:08:16-00:12:45 pdf p.2",
+    "media_id": "video_tap_06_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_01",
+        "page": 2,
+        "section": "Mẫu 2: Tiết Điệu 16 Beat Biến Tấu Tay Trái"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Am7, Dm7, G7",
+    "Giọng: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: 16 Beat Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Am7",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "pop",
+      "16-beat-pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 2: Tăng cường tiết tấu móc kép ở tay trái (Bass line) mô phỏng tiếng đàn Bass Guitar trong bản phối chuyên nghiệp, tạo tính liên tục và sôi động hơn cho câu nhạc.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Am7",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "16 Beat Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7(9)",
+      "notes": [
+        "A1",
+        "E2",
+        "G3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "A1 - E2 - A1 (móc kép phách 1 & 3)"
+        ],
+        "right": [
+          "Comping hợp âm nhịp nhàng theo tay trái"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am7(9)",
+        "notes": [
+          "A1",
+          "E2",
+          "G3",
+          "C4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A1 - E2 - A1 (móc kép phách 1 & 3)"
+          ],
+          "right": [
+            "Comping hợp âm nhịp nhàng theo tay trái"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 2: Tăng cường tiết tấu móc kép ở tay trái (Bass line) mô phỏng tiếng đàn Bass Guitar trong bản phối chuyên nghiệp, tạo tính liên tục và sôi động hơn cho câu nhạc."
+}

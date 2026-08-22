@@ -1,0 +1,73 @@
+{
+  "id": "jazz-scales-bai-07-02-d-dorian",
+  "type": "scale",
+  "name": "Gam D Dorian cho hợp âm Dm7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-07",
+    "locator": "01:08-02:27",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "D Dorian",
+      "root": "D",
+      "note_names": [
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "m7"
+      ],
+      "use_when": [
+        "hợp âm Dm7"
+      ]
+    },
+    "chord_symbol": "Dm7",
+    "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "source_text": "D Dorian mode is the default scale for improvising over Dm7 (iim7 in C Major). It consists of the same pitches as C Major starting on D (D E F G A B C D). None of these notes clash over Dm7, and adding E (9th) adds a colorful extension."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 7 của nguồn Jazz Scales (YouTube), mốc 01:08-02:27. D Dorian mode is the default scale for improvising over Dm7 (iim7 in C Major). It consists of the same pitches as C Major starting on D (D E F G A B C D). None of these notes clash over Dm7, and adding E (9th) adds a colorful extension. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

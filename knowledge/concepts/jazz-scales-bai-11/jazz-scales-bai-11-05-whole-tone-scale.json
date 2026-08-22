@@ -1,0 +1,43 @@
+{
+  "id": "jazz-scales-bai-11-05-whole-tone-scale",
+  "type": "concept",
+  "name": "Whole Tone Scale naturally harmonizes with Augmented Triads (Caug / C+) and Altered Dominant Sev",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-11",
+    "locator": "02:59-03:35",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Caug",
+    "Ngẫu hứng jazz trên hợp âm C7#5",
+    "Ngẫu hứng jazz trên hợp âm C7b5",
+    "Chọn gam / scale khi gặp hợp âm aug, 7#5, 7b5 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "aug",
+      "7#5",
+      "7b5"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Caug",
+    "notes": [
+      "C",
+      "E",
+      "G#"
+    ],
+    "source_text": "Whole Tone Scale naturally harmonizes with Augmented Triads (Caug / C+) and Altered Dominant Seventh chords (C7#5, C7b5, C7#11). The stacked major thirds within the scale outline augmented harmony effortlessly."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 11 của nguồn Jazz Scales (YouTube), mốc 02:59-03:35. Whole Tone Scale naturally harmonizes with Augmented Triads (Caug / C+) and Altered Dominant Seventh chords (C7#5, C7b5, C7#11). The stacked major thirds within the scale outline augmented harmony effortlessly. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

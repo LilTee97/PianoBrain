@@ -1,0 +1,82 @@
+{
+  "id": "tap-04-bai-01-rule-tap04-005",
+  "type": "rule",
+  "name": "Sử dụng nốt Bậc 9 để mở rộng không gian âm thanh cho câu dẫn.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-01",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: 16-bit, Ballad, Blues, Boston, Contemporary Ballad, Modern Ballad, Pop Ballad, Slow Rock, Smooth Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "16-bit",
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "blues",
+      "boston",
+      "pop",
+      "contemporary-ballad",
+      "modern-ballad",
+      "pop-ballad",
+      "slow-rock",
+      "smooth-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "16-bit",
+        "Ballad",
+        "Blues",
+        "Boston",
+        "Contemporary Ballad",
+        "Modern Ballad",
+        "Pop Ballad",
+        "Slow Rock",
+        "Smooth Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng nốt Bậc 9 để mở rộng không gian âm thanh cho câu dẫn.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Đưa nốt Bậc 9 vào đỉnh cao nhất hoặc nốt đệm của câu lót (D cho Cadd9, B cho Am9, E cho Dm9, A cho G9)."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_tap04_005",
+      "name": "Fill_Pattern_Degree_9_Extension",
+      "domain": "lead_in_and_fills",
+      "summary": "Sử dụng nốt Bậc 9 để mở rộng không gian âm thanh cho câu dẫn.",
+      "condition": "Đệm các bài hát có giai điệu không gian bay bổng, tinh tế.",
+      "action": "Đưa nốt Bậc 9 vào đỉnh cao nhất hoặc nốt đệm của câu lót (D cho Cadd9, B cho Am9, E cho Dm9, A cho G9).",
+      "explanation": "Bậc 9 tạo ra quãng 2 trưởng so với bậc 8 hoặc quãng 7 so với bậc 1, mang lại cảm giác sang trọng và bay bổng.",
+      "lesson_folder": "Tap_04_Bai_01"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Sử dụng nốt Bậc 9 để mở rộng không gian âm thanh cho câu dẫn."
+}

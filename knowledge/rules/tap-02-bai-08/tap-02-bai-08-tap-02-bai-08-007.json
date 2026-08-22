@@ -1,0 +1,93 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-007",
+  "type": "rule",
+  "name": "Khi nốt giai điệu là A, chọn hợp âm gốc G có A làm bậc 9: G9 (G-B-D-F-A), Gmaj79 (G-B-D-F#-A), Gm79 (G-Bb-D-F-A), Gadd9.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:11:07-00:12:24 pdf p.7",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 7,
+        "section": "Cột A - Nốt A làm bậc 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: G9, Gmaj79, Gm79, Gadd9",
+    "Giọng: C major, G major",
+    "Gam: Major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Pop, Ballad, Jazz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "G9",
+      "Gmaj79",
+      "Gm79",
+      "Gadd9"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "jazz"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Khi nốt giai điệu là A, chọn hợp âm gốc G có A làm bậc 9: G9 (G-B-D-F-A), Gmaj79 (G-B-D-F#-A), Gm79 (G-Bb-D-F-A), Gadd9.",
+    "music_entities": {
+      "chords": [
+        "G9",
+        "Gmaj79",
+        "Gm79",
+        "Gadd9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major",
+        "G major"
+      ],
+      "scales": [
+        "Major"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad",
+        "Jazz"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G9",
+      "notes": [
+        "G2",
+        "D3",
+        "B3",
+        "F4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "D3"
+        ],
+        "right": [
+          "B3",
+          "F4",
+          "A4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu là A, chọn hợp âm gốc G có A làm bậc 9: G9 (G-B-D-F-A), Gmaj79 (G-B-D-F#-A), Gm79 (G-Bb-D-F-A), Gadd9."
+}

@@ -1,0 +1,69 @@
+{
+  "id": "tap-03-bai-12-rule-hai-piano-pop-ballad-subdominant-intro",
+  "type": "rule",
+  "name": "Trong nhạc Pop Ballad điệu La thứ / Đô trưởng, bắt đầu câu Intro/Verse bằng hợp âm bậc IV (Fmaj7 hoặc Fadd9) tạo cảm giá",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-12",
+    "locator": "00:22:32-00:27:30 pdf p.14",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Chorus, Pop Ballad, Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-chorus",
+      "pop",
+      "pop-ballad",
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Chorus",
+        "Pop Ballad",
+        "Solo Piano"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trong nhạc Pop Ballad điệu La thứ / Đô trưởng, bắt đầu câu Intro/Verse bằng hợp âm bậc IV (Fmaj7 hoặc Fadd9) tạo cảm giác không gian mở và ngập ngừng cảm xúc.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_hai_piano_pop_ballad_subdominant_intro",
+      "description": "Trong nhạc Pop Ballad điệu La thứ / Đô trưởng, bắt đầu câu Intro/Verse bằng hợp âm bậc IV (Fmaj7 hoặc Fadd9) tạo cảm giác không gian mở và ngập ngừng cảm xúc.",
+      "domain": "harmony",
+      "origin": "extracted_from_lesson",
+      "confidence": "direct",
+      "associated_items": [
+        "tap_03_bai_12_002",
+        "tap_03_bai_12_004"
+      ],
+      "lesson_folder": "Tap_03_Bai_12"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trong nhạc Pop Ballad điệu La thứ / Đô trưởng, bắt đầu câu Intro/Verse bằng hợp âm bậc IV (Fmaj7 hoặc Fadd9) tạo cảm giác không gian mở và ngập ngừng cảm xúc."
+}

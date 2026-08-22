@@ -1,0 +1,68 @@
+{
+  "id": "tap-04-bai-06-r-intro-outro-application",
+  "type": "rule",
+  "name": "Ứng dụng vòng câu lót làm Intro / Outro",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-06",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Contemporary Pop, Slow, Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary-pop",
+      "slow",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Contemporary Pop",
+        "Slow",
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Ứng dụng vòng câu lót làm Intro / Outro",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_INTRO_OUTRO_APPLICATION",
+      "name": "Ứng dụng vòng câu lót làm Intro / Outro",
+      "category": "arrangement",
+      "condition": "Cần câu Intro hoặc Outro nhanh, chuẩn khuôn nhịp cho ca khúc giọng thứ.",
+      "recommendation": "Chơi trọn vẹn 1 vòng hòa âm 8 ô nhịp của mẫu câu lót (như Câu 2 hoặc Câu 5) để làm đoạn mở đầu (Intro) hoặc kết bài (Outro).",
+      "confidence": "direct",
+      "lesson_folder": "Tap_04_Bai_06"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Ứng dụng vòng câu lót làm Intro / Outro"
+}

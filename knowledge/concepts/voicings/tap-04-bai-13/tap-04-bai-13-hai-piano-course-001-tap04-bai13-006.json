@@ -1,0 +1,147 @@
+{
+  "id": "tap-04-bai-13-hai-piano-course-001-tap04-bai13-006",
+  "type": "voicing",
+  "name": "Mẫu câu 5: Tăng mật độ hòa âm lên 2 hợp âm trong 1 ô nhịp (2 phách/hợp âm) và dầy tiếng hơn (thicker voicing/octaves) để",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-13",
+    "locator": "08:48:00-10:32:00 pdf p.66",
+    "media_id": "video_tap_04_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 66,
+        "section": "Bài 13 - Câu 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am7, Dm7, G7, Fmaj7, Em7, Dm7, G7, C",
+    "Giọng: C major",
+    "Gam: C major diatonic",
+    "Nốt màu: 7th, 9th",
+    "Điệu / phong cách: Pop Ballad, Climax / Full Voicing"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am7",
+      "Dm7",
+      "G7",
+      "Fmaj7",
+      "Em7",
+      "Dm7",
+      "G7",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad",
+      "climax-full-voicing"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu câu 5: Tăng mật độ hòa âm lên 2 hợp âm trong 1 ô nhịp (2 phách/hợp âm) và dầy tiếng hơn (thicker voicing/octaves) để đẩy cao trào (climax) cho bài hát.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am7",
+        "Dm7",
+        "G7",
+        "Fmaj7",
+        "Em7",
+        "Dm7",
+        "G7",
+        "C"
+      ],
+      "tensions": [
+        "7th",
+        "9th"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major diatonic"
+      ],
+      "styles": [
+        "Pop Ballad",
+        "Climax / Full Voicing"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - Am7",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "B4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "C3"
+        ],
+        "right": [
+          "G3",
+          "C4",
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - Am7",
+        "notes": [
+          "C3",
+          "G3",
+          "C4",
+          "E4",
+          "G4",
+          "B4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "C3"
+          ],
+          "right": [
+            "G3",
+            "C4",
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 5: Tăng mật độ hòa âm lên 2 hợp âm trong 1 ô nhịp (2 phách/hợp âm) và dầy tiếng hơn (thicker voicing/octaves) để đẩy cao trào (climax) cho bài hát."
+}

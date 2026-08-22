@@ -1,0 +1,73 @@
+{
+  "id": "tap-02-bai-05-tap-02-bai-05-007",
+  "type": "rule",
+  "name": "Khi nốt giai điệu là nốt Son (G), có thể dùng hợp âm Am7, A7, Am7-5 hoặc Bb0-7 (A#m0-7) để nốt G đóng vai trò bậc 7.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": "12:06-13:36 pdf p.8",
+    "media_id": "video_tap_02_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 8,
+        "section": "Bảng Thang Âm Bậc 7 - Nốt G"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am7, A7, Am7-5, Bbm0-7",
+    "Giọng: C Major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am7",
+      "A7",
+      "Am7-5",
+      "Bbm0-7"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "harmony_rule",
+    "raw_text": "Khi nốt giai điệu là nốt Son (G), có thể dùng hợp âm Am7, A7, Am7-5 hoặc Bb0-7 (A#m0-7) để nốt G đóng vai trò bậc 7.",
+    "music_entities": {
+      "chords": [
+        "Am7",
+        "A7",
+        "Am7-5",
+        "Bbm0-7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "Am7",
+      "notes": [
+        "A1",
+        "E2",
+        "C3",
+        "G3"
+      ],
+      "hands": {
+        "left": [
+          "A1",
+          "E2"
+        ],
+        "right": [
+          "C3",
+          "G3"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu là nốt Son (G), có thể dùng hợp âm Am7, A7, Am7-5 hoặc Bb0-7 (A#m0-7) để nốt G đóng vai trò bậc 7."
+}

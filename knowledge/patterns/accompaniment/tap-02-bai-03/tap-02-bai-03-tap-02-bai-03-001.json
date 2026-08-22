@@ -1,0 +1,168 @@
+{
+  "id": "tap-02-bai-03-tap-02-bai-03-001",
+  "type": "accompaniment",
+  "name": "Đoạn trình diễn mở đầu minh họa cách ứng dụng các hợp âm thuộc Trưởng/Thứ Hòa thanh và Giai điệu vào các vòng hòa âm thự",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": "00:00:00-00:00:28 pdf p.4",
+    "media_id": "hai_piano_video_tap_02_bai_03",
+    "supporting": [
+      {
+        "source_id": "HOÀ ÂM NÂNG CAO ĐỆM HÁT TẬP 2 BÀI 1 - BÀI 5",
+        "page": 4,
+        "section": "Demo Performance"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Fm/C, G/B, Gm/Bb, Am, F#m-5, F, Em, Dm, Gsus4, G",
+    "Giọng: C major",
+    "Gam: C major, C harmonic major, C melodic major",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Fm/C",
+      "G/B",
+      "Gm/Bb",
+      "Am",
+      "F#m-5",
+      "F",
+      "Em",
+      "Dm",
+      "Gsus4",
+      "G"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Đoạn trình diễn mở đầu minh họa cách ứng dụng các hợp âm thuộc Trưởng/Thứ Hòa thanh và Giai điệu vào các vòng hòa âm thực tế trên đàn piano.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Fm/C",
+        "G/B",
+        "Gm/Bb",
+        "Am",
+        "F#m-5",
+        "F",
+        "Em",
+        "Dm",
+        "Gsus4",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major",
+        "C harmonic major",
+        "C melodic major"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - Fm/C - G/B - Gm/Bb - Am",
+      "notes": [
+        "C3",
+        "E4",
+        "G4",
+        "C5",
+        "F4",
+        "Ab4",
+        "B3",
+        "G4",
+        "D5",
+        "Bb3",
+        "G4",
+        "C5",
+        "A3",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "B3",
+          "Bb3",
+          "A3"
+        ],
+        "right": [
+          "E4-G4-C5",
+          "F4-Ab4-C5",
+          "G4-D5",
+          "G4-C5",
+          "E4-A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - Fm/C - G/B - Gm/Bb - Am",
+        "notes": [
+          "C3",
+          "E4",
+          "G4",
+          "C5",
+          "F4",
+          "Ab4",
+          "B3",
+          "G4",
+          "D5",
+          "Bb3",
+          "G4",
+          "C5",
+          "A3",
+          "E4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "B3",
+            "Bb3",
+            "A3"
+          ],
+          "right": [
+            "E4-G4-C5",
+            "F4-Ab4-C5",
+            "G4-D5",
+            "G4-C5",
+            "E4-A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Đoạn trình diễn mở đầu minh họa cách ứng dụng các hợp âm thuộc Trưởng/Thứ Hòa thanh và Giai điệu vào các vòng hòa âm thực tế trên đàn piano."
+}

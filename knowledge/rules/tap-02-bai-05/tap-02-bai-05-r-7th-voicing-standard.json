@@ -1,0 +1,68 @@
+{
+  "id": "tap-02-bai-05-r-7th-voicing-standard",
+  "type": "rule",
+  "name": "Khi đệm hợp âm 7 trên piano, tay trái chơi khung âm bậc 1-5, tay phải chơi cặp guide tone bậc 3-7 (hoặc 7-3) kết hợp bổ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Pop, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi đệm hợp âm 7 trên piano, tay trái chơi khung âm bậc 1-5, tay phải chơi cặp guide tone bậc 3-7 (hoặc 7-3) kết hợp bổ sung bậc 1 hoặc 5 làm nốt kết nối.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_7TH_VOICING_STANDARD",
+      "category": "voicing",
+      "description": "Khi đệm hợp âm 7 trên piano, tay trái chơi khung âm bậc 1-5, tay phải chơi cặp guide tone bậc 3-7 (hoặc 7-3) kết hợp bổ sung bậc 1 hoặc 5 làm nốt kết nối.",
+      "conditions": {
+        "chord_type": "7th_chords",
+        "style": "Pop/Ballad/Hymn"
+      },
+      "recommendation": "Left hand: [1, 5]; Right hand: [3, 7, (5/1)] or [7, 3, (5/1)].",
+      "source_ref": "tap_02_bai_05_003",
+      "lesson_folder": "Tap_02_Bai_05"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Khi đệm hợp âm 7 trên piano, tay trái chơi khung âm bậc 1-5, tay phải chơi cặp guide tone bậc 3-7 (hoặc 7-3) kết hợp bổ sung bậc 1 hoặc 5 làm nốt kết nối."
+}

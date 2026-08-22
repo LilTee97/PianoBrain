@@ -1,0 +1,70 @@
+{
+  "id": "tap-02-bai-02-rule-minor-iv-cadence-resolution",
+  "type": "rule",
+  "name": "Sử dụng hợp âm bậc iv thứ (thừa hưởng từ Trưởng Hòa Thanh/Giai Điệu) chèn ngay sau bậc IV trưởng trước khi giải kết về I",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-02",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng hợp âm bậc iv thứ (thừa hưởng từ Trưởng Hòa Thanh/Giai Điệu) chèn ngay sau bậc IV trưởng trước khi giải kết về I trưởng, tạo hiệu ứng âm thanh lắng đọng, trữ tình.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_minor_iv_cadence_resolution",
+      "title": "Chuyển đoạn kết F -> Fm -> C (IV -> iv -> I)",
+      "description": "Sử dụng hợp âm bậc iv thứ (thừa hưởng từ Trưởng Hòa Thanh/Giai Điệu) chèn ngay sau bậc IV trưởng trước khi giải kết về I trưởng, tạo hiệu ứng âm thanh lắng đọng, trữ tình.",
+      "progression": [
+        "IV",
+        "iv",
+        "I"
+      ],
+      "example_in_c": [
+        "F",
+        "Fm",
+        "C"
+      ],
+      "lesson_folder": "Tap_02_Bai_02"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Sử dụng hợp âm bậc iv thứ (thừa hưởng từ Trưởng Hòa Thanh/Giai Điệu) chèn ngay sau bậc IV trưởng trước khi giải kết về I trưởng, tạo hiệu ứng âm thanh lắng đọng, trữ tình."
+}

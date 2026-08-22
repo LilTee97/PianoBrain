@@ -1,0 +1,122 @@
+{
+  "id": "tap-06-bai-14-hai-piano-course-001-tap-06-bai-14-005",
+  "type": "accompaniment",
+  "name": "Mẫu 3 (Driving Reggae Pattern): Tay trái giữ phách đều 4 nốt đen mỗi ô nhịp (phách 1, 2, 3, 4) đi bass luân phiên bậc I",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-14",
+    "locator": "10:12-14:06 pdf p.2",
+    "media_id": "video_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 2,
+        "section": "Mẫu 3 - Full Reggae Driving Pattern"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, G, F",
+    "Giọng: C major",
+    "Điệu / phong cách: Reggae"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "G",
+      "F"
+    ],
+    "style": [
+      "reggae"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 3 (Driving Reggae Pattern): Tay trái giữ phách đều 4 nốt đen mỗi ô nhịp (phách 1, 2, 3, 4) đi bass luân phiên bậc I - V. Tay phải biến tấu âm hình tiết tấu giật chấm dôi/móc kép tạo động lực sôi động, dày dặn cho bài đệm cao trào.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "G",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Reggae"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C2",
+        "G2",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C2",
+          "G2 (4 phách đều nốt đen)"
+        ],
+        "right": [
+          "Âm hình nhịp chấm dôi giật dồn dập C4-E4-G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "G2",
+          "C2",
+          "G2",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "C2",
+            "G2 (4 phách đều nốt đen)"
+          ],
+          "right": [
+            "Âm hình nhịp chấm dôi giật dồn dập C4-E4-G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 3 (Driving Reggae Pattern): Tay trái giữ phách đều 4 nốt đen mỗi ô nhịp (phách 1, 2, 3, 4) đi bass luân phiên bậc I - V. Tay phải biến tấu âm hình tiết tấu giật chấm dôi/móc kép tạo động lực sôi động, dày dặn cho bài đệm cao trào."
+}

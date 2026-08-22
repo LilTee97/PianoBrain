@@ -1,0 +1,116 @@
+{
+  "id": "tap-06-bai-01-tap-06-bai-01-item-003",
+  "type": "accompaniment",
+  "name": "Mẫu 1: Tay trái giữ nhịp cơ bản với nốt BASS chính ở phách 1 và phách 3, kết hợp tiết tấu đảo phách đơn giản ở tay phải",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-01",
+    "locator": "00:04:10-00:08:15 pdf p.1",
+    "media_id": "video_tap_06_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_01",
+        "page": 1,
+        "section": "Mẫu 1: Tiết Điệu 16 Beat Cơ Bản"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Am7, Dm7, G7",
+    "Giọng: C major",
+    "Điệu / phong cách: 16 Beat"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Am7",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "16-beat"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1: Tay trái giữ nhịp cơ bản với nốt BASS chính ở phách 1 và phách 3, kết hợp tiết tấu đảo phách đơn giản ở tay phải để tạo cảm giác chugging nhẹ nhàng đặc trưng của 16 Beat.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Am7",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "16 Beat"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C2",
+        "G2",
+        "E4",
+        "G4",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "C2 (phách 1)",
+          "G2",
+          "C2 (phách 3)"
+        ],
+        "right": [
+          "Chập hợp âm phách 2, 4 và các phách phụ đảo nhịp"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C2",
+          "G2",
+          "E4",
+          "G4",
+          "B4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2 (phách 1)",
+            "G2",
+            "C2 (phách 3)"
+          ],
+          "right": [
+            "Chập hợp âm phách 2, 4 và các phách phụ đảo nhịp"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1: Tay trái giữ nhịp cơ bản với nốt BASS chính ở phách 1 và phách 3, kết hợp tiết tấu đảo phách đơn giản ở tay phải để tạo cảm giác chugging nhẹ nhàng đặc trưng của 16 Beat."
+}

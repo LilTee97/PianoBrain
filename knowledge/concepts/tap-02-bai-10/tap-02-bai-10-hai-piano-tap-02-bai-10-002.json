@@ -1,0 +1,76 @@
+{
+  "id": "tap-02-bai-10-hai-piano-tap-02-bai-10-002",
+  "type": "concept",
+  "name": "Khái niệm câu dẫn (transition phrase) trong hòa âm đệm hát: Sử dụng giai điệu nối giữa hai hợp âm chính để tạo sự liền m",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-10",
+    "locator": "00:00:36-02:08:00 pdf p.9",
+    "media_id": "tap_02_bai_10_video",
+    "supporting": [
+      {
+        "source_id": "tap_02_pdf_3",
+        "page": 9,
+        "section": "BÀI 10 : THỰC HÀNH CÂU DẪN"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, Dm7, Am7",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "Dm7",
+      "Am7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Khái niệm câu dẫn (transition phrase) trong hòa âm đệm hát: Sử dụng giai điệu nối giữa hai hợp âm chính để tạo sự liền mạch, kết hợp hợp âm màu (hợp âm 7, 9, hợp âm đảo) và giai điệu bậc hòa âm.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "Dm7",
+        "Am7"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C -> F",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khái niệm câu dẫn (transition phrase) trong hòa âm đệm hát: Sử dụng giai điệu nối giữa hai hợp âm chính để tạo sự liền mạch, kết hợp hợp âm màu (hợp âm 7, 9, hợp âm đảo) và giai điệu bậc hòa âm."
+}

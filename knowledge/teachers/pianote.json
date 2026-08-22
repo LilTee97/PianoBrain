@@ -1,0 +1,32 @@
+{
+  "id": "pianote",
+  "type": "teacher",
+  "name": "Pianote",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Người học hỏi về blues, shuffle, 12-bar form"
+  ],
+  "avoid_when": [
+    "Câu hỏi về ballad Việt — đó là phần của thầy Hải, không phải Pianote"
+  ],
+  "input": {
+    "style": [
+      "blues",
+      "pop_ballad"
+    ]
+  },
+  "output": {
+    "declared_focus": [
+      "blues",
+      "shuffle",
+      "12-bar form",
+      "walking bass ballad"
+    ],
+    "language": "en",
+    "ingested_sources": 2
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Kênh dạy piano tiếng Anh. Đây là nguồn thứ hai của kho, tách hẳn với thầy Hải Joseph. Mọi item của Pianote phải mang teacher_id 'pianote' và style 'blues' — không được trộn nhãn sang thầy Hải."
+}

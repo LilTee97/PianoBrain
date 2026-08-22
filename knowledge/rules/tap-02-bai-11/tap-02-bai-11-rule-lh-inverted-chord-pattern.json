@@ -1,0 +1,85 @@
+{
+  "id": "tap-02-bai-11-rule-lh-inverted-chord-pattern",
+  "type": "rule",
+  "name": "Khi gặp hợp âm đảo (như G/B, C/E), ngón út bấm nốt Bass đảo (coi là bậc 1 tương đối), rải theo công thức 1.6.3.6.3.6.3.6",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-11",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Arpeggio, Ballad, Ballad 3/4, Ballad 4/4, Classical/Pop, Contemporary Pop, Modern Ballad, Modern Jazz/Pop Ballad, Pop Ballad, Solo Piano, Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "arpeggio",
+      "pop_ballad",
+      "ballad",
+      "ballad-3-4",
+      "ballad-4-4",
+      "pop",
+      "classical-pop",
+      "contemporary-pop",
+      "modern-ballad",
+      "jazz",
+      "modern-jazz-pop-ballad",
+      "pop-ballad",
+      "solo-piano",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Arpeggio",
+        "Ballad",
+        "Ballad 3/4",
+        "Ballad 4/4",
+        "Classical/Pop",
+        "Contemporary Pop",
+        "Modern Ballad",
+        "Modern Jazz/Pop Ballad",
+        "Pop Ballad",
+        "Solo Piano",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi gặp hợp âm đảo (như G/B, C/E), ngón út bấm nốt Bass đảo (coi là bậc 1 tương đối), rải theo công thức 1.6.3.6.3.6.3.6.1 so với nốt Bass để giữ đúng tính chất hợp âm.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_lh_inverted_chord_pattern",
+      "title": "Mẫu rải tay trái cho Hợp âm Đảo (Slash Chords)",
+      "type": "left_hand_pattern",
+      "description": "Khi gặp hợp âm đảo (như G/B, C/E), ngón út bấm nốt Bass đảo (coi là bậc 1 tương đối), rải theo công thức 1.6.3.6.3.6.3.6.1 so với nốt Bass để giữ đúng tính chất hợp âm.",
+      "condition": {
+        "chord_structure": "inverted_slash_chord"
+      },
+      "formula": "1 - 6 - 3 - 6 - 3 - 6 - 3 - 6 - 1 (relative to bass)",
+      "lesson_folder": "Tap_02_Bai_11"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Khi gặp hợp âm đảo (như G/B, C/E), ngón út bấm nốt Bass đảo (coi là bậc 1 tương đối), rải theo công thức 1.6.3.6.3.6.3.6.1 so với nốt Bass để giữ đúng tính chất hợp âm."
+}

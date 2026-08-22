@@ -1,0 +1,147 @@
+{
+  "id": "tap-02-bai-03-tap-02-bai-03-003",
+  "type": "accompaniment",
+  "name": "Vòng 1: C - F#m-5 - F - Em - Am - Dm - G (hoặc Gsus4 - G) - C",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": "00:01:41-00:11:47 pdf p.4",
+    "media_id": "hai_piano_video_tap_02_bai_03",
+    "supporting": [
+      {
+        "source_id": "HOÀ ÂM NÂNG CAO ĐỆM HÁT TẬP 2 BÀI 1 - BÀI 5",
+        "page": 4,
+        "section": "Vòng 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F#m-5, F, Em, Am, Dm, Gsus4, G",
+    "Giọng: C major",
+    "Gam: A melodic minor, C major",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F#m-5",
+      "F",
+      "Em",
+      "Am",
+      "Dm",
+      "Gsus4",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Vòng 1: C - F#m-5 - F - Em - Am - Dm - G (hoặc Gsus4 - G) - C. Trong đó F#m-5 (F#m7b5 / F#dim) xuất hiện từ giọng Thứ giai điệu/Thứ hòa thanh đóng vai trò hợp âm dẫn ở phách nhẹ (phách 4) chuyển tiếp từ C/Em sang F.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F#m-5",
+        "F",
+        "Em",
+        "Am",
+        "Dm",
+        "Gsus4",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "A melodic minor",
+        "C major"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - F#m-5 - F",
+      "notes": [
+        "C3",
+        "E4",
+        "G4",
+        "C5",
+        "F#2",
+        "A3",
+        "C4",
+        "E4",
+        "F2",
+        "A3",
+        "C4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "F#2",
+          "F2"
+        ],
+        "right": [
+          "E4-G4-C5",
+          "A3-C4-E4",
+          "A3-C4-F4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - F#m-5 - F",
+        "notes": [
+          "C3",
+          "E4",
+          "G4",
+          "C5",
+          "F#2",
+          "A3",
+          "C4",
+          "E4",
+          "F2",
+          "A3",
+          "C4",
+          "F4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "F#2",
+            "F2"
+          ],
+          "right": [
+            "E4-G4-C5",
+            "A3-C4-E4",
+            "A3-C4-F4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng 1: C - F#m-5 - F - Em - Am - Dm - G (hoặc Gsus4 - G) - C. Trong đó F#m-5 (F#m7b5 / F#dim) xuất hiện từ giọng Thứ giai điệu/Thứ hòa thanh đóng vai trò hợp âm dẫn ở phách nhẹ (phách 4) chuyển tiếp từ C/Em sang F."
+}

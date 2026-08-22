@@ -1,0 +1,73 @@
+{
+  "id": "tap-04-bai-12-r-tension-9-in-minor-fills-001",
+  "type": "rule",
+  "name": "Sử dụng bậc 9 (Add9 / Minor 9) trong các hợp âm giọng Thứ tạo màu sắc tinh tế, hiện đại cho câu lót/câu dẫn mà không làm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-12",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Full Piano Arrangement, Hymn, Pop, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "full-piano-arrangement",
+      "hymn",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Full Piano Arrangement",
+        "Hymn",
+        "Pop",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng bậc 9 (Add9 / Minor 9) trong các hợp âm giọng Thứ tạo màu sắc tinh tế, hiện đại cho câu lót/câu dẫn mà không làm phá vỡ tính chất giọng Thứ.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TENSION_9_IN_MINOR_FILLS_001",
+      "name": "Tension 9 Application in Minor Fills",
+      "category": "tension_usage",
+      "description": "Sử dụng bậc 9 (Add9 / Minor 9) trong các hợp âm giọng Thứ tạo màu sắc tinh tế, hiện đại cho câu lót/câu dẫn mà không làm phá vỡ tính chất giọng Thứ.",
+      "conditions": {
+        "style": "modern_ballad",
+        "chord_family": "minor_or_major7"
+      },
+      "recommendation": "Đặt bậc 9 ở đầu câu lót hoặc giải kết về bậc 3/bậc 1.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_04_Bai_12"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Sử dụng bậc 9 (Add9 / Minor 9) trong các hợp âm giọng Thứ tạo màu sắc tinh tế, hiện đại cho câu lót/câu dẫn mà không làm phá vỡ tính chất giọng Thứ."
+}

@@ -1,0 +1,103 @@
+{
+  "id": "tap-02-bai-14-rule-chord-11-voicing-01",
+  "type": "rule",
+  "name": "Build a dominant 11th chord C7(9,11) by playing Root-5th in the left hand and the major triad built on the bVII degree (Bb major triad Bb-D-F) in the right hand.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:14:36-00:22:30 pdf p.7",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Giọng: any",
+    "Điệu / phong cách: Acoustic, Ballad, Dân ca, Jazz, Pop, Pop Ballad, Smooth Jazz, Thánh ca, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "acoustic",
+      "pop_ballad",
+      "ballad",
+      "d-n-ca",
+      "jazz",
+      "pop",
+      "pop-ballad",
+      "smooth-jazz",
+      "th-nh-ca",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": "any",
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Acoustic",
+        "Ballad",
+        "Dân ca",
+        "Jazz",
+        "Pop",
+        "Pop Ballad",
+        "Smooth Jazz",
+        "Thánh ca",
+        "Worship"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Build a dominant 11th chord C7(9,11) by playing Root-5th in the left hand and the major triad built on the bVII degree (Bb major triad Bb-D-F) in the right hand.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_CHORD_11_VOICING_01",
+      "name": "C7(9,11) Dominant 11th Upper Structure Triad Voicing",
+      "category": "voicing",
+      "summary": "Build a dominant 11th chord C7(9,11) by playing Root-5th in the left hand and the major triad built on the bVII degree (Bb major triad Bb-D-F) in the right hand.",
+      "conditions": {
+        "chord_type": "dominant_11th",
+        "key_context": "any"
+      },
+      "action": {
+        "left_hand": [
+          1,
+          5
+        ],
+        "right_hand": [
+          "b7",
+          9,
+          11
+        ]
+      },
+      "examples": [
+        {
+          "chord": "C7(9,11)",
+          "notes_lh": [
+            "C2",
+            "G2"
+          ],
+          "notes_rh": [
+            "Bb3",
+            "D4",
+            "F4"
+          ]
+        }
+      ],
+      "lesson_folder": "Tap_02_Bai_14"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Build a dominant 11th chord C7(9,11) by playing Root-5th in the left hand and the major triad built on the bVII degree (Bb major triad Bb-D-F) in the right hand."
+}

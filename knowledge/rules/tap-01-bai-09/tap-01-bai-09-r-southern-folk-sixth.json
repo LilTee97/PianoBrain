@@ -1,0 +1,70 @@
+{
+  "id": "tap-01-bai-09-r-southern-folk-sixth",
+  "type": "rule",
+  "name": "Trong thang âm ngũ cung Nam Bộ giọng Thứ (bậc 1-3-4-5-6), bậc 6 luôn là bậc 6 tự nhiên (nốt bình) chứ không phải bậc 6 g",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-09",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Dân ca, Folk Ballad, Folk Harmony, Hòa âm ngũ cung"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "d-n-ca",
+      "pop_ballad",
+      "folk-ballad",
+      "folk-harmony",
+      "h-a-m-ng-cung"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Dân ca",
+        "Folk Ballad",
+        "Folk Harmony",
+        "Hòa âm ngũ cung"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trong thang âm ngũ cung Nam Bộ giọng Thứ (bậc 1-3-4-5-6), bậc 6 luôn là bậc 6 tự nhiên (nốt bình) chứ không phải bậc 6 giáng của giọng thứ tự nhiên.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_SOUTHERN_FOLK_SIXTH",
+      "title": "Sử dụng Bậc 6 Tự nhiên trong Thang âm Dân ca Nam Bộ",
+      "category": "scale",
+      "description": "Trong thang âm ngũ cung Nam Bộ giọng Thứ (bậc 1-3-4-5-6), bậc 6 luôn là bậc 6 tự nhiên (nốt bình) chứ không phải bậc 6 giáng của giọng thứ tự nhiên.",
+      "conditions": {
+        "region": "Nam Bộ / Đờn ca tài tử",
+        "key_mode": "Minor"
+      },
+      "recommendation": "Trong Dm, thay nốt B♭ bằng nốt B bình (D - F - G - A - B).",
+      "lesson_folder": "Tap_01_Bai_09"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Trong thang âm ngũ cung Nam Bộ giọng Thứ (bậc 1-3-4-5-6), bậc 6 luôn là bậc 6 tự nhiên (nốt bình) chứ không phải bậc 6 giáng của giọng thứ tự nhiên."
+}

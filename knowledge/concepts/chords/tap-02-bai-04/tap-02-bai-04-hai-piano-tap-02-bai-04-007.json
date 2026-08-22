@@ -1,0 +1,92 @@
+{
+  "id": "tap-02-bai-04-hai-piano-tap-02-bai-04-007",
+  "type": "concept",
+  "name": "Hợp âm Thứ 7 Trưởng (Minor Major 7th - Ký hiệu Cm.Tam giác.7, CmΔ7, CmM7): Cấu tạo bởi 1 Hợp âm 3 thứ + Quãng 3 Trưởng (",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": "25:21:00-27:50:00 pdf p.7",
+    "media_id": "video_tap_02_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_book",
+        "page": 7,
+        "section": "6 Thứ 7 Trưởng"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: CmΔ7, AmΔ7, DmΔ7",
+    "Giọng: Am, Dm, Cm",
+    "Gam: Melodic Minor, Harmonic Minor",
+    "Nốt màu: 7",
+    "Điệu / phong cách: pop, soundtrack, ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "CmΔ7",
+      "AmΔ7",
+      "DmΔ7"
+    ],
+    "style": [
+      "pop",
+      "soundtrack",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hợp âm Thứ 7 Trưởng (Minor Major 7th - Ký hiệu Cm.Tam giác.7, CmΔ7, CmM7): Cấu tạo bởi 1 Hợp âm 3 thứ + Quãng 3 Trưởng (H.A.3t + Q3T). Hai âm ngoài cùng tạo thành Quãng 7 Trưởng (Q7T). Âm sắc huyền bí, màu sắc độc đáo, thường dùng trong tuyến bass gián đoạn hoặc hòa âm chuyển tiếp lấp khoảng trống (Line cliché: Am - AmΔ7 - Am7 - Am6).",
+    "music_entities": {
+      "chords": [
+        "CmΔ7",
+        "AmΔ7",
+        "DmΔ7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "Am",
+        "Dm",
+        "Cm"
+      ],
+      "scales": [
+        "Melodic Minor",
+        "Harmonic Minor"
+      ],
+      "styles": [
+        "pop",
+        "soundtrack",
+        "ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "AmΔ7",
+      "notes": [
+        "A3",
+        "C4",
+        "E4",
+        "G#4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G#4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Thứ 7 Trưởng (Minor Major 7th - Ký hiệu Cm.Tam giác.7, CmΔ7, CmM7): Cấu tạo bởi 1 Hợp âm 3 thứ + Quãng 3 Trưởng (H.A.3t + Q3T). Hai âm ngoài cùng tạo thành Quãng 7 Trưởng (Q7T). Âm sắc huyền bí, màu sắc độc đáo, thường dùng trong tuyến bass gián đoạn hoặc hòa âm chuyển tiếp lấp khoảng trống (Line cliché: Am - AmΔ7 - Am7 - Am6)."
+}

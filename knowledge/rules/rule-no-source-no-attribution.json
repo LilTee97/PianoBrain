@@ -1,0 +1,18 @@
+{
+  "id": "rule-no-source-no-attribution",
+  "type": "rule",
+  "name": "Không nguồn thì không được gán cho thầy",
+  "difficulty": 1,
+  "source": null,
+  "use_when": ["Mọi câu trả lời của Mr Hai"],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "if": "item có origin khác extracted",
+    "then": "cấm gán cho bất kỳ thầy nào, cấm bịa timestamp, phải hiện nhãn derived hoặc invented",
+    "enforced_by": "src/kb/validate.ts + src/tests/kb.test.ts"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Luật gốc chống bịa. Đây là lý do validator từ chối mọi item extracted trỏ tới source_id không có trong sources/index.json."
+}

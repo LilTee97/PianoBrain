@@ -1,0 +1,74 @@
+{
+  "id": "jazz-scales-bai-05-04-c-bebop-dominant",
+  "type": "rule",
+  "name": "Âm hình C Bebop Dominant Scale được tạo thành bằng cách thêm nốt Trưởng 7 (B natural) vào giữa n",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-05",
+    "locator": "03:05-03:57",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Chọn gam / scale khi gặp hợp âm 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Bebop Dominant",
+      "root": "C",
+      "note_names": [
+        "C",
+        "B",
+        "Bb",
+        "A",
+        "G",
+        "F",
+        "E",
+        "D"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11
+      ],
+      "for_qualities": [
+        "7"
+      ],
+      "use_when": [
+        "hợp âm C7"
+      ]
+    },
+    "chord_symbol": "C7",
+    "notes": [
+      "C",
+      "B",
+      "Bb",
+      "A",
+      "G",
+      "F",
+      "E",
+      "D"
+    ],
+    "source_text": "Âm hình C Bebop Dominant Scale được tạo thành bằng cách thêm nốt Trưởng 7 (B natural) vào giữa nốt b7 (Bb) và Root (C) của điệu Mixolydian, tạo thành âm giai 8 nốt: C - D - E - F - G - A - Bb - B. Khi bắt đầu từ một nốt hợp âm (Root, 3rd, 5th, b7th) ở phách mạnh, tất cả các nốt hợp âm (Chord Tones) đều rơi chính xác vào nhịp mạnh (downbeats 1, 2, 3, 4)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 5 của nguồn Jazz Scales (YouTube), mốc 03:05-03:57. Âm hình C Bebop Dominant Scale được tạo thành bằng cách thêm nốt Trưởng 7 (B natural) vào giữa nốt b7 (Bb) và Root (C) của điệu Mixolydian, tạo thành âm giai 8 nốt: C - D - E - F - G - A - Bb - B. Khi bắt đầu từ một nốt hợp âm (Root, 3rd, 5th, b7th) ở phách mạnh, tất cả các nốt hợp âm (Chord Tones) đều rơi chính xác vào nhịp mạnh (downbeats 1, 2, 3, 4). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

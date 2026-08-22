@@ -1,0 +1,20 @@
+{
+  "id": "color-l5-passing-dim",
+  "type": "chord_color",
+  "name": "Bảng màu 5 — dim7 nối và ii-V chèn",
+  "difficulty": 5,
+  "source": null,
+  "use_when": ["Bản phối nâng cao", "Cần bass đi từng nửa cung", "Chỗ nối giữa hai đoạn"],
+  "avoid_when": ["Nhịp quá nhanh không đủ chỗ", "Người hát chưa quen hòa âm dày"],
+  "input": { "progression": ["I", "vi", "IV", "V"], "key_context": "major", "style": ["jazz", "pop_ballad"], "difficulty_max": 5 },
+  "output": {
+    "qualities": { "I": "maj9", "vi": "m7", "IV": "maj7", "V": "13" },
+    "inserts": [
+      { "after": "vi", "chords": [{ "degree": "iii", "quality": "m7" }, { "degree": "VI", "quality": "7b9" }], "why_vi": "Chèn ii-V của IV: iii-m7 rồi VI7b9 kéo mạnh về IV." },
+      { "after": "IV", "chords": [{ "degree": "#IV", "quality": "dim7" }], "why_vi": "dim7 nối IV lên V, bass đi lên từng nửa cung IV - #IV - V." }
+    ]
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Hai thủ pháp nối cổ điển của nhạc nhẹ: ii-V mượn để vào hợp âm đích, và dim7 đi qua để bass bước nửa cung. Vòng dài ra 6 hợp âm nên chỉ dùng khi có chỗ."
+}

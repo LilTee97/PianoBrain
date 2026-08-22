@@ -1,0 +1,136 @@
+{
+  "id": "tap-04-bai-10-hai-piano-course-001-tap-04-bai-10-004",
+  "type": "voicing",
+  "name": "Mẫu câu lót 16-Beat số 3: Tích hợp hợp âm 7 (Am7, Dm7, Fmaj7, E7) tạo màu sắc sang trọng, mềm mại cho nét câu dẫn lót tr",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-10",
+    "locator": "00:06:31-00:08:15 pdf p.49",
+    "media_id": "video_tap_04_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 49,
+        "section": "Bài 10 - Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am7, Dm7, Fmaj7, E7",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Nốt màu: 7th, maj7",
+    "Điệu / phong cách: 16-Beat Pop/Jazz Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am7",
+      "Dm7",
+      "Fmaj7",
+      "E7"
+    ],
+    "style": [
+      "pop_ballad",
+      "jazz",
+      "pop",
+      "16-beat-pop-jazz-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Mẫu câu lót 16-Beat số 3: Tích hợp hợp âm 7 (Am7, Dm7, Fmaj7, E7) tạo màu sắc sang trọng, mềm mại cho nét câu dẫn lót trong hòa âm giọng thứ.",
+    "music_entities": {
+      "chords": [
+        "Am7",
+        "Dm7",
+        "Fmaj7",
+        "E7"
+      ],
+      "tensions": [
+        "7th",
+        "maj7"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "16-Beat Pop/Jazz Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fmaj7",
+      "notes": [
+        "F3",
+        "C4",
+        "E4",
+        "G4",
+        "A4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "A4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Fmaj7",
+        "notes": [
+          "F3",
+          "C4",
+          "E4",
+          "G4",
+          "A4",
+          "C5",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "C3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "A4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót 16-Beat số 3: Tích hợp hợp âm 7 (Am7, Dm7, Fmaj7, E7) tạo màu sắc sang trọng, mềm mại cho nét câu dẫn lót trong hòa âm giọng thứ."
+}

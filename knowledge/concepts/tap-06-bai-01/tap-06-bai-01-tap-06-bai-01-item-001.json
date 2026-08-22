@@ -1,0 +1,64 @@
+{
+  "id": "tap-06-bai-01-tap-06-bai-01-item-001",
+  "type": "concept",
+  "name": "Tiết điệu 16 Beat là tiết điệu ứng dụng rất phổ biến trong các ca khúc nhạc trẻ, nhạc nhẹ, Pop Ballad và Nhạc Thánh Ca V",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-01",
+    "locator": "00:00:30-00:03:05 pdf p.1",
+    "media_id": "video_tap_06_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_01",
+        "page": 1,
+        "section": "Tổng quan bài học"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Điệu / phong cách: Pop Ballad, 16 Beat, Thánh ca, Nhạc nhẹ"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad",
+      "16-beat",
+      "th-nh-ca",
+      "nh-c-nh"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Tiết điệu 16 Beat là tiết điệu ứng dụng rất phổ biến trong các ca khúc nhạc trẻ, nhạc nhẹ, Pop Ballad và Nhạc Thánh Ca Việt Nam. Tiết điệu này giúp phần đệm đàn trở nên hiện đại, linh hoạt và phong phú hơn so với các nhịp 4/4 truyền thống.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad",
+        "16 Beat",
+        "Thánh ca",
+        "Nhạc nhẹ"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết điệu 16 Beat là tiết điệu ứng dụng rất phổ biến trong các ca khúc nhạc trẻ, nhạc nhẹ, Pop Ballad và Nhạc Thánh Ca Việt Nam. Tiết điệu này giúp phần đệm đàn trở nên hiện đại, linh hoạt và phong phú hơn so với các nhịp 4/4 truyền thống."
+}

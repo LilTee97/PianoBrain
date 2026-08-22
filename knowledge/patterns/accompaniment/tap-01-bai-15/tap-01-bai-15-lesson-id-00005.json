@@ -1,0 +1,93 @@
+{
+  "id": "tap-01-bai-15-lesson-id-00005",
+  "type": "accompaniment",
+  "name": "Khi sáng tác đoạn Intro/Outro hoặc Solo ngẫu hứng, nên áp dụng các vòng hòa âm chuẩn như 1-4-6-5-1 hoặc 4-3-2-5-1 (ở giọ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-15",
+    "locator": "14:28-17:30 pdf p.11",
+    "media_id": "Tap_01_Bai_15",
+    "supporting": [
+      {
+        "source_id": "Tap_01_Bai_11_15_PDF",
+        "page": 11,
+        "section": "Mục 5 - Vòng hoà âm đặc trưng"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Gm, Cm, Eb, D7",
+    "Giọng: G minor, C major",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Intro, Outro, Solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Gm",
+      "Cm",
+      "Eb",
+      "D7"
+    ],
+    "style": [
+      "intro",
+      "outro",
+      "solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Khi sáng tác đoạn Intro/Outro hoặc Solo ngẫu hứng, nên áp dụng các vòng hòa âm chuẩn như 1-4-6-5-1 hoặc 4-3-2-5-1 (ở giọng Thứ: i - iv - VI - V7 - i). Việc kết hợp vòng hòa âm chuẩn với nét giai điệu mô-típ giúp tạo nên cấu trúc âm nhạc logic và chuyên nghiệp.",
+    "music_entities": {
+      "chords": [
+        "Gm",
+        "Cm",
+        "Eb",
+        "D7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "G minor",
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Intro",
+        "Outro",
+        "Solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Gm - Cm - Eb - D7 - Gm",
+      "notes": [
+        "G2",
+        "C3",
+        "Eb3",
+        "D3",
+        "G3",
+        "Bb3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "C3",
+          "Eb3",
+          "D3"
+        ],
+        "right": [
+          "G3",
+          "Bb3",
+          "D4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi sáng tác đoạn Intro/Outro hoặc Solo ngẫu hứng, nên áp dụng các vòng hòa âm chuẩn như 1-4-6-5-1 hoặc 4-3-2-5-1 (ở giọng Thứ: i - iv - VI - V7 - i). Việc kết hợp vòng hòa âm chuẩn với nét giai điệu mô-típ giúp tạo nên cấu trúc âm nhạc logic và chuyên nghiệp."
+}

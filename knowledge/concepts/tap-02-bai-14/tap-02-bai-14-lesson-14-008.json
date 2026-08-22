@@ -1,0 +1,95 @@
+{
+  "id": "tap-02-bai-14-lesson-14-008",
+  "type": "concept",
+  "name": "Phân biệt Hợp âm 6 (6th chord) và Hợp âm 13 (13th chord): Bậc 6 và Bậc 13 cùng là một nốt trong thang âm tự nhiên, nhưng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:22:31-00:27:30 pdf p.6",
+    "media_id": "video_tap_02_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 6,
+        "section": "G6"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: G6, C6, Fm6, Gm6, Am6",
+    "Giọng: C major, G major",
+    "Nốt màu: 6",
+    "Điệu / phong cách: Pop, Acoustic, Jazz, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "G6",
+      "C6",
+      "Fm6",
+      "Gm6",
+      "Am6"
+    ],
+    "style": [
+      "pop",
+      "acoustic",
+      "jazz",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Phân biệt Hợp âm 6 (6th chord) và Hợp âm 13 (13th chord): Bậc 6 và Bậc 13 cùng là một nốt trong thang âm tự nhiên, nhưng Hợp âm 6 dựa trên nền tam diện (Triad + bậc 6, không cần bậc 7), trong khi Hợp âm 13 là hợp âm 7 mở rộng đầy đủ. Hợp âm IVm6 (như Fm6) rất phổ biến ở đoạn kết mắng tính nhẹ nhàng.",
+    "music_entities": {
+      "chords": [
+        "G6",
+        "C6",
+        "Fm6",
+        "Gm6",
+        "Am6"
+      ],
+      "tensions": [
+        "6"
+      ],
+      "keys": [
+        "C major",
+        "G major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop",
+        "Acoustic",
+        "Jazz",
+        "Thánh ca"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fm6",
+      "notes": [
+        "F2",
+        "C3",
+        "Ab3",
+        "C4",
+        "D4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3"
+        ],
+        "right": [
+          "Ab3",
+          "C4",
+          "D4",
+          "F4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phân biệt Hợp âm 6 (6th chord) và Hợp âm 13 (13th chord): Bậc 6 và Bậc 13 cùng là một nốt trong thang âm tự nhiên, nhưng Hợp âm 6 dựa trên nền tam diện (Triad + bậc 6, không cần bậc 7), trong khi Hợp âm 13 là hợp âm 7 mở rộng đầy đủ. Hợp âm IVm6 (như Fm6) rất phổ biến ở đoạn kết mắng tính nhẹ nhàng."
+}

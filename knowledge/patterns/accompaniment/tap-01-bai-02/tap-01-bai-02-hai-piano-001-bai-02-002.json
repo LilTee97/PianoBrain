@@ -1,0 +1,115 @@
+{
+  "id": "tap-01-bai-02-hai-piano-001-bai-02-002",
+  "type": "accompaniment",
+  "name": "Ballad Kiểu 1: Tay trái giữ nốt Bass và nốt Quãng 5 (Bậc 1 + Bậc 5) ngân dài nốt tròn (4 phách trong nhịp 4/4)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-02",
+    "locator": "02:58-04:08 pdf p.6",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 6,
+        "section": "BALLAD KIỂU 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G",
+    "Giọng: C major",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Ballad Kiểu 1: Tay trái giữ nốt Bass và nốt Quãng 5 (Bậc 1 + Bậc 5) ngân dài nốt tròn (4 phách trong nhịp 4/4). Tay phải đánh nốt đen nhịp nhàng 4 phách trong ô nhịp với thể bấm gần nhất.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "G2",
+          "C4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ballad Kiểu 1: Tay trái giữ nốt Bass và nốt Quãng 5 (Bậc 1 + Bậc 5) ngân dài nốt tròn (4 phách trong nhịp 4/4). Tay phải đánh nốt đen nhịp nhàng 4 phách trong ô nhịp với thể bấm gần nhất."
+}

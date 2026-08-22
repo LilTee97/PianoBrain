@@ -1,0 +1,72 @@
+{
+  "id": "tap-04-bai-13-rule-hp-subdominant-turnaround-fill",
+  "type": "rule",
+  "name": "Ở ô nhịp giải kết cuối cùng của câu dẫn, có thể chia đôi ô nhịp chèn ii - V (Dm - G7) để làm đà dẫn vào phách 1 của phiê",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-13",
+    "locator": "04:05:00-04:40:00 pdf p.62",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Climax / Full Voicing, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "climax-full-voicing",
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Climax / Full Voicing",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Ở ô nhịp giải kết cuối cùng của câu dẫn, có thể chia đôi ô nhịp chèn ii - V (Dm - G7) để làm đà dẫn vào phách 1 của phiên khúc chính (Verse).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_hp_subdominant_turnaround_fill",
+      "title": "Chèn bước đệm 2-5 phụ ở ô nhịp chuyển câu",
+      "category": "lead_in_fill",
+      "description": "Ở ô nhịp giải kết cuối cùng của câu dẫn, có thể chia đôi ô nhịp chèn ii - V (Dm - G7) để làm đà dẫn vào phách 1 của phiên khúc chính (Verse).",
+      "applicability": {
+        "keys": [
+          "Major"
+        ]
+      },
+      "conditions": {
+        "target_chord": "I (Tonic)",
+        "prep_chords": [
+          "ii",
+          "V7"
+        ]
+      },
+      "lesson_folder": "Tap_04_Bai_13"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ở ô nhịp giải kết cuối cùng của câu dẫn, có thể chia đôi ô nhịp chèn ii - V (Dm - G7) để làm đà dẫn vào phách 1 của phiên khúc chính (Verse)."
+}

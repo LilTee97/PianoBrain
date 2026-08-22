@@ -1,0 +1,93 @@
+{
+  "id": "tap-02-bai-13-lesson-id-00002",
+  "type": "concept",
+  "name": "Vòng hợp âm 1: C9 - Dm7-5 - C9 - G/B - Gm/Bb - F/A - G/B - C9",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-13",
+    "locator": "01:41:00-03:07:00 pdf p.4",
+    "media_id": "Tap_02_Bai_13.mp4",
+    "supporting": [
+      {
+        "source_id": "PDF_Tap_2_Bai_11_15.pdf",
+        "page": 4,
+        "section": "Vòng 1: C9.Dm7-5.C9.G/B.Gm/Bb.F/A.G/B.C9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, Dm7-5, G/B, Gm/Bb, F/A",
+    "Giọng: C major",
+    "Gam: C Major, C Harmonic Minor",
+    "Nốt màu: 9, b5, m7",
+    "Điệu / phong cách: Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "Dm7-5",
+      "G/B",
+      "Gm/Bb",
+      "F/A"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Vòng hợp âm 1: C9 - Dm7-5 - C9 - G/B - Gm/Bb - F/A - G/B - C9. Đường bass di chuyển đi lên rồi đi xuống liền bậc (C - D - C - B - Bb - A - B - C) tạo sự uyển chuyển hòa âm.",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "Dm7-5",
+        "G/B",
+        "Gm/Bb",
+        "F/A"
+      ],
+      "tensions": [
+        "9",
+        "b5",
+        "m7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major",
+        "C Harmonic Minor"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm7-5",
+      "notes": [
+        "D3",
+        "F3",
+        "Ab3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "D3"
+        ],
+        "right": [
+          "F3",
+          "Ab3",
+          "C4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hợp âm 1: C9 - Dm7-5 - C9 - G/B - Gm/Bb - F/A - G/B - C9. Đường bass di chuyển đi lên rồi đi xuống liền bậc (C - D - C - B - Bb - A - B - C) tạo sự uyển chuyển hòa âm."
+}

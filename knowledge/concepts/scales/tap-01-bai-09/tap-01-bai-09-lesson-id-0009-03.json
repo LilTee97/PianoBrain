@@ -1,0 +1,98 @@
+{
+  "id": "tap-01-bai-09-lesson-id-0009-03",
+  "type": "scale",
+  "name": "Thang âm Tây Nguyên xây dựng trên giọng Trưởng gồm các bậc 1 - 3 - 4 - 5 - 7 - 1",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-09",
+    "locator": "10:26-15:40 pdf p.15",
+    "media_id": "Tap_01_Bai_09.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_01_Bai_06_10.pdf",
+        "page": 15,
+        "section": "2. THANH ÂM TÂY NGUYÊN"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C",
+    "Gam: Tây Nguyên Pentatonic, Thang âm Tây Nguyên",
+    "Điệu / phong cách: Tây Nguyên, Folk"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "t-y-nguy-n",
+      "folk"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Thang âm Tây Nguyên xây dựng trên giọng Trưởng gồm các bậc 1 - 3 - 4 - 5 - 7 - 1. Ví dụ trên C Trưởng gồm C - E - F - G - B - C. Đặc đặc trưng là giai điệu khoáng đạt, hào hùng. Khi thể hiện bằng piano, áp dụng kỹ thuật đánh quãng 8, tremolo vây rải mô phỏng tiếng đàn T'rưng và sử dụng nốt tô điểm (grace notes/appoggiatura).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [
+        "Tây Nguyên Pentatonic",
+        "Thang âm Tây Nguyên"
+      ],
+      "styles": [
+        "Tây Nguyên",
+        "Folk"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C",
+        "E",
+        "F",
+        "G",
+        "B"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "C5",
+          "E5",
+          "F5",
+          "G5",
+          "B5",
+          "C6"
+        ]
+      }
+    },
+    "scale": {
+      "name": "Thang âm Tây Nguyên xây dựng trên giọng Trưởng gồm các bậc 1",
+      "root": "C",
+      "note_names": [
+        "C",
+        "E",
+        "F",
+        "G",
+        "B"
+      ],
+      "semitones_from_root": [
+        0,
+        4,
+        5,
+        7,
+        11
+      ],
+      "for_qualities": [],
+      "review": "rà tay từ raw_text: Thang âm Tây Nguyên trên giọng Trưởng bậc 1 - 3 - 4 - 5 - 7; ví dụ C Trưởng gồm C - E - F - G - B"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thang âm Tây Nguyên xây dựng trên giọng Trưởng gồm các bậc 1 - 3 - 4 - 5 - 7 - 1. Ví dụ trên C Trưởng gồm C - E - F - G - B - C. Đặc đặc trưng là giai điệu khoáng đạt, hào hùng. Khi thể hiện bằng piano, áp dụng kỹ thuật đánh quãng 8, tremolo vây rải mô phỏng tiếng đàn T'rưng và sử dụng nốt tô điểm (grace notes/appoggiatura)."
+}

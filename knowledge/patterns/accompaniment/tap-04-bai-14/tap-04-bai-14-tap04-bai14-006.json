@@ -1,0 +1,114 @@
+{
+  "id": "tap-04-bai-14-tap04-bai14-006",
+  "type": "exercise",
+  "name": "Mẫu câu 5 (Bài 14): Phong cách Pro hòa âm đầy đủ (Full Voicing) kết hợp các bậc 3, 5, 7, 9, sus4 và altered chord cho cả",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-14",
+    "locator": "00:08:50-00:09:50 pdf p.71",
+    "media_id": "video_tap04_bai14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04_75_mau_cau_lot",
+        "page": 71,
+        "section": "Bài 14 - Câu 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm9, Gm9, Csus4, C7, Fmaj9, Bbsus2, A7sus4, A7b9",
+    "Giọng: D minor",
+    "Gam: D harmonic minor, D natural minor",
+    "Nốt màu: 7th, 9th, sus4, b9",
+    "Điệu / phong cách: Pro Ballad, Pop Classical"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm9",
+      "Gm9",
+      "Csus4",
+      "C7",
+      "Fmaj9",
+      "Bbsus2",
+      "A7sus4",
+      "A7b9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pro-ballad",
+      "pop",
+      "pop-classical"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu 5 (Bài 14): Phong cách Pro hòa âm đầy đủ (Full Voicing) kết hợp các bậc 3, 5, 7, 9, sus4 và altered chord cho cả đoạn điệp khúc/đoạn đệm lót cao trào.",
+    "music_entities": {
+      "chords": [
+        "Dm9",
+        "Gm9",
+        "Csus4",
+        "C7",
+        "Fmaj9",
+        "Bbsus2",
+        "A7sus4",
+        "A7b9"
+      ],
+      "tensions": [
+        "7th",
+        "9th",
+        "sus4",
+        "b9"
+      ],
+      "keys": [
+        "D minor"
+      ],
+      "scales": [
+        "D harmonic minor",
+        "D natural minor"
+      ],
+      "styles": [
+        "Pro Ballad",
+        "Pop Classical"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "A7sus4 - A7b9 - Dm9",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "A7sus4 - A7b9 - Dm9",
+        "notes": [],
+        "rhythm": [],
+        "hands": {
+          "left": [],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 5 (Bài 14): Phong cách Pro hòa âm đầy đủ (Full Voicing) kết hợp các bậc 3, 5, 7, 9, sus4 và altered chord cho cả đoạn điệp khúc/đoạn đệm lót cao trào."
+}

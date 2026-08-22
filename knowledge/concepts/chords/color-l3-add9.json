@@ -1,0 +1,17 @@
+{
+  "id": "color-l3-add9",
+  "type": "chord_color",
+  "name": "Bảng màu 3 — mở bậc 9 và sus",
+  "difficulty": 3,
+  "source": null,
+  "use_when": ["Ballad cần rộng và bay", "Intro / outro rải"],
+  "avoid_when": ["Giai điệu đang hát đúng nốt bậc 9 nghịch với hợp âm", "Đệm cho giọng trầm dày"],
+  "input": { "progression": ["I", "vi", "IV", "V"], "key_context": "major", "style": ["pop_ballad", "pop"], "difficulty_max": 4 },
+  "output": {
+    "qualities": { "I": "maj9", "vi": "m9", "IV": "maj9", "V": "7sus4" },
+    "inserts": []
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Bậc 9 làm hợp âm rộng ra mà không đổi chức năng. V7sus4 hoãn nốt bậc 3, giữ căng thẳng thêm một nhịp trước khi về I."
+}

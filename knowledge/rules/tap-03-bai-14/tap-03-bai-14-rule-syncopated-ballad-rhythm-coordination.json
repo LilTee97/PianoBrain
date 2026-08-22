@@ -1,0 +1,81 @@
+{
+  "id": "tap-03-bai-14-rule-syncopated-ballad-rhythm-coordination",
+  "type": "rule",
+  "name": "For syncopated melody notes ('chồm phách'), ensure the left-hand quarter/eighth note grid acts as a steady metronomic an",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-14",
+    "locator": "05:52:00-10:03:00 pdf p.17",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Syncopation, Piano Solo, Pop, Pop Ballad, Pop Ballad Chorus, Solo Piano Voicing"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-syncopation",
+      "piano-solo",
+      "pop",
+      "pop-ballad",
+      "pop-ballad-chorus",
+      "solo-piano-voicing"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Syncopation",
+        "Piano Solo",
+        "Pop",
+        "Pop Ballad",
+        "Pop Ballad Chorus",
+        "Solo Piano Voicing"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "For syncopated melody notes ('chồm phách'), ensure the left-hand quarter/eighth note grid acts as a steady metronomic anchor while the right hand strikes precisely on the off-beat, maintaining smooth pedal changes on beat 1.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Keep left hand steady on main beats while right hand hits anticipatory off-beats; change pedal cleanly at chord transitions."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_syncopated_ballad_rhythm_coordination",
+      "name": "Hands Coordination on Syncopated Off-Beat Notes",
+      "description": "For syncopated melody notes ('chồm phách'), ensure the left-hand quarter/eighth note grid acts as a steady metronomic anchor while the right hand strikes precisely on the off-beat, maintaining smooth pedal changes on beat 1.",
+      "type": "rhythm",
+      "domain": "hands_coordination",
+      "conditions": {
+        "rhythmic_pattern": "syncopation"
+      },
+      "action": "Keep left hand steady on main beats while right hand hits anticipatory off-beats; change pedal cleanly at chord transitions.",
+      "source_ref": {
+        "lesson_id": "Tap_03_Bai_14",
+        "timestamp": "07:08"
+      },
+      "lesson_folder": "Tap_03_Bai_14"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "For syncopated melody notes ('chồm phách'), ensure the left-hand quarter/eighth note grid acts as a steady metronomic anchor while the right hand strikes precisely on the off-beat, maintaining smooth pedal changes on beat 1."
+}

@@ -1,0 +1,87 @@
+{
+  "id": "tap-03-bai-14-lesson-tap-03-bai-14-005",
+  "type": "rule",
+  "name": "Khi rải đệm tay trái kết hợp giai điệu tay phải có nốt đảo phách ('chồm phách'), nốt giai điệu chồm phải rơi đúng vào gi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-14",
+    "locator": "05:52:00-10:03:00 pdf p.17",
+    "media_id": "video_tap_03_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 17,
+        "section": "Kết hợp hai tay & Đảo phách phiên khúc"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, Am9, F, Gsus4",
+    "Giọng: C Major",
+    "Điệu / phong cách: Ballad Syncopation"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "Am9",
+      "F",
+      "Gsus4"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad-syncopation"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Khi rải đệm tay trái kết hợp giai điệu tay phải có nốt đảo phách ('chồm phách'), nốt giai điệu chồm phải rơi đúng vào giữa các nhịp rải của tay trái. Cần giậm pedal đúng phách 1 và buông/đổi pedal linh hoạt ở các chuyển đổi hợp âm.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "Am9",
+        "F",
+        "Gsus4"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad Syncopation"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am9",
+      "notes": [
+        "A",
+        "E",
+        "B",
+        "E",
+        "D",
+        "C"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "B3"
+        ],
+        "right": [
+          "E4",
+          "E4",
+          "C4",
+          "C4",
+          "A3",
+          "A3"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi rải đệm tay trái kết hợp giai điệu tay phải có nốt đảo phách ('chồm phách'), nốt giai điệu chồm phải rơi đúng vào giữa các nhịp rải của tay trái. Cần giậm pedal đúng phách 1 và buông/đổi pedal linh hoạt ở các chuyển đổi hợp âm."
+}

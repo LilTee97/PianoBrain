@@ -1,0 +1,70 @@
+{
+  "id": "tap-03-bai-01-r006",
+  "type": "rule",
+  "name": "Bám nhẹ ngón lên phím, dùng lực nảy cơ ngón bật nốt nhanh từ dưới lên trên",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-01",
+    "locator": "00:04:39-00:05:58",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Bossa Nova, Classical, Disco, Pop, Pop Accompaniment, Pop Solo, Tango, Upbeat Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "bossa-nova",
+      "classical",
+      "disco",
+      "pop",
+      "pop-accompaniment",
+      "pop-solo",
+      "tango",
+      "upbeat-pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Bossa Nova",
+        "Classical",
+        "Disco",
+        "Pop",
+        "Pop Accompaniment",
+        "Pop Solo",
+        "Tango",
+        "Upbeat Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Bám nhẹ ngón lên phím, dùng lực nảy cơ ngón bật nốt nhanh từ dưới lên trên. Âm thanh ngắt gọn, nảy, dứt khoát.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Flick fingertip upward off the key cleanly"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bám nhẹ ngón lên phím, dùng lực nảy cơ ngón bật nốt nhanh từ dưới lên trên. Âm thanh ngắt gọn, nảy, dứt khoát."
+}

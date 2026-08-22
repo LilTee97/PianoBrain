@@ -1,0 +1,48 @@
+{
+  "difficulty": 4,
+  "avoid_when": [
+    "Nhịp quá nhanh không đủ chỗ"
+  ],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-4-note-two-above-two-below",
+  "type": "solo_idea",
+  "name": "Enclosure 4 nốt dạng đối xứng: hai nốt trên, hai nốt dưới (đích C: D - Db - Bb - B - C)",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:01:04"
+  },
+  "use_when": [
+    "Nốt đích là nốt gốc, bậc 9, 4, 5 hoặc 6",
+    "Có đủ chỗ cho bốn nốt trước nốt đích"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Cmaj7",
+      "C"
+    ]
+  },
+  "output": {
+    "target": "C",
+    "notes": [
+      "D",
+      "Db",
+      "Bb",
+      "B",
+      "C"
+    ],
+    "intervals_from_target": {
+      "D": "nguyên cung trên",
+      "Db": "nửa cung trên",
+      "Bb": "nguyên cung dưới",
+      "B": "nửa cung dưới"
+    },
+    "stage": "source_knowledge",
+    "review_note": "Video gọi cặp trên là 'hai nốt nửa cung phía trên'. Đo lại: với đích C thì D cách nguyên cung, chỉ Db mới cách nửa cung. Cặp dưới cũng vậy: Bb nguyên cung, B nửa cung. Giữ nốt, sửa cách gọi khi rà."
+  },
+  "note_vi": "Bao quanh nốt đích bằng hai nốt phía trên rồi hai nốt phía dưới. Nhắm nốt C thì đi D - Db - Bb - B rồi đáp vào C. Lưu ý cách gọi: video nói 'hai nốt nửa cung phía trên', nhưng thực tế D cách C một NGUYÊN CUNG, chỉ Db mới cách nửa cung (dưới cũng thế: Bb nguyên cung, B nửa cung). Đây là khung nốt cụ thể, KHÔNG phải luật 'hai nốt nửa cung'."
+}

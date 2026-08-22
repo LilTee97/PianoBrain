@@ -1,0 +1,33 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-formula-1235",
+  "type": "concept",
+  "name": "Công thức walking bass cho pop/ballad: chuỗi bậc 1 - 2 - 3 - 5",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:00:07"
+  },
+  "use_when": [
+    "Tay trái đệm ballad nghe đơn điệu",
+    "Muốn bè trầm có đường đi"
+  ],
+  "output": {
+    "degrees": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Công thức cơ bản và hiệu quả nhất để dựng walking bass tay trái cho bài pop/ballad là chuỗi bậc 1 - 2 - 3 - 5.",
+  "input": {
+    "style": [
+      "pop_ballad"
+    ]
+  }
+}

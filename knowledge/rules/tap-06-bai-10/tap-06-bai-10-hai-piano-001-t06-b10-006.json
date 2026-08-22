@@ -1,0 +1,47 @@
+{
+  "id": "tap-06-bai-10-hai-piano-001-t06-b10-006",
+  "type": "rule",
+  "name": "Quy tắc tập luyện: Học đến mẫu nào dừng video thực hành ngay mẫu đó trên đàn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-10",
+    "locator": "07:55-08:20 pdf p.2",
+    "media_id": "hai_piano_course_001_t06_b10_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_t06_b10_pdf",
+        "page": 2,
+        "section": "Phương pháp tập luyện"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_06_Bai_10"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc tập luyện: Học đến mẫu nào dừng video thực hành ngay mẫu đó trên đàn. Ghép riêng từng tay chậm rãi trước khi ghép hai tay, sau đó thực hành trên cả 15 vòng hoà âm.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc tập luyện: Học đến mẫu nào dừng video thực hành ngay mẫu đó trên đàn. Ghép riêng từng tay chậm rãi trước khi ghép hai tay, sau đó thực hành trên cả 15 vòng hoà âm."
+}

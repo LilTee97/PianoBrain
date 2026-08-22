@@ -1,0 +1,63 @@
+{
+  "id": "tap-06-bai-06-rule-bossa-nova-song-structuring-001",
+  "type": "rule",
+  "name": "Sử dụng Mẫu 1 (Bass đơn giản luân phiên 1-5) ở Verse (Đoạn A)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-06",
+    "locator": "00:06:45-00:06:55 pdf p.1",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Bossa Nova, Latin, Latin Jazz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "bossa-nova",
+      "latin",
+      "latin-jazz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Bossa Nova",
+        "Latin",
+        "Latin Jazz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng Mẫu 1 (Bass đơn giản luân phiên 1-5) ở Verse (Đoạn A); nâng cấp sang Mẫu 2 (Bass chuyển tuyến linh hoạt) ở Chorus (Đoạn B); và dùng Mẫu 3 (Đảo phách dồn dập, Bass rải mở rộng) ở đoạn Cao trào hoặc Solos.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_bossa_nova_song_structuring_001",
+      "title": "Bố cục mẫu đệm Bossa Nova theo cấu trúc bài hát",
+      "description": "Sử dụng Mẫu 1 (Bass đơn giản luân phiên 1-5) ở Verse (Đoạn A); nâng cấp sang Mẫu 2 (Bass chuyển tuyến linh hoạt) ở Chorus (Đoạn B); và dùng Mẫu 3 (Đảo phách dồn dập, Bass rải mở rộng) ở đoạn Cao trào hoặc Solos.",
+      "category": "arrangement",
+      "source_ref": "hai_piano_course_001_lesson_006_007",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_06"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng Mẫu 1 (Bass đơn giản luân phiên 1-5) ở Verse (Đoạn A); nâng cấp sang Mẫu 2 (Bass chuyển tuyến linh hoạt) ở Chorus (Đoạn B); và dùng Mẫu 3 (Đảo phách dồn dập, Bass rải mở rộng) ở đoạn Cao trào hoặc Solos."
+}

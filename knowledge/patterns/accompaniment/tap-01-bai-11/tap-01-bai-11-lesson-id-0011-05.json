@@ -1,0 +1,121 @@
+{
+  "id": "tap-01-bai-11-lesson-id-0011-05",
+  "type": "accompaniment",
+  "name": "Ứng dụng hợp âm Sus2: Áp dụng khi nốt giai điệu nằm ở bậc 1, bậc 3 hoặc bậc 5",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-11",
+    "locator": "00:15:18-00:18:15 pdf p.3",
+    "media_id": "video_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_11_15",
+        "page": 3,
+        "section": "Sus2 thường dùng"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Csus2, Am7, Fmaj7, Gsus4, C",
+    "Giọng: C",
+    "Điệu / phong cách: ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Csus2",
+      "Am7",
+      "Fmaj7",
+      "Gsus4",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Ứng dụng hợp âm Sus2: Áp dụng khi nốt giai điệu nằm ở bậc 1, bậc 3 hoặc bậc 5. Dùng làm hợp âm đệm thay cho triad Trưởng thông thường để tạo không gian rộng mở. Tiến trình ví dụ: Csus2 -> Am7 -> Fmaj7 -> Gsus4 -> C.",
+    "music_entities": {
+      "chords": [
+        "Csus2",
+        "Am7",
+        "Fmaj7",
+        "Gsus4",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Csus2",
+      "notes": [
+        "C3",
+        "G3",
+        "D4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "D4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Csus2",
+        "notes": [
+          "C3",
+          "G3",
+          "D4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "D4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng hợp âm Sus2: Áp dụng khi nốt giai điệu nằm ở bậc 1, bậc 3 hoặc bậc 5. Dùng làm hợp âm đệm thay cho triad Trưởng thông thường để tạo không gian rộng mở. Tiến trình ví dụ: Csus2 -> Am7 -> Fmaj7 -> Gsus4 -> C."
+}

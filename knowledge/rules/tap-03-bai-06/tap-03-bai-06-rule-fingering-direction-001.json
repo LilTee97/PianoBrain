@@ -1,0 +1,84 @@
+{
+  "id": "tap-03-bai-06-rule-fingering-direction-001",
+  "type": "rule",
+  "name": "When no explicit finger numbers are given: if the phrase moves upwards, place the starting lower notes on fingers 1 or 2",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "03:05-05:55 pdf p.3",
+    "extra_locators": [
+      "09:20-09:35 pdf p.3",
+      "13:00-16:45 pdf p.3",
+      "31:10-34:00 pdf p.3"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Waltz"
+  ],
+  "avoid_when": [
+    "Large octave leaps requiring hand position jumps"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "When no explicit finger numbers are given: if the phrase moves upwards, place the starting lower notes on fingers 1 or 2 to reserve fingers 3-5 for higher notes. If the phrase moves downwards, place starting upper notes on fingers 4 or 5 to leave room for fingers 1-2.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_fingering_direction_001",
+      "name": "Melody Ascending/Descending Fingering Placement Principle",
+      "domain": "fingering_technique",
+      "description": "When no explicit finger numbers are given: if the phrase moves upwards, place the starting lower notes on fingers 1 or 2 to reserve fingers 3-5 for higher notes. If the phrase moves downwards, place starting upper notes on fingers 4 or 5 to leave room for fingers 1-2.",
+      "if_conditions": [
+        {
+          "condition": "score_has_no_fingering_labels == true"
+        },
+        {
+          "condition": "phrase_contour == 'ascending' or phrase_contour == 'descending'"
+        }
+      ],
+      "then_actions": [
+        {
+          "action": "assign_starting_fingers_low_for_ascending (finger 1 or 2)"
+        },
+        {
+          "action": "assign_starting_fingers_high_for_descending (finger 4 or 5)"
+        }
+      ],
+      "exceptions": [
+        "Large octave leaps requiring hand position jumps"
+      ],
+      "lesson_folder": "Tap_03_Bai_06"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "When no explicit finger numbers are given: if the phrase moves upwards, place the starting lower notes on fingers 1 or 2 to reserve fingers 3-5 for higher notes. If the phrase moves downwards, place starting upper notes on fingers 4 or 5 to leave room for fingers 1-2."
+}

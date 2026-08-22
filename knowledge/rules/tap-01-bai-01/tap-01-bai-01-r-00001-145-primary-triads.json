@@ -1,0 +1,92 @@
+{
+  "id": "tap-01-bai-01-r-00001-145-primary-triads",
+  "type": "rule",
+  "name": "Dùng công thức 1.4.5 để xác định bộ ba hợp âm chính cho giọng trưởng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-01",
+    "locator": "12:21-15:18 pdf p.2",
+    "extra_locators": [
+      "29:33-31:12 pdf p.4",
+      "31:13-32:30 pdf p.4"
+    ]
+  },
+  "use_when": [
+    "Chất hợp âm: major",
+    "Điệu / phong cách: Accompaniment, Ballad, Pop, Sacred Music"
+  ],
+  "avoid_when": [
+    "Khi hòa âm mở rộng có thể thay thế bằng các hợp âm thứ song song tương ứng."
+  ],
+  "input": {
+    "chord_quality": [
+      "major"
+    ],
+    "style": [
+      "accompaniment",
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "sacred-music"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": "major",
+      "chord_symbol": null,
+      "chord_function": [
+        "I",
+        "IV",
+        "V"
+      ],
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Accompaniment",
+        "Ballad",
+        "Pop",
+        "Sacred Music"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Mọi giọng trưởng đều có bộ ba hợp âm gốc ở Bậc I (Trưởng), Bậc IV (Trưởng), Bậc V (Trưởng). Bộ ba hợp âm này chứa đầy đủ 7 nốt trong âm giai chính.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "{'left_hand': 'Chơi Root - 5th (1-5)', 'right_hand': 'Chơi thế bấm 2 nốt (1-3 hoặc 3-5) hoặc 3 nốt (1-3-5)'}"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_00001_145_PRIMARY_TRIADS",
+      "category": "harmony",
+      "summary": "Dùng công thức 1.4.5 để xác định bộ ba hợp âm chính cho giọng trưởng",
+      "description": "Mọi giọng trưởng đều có bộ ba hợp âm gốc ở Bậc I (Trưởng), Bậc IV (Trưởng), Bậc V (Trưởng). Bộ ba hợp âm này chứa đầy đủ 7 nốt trong âm giai chính.",
+      "conditions": {
+        "key_type": "major",
+        "chord_degree": [
+          "I",
+          "IV",
+          "V"
+        ]
+      },
+      "implementation": {
+        "left_hand": "Chơi Root - 5th (1-5)",
+        "right_hand": "Chơi thế bấm 2 nốt (1-3 hoặc 3-5) hoặc 3 nốt (1-3-5)"
+      },
+      "exceptions": "Khi hòa âm mở rộng có thể thay thế bằng các hợp âm thứ song song tương ứng.",
+      "lesson_folder": "Tap_01_Bai_01"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Mọi giọng trưởng đều có bộ ba hợp âm gốc ở Bậc I (Trưởng), Bậc IV (Trưởng), Bậc V (Trưởng). Bộ ba hợp âm này chứa đầy đủ 7 nốt trong âm giai chính."
+}

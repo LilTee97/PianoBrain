@@ -1,0 +1,86 @@
+{
+  "id": "jazz-scales-bai-02-06-c-mixolydian",
+  "type": "scale",
+  "name": "Gam C Mixolydian cho hợp âm C7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-02",
+    "locator": "07:32-08:48",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Ngẫu hứng jazz trên hợp âm C9",
+    "Ngẫu hứng jazz trên hợp âm C13",
+    "Ngẫu hứng jazz trên hợp âm C7sus4",
+    "Ngẫu hứng jazz trên hợp âm Dm",
+    "Chọn gam / scale khi gặp hợp âm 7, 9, 13, 7sus4, m trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "9",
+      "13",
+      "7sus4",
+      "m"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Mixolydian",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "7",
+        "9",
+        "13",
+        "7sus4"
+      ],
+      "use_when": [
+        "hợp âm C7",
+        "hợp âm C9",
+        "hợp âm C13",
+        "hợp âm C7sus4",
+        "hợp âm Dm"
+      ]
+    },
+    "chord_symbol": "C7",
+    "notes": [
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "Bb"
+    ],
+    "source_text": "Scale #6 - Mixolydian Scale ('The Jazzy-Blues Scale'): C Mixolydian (C, D, E, F, G, A, Bb). Used on dominant chords (C7, C9, C13, C7sus4). Special trick: Think of C7 + Dm triads."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 2 của nguồn Jazz Scales (YouTube), mốc 07:32-08:48. Scale #6 - Mixolydian Scale ('The Jazzy-Blues Scale'): C Mixolydian (C, D, E, F, G, A, Bb). Used on dominant chords (C7, C9, C13, C7sus4). Special trick: Think of C7 + Dm triads. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

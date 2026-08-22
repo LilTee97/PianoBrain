@@ -1,0 +1,136 @@
+{
+  "id": "tap-04-bai-03-lesson-tap-04-bai-03-005",
+  "type": "fill",
+  "name": "Mẫu câu lót số 4: Kỹ thuật kẹp hợp âm 7/9 và câu chạy giai điệu nâng cao",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-03",
+    "locator": "06:57-08:15 pdf p.15",
+    "media_id": "video_tap_04_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 15,
+        "section": "Bài 3 - Câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, G/B, Am7, Em7, Fadd9, C/E, Dm9, G7sus4",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: add9, 7, 9, sus4",
+    "Điệu / phong cách: Modern Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "G/B",
+      "Am7",
+      "Em7",
+      "Fadd9",
+      "C/E",
+      "Dm9",
+      "G7sus4"
+    ],
+    "style": [
+      "pop_ballad",
+      "modern-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu câu lót số 4: Kỹ thuật kẹp hợp âm 7/9 và câu chạy giai điệu nâng cao. Tay phải vừa giữ hợp âm vừa chạy nốt lót sinh động.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "G/B",
+        "Am7",
+        "Em7",
+        "Fadd9",
+        "C/E",
+        "Dm9",
+        "G7sus4"
+      ],
+      "tensions": [
+        "add9",
+        "7",
+        "9",
+        "sus4"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Modern Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "C3",
+        "G3",
+        "D4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "D4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cadd9",
+        "notes": [
+          "C3",
+          "G3",
+          "D4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "D4",
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 4: Kỹ thuật kẹp hợp âm 7/9 và câu chạy giai điệu nâng cao. Tay phải vừa giữ hợp âm vừa chạy nốt lót sinh động."
+}

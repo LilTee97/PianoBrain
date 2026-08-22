@@ -1,0 +1,49 @@
+{
+  "id": "tap-02-bai-05-tap-02-bai-05-014",
+  "type": "rule",
+  "name": "Tổng kết và lưu ý: Không nên lạm dụng hợp âm 7 ở toàn bộ giai điệu vì sẽ làm hòa âm bị nặng nề",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": "30:01-31:41 pdf p.8",
+    "media_id": "video_tap_02_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 8,
+        "section": "Lời khuyên & Bài tập"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_02_Bai_05"
+  ],
+  "avoid_when": [
+    "Tổng kết và lưu ý: Không nên lạm dụng hợp âm 7 ở toàn bộ giai điệu vì sẽ làm hòa âm bị nặng nề; cần phối hợp đan xen giữa hòa âm bậc 3, 5, 6, 7 để đạt sự cân bằng nghệ thuật."
+  ],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "warning",
+    "raw_text": "Tổng kết và lưu ý: Không nên lạm dụng hợp âm 7 ở toàn bộ giai điệu vì sẽ làm hòa âm bị nặng nề; cần phối hợp đan xen giữa hòa âm bậc 3, 5, 6, 7 để đạt sự cân bằng nghệ thuật.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tổng kết và lưu ý: Không nên lạm dụng hợp âm 7 ở toàn bộ giai điệu vì sẽ làm hòa âm bị nặng nề; cần phối hợp đan xen giữa hòa âm bậc 3, 5, 6, 7 để đạt sự cân bằng nghệ thuật."
+}

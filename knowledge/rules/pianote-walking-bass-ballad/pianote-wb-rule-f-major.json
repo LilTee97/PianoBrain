@@ -1,0 +1,39 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-rule-f-major",
+  "type": "rule",
+  "name": "Ô nhịp hợp âm F trưởng thì tay trái đi F - G - A - C",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:00:20"
+  },
+  "use_when": [
+    "Ô nhịp là F trưởng"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "F"
+    ]
+  },
+  "output": {
+    "if": "ô nhịp là hợp âm F trưởng",
+    "then": {
+      "notes": [
+        "F",
+        "G",
+        "A",
+        "C"
+      ]
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi ô nhịp là hợp âm F trưởng, tay trái đi chuỗi nốt F - G - A - C."
+}

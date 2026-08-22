@@ -1,0 +1,53 @@
+{
+  "id": "tap-03-bai-02-tap-03-bai-02-009",
+  "type": "concept",
+  "name": "Nhận biết vị trí 5 dòng kẻ chính (Lines) trên Khóa Sol (Treble Clef) tính từ dưới lên: Dòng 1 = Mi 4 (E4), Dòng 2 = Sol",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-02",
+    "locator": "25:34:00-30:58:00",
+    "media_id": "video_tap_03_bai_02",
+    "supporting": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Sight Reading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "sight-reading"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Nhận biết vị trí 5 dòng kẻ chính (Lines) trên Khóa Sol (Treble Clef) tính từ dưới lên: Dòng 1 = Mi 4 (E4), Dòng 2 = Sol 4 (G4), Dòng 3 = Si 4 (B4), Dòng 4 = Rê 5 (D5), Dòng 5 = Fa 5 (F5). Hướng dẫn học theo vị trí trực tiếp và ký hiệu chữ cái quốc tế thay vì đếm tịnh tiến từ nốt Đô.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Sight Reading"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "E4",
+        "G4",
+        "B4",
+        "D5",
+        "F5"
+      ],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nhận biết vị trí 5 dòng kẻ chính (Lines) trên Khóa Sol (Treble Clef) tính từ dưới lên: Dòng 1 = Mi 4 (E4), Dòng 2 = Sol 4 (G4), Dòng 3 = Si 4 (B4), Dòng 4 = Rê 5 (D5), Dòng 5 = Fa 5 (F5). Hướng dẫn học theo vị trí trực tiếp và ký hiệu chữ cái quốc tế thay vì đếm tịnh tiến từ nốt Đô."
+}

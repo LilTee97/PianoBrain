@@ -1,0 +1,114 @@
+{
+  "id": "tap-02-bai-04-hai-piano-tap-02-bai-04-009",
+  "type": "exercise",
+  "name": "Bài tập luyện tập ở nhà: Bấm tất cả 6 loại hợp âm 7 trên tất cả các phím trắng (C, D, E, F, G, A, B) và phím đen",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": "28:00:00-31:48:00 pdf p.7",
+    "media_id": "video_tap_02_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_book",
+        "page": 7,
+        "section": "Thực hành"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Fmaj7, Em7, Dm7",
+    "Giọng: C",
+    "Điệu / phong cách: exercise"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Fmaj7",
+      "Em7",
+      "Dm7"
+    ],
+    "style": [
+      "exercise"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Bài tập luyện tập ở nhà: Bấm tất cả 6 loại hợp âm 7 trên tất cả các phím trắng (C, D, E, F, G, A, B) và phím đen. Thực hành chuỗi hợp âm mẫu: Cmaj7 - Fmaj7 - Em7 - Dm7 áp dụng quy tắc Tay trái (1-5) và Tay phải (3-7 / 7-3).",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Fmaj7",
+        "Em7",
+        "Dm7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "exercise"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C3",
+        "G3",
+        "B3",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "B3",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "B3",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài tập luyện tập ở nhà: Bấm tất cả 6 loại hợp âm 7 trên tất cả các phím trắng (C, D, E, F, G, A, B) và phím đen. Thực hành chuỗi hợp âm mẫu: Cmaj7 - Fmaj7 - Em7 - Dm7 áp dụng quy tắc Tay trái (1-5) và Tay phải (3-7 / 7-3)."
+}

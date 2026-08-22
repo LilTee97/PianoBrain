@@ -1,0 +1,132 @@
+{
+  "id": "tap-04-bai-02-lesson-tap04-bai02-002",
+  "type": "exercise",
+  "name": "Mẫu câu 1 (Câu 1): Sử dụng các hợp âm 3 nốt cơ bản trên vòng hòa âm 4-3-2-5-1",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-02",
+    "locator": "01:25:00-03:05:00 pdf p.7",
+    "media_id": "video_tap04_bai02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04",
+        "page": 7,
+        "section": "Bài 2 - Câu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm, Em, G, C",
+    "Giọng: C major",
+    "Nốt màu: 3rd degree",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm",
+      "Em",
+      "G",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu 1 (Câu 1): Sử dụng các hợp âm 3 nốt cơ bản trên vòng hòa âm 4-3-2-5-1. Giai điệu tay phải chủ yếu nhấn vào nốt bậc 3 của từng hợp âm (bậc 3 của Dm là F, bậc 3 của Em là G, bậc 3 của C là E) để tạo nét lót đơn giản, rõ ràng.",
+    "music_entities": {
+      "chords": [
+        "Dm",
+        "Em",
+        "G",
+        "C"
+      ],
+      "tensions": [
+        "3rd degree"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm - Em - Dm - G - C",
+      "notes": [
+        "F4",
+        "G4",
+        "F4",
+        "B4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "D3",
+          "E3",
+          "D3",
+          "G2",
+          "C3"
+        ],
+        "right": [
+          "F4",
+          "G4",
+          "F4",
+          "B4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm - Em - Dm - G - C",
+        "notes": [
+          "F4",
+          "G4",
+          "F4",
+          "B4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D3",
+            "E3",
+            "D3",
+            "G2",
+            "C3"
+          ],
+          "right": [
+            "F4",
+            "G4",
+            "F4",
+            "B4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 1 (Câu 1): Sử dụng các hợp âm 3 nốt cơ bản trên vòng hòa âm 4-3-2-5-1. Giai điệu tay phải chủ yếu nhấn vào nốt bậc 3 của từng hợp âm (bậc 3 của Dm là F, bậc 3 của Em là G, bậc 3 của C là E) để tạo nét lót đơn giản, rõ ràng."
+}

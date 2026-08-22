@@ -1,0 +1,125 @@
+{
+  "id": "tap-01-bai-14-lesson-14-00006",
+  "type": "exercise",
+  "name": "Thực hành đặt hợp âm Đoạn 1 tác phẩm 'Cho Con' (Phạm Trọng Cầu): Nốt giai điệu Mi -> Đô Trưởng (C), nốt Rê -> Sol bass S",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "11:45-14:28 pdf p.10",
+    "media_id": "video_tap_01_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_11_15",
+        "page": 10,
+        "section": "Score Cho Con - Line 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, Em, F, Dm, G, G7",
+    "Giọng: C Major",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Valse 3/4"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "Em",
+      "F",
+      "Dm",
+      "G",
+      "G7"
+    ],
+    "style": [
+      "valse-3-4"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành đặt hợp âm Đoạn 1 tác phẩm 'Cho Con' (Phạm Trọng Cầu): Nốt giai điệu Mi -> Đô Trưởng (C), nốt Rê -> Sol bass Si (G/B), nốt Đô -> La thứ (Am), nốt Son -> Mi thứ (Em), nốt La -> Fa Trưởng (F), nốt Fa -> Rê thứ (Dm), nốt Son -> Sol Trưởng (G) hoặc Sol7 (G7) về C.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "Em",
+        "F",
+        "Dm",
+        "G",
+        "G7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Valse 3/4"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G/B",
+      "notes": [
+        "B1",
+        "D4",
+        "G4",
+        "D5"
+      ],
+      "hands": {
+        "left": [
+          "B1"
+        ],
+        "right": [
+          "D4",
+          "G4",
+          "D5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "G/B",
+        "notes": [
+          "B1",
+          "D4",
+          "G4",
+          "D5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "B1"
+          ],
+          "right": [
+            "D4",
+            "G4",
+            "D5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành đặt hợp âm Đoạn 1 tác phẩm 'Cho Con' (Phạm Trọng Cầu): Nốt giai điệu Mi -> Đô Trưởng (C), nốt Rê -> Sol bass Si (G/B), nốt Đô -> La thứ (Am), nốt Son -> Mi thứ (Em), nốt La -> Fa Trưởng (F), nốt Fa -> Rê thứ (Dm), nốt Son -> Sol Trưởng (G) hoặc Sol7 (G7) về C."
+}

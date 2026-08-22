@@ -1,0 +1,116 @@
+{
+  "id": "tap-06-bai-14-hai-piano-course-001-tap-06-bai-14-004",
+  "type": "accompaniment",
+  "name": "Mẫu 2 (Syncopated Bass Reggae): Tay trái phát triển nét Bass đảo phách (syncopation) nhịp nhàng dạng 'bùm..",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-14",
+    "locator": "05:50-10:12 pdf p.1",
+    "media_id": "video_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 1,
+        "section": "Mẫu 2 - Syncopated Bass Reggae"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, G, F",
+    "Giọng: C major",
+    "Điệu / phong cách: Reggae"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "G",
+      "F"
+    ],
+    "style": [
+      "reggae"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 2 (Syncopated Bass Reggae): Tay trái phát triển nét Bass đảo phách (syncopation) nhịp nhàng dạng 'bùm... bùm bùm', kết hợp nốt bậc I và bậc V đảo cao độ. Tay phải giữ vững tiết tấu nảy staccato phách nghịch.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "G",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Reggae"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "C2",
+        "G2",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C2 (phách 1)",
+          "C2-G2 (đảo phách bùm-bùm)"
+        ],
+        "right": [
+          "Staccato chords phách nghịch"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "C2",
+          "G2",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2 (phách 1)",
+            "C2-G2 (đảo phách bùm-bùm)"
+          ],
+          "right": [
+            "Staccato chords phách nghịch"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 2 (Syncopated Bass Reggae): Tay trái phát triển nét Bass đảo phách (syncopation) nhịp nhàng dạng 'bùm... bùm bùm', kết hợp nốt bậc I và bậc V đảo cao độ. Tay phải giữ vững tiết tấu nảy staccato phách nghịch."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "tap-04-bai-10-rule-16beat-minor-progression-001",
+  "type": "rule",
+  "name": "Vòng hòa âm giọng Thứ kinh điển cho đệm hát 16-Beat Ballad là i - iv - VI - V - i (Am - Dm - F - E7 - Am).",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-10",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: 16-Beat, 16-Beat Pop/Jazz Ballad, Ballad, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "16-beat",
+      "pop_ballad",
+      "jazz",
+      "pop",
+      "16-beat-pop-jazz-ballad",
+      "ballad",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "16-Beat",
+        "16-Beat Pop/Jazz Ballad",
+        "Ballad",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Vòng hòa âm giọng Thứ kinh điển cho đệm hát 16-Beat Ballad là i - iv - VI - V - i (Am - Dm - F - E7 - Am).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_16beat_minor_progression_001",
+      "description": "Vòng hòa âm giọng Thứ kinh điển cho đệm hát 16-Beat Ballad là i - iv - VI - V - i (Am - Dm - F - E7 - Am).",
+      "domain": "harmony",
+      "applicability": {
+        "keys": [
+          "Minor"
+        ],
+        "styles": [
+          "16-Beat",
+          "Pop Ballad"
+        ]
+      },
+      "pattern": {
+        "chords": [
+          "i",
+          "iv",
+          "VI",
+          "V7",
+          "i"
+        ]
+      },
+      "recommendation": "Sử dụng tiết tấu móc kép (16th notes) nảy nhẹ tay phải để tạo chuyển động nhịp nhàng mà không làm nặng bè trầm.",
+      "lesson_folder": "Tap_04_Bai_10"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Vòng hòa âm giọng Thứ kinh điển cho đệm hát 16-Beat Ballad là i - iv - VI - V - i (Am - Dm - F - E7 - Am)."
+}

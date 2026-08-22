@@ -1,0 +1,127 @@
+{
+  "id": "tap-03-bai-10-tap-03-bai-10-005",
+  "type": "exercise",
+  "name": "Ghép hai tay Đoạn A theo bản phổ chuẩn: Tay trái duy trì âm hình rải Slow Rock chùm 3, tay phải đi giai điệu chính và đệ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-10",
+    "locator": "00:05:48-00:11:30 pdf p.9",
+    "media_id": "video_tap_03_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 9,
+        "section": "Section A Measures 1-12"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: F, C/E, Dm, Bb, F/A, Gm, C7",
+    "Giọng: F Major",
+    "Gam: F Major Scale",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "F",
+      "C/E",
+      "Dm",
+      "Bb",
+      "F/A",
+      "Gm",
+      "C7"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ghép hai tay Đoạn A theo bản phổ chuẩn: Tay trái duy trì âm hình rải Slow Rock chùm 3, tay phải đi giai điệu chính và đệm bổ sung nốt quãng hợp âm ở các khoảng trống giai điệu.",
+    "music_entities": {
+      "chords": [
+        "F",
+        "C/E",
+        "Dm",
+        "Bb",
+        "F/A",
+        "Gm",
+        "C7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "F Major"
+      ],
+      "scales": [
+        "F Major Scale"
+      ],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C/E",
+      "notes": [
+        "E2",
+        "C3",
+        "G3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "E2",
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C/E",
+        "notes": [
+          "E2",
+          "C3",
+          "G3",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "E2",
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ghép hai tay Đoạn A theo bản phổ chuẩn: Tay trái duy trì âm hình rải Slow Rock chùm 3, tay phải đi giai điệu chính và đệm bổ sung nốt quãng hợp âm ở các khoảng trống giai điệu."
+}

@@ -1,0 +1,1441 @@
+[
+  {
+    "pattern_id": "Tap_01_Bai_01_lesson_id_00001_exercise_progressions",
+    "type": "rhythmic_pattern",
+    "name": "Thực hành tiết tấu Ballad trên 2 vòng hòa âm mẫu: Vòng 1 (1-6-2-5-1): C - Am - D",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C -> Am -> Dm -> G -> C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Ballad"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C -> Am -> Dm -> G -> C",
+      "notes": [
+        "C-E-G",
+        "A-C-E",
+        "D-F-A",
+        "G-B-D",
+        "C-E-G"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3-G3",
+          "A2-E3",
+          "D3-A3",
+          "G2-D3",
+          "C3-G3"
+        ],
+        "right": [
+          "C4-E4",
+          "C4-E4",
+          "D4-F4",
+          "B3-D4",
+          "C4-E4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_01_Bai_01",
+        "lesson_id": "hai_piano_course_001_lesson_01",
+        "source_id": "video_input_0",
+        "timestamp_start": "39:01",
+        "timestamp_end": "40:11",
+        "pdf_page": 5
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_01_Bai_03_lesson_01_03_004",
+    "type": "rhythmic_pattern",
+    "name": "Áp dụng kỹ thuật hợp âm đệm Ballad Kiểu 2 và Kiểu 3 cho phần Phiên khúc & Điệp k",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Ballad"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "C4",
+          "E4"
+        ],
+        "right": [
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_01_Bai_03",
+        "lesson_id": "hai_piano_course_001_lesson_03",
+        "source_id": "video_lesson_03",
+        "timestamp_start": "00:18:20",
+        "timestamp_end": "00:23:55",
+        "pdf_page": 7
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_01_Bai_10_hai_piano_c001_l010_001",
+    "type": "rhythmic_pattern",
+    "name": "Tiết tấu March (Hành khúc) Kiểu A trong nhịp 2/4: Đánh 2 nốt đen trong mỗi ô nhị",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "March",
+        "Hành khúc"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_01_Bai_10",
+        "lesson_id": "hai_piano_c001_l010",
+        "source_id": "video_l10",
+        "timestamp_start": "03:47:00",
+        "timestamp_end": "08:42:00",
+        "pdf_page": 8
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_02_Bai_11_hai_piano_tap02_bai11_002",
+    "type": "rhythmic_pattern",
+    "name": "Thế tay trái 1: Công thức bậc 1.5.1.5.3.5.1.5 áp dụng cho hợp âm ba cơ bản (Tria",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Ballad"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "G2",
+        "E3",
+        "G2",
+        "C3",
+        "G2"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3",
+          "G2",
+          "E3",
+          "G2",
+          "C3",
+          "G2"
+        ],
+        "right": []
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_02_Bai_11",
+        "lesson_id": "hai_piano_tap02_bai11",
+        "source_id": "video_001",
+        "timestamp_start": "00:02:09",
+        "timestamp_end": "00:07:04",
+        "pdf_page": 2
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_02_Bai_11_hai_piano_tap02_bai11_004",
+    "type": "rhythmic_pattern",
+    "name": "Thế tay trái 3: Công thức bậc 1.5.3.5.3.5.3.5.1 đưa bậc 3 lên quãng 8 cao hơn (n",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Ballad",
+        "Arpeggio"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "E3",
+        "G2",
+        "E3",
+        "G2",
+        "E3",
+        "G2",
+        "C3"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "E3",
+          "G2",
+          "E3",
+          "G2",
+          "E3",
+          "G2",
+          "C3"
+        ],
+        "right": []
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_02_Bai_11",
+        "lesson_id": "hai_piano_tap02_bai11",
+        "source_id": "video_001",
+        "timestamp_start": "00:10:07",
+        "timestamp_end": "00:14:41",
+        "pdf_page": 2
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_02_Bai_11_hai_piano_tap02_bai11_009",
+    "type": "rhythmic_pattern",
+    "name": "Thế tay trái 9 dành cho hợp âm 9: Công thức bậc 1.5.9.5.3.5.1. Tùy biến linh hoạ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Cadd9",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Waltz",
+        "Ballad 3/4",
+        "Ballad 4/4"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Cadd9",
+      "notes": [
+        "C2",
+        "G2",
+        "D3",
+        "G2",
+        "E3",
+        "G2",
+        "C3"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "D3",
+          "G2",
+          "E3",
+          "G2",
+          "C3"
+        ],
+        "right": []
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_02_Bai_11",
+        "lesson_id": "hai_piano_tap02_bai11",
+        "source_id": "video_001",
+        "timestamp_start": "00:23:08",
+        "timestamp_end": "00:24:49",
+        "pdf_page": 2
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_01_lesson_id_00001_pattern_03",
+    "type": "rhythmic_pattern",
+    "name": "Kỹ thuật Staccato (Bật đầu ngón tay / Ngắt rời): Đầu ngón tay bám sát phím, dùng",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Tango",
+        "Upbeat Pop",
+        "Disco"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": null,
+      "notes": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_01",
+        "lesson_id": "Tap_03_Bai_01",
+        "source_id": "video_tap_03_bai_01",
+        "timestamp_start": "00:28:04",
+        "timestamp_end": "00:31:35",
+        "pdf_page": null
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_02_tap_03_bai_02_007",
+    "type": "rhythmic_pattern",
+    "name": "Thực hành vỗ tay/dậm phách đếm trường độ các loại nốt. Nốt tròn đếm 'Đô - 2 - 3 ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_02",
+        "lesson_id": "Tap_03_Bai_02",
+        "source_id": "video_tap_03_bai_02",
+        "timestamp_start": "16:26:00",
+        "timestamp_end": "20:36:00",
+        "pdf_page": null
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_03_tap_03_bai_03_006",
+    "type": "rhythmic_pattern",
+    "name": "Luyện chạy thang âm 4 quãng 8 kết hợp lần lượt với các âm hình tiết tấu: nốt đen",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Technical Exercise",
+        "Rhythm Studies"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": null,
+      "notes": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2",
+          "...",
+          "C6"
+        ],
+        "right": [
+          "C3",
+          "...",
+          "C7"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_03",
+        "lesson_id": "Tap_03_Bai_03",
+        "source_id": "video_tap_03_bai_03",
+        "timestamp_start": "00:14:09",
+        "timestamp_end": "00:21:20",
+        "pdf_page": 1
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_06_lesson_id_00009",
+    "type": "rhythmic_pattern",
+    "name": "Thực hành Dòng 3 (ô nhịp 17-24): Tay phải Re5(3) - Re5(3) - Fa5(5). - Re5(3) - S",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "G7 - C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "G7 - C",
+      "notes": [
+        "D5",
+        "F5",
+        "D5",
+        "B4",
+        "C5",
+        "E5",
+        "C5",
+        "G4",
+        "E4",
+        "G4",
+        "F4",
+        "D4",
+        "C4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "B2(5)",
+          "D3(3)",
+          "G3(1)",
+          "C3(5)",
+          "E3(3)",
+          "G3(1)"
+        ],
+        "right": [
+          "D5(3)",
+          "F5(5)",
+          "D5(3)",
+          "B4(1)",
+          "C5(2)",
+          "E5(4)",
+          "C5(5)",
+          "G4(2)",
+          "E4(1)",
+          "G4(5)",
+          "F4(4)",
+          "D4(2)",
+          "C4(1)"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_06",
+        "lesson_id": "Tap_03_Bai_06",
+        "source_id": "hai_piano_video_t03_b06",
+        "timestamp_start": "23:15",
+        "timestamp_end": "31:00",
+        "pdf_page": 3
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_11_tap_03_bai_11_005",
+    "type": "rhythmic_pattern",
+    "name": "Đoạn Phiên khúc A1 (Từ khi quen em...): Tay phải chơi giai điệu mềm mại ở quãng ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Bm7",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Ballad"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Bm7",
+      "notes": [
+        "B2",
+        "F#3",
+        "D4",
+        "F#4",
+        "A4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "B2",
+          "F#3",
+          "D4"
+        ],
+        "right": [
+          "F#4",
+          "A4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_11",
+        "lesson_id": "hai_piano_tap_03_bai_11",
+        "source_id": "video_tap_03_bai_11",
+        "timestamp_start": "00:11:06",
+        "timestamp_end": "00:15:35",
+        "pdf_page": 11
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_13_tap_03_bai_13_item_007",
+    "type": "rhythmic_pattern",
+    "name": "Ghép hai tay phần A: Chú ý khớp tiết tấu giữa nốt đen chấm móc của tay phải và c",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Gadd9 -> C/G",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Gadd9 -> C/G",
+      "notes": [
+        "G2",
+        "D3",
+        "A3",
+        "B3",
+        "D4",
+        "G4",
+        "B4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "G2",
+          "D3",
+          "A3"
+        ],
+        "right": [
+          "D4",
+          "G4",
+          "B4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_13",
+        "lesson_id": "tap_03_bai_13",
+        "source_id": "video_tap_03_bai_13",
+        "timestamp_start": "06:16:00",
+        "timestamp_end": "08:46:00",
+        "pdf_page": 16
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_04_Bai_09_hai_piano_t4_b09_002",
+    "type": "rhythmic_pattern",
+    "name": "Câu 1: Xây dựng nét giai điệu lót 16-bit cơ bản dựa trên nốt bậc 3 và bậc 5 của ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "16-beat"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "E4",
+        "G4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_04_Bai_09",
+        "lesson_id": "hai_piano_t04_b09",
+        "source_id": "video_t04_b09",
+        "timestamp_start": "00:02:18",
+        "timestamp_end": "00:03:26",
+        "pdf_page": 42
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_06_Bai_02_hai_piano_course_001_tap_06_bai_02_002",
+    "type": "rhythmic_pattern",
+    "name": "Mẫu 1: Tiết tấu đệm Pop Ballad cơ bản nhẹ nhàng cho tay trái và tay phải. Tay tr",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Pop Ballad"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "E4",
+        "G4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3"
+        ],
+        "right": [
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_06_Bai_02",
+        "lesson_id": "hai_piano_course_001_tap_06_bai_02",
+        "source_id": "video_tap_06_bai_02",
+        "timestamp_start": "01:50",
+        "timestamp_end": "07:03",
+        "pdf_page": 1
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_06_Bai_03_hai_piano_course_001_lesson_03_003",
+    "type": "rhythmic_pattern",
+    "name": "Mẫu 1 (Slow Rock cơ bản): Tay trái rải ngón dải rộng theo bậc 1 - 5 - 8 - 9 - 10",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Cmaj7",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Slow Rock"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Cmaj7",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "D3",
+        "E3",
+        "D3"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3",
+          "D3",
+          "E3",
+          "D3"
+        ],
+        "right": [
+          "B3",
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_06_Bai_03",
+        "lesson_id": "hai_piano_course_001_lesson_03",
+        "source_id": "Tap_06_Bai_03.mp4",
+        "timestamp_start": "00:03:18",
+        "timestamp_end": "00:05:35",
+        "pdf_page": 1
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_06_Bai_03_hai_piano_course_001_lesson_03_005",
+    "type": "rhythmic_pattern",
+    "name": "Mẫu 2 (Accent/Pulse pattern): Tay trái tạo âm hình nảy/nhấn phách dạng nốt đen k",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Slow Rock"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "G2",
+        "C3",
+        "G2"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2 (phách 1-2)",
+          "G2 (phách 3)",
+          "C3 (phách 4-5)",
+          "G2 (phách 6)"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4",
+          "B4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_06_Bai_03",
+        "lesson_id": "hai_piano_course_001_lesson_03",
+        "source_id": "Tap_06_Bai_03.mp4",
+        "timestamp_start": "00:07:50",
+        "timestamp_end": "00:10:38",
+        "pdf_page": 1
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_06_Bai_04_tap_06_bai_04_005",
+    "type": "rhythmic_pattern",
+    "name": "Mẫu 3 (Country Fox tiết tấu chấm giật / Syncopation): Tay trái chơi nhịp giật ch",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Am",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Country Fox"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Am",
+      "notes": [
+        "A2",
+        "A2",
+        "E3"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "A2 (đơn chấm)",
+          "A2 (móc đôi)",
+          "E3 (móc đơn)"
+        ],
+        "right": [
+          "Chát nẩy phách lệch"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_06_Bai_04",
+        "lesson_id": "tap_06_bai_04",
+        "source_id": "video_tap_06_bai_04",
+        "timestamp_start": "00:09:31",
+        "timestamp_end": "00:13:45",
+        "pdf_page": 1
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_06_Bai_05_lesson_tap06_bai05_005",
+    "type": "rhythmic_pattern",
+    "name": "Mẫu 3 (Pattern 3) điệu Boston: Kỹ thuật chạy nốt móc kép (16th notes drive) ở ph",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Am7",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Boston"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Am7",
+      "notes": [
+        "E2",
+        "A2",
+        "G2",
+        "B2",
+        "C3"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "E2",
+          "A2",
+          "G2",
+          "B2",
+          "C3"
+        ],
+        "right": [
+          "A4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_06_Bai_05",
+        "lesson_id": "Tap_06_Bai_05",
+        "source_id": "video_tap06_bai05",
+        "timestamp_start": "00:10:44",
+        "timestamp_end": "00:15:39",
+        "pdf_page": 1
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_06_Bai_07_lesson_07_00003",
+    "type": "rhythmic_pattern",
+    "name": "Mẫu 2 - Tiết tấu Rumba biến tấu: Tay trái sử dụng nốt đen chấm dôi kết hợp các n",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Fmaj7",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Rumba"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Fmaj7",
+      "notes": [
+        "F2",
+        "A2",
+        "C3",
+        "F3",
+        "E3"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "F2",
+          "A2",
+          "C3",
+          "F3",
+          "E3"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_06_Bai_07",
+        "lesson_id": "hai_piano_course_001_tap_06_bai_07",
+        "source_id": "vid_tap_06_bai_07",
+        "timestamp_start": "05:49",
+        "timestamp_end": "09:18",
+        "pdf_page": 1
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_06_Bai_09_lesson_id_00039",
+    "type": "rhythmic_pattern",
+    "name": "Mẫu 2 điệu Waltz: Tay trái triển khai hình nốt Móc đơn - Móc đơn - Nốt đen (Đơn ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Waltz"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "E4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "E4"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_06_Bai_09",
+        "lesson_id": "Tap_06_Bai_09",
+        "source_id": "Tap_06_Bai_09_Video",
+        "timestamp_start": "00:07:20",
+        "timestamp_end": "00:10:59",
+        "pdf_page": 1
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_06_Bai_13_hai_piano_course_001_tap_06_bai_13_003",
+    "type": "rhythmic_pattern",
+    "name": "Mẫu 2: Mẫu đệm biến tấu Cha Cha Cha với tiết tấu dồn dập hơn ở tay phải, tay trá",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Am - G",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Cha Cha Cha",
+        "Latin Pop"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Am - G",
+      "notes": [
+        "A2",
+        "E3",
+        "C4",
+        "E4",
+        "G2",
+        "D3",
+        "B3",
+        "D4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "Root-5th rhythmic bass line"
+        ],
+        "right": [
+          "Continuous syncopated staccato chords"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_06_Bai_13",
+        "lesson_id": "hai_piano_course_001_tap_06_bai_13",
+        "source_id": "video_bai_13",
+        "timestamp_start": "06:32",
+        "timestamp_end": "08:53",
+        "pdf_page": 13
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_06_Bai_15_lesson_15_00002",
+    "type": "rhythmic_pattern",
+    "name": "Mẫu 1: Hai tay bấm hợp âm giữ nhịp MARCH. Nhịp 4/4 gồm các nốt đen kết hợp chùm ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "March"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "C4"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_06_Bai_15",
+        "lesson_id": "hai_piano_course_001_lesson_15",
+        "source_id": "video_lesson_15",
+        "timestamp_start": "04:50",
+        "timestamp_end": "07:23",
+        "pdf_page": 1
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  }
+]

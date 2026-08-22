@@ -1,0 +1,88 @@
+{
+  "id": "tap-03-bai-14-lesson-tap-03-bai-14-002",
+  "type": "concept",
+  "name": "Hệ thống hợp âm sử dụng trong bài Cơn Gió Lạ trên giọng C Major bao gồm: Bậc 1 (C Major), Bậc 4 (F Major), Bậc 5 (G Majo",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-14",
+    "locator": "00:00:50-01:25:00 pdf p.17",
+    "media_id": "video_tap_03_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 17,
+        "section": "Công thức hòa âm 1-4-5 giọng Đô trưởng"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, G, Am, Dm, Em, Bb",
+    "Giọng: C Major",
+    "Nốt màu: add9, 7",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "G",
+      "Am",
+      "Dm",
+      "Em",
+      "Bb"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hệ thống hợp âm sử dụng trong bài Cơn Gió Lạ trên giọng C Major bao gồm: Bậc 1 (C Major), Bậc 4 (F Major), Bậc 5 (G Major), Bậc 6 song song (Am), Bậc 2 (Dm), Bậc 3 (Em) và Bậc 7 giọt/mở rộng (Bb / Bbadd9 hoặc C7/Bb).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "G",
+        "Am",
+        "Dm",
+        "Em",
+        "Bb"
+      ],
+      "tensions": [
+        "add9",
+        "7"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "C",
+        "G",
+        "D"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "D4"
+        ],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hệ thống hợp âm sử dụng trong bài Cơn Gió Lạ trên giọng C Major bao gồm: Bậc 1 (C Major), Bậc 4 (F Major), Bậc 5 (G Major), Bậc 6 song song (Am), Bậc 2 (Dm), Bậc 3 (Em) và Bậc 7 giọt/mở rộng (Bb / Bbadd9 hoặc C7/Bb)."
+}

@@ -1,0 +1,127 @@
+{
+  "id": "tap-06-bai-03-hai-piano-course-001-lesson-03-005",
+  "type": "accompaniment",
+  "name": "Mẫu 2 (Accent/Pulse pattern): Tay trái tạo âm hình nảy/nhấn phách dạng nốt đen kết hợp móc đơn (1.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-03",
+    "locator": "00:07:50-00:10:38 pdf p.1",
+    "media_id": "Tap_06_Bai_03.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_06_Bai_03.pdf",
+        "page": 1,
+        "section": "Mẫu 2 - Nhịp Điệu Nhấn Phách Điệp Khúc"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Fmaj7, Dm7, G7",
+    "Giọng: C major",
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Fmaj7",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 2 (Accent/Pulse pattern): Tay trái tạo âm hình nảy/nhấn phách dạng nốt đen kết hợp móc đơn (1.. 5 8.. 5 8) hoặc giậm hợp âm ở các phách nhẹ nhằm tăng lực nhịp điệu, phù hợp cho đoạn Điệp khúc (Chorus) hoặc các đoạn cần gia tăng năng lượng.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Fmaj7",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "G2",
+        "C3",
+        "G2"
+      ],
+      "hands": {
+        "left": [
+          "C2 (phách 1-2)",
+          "G2 (phách 3)",
+          "C3 (phách 4-5)",
+          "G2 (phách 6)"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4",
+          "B4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "G2",
+          "C3",
+          "G2",
+          "C3",
+          "G2"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2 (phách 1-2)",
+            "G2 (phách 3)",
+            "C3 (phách 4-5)",
+            "G2 (phách 6)"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "G4",
+            "B4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 2 (Accent/Pulse pattern): Tay trái tạo âm hình nảy/nhấn phách dạng nốt đen kết hợp móc đơn (1.. 5 8.. 5 8) hoặc giậm hợp âm ở các phách nhẹ nhằm tăng lực nhịp điệu, phù hợp cho đoạn Điệp khúc (Chorus) hoặc các đoạn cần gia tăng năng lượng."
+}

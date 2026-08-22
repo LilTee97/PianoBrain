@@ -1,0 +1,56 @@
+{
+  "id": "tap-06-bai-06-hai-piano-course-001-lesson-006-007",
+  "type": "exercise",
+  "name": "Ứng dụng đệm hát Bossa Nova vào thực tế: Dùng Mẫu 1 cho Đoạn A (Phiên khúc) nhẹ nhàng, Mẫu 2 cho Đoạn B (Điệp khúc) gia",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-06",
+    "locator": "00:13:42-00:15:48 pdf p.2",
+    "media_id": "hai_piano_course_001_video_006",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_pdf_006",
+        "page": 2,
+        "section": "Ứng dụng đệm hát & Bố cục"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Bossa Nova, Liturgical Music"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "bossa-nova",
+      "liturgical-music"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ứng dụng đệm hát Bossa Nova vào thực tế: Dùng Mẫu 1 cho Đoạn A (Phiên khúc) nhẹ nhàng, Mẫu 2 cho Đoạn B (Điệp khúc) gia tăng nhịp điệu, và Mẫu 3 cho đoạn Cao trào/Outro năng động. Bossa Nova mang lại không gian âm nhạc tinh tế, sang trọng, rất phù hợp cho ca khúc nhạc nhẹ và thánh ca.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Bossa Nova",
+        "Liturgical Music"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng đệm hát Bossa Nova vào thực tế: Dùng Mẫu 1 cho Đoạn A (Phiên khúc) nhẹ nhàng, Mẫu 2 cho Đoạn B (Điệp khúc) gia tăng nhịp điệu, và Mẫu 3 cho đoạn Cao trào/Outro năng động. Bossa Nova mang lại không gian âm nhạc tinh tế, sang trọng, rất phù hợp cho ca khúc nhạc nhẹ và thánh ca."
+}

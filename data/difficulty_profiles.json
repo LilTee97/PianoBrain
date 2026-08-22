@@ -1,0 +1,62 @@
+{
+  "beginner": {
+    "allowed_tensions": [],
+    "avoid": [
+      "13",
+      "altered",
+      "dim"
+    ],
+    "rule_ids": [
+      "Tap_01_Bai_01_R_00001_DOUBLING_AND_OMISSION_RULES",
+      "Tap_01_Bai_03_ballad_lh_arpeggio_pattern",
+      "Tap_01_Bai_08_rule_l08_002",
+      "Tap_01_Bai_12_rule_valse_pattern_arrangement_contrast",
+      "Tap_01_Bai_15_RULE_ACCOMPANIMENT_REGISTER",
+      "Tap_02_Bai_09_R_TAP02_BAI09_004",
+      "Tap_02_Bai_14_RULE_CHORD_11_VOICING_01",
+      "Tap_02_Bai_14_RULE_CHORD_13_VOICING_01"
+    ]
+  },
+  "intermediate": {
+    "allowed_tensions": [
+      "7",
+      "9",
+      "sus4",
+      "sus2"
+    ],
+    "avoid": [
+      "altered"
+    ],
+    "rule_ids": [
+      "Tap_01_Bai_01_R_00001_LEFT_HAND_FINGERING_15",
+      "Tap_01_Bai_03_rh_voicing_below_melody",
+      "Tap_01_Bai_03_accompaniment_dynamic_balance",
+      "Tap_01_Bai_06_RULE_HP_B3_HARMONIZATION_PRIORITY",
+      "Tap_01_Bai_07_rule_passing_line_construction",
+      "Tap_01_Bai_08_rule_l08_001",
+      "Tap_01_Bai_08_rule_l08_003",
+      "Tap_01_Bai_11_lesson_id_0011_03"
+    ]
+  },
+  "advanced": {
+    "allowed_tensions": [
+      "7",
+      "9",
+      "11",
+      "13",
+      "sus4",
+      "dim"
+    ],
+    "avoid": [],
+    "rule_ids": [
+      "Tap_01_Bai_06_RULE_HP_PASSING_CHORD_DIMINISHED",
+      "Tap_01_Bai_07_rule_minor_target_2_5_1_fill",
+      "Tap_01_Bai_08_rule_l08_004",
+      "Tap_01_Bai_11_lesson_id_0011_07",
+      "Tap_01_Bai_11_lesson_id_0011_09",
+      "Tap_01_Bai_12_rule_bossa_articulation_contrast",
+      "Tap_01_Bai_12_rule_bossa_bass_alternation",
+      "Tap_01_Bai_12_rule_valse_bass_holding"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "tap-02-bai-15-lesson-id-00007",
+  "type": "exercise",
+  "name": "Thực hành trình diễn toàn bộ tác phẩm 'Nàng Thơ' hòa tấu/đệm hát piano đầy đủ từ Intro, Verse 1, Verse 2, Điệp khúc đến",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-15",
+    "locator": "13:21:00-15:28:00 pdf p.10",
+    "media_id": "video_tap_02_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 10,
+        "section": "Toàn bộ bài hát Nàng Thơ"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, F9/A, G9/B, Em7, Am7, Gm79, C7-9, Fmaj79, Dm79, Gsus4, Bb9, Fm(maj7)/G, E7.9.13",
+    "Giọng: C major",
+    "Gam: C major",
+    "Nốt màu: add9, 7, 9, 11, 13, b9",
+    "Điệu / phong cách: Full Performance Demonstration"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "F9/A",
+      "G9/B",
+      "Em7",
+      "Am7",
+      "Gm79",
+      "C7-9",
+      "Fmaj79",
+      "Dm79",
+      "Gsus4",
+      "Bb9",
+      "Fm(maj7)/G",
+      "E7.9.13"
+    ],
+    "style": [
+      "full-performance-demonstration"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành trình diễn toàn bộ tác phẩm 'Nàng Thơ' hòa tấu/đệm hát piano đầy đủ từ Intro, Verse 1, Verse 2, Điệp khúc đến Outro, thể hiện trọn vẹn các cấu trúc hợp âm 7, 9, 11, 13 và các ngón bấm tay trái/tay phải đã học trong Tập 2.",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "F9/A",
+        "G9/B",
+        "Em7",
+        "Am7",
+        "Gm79",
+        "C7-9",
+        "Fmaj79",
+        "Dm79",
+        "Gsus4",
+        "Bb9",
+        "Fm(maj7)/G",
+        "E7.9.13"
+      ],
+      "tensions": [
+        "add9",
+        "7",
+        "9",
+        "11",
+        "13",
+        "b9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Full Performance Demonstration"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C9",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "E3",
+        "G3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "C3",
+          "E3",
+          "G3",
+          "D4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành trình diễn toàn bộ tác phẩm 'Nàng Thơ' hòa tấu/đệm hát piano đầy đủ từ Intro, Verse 1, Verse 2, Điệp khúc đến Outro, thể hiện trọn vẹn các cấu trúc hợp âm 7, 9, 11, 13 và các ngón bấm tay trái/tay phải đã học trong Tập 2."
+}

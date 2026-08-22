@@ -1,0 +1,36 @@
+{
+  "id": "jazz-scales-bai-03-10-walking-bass-on-ami7-d7",
+  "type": "rule",
+  "name": "Quy tắc xây dựng Walking Bass đơn giản cho tay trái:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-03",
+    "locator": "14:36-17:05",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Walking Bass on Ami7 -> D7",
+    "notes": [
+      "A2 (Root)",
+      "E3 (5th)",
+      "A2 (Root)",
+      "C#3 hoặc Eb3 (Leading tone) -> D3 (Root D7)"
+    ],
+    "source_text": "Quy tắc xây dựng Walking Bass đơn giản cho tay trái: Mẫu 4 nốt đen cho mỗi ô nhịp gồm: Nốt 1 = Root (Nốt gốc), Nốt 2 = 5th (Quãng 5), Nốt 3 = Root (Nốt gốc), Nốt 4 = Leading Tone (Nốt dẫn nửa cung kề trên hoặc kề dưới nốt gốc của hợp âm tiếp theo)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 3 của nguồn Jazz Scales (YouTube), mốc 14:36-17:05. Quy tắc xây dựng Walking Bass đơn giản cho tay trái: Mẫu 4 nốt đen cho mỗi ô nhịp gồm: Nốt 1 = Root (Nốt gốc), Nốt 2 = 5th (Quãng 5), Nốt 3 = Root (Nốt gốc), Nốt 4 = Leading Tone (Nốt dẫn nửa cung kề trên hoặc kề dưới nốt gốc của hợp âm tiếp theo). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

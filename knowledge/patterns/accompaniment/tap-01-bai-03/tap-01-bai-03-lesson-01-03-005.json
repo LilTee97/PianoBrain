@@ -1,0 +1,128 @@
+{
+  "id": "tap-01-bai-03-lesson-01-03-005",
+  "type": "exercise",
+  "name": "Thực hành đệm bài Thánh ca 'Phó Thác' ở điệu Ballad giọng Đô Trưởng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-03",
+    "locator": "00:23:55-00:30:20 pdf p.7",
+    "media_id": "video_lesson_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_1_5",
+        "page": 7,
+        "section": "Phó Thác !"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Em, Am, F, Dm, G",
+    "Giọng: C",
+    "Gam: C major",
+    "Điệu / phong cách: Sacred Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Em",
+      "Am",
+      "F",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "sacred-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành đệm bài Thánh ca 'Phó Thác' ở điệu Ballad giọng Đô Trưởng. Vòng hợp âm Phiên khúc: C - Em - Am - Em - F - Em - Dm - G - C. Vòng hợp âm Điệp khúc: Am - Em - F - Em - Em - Am - F - G - Am - Em - F - Em - Dm - Am - G - C.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Em",
+        "Am",
+        "F",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Sacred Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - Em - Am",
+      "notes": [
+        "E4",
+        "D4",
+        "C4",
+        "G3"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "C4",
+          "E4"
+        ],
+        "right": [
+          "E4",
+          "D4",
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - Em - Am",
+        "notes": [
+          "E4",
+          "D4",
+          "C4",
+          "G3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3",
+            "C4",
+            "E4"
+          ],
+          "right": [
+            "E4",
+            "D4",
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành đệm bài Thánh ca 'Phó Thác' ở điệu Ballad giọng Đô Trưởng. Vòng hợp âm Phiên khúc: C - Em - Am - Em - F - Em - Dm - G - C. Vòng hợp âm Điệp khúc: Am - Em - F - Em - Em - Am - F - G - Am - Em - F - Em - Dm - Am - G - C."
+}

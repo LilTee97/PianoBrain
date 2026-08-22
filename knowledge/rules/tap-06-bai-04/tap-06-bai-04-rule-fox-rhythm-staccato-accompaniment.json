@@ -1,0 +1,67 @@
+{
+  "id": "tap-06-bai-04-rule-fox-rhythm-staccato-accompaniment",
+  "type": "rule",
+  "name": "Kỹ thuật đệm Fox truyền thống",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-04",
+    "locator": "00:13:46-00:15:18 pdf p.1",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Country Fox, Fox"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "country-fox",
+      "fox"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Country Fox",
+        "Fox"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trong nhịp 2/4 phong cách Fox, tay trái giữ bè Bass nốt đen legate liền tiếng đập vào đầu phách (Root - 5th), tay phải chơi hợp âm chùm 3-4 nốt giật staccato ở phần sau phách để tạo sự sinh động, nẩy vui tươi.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_fox_rhythm_staccato_accompaniment",
+      "domain": "accompaniment_style",
+      "summary": "Kỹ thuật đệm Fox truyền thống",
+      "description": "Trong nhịp 2/4 phong cách Fox, tay trái giữ bè Bass nốt đen legate liền tiếng đập vào đầu phách (Root - 5th), tay phải chơi hợp âm chùm 3-4 nốt giật staccato ở phần sau phách để tạo sự sinh động, nẩy vui tươi.",
+      "trigger_conditions": {
+        "style": "Fox",
+        "meter": "2/4"
+      },
+      "action": {
+        "left_hand": "Alternating Root and 5th quarter notes (Legato)",
+        "right_hand": "Short staccato chord comping on offbeats/quarters"
+      },
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_04"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trong nhịp 2/4 phong cách Fox, tay trái giữ bè Bass nốt đen legate liền tiếng đập vào đầu phách (Root - 5th), tay phải chơi hợp âm chùm 3-4 nốt giật staccato ở phần sau phách để tạo sự sinh động, nẩy vui tươi."
+}

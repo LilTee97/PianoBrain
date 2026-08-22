@@ -1,0 +1,126 @@
+{
+  "id": "tap-06-bai-07-lesson-07-00004",
+  "type": "accompaniment",
+  "name": "Mẫu 3 - Tiết tấu Rumba đi dốc xuống/đảo âm hình: Tay trái chơi nốt bass kết hợp chuỗi quãng đi xuống/ngược hướng (Fa - D",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-07",
+    "locator": "09:18-12:35 pdf p.2",
+    "media_id": "vid_tap_06_bai_07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 2,
+        "section": "Mau 3 - Tiet tau Rumba dao am hinh"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj7, Em7, Dm7, Cmaj7",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: maj7",
+    "Điệu / phong cách: Rumba"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj7",
+      "Em7",
+      "Dm7",
+      "Cmaj7"
+    ],
+    "style": [
+      "rumba"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 3 - Tiết tấu Rumba đi dốc xuống/đảo âm hình: Tay trái chơi nốt bass kết hợp chuỗi quãng đi xuống/ngược hướng (Fa - Do - La - Mi), giúp đệm hát Rumba sinh động và phong phú hơn. Giảng viên lưu ý sửa lỗi nhỏ trên bản sheet (bị thiếu nốt Fa ở tay trái).",
+    "music_entities": {
+      "chords": [
+        "Fmaj7",
+        "Em7",
+        "Dm7",
+        "Cmaj7"
+      ],
+      "tensions": [
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Rumba"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fmaj7",
+      "notes": [
+        "F2",
+        "C3",
+        "A2",
+        "E3"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3",
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Fmaj7",
+        "notes": [
+          "F2",
+          "C3",
+          "A2",
+          "E3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "C3",
+            "A2",
+            "E3"
+          ],
+          "right": [
+            "A3",
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 3 - Tiết tấu Rumba đi dốc xuống/đảo âm hình: Tay trái chơi nốt bass kết hợp chuỗi quãng đi xuống/ngược hướng (Fa - Do - La - Mi), giúp đệm hát Rumba sinh động và phong phú hơn. Giảng viên lưu ý sửa lỗi nhỏ trên bản sheet (bị thiếu nốt Fa ở tay trái)."
+}

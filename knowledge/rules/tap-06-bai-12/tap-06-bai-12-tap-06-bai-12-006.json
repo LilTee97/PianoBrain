@@ -1,0 +1,53 @@
+{
+  "id": "tap-06-bai-12-tap-06-bai-12-006",
+  "type": "rule",
+  "name": "Quy tắc bố cục đệm hát Tango: Sử dụng Mẫu 1 hoặc Mẫu 2 cho đoạn Phiên khúc (Verse) để tạo nền nhịp uyển chuyển, vừa phải",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-12",
+    "locator": "06:00-13:45 pdf p.2",
+    "media_id": "video_tap_06_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_12",
+        "page": 2,
+        "section": "Quy_Tac_Phan_Doan_Tango"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc bố cục đệm hát Tango: Sử dụng Mẫu 1 hoặc Mẫu 2 cho đoạn Phiên khúc (Verse) để tạo nền nhịp uyển chuyển, vừa phải. Chuyển sang Mẫu 3 ở đoạn Điệp khúc (Chorus) để tạo sự bùng nổ, dồn dập và kịch tính.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Tango"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc bố cục đệm hát Tango: Sử dụng Mẫu 1 hoặc Mẫu 2 cho đoạn Phiên khúc (Verse) để tạo nền nhịp uyển chuyển, vừa phải. Chuyển sang Mẫu 3 ở đoạn Điệp khúc (Chorus) để tạo sự bùng nổ, dồn dập và kịch tính."
+}

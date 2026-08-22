@@ -1,0 +1,142 @@
+{
+  "id": "tap-03-bai-12-tap-03-bai-12-001",
+  "type": "exercise",
+  "name": "Trình diễn thị phạm Piano Solo tác phẩm 'Tháng Tư Là Lời Nói Dối Của Em' làm mẫu cho học viên theo dõi tiết tấu và sắc t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-12",
+    "locator": "00:00:00-00:00:51 pdf p.13",
+    "media_id": "video_tap_03_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03_bai_12",
+        "page": 13,
+        "section": "Toàn bộ bản ký âm Part 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj7, G/F, Em7, Am7, Dm7, G, Cmaj7, C7, Fm6",
+    "Giọng: A minor, C major",
+    "Gam: A natural minor, C major",
+    "Nốt màu: maj7, 7, 9",
+    "Điệu / phong cách: Pop Ballad, Piano Solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj7",
+      "G/F",
+      "Em7",
+      "Am7",
+      "Dm7",
+      "G",
+      "Cmaj7",
+      "C7",
+      "Fm6"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad",
+      "piano-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Trình diễn thị phạm Piano Solo tác phẩm 'Tháng Tư Là Lời Nói Dối Của Em' làm mẫu cho học viên theo dõi tiết tấu và sắc thái.",
+    "music_entities": {
+      "chords": [
+        "Fmaj7",
+        "G/F",
+        "Em7",
+        "Am7",
+        "Dm7",
+        "G",
+        "Cmaj7",
+        "C7",
+        "Fm6"
+      ],
+      "tensions": [
+        "maj7",
+        "7",
+        "9"
+      ],
+      "keys": [
+        "A minor",
+        "C major"
+      ],
+      "scales": [
+        "A natural minor",
+        "C major"
+      ],
+      "styles": [
+        "Pop Ballad",
+        "Piano Solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fmaj7",
+      "notes": [
+        "F2",
+        "C3",
+        "E3",
+        "A3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3"
+        ],
+        "right": [
+          "E3",
+          "A3",
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Fmaj7",
+        "notes": [
+          "F2",
+          "C3",
+          "E3",
+          "A3",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "C3"
+          ],
+          "right": [
+            "E3",
+            "A3",
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trình diễn thị phạm Piano Solo tác phẩm 'Tháng Tư Là Lời Nói Dối Của Em' làm mẫu cho học viên theo dõi tiết tấu và sắc thái."
+}

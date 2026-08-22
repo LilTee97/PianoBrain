@@ -1,0 +1,57 @@
+{
+  "id": "tap-03-bai-04-lesson-tap3-bai4-005",
+  "type": "concept",
+  "name": "Cấu tạo Khóa Pha (F Clef / Bass Clef): Bắt đầu bằng dải dấu chấm tại dòng kẻ thứ 4 (từ dưới lên), kéo vòng lên dòng thứ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "20:15-22:58 pdf p.1",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "sheet_001",
+        "page": 1,
+        "section": "Khóa Pha (Bass Clef)"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Sight Reading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "sight-reading"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Cấu tạo Khóa Pha (F Clef / Bass Clef): Bắt đầu bằng dải dấu chấm tại dòng kẻ thứ 4 (từ dưới lên), kéo vòng lên dòng thứ 5 rồi lượn xuống dòng thứ 1. Có hai dấu chấm nằm ở khe thứ 3 và khe thứ 4. Do đó, nốt nhạc nằm đúng trên dòng kẻ thứ 4 chính là nốt Fa quãng 8 thứ 3 (F3 / Fa3).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Sight Reading"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "F3"
+      ],
+      "hands": {
+        "left": [
+          "F3"
+        ],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Cấu tạo Khóa Pha (F Clef / Bass Clef): Bắt đầu bằng dải dấu chấm tại dòng kẻ thứ 4 (từ dưới lên), kéo vòng lên dòng thứ 5 rồi lượn xuống dòng thứ 1. Có hai dấu chấm nằm ở khe thứ 3 và khe thứ 4. Do đó, nốt nhạc nằm đúng trên dòng kẻ thứ 4 chính là nốt Fa quãng 8 thứ 3 (F3 / Fa3)."
+}

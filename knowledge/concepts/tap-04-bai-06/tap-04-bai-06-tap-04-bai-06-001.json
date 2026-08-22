@@ -1,0 +1,92 @@
+{
+  "id": "tap-04-bai-06-tap-04-bai-06-001",
+  "type": "concept",
+  "name": "Giới thiệu vòng hòa âm giọng thứ trong điệu Slow / Slow Rock / Ballad: i - v - VI - III - iv - i - v - i (Áp dụng cụ thể",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-06",
+    "locator": "00:00:00-00:02:19 pdf p.27",
+    "media_id": "video_tap_04_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 27,
+        "section": "Bài 6 - Tổng quan vòng hòa âm thứ"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Em, F, C, Dm",
+    "Giọng: A minor",
+    "Gam: A natural minor, A harmonic minor",
+    "Điệu / phong cách: Slow, Slow Rock, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Em",
+      "F",
+      "C",
+      "Dm"
+    ],
+    "style": [
+      "slow",
+      "pop_ballad",
+      "slow-rock",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu vòng hòa âm giọng thứ trong điệu Slow / Slow Rock / Ballad: i - v - VI - III - iv - i - v - i (Áp dụng cụ thể ở giọng La thứ Am: Am - Em - F - C - Dm - Am - Em - Am). Đây là vòng hòa âm rất phổ biến trong nhạc nhẹ, có thể dùng làm câu lót, câu dẫn, intro hoặc outro.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Em",
+        "F",
+        "C",
+        "Dm"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A natural minor",
+        "A harmonic minor"
+      ],
+      "styles": [
+        "Slow",
+        "Slow Rock",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "E3",
+        "A3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu vòng hòa âm giọng thứ trong điệu Slow / Slow Rock / Ballad: i - v - VI - III - iv - i - v - i (Áp dụng cụ thể ở giọng La thứ Am: Am - Em - F - C - Dm - Am - Em - Am). Đây là vòng hòa âm rất phổ biến trong nhạc nhẹ, có thể dùng làm câu lót, câu dẫn, intro hoặc outro."
+}

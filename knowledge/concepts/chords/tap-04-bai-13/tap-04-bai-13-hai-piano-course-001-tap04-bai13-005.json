@@ -1,0 +1,95 @@
+{
+  "id": "tap-04-bai-13-hai-piano-course-001-tap04-bai13-005",
+  "type": "concept",
+  "name": "Mẫu câu 4: Bổ sung tension bậc 9 (add9, maj9, m9) kết hợp với kỹ thuật chạy ngón lướt (melodic arpeggio run) ở tay phải,",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-13",
+    "locator": "07:08:00-08:48:00 pdf p.65",
+    "media_id": "video_tap_04_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 65,
+        "section": "Bài 13 - Câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, Am9, Dm9, G7(13), Fmaj9, Em7",
+    "Giọng: C major",
+    "Gam: C major diatonic",
+    "Nốt màu: 9th",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "Am9",
+      "Dm9",
+      "G7(13)",
+      "Fmaj9",
+      "Em7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "tension",
+    "raw_text": "Mẫu câu 4: Bổ sung tension bậc 9 (add9, maj9, m9) kết hợp với kỹ thuật chạy ngón lướt (melodic arpeggio run) ở tay phải, tạo sự bay bổng cho phần dạo đầu hoặc giằng tấu.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "Am9",
+        "Dm9",
+        "G7(13)",
+        "Fmaj9",
+        "Em7"
+      ],
+      "tensions": [
+        "9th"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major diatonic"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "C3",
+        "G3",
+        "D4",
+        "E4",
+        "G4",
+        "D5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "D4",
+          "E4",
+          "G4",
+          "D5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 4: Bổ sung tension bậc 9 (add9, maj9, m9) kết hợp với kỹ thuật chạy ngón lướt (melodic arpeggio run) ở tay phải, tạo sự bay bổng cho phần dạo đầu hoặc giằng tấu."
+}

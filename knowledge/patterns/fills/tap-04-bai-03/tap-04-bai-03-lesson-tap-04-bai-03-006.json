@@ -1,0 +1,135 @@
+{
+  "id": "tap-04-bai-03-lesson-tap-04-bai-03-006",
+  "type": "fill",
+  "name": "Mẫu câu lót số 5: Tiết tấu đảo phách và móc nối phức hợp trên vòng Canon, tạo phong cách đệm piano chuyên nghiệp cho ca",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-03",
+    "locator": "08:16-10:16 pdf p.16",
+    "media_id": "video_tap_04_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 16,
+        "section": "Bài 3 - Câu 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am7, Em7/G, Fmaj7, C/E, Dm7, G7",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: 7, maj7",
+    "Điệu / phong cách: Contemporary Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am7",
+      "Em7/G",
+      "Fmaj7",
+      "C/E",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "contemporary-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu câu lót số 5: Tiết tấu đảo phách và móc nối phức hợp trên vòng Canon, tạo phong cách đệm piano chuyên nghiệp cho ca khúc slow/ballad.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am7",
+        "Em7/G",
+        "Fmaj7",
+        "C/E",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [
+        "7",
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Contemporary Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fmaj7",
+      "notes": [
+        "F2",
+        "C3",
+        "E4",
+        "A4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3"
+        ],
+        "right": [
+          "E4",
+          "A4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Fmaj7",
+        "notes": [
+          "F2",
+          "C3",
+          "E4",
+          "A4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "C3"
+          ],
+          "right": [
+            "E4",
+            "A4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 5: Tiết tấu đảo phách và móc nối phức hợp trên vòng Canon, tạo phong cách đệm piano chuyên nghiệp cho ca khúc slow/ballad."
+}

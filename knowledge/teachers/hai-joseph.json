@@ -1,0 +1,18 @@
+{
+  "id": "hai-joseph",
+  "type": "teacher",
+  "name": "Thầy Hải Joseph",
+  "difficulty": 3,
+  "source": null,
+  "use_when": ["Người học muốn phối pop ballad / đệm hát theo hướng hòa âm nâng cao"],
+  "avoid_when": ["Nhạc cổ điển", "Bất kỳ câu nào cần trích dẫn chính xác lời thầy khi chưa ingest nguồn"],
+  "input": { "style": ["pop_ballad"] },
+  "output": {
+    "declared_focus": ["pop ballad", "đệm hát", "hòa âm nâng cao"],
+    "ingested_sources": 0,
+    "needs_ingest": true
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Hồ sơ thầy mới chỉ có phần khai báo do người dùng nói, CHƯA ingest video/PDF nào. Mr Hai không được gán bất kỳ voicing, fill hay nguyên tắc nào cho thầy Hải cho tới khi có source_id thật trong sources/index.json."
+}

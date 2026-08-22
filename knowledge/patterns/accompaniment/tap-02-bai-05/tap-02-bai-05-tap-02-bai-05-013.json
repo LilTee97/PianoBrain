@@ -1,0 +1,119 @@
+{
+  "id": "tap-02-bai-05-tap-02-bai-05-013",
+  "type": "exercise",
+  "name": "Minh họa ứng dụng hòa âm hợp âm 7 trong nhạc Thánh Ca 'Silent Night' (Đêm Thánh Tinh Lặng)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": "26:46-30:00 pdf p.8",
+    "media_id": "video_tap_02_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 8,
+        "section": "Bài tập áp dụng Thánh Ca"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, G7, Fmaj7, G#m0-7, Am7",
+    "Giọng: C Major",
+    "Điệu / phong cách: Hymn, Classical Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "G7",
+      "Fmaj7",
+      "G#m0-7",
+      "Am7"
+    ],
+    "style": [
+      "hymn",
+      "pop",
+      "classical-pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Minh họa ứng dụng hòa âm hợp âm 7 trong nhạc Thánh Ca 'Silent Night' (Đêm Thánh Tinh Lặng). Việc sử dụng các hợp âm 7 và hợp âm giảm lót (G#m0-7) làm tôn lên sự trang trọng, tinh tế.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "G7",
+        "Fmaj7",
+        "G#m0-7",
+        "Am7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Hymn",
+        "Classical Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G#m0-7",
+      "notes": [
+        "G#1",
+        "D2",
+        "B2",
+        "F3"
+      ],
+      "hands": {
+        "left": [
+          "G#1",
+          "D2"
+        ],
+        "right": [
+          "B2",
+          "F3"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "G#m0-7",
+        "notes": [
+          "G#1",
+          "D2",
+          "B2",
+          "F3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "G#1",
+            "D2"
+          ],
+          "right": [
+            "B2",
+            "F3"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Minh họa ứng dụng hòa âm hợp âm 7 trong nhạc Thánh Ca 'Silent Night' (Đêm Thánh Tinh Lặng). Việc sử dụng các hợp âm 7 và hợp âm giảm lót (G#m0-7) làm tôn lên sự trang trọng, tinh tế."
+}

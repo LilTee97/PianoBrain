@@ -1,0 +1,44 @@
+{
+  "id": "jazz-scales-bai-04-05-f-minor",
+  "type": "arpeggio",
+  "name": "Cấu trúc Arpeggio không đối xứng (2 nốt tay trái + 4 nốt tay phải):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-04",
+    "locator": "07:20-07:38",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F Perfect 5th",
+    "Ngẫu hứng jazz trên hợp âm F min9",
+    "Chọn gam / scale khi gặp hợp âm Perfect5th, m9 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "Perfect5th",
+      "m9"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F min9",
+    "notes": [
+      "F2",
+      "C3",
+      "Ab3",
+      "C4",
+      "Eb4",
+      "G4"
+    ],
+    "source_text": "Cấu trúc Arpeggio không đối xứng (2 nốt tay trái + 4 nốt tay phải): Tay trái giữ quãng 5 chuẩn (Perfect 5th), Tay phải chạy 4 nốt voicing/arpeggio liên tục vượt qua tay trái."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 4 của nguồn Jazz Scales (YouTube), mốc 07:20-07:38. Cấu trúc Arpeggio không đối xứng (2 nốt tay trái + 4 nốt tay phải): Tay trái giữ quãng 5 chuẩn (Perfect 5th), Tay phải chạy 4 nốt voicing/arpeggio liên tục vượt qua tay trái. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

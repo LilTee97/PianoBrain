@@ -1,0 +1,72 @@
+{
+  "id": "tap-02-bai-04-rule-7th-chord-dominant7-structure",
+  "type": "rule",
+  "name": "Cấu tạo hợp âm Bảy Át (Dominant 7th)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: accompaniment, ballad, gospel, pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment",
+      "pop_ballad",
+      "ballad",
+      "gospel",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "accompaniment",
+        "ballad",
+        "gospel",
+        "pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Hợp âm Bảy Át được cấu tạo bởi 1 Hợp âm 3 Trưởng cộng thêm 1 Quãng 3 thứ chồng lên trên. Quãng giữa nốt gốc và nốt ngọn là Quãng 7 thứ. Tạo lực hút mạnh về hợp âm giải kết.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_7th_chord_dominant7_structure",
+      "category": "harmony",
+      "summary": "Cấu tạo hợp âm Bảy Át (Dominant 7th)",
+      "description": "Hợp âm Bảy Át được cấu tạo bởi 1 Hợp âm 3 Trưởng cộng thêm 1 Quãng 3 thứ chồng lên trên. Quãng giữa nốt gốc và nốt ngọn là Quãng 7 thứ. Tạo lực hút mạnh về hợp âm giải kết.",
+      "conditions": {
+        "root_type": "major_triad",
+        "added_interval": "minor_3rd"
+      },
+      "action": {
+        "resulting_chord": "Dominant 7th (X7)"
+      },
+      "lesson_folder": "Tap_02_Bai_04"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Hợp âm Bảy Át được cấu tạo bởi 1 Hợp âm 3 Trưởng cộng thêm 1 Quãng 3 thứ chồng lên trên. Quãng giữa nốt gốc và nốt ngọn là Quãng 7 thứ. Tạo lực hút mạnh về hợp âm giải kết."
+}

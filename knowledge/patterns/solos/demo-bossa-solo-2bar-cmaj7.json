@@ -1,0 +1,131 @@
+{
+  "id": "demo-bossa-solo-2bar-cmaj7",
+  "type": "solo_idea",
+  "name": "Câu solo bossa 2 ô tự soạn trên Cmaj7 (chromatic rồi enclosure)",
+  "difficulty": 4,
+  "source": null,
+  "use_when": [
+    "Chỗ trống hai ô trên Cmaj7 trong bài bossa",
+    "Tập nốt dẫn nửa cung và enclosure trong nhịp bossa"
+  ],
+  "avoid_when": [
+    "Đừng trích như lời Peter Martin — câu này tự soạn"
+  ],
+  "input": {
+    "key_context": "major",
+    "chord_quality": [
+      "Cmaj7",
+      "Cmaj9"
+    ],
+    "style": [
+      "bossa_nova",
+      "latin"
+    ],
+    "hand": "RH"
+  },
+  "output": {
+    "stage": "invented_demo",
+    "key": "C",
+    "meter": "4/4",
+    "bars": [
+      {
+        "bar": 1,
+        "chord": "Cmaj7",
+        "target": "E4",
+        "technique": "nốt dẫn nửa cung F#4 lên G4, rồi hạ cánh xuống bậc 3",
+        "events": [
+          {
+            "note": "G4",
+            "dur": "1/4",
+            "beat": 1,
+            "role": "bậc 5"
+          },
+          {
+            "note": "F#4",
+            "dur": "1/8",
+            "beat": 2,
+            "role": "nốt dẫn nửa cung dưới G"
+          },
+          {
+            "note": "G4",
+            "dur": "1/8",
+            "beat": 2.5,
+            "role": "bậc 5"
+          },
+          {
+            "rest": true,
+            "dur": "1/4",
+            "beat": 3
+          },
+          {
+            "note": "E4",
+            "dur": "1/4",
+            "beat": 4,
+            "role": "bậc 3 — nốt đích"
+          }
+        ],
+        "fingers": [
+          4,
+          3,
+          4,
+          2
+        ]
+      },
+      {
+        "bar": 2,
+        "chord": "Cmaj7",
+        "target": "C4",
+        "technique": "enclosure ba nốt D4-B3-C4 bao quanh nốt gốc, rồi để trống hai phách",
+        "events": [
+          {
+            "note": "D4",
+            "dur": "1/12",
+            "beat": 1,
+            "role": "nốt thang âm trên (chùm ba)"
+          },
+          {
+            "note": "B3",
+            "dur": "1/12",
+            "beat": 1.333,
+            "role": "nửa cung dưới (chùm ba)"
+          },
+          {
+            "note": "C4",
+            "dur": "1/12",
+            "beat": 1.667,
+            "role": "nốt gốc — nốt đích (chùm ba)"
+          },
+          {
+            "note": "C4",
+            "dur": "1/4",
+            "beat": 2,
+            "role": "giữ nốt đích"
+          },
+          {
+            "rest": true,
+            "dur": "1/4",
+            "beat": 3
+          },
+          {
+            "rest": true,
+            "dur": "1/4",
+            "beat": 4
+          }
+        ],
+        "fingers": [
+          2,
+          1,
+          2,
+          2
+        ]
+      }
+    ],
+    "inspired_by": [
+      "charlie-enclosure-3-note",
+      "peter-bossa-rule-rh-syncopation"
+    ]
+  },
+  "origin": "invented",
+  "status": "draft",
+  "note_vi": "Câu solo hai ô tự soạn trên Cmaj7 trong nhịp bossa. Ô 1 dùng nốt dẫn nửa cung F#4 lên G4 rồi hạ cánh vào E4 là bậc 3. Ô 2 dùng enclosure ba nốt D4 - B3 - C4 bao quanh nốt gốc C4, rồi để trống hai phách cho câu thở. NỐT VÀ PHÁCH LÀ TỰ SOẠN, không phải lời của Peter Martin. Kỹ thuật enclosure lấy cảm hứng từ item của Charlie Tran đã có trong kho."
+}

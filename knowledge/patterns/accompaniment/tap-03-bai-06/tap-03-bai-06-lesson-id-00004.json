@@ -1,0 +1,76 @@
+{
+  "id": "tap-03-bai-06-lesson-id-00004",
+  "type": "exercise",
+  "name": "Thực hành vỡ giai điệu tay phải Dòng 1 (ô nhịp 1-8): Sol4(2)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "06:00-09:10 pdf p.3",
+    "media_id": "hai_piano_video_t03_b06",
+    "supporting": [
+      {
+        "source_id": "hai_piano_pdf_t03",
+        "page": 3,
+        "section": "Silent Night Line 1 (m.1-8)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G7",
+    "Giọng: C major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G7"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành vỡ giai điệu tay phải Dòng 1 (ô nhịp 1-8): Sol4(2) . chấm dôi - La4(3) - Sol4(2) - Mi4(1) [giữ 3 phách], lặp lại Sol4(2) - La4(3) - Sol4(2) - Mi4(1), chuyển ngón 5 lên Re5(5) - Re5(5) - Si4(3) - Do5(4) - Do5(4) - Sol4(2).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C - G7 - C",
+      "notes": [
+        "G4",
+        "A4",
+        "G4",
+        "E4",
+        "D5",
+        "B4",
+        "C5",
+        "G4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "G4(2)",
+          "A4(3)",
+          "G4(2)",
+          "E4(1)",
+          "D5(5)",
+          "B4(3)",
+          "C5(4)",
+          "G4(2)"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành vỡ giai điệu tay phải Dòng 1 (ô nhịp 1-8): Sol4(2) . chấm dôi - La4(3) - Sol4(2) - Mi4(1) [giữ 3 phách], lặp lại Sol4(2) - La4(3) - Sol4(2) - Mi4(1), chuyển ngón 5 lên Re5(5) - Re5(5) - Si4(3) - Do5(4) - Do5(4) - Sol4(2)."
+}

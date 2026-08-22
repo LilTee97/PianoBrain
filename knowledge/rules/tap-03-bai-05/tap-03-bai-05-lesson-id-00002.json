@@ -1,0 +1,47 @@
+{
+  "id": "tap-03-bai-05-lesson-id-00002",
+  "type": "rule",
+  "name": "Quy trình 5 bước vỡ bài bản nhạc piano solo: 1",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-05",
+    "locator": "05:12-06:40 pdf p.2",
+    "media_id": "video_tap_03_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 2,
+        "section": "Bài 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_05"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy trình 5 bước vỡ bài bản nhạc piano solo: 1. Cao độ (xác định tên nốt), 2. Số ngón tay, 3. Trường độ / Tiết tấu, 4. Hình thức chơi (Legato/Staccato/Non-legato), 5. Sắc thái (Piano/Forte).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy trình 5 bước vỡ bài bản nhạc piano solo: 1. Cao độ (xác định tên nốt), 2. Số ngón tay, 3. Trường độ / Tiết tấu, 4. Hình thức chơi (Legato/Staccato/Non-legato), 5. Sắc thái (Piano/Forte)."
+}

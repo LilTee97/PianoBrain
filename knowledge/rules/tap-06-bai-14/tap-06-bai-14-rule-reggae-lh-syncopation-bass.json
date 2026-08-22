@@ -1,0 +1,69 @@
+{
+  "id": "tap-06-bai-14-rule-reggae-lh-syncopation-bass",
+  "type": "rule",
+  "name": "Để tăng tính đung đưa (groove) của điệu Reggae, tay trái áp dụng nhịp đảo phách (syncopated bass rhythm) giữa nốt gốc I",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-14",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Pop, Rap, Reggae"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop",
+      "rap",
+      "reggae"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Pop",
+        "Rap",
+        "Reggae"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Để tăng tính đung đưa (groove) của điệu Reggae, tay trái áp dụng nhịp đảo phách (syncopated bass rhythm) giữa nốt gốc I và nốt âm ngũ V.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_reggae_lh_syncopation_bass",
+      "name": "Reggae Left Hand Syncopated Bassline Pattern",
+      "category": "bassline",
+      "style": "Reggae",
+      "description": "Để tăng tính đung đưa (groove) của điệu Reggae, tay trái áp dụng nhịp đảo phách (syncopated bass rhythm) giữa nốt gốc I và nốt âm ngũ V.",
+      "conditions": {
+        "pattern_level": "Intermediate"
+      },
+      "action": {
+        "left_hand": "Syncopated bass notes (root on beat 1, octave/5th bounced on off-beats)."
+      },
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_14"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Để tăng tính đung đưa (groove) của điệu Reggae, tay trái áp dụng nhịp đảo phách (syncopated bass rhythm) giữa nốt gốc I và nốt âm ngũ V."
+}

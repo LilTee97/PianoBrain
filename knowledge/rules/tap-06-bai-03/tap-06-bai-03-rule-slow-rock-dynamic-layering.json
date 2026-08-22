@@ -1,0 +1,63 @@
+{
+  "id": "tap-06-bai-03-rule-slow-rock-dynamic-layering",
+  "type": "rule",
+  "name": "Sử dụng Mẫu 1 (Rải móc đơn 1-5-8-9-10-9) cho đoạn Phiên khúc (Verse), Mẫu 2 (Nhấn phách/Pulse) cho đoạn Điệp khúc (Choru",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-03",
+    "locator": "00:05:00-00:05:35 pdf p.1",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng Mẫu 1 (Rải móc đơn 1-5-8-9-10-9) cho đoạn Phiên khúc (Verse), Mẫu 2 (Nhấn phách/Pulse) cho đoạn Điệp khúc (Chorus), và Mẫu 3 (Móc kép/Rolling 16th) cho đoạn Cao trào (Climax).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_slow_rock_dynamic_layering",
+      "title": "Quy tắc phân tầng cường độ tiết tấu Slow Rock",
+      "description": "Sử dụng Mẫu 1 (Rải móc đơn 1-5-8-9-10-9) cho đoạn Phiên khúc (Verse), Mẫu 2 (Nhấn phách/Pulse) cho đoạn Điệp khúc (Chorus), và Mẫu 3 (Móc kép/Rolling 16th) cho đoạn Cao trào (Climax).",
+      "confidence": "inferred",
+      "applied_in": [
+        {
+          "lesson_id": "hai_piano_course_001_lesson_03",
+          "timestamp": "00:14:30"
+        }
+      ],
+      "lesson_folder": "Tap_06_Bai_03"
+    }
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Sử dụng Mẫu 1 (Rải móc đơn 1-5-8-9-10-9) cho đoạn Phiên khúc (Verse), Mẫu 2 (Nhấn phách/Pulse) cho đoạn Điệp khúc (Chorus), và Mẫu 3 (Móc kép/Rolling 16th) cho đoạn Cao trào (Climax)."
+}

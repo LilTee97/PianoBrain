@@ -1,0 +1,101 @@
+{
+  "id": "tap-04-bai-01-lesson-id-00006",
+  "type": "accompaniment",
+  "name": "Bài 1 - Câu 5: Mẫu câu lót phức hợp kết hợp các bậc 3, 5, 7, 9 và hợp âm Sus4 (hoặc bậc 11)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-01",
+    "locator": "00:12:07-00:14:43 pdf p.6",
+    "media_id": "video_tap_04_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 6,
+        "section": "Bài 1 - Câu 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Csus4, C, Am11, Am9, Dm11, G7sus4, G7",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: 4th degree, Sus4, 11th degree, 9th degree",
+    "Điệu / phong cách: Contemporary Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Csus4",
+      "C",
+      "Am11",
+      "Am9",
+      "Dm11",
+      "G7sus4",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "contemporary-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bài 1 - Câu 5: Mẫu câu lót phức hợp kết hợp các bậc 3, 5, 7, 9 và hợp âm Sus4 (hoặc bậc 11). Việc chèn nốt bậc 4 (Sus4) rồi giải căng về bậc 3 tạo hiệu ứng căng - giải căng (Tension & Resolution) rất giàu cảm xúc trong đoạn kết câu hoặc chuyển vế.",
+    "music_entities": {
+      "chords": [
+        "Csus4",
+        "C",
+        "Am11",
+        "Am9",
+        "Dm11",
+        "G7sus4",
+        "G7"
+      ],
+      "tensions": [
+        "4th degree",
+        "Sus4",
+        "11th degree",
+        "9th degree"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Contemporary Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Csus4 -> C -> Am9 -> Dm9 -> G7sus4 -> C",
+      "notes": [
+        "F4",
+        "E4",
+        "B4",
+        "E5",
+        "C5",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "E3"
+        ],
+        "right": [
+          "F4",
+          "E4",
+          "D4",
+          "C4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 1 - Câu 5: Mẫu câu lót phức hợp kết hợp các bậc 3, 5, 7, 9 và hợp âm Sus4 (hoặc bậc 11). Việc chèn nốt bậc 4 (Sus4) rồi giải căng về bậc 3 tạo hiệu ứng căng - giải căng (Tension & Resolution) rất giàu cảm xúc trong đoạn kết câu hoặc chuyển vế."
+}

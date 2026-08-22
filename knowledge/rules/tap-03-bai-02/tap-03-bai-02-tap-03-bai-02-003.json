@@ -1,0 +1,43 @@
+{
+  "id": "tap-03-bai-02-tap-03-bai-02-003",
+  "type": "rule",
+  "name": "Tuyệt đối không ngoáy cổ tay hoặc xoay khuỷu tay khi luồn ngón cái dưới ngón 3",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-02",
+    "locator": "03:22:00-04:35:00",
+    "media_id": "video_tap_03_bai_02",
+    "supporting": []
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_02"
+  ],
+  "avoid_when": [
+    "Tuyệt đối không ngoáy cổ tay hoặc xoay khuỷu tay khi luồn ngón cái dưới ngón 3. Giữ bàn tay cong tròn, ngón tay vuông góc với phím đàn, tạo khoảng trống dưới lòng bàn tay để ngón cái luồn mượt mà."
+  ],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "warning",
+    "raw_text": "Tuyệt đối không ngoáy cổ tay hoặc xoay khuỷu tay khi luồn ngón cái dưới ngón 3. Giữ bàn tay cong tròn, ngón tay vuông góc với phím đàn, tạo khoảng trống dưới lòng bàn tay để ngón cái luồn mượt mà.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tuyệt đối không ngoáy cổ tay hoặc xoay khuỷu tay khi luồn ngón cái dưới ngón 3. Giữ bàn tay cong tròn, ngón tay vuông góc với phím đàn, tạo khoảng trống dưới lòng bàn tay để ngón cái luồn mượt mà."
+}

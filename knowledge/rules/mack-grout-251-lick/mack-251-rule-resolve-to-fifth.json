@@ -1,0 +1,35 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-rule-resolve-to-fifth",
+  "type": "rule",
+  "name": "Kết vòng ii-V-I thì giải quyết về bậc 5 của hợp âm chủ",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:02:17"
+  },
+  "use_when": [
+    "Nốt cuối của câu lick ii-V-I"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Cmaj7",
+      "C"
+    ]
+  },
+  "output": {
+    "if": "kết thúc vòng ii-V-I về hợp âm chủ bậc I (C)",
+    "then": {
+      "resolve_to": "nốt bậc 5 (G)"
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi kết vòng ii-V-I về hợp âm chủ bậc I (C), giải quyết nốt giai điệu về nốt bậc 5 là G để vừa êm tai vừa vững về hòa âm."
+}

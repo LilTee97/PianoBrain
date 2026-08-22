@@ -1,0 +1,127 @@
+{
+  "id": "tap-02-bai-09-tap02-bai09-k005",
+  "type": "accompaniment",
+  "name": "Ứng dụng Vòng 1 làm đoạn Outro kết bài: Lặp lại vòng C9 -> F9 -> Gsus4, câu cuối kết chậm dần (ritardando) về Cmaj7(9) h",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-09",
+    "locator": "00:11:13-00:12:28 pdf p.8",
+    "media_id": "video_tap02_bai09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap02_bai06_10",
+        "page": 8,
+        "section": "Cmajor79 -> Outro kết 79 rất đẹp !"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, Fadd9, Gsus4, Cmaj79",
+    "Giọng: C major",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: Slow Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "Fadd9",
+      "Gsus4",
+      "Cmaj79"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Ứng dụng Vòng 1 làm đoạn Outro kết bài: Lặp lại vòng C9 -> F9 -> Gsus4, câu cuối kết chậm dần (ritardando) về Cmaj7(9) hoặc Cadd9 đè ngân dài.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "Fadd9",
+        "Gsus4",
+        "Cmaj79"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Slow Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7(9)",
+      "notes": [
+        "C3",
+        "G3",
+        "B3",
+        "D4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "B3",
+          "D4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7(9)",
+        "notes": [
+          "C3",
+          "G3",
+          "B3",
+          "D4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "B3",
+            "D4",
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng Vòng 1 làm đoạn Outro kết bài: Lặp lại vòng C9 -> F9 -> Gsus4, câu cuối kết chậm dần (ritardando) về Cmaj7(9) hoặc Cadd9 đè ngân dài."
+}

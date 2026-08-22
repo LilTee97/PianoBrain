@@ -1,0 +1,133 @@
+{
+  "id": "tap-01-bai-01-lesson-id-00001-exercise-progressions",
+  "type": "exercise",
+  "name": "Thực hành tiết tấu Ballad trên 2 vòng hòa âm mẫu: Vòng 1 (1-6-2-5-1): C - Am - Dm - G - C",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-01",
+    "locator": "39:01-40:11 pdf p.5",
+    "media_id": "video_input_0",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 5,
+        "section": "Bài tập Vòng 1 & Vòng 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G, F, Em",
+    "Giọng: C Major",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G",
+      "F",
+      "Em"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành tiết tấu Ballad trên 2 vòng hòa âm mẫu: Vòng 1 (1-6-2-5-1): C - Am - Dm - G - C. Vòng 2 (4-3-2-5-1): F - Em - Dm - G - C.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G",
+        "F",
+        "Em"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C -> Am -> Dm -> G -> C",
+      "notes": [
+        "C-E-G",
+        "A-C-E",
+        "D-F-A",
+        "G-B-D",
+        "C-E-G"
+      ],
+      "hands": {
+        "left": [
+          "C3-G3",
+          "A2-E3",
+          "D3-A3",
+          "G2-D3",
+          "C3-G3"
+        ],
+        "right": [
+          "C4-E4",
+          "C4-E4",
+          "D4-F4",
+          "B3-D4",
+          "C4-E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C -> Am -> Dm -> G -> C",
+        "notes": [
+          "C-E-G",
+          "A-C-E",
+          "D-F-A",
+          "G-B-D",
+          "C-E-G"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3-G3",
+            "A2-E3",
+            "D3-A3",
+            "G2-D3",
+            "C3-G3"
+          ],
+          "right": [
+            "C4-E4",
+            "C4-E4",
+            "D4-F4",
+            "B3-D4",
+            "C4-E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành tiết tấu Ballad trên 2 vòng hòa âm mẫu: Vòng 1 (1-6-2-5-1): C - Am - Dm - G - C. Vòng 2 (4-3-2-5-1): F - Em - Dm - G - C."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "jazz-scales-bai-08-10-d-melodic-minor",
+  "type": "scale",
+  "name": "Gam D Melodic Minor cho hợp âm Bm7(b5)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-08",
+    "locator": "18:47-21:59",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Bm7(b5)",
+    "Ngẫu hứng jazz trên hợp âm E7(alt)",
+    "Ngẫu hứng jazz trên hợp âm Am(maj7)",
+    "Ngẫu hứng jazz trên hợp âm F#m7(b5)",
+    "Chọn gam / scale khi gặp hợp âm m7(b5), 7(alt), m(maj7) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7(b5)",
+      "7(alt)",
+      "m(maj7)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Bm7(b5)",
+    "notes": [
+      "E",
+      "D",
+      "B",
+      "A",
+      "F",
+      "D"
+    ],
+    "source_text": "Melodic Minor Improv Lick #2 ('Cry Me a River' Lick): Classic jazz motif starting on the 11th over m7b5 (D Melodic Minor), #9 over V7alt (F Melodic Minor), and 9th over m(maj7) (A Melodic Minor)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 8 của nguồn Jazz Scales (YouTube), mốc 18:47-21:59. Melodic Minor Improv Lick #2 ('Cry Me a River' Lick): Classic jazz motif starting on the 11th over m7b5 (D Melodic Minor), #9 over V7alt (F Melodic Minor), and 9th over m(maj7) (A Melodic Minor). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

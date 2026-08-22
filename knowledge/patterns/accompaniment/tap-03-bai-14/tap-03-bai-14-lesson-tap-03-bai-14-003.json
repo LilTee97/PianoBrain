@@ -1,0 +1,101 @@
+{
+  "id": "tap-03-bai-14-lesson-tap-03-bai-14-003",
+  "type": "accompaniment",
+  "name": "Giai điệu tay phải ở phiên khúc dịch chuyển quãng tương đối rộng (Sol3 lên Sol4)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-14",
+    "locator": "01:38:00-03:42:00 pdf p.17",
+    "media_id": "video_tap_03_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 17,
+        "section": "Giai điệu tay phải - Đoạn Phiên khúc"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C Major"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Giai điệu tay phải ở phiên khúc dịch chuyển quãng tương đối rộng (Sol3 lên Sol4). Quy tắc xếp ngón: dùng ngón 1 cho nốt Sol3 mở đầu để luồn/với các ngón 3, 4, 5 vươn lên nốt cao hơn (Mi, Fa, Sol4) mượt mà không bị ngắt gạt giai điệu.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "G3",
+        "C4",
+        "D4",
+        "E4",
+        "C4",
+        "D4",
+        "B3",
+        "C4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "G3 (1)",
+          "C4 (2)",
+          "D4 (3)",
+          "E4 (4)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": null,
+        "notes": [
+          "G3",
+          "C4",
+          "D4",
+          "E4",
+          "C4",
+          "D4",
+          "B3",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [],
+          "right": [
+            "G3 (1)",
+            "C4 (2)",
+            "D4 (3)",
+            "E4 (4)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giai điệu tay phải ở phiên khúc dịch chuyển quãng tương đối rộng (Sol3 lên Sol4). Quy tắc xếp ngón: dùng ngón 1 cho nốt Sol3 mở đầu để luồn/với các ngón 3, 4, 5 vươn lên nốt cao hơn (Mi, Fa, Sol4) mượt mà không bị ngắt gạt giai điệu."
+}

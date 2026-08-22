@@ -1,0 +1,146 @@
+{
+  "id": "tap-04-bai-12-hai-piano-tap-04-bai-12-004",
+  "type": "voicing",
+  "name": "Bài 12 - Câu 3: Mẫu câu lót áp dụng màu sắc hợp âm 7 (Am7, Em7/G, Fmaj7, Cmaj7/E, Dm7, Bm7b5, E7) tạo độ phong phú và mà",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-12",
+    "locator": "05:01:00-06:20:00 pdf p.59",
+    "media_id": "video_tap_04_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 59,
+        "section": "Bài 12 - Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am7, Em7/G, Fmaj7, Cmaj7/E, Dm7, Am/C, Bm7b5, E7",
+    "Giọng: A minor",
+    "Gam: A minor",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am7",
+      "Em7/G",
+      "Fmaj7",
+      "Cmaj7/E",
+      "Dm7",
+      "Am/C",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Bài 12 - Câu 3: Mẫu câu lót áp dụng màu sắc hợp âm 7 (Am7, Em7/G, Fmaj7, Cmaj7/E, Dm7, Bm7b5, E7) tạo độ phong phú và màu sắc lãng mạn hơn cho vòng bass đi xuống.",
+    "music_entities": {
+      "chords": [
+        "Am7",
+        "Em7/G",
+        "Fmaj7",
+        "Cmaj7/E",
+        "Dm7",
+        "Am/C",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7 - Em7/G - Fmaj7",
+      "notes": [
+        "G4",
+        "C5",
+        "E5",
+        "F4",
+        "A4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "G2",
+          "F2"
+        ],
+        "right": [
+          "G4",
+          "C5",
+          "E5",
+          "A4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am7 - Em7/G - Fmaj7",
+        "notes": [
+          "G4",
+          "C5",
+          "E5",
+          "F4",
+          "A4",
+          "C5",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "G2",
+            "F2"
+          ],
+          "right": [
+            "G4",
+            "C5",
+            "E5",
+            "A4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 12 - Câu 3: Mẫu câu lót áp dụng màu sắc hợp âm 7 (Am7, Em7/G, Fmaj7, Cmaj7/E, Dm7, Bm7b5, E7) tạo độ phong phú và màu sắc lãng mạn hơn cho vòng bass đi xuống."
+}

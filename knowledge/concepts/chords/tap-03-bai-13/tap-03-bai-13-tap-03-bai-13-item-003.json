@@ -1,0 +1,82 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-003",
+  "type": "concept",
+  "name": "Hệ thống hợp âm 1-4-5 và hợp âm bậc trong giọng Sol trưởng: Bậc I = G (Sol trưởng), Bậc IV = C (Đô trưởng), Bậc V = D (R",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "01:43:00-02:10:00 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "Diatonic Chords in G Major"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: G, C, D, Em, Am, Bm",
+    "Giọng: G Major, E Minor"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "G",
+      "C",
+      "D",
+      "Em",
+      "Am",
+      "Bm"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hệ thống hợp âm 1-4-5 và hợp âm bậc trong giọng Sol trưởng: Bậc I = G (Sol trưởng), Bậc IV = C (Đô trưởng), Bậc V = D (Rê trưởng). Tương ứng giọng song song Mi thứ (Em - Bậc VI), La thứ (Am - Bậc II), Si thứ (Bm - Bậc III).",
+    "music_entities": {
+      "chords": [
+        "G",
+        "C",
+        "D",
+        "Em",
+        "Am",
+        "Bm"
+      ],
+      "tensions": [],
+      "keys": [
+        "G Major",
+        "E Minor"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "G, C, D, Em",
+      "notes": [
+        "G-B-D",
+        "C-E-G",
+        "D-F#-A",
+        "E-G-B"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "C3",
+          "D3",
+          "E3"
+        ],
+        "right": [
+          "G3-B3-D4",
+          "C4-E4-G4",
+          "D4-F#4-A4",
+          "E4-G4-B4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hệ thống hợp âm 1-4-5 và hợp âm bậc trong giọng Sol trưởng: Bậc I = G (Sol trưởng), Bậc IV = C (Đô trưởng), Bậc V = D (Rê trưởng). Tương ứng giọng song song Mi thứ (Em - Bậc VI), La thứ (Am - Bậc II), Si thứ (Bm - Bậc III)."
+}

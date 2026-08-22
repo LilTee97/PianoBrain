@@ -1,0 +1,127 @@
+{
+  "id": "tap-03-bai-12-tap-03-bai-12-004",
+  "type": "accompaniment",
+  "name": "Hướng dẫn kỹ thuật phân bổ nhịp đập và liên kết giai điệu móc kép, móc đơn có dấu nối",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-12",
+    "locator": "00:06:12-00:09:38 pdf p.13",
+    "media_id": "video_tap_03_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03_bai_12",
+        "page": 13,
+        "section": "Ô nhịp 5 - 8"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm7, Em7, Am7, Fadd9",
+    "Giọng: A minor",
+    "Gam: A minor",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm7",
+      "Em7",
+      "Am7",
+      "Fadd9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Hướng dẫn kỹ thuật phân bổ nhịp đập và liên kết giai điệu móc kép, móc đơn có dấu nối. Tay trái đánh nốt Bass thế ngón mở rộng 1-5-8 hoặc 1-5-10 để giữ vững hòa âm.",
+    "music_entities": {
+      "chords": [
+        "Dm7",
+        "Em7",
+        "Am7",
+        "Fadd9"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fadd9",
+      "notes": [
+        "F2",
+        "C3",
+        "G3",
+        "A3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3"
+        ],
+        "right": [
+          "G3",
+          "A3",
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Fadd9",
+        "notes": [
+          "F2",
+          "C3",
+          "G3",
+          "A3",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "C3"
+          ],
+          "right": [
+            "G3",
+            "A3",
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hướng dẫn kỹ thuật phân bổ nhịp đập và liên kết giai điệu móc kép, móc đơn có dấu nối. Tay trái đánh nốt Bass thế ngón mở rộng 1-5-8 hoặc 1-5-10 để giữ vững hòa âm."
+}

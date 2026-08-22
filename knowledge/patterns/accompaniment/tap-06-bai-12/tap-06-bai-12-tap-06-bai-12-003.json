@@ -1,0 +1,116 @@
+{
+  "id": "tap-06-bai-12-tap-06-bai-12-003",
+  "type": "accompaniment",
+  "name": "Tango Mẫu 1 (Cơ bản): Tay trái chơi nốt Bass giật dứt khoát kết hợp đảo nhịp nốt đơn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-12",
+    "locator": "02:25-07:04 pdf p.1",
+    "media_id": "video_tap_06_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_12",
+        "page": 1,
+        "section": "Mau_1_Tango_Co_Ban"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, Bm7b5, E7",
+    "Giọng: A minor",
+    "Điệu / phong cách: Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Tango Mẫu 1 (Cơ bản): Tay trái chơi nốt Bass giật dứt khoát kết hợp đảo nhịp nốt đơn; Tay phải đệm hợp âm ngắt tiếng (staccato) 'chát chát - chát chát' tạo nhịp nhảy sôi động cho phiên khúc.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Tango"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "C3",
+        "E3",
+        "A3"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "C3",
+          "E3",
+          "A3"
+        ],
+        "right": [
+          "C4-E4-A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A2",
+          "C3",
+          "E3",
+          "A3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "C3",
+            "E3",
+            "A3"
+          ],
+          "right": [
+            "C4-E4-A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tango Mẫu 1 (Cơ bản): Tay trái chơi nốt Bass giật dứt khoát kết hợp đảo nhịp nốt đơn; Tay phải đệm hợp âm ngắt tiếng (staccato) 'chát chát - chát chát' tạo nhịp nhảy sôi động cho phiên khúc."
+}

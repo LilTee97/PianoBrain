@@ -1,0 +1,76 @@
+{
+  "id": "tap-01-bai-10-rule-march-staccato-articulation",
+  "type": "rule",
+  "name": "Tiết tấu March nhịp 2/4 đòi hỏi lực đánh dứt khoát, nảy (Staccato/Nonlegato) ở cả hai tay để tạo âm hưởng hành quân dồn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-10",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Boston, Fox, Hành khúc, March, Polka, Solo Piano, Valse chậm"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "boston",
+      "fox",
+      "h-nh-kh-c",
+      "march",
+      "polka",
+      "solo-piano",
+      "valse-ch-m"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Boston",
+        "Fox",
+        "Hành khúc",
+        "March",
+        "Polka",
+        "Solo Piano",
+        "Valse chậm"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Tiết tấu March nhịp 2/4 đòi hỏi lực đánh dứt khoát, nảy (Staccato/Nonlegato) ở cả hai tay để tạo âm hưởng hành quân dồn dập, khỏe khoắn.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_MARCH_STACCATO_ARTICULATION",
+      "title": "Sử dụng Staccato/Nonlegato trong tiết tấu March",
+      "description": "Tiết tấu March nhịp 2/4 đòi hỏi lực đánh dứt khoát, nảy (Staccato/Nonlegato) ở cả hai tay để tạo âm hưởng hành quân dồn dập, khỏe khoắn.",
+      "category": "rhythm_articulation",
+      "applies_to": [
+        "March",
+        "Hành khúc",
+        "Polka"
+      ],
+      "severity": "recommended",
+      "lesson_folder": "Tap_01_Bai_10"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Tiết tấu March nhịp 2/4 đòi hỏi lực đánh dứt khoát, nảy (Staccato/Nonlegato) ở cả hai tay để tạo âm hưởng hành quân dồn dập, khỏe khoắn."
+}

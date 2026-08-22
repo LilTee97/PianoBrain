@@ -1,0 +1,133 @@
+{
+  "id": "tap-04-bai-07-hai-piano-tap4-bai07-006",
+  "type": "exercise",
+  "name": "Câu 5: Mẫu câu lót tổng hợp sử dụng voicing dày dặn ở cả hai tay, kết hợp đảo phách và lót hợp âm đầy đủ, tạo thành đoạn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-07",
+    "locator": "00:09:54-00:12:08 pdf p.36",
+    "media_id": "video_tap4_bai07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap4_75_mau_cau_lot_cau_dan",
+        "page": 36,
+        "section": "câu 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm7, G7, Em7, Am7, Fmaj7, G7, C",
+    "Giọng: C major",
+    "Gam: C major",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm7",
+      "G7",
+      "Em7",
+      "Am7",
+      "Fmaj7",
+      "G7",
+      "C"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Câu 5: Mẫu câu lót tổng hợp sử dụng voicing dày dặn ở cả hai tay, kết hợp đảo phách và lót hợp âm đầy đủ, tạo thành đoạn lót/intro/outro hoàn chỉnh chuyên nghiệp cho bài nhạc điệu Boston.",
+    "music_entities": {
+      "chords": [
+        "Dm7",
+        "G7",
+        "Em7",
+        "Am7",
+        "Fmaj7",
+        "G7",
+        "C"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "C",
+        "E",
+        "G",
+        "D"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "E3"
+        ],
+        "right": [
+          "G3",
+          "C4",
+          "D4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cadd9",
+        "notes": [
+          "C",
+          "E",
+          "G",
+          "D"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "E3"
+          ],
+          "right": [
+            "G3",
+            "C4",
+            "D4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu 5: Mẫu câu lót tổng hợp sử dụng voicing dày dặn ở cả hai tay, kết hợp đảo phách và lót hợp âm đầy đủ, tạo thành đoạn lót/intro/outro hoàn chỉnh chuyên nghiệp cho bài nhạc điệu Boston."
+}

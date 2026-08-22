@@ -1,0 +1,55 @@
+{
+  "id": "tap-06-bai-04-tap-06-bai-04-006",
+  "type": "rule",
+  "name": "Quy tắc phối hợp tiết tấu trong đệm hát: Đoạn dạo đầu hoặc phiên khúc 1 sử dụng Mẫu 1 (Fox nhẹ nhàng), sang phiên khúc 2",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-04",
+    "locator": "00:13:46-00:15:18 pdf p.1",
+    "media_id": "video_tap_06_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_04",
+        "page": 1,
+        "section": "Ứng dụng phối hợp"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Fox, Country Fox"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "fox",
+      "country-fox"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc phối hợp tiết tấu trong đệm hát: Đoạn dạo đầu hoặc phiên khúc 1 sử dụng Mẫu 1 (Fox nhẹ nhàng), sang phiên khúc 2 hoặc điệp khúc nhỏ dùng Mẫu 2 (Country Fox), và đẩy lên cao trào bùng nổ ở Điệp khúc chính bằng Mẫu 3 (Chấm giật syncopation).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Fox",
+        "Country Fox"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc phối hợp tiết tấu trong đệm hát: Đoạn dạo đầu hoặc phiên khúc 1 sử dụng Mẫu 1 (Fox nhẹ nhàng), sang phiên khúc 2 hoặc điệp khúc nhỏ dùng Mẫu 2 (Country Fox), và đẩy lên cao trào bùng nổ ở Điệp khúc chính bằng Mẫu 3 (Chấm giật syncopation)."
+}

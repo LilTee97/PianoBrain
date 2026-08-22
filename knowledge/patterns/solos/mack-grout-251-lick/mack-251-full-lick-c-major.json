@@ -1,0 +1,66 @@
+{
+  "difficulty": 4,
+  "avoid_when": [
+    "Nhịp quá nhanh không đủ chỗ cho đủ nốt"
+  ],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-full-lick-c-major",
+  "type": "solo_idea",
+  "name": "Câu lick trọn vòng tông C: D-C#-D-F | A-C-B-G-F-E-D | về G",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:01:06"
+  },
+  "use_when": [
+    "Tập nguyên một câu lick ii-V-I tông C",
+    "Có hai ô nhịp trống để chạy"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Dm9",
+      "G7",
+      "G13",
+      "Cmaj7"
+    ]
+  },
+  "output": {
+    "hand": "RH",
+    "phrase": {
+      "on_Dm": [
+        "D",
+        "C#",
+        "D",
+        "F"
+      ],
+      "on_G7": [
+        "A",
+        "C",
+        "B",
+        "G",
+        "F",
+        "E",
+        "D"
+      ],
+      "on_C": [
+        "G"
+      ]
+    },
+    "uncertain_notes": [
+      {
+        "where": "trên G7, nốt thứ ba của câu",
+        "heard_as": [
+          "Bb",
+          "A"
+        ],
+        "note": "nghe không chắc, chưa chốt được nốt cố định"
+      }
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Tay phải tông C — trên Dm: D → C# → D → F; trên G7: A → C → (nốt này nghe không chắc, có thể là Bb hoặc A) → B → G → F → E → D; trên C: đáp về nốt G. Nốt thứ ba của đoạn G7 nghe không rõ trong video nên KHÔNG coi là nốt cố định; ai tập lại cần nghe kỹ rồi chốt trước khi duyệt item này."
+}

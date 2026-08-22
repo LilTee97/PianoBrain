@@ -1,0 +1,134 @@
+{
+  "id": "tap-04-bai-02-lesson-tap04-bai02-004",
+  "type": "exercise",
+  "name": "Mẫu câu 3 (Câu 3): Ứng dụng hợp âm 7 (7th chords) và nét giai điệu bậc 7 (Maj7, m7)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-02",
+    "locator": "04:49:00-06:18:00 pdf p.9",
+    "media_id": "video_tap04_bai02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04",
+        "page": 9,
+        "section": "Bài 2 - Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm7, Em7, G7, Cmaj7",
+    "Giọng: C major",
+    "Nốt màu: 7th, Maj7",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm7",
+      "Em7",
+      "G7",
+      "Cmaj7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu 3 (Câu 3): Ứng dụng hợp âm 7 (7th chords) và nét giai điệu bậc 7 (Maj7, m7). Âm màu hợp âm 7 mang tính hiện đại, rất thông dụng trong các ca khúc Pop Ballad Việt Nam (như Yêu Xa, Vết Mưa, Nơi Tình Yêu Bắt Đầu).",
+    "music_entities": {
+      "chords": [
+        "Dm7",
+        "Em7",
+        "G7",
+        "Cmaj7"
+      ],
+      "tensions": [
+        "7th",
+        "Maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm7 - Em7 - G7 - Cmaj7",
+      "notes": [
+        "C5",
+        "B4",
+        "F4",
+        "B4",
+        "B4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "D3",
+          "E3",
+          "G2",
+          "C3"
+        ],
+        "right": [
+          "C5",
+          "B4",
+          "F4",
+          "A4",
+          "B4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm7 - Em7 - G7 - Cmaj7",
+        "notes": [
+          "C5",
+          "B4",
+          "F4",
+          "B4",
+          "B4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D3",
+            "E3",
+            "G2",
+            "C3"
+          ],
+          "right": [
+            "C5",
+            "B4",
+            "F4",
+            "A4",
+            "B4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 3 (Câu 3): Ứng dụng hợp âm 7 (7th chords) và nét giai điệu bậc 7 (Maj7, m7). Âm màu hợp âm 7 mang tính hiện đại, rất thông dụng trong các ca khúc Pop Ballad Việt Nam (như Yêu Xa, Vết Mưa, Nơi Tình Yêu Bắt Đầu)."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "tap-03-bai-02-r-treble-clef-direct-reading",
+  "type": "rule",
+  "name": "Học đọc nốt trên dòng/khe bằng phản xạ vị trí cố định và tên ký hiệu quốc tế (E4, G4, B4, D5, F5 cho dòng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-02",
+    "locator": "20:36:00-25:34:00",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Classical/Technique, Music Theory, Sight Reading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical-technique",
+      "music-theory",
+      "sight-reading"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Classical/Technique",
+        "Music Theory",
+        "Sight Reading"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Học đọc nốt trên dòng/khe bằng phản xạ vị trí cố định và tên ký hiệu quốc tế (E4, G4, B4, D5, F5 cho dòng; F4, A4, C5, E5 cho khe) thay vì đếm thứ tự từ C4.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Identify note pitch instantly by line/space index"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TREBLE_CLEF_DIRECT_READING",
+      "category": "sight_reading",
+      "description": "Học đọc nốt trên dòng/khe bằng phản xạ vị trí cố định và tên ký hiệu quốc tế (E4, G4, B4, D5, F5 cho dòng; F4, A4, C5, E5 cho khe) thay vì đếm thứ tự từ C4.",
+      "condition": "Sight reading treble clef staff",
+      "action": "Identify note pitch instantly by line/space index",
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_02"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Học đọc nốt trên dòng/khe bằng phản xạ vị trí cố định và tên ký hiệu quốc tế (E4, G4, B4, D5, F5 cho dòng; F4, A4, C5, E5 cho khe) thay vì đếm thứ tự từ C4."
+}

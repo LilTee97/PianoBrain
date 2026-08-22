@@ -1,0 +1,51 @@
+{
+  "difficulty": 3,
+  "avoid_when": [
+    "Hạn chế trên bậc IV: Fsus4 có nốt Bb, đụng nốt B của giọng Đô trưởng"
+  ],
+  "source": {
+    "teacher_id": "kingsley",
+    "source_id": "kingsley-pop-ballad-fills",
+    "locator": "Folders 03, 05/03, 06, 11, 12"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "id": "kingsley-sus4-to-3",
+  "type": "fill",
+  "name": "Chuyển sus4 sang bậc 3, ưu tiên bậc I và bậc V",
+  "use_when": [
+    "Hợp âm I hoặc V đang ngân",
+    "Cần độ căng nhẹ rồi giải tỏa"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "G",
+      "Csus4",
+      "Gsus4"
+    ]
+  },
+  "output": {
+    "move": "bậc 4 xuống bậc 3",
+    "examples": {
+      "C": [
+        "F",
+        "E"
+      ],
+      "G": [
+        "C",
+        "B"
+      ]
+    },
+    "prefer_degrees": [
+      "I",
+      "V"
+    ],
+    "limit_degree": "IV",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Cho nốt bậc 4 giải tỏa xuống bậc 3: trên C đi F sang E, trên G đi C sang B. Ưu tiên dùng ở bậc I và bậc V. Hạn chế ở bậc IV vì Fsus4 mang nốt Bb, va vào nốt B tự nhiên của giọng Đô trưởng."
+}

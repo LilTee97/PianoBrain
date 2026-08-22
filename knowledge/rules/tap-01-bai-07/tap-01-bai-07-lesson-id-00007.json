@@ -1,0 +1,47 @@
+{
+  "id": "tap-01-bai-07-lesson-id-00007",
+  "type": "rule",
+  "name": "3 nguyên tắc vàng khi viết câu lót/câu dẫn: 1) Xác định Motif tiết tấu của bài/câu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-07",
+    "locator": "28:19-30:05 pdf p.4",
+    "media_id": "video_tap01_bai07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 4,
+        "section": "Viết câu dẫn thì chúng ta"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_01_Bai_07"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "3 nguyên tắc vàng khi viết câu lót/câu dẫn: 1) Xác định Motif tiết tấu của bài/câu; 2) Chọn nốt thuộc hợp âm trước (ưu tiên B3, B5, B1 hoặc B3, B4, B6 đối với thế đảo); 3) Tạo tuyến Bass di chuyển liền bậc (nửa cung hoặc 1 cung).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "3 nguyên tắc vàng khi viết câu lót/câu dẫn: 1) Xác định Motif tiết tấu của bài/câu; 2) Chọn nốt thuộc hợp âm trước (ưu tiên B3, B5, B1 hoặc B3, B4, B6 đối với thế đảo); 3) Tạo tuyến Bass di chuyển liền bậc (nửa cung hoặc 1 cung)."
+}

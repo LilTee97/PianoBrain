@@ -1,0 +1,131 @@
+{
+  "id": "tap-04-bai-10-hai-piano-course-001-tap-04-bai-10-002",
+  "type": "fill",
+  "name": "Mẫu câu lót 16-Beat số 1: Sử dụng nốt bậc 3 và bậc 5 của hợp âm để làm giai điệu lót nhịp nhàng trên nền tiết tấu 16-Bea",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-10",
+    "locator": "00:02:48-00:04:51 pdf p.47",
+    "media_id": "video_tap_04_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 47,
+        "section": "Bài 10 - Câu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, F, E7",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Nốt màu: 3rd, 5th",
+    "Điệu / phong cách: 16-Beat"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "F",
+      "E7"
+    ],
+    "style": [
+      "16-beat"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu câu lót 16-Beat số 1: Sử dụng nốt bậc 3 và bậc 5 của hợp âm để làm giai điệu lót nhịp nhàng trên nền tiết tấu 16-Beat ở giọng Am.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "F",
+        "E7"
+      ],
+      "tensions": [
+        "3rd",
+        "5th"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "16-Beat"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "C5",
+        "B4",
+        "A4",
+        "E4",
+        "A4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "A3"
+        ],
+        "right": [
+          "C5",
+          "B4",
+          "A4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "C5",
+          "B4",
+          "A4",
+          "E4",
+          "A4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3",
+            "A3"
+          ],
+          "right": [
+            "C5",
+            "B4",
+            "A4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót 16-Beat số 1: Sử dụng nốt bậc 3 và bậc 5 của hợp âm để làm giai điệu lót nhịp nhàng trên nền tiết tấu 16-Beat ở giọng Am."
+}

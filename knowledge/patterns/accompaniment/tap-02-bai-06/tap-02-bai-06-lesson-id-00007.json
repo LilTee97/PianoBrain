@@ -1,0 +1,107 @@
+{
+  "id": "tap-02-bai-06-lesson-id-00007",
+  "type": "accompaniment",
+  "name": "Hợp âm Thứ Bảy Trưởng (m.major7 - như Am.major7 hay Cm.major7): Được sử dụng hiệu quả nhất khi lấp khoảng trống (gap fil",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-06",
+    "locator": "00:27:19-00:33:36 pdf p.3",
+    "media_id": "video_tap_02_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 3,
+        "section": "Cm.majoir7 Dùng trong lấp khoảng trống"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Am.major7, Am7, Dm7, Cm.major7, C7, Fm7",
+    "Giọng: Am, Cm",
+    "Điệu / phong cách: Pop, Ballad, Movie Score"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Am.major7",
+      "Am7",
+      "Dm7",
+      "Cm.major7",
+      "C7",
+      "Fm7"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "movie-score"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Hợp âm Thứ Bảy Trưởng (m.major7 - như Am.major7 hay Cm.major7): Được sử dụng hiệu quả nhất khi lấp khoảng trống (gap filling) trong các đoạn giai điệu ngân dài, tạo nốt chromatic chuyển động tuyến âm (line cliché) từ Bậc 1 -> Bậc 7 trưởng -> Bậc 7 thứ. Chuỗi: Am -> Am.major7 -> Am7 -> Dm7.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Am.major7",
+        "Am7",
+        "Dm7",
+        "Cm.major7",
+        "C7",
+        "Fm7"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am",
+        "Cm"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop",
+        "Ballad",
+        "Movie Score"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am -> Am.major7 -> Am7",
+      "notes": [
+        "A2",
+        "A3",
+        "C4",
+        "E4",
+        "A2",
+        "G#3",
+        "C4",
+        "E4",
+        "A2",
+        "G3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "A2",
+          "A2"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "E4",
+          "G#3",
+          "C4",
+          "E4",
+          "G3",
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Thứ Bảy Trưởng (m.major7 - như Am.major7 hay Cm.major7): Được sử dụng hiệu quả nhất khi lấp khoảng trống (gap filling) trong các đoạn giai điệu ngân dài, tạo nốt chromatic chuyển động tuyến âm (line cliché) từ Bậc 1 -> Bậc 7 trưởng -> Bậc 7 thứ. Chuỗi: Am -> Am.major7 -> Am7 -> Dm7."
+}

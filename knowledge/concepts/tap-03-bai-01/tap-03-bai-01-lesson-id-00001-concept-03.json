@@ -1,0 +1,72 @@
+{
+  "id": "tap-03-bai-01-lesson-id-00001-concept-03",
+  "type": "concept",
+  "name": "Ứng dụng cảm xúc âm nhạc của 3 kỹ thuật ngón: Legato dùng cho giai điệu êm dịu, buồn, tha thiết (Pop Ballad, Classical)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-01",
+    "locator": "00:31:35-00:35:30 pdf p.2",
+    "media_id": "video_tap_03_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 2,
+        "section": "Bài 5 - Fur Elise"
+      },
+      {
+        "source_id": "pdf_tap_03",
+        "page": 3,
+        "section": "Bài 6 - Silent Night"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Bossa Nova, Tango, Pop, Classical"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "bossa-nova",
+      "tango",
+      "pop",
+      "classical"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Ứng dụng cảm xúc âm nhạc của 3 kỹ thuật ngón: Legato dùng cho giai điệu êm dịu, buồn, tha thiết (Pop Ballad, Classical); Non-legato dùng đánh hợp âm đệm đặn, Bossa Nova, đệm hát dày dặn; Staccato dùng cho tác phẩm nhịp điệu vui tươi, sôi động, Tango, March.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Ballad",
+        "Bossa Nova",
+        "Tango",
+        "Pop",
+        "Classical"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C",
+        "E",
+        "G"
+      ],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng cảm xúc âm nhạc của 3 kỹ thuật ngón: Legato dùng cho giai điệu êm dịu, buồn, tha thiết (Pop Ballad, Classical); Non-legato dùng đánh hợp âm đệm đặn, Bossa Nova, đệm hát dày dặn; Staccato dùng cho tác phẩm nhịp điệu vui tươi, sôi động, Tango, March."
+}

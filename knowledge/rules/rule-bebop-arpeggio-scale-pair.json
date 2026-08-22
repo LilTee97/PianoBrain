@@ -1,0 +1,48 @@
+{
+  "id": "rule-bebop-arpeggio-scale-pair",
+  "type": "rule",
+  "name": "Trên hợp âm át: rải bốn nốt lên rồi bốn nốt gam bebop xuống, hoặc ngược lại",
+  "difficulty": 3,
+  "source": null,
+  "use_when": [
+    "Dựng câu chạy tám nốt móc đơn trên một hợp âm át trong đoạn không lời",
+    "Cần câu jazz đi liền mạch mà nốt hợp âm vẫn rơi vào phách mạnh"
+  ],
+  "avoid_when": [
+    "Hợp âm không phải hợp âm át — hình này dựng trên chồng quãng ba của hợp âm át",
+    "Kho chưa có gam bebop cho hợp âm đang chơi",
+    "Đoạn có lời — tám nốt móc đơn liên tục là giành chỗ của người hát"
+  ],
+  "input": {
+    "chord_quality": ["7", "9", "13", "7sus4"],
+    "section": ["interlude", "solo"],
+    "style": ["jazz"],
+    "hand": "RH",
+    "requires_scale": "bebop dominant"
+  },
+  "output": {
+    "if": "hợp âm át, và kho có gam bebop dominant cho nó",
+    "then": "ghép một cụm rải bốn nốt với một cụm bốn nốt gam đi ngược chiều, thành một câu tám nốt",
+    "type_1": {
+      "shape": "rải bốn nốt ĐI LÊN rồi bốn nốt gam ĐI XUỐNG",
+      "arpeggio_from": ["bậc 3", "bậc 5", "bậc 7"],
+      "accent": "nhấn nốt cao nhất của mỗi cụm rải, lấy chất swing"
+    },
+    "type_2": {
+      "shape": "bốn nốt gam ĐI XUỐNG trước, đậu vào một nốt hợp âm, rồi rải bốn nốt ĐI LÊN"
+    },
+    "why_eight": "gam bebop có tám bậc, nên đi móc đơn thì nốt hợp âm rơi đúng phách mạnh",
+    "derived_from": [
+      "jazz-scales-bai-06-05-g-dominant-bebop-scale",
+      "jazz-scales-bai-06-06-g-dominant-bebop-scale",
+      "jazz-scales-bai-06-01-g-dominant-bebop-scale",
+      "jazz-scales-bai-06-02-g7-9",
+      "jazz-scales-bai-06-03-g7-9-11",
+      "jazz-scales-bai-06-04-g7-9-11-13"
+    ],
+    "enforced_by": "KeyTrain src/reharm/fillSoloGenerator/soloVocabulary.ts — mẫu câu 'bebop-pair'"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Bài 6 của nguồn Jazz Scales mô tả hình này bằng lời ở mốc 02:25-03:42 và 03:43-04:46, kèm ba ví dụ rải dựng trên bậc 3, bậc 5 và bậc 7 của G7 (B-D-F-A, D-F-A-C, F-A-C-E) ở mốc 00:41-02:24. Item này là bản CHUYỂN NHỮNG CÂU CHỮ ẤY THÀNH LUẬT MÁY ĐỌC ĐƯỢC, nên nó là derived: nguồn nói bằng lời và bằng ví dụ trên một giọng, còn phần khái quát lên mọi hợp âm át và mọi giọng là suy luận, không phải lời thầy. Vì thế item không mang source, không gán cho thầy nào, và giữ draft. Muốn nâng lên validated thì phải có người xem lại video rồi xác nhận phần khái quát này đúng ý bài giảng."
+}

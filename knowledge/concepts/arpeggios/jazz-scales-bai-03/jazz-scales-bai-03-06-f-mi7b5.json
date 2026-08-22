@@ -1,0 +1,52 @@
+{
+  "id": "jazz-scales-bai-03-06-f-mi7b5",
+  "type": "arpeggio",
+  "name": "Luyện tập Rải Arpeggio hợp âm F#mi7b5 (F# half-diminished 7) qua các thể đảo:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-03",
+    "locator": "09:42-10:40",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F#mi7b5",
+    "Chọn gam / scale khi gặp hợp âm m7b5 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7b5"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F#mi7b5",
+    "notes": [
+      "F#3",
+      "A3",
+      "C4",
+      "E4",
+      "A3",
+      "C4",
+      "E4",
+      "F#4",
+      "C4",
+      "E4",
+      "F#4",
+      "A4",
+      "E4",
+      "F#4",
+      "A4",
+      "C5"
+    ],
+    "source_text": "Luyện tập Rải Arpeggio hợp âm F#mi7b5 (F# half-diminished 7) qua các thể đảo: Root (F#-A-C-E), 1st inv (A-C-E-F#), 2nd inv (C-E-F#-A), 3rd inv (E-F#-A-C). Bổ sung nốt Bass C5 (quãng 5 giảm b5) ở tay trái khi bấm bass."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 3 của nguồn Jazz Scales (YouTube), mốc 09:42-10:40. Luyện tập Rải Arpeggio hợp âm F#mi7b5 (F# half-diminished 7) qua các thể đảo: Root (F#-A-C-E), 1st inv (A-C-E-F#), 2nd inv (C-E-F#-A), 3rd inv (E-F#-A-C). Bổ sung nốt Bass C5 (quãng 5 giảm b5) ở tay trái khi bấm bass. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

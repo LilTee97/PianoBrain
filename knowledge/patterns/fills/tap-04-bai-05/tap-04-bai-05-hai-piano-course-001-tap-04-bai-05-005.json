@@ -1,0 +1,130 @@
+{
+  "id": "tap-04-bai-05-hai-piano-course-001-tap-04-bai-05-005",
+  "type": "fill",
+  "name": "Bài 5 - Câu 3: Mở rộng hợp âm 7 và đưa nốt bậc 7 vào tuyến giai điệu câu lót (ví dụ Am7, Dm7, G7, Cmaj7, Fmaj7), tạo màu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-05",
+    "locator": "00:06:04-00:07:25 pdf p.24",
+    "media_id": "video_tap_04_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 24,
+        "section": "Bài 5 - Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am7, Dm7, G7, Cmaj7, Fmaj7, Bm7b5, E7",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Nốt màu: 7, maj7",
+    "Điệu / phong cách: Ballad, Pop/Jazz Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am7",
+      "Dm7",
+      "G7",
+      "Cmaj7",
+      "Fmaj7",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "pop",
+      "pop-jazz-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bài 5 - Câu 3: Mở rộng hợp âm 7 và đưa nốt bậc 7 vào tuyến giai điệu câu lót (ví dụ Am7, Dm7, G7, Cmaj7, Fmaj7), tạo màu sắc hòa âm phong phú và mềm mại hơn.",
+    "music_entities": {
+      "chords": [
+        "Am7",
+        "Dm7",
+        "G7",
+        "Cmaj7",
+        "Fmaj7",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [
+        "7",
+        "maj7"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop/Jazz Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7",
+      "notes": [
+        "G4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "A2"
+        ],
+        "right": [
+          "G4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am7",
+        "notes": [
+          "G4",
+          "C5",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2"
+          ],
+          "right": [
+            "G4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 5 - Câu 3: Mở rộng hợp âm 7 và đưa nốt bậc 7 vào tuyến giai điệu câu lót (ví dụ Am7, Dm7, G7, Cmaj7, Fmaj7), tạo màu sắc hòa âm phong phú và mềm mại hơn."
+}

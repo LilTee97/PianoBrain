@@ -1,0 +1,122 @@
+{
+  "id": "tap-03-bai-01-lesson-id-00001-pattern-02",
+  "type": "fill",
+  "name": "Kỹ thuật Legato (Kéo ngón tay / Liền tiếng): Giữ cổ tay cố định thả lỏng, nâng độc lập khớp khuỷu ngón tay (knuckle) lên",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-01",
+    "locator": "00:15:20-00:28:04",
+    "media_id": "video_tap_03_bai_01",
+    "supporting": []
+  },
+  "use_when": [
+    "Gam: C major scale",
+    "Điệu / phong cách: Ballad, Pop Solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "pop-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Kỹ thuật Legato (Kéo ngón tay / Liền tiếng): Giữ cổ tay cố định thả lỏng, nâng độc lập khớp khuỷu ngón tay (knuckle) lên cao rồi đập mạnh xuống phím. Khi phím sau vang lên thì mới nhấc ngón phím trước. Tác dụng: Tập cho khuỷu ngón tay độc lập và khỏe. Âm thanh: To, vang, liền tiếng (không bị hẫng hoặc dính âm).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop Solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "D3",
+          "E3",
+          "F3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": null,
+        "notes": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4",
+          "F4",
+          "E4",
+          "D4",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "D3",
+            "E3",
+            "F3",
+            "G3"
+          ],
+          "right": [
+            "C4",
+            "D4",
+            "E4",
+            "F4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật Legato (Kéo ngón tay / Liền tiếng): Giữ cổ tay cố định thả lỏng, nâng độc lập khớp khuỷu ngón tay (knuckle) lên cao rồi đập mạnh xuống phím. Khi phím sau vang lên thì mới nhấc ngón phím trước. Tác dụng: Tập cho khuỷu ngón tay độc lập và khỏe. Âm thanh: To, vang, liền tiếng (không bị hẫng hoặc dính âm)."
+}

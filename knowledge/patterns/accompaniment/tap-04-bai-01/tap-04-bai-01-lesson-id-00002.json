@@ -1,0 +1,92 @@
+{
+  "id": "tap-04-bai-01-lesson-id-00002",
+  "type": "accompaniment",
+  "name": "Bài 1 - Câu 1: Mẫu câu lót/câu dẫn cơ bản trên vòng hợp âm 1 - 6 - 2 - 5 - 1 (C - Am - Dm - G7 - C) ở nhịp 4/4 phong các",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-01",
+    "locator": "00:04:03-00:06:45 pdf p.2",
+    "media_id": "video_tap_04_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 2,
+        "section": "Bài 1 - Câu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am7, Dm7, G7, Gsus4",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: 3rd degree",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am7",
+      "Dm7",
+      "G7",
+      "Gsus4"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bài 1 - Câu 1: Mẫu câu lót/câu dẫn cơ bản trên vòng hợp âm 1 - 6 - 2 - 5 - 1 (C - Am - Dm - G7 - C) ở nhịp 4/4 phong cách Ballad. Giai điệu nhấn/dừng ở nốt bậc 3 (3rd degree) của từng hợp âm (E cho C, C cho Am, F cho Dm, B cho G).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am7",
+        "Dm7",
+        "G7",
+        "Gsus4"
+      ],
+      "tensions": [
+        "3rd degree"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C -> Am7 -> Dm7 -> G7 -> C",
+      "notes": [
+        "E",
+        "C",
+        "F",
+        "B"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "E3"
+        ],
+        "right": [
+          "G4",
+          "F4",
+          "E4",
+          "D4",
+          "C4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 1 - Câu 1: Mẫu câu lót/câu dẫn cơ bản trên vòng hợp âm 1 - 6 - 2 - 5 - 1 (C - Am - Dm - G7 - C) ở nhịp 4/4 phong cách Ballad. Giai điệu nhấn/dừng ở nốt bậc 3 (3rd degree) của từng hợp âm (E cho C, C cho Am, F cho Dm, B cho G)."
+}

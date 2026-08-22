@@ -1,0 +1,40 @@
+{
+  "id": "jazz-scales-bai-08-03-a-melodic-minor",
+  "type": "concept",
+  "name": "The Minor-Major 7th chord (often called the 'Spy Chord') consists of a minor triad with a major ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-08",
+    "locator": "02:51-04:10",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Am(maj7)",
+    "Chọn gam / scale khi gặp hợp âm m(maj7) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m(maj7)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Am(maj7)",
+    "notes": [
+      "A",
+      "C",
+      "E",
+      "G#"
+    ],
+    "source_text": "The Minor-Major 7th chord (often called the 'Spy Chord') consists of a minor triad with a major 7th interval on top (e.g., Am(maj7): A-C-E-G#). It corresponds directly to the 1st mode of the Melodic Minor scale."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 8 của nguồn Jazz Scales (YouTube), mốc 02:51-04:10. The Minor-Major 7th chord (often called the 'Spy Chord') consists of a minor triad with a major 7th interval on top (e.g., Am(maj7): A-C-E-G#). It corresponds directly to the 1st mode of the Melodic Minor scale. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

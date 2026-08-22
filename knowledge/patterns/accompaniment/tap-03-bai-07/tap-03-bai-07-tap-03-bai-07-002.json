@@ -1,0 +1,112 @@
+{
+  "id": "tap-03-bai-07-tap-03-bai-07-002",
+  "type": "exercise",
+  "name": "Kỹ thuật xếp ngón và xử lý nốt lặp cho tay phải bài Mùa Xuân",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-07",
+    "locator": "00:01:06-00:05:52 pdf p.4",
+    "media_id": "video_tap_03_bai_07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 4,
+        "section": "Bài 7 - Dòng 1-4 Tay Phải"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C Major",
+    "Điệu / phong cách: Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Kỹ thuật xếp ngón và xử lý nốt lặp cho tay phải bài Mùa Xuân. Khi hai nốt cùng cao độ đứng cạnh nhau, thực hiện kỹ thuật non-legato (nhấc cổ tay / nhấc ngón gõ lại) để tiếng đàn tách biệt rõ ràng.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Solo Piano"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C4",
+        "C4",
+        "G4",
+        "G4",
+        "A4",
+        "A4",
+        "G4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "C4(1)",
+          "C4(1)",
+          "G4(4)",
+          "G4(4)",
+          "A4(5)",
+          "A4(5)",
+          "G4(4)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": null,
+        "notes": [
+          "C4",
+          "C4",
+          "G4",
+          "G4",
+          "A4",
+          "A4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [],
+          "right": [
+            "C4(1)",
+            "C4(1)",
+            "G4(4)",
+            "G4(4)",
+            "A4(5)",
+            "A4(5)",
+            "G4(4)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật xếp ngón và xử lý nốt lặp cho tay phải bài Mùa Xuân. Khi hai nốt cùng cao độ đứng cạnh nhau, thực hiện kỹ thuật non-legato (nhấc cổ tay / nhấc ngón gõ lại) để tiếng đàn tách biệt rõ ràng."
+}

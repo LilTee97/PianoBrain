@@ -1,0 +1,542 @@
+{
+  "course_id": "hai_piano_course_001",
+  "modules": [
+    "Tap_01",
+    "Tap_02",
+    "Tap_03",
+    "Tap_04",
+    "Tap_06"
+  ],
+  "lessons": [
+    {
+      "lesson_folder": "Tap_01_Bai_01",
+      "module_id": "Tap_01",
+      "item_count": 10,
+      "rule_count": 5,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_02",
+      "module_id": "Tap_01",
+      "item_count": 8,
+      "rule_count": 1,
+      "ready": false
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_03",
+      "module_id": "Tap_01",
+      "item_count": 5,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_04",
+      "module_id": "Tap_01",
+      "item_count": 0,
+      "rule_count": 0,
+      "ready": false
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_05",
+      "module_id": "Tap_01",
+      "item_count": 0,
+      "rule_count": 0,
+      "ready": false
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_06",
+      "module_id": "Tap_01",
+      "item_count": 6,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_07",
+      "module_id": "Tap_01",
+      "item_count": 7,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_08",
+      "module_id": "Tap_01",
+      "item_count": 7,
+      "rule_count": 5,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_09",
+      "module_id": "Tap_01",
+      "item_count": 7,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_10",
+      "module_id": "Tap_01",
+      "item_count": 8,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_11",
+      "module_id": "Tap_01",
+      "item_count": 9,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_12",
+      "module_id": "Tap_01",
+      "item_count": 7,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_13",
+      "module_id": "Tap_01",
+      "item_count": 0,
+      "rule_count": 0,
+      "ready": false
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_14",
+      "module_id": "Tap_01",
+      "item_count": 11,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_01_Bai_15",
+      "module_id": "Tap_01",
+      "item_count": 5,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_01",
+      "module_id": "Tap_02",
+      "item_count": 5,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_02",
+      "module_id": "Tap_02",
+      "item_count": 6,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_03",
+      "module_id": "Tap_02",
+      "item_count": 8,
+      "rule_count": 5,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_04",
+      "module_id": "Tap_02",
+      "item_count": 9,
+      "rule_count": 7,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_05",
+      "module_id": "Tap_02",
+      "item_count": 14,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_06",
+      "module_id": "Tap_02",
+      "item_count": 8,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_07",
+      "module_id": "Tap_02",
+      "item_count": 8,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_08",
+      "module_id": "Tap_02",
+      "item_count": 12,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_09",
+      "module_id": "Tap_02",
+      "item_count": 9,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_10",
+      "module_id": "Tap_02",
+      "item_count": 10,
+      "rule_count": 2,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_11",
+      "module_id": "Tap_02",
+      "item_count": 10,
+      "rule_count": 5,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_12",
+      "module_id": "Tap_02",
+      "item_count": 5,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_13",
+      "module_id": "Tap_02",
+      "item_count": 8,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_14",
+      "module_id": "Tap_02",
+      "item_count": 9,
+      "rule_count": 5,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_02_Bai_15",
+      "module_id": "Tap_02",
+      "item_count": 7,
+      "rule_count": 5,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_01",
+      "module_id": "Tap_03",
+      "item_count": 8,
+      "rule_count": 6,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_02",
+      "module_id": "Tap_03",
+      "item_count": 10,
+      "rule_count": 6,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_03",
+      "module_id": "Tap_03",
+      "item_count": 8,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_04",
+      "module_id": "Tap_03",
+      "item_count": 8,
+      "rule_count": 5,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_05",
+      "module_id": "Tap_03",
+      "item_count": 7,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_06",
+      "module_id": "Tap_03",
+      "item_count": 10,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_07",
+      "module_id": "Tap_03",
+      "item_count": 7,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_08",
+      "module_id": "Tap_03",
+      "item_count": 0,
+      "rule_count": 0,
+      "ready": false
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_09",
+      "module_id": "Tap_03",
+      "item_count": 7,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_10",
+      "module_id": "Tap_03",
+      "item_count": 8,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_11",
+      "module_id": "Tap_03",
+      "item_count": 8,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_12",
+      "module_id": "Tap_03",
+      "item_count": 9,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_13",
+      "module_id": "Tap_03",
+      "item_count": 12,
+      "rule_count": 5,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_14",
+      "module_id": "Tap_03",
+      "item_count": 8,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_03_Bai_15",
+      "module_id": "Tap_03",
+      "item_count": 6,
+      "rule_count": 0,
+      "ready": false
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_01",
+      "module_id": "Tap_04",
+      "item_count": 7,
+      "rule_count": 7,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_02",
+      "module_id": "Tap_04",
+      "item_count": 6,
+      "rule_count": 2,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_03",
+      "module_id": "Tap_04",
+      "item_count": 6,
+      "rule_count": 2,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_04",
+      "module_id": "Tap_04",
+      "item_count": 0,
+      "rule_count": 2,
+      "ready": false
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_05",
+      "module_id": "Tap_04",
+      "item_count": 7,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_06",
+      "module_id": "Tap_04",
+      "item_count": 6,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_07",
+      "module_id": "Tap_04",
+      "item_count": 6,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_08",
+      "module_id": "Tap_04",
+      "item_count": 6,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_09",
+      "module_id": "Tap_04",
+      "item_count": 6,
+      "rule_count": 0,
+      "ready": false
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_10",
+      "module_id": "Tap_04",
+      "item_count": 6,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_11",
+      "module_id": "Tap_04",
+      "item_count": 6,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_12",
+      "module_id": "Tap_04",
+      "item_count": 6,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_13",
+      "module_id": "Tap_04",
+      "item_count": 7,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_14",
+      "module_id": "Tap_04",
+      "item_count": 7,
+      "rule_count": 2,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_04_Bai_15",
+      "module_id": "Tap_04",
+      "item_count": 0,
+      "rule_count": 0,
+      "ready": false
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_01",
+      "module_id": "Tap_06",
+      "item_count": 6,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_02",
+      "module_id": "Tap_06",
+      "item_count": 4,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_03",
+      "module_id": "Tap_06",
+      "item_count": 6,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_04",
+      "module_id": "Tap_06",
+      "item_count": 6,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_05",
+      "module_id": "Tap_06",
+      "item_count": 5,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_06",
+      "module_id": "Tap_06",
+      "item_count": 7,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_07",
+      "module_id": "Tap_06",
+      "item_count": 5,
+      "rule_count": 2,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_08",
+      "module_id": "Tap_06",
+      "item_count": 6,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_09",
+      "module_id": "Tap_06",
+      "item_count": 5,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_10",
+      "module_id": "Tap_06",
+      "item_count": 6,
+      "rule_count": 4,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_11",
+      "module_id": "Tap_06",
+      "item_count": 6,
+      "rule_count": 0,
+      "ready": false
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_12",
+      "module_id": "Tap_06",
+      "item_count": 6,
+      "rule_count": 2,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_13",
+      "module_id": "Tap_06",
+      "item_count": 4,
+      "rule_count": 0,
+      "ready": false
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_14",
+      "module_id": "Tap_06",
+      "item_count": 5,
+      "rule_count": 3,
+      "ready": true
+    },
+    {
+      "lesson_folder": "Tap_06_Bai_15",
+      "module_id": "Tap_06",
+      "item_count": 5,
+      "rule_count": 4,
+      "ready": true
+    }
+  ],
+  "skipped": [
+    "Tap_05_Bai_01"
+  ],
+  "item_count": 498,
+  "example_count": 455
+}

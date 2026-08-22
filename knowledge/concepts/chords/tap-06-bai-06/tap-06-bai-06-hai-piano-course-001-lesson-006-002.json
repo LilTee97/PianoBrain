@@ -1,0 +1,108 @@
+{
+  "id": "tap-06-bai-06-hai-piano-course-001-lesson-006-002",
+  "type": "concept",
+  "name": "Vòng hòa âm I - III - IV - V - I ở giọng Đô trưởng bao gồm các hợp âm: Cmaj7 (bậc I) - Em7 (bậc III) - Fmaj7 (bậc IV) -",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-06",
+    "locator": "00:01:21-00:02:37 pdf p.1",
+    "media_id": "hai_piano_course_001_video_006",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_pdf_006",
+        "page": 1,
+        "section": "Vòng hòa âm I - III - IV - V - I"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Em7, Fmaj7, G7",
+    "Giọng: C major",
+    "Gam: C major",
+    "Nốt màu: maj7, 7",
+    "Điệu / phong cách: Pop, Bossa Nova, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Em7",
+      "Fmaj7",
+      "G7"
+    ],
+    "style": [
+      "pop",
+      "jazz",
+      "bossa-nova",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Vòng hòa âm I - III - IV - V - I ở giọng Đô trưởng bao gồm các hợp âm: Cmaj7 (bậc I) - Em7 (bậc III) - Fmaj7 (bậc IV) - G7 (bậc V) - Cmaj7 (bậc I). Đây là vòng hòa âm phổ biến trong nhạc nhẹ, ballad và thánh ca, thích hợp để viết intro, giang tấu và sáng tác nhạc.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Em7",
+        "Fmaj7",
+        "G7"
+      ],
+      "tensions": [
+        "maj7",
+        "7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Pop",
+        "Bossa Nova",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7 - Em7 - Fmaj7 - G7 - Cmaj7",
+      "notes": [
+        "C",
+        "E",
+        "G",
+        "B",
+        "E",
+        "G",
+        "B",
+        "D",
+        "F",
+        "A",
+        "C",
+        "E",
+        "G",
+        "B",
+        "D",
+        "F"
+      ],
+      "hands": {
+        "left": [
+          "Bass C",
+          "Bass E",
+          "Bass F",
+          "Bass G"
+        ],
+        "right": [
+          "E-G-B-D",
+          "G-B-D-F#",
+          "A-C-E-G",
+          "B-D-F-A"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm I - III - IV - V - I ở giọng Đô trưởng bao gồm các hợp âm: Cmaj7 (bậc I) - Em7 (bậc III) - Fmaj7 (bậc IV) - G7 (bậc V) - Cmaj7 (bậc I). Đây là vòng hòa âm phổ biến trong nhạc nhẹ, ballad và thánh ca, thích hợp để viết intro, giang tấu và sáng tác nhạc."
+}

@@ -1,0 +1,101 @@
+{
+  "id": "tap-02-bai-14-rule-chord-min11-voicing-01",
+  "type": "rule",
+  "name": "Unlike sus4 chords which omit the 3rd degree, a Minor 11th chord (m11) must retain the minor 3rd (b3) to preserve its minor tonality alongside the 11th tension.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:14:36-00:22:30 pdf p.7",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Acoustic, Ballad, Dân ca, Jazz, Pop, Pop Ballad, Smooth Jazz, Thánh ca, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "acoustic",
+      "pop_ballad",
+      "ballad",
+      "d-n-ca",
+      "jazz",
+      "pop",
+      "pop-ballad",
+      "smooth-jazz",
+      "th-nh-ca",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Acoustic",
+        "Ballad",
+        "Dân ca",
+        "Jazz",
+        "Pop",
+        "Pop Ballad",
+        "Smooth Jazz",
+        "Thánh ca",
+        "Worship"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Unlike sus4 chords which omit the 3rd degree, a Minor 11th chord (m11) must retain the minor 3rd (b3) to preserve its minor tonality alongside the 11th tension.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_CHORD_MIN11_VOICING_01",
+      "name": "Minor 11th Quality Preservation",
+      "category": "voicing",
+      "summary": "Unlike sus4 chords which omit the 3rd degree, a Minor 11th chord (m11) must retain the minor 3rd (b3) to preserve its minor tonality alongside the 11th tension.",
+      "conditions": {
+        "chord_type": "minor_11th"
+      },
+      "action": {
+        "retain_degrees": [
+          1,
+          "b3",
+          5,
+          "b7",
+          9,
+          11
+        ]
+      },
+      "examples": [
+        {
+          "chord": "Cm7(9,11)",
+          "notes_lh": [
+            "C2",
+            "G2"
+          ],
+          "notes_rh": [
+            "Eb3",
+            "Bb3",
+            "D4",
+            "F4"
+          ]
+        }
+      ],
+      "lesson_folder": "Tap_02_Bai_14"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Unlike sus4 chords which omit the 3rd degree, a Minor 11th chord (m11) must retain the minor 3rd (b3) to preserve its minor tonality alongside the 11th tension."
+}

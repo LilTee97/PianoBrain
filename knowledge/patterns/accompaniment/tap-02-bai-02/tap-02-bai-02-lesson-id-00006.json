@@ -1,0 +1,86 @@
+{
+  "id": "tap-02-bai-02-lesson-id-00006",
+  "type": "exercise",
+  "name": "Yêu cầu luyện tập thực hành tất cả các thế đảo (Nguyên vị, Đảo 1, Đảo 2) cho toàn bộ các hợp âm mới phát sinh từ Trưởng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-02",
+    "locator": "25:20-26:45 pdf p.3",
+    "media_id": "video_tap_02_bai_02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 3,
+        "section": "Thế Đảo 1 và 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fm, Dm-5, Ab+, Gm, Bb, Em-5",
+    "Giọng: C Major",
+    "Gam: C Harmonic Major, C Melodic Major",
+    "Điệu / phong cách: Technical Practice"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fm",
+      "Dm-5",
+      "Ab+",
+      "Gm",
+      "Bb",
+      "Em-5"
+    ],
+    "style": [
+      "technical-practice"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Yêu cầu luyện tập thực hành tất cả các thế đảo (Nguyên vị, Đảo 1, Đảo 2) cho toàn bộ các hợp âm mới phát sinh từ Trưởng Hòa Thanh và Trưởng Giai Điệu (Fm, Dm-5, Ab+, Gm, Bb, Em-5).",
+    "music_entities": {
+      "chords": [
+        "Fm",
+        "Dm-5",
+        "Ab+",
+        "Gm",
+        "Bb",
+        "Em-5"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Harmonic Major",
+        "C Melodic Major"
+      ],
+      "styles": [
+        "Technical Practice"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fm",
+      "notes": [
+        "Ab3",
+        "C4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "F2"
+        ],
+        "right": [
+          "Ab3",
+          "C4",
+          "F4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Yêu cầu luyện tập thực hành tất cả các thế đảo (Nguyên vị, Đảo 1, Đảo 2) cho toàn bộ các hợp âm mới phát sinh từ Trưởng Hòa Thanh và Trưởng Giai Điệu (Fm, Dm-5, Ab+, Gm, Bb, Em-5)."
+}

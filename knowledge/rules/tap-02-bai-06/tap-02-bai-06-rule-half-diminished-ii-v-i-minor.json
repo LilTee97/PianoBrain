@@ -1,0 +1,84 @@
+{
+  "id": "tap-02-bai-06-rule-half-diminished-ii-v-i-minor",
+  "type": "rule",
+  "name": "Hợp âm Bảy Thứ Giảm Bậc 5 (m7-5) đóng vai trò là hợp âm Bậc II trong tiến trình II - V - I ở giọng Thứ, kết hợp với Domi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-06",
+    "locator": "00:01:21-00:03:35 pdf p.2",
+    "extra_locators": [
+      "00:03:35-00:10:16 pdf p.2",
+      "00:10:16-00:17:15 pdf p.2",
+      "00:17:15-00:22:28 pdf p.2",
+      "00:22:28-00:27:19 pdf p.3"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Classic Pop, Jazz, Movie Score, Nhạc nhẹ, Pop, Pop Ballad, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "classic-pop",
+      "jazz",
+      "movie-score",
+      "nh-c-nh",
+      "pop-ballad",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Classic Pop",
+        "Jazz",
+        "Movie Score",
+        "Nhạc nhẹ",
+        "Pop",
+        "Pop Ballad",
+        "Thánh ca"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Hợp âm Bảy Thứ Giảm Bậc 5 (m7-5) đóng vai trò là hợp âm Bậc II trong tiến trình II - V - I ở giọng Thứ, kết hợp với Dominant 7th (hoặc 7b9) trước khi về hợp âm Chủ (Bậc I).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Áp dụng chuỗi II(m7-5) -> V(7/7b9) -> I(m/m7)."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_HALF_DIMINISHED_II_V_I_MINOR",
+      "name": "Half-Diminished 7th in Minor II-V-I Rule",
+      "description": "Hợp âm Bảy Thứ Giảm Bậc 5 (m7-5) đóng vai trò là hợp âm Bậc II trong tiến trình II - V - I ở giọng Thứ, kết hợp với Dominant 7th (hoặc 7b9) trước khi về hợp âm Chủ (Bậc I).",
+      "condition": "Khi tạo vòng kết hoặc tiến trình chuẩn bị về giọng Thứ.",
+      "action": "Áp dụng chuỗi II(m7-5) -> V(7/7b9) -> I(m/m7).",
+      "examples": [
+        "Bm7-5 -> E7 -> Am",
+        "Bm7-5 -> E7(-9) -> Am7"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_06"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Bảy Thứ Giảm Bậc 5 (m7-5) đóng vai trò là hợp âm Bậc II trong tiến trình II - V - I ở giọng Thứ, kết hợp với Dominant 7th (hoặc 7b9) trước khi về hợp âm Chủ (Bậc I)."
+}

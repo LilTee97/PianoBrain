@@ -1,0 +1,134 @@
+{
+  "id": "tap-06-bai-15-lesson-15-00003",
+  "type": "accompaniment",
+  "name": "Mẫu 2: Tay trái tạo đường Bass chuyển động bước dàn (stepwise bass line/bass line liền bậc) C - B - A - G - F - E - D -",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-15",
+    "locator": "07:24-09:26 pdf p.1",
+    "media_id": "video_lesson_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_15",
+        "page": 1,
+        "section": "Tiết điệu MARCH - Mẫu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Dm, Em, F, G",
+    "Giọng: C major",
+    "Điệu / phong cách: March"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ],
+    "style": [
+      "march"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 2: Tay trái tạo đường Bass chuyển động bước dàn (stepwise bass line/bass line liền bậc) C - B - A - G - F - E - D - G - C, tạo cảm giác mượt mà và liền mạch cho tiết điệu March.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Dm",
+        "Em",
+        "F",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "March"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - Dm - Em - F - G",
+      "notes": [
+        "C2",
+        "B1",
+        "A1",
+        "G1",
+        "F1",
+        "E1",
+        "D1",
+        "G1"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "B1",
+          "A1",
+          "G1",
+          "F1",
+          "E1",
+          "D1",
+          "G1"
+        ],
+        "right": [
+          "Hợp âm chặn phách"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - Dm - Em - F - G",
+        "notes": [
+          "C2",
+          "B1",
+          "A1",
+          "G1",
+          "F1",
+          "E1",
+          "D1",
+          "G1"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "B1",
+            "A1",
+            "G1",
+            "F1",
+            "E1",
+            "D1",
+            "G1"
+          ],
+          "right": [
+            "Hợp âm chặn phách"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 2: Tay trái tạo đường Bass chuyển động bước dàn (stepwise bass line/bass line liền bậc) C - B - A - G - F - E - D - G - C, tạo cảm giác mượt mà và liền mạch cho tiết điệu March."
+}

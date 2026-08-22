@@ -1,0 +1,85 @@
+{
+  "id": "tap-02-bai-06-rule-dominant-7th-resolution-degree-iv",
+  "type": "rule",
+  "name": "Hợp âm Bảy Át (Dominant 7th) luôn có xu hướng hút mạnh và bắt buộc phải giải quyết về Hợp âm Bậc IV (Degree IV) của gốc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-06",
+    "locator": "00:01:21-00:03:35 pdf p.2",
+    "extra_locators": [
+      "00:03:35-00:10:16 pdf p.2",
+      "00:10:16-00:17:15 pdf p.2",
+      "00:17:15-00:22:28 pdf p.2",
+      "00:22:28-00:27:19 pdf p.3"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Classic Pop, Jazz, Movie Score, Nhạc nhẹ, Pop, Pop Ballad, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "classic-pop",
+      "jazz",
+      "movie-score",
+      "nh-c-nh",
+      "pop-ballad",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Classic Pop",
+        "Jazz",
+        "Movie Score",
+        "Nhạc nhẹ",
+        "Pop",
+        "Pop Ballad",
+        "Thánh ca"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Hợp âm Bảy Át (Dominant 7th) luôn có xu hướng hút mạnh và bắt buộc phải giải quyết về Hợp âm Bậc IV (Degree IV) của gốc hợp âm đó, hoặc về thể đảo 1 của Bậc IV.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Chuyển tiến trình hòa âm về Bậc IV (X4/X4maj7) hoặc Bậc IV bass Bậc 3 (X4/3)."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_DOMINANT_7TH_RESOLUTION_DEGREE_IV",
+      "name": "Dominant 7th Resolution to Degree IV Rule",
+      "description": "Hợp âm Bảy Át (Dominant 7th) luôn có xu hướng hút mạnh và bắt buộc phải giải quyết về Hợp âm Bậc IV (Degree IV) của gốc hợp âm đó, hoặc về thể đảo 1 của Bậc IV.",
+      "condition": "Khi gặp hợp âm Bảy Át (X7 hoặc X7/bass).",
+      "action": "Chuyển tiến trình hòa âm về Bậc IV (X4/X4maj7) hoặc Bậc IV bass Bậc 3 (X4/3).",
+      "examples": [
+        "C7 -> F hoặc Fmaj7",
+        "C7/Bb -> F/A",
+        "E7 -> A hoặc Am"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_06"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Bảy Át (Dominant 7th) luôn có xu hướng hút mạnh và bắt buộc phải giải quyết về Hợp âm Bậc IV (Degree IV) của gốc hợp âm đó, hoặc về thể đảo 1 của Bậc IV."
+}

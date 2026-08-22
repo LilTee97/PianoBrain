@@ -1,0 +1,116 @@
+{
+  "id": "tap-06-bai-12-tap-06-bai-12-004",
+  "type": "accompaniment",
+  "name": "Tango Mẫu 2 (Nốt đen đều đặn & Chồm phách 4): Tay trái đánh nốt đen giậm chân đều đặn 4 phách (quarter notes bass-line),",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-12",
+    "locator": "07:05-10:30 pdf p.2",
+    "media_id": "video_tap_06_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_12",
+        "page": 2,
+        "section": "Mau_2_Tango_Not_Den_Chom_Phach"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, Bm7b5, E7",
+    "Giọng: A minor",
+    "Điệu / phong cách: Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Tango Mẫu 2 (Nốt đen đều đặn & Chồm phách 4): Tay trái đánh nốt đen giậm chân đều đặn 4 phách (quarter notes bass-line), Tay phải giật hợp âm chồm sớm ở phách 4 (anticipation) tạo cảm giác thúc giục, uyển chuyển.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Tango"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "C3",
+        "E3",
+        "A3"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "C3",
+          "E3",
+          "A3"
+        ],
+        "right": [
+          "C4-E4-A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A2",
+          "C3",
+          "E3",
+          "A3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "C3",
+            "E3",
+            "A3"
+          ],
+          "right": [
+            "C4-E4-A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tango Mẫu 2 (Nốt đen đều đặn & Chồm phách 4): Tay trái đánh nốt đen giậm chân đều đặn 4 phách (quarter notes bass-line), Tay phải giật hợp âm chồm sớm ở phách 4 (anticipation) tạo cảm giác thúc giục, uyển chuyển."
+}

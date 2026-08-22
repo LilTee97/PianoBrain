@@ -1,0 +1,46 @@
+{
+  "difficulty": 3,
+  "avoid_when": [
+    "Kết hẳn bài — turnaround là để quay vòng, không phải để dừng"
+  ],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-chromatic-turnaround",
+  "type": "outro",
+  "name": "Turnaround: bass đi nửa cung F# lên G ở hai ô cuối",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:06:36"
+  },
+  "use_when": [
+    "Hai ô nhịp cuối của vòng 12 bar",
+    "Cần bệ phóng quay lại đầu bài"
+  ],
+  "input": {
+    "style": [
+      "blues"
+    ],
+    "chord_quality": [
+      "G7"
+    ]
+  },
+  "output": {
+    "bass_move": [
+      "F#",
+      "G"
+    ],
+    "rh_chord": {
+      "symbol": "G7",
+      "notes": [
+        "F",
+        "G",
+        "B",
+        "D"
+      ]
+    },
+    "stage": "source_knowledge",
+    "review_note": "Video nói F# hút về 'chủ âm'. Trong tông C, chủ âm là C; F# là nốt cảm của G nên nó hút về bậc V (G7), không phải về chủ âm. Sửa cách gọi khi rà."
+  },
+  "note_vi": "Ở hai ô nhịp cuối vòng 12 bar, tay trái đi nửa cung F# lên G để hút về hợp âm G7 làm bệ phóng quay lại đầu bài. F# là nốt cảm của G — nó dẫn về bậc V, không phải về chủ âm C."
+}

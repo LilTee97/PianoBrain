@@ -1,0 +1,54 @@
+{
+  "id": "tap-06-bai-06-hai-piano-course-001-lesson-006-004",
+  "type": "rule",
+  "name": "Quy định tốc độ (Tempo) chuẩn cho phong cách Bossa Nova: Slow Bossa nằm trong khoảng 110 - 125 BPM",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-06",
+    "locator": "00:06:45-00:06:55 pdf p.1",
+    "media_id": "hai_piano_course_001_video_006",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_pdf_006",
+        "page": 1,
+        "section": "Tempo Bossa Nova"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Bossa Nova"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "bossa-nova"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy định tốc độ (Tempo) chuẩn cho phong cách Bossa Nova: Slow Bossa nằm trong khoảng 110 - 125 BPM; Fast Bossa nằm trong khoảng 160 - 180 BPM.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Bossa Nova"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy định tốc độ (Tempo) chuẩn cho phong cách Bossa Nova: Slow Bossa nằm trong khoảng 110 - 125 BPM; Fast Bossa nằm trong khoảng 160 - 180 BPM."
+}

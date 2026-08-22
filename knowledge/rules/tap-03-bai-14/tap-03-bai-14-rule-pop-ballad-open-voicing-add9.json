@@ -1,0 +1,82 @@
+{
+  "id": "tap-03-bai-14-rule-pop-ballad-open-voicing-add9",
+  "type": "rule",
+  "name": "In modern pop ballad piano solo, structuring left hand arpeggios as Root - 5th - 9th (e.g",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-14",
+    "locator": "05:52:00-10:03:00 pdf p.17",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Syncopation, Piano Solo, Pop, Pop Ballad, Pop Ballad Chorus, Solo Piano Voicing"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-syncopation",
+      "piano-solo",
+      "pop",
+      "pop-ballad",
+      "pop-ballad-chorus",
+      "solo-piano-voicing"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Syncopation",
+        "Piano Solo",
+        "Pop",
+        "Pop Ballad",
+        "Pop Ballad Chorus",
+        "Solo Piano Voicing"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "In modern pop ballad piano solo, structuring left hand arpeggios as Root - 5th - 9th (e.g. C-G-D for Cadd9, A-E-B for Am9) creates an expansive, lush accompaniment without cluttering the low-mid frequencies.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Play Root with finger 5, 5th with finger 2, and 9th (or 2nd) with finger 1 in an ascending arpeggio."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_pop_ballad_open_voicing_add9",
+      "name": "Open Voicing Root-5th-9th for Pop Ballad Left Hand",
+      "description": "In modern pop ballad piano solo, structuring left hand arpeggios as Root - 5th - 9th (e.g. C-G-D for Cadd9, A-E-B for Am9) creates an expansive, lush accompaniment without cluttering the low-mid frequencies.",
+      "type": "voicing",
+      "domain": "accompaniment",
+      "conditions": {
+        "style": "Pop Ballad",
+        "meter": "4/4",
+        "hand": "left_hand"
+      },
+      "action": "Play Root with finger 5, 5th with finger 2, and 9th (or 2nd) with finger 1 in an ascending arpeggio.",
+      "source_ref": {
+        "lesson_id": "Tap_03_Bai_14",
+        "timestamp": "03:42"
+      },
+      "lesson_folder": "Tap_03_Bai_14"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "In modern pop ballad piano solo, structuring left hand arpeggios as Root - 5th - 9th (e.g. C-G-D for Cadd9, A-E-B for Am9) creates an expansive, lush accompaniment without cluttering the low-mid frequencies."
+}

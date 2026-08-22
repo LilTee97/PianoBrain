@@ -1,0 +1,40 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-c7-top-two-notes",
+  "type": "concept",
+  "name": "Hai nốt cao của C7 tay phải: G và Bb",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:04:21"
+  },
+  "use_when": [
+    "Hợp âm C7 trong blues tông C",
+    "Tay phải cần hai nốt gọn thay cho quãng 8"
+  ],
+  "input": {
+    "style": [
+      "blues"
+    ],
+    "chord_quality": [
+      "C7"
+    ]
+  },
+  "output": {
+    "chord": "C7",
+    "notes": [
+      "G",
+      "Bb"
+    ],
+    "degrees": [
+      "5",
+      "b7"
+    ],
+    "stage": "source_knowledge",
+    "review_note": "Video gọi đây là nốt tạo màu C7. Đối chiếu lý thuyết: G là bậc 5, Bb là bậc b7. Nốt quyết định chất át là bậc 3 (E) và bậc b7 (Bb)."
+  },
+  "note_vi": "Trong tông Đô trưởng, hai nốt cao tay phải đánh trên hợp âm C7 là G và Bb. Chú ý: đây là bậc 5 và bậc b7, không phải cặp guide tone (guide tone của C7 là E và Bb) — cần người rà lại cách gọi trước khi duyệt."
+}

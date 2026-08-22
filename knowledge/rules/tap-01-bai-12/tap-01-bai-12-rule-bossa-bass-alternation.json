@@ -1,0 +1,67 @@
+{
+  "id": "tap-01-bai-12-rule-bossa-bass-alternation",
+  "type": "rule",
+  "name": "Nốt Bass tay trái trong Bossa Nova nên đi luân phiên giữa nốt Gốc (Bậc 1) và nốt Bậc 5 (hoặc nhảy quãng 8) để âm thanh đ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-12",
+    "locator": "22:38-24:47 pdf p.6",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Bossa Nova, Latin, Valse, Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "bossa-nova",
+      "latin",
+      "valse",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Bossa Nova",
+        "Latin",
+        "Valse",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Nốt Bass tay trái trong Bossa Nova nên đi luân phiên giữa nốt Gốc (Bậc 1) và nốt Bậc 5 (hoặc nhảy quãng 8) để âm thanh đầy đặn và đúng phong cách Latin.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_bossa_bass_alternation",
+      "name": "Luân phiên nốt Bass Bậc 1 và Bậc 5 cho Bossa Nova",
+      "type": "voicing_rule",
+      "description": "Nốt Bass tay trái trong Bossa Nova nên đi luân phiên giữa nốt Gốc (Bậc 1) và nốt Bậc 5 (hoặc nhảy quãng 8) để âm thanh đầy đặn và đúng phong cách Latin.",
+      "applies_to": [
+        "styles:Bossa Nova"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_01_Bai_12"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nốt Bass tay trái trong Bossa Nova nên đi luân phiên giữa nốt Gốc (Bậc 1) và nốt Bậc 5 (hoặc nhảy quãng 8) để âm thanh đầy đặn và đúng phong cách Latin."
+}

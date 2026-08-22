@@ -1,0 +1,74 @@
+{
+  "id": "tap-02-bai-01-r-minor-harmonic-dominant-001",
+  "type": "rule",
+  "name": "Trong giọng Thứ (ví dụ Am), nâng bậc 7 (G -> G#) thuộc âm giai Thứ Hòa Thanh để biến hợp âm Em thành E major hoặc E7, tạ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-01",
+    "locator": "00:18:31-00:28:40 pdf p.2",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Acoustics, Ballad, Jazz, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "acoustics",
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Acoustics",
+        "Ballad",
+        "Jazz",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trong giọng Thứ (ví dụ Am), nâng bậc 7 (G -> G#) thuộc âm giai Thứ Hòa Thanh để biến hợp âm Em thành E major hoặc E7, tạo lực hút bán cung G# -> A về hợp âm chủ Am.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Dùng E/E7 thay cho Em"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_MINOR_HARMONIC_DOMINANT_001",
+      "name": "Substitusi Dominant v/V7 sang E Major/E7 trong Giọng Thứ",
+      "description": "Trong giọng Thứ (ví dụ Am), nâng bậc 7 (G -> G#) thuộc âm giai Thứ Hòa Thanh để biến hợp âm Em thành E major hoặc E7, tạo lực hút bán cung G# -> A về hợp âm chủ Am.",
+      "applied_keys": [
+        "Minor Keys"
+      ],
+      "condition": "Khi chuyển từ bậc V về bậc I trong giọng Thứ",
+      "action": "Dùng E/E7 thay cho Em",
+      "source_ref": {
+        "lesson_id": "hai_piano_tap02_bai01",
+        "timestamp": "05:11 - 09:00",
+        "pdf_page": 2
+      },
+      "lesson_folder": "Tap_02_Bai_01"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trong giọng Thứ (ví dụ Am), nâng bậc 7 (G -> G#) thuộc âm giai Thứ Hòa Thanh để biến hợp âm Em thành E major hoặc E7, tạo lực hút bán cung G# -> A về hợp âm chủ Am."
+}

@@ -1,0 +1,73 @@
+{
+  "id": "tap-03-bai-13-rule-g-major-key-signature",
+  "type": "rule",
+  "name": "Giọng Sol trưởng (G Major) luôn có 1 dấu thăng ở nốt Pha (F#).",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "14:44:00-18:42:00 pdf p.16",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Arpeggio, Chorus Peak, Pop Piano Solo, Pop Solo Piano, Voice Leading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-arpeggio",
+      "chorus-peak",
+      "pop",
+      "pop-piano-solo",
+      "pop-solo-piano",
+      "voice-leading"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Arpeggio",
+        "Chorus Peak",
+        "Pop Piano Solo",
+        "Pop Solo Piano",
+        "Voice Leading"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Giọng Sol trưởng (G Major) luôn có 1 dấu thăng ở nốt Pha (F#).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Raise all F notes to F# unless natural sign exists."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_g_major_key_signature",
+      "description": "Giọng Sol trưởng (G Major) luôn có 1 dấu thăng ở nốt Pha (F#).",
+      "domain": "scale_and_key",
+      "condition": "Key = G Major",
+      "action": "Raise all F notes to F# unless natural sign exists.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_13"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Giọng Sol trưởng (G Major) luôn có 1 dấu thăng ở nốt Pha (F#)."
+}

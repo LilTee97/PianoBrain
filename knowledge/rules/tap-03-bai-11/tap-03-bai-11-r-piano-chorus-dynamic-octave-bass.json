@@ -1,0 +1,74 @@
+{
+  "id": "tap-03-bai-11-r-piano-chorus-dynamic-octave-bass",
+  "type": "rule",
+  "name": "Đổi kiểu đệm bass quãng 8 và đảo phách ở đoạn Điệp khúc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-11",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Pop Ballad, Pop Solo, Power Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "pop-ballad",
+      "pop-solo",
+      "power-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop Ballad",
+        "Pop Solo",
+        "Power Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Đổi kiểu đệm bass quãng 8 và đảo phách ở đoạn Điệp khúc",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_PIANO_CHORUS_DYNAMIC_OCTAVE_BASS",
+      "domain": "piano_accompaniment",
+      "summary": "Đổi kiểu đệm bass quãng 8 và đảo phách ở đoạn Điệp khúc",
+      "statement": "Ở đoạn Điệp khúc (Chorus), chuyển tay trái từ dạng rải móc đơn nhẹ nhàng sang dậm ngón Bass quãng 8 kết hợp nhịp đảo phách để tạo độ dày âm thanh, đẩy năng lượng cao trào cho bài solo.",
+      "conditions": {
+        "song_section": "chorus",
+        "arrangement_goal": "dynamic_buildup"
+      },
+      "action": {
+        "left_hand_pattern": "octave_bass_with_syncopation",
+        "dynamic_level": "forte_or_mezzo_forte"
+      },
+      "lesson_folder": "Tap_03_Bai_11"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Đổi kiểu đệm bass quãng 8 và đảo phách ở đoạn Điệp khúc"
+}

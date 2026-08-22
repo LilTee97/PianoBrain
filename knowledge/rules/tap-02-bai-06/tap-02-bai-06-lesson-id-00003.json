@@ -1,0 +1,137 @@
+{
+  "id": "tap-02-bai-06-lesson-id-00003",
+  "type": "rule",
+  "name": "Hợp âm Bảy Trưởng (Cmaj7) có âm sắc rất sáng và trang trọng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-06",
+    "locator": "00:03:35-00:10:16 pdf p.2",
+    "media_id": "video_tap_02_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 2,
+        "section": "Cmajor7 Am7 / Bm-5 / Fmajor7 / Ammajor7 / Bm0-5 / Fm7"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Am7, Bm7-5, Fmaj7, Am.major7, Fm7",
+    "Giọng: C",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Am7",
+      "Bm7-5",
+      "Fmaj7",
+      "Am.major7",
+      "Fm7"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Hợp âm Bảy Trưởng (Cmaj7) có âm sắc rất sáng và trang trọng. Từ Cmaj7 có thể dịch chuyển về các hợp âm thứ hoặc thứ 7 (Am7, Em7, Fmaj7) để tạo cảm giác giải xả êm dịu, hoặc tiến sang các hợp âm giảm (Bm7-5, Fm7) để gia tăng sức hút hòa âm.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Am7",
+        "Bm7-5",
+        "Fmaj7",
+        "Am.major7",
+        "Fm7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7 -> Fmaj7",
+      "notes": [
+        "C3",
+        "B3",
+        "E4",
+        "G4",
+        "F2",
+        "A3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "F2"
+        ],
+        "right": [
+          "B3",
+          "E4",
+          "G4",
+          "A3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7 -> Fmaj7",
+        "notes": [
+          "C3",
+          "B3",
+          "E4",
+          "G4",
+          "F2",
+          "A3",
+          "C4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "F2"
+          ],
+          "right": [
+            "B3",
+            "E4",
+            "G4",
+            "A3",
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Bảy Trưởng (Cmaj7) có âm sắc rất sáng và trang trọng. Từ Cmaj7 có thể dịch chuyển về các hợp âm thứ hoặc thứ 7 (Am7, Em7, Fmaj7) để tạo cảm giác giải xả êm dịu, hoặc tiến sang các hợp âm giảm (Bm7-5, Fm7) để gia tăng sức hút hòa âm."
+}

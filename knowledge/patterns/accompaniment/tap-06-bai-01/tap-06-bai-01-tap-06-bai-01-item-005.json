@@ -1,0 +1,118 @@
+{
+  "id": "tap-06-bai-01-tap-06-bai-01-item-005",
+  "type": "accompaniment",
+  "name": "Mẫu 3: Kỹ thuật nâng cao sử dụng các nốt Bass dẫn (Passing Bass Notes) theo chuỗi móc kép liên bậc hoặc nửa âm ở nửa sau",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-01",
+    "locator": "00:12:46-00:16:34 pdf p.2",
+    "media_id": "video_tap_06_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_01",
+        "page": 2,
+        "section": "Mẫu 3: Tiết Điệu 16 Beat Nâng Cao Với Câu Dẫn Bass"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Am7, Dm7, G7",
+    "Giọng: C major",
+    "Gam: Chromatic, C Major Scale",
+    "Điệu / phong cách: 16 Beat Advanced"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Am7",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "16-beat-advanced"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 3: Kỹ thuật nâng cao sử dụng các nốt Bass dẫn (Passing Bass Notes) theo chuỗi móc kép liên bậc hoặc nửa âm ở nửa sau ô nhịp để chuyển sang hợp âm kế tiếp mượt mà.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Am7",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "Chromatic",
+        "C Major Scale"
+      ],
+      "styles": [
+        "16 Beat Advanced"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7 -> Am7",
+      "notes": [
+        "C2",
+        "E2",
+        "G2",
+        "C3",
+        "B2",
+        "A1"
+      ],
+      "hands": {
+        "left": [
+          "Nốt dẫn C -> B -> A hoặc E -> F -> F# -> G"
+        ],
+        "right": [
+          "Giữ hợp âm chuẩn phách"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7 -> Am7",
+        "notes": [
+          "C2",
+          "E2",
+          "G2",
+          "C3",
+          "B2",
+          "A1"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "Nốt dẫn C -> B -> A hoặc E -> F -> F# -> G"
+          ],
+          "right": [
+            "Giữ hợp âm chuẩn phách"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 3: Kỹ thuật nâng cao sử dụng các nốt Bass dẫn (Passing Bass Notes) theo chuỗi móc kép liên bậc hoặc nửa âm ở nửa sau ô nhịp để chuyển sang hợp âm kế tiếp mượt mà."
+}

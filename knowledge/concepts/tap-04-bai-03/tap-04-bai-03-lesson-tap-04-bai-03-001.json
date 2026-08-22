@@ -1,0 +1,92 @@
+{
+  "id": "tap-04-bai-03-lesson-tap-04-bai-03-001",
+  "type": "concept",
+  "name": "Ứng dụng vòng hợp âm Canon (I - V - vi - iii - IV - I - IV - V) trên điệu Ballad nhịp 2/4 hoặc 4/4 trong giọng Đô trưởng",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-03",
+    "locator": "02:01-03:52 pdf p.12",
+    "media_id": "video_tap_04_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 12,
+        "section": "Bài 3 - Tổng quan vòng Canon"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G, Am, Em, F",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G",
+      "Am",
+      "Em",
+      "F"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Ứng dụng vòng hợp âm Canon (I - V - vi - iii - IV - I - IV - V) trên điệu Ballad nhịp 2/4 hoặc 4/4 trong giọng Đô trưởng (C major): C - G - Am - Em - F - C - F - G.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "Em",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - G - Am - Em - F - C - F - G",
+      "notes": [
+        "C",
+        "G",
+        "A",
+        "E",
+        "F"
+      ],
+      "hands": {
+        "left": [
+          "C",
+          "G",
+          "A",
+          "E",
+          "F"
+        ],
+        "right": [
+          "E",
+          "G",
+          "C",
+          "B",
+          "C"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng vòng hợp âm Canon (I - V - vi - iii - IV - I - IV - V) trên điệu Ballad nhịp 2/4 hoặc 4/4 trong giọng Đô trưởng (C major): C - G - Am - Em - F - C - F - G."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "tap-06-bai-14-hai-piano-course-001-tap-06-bai-14-001",
+  "type": "concept",
+  "name": "Tiết điệu Reggae (hoặc còn gọi là Rap/Ráp trong phong cách đệm hát nhạc trẻ/vui) mang tính chất sôi nổi, vui tươi, hay đ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-14",
+    "locator": "00:00:45-01:53 pdf p.1",
+    "media_id": "video_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 1,
+        "section": "Tiết Điệu REGGAE (Ráp) - Giới thiệu"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Reggae, Rap, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "reggae",
+      "rap",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Tiết điệu Reggae (hoặc còn gọi là Rap/Ráp trong phong cách đệm hát nhạc trẻ/vui) mang tính chất sôi nổi, vui tươi, hay được áp dụng đệm cho các bài hát chủ đề Mùa Xuân hoặc nhạc trẻ tiết tấu nhanh.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Reggae",
+        "Rap",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết điệu Reggae (hoặc còn gọi là Rap/Ráp trong phong cách đệm hát nhạc trẻ/vui) mang tính chất sôi nổi, vui tươi, hay được áp dụng đệm cho các bài hát chủ đề Mùa Xuân hoặc nhạc trẻ tiết tấu nhanh."
+}

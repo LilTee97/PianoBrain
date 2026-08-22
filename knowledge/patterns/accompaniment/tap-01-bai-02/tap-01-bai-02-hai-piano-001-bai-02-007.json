@@ -1,0 +1,41 @@
+{
+  "id": "tap-01-bai-02-hai-piano-001-bai-02-007",
+  "type": "exercise",
+  "name": "Kỹ thuật đổi Pedal duy trì (Sustain Pedal) chuẩn xác không bị tạp âm: Ngay phách đầu tiên đổi hợp âm, ngón tay bấm xuống",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-02",
+    "locator": "15:16-19:18",
+    "media_id": "video_001",
+    "supporting": []
+  },
+  "use_when": [
+    "Theo bài Tap_01_Bai_02"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Kỹ thuật đổi Pedal duy trì (Sustain Pedal) chuẩn xác không bị tạp âm: Ngay phách đầu tiên đổi hợp âm, ngón tay bấm xuống phím trước -> Chân nhấc lên lập tức để xóa vang hợp âm cũ -> Dậm pedal xuống lại trong khi tay vẫn đang giữ phím.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật đổi Pedal duy trì (Sustain Pedal) chuẩn xác không bị tạp âm: Ngay phách đầu tiên đổi hợp âm, ngón tay bấm xuống phím trước -> Chân nhấc lên lập tức để xóa vang hợp âm cũ -> Dậm pedal xuống lại trong khi tay vẫn đang giữ phím."
+}

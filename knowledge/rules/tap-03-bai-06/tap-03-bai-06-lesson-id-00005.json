@@ -1,0 +1,53 @@
+{
+  "id": "tap-03-bai-06-lesson-id-00005",
+  "type": "rule",
+  "name": "Kỹ thuật chạm phím (Touch/Articulation): Khi hai nốt nhạc liên tiếp cùng cao độ (trùng tên nốt), nốt thứ hai bắt buộc ph",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "09:20-09:35 pdf p.3",
+    "media_id": "hai_piano_video_t03_b06",
+    "supporting": [
+      {
+        "source_id": "hai_piano_pdf_t03",
+        "page": 3,
+        "section": "Silent Night Line 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_06"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Kỹ thuật chạm phím (Touch/Articulation): Khi hai nốt nhạc liên tiếp cùng cao độ (trùng tên nốt), nốt thứ hai bắt buộc phải chơi non-legato (nhấc cổ tay nảy nhẹ). Khi các nốt nhạc khác nhau về cao độ, ta chơi liên tiếng (legato).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "D5",
+        "D5"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "D5",
+          "D5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật chạm phím (Touch/Articulation): Khi hai nốt nhạc liên tiếp cùng cao độ (trùng tên nốt), nốt thứ hai bắt buộc phải chơi non-legato (nhấc cổ tay nảy nhẹ). Khi các nốt nhạc khác nhau về cao độ, ta chơi liên tiếng (legato)."
+}

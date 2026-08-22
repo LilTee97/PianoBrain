@@ -1,0 +1,63 @@
+{
+  "id": "tap-06-bai-03-rule-lh-fingering-extended-arpeggio",
+  "type": "rule",
+  "name": "Luôn dùng ngón 5 cho bậc 1, ngón 2 cho bậc 5, ngón 1 cho bậc 8",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-03",
+    "locator": "00:05:00-00:05:35 pdf p.1",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Luôn dùng ngón 5 cho bậc 1, ngón 2 cho bậc 5, ngón 1 cho bậc 8. Vị trí ngón 1 linh hoạt vươn lên bậc 9 và 10 giúp cố định cổ tay và không bị ngắt quãng dòng nhạc.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_lh_fingering_extended_arpeggio",
+      "title": "Kỹ thuật xếp ngón tay trái cho Arpeggio mở rộng 1-5-8-9-10",
+      "description": "Luôn dùng ngón 5 cho bậc 1, ngón 2 cho bậc 5, ngón 1 cho bậc 8. Vị trí ngón 1 linh hoạt vươn lên bậc 9 và 10 giúp cố định cổ tay và không bị ngắt quãng dòng nhạc.",
+      "confidence": "direct",
+      "applied_in": [
+        {
+          "lesson_id": "hai_piano_course_001_lesson_03",
+          "timestamp": "00:05:00"
+        }
+      ],
+      "lesson_folder": "Tap_06_Bai_03"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Luôn dùng ngón 5 cho bậc 1, ngón 2 cho bậc 5, ngón 1 cho bậc 8. Vị trí ngón 1 linh hoạt vươn lên bậc 9 và 10 giúp cố định cổ tay và không bị ngắt quãng dòng nhạc."
+}

@@ -1,0 +1,79 @@
+{
+  "id": "tap-03-bai-04-rule-bass-clef-reference-001",
+  "type": "rule",
+  "name": "Dấu chấm khởi đầu của ký hiệu Khóa Pha nằm ở dòng kẻ thứ 4 (từ dưới lên), xác định nốt nằm trên dòng kẻ thứ 4 chính là n",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "09:16-13:36 pdf p.1",
+    "extra_locators": [
+      "22:58-26:23 pdf p.1"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Classical, Folk, Hymn, Piano Solo, Pop/Ballad Fill, Sight Reading, Solo Fill"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical",
+      "folk",
+      "hymn",
+      "piano-solo",
+      "pop_ballad",
+      "pop",
+      "pop-ballad-fill",
+      "sight-reading",
+      "solo-fill"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Classical",
+        "Folk",
+        "Hymn",
+        "Piano Solo",
+        "Pop/Ballad Fill",
+        "Sight Reading",
+        "Solo Fill"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Dấu chấm khởi đầu của ký hiệu Khóa Pha nằm ở dòng kẻ thứ 4 (từ dưới lên), xác định nốt nằm trên dòng kẻ thứ 4 chính là nốt Fa3 (F3).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_BASS_CLEF_REFERENCE_001",
+      "name": "Xác Định Nốt Chuẩn Khóa Pha (F3)",
+      "category": "Sight Reading",
+      "description": "Dấu chấm khởi đầu của ký hiệu Khóa Pha nằm ở dòng kẻ thứ 4 (từ dưới lên), xác định nốt nằm trên dòng kẻ thứ 4 chính là nốt Fa3 (F3).",
+      "conditions": {
+        "clef": "Bass Clef (Khóa Pha)"
+      },
+      "execution": {
+        "line_4_note": "F3"
+      },
+      "lesson_folder": "Tap_03_Bai_04"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Dấu chấm khởi đầu của ký hiệu Khóa Pha nằm ở dòng kẻ thứ 4 (từ dưới lên), xác định nốt nằm trên dòng kẻ thứ 4 chính là nốt Fa3 (F3)."
+}

@@ -1,0 +1,95 @@
+{
+  "id": "tap-02-bai-07-lesson-id-00031",
+  "type": "concept",
+  "name": "Hợp âm 9 là hòa âm mở rộng tạo ra màu sắc âm thanh sang trọng, tinh tế, hiện đại, ứng dụng rộng rãi trong nhạc nhẹ, nhạc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-07",
+    "locator": "00:00:34-00:01:35 pdf p.4",
+    "media_id": "hai_piano_t2_b07_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_t2_pdf3",
+        "page": 4,
+        "section": "BÀI 7 : HỢP ÂM 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, Cm79, C79, C7(-9)",
+    "Giọng: C major",
+    "Gam: Major, Natural Minor",
+    "Nốt màu: 9, b9",
+    "Điệu / phong cách: Pop Ballad, Worship, Light Music"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "Cm79",
+      "C79",
+      "C7(-9)"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad",
+      "worship",
+      "light-music"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Hợp âm 9 là hòa âm mở rộng tạo ra màu sắc âm thanh sang trọng, tinh tế, hiện đại, ứng dụng rộng rãi trong nhạc nhẹ, nhạc trữ tình, pop ballad và nhạc thánh ca. Việc làm chủ cấu tạo và thế bấm của hợp âm 9 giúp người chơi làm chủ khả năng đệm hát nâng cao và hòa âm phối khí chuyên nghiệp.",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "Cm79",
+        "C79",
+        "C7(-9)"
+      ],
+      "tensions": [
+        "9",
+        "b9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "Major",
+        "Natural Minor"
+      ],
+      "styles": [
+        "Pop Ballad",
+        "Worship",
+        "Light Music"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj79",
+      "notes": [
+        "C2",
+        "G2",
+        "B3",
+        "D4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "B3",
+          "D4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm 9 là hòa âm mở rộng tạo ra màu sắc âm thanh sang trọng, tinh tế, hiện đại, ứng dụng rộng rãi trong nhạc nhẹ, nhạc trữ tình, pop ballad và nhạc thánh ca. Việc làm chủ cấu tạo và thế bấm của hợp âm 9 giúp người chơi làm chủ khả năng đệm hát nâng cao và hòa âm phối khí chuyên nghiệp."
+}

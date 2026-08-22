@@ -1,0 +1,28 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-rh-two-note-principle",
+  "type": "concept",
+  "name": "Tay phải dùng hai nốt cao của hợp âm át 7 thay cho quãng 8",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:03:09"
+  },
+  "use_when": [
+    "Tay phải đang đánh quãng 8 nghe đơn điệu",
+    "Muốn chất blues dày hơn"
+  ],
+  "output": {
+    "stage": "source_knowledge",
+    "review_note": "Video dùng chữ 'guide tones'. Theo lý thuyết, guide tone là bậc 3 + bậc 7; các cặp trong bài này là bậc 5 + bậc b7. Giữ nốt, sửa cách gọi khi rà."
+  },
+  "note_vi": "Để tay phải không đơn điệu khi chỉ đánh quãng 8, dùng hai nốt cao của hợp âm át 7 để tạo chất blues dày dặn hơn. Cặp nốt cụ thể trong bài là bậc 5 và bậc b7, không phải guide tone theo nghĩa chặt.",
+  "input": {
+    "style": [
+      "blues"
+    ]
+  }
+}

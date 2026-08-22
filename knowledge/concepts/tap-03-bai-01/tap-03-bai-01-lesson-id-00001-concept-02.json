@@ -1,0 +1,58 @@
+{
+  "id": "tap-03-bai-01-lesson-id-00001-concept-02",
+  "type": "concept",
+  "name": "Nhận biết phím đàn qua cụm 2 phím đen và 3 phím đen",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-01",
+    "locator": "00:02:22-00:04:39 pdf p.1",
+    "media_id": "video_tap_03_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 1,
+        "section": "Cover"
+      }
+    ]
+  },
+  "use_when": [
+    "Gam: C major scale"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Nhận biết phím đàn qua cụm 2 phím đen và 3 phím đen. Phím Đô (C) nằm ở ngay dưới cụm 2 phím đen. Đàn piano chuẩn 88 phím có tổng cộng 8 phím Đô (từ Đô 1 đến Đô 8). Đô 4 (C4 / Middle C) là phím trung tâm thích hợp nhất với giọng hát con người.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8"
+      ],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nhận biết phím đàn qua cụm 2 phím đen và 3 phím đen. Phím Đô (C) nằm ở ngay dưới cụm 2 phím đen. Đàn piano chuẩn 88 phím có tổng cộng 8 phím Đô (từ Đô 1 đến Đô 8). Đô 4 (C4 / Middle C) là phím trung tâm thích hợp nhất với giọng hát con người."
+}

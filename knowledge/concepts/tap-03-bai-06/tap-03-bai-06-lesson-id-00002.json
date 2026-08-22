@@ -1,0 +1,57 @@
+{
+  "id": "tap-03-bai-06-lesson-id-00002",
+  "type": "concept",
+  "name": "Nốt đen chấm dôi có giá trị bằng 1 phách rưỡi (1.5 phách) - bằng nốt đen (1 phách) cộng thêm nửa phách của dấu chấm dôi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "02:08-02:45 pdf p.3",
+    "media_id": "hai_piano_video_t03_b06",
+    "supporting": [
+      {
+        "source_id": "hai_piano_pdf_t03",
+        "page": 3,
+        "section": "Silent Night Measures 1-4"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_06"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Nốt đen chấm dôi có giá trị bằng 1 phách rưỡi (1.5 phách) - bằng nốt đen (1 phách) cộng thêm nửa phách của dấu chấm dôi. Nốt móc đơn bằng 0.5 phách, nốt trắng bằng 2 phách, nốt trắng chấm dôi bằng 3 phách.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "G4",
+        "A4",
+        "G4",
+        "E4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "G4",
+          "A4",
+          "G4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nốt đen chấm dôi có giá trị bằng 1 phách rưỡi (1.5 phách) - bằng nốt đen (1 phách) cộng thêm nửa phách của dấu chấm dôi. Nốt móc đơn bằng 0.5 phách, nốt trắng bằng 2 phách, nốt trắng chấm dôi bằng 3 phách."
+}

@@ -1,0 +1,128 @@
+{
+  "id": "tap-04-bai-06-tap-04-bai-06-005",
+  "type": "voicing",
+  "name": "Mẫu câu lót số 4 (Câu 4)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-06",
+    "locator": "00:06:48-00:09:11 pdf p.30",
+    "media_id": "video_tap_04_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 30,
+        "section": "Bài 6 - Câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am9, Em7, Fadd9, Cadd9, Dm9",
+    "Giọng: A minor",
+    "Gam: A natural minor",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Ballad, Contemporary Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am9",
+      "Em7",
+      "Fadd9",
+      "Cadd9",
+      "Dm9"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary-pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Mẫu câu lót số 4 (Câu 4). Kết hợp thêm nốt bậc 9 (9th extension) vào hợp âm và giai điệu lót, giúp âm thanh trở nên dày dặn, sang trọng và lấp đầy khoảng trống hòa âm trong đệm hát.",
+    "music_entities": {
+      "chords": [
+        "Am9",
+        "Em7",
+        "Fadd9",
+        "Cadd9",
+        "Dm9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A natural minor"
+      ],
+      "styles": [
+        "Ballad",
+        "Contemporary Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am9",
+      "notes": [
+        "B4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "G3"
+        ],
+        "right": [
+          "B4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am9",
+        "notes": [
+          "B4",
+          "C5",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3",
+            "G3"
+          ],
+          "right": [
+            "B4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 4 (Câu 4). Kết hợp thêm nốt bậc 9 (9th extension) vào hợp âm và giai điệu lót, giúp âm thanh trở nên dày dặn, sang trọng và lấp đầy khoảng trống hòa âm trong đệm hát."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mack-grout",
+  "type": "teacher",
+  "name": "Mack Grout",
+  "difficulty": 3,
+  "source": null,
+  "use_when": ["Người học hỏi về lick jazz, vòng ii-V-I, enclosure, vocabulary ngẫu hứng"],
+  "avoid_when": ["Câu hỏi về ballad Việt (thầy Hải) hoặc blues shuffle (Pianote) — đừng trộn nhãn"],
+  "input": { "style": ["jazz"] },
+  "output": { "declared_focus": ["jazz piano", "ii-V-I vocabulary", "sequences"], "language": "en", "ingested_sources": 1 },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Kênh dạy jazz piano tiếng Anh. Đây là nguồn thứ ba của kho, tách hẳn với thầy Hải Joseph và Pianote. Mọi item của Mack Grout phải mang teacher_id 'mack-grout' và style 'jazz'."
+}

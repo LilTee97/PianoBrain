@@ -1,0 +1,128 @@
+{
+  "id": "tap-02-bai-07-lesson-id-00032",
+  "type": "voicing",
+  "name": "Hợp âm Trưởng 7 9 (Cmaj79 / C.Major7.9 / CΔ79) được cấu tạo bằng cách ghép một hợp âm Bảy Trưởng (Cmaj7: C-E-G-B) cộng t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-07",
+    "locator": "00:01:35-00:03:50 pdf p.4",
+    "media_id": "hai_piano_t2_b07_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_t2_pdf3",
+        "page": 4,
+        "section": "Hợp âm 7 Trưởng 9 - C.Major7.9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, Dmaj79, Emaj79, Fmaj79",
+    "Giọng: C major",
+    "Gam: Major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Pop Ballad, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "Dmaj79",
+      "Emaj79",
+      "Fmaj79"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Hợp âm Trưởng 7 9 (Cmaj79 / C.Major7.9 / CΔ79) được cấu tạo bằng cách ghép một hợp âm Bảy Trưởng (Cmaj7: C-E-G-B) cộng thêm một quãng 3 thứ (B-D). Tổng thể gồm các nốt: C - E - G - B - D (1 - 3 - 5 - 7 - 9). Thế bấm tạo ra âm sắc rất sáng, mở rộng và bồng bềnh.",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "Dmaj79",
+        "Emaj79",
+        "Fmaj79"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "Major"
+      ],
+      "styles": [
+        "Pop Ballad",
+        "Worship"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj79",
+      "notes": [
+        "C3",
+        "G3",
+        "B3",
+        "D4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "B3",
+          "D4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj79",
+        "notes": [
+          "C3",
+          "G3",
+          "B3",
+          "D4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "B3",
+            "D4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Trưởng 7 9 (Cmaj79 / C.Major7.9 / CΔ79) được cấu tạo bằng cách ghép một hợp âm Bảy Trưởng (Cmaj7: C-E-G-B) cộng thêm một quãng 3 thứ (B-D). Tổng thể gồm các nốt: C - E - G - B - D (1 - 3 - 5 - 7 - 9). Thế bấm tạo ra âm sắc rất sáng, mở rộng và bồng bềnh."
+}

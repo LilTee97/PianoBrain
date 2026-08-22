@@ -1,0 +1,131 @@
+{
+  "id": "tap-03-bai-11-tap-03-bai-11-005",
+  "type": "accompaniment",
+  "name": "Đoạn Phiên khúc A1 (Từ khi quen em...): Tay phải chơi giai điệu mềm mại ở quãng trung, chú ý chuyển ngón tay linh hoạt k",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-11",
+    "locator": "00:11:06-00:15:35 pdf p.11",
+    "media_id": "video_tap_03_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 11,
+        "section": "Section A (Verse 1)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: D, A/C#, Bm7, F#m, Gadd9, D/F#, Em7, A7",
+    "Giọng: D major",
+    "Nốt màu: 7, add9",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "D",
+      "A/C#",
+      "Bm7",
+      "F#m",
+      "Gadd9",
+      "D/F#",
+      "Em7",
+      "A7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Đoạn Phiên khúc A1 (Từ khi quen em...): Tay phải chơi giai điệu mềm mại ở quãng trung, chú ý chuyển ngón tay linh hoạt khi giai điệu đi lên quãng cao. Tay trái đệm tiết tấu rải móc đơn 1-5-8-9 hoặc 1-5-8-10 mượt mà.",
+    "music_entities": {
+      "chords": [
+        "D",
+        "A/C#",
+        "Bm7",
+        "F#m",
+        "Gadd9",
+        "D/F#",
+        "Em7",
+        "A7"
+      ],
+      "tensions": [
+        "7",
+        "add9"
+      ],
+      "keys": [
+        "D major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Bm7",
+      "notes": [
+        "B2",
+        "F#3",
+        "D4",
+        "F#4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "B2",
+          "F#3",
+          "D4"
+        ],
+        "right": [
+          "F#4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Bm7",
+        "notes": [
+          "B2",
+          "F#3",
+          "D4",
+          "F#4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "B2",
+            "F#3",
+            "D4"
+          ],
+          "right": [
+            "F#4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Đoạn Phiên khúc A1 (Từ khi quen em...): Tay phải chơi giai điệu mềm mại ở quãng trung, chú ý chuyển ngón tay linh hoạt khi giai điệu đi lên quãng cao. Tay trái đệm tiết tấu rải móc đơn 1-5-8-9 hoặc 1-5-8-10 mượt mà."
+}

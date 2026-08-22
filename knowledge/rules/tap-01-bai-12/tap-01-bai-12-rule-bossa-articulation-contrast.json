@@ -1,0 +1,67 @@
+{
+  "id": "tap-01-bai-12-rule-bossa-articulation-contrast",
+  "type": "rule",
+  "name": "Trong tiết tấu Bossa Nova, tay trái phải đánh nốt Bass ngân legato liên tục để làm nền âm vững chắc, trong khi tay phải",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-12",
+    "locator": "22:38-24:47 pdf p.6",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Bossa Nova, Latin, Valse, Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "bossa-nova",
+      "latin",
+      "valse",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Bossa Nova",
+        "Latin",
+        "Valse",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trong tiết tấu Bossa Nova, tay trái phải đánh nốt Bass ngân legato liên tục để làm nền âm vững chắc, trong khi tay phải dậm hợp âm non-legato/staccato nảy giật tạo tính đảo phách Latin.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_bossa_articulation_contrast",
+      "name": "Phân biệt kỹ thuật Legato/Non-legato trong Bossa Nova",
+      "type": "performance_technique",
+      "description": "Trong tiết tấu Bossa Nova, tay trái phải đánh nốt Bass ngân legato liên tục để làm nền âm vững chắc, trong khi tay phải dậm hợp âm non-legato/staccato nảy giật tạo tính đảo phách Latin.",
+      "applies_to": [
+        "styles:Bossa Nova"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_01_Bai_12"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trong tiết tấu Bossa Nova, tay trái phải đánh nốt Bass ngân legato liên tục để làm nền âm vững chắc, trong khi tay phải dậm hợp âm non-legato/staccato nảy giật tạo tính đảo phách Latin."
+}

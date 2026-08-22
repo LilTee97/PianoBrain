@@ -1,0 +1,91 @@
+{
+  "id": "tap-01-bai-02-hai-piano-001-bai-02-006",
+  "type": "voicing",
+  "name": "Khoảng âm đẹp nhất cho tay phải khi đệm hát nằm trong quãng F3 đến B4 (hoặc G3 - G4)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-02",
+    "locator": "09:05-11:50 pdf p.4",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 4,
+        "section": "NHỮNG LƯU Ý"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Vocal Accompaniment"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "vocal-accompaniment"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Khoảng âm đẹp nhất cho tay phải khi đệm hát nằm trong quãng F3 đến B4 (hoặc G3 - G4). Nếu bấm quá thấp (dưới F3) âm thanh bị đục/xỉn; nếu bấm quá cao (trên B4) sẽ lấn sang tầm âm của giai điệu/ca sĩ.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Vocal Accompaniment"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "F3",
+        "B4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "G3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "F3",
+          "B4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [],
+          "right": [
+            "G3",
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khoảng âm đẹp nhất cho tay phải khi đệm hát nằm trong quãng F3 đến B4 (hoặc G3 - G4). Nếu bấm quá thấp (dưới F3) âm thanh bị đục/xỉn; nếu bấm quá cao (trên B4) sẽ lấn sang tầm âm của giai điệu/ca sĩ."
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tap-06-bai-05-r-boston-dynamic-arrangement",
+  "type": "rule",
+  "name": "Sử dụng Mẫu 1 cho Phiên khúc A1 (nhẹ nhàng), Mẫu 2 cho Phiên khúc A2/Điệp khúc (dào dạt, cuộn 8th notes), Mẫu 3 cho Cao",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-05",
+    "locator": "00:03:01-00:03:48 pdf p.1",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Boston, Slow Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "boston",
+      "slow-waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Boston",
+        "Slow Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng Mẫu 1 cho Phiên khúc A1 (nhẹ nhàng), Mẫu 2 cho Phiên khúc A2/Điệp khúc (dào dạt, cuộn 8th notes), Mẫu 3 cho Cao trào/Giang tấu/Outro (chạy 16th notes thúc đẩy nhịp).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_BOSTON_DYNAMIC_ARRANGEMENT",
+      "name": "Phân bổ 3 mẫu đệm Boston theo bố cục bài hát",
+      "category": "song_arrangement",
+      "description": "Sử dụng Mẫu 1 cho Phiên khúc A1 (nhẹ nhàng), Mẫu 2 cho Phiên khúc A2/Điệp khúc (dào dạt, cuộn 8th notes), Mẫu 3 cho Cao trào/Giang tấu/Outro (chạy 16th notes thúc đẩy nhịp).",
+      "applicability": "Bố cục tổng thể bài hát điệu Boston 3/4",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_05"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng Mẫu 1 cho Phiên khúc A1 (nhẹ nhàng), Mẫu 2 cho Phiên khúc A2/Điệp khúc (dào dạt, cuộn 8th notes), Mẫu 3 cho Cao trào/Giang tấu/Outro (chạy 16th notes thúc đẩy nhịp)."
+}

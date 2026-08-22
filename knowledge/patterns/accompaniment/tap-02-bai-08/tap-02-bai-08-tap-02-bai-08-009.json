@@ -1,0 +1,124 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-009",
+  "type": "exercise",
+  "name": "Ứng dụng đặt hòa âm bậc 9 cho bài 'My Heart Will Go On': Đoạn giai điệu 'Sol' rơi vào hòa âm Fmaj79 (Sol là bậc 9 của F)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:14:53-00:17:50 pdf p.7",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 7,
+        "section": "Bài tập ứng dụng thực hành"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj79, Cmaj79, Cadd9",
+    "Giọng: C major",
+    "Gam: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj79",
+      "Cmaj79",
+      "Cadd9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ứng dụng đặt hòa âm bậc 9 cho bài 'My Heart Will Go On': Đoạn giai điệu 'Sol' rơi vào hòa âm Fmaj79 (Sol là bậc 9 của F), nốt 'Re' rơi vào Cadd9/Cmaj79.",
+    "music_entities": {
+      "chords": [
+        "Fmaj79",
+        "Cmaj79",
+        "Cadd9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fmaj79",
+      "notes": [
+        "F2",
+        "C3",
+        "E3",
+        "A3",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3"
+        ],
+        "right": [
+          "E3",
+          "A3",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Fmaj79",
+        "notes": [
+          "F2",
+          "C3",
+          "E3",
+          "A3",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "C3"
+          ],
+          "right": [
+            "E3",
+            "A3",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng đặt hòa âm bậc 9 cho bài 'My Heart Will Go On': Đoạn giai điệu 'Sol' rơi vào hòa âm Fmaj79 (Sol là bậc 9 của F), nốt 'Re' rơi vào Cadd9/Cmaj79."
+}

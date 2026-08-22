@@ -1,0 +1,122 @@
+{
+  "id": "tap-01-bai-12-hai-piano-c1-b12-005",
+  "type": "accompaniment",
+  "name": "Mẫu Valse Kiểu 2 (Rải rải âm đơn nhịp nhàng): Tay trái đánh nốt Bass phách 1 ngân hết ô nhịp",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-12",
+    "locator": "17:29-20:04 pdf p.6",
+    "media_id": "video_hai_piano_tap1_bai12",
+    "supporting": [
+      {
+        "source_id": "pdf_hoam_coban_tap1_bai11_15",
+        "page": 6,
+        "section": "Kiểu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G",
+    "Giọng: C",
+    "Điệu / phong cách: Valse"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "valse"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu Valse Kiểu 2 (Rải rải âm đơn nhịp nhàng): Tay trái đánh nốt Bass phách 1 ngân hết ô nhịp. Tay phải đánh các nốt đơn lẻ của hợp âm tách rời (móc đơn) tạo nét đệm mềm mại hơn kiểu 1.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Valse"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G4",
+        "C5",
+        "E5",
+        "G5"
+      ],
+      "hands": {
+        "left": [
+          "C3 (ngân 3 phách)"
+        ],
+        "right": [
+          "Lặng đơn",
+          "G4",
+          "C5",
+          "E5",
+          "G5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "G4",
+          "C5",
+          "E5",
+          "G5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3 (ngân 3 phách)"
+          ],
+          "right": [
+            "Lặng đơn",
+            "G4",
+            "C5",
+            "E5",
+            "G5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu Valse Kiểu 2 (Rải rải âm đơn nhịp nhàng): Tay trái đánh nốt Bass phách 1 ngân hết ô nhịp. Tay phải đánh các nốt đơn lẻ của hợp âm tách rời (móc đơn) tạo nét đệm mềm mại hơn kiểu 1."
+}

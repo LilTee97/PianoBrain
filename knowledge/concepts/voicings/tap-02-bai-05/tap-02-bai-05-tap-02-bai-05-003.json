@@ -1,0 +1,108 @@
+{
+  "id": "tap-02-bai-05-tap-02-bai-05-003",
+  "type": "voicing",
+  "name": "Cấu trúc xếp ngón (voicing) hợp âm 7 cho hai tay: Tay trái chơi bậc 1-5 (hoặc 1-5-1), tay phải chơi quãng 3-7 hoặc 7-3 (",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": "01:26-04:25 pdf p.7",
+    "media_id": "video_tap_02_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 7,
+        "section": "Thực hành Voicing Tay Trái & Tay Phải"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Am7",
+    "Giọng: C Major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Am7"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Cấu trúc xếp ngón (voicing) hợp âm 7 cho hai tay: Tay trái chơi bậc 1-5 (hoặc 1-5-1), tay phải chơi quãng 3-7 hoặc 7-3 (guide tones), có thể kẹp thêm bậc 5 hoặc bậc 1 làm nốt dẫn/lót qua giọng.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Am7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C2",
+        "G2",
+        "E3",
+        "B3",
+        "G3"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "E3",
+          "B3",
+          "G3"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C2",
+          "G2",
+          "E3",
+          "B3",
+          "G3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "E3",
+            "B3",
+            "G3"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Cấu trúc xếp ngón (voicing) hợp âm 7 cho hai tay: Tay trái chơi bậc 1-5 (hoặc 1-5-1), tay phải chơi quãng 3-7 hoặc 7-3 (guide tones), có thể kẹp thêm bậc 5 hoặc bậc 1 làm nốt dẫn/lót qua giọng."
+}

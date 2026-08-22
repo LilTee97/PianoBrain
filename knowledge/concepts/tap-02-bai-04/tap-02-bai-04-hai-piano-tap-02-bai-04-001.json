@@ -1,0 +1,61 @@
+{
+  "id": "tap-02-bai-04-hai-piano-tap-02-bai-04-001",
+  "type": "concept",
+  "name": "Giới thiệu khái quát về hợp âm 7 trong hòa âm nâng cao",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": "00:00:25-04:08:00 pdf p.5",
+    "media_id": "video_tap_02_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_book",
+        "page": 5,
+        "section": "BÀI 4 : HỢP ÂM 7"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C",
+    "Điệu / phong cách: pop, ballad, gospel"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "gospel"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu khái quát về hợp âm 7 trong hòa âm nâng cao. Hợp âm 7 là một trong những hợp âm rất quan trọng, tạo ra âm sắc sang trọng, tinh tế và phiêu bồng. Bài học hệ thống hóa 06 loại hợp âm 7 thường gặp nhất trong nhạc nhẹ và thánh ca.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "pop",
+        "ballad",
+        "gospel"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu khái quát về hợp âm 7 trong hòa âm nâng cao. Hợp âm 7 là một trong những hợp âm rất quan trọng, tạo ra âm sắc sang trọng, tinh tế và phiêu bồng. Bài học hệ thống hóa 06 loại hợp âm 7 thường gặp nhất trong nhạc nhẹ và thánh ca."
+}

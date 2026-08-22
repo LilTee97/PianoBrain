@@ -1,0 +1,79 @@
+{
+  "id": "tap-03-bai-11-r-harmony-descending-bass-voicing",
+  "type": "rule",
+  "name": "Tạo chuỗi âm bass đi xuống bước tầng trong bài Ballad",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-11",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Pop Ballad, Pop Solo, Power Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "pop-ballad",
+      "pop-solo",
+      "power-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop Ballad",
+        "Pop Solo",
+        "Power Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Tạo chuỗi âm bass đi xuống bước tầng trong bài Ballad",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_HARMONY_DESCENDING_BASS_VOICING",
+      "domain": "harmony_arranging",
+      "summary": "Tạo chuỗi âm bass đi xuống bước tầng trong bài Ballad",
+      "statement": "Sử dụng chuỗi hợp âm đảo bass đi xuống từng nửa cung hoặc nguyên cung (VD: I -> V/7 -> v/b7 -> IV/6 tức D -> A/C# -> Am/C -> G/B) để tạo hiệu ứng chuyển âm mượt mà, tăng tính biểu cảm cho Intro hoặc Verse.",
+      "conditions": {
+        "harmonic_context": "diatonic_major_key",
+        "progression_type": "intro_or_verse_line"
+      },
+      "action": {
+        "bass_movement": "stepwise_descending",
+        "chords_sequence": [
+          "I",
+          "V/3rd",
+          "v_minor/b7th",
+          "IV/3rd"
+        ]
+      },
+      "lesson_folder": "Tap_03_Bai_11"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Tạo chuỗi âm bass đi xuống bước tầng trong bài Ballad"
+}

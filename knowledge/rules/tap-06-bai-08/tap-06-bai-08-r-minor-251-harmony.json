@@ -1,0 +1,78 @@
+{
+  "id": "tap-06-bai-08-r-minor-251-harmony",
+  "type": "rule",
+  "name": "Khi áp dụng vòng 2-5-1 cho giọng thứ (Minor Key), Bậc II phải sử dụng Hợp âm Thứ 7 giáng 5 (m7b5 / Half-diminished), Bậc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-08",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Chất hợp âm: Minor",
+    "Điệu / phong cách: Fast Swing, Jazz, Medium Swing, Pop, Swing, Walking Bass"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Minor"
+    ],
+    "style": [
+      "jazz",
+      "fast-swing",
+      "medium-swing",
+      "pop",
+      "swing",
+      "walking-bass"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": "Minor",
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Fast Swing",
+        "Jazz",
+        "Medium Swing",
+        "Pop",
+        "Swing",
+        "Walking Bass"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi áp dụng vòng 2-5-1 cho giọng thứ (Minor Key), Bậc II phải sử dụng Hợp âm Thứ 7 giáng 5 (m7b5 / Half-diminished), Bậc V dùng Át 7 (Dominant 7/Alt) và Bậc I giải kết về Thứ 7 (m7).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Use iiø7 (m7b5) -> V7 -> i7"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_MINOR_251_HARMONY",
+      "title": "Cấu trúc Hòa âm Vòng II-V-i Giọng Thứ",
+      "description": "Khi áp dụng vòng 2-5-1 cho giọng thứ (Minor Key), Bậc II phải sử dụng Hợp âm Thứ 7 giáng 5 (m7b5 / Half-diminished), Bậc V dùng Át 7 (Dominant 7/Alt) và Bậc I giải kết về Thứ 7 (m7).",
+      "conditions": {
+        "key_type": "Minor",
+        "progression": "2-5-1"
+      },
+      "action": "Use iiø7 (m7b5) -> V7 -> i7",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_08"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi áp dụng vòng 2-5-1 cho giọng thứ (Minor Key), Bậc II phải sử dụng Hợp âm Thứ 7 giáng 5 (m7b5 / Half-diminished), Bậc V dùng Át 7 (Dominant 7/Alt) và Bậc I giải kết về Thứ 7 (m7)."
+}

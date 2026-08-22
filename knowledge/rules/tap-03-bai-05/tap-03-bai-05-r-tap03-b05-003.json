@@ -1,0 +1,65 @@
+{
+  "id": "tap-03-bai-05-r-tap03-b05-003",
+  "type": "rule",
+  "name": "Dấu chấm dôi đặt sau một nốt nhạc làm tăng trường độ của nốt đó thêm 50% (1/2) giá trị ban đầu của chính nó",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-05",
+    "locator": "05:12-06:40 pdf p.2",
+    "extra_locators": [
+      "29:15-33:50 pdf p.2"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Classical"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Classical"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Dấu chấm dôi đặt sau một nốt nhạc làm tăng trường độ của nốt đó thêm 50% (1/2) giá trị ban đầu của chính nó.\n- Nốt trắng (2 phách) + Dấu chấm dôi (1 phách) = 3 phách.\n- Nốt đen (1 phách) + Dấu chấm dôi (0.5 phách) = 1.5 phách.\n",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP03_B05_003",
+      "title": "Tính trường độ nốt có dấu chấm dôi (Dotted Note Rule)",
+      "category": "music_theory",
+      "description": "Dấu chấm dôi đặt sau một nốt nhạc làm tăng trường độ của nốt đó thêm 50% (1/2) giá trị ban đầu của chính nó.\n- Nốt trắng (2 phách) + Dấu chấm dôi (1 phách) = 3 phách.\n- Nốt đen (1 phách) + Dấu chấm dôi (0.5 phách) = 1.5 phách.\n",
+      "conditions": [
+        "Khi gặp ký hiệu dấu chấm dôi bên phải hình nốt"
+      ],
+      "actions": [
+        "Cộng thêm 1/2 trường độ của nốt gốc vào tổng thời gian ngân."
+      ],
+      "lesson_folder": "Tap_03_Bai_05"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Dấu chấm dôi đặt sau một nốt nhạc làm tăng trường độ của nốt đó thêm 50% (1/2) giá trị ban đầu của chính nó.\n- Nốt trắng (2 phách) + Dấu chấm dôi (1 phách) = 3 phách.\n- Nốt đen (1 phách) + Dấu chấm dôi (0.5 phách) = 1.5 phách."
+}

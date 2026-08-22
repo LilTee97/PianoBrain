@@ -1,0 +1,110 @@
+{
+  "id": "tap-03-bai-01-lesson-id-00001-pattern-01",
+  "type": "accompaniment",
+  "name": "Kỹ thuật Non-legato (Kéo cổ tay): Nâng cổ tay lên cao để kéo ngón tay, thả lỏng cổ tay xuống và dùng sức bật của đầu ngó",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-01",
+    "locator": "00:08:08-00:15:20",
+    "media_id": "video_tap_03_bai_01",
+    "supporting": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Classical, Pop Accompaniment"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical",
+      "pop",
+      "pop-accompaniment"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Kỹ thuật Non-legato (Kéo cổ tay): Nâng cổ tay lên cao để kéo ngón tay, thả lỏng cổ tay xuống và dùng sức bật của đầu ngón tay đập mạnh vào phím đàn. Luyện sức bền cổ tay. Âm thanh tạo ra: To, vang, ngắt tiếng.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Classical",
+        "Pop Accompaniment"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "D3",
+          "E3",
+          "F3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "D3",
+            "E3",
+            "F3",
+            "G3"
+          ],
+          "right": [
+            "C4",
+            "D4",
+            "E4",
+            "F4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật Non-legato (Kéo cổ tay): Nâng cổ tay lên cao để kéo ngón tay, thả lỏng cổ tay xuống và dùng sức bật của đầu ngón tay đập mạnh vào phím đàn. Luyện sức bền cổ tay. Âm thanh tạo ra: To, vang, ngắt tiếng."
+}

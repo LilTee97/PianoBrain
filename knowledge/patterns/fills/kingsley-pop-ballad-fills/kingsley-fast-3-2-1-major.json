@@ -1,0 +1,60 @@
+{
+  "difficulty": 4,
+  "avoid_when": [
+    "Không áp dụng công thức b3 lên 3 trên hợp âm thứ"
+  ],
+  "source": {
+    "teacher_id": "kingsley",
+    "source_id": "kingsley-pop-ballad-fills",
+    "locator": "Folders 03, 05/03, 06, 11, 12"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "id": "kingsley-fast-3-2-1-major",
+  "type": "fill",
+  "name": "Fast 3-2-1 trên hợp âm trưởng: b3 lên 3, b3 xuống 2, rồi về 1",
+  "use_when": [
+    "Hợp âm trưởng",
+    "Cần một cụm nhanh lấp chỗ trống ngắn"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "F",
+      "G"
+    ]
+  },
+  "output": {
+    "cells": [
+      [
+        "b3",
+        "3"
+      ],
+      [
+        "b3",
+        "2"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "example_on_c": [
+      [
+        "Eb",
+        "E"
+      ],
+      [
+        "Eb",
+        "D"
+      ],
+      [
+        "C"
+      ]
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Cụm nhanh 3-2-1 trên hợp âm trưởng: nốt hoa mỹ b3 lên bậc 3, rồi b3 xuống bậc 2, rồi về bậc 1. Trên C là Eb lên E, Eb xuống D, rồi C."
+}

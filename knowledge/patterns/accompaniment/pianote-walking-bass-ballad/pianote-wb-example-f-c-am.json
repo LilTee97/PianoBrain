@@ -1,0 +1,58 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-example-f-c-am",
+  "type": "accompaniment",
+  "name": "Ví dụ walking bass: F-G-A-C, C-D-E-G, A-B-C-E",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:00:36"
+  },
+  "use_when": [
+    "Tập tay trái trên vòng có C, F, Am",
+    "Cần nốt cụ thể từng hợp âm"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "F",
+      "Am"
+    ]
+  },
+  "output": {
+    "hand": "LH",
+    "example": {
+      "F": [
+        "F",
+        "G",
+        "A",
+        "C"
+      ],
+      "C": [
+        "C",
+        "D",
+        "E",
+        "G"
+      ],
+      "Am": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    "songs": [
+      "Hey Jude",
+      "Killing Me Softly",
+      "Kiss The Rain"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Hợp âm F đi F-G-A-C, hợp âm C đi C-D-E-G, hợp âm Am đi A-B-C-E. Video áp dụng lên Hey Jude, Killing Me Softly, và ballad Kiss The Rain của Yiruma — mỗi hợp âm trong vòng đều dịch theo đúng công thức 1-2-3-5 của chính nó."
+}

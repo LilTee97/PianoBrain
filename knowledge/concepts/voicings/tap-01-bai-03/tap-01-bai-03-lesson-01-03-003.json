@@ -1,0 +1,135 @@
+{
+  "id": "tap-01-bai-03-lesson-01-03-003",
+  "type": "voicing",
+  "name": "Quy tắc dẫn bè tay phải khi đệm hát: Chọn thế bấm hợp âm 1-3 hoặc 3-5 sao cho các nốt nội thanh (inner voices) di chuyển",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-03",
+    "locator": "00:11:48-00:18:20 pdf p.4",
+    "media_id": "video_lesson_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_1_5",
+        "page": 4,
+        "section": "B. Cách thức di chuyển Hợp Âm này sang Hợp âm khác"
+      },
+      {
+        "source_id": "pdf_tap_1_bai_1_5",
+        "page": 7,
+        "section": "Nguyên tắc"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G, Am, Em, F, Dm",
+    "Giọng: C",
+    "Gam: C major",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G",
+      "Am",
+      "Em",
+      "F",
+      "Dm"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Quy tắc dẫn bè tay phải khi đệm hát: Chọn thế bấm hợp âm 1-3 hoặc 3-5 sao cho các nốt nội thanh (inner voices) di chuyển nối tiếp mượt mà, không bị nhảy quãng xa quá quãng 3, nằm hoàn toàn phía dưới nốt giai điệu chính.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "Em",
+        "F",
+        "Dm"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am -> Em",
+      "notes": [
+        "A2",
+        "E3",
+        "A3",
+        "C4",
+        "E3",
+        "B3",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "A3",
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am -> Em",
+        "notes": [
+          "A2",
+          "E3",
+          "A3",
+          "C4",
+          "E3",
+          "B3",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3"
+          ],
+          "right": [
+            "A3",
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc dẫn bè tay phải khi đệm hát: Chọn thế bấm hợp âm 1-3 hoặc 3-5 sao cho các nốt nội thanh (inner voices) di chuyển nối tiếp mượt mà, không bị nhảy quãng xa quá quãng 3, nằm hoàn toàn phía dưới nốt giai điệu chính."
+}

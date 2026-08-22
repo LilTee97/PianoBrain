@@ -1,0 +1,75 @@
+{
+  "id": "tap-02-bai-01-r-melodic-minor-major-iv-003",
+  "type": "rule",
+  "name": "Nâng bậc 6 lên 1/2 cung trong Thứ Giai Điệu tạo ra hợp âm Bậc IV Trưởng (D major trong Am) thay cho Dm, tạo màu sắc tươi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-01",
+    "locator": "00:18:31-00:28:40 pdf p.2",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Acoustics, Ballad, Jazz, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "acoustics",
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Acoustics",
+        "Ballad",
+        "Jazz",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Nâng bậc 6 lên 1/2 cung trong Thứ Giai Điệu tạo ra hợp âm Bậc IV Trưởng (D major trong Am) thay cho Dm, tạo màu sắc tươi sáng, mượt mà kiểu Jazz/Pop.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Thay Dm bằng D major hoặc D7"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_MELODIC_MINOR_MAJOR_IV_003",
+      "name": "Sử dụng Hợp âm Bậc IV Trưởng từ Thứ Giai Điệu",
+      "description": "Nâng bậc 6 lên 1/2 cung trong Thứ Giai Điệu tạo ra hợp âm Bậc IV Trưởng (D major trong Am) thay cho Dm, tạo màu sắc tươi sáng, mượt mà kiểu Jazz/Pop.",
+      "applied_keys": [
+        "Am",
+        "Minor Keys"
+      ],
+      "condition": "Đoạn điệp khúc hoặc câu lọt tạo sắc thái sáng trong giọng Thứ",
+      "action": "Thay Dm bằng D major hoặc D7",
+      "source_ref": {
+        "lesson_id": "hai_piano_tap02_bai01",
+        "timestamp": "16:58 - 18:15",
+        "pdf_page": 2
+      },
+      "lesson_folder": "Tap_02_Bai_01"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nâng bậc 6 lên 1/2 cung trong Thứ Giai Điệu tạo ra hợp âm Bậc IV Trưởng (D major trong Am) thay cho Dm, tạo màu sắc tươi sáng, mượt mà kiểu Jazz/Pop."
+}

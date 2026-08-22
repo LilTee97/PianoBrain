@@ -1,0 +1,135 @@
+{
+  "id": "tap-06-bai-10-hai-piano-001-t06-b10-002",
+  "type": "accompaniment",
+  "name": "Mẫu 1 Ballad Dân Ca: Tiết điệu đệm cơ bản nhịp 4/4 với tay trái giữ nốt Bass/Quãng 8 và tay phải đánh hợp âm đệm nhẹ ngắ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-10",
+    "locator": "02:16-05:27 pdf p.1",
+    "media_id": "hai_piano_course_001_t06_b10_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_t06_b10_pdf",
+        "page": 1,
+        "section": "Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, E",
+    "Giọng: Am",
+    "Điệu / phong cách: Ballad Dân Ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "E"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad-d-n-ca"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1 Ballad Dân Ca: Tiết điệu đệm cơ bản nhịp 4/4 với tay trái giữ nốt Bass/Quãng 8 và tay phải đánh hợp âm đệm nhẹ ngắt nhịp (bùm-chát). Chuỗi hợp âm mẫu: i - iv - V - i (Am - Dm - E - Am).",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "E"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad Dân Ca"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am - Dm - E - Am",
+      "notes": [
+        "A2",
+        "A3",
+        "C4",
+        "E4",
+        "A4",
+        "D3",
+        "D4",
+        "F4",
+        "A4",
+        "D5",
+        "E2",
+        "E3",
+        "G#4",
+        "B4",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "A2-A3 (Nốt quãng 8)",
+          "D3-D4",
+          "E2-E3"
+        ],
+        "right": [
+          "Chèn giai điệu câu dẫn nhẹ hoặc hợp âm chát nhịp ngắt"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am - Dm - E - Am",
+        "notes": [
+          "A2",
+          "A3",
+          "C4",
+          "E4",
+          "A4",
+          "D3",
+          "D4",
+          "F4",
+          "A4",
+          "D5",
+          "E2",
+          "E3",
+          "G#4",
+          "B4",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2-A3 (Nốt quãng 8)",
+            "D3-D4",
+            "E2-E3"
+          ],
+          "right": [
+            "Chèn giai điệu câu dẫn nhẹ hoặc hợp âm chát nhịp ngắt"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1 Ballad Dân Ca: Tiết điệu đệm cơ bản nhịp 4/4 với tay trái giữ nốt Bass/Quãng 8 và tay phải đánh hợp âm đệm nhẹ ngắt nhịp (bùm-chát). Chuỗi hợp âm mẫu: i - iv - V - i (Am - Dm - E - Am)."
+}

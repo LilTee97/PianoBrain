@@ -1,0 +1,115 @@
+{
+  "id": "tap-01-bai-09-lesson-id-0009-06",
+  "type": "accompaniment",
+  "name": "Tiết tấu đệm Dân ca Kiểu 1 (Nhịp 4/4): Tay trái đánh nốt Bass ở đầu ô nhịp (nốt trắng chấm có dấu lặng hoặc nốt đen kéo",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-09",
+    "locator": "22:37-26:48 pdf p.15",
+    "media_id": "Tap_01_Bai_09.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_01_Bai_06_10.pdf",
+        "page": 15,
+        "section": "TIẾT TẤU DÂN CA - Kiểu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm",
+    "Giọng: C",
+    "Điệu / phong cách: Dân ca, Folk Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm"
+    ],
+    "style": [
+      "d-n-ca",
+      "pop_ballad",
+      "folk-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Tiết tấu đệm Dân ca Kiểu 1 (Nhịp 4/4): Tay trái đánh nốt Bass ở đầu ô nhịp (nốt trắng chấm có dấu lặng hoặc nốt đen kéo dài), Tay phải bấm chùm hợp âm ở phách 2, 3, 4 theo sắc thái non-legato/staccato nảy nhẹ. Tay trái chơi legato nhằm giữ nền vững chắc.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Dân ca",
+        "Folk Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C",
+        "E",
+        "G"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C",
+          "E",
+          "G"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết tấu đệm Dân ca Kiểu 1 (Nhịp 4/4): Tay trái đánh nốt Bass ở đầu ô nhịp (nốt trắng chấm có dấu lặng hoặc nốt đen kéo dài), Tay phải bấm chùm hợp âm ở phách 2, 3, 4 theo sắc thái non-legato/staccato nảy nhẹ. Tay trái chơi legato nhằm giữ nền vững chắc."
+}

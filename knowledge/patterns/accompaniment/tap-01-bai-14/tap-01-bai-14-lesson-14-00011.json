@@ -1,0 +1,118 @@
+{
+  "id": "tap-01-bai-14-lesson-14-00011",
+  "type": "exercise",
+  "name": "Bước 11 - Hoàn thiện toàn bộ bài hòa âm: Thực hiện phối hợp đầy đủ từ Intro -> Đoạn 1 -> Đoạn 2 -> Điệp khúc -> Câu lót",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "30:30-33:58 pdf p.9",
+    "media_id": "video_tap_01_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_11_15",
+        "page": 9,
+        "section": "11. Thực hiện"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, Em, F, Dm, G, C",
+    "Giọng: C Major",
+    "Điệu / phong cách: Valse 3/4"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "Em",
+      "F",
+      "Dm",
+      "G",
+      "C"
+    ],
+    "style": [
+      "valse-3-4"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Bước 11 - Hoàn thiện toàn bộ bài hòa âm: Thực hiện phối hợp đầy đủ từ Intro -> Đoạn 1 -> Đoạn 2 -> Điệp khúc -> Câu lót -> Outro với tiết tấu Valse 3/4 nhịp nhàng, tay trái giữ nhịp Bùm-Chát-Chát kết hợp Bass line liền bậc.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "Em",
+        "F",
+        "Dm",
+        "G",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Valse 3/4"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Valse Accompaniment Pattern",
+      "notes": [
+        "Bass (p1)",
+        "Chord-Right (p2)",
+        "Chord-Right (p3)"
+      ],
+      "hands": {
+        "left": [
+          "C2 (p1)"
+        ],
+        "right": [
+          "E3-G3-C4 (p2)",
+          "E3-G3-C4 (p3)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Valse Accompaniment Pattern",
+        "notes": [
+          "Bass (p1)",
+          "Chord-Right (p2)",
+          "Chord-Right (p3)"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2 (p1)"
+          ],
+          "right": [
+            "E3-G3-C4 (p2)",
+            "E3-G3-C4 (p3)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bước 11 - Hoàn thiện toàn bộ bài hòa âm: Thực hiện phối hợp đầy đủ từ Intro -> Đoạn 1 -> Đoạn 2 -> Điệp khúc -> Câu lót -> Outro với tiết tấu Valse 3/4 nhịp nhàng, tay trái giữ nhịp Bùm-Chát-Chát kết hợp Bass line liền bậc."
+}

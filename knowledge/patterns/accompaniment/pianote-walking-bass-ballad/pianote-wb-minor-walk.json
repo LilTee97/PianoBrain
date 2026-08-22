@@ -1,0 +1,47 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-minor-walk",
+  "type": "accompaniment",
+  "name": "Walking bass 1-2-3-5 trên hợp âm thứ: bậc 3 đổi sang quãng thứ",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:00:44"
+  },
+  "use_when": [
+    "Ô nhịp là hợp âm thứ",
+    "Ballad nhịp 4/4"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "Em"
+    ]
+  },
+  "output": {
+    "hand": "LH",
+    "degrees": [
+      "1",
+      "2 trưởng",
+      "3 thứ",
+      "5 đúng"
+    ],
+    "example": {
+      "Am": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Trên hợp âm thứ, tay trái đi: nốt gốc, bậc 2 trưởng, bậc 3 thứ, bậc 5 đúng. Chỉ khác hợp âm trưởng ở bậc 3."
+}

@@ -1,0 +1,76 @@
+{
+  "id": "tap-01-bai-07-lesson-id-00002",
+  "type": "concept",
+  "name": "Sử dụng hợp âm đảo C/E làm hợp âm dẫn giữa C và F",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-07",
+    "locator": "05:45-09:37 pdf p.4",
+    "media_id": "video_tap01_bai07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 4,
+        "section": "VD1: C -> F"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, C/E, F",
+    "Giọng: C major",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "C/E",
+      "F"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Sử dụng hợp âm đảo C/E làm hợp âm dẫn giữa C và F. Bass đi C -> E -> F (E lên F là liền bậc nửa cung hút rất mạnh về F).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "C/E",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C/E",
+      "notes": [
+        "E3",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "E3"
+        ],
+        "right": [
+          "G4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng hợp âm đảo C/E làm hợp âm dẫn giữa C và F. Bass đi C -> E -> F (E lên F là liền bậc nửa cung hút rất mạnh về F)."
+}

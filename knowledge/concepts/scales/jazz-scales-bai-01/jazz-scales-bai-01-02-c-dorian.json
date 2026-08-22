@@ -1,0 +1,71 @@
+{
+  "id": "jazz-scales-bai-01-02-c-dorian",
+  "type": "scale",
+  "name": "Gam C Dorian cho hợp âm Cmin7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-01",
+    "locator": "01:20-02:27",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cmin7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Dorian",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "A",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "m7"
+      ],
+      "use_when": [
+        "hợp âm Cmin7"
+      ]
+    },
+    "chord_symbol": "Cmin7",
+    "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "Bb"
+    ],
+    "source_text": "Applying Chordal Tones + Whole Step to C min 7 (C, Eb, G, Bb) yields C Dorian scale: C, D (whole step above C), Eb, F (whole step above Eb), G, A (whole step above G), Bb."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 1 của nguồn Jazz Scales (YouTube), mốc 01:20-02:27. Applying Chordal Tones + Whole Step to C min 7 (C, Eb, G, Bb) yields C Dorian scale: C, D (whole step above C), Eb, F (whole step above Eb), G, A (whole step above G), Bb. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

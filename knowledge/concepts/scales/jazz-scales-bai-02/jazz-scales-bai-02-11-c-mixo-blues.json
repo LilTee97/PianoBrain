@@ -1,0 +1,89 @@
+{
+  "id": "jazz-scales-bai-02-11-c-mixo-blues",
+  "type": "scale",
+  "name": "Gam C Mixo-Blues cho hợp âm C7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-02",
+    "locator": "15:55-18:30",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Ngẫu hứng jazz trên hợp âm E7",
+    "Ngẫu hứng jazz trên hợp âm Am7",
+    "Ngẫu hứng jazz trên hợp âm F#m7b5",
+    "Ngẫu hứng jazz trên hợp âm F7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Chọn gam / scale khi gặp hợp âm 7, m7, m7b5 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "m7",
+      "m7b5"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Mixo-Blues",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "A",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "7"
+      ],
+      "use_when": [
+        "hợp âm C7",
+        "hợp âm E7",
+        "hợp âm Am7",
+        "hợp âm F#m7b5",
+        "hợp âm F7",
+        "hợp âm G7"
+      ]
+    },
+    "chord_symbol": "C7",
+    "notes": [
+      "C",
+      "D",
+      "Eb",
+      "E",
+      "F",
+      "F#",
+      "G",
+      "A",
+      "Bb"
+    ],
+    "source_text": "Scale #1 - Mixo-Blues Scale ('The Universal Scale'): C Mixo-Blues (C, D, Eb, E, F, F#, G, A, Bb). 9-note scale combining Major Blues and Minor Blues scales. Extremely versatile across dominant chords and entire diatonic progressions in jazz, blues, funk, and rock."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 2 của nguồn Jazz Scales (YouTube), mốc 15:55-18:30. Scale #1 - Mixo-Blues Scale ('The Universal Scale'): C Mixo-Blues (C, D, Eb, E, F, F#, G, A, Bb). 9-note scale combining Major Blues and Minor Blues scales. Extremely versatile across dominant chords and entire diatonic progressions in jazz, blues, funk, and rock. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

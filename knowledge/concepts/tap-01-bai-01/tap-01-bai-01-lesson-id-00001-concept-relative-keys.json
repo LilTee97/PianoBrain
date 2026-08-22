@@ -1,0 +1,77 @@
+{
+  "id": "tap-01-bai-01-lesson-id-00001-concept-relative-keys",
+  "type": "concept",
+  "name": "Giọng song song có cùng dấu hóa nhưng khác điệu tính",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-01",
+    "locator": "32:31-33:32 pdf p.5",
+    "media_id": "video_input_0",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 5,
+        "section": "GIỌNG SONG SONG CỦA ÂM GIAI C Dur"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, Em, F, G",
+    "Giọng: C Major, A Minor"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giọng song song có cùng dấu hóa nhưng khác điệu tính. Nếu giọng chính là Trưởng, tính xuống quãng 3 Thứ (1.5 cung) để tìm giọng Thứ song song (Ví dụ C Dur -> Am). Nếu giọng chính là Thứ, tính lên quãng 3 Thứ (1.5 cung) để tìm giọng Trưởng song song (Ví dụ Am -> C Dur).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "Em",
+        "F",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major",
+        "A Minor"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C / Am",
+      "notes": [
+        "C",
+        "B",
+        "A"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "A2"
+        ],
+        "right": [
+          "E4-G4",
+          "C4-E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giọng song song có cùng dấu hóa nhưng khác điệu tính. Nếu giọng chính là Trưởng, tính xuống quãng 3 Thứ (1.5 cung) để tìm giọng Thứ song song (Ví dụ C Dur -> Am). Nếu giọng chính là Thứ, tính lên quãng 3 Thứ (1.5 cung) để tìm giọng Trưởng song song (Ví dụ Am -> C Dur)."
+}

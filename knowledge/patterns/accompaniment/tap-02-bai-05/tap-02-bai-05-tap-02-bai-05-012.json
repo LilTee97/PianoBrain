@@ -1,0 +1,120 @@
+{
+  "id": "tap-02-bai-05-tap-02-bai-05-012",
+  "type": "exercise",
+  "name": "Ứng dụng hòa âm hợp âm 7 trong ca khúc 'Đâu Chỉ Riêng Em' (Mỹ Tâm)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": "24:25-26:45 pdf p.8",
+    "media_id": "video_tap_02_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 8,
+        "section": "Bài tập áp dụng"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj7, E7, Am7, Gm7, C7, Fmaj7",
+    "Giọng: C Major",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj7",
+      "E7",
+      "Am7",
+      "Gm7",
+      "C7",
+      "Fmaj7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ứng dụng hòa âm hợp âm 7 trong ca khúc 'Đâu Chỉ Riêng Em' (Mỹ Tâm). Đặt nốt giai điệu làm bậc 7 của các hợp âm thứ/trưởng tạo màu sắc đệm sâu lắng.",
+    "music_entities": {
+      "chords": [
+        "Fmaj7",
+        "E7",
+        "Am7",
+        "Gm7",
+        "C7",
+        "Fmaj7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7",
+      "notes": [
+        "A1",
+        "E2",
+        "C3",
+        "G3"
+      ],
+      "hands": {
+        "left": [
+          "A1",
+          "E2"
+        ],
+        "right": [
+          "C3",
+          "G3"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am7",
+        "notes": [
+          "A1",
+          "E2",
+          "C3",
+          "G3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A1",
+            "E2"
+          ],
+          "right": [
+            "C3",
+            "G3"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng hòa âm hợp âm 7 trong ca khúc 'Đâu Chỉ Riêng Em' (Mỹ Tâm). Đặt nốt giai điệu làm bậc 7 của các hợp âm thứ/trưởng tạo màu sắc đệm sâu lắng."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pianote-blues-rh-octave-fingering-unsure",
+  "type": "fingering",
+  "name": "Thế ngón tay phải cho quãng 8 blues — video không nêu",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Tay phải bấm quãng 8 C-G-C trong blues"
+  ],
+  "avoid_when": [
+    "Đừng trích dẫn item này như lời Pianote — video không nói số ngón"
+  ],
+  "input": {
+    "style": [
+      "blues"
+    ],
+    "hand": "RH"
+  },
+  "output": {
+    "stage": "unsure",
+    "candidates": [
+      "1-2-5",
+      "1-3-5"
+    ],
+    "needs_human_review": true,
+    "source_hint": "pianote-12-bar-blues @ 00:02:26"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Video không nêu số ngón cụ thể khi bấm quãng 8 tay phải (C-G-C) ở mốc 00:02:26. Hai thế ngón thông dụng là 1-2-5 hoặc 1-3-5, chọn theo cỡ tay. Đây là suy luận chung, KHÔNG phải lời của Pianote — vì vậy item này không mang nguồn."
+}

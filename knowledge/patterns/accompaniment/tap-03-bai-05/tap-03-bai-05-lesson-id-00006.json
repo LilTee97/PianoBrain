@@ -1,0 +1,74 @@
+{
+  "id": "tap-03-bai-05-lesson-id-00006",
+  "type": "exercise",
+  "name": "Luyện tập tay trái ở Khóa Fa (Bass Clef): Ô nhịp 1 dùng hợp âm Am dạng rải A2 (ngón 5) - E3 (ngón 2) - A3 (ngón 1)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-05",
+    "locator": "16:06-19:58 pdf p.2",
+    "media_id": "video_tap_03_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 2,
+        "section": "Tay trái khóa Fa"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, E, E7",
+    "Giọng: A minor"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "E",
+      "E7"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Luyện tập tay trái ở Khóa Fa (Bass Clef): Ô nhịp 1 dùng hợp âm Am dạng rải A2 (ngón 5) - E3 (ngón 2) - A3 (ngón 1). Ô nhịp 2 dùng hợp âm E7/G# rải E2 (ngón 5) - E3 (ngón 1) - G#3 (ngón 2).",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "E",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "Am / E7",
+      "notes": [
+        "A2",
+        "E3",
+        "A3",
+        "E2",
+        "E3",
+        "G#3"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "A3",
+          "E2",
+          "E3",
+          "G#3"
+        ],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Luyện tập tay trái ở Khóa Fa (Bass Clef): Ô nhịp 1 dùng hợp âm Am dạng rải A2 (ngón 5) - E3 (ngón 2) - A3 (ngón 1). Ô nhịp 2 dùng hợp âm E7/G# rải E2 (ngón 5) - E3 (ngón 1) - G#3 (ngón 2)."
+}

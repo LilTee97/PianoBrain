@@ -1,0 +1,49 @@
+{
+  "id": "jazz-scales-bai-08-04-melodic-minor",
+  "type": "voicing",
+  "name": "Rootless A-B-A voicings for a Minor 2-5-1-6 turnaround progression in A Minor:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-08",
+    "locator": "05:15-07:31",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Bm7(b5)",
+    "Ngẫu hứng jazz trên hợp âm E7(#9,#5)",
+    "Ngẫu hứng jazz trên hợp âm Am(maj7)",
+    "Ngẫu hứng jazz trên hợp âm F#m7(b5)",
+    "Chọn gam / scale khi gặp hợp âm m7(b5), 7(#9,#5), m(maj7) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7(b5)",
+      "7(#9,#5)",
+      "m(maj7)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Bm7(b5) - E7(alt) - Am(maj7) - F#m7(b5)",
+    "notes": [
+      "D",
+      "F",
+      "A",
+      "B",
+      "G",
+      "G#",
+      "C",
+      "E"
+    ],
+    "source_text": "Rootless A-B-A voicings for a Minor 2-5-1-6 turnaround progression in A Minor: Bm7(b5) [A Voicing: D-F-A-B], E7(alt) [B Voicing: D-G-G#-C (b7, #9, 3, b13)], Am(maj7) [A Voicing: C-E-G#-B], F#m7(b5) [A Voicing: C-E-F#-A]."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 8 của nguồn Jazz Scales (YouTube), mốc 05:15-07:31. Rootless A-B-A voicings for a Minor 2-5-1-6 turnaround progression in A Minor: Bm7(b5) [A Voicing: D-F-A-B], E7(alt) [B Voicing: D-G-G#-C (b7, #9, 3, b13)], Am(maj7) [A Voicing: C-E-G#-B], F#m7(b5) [A Voicing: C-E-F#-A]. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

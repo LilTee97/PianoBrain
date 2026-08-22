@@ -1,0 +1,87 @@
+{
+  "id": "tap-03-bai-11-tap-03-bai-11-006",
+  "type": "concept",
+  "name": "Sử dụng hợp âm át phụ E7 (Mi 7 át) hoặc E/G# ở cuối đoạn Phiên khúc để hút mạnh về hợp âm A7/Asus4 trước khi lặp lại A2",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-11",
+    "locator": "00:15:35-00:18:20 pdf p.11",
+    "media_id": "video_tap_03_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 11,
+        "section": "Section A Bridge to A2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: E7, E/G#, Asus4, A7",
+    "Giọng: D major",
+    "Nốt màu: 7, sus4",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "E7",
+      "E/G#",
+      "Asus4",
+      "A7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Sử dụng hợp âm át phụ E7 (Mi 7 át) hoặc E/G# ở cuối đoạn Phiên khúc để hút mạnh về hợp âm A7/Asus4 trước khi lặp lại A2 hoặc chuyển sang Điệp khúc.",
+    "music_entities": {
+      "chords": [
+        "E7",
+        "E/G#",
+        "Asus4",
+        "A7"
+      ],
+      "tensions": [
+        "7",
+        "sus4"
+      ],
+      "keys": [
+        "D major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "E7",
+      "notes": [
+        "E2",
+        "B2",
+        "G#3",
+        "D4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "E2",
+          "B2",
+          "G#3"
+        ],
+        "right": [
+          "D4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng hợp âm át phụ E7 (Mi 7 át) hoặc E/G# ở cuối đoạn Phiên khúc để hút mạnh về hợp âm A7/Asus4 trước khi lặp lại A2 hoặc chuyển sang Điệp khúc."
+}

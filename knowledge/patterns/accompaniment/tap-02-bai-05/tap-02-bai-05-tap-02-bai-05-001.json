@@ -1,0 +1,126 @@
+{
+  "id": "tap-02-bai-05-tap-02-bai-05-001",
+  "type": "exercise",
+  "name": "Đoạn trình diễn mở đầu minh họa âm sắc nâng cao của các hợp âm 7 và vòng hòa âm ứng dụng trong đệm hát piano.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": "00:00:00-00:00:35 pdf p.8",
+    "media_id": "video_tap_02_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 8,
+        "section": "BÀI 5: CÁCH DÙNG HỢP ÂM 7"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj7, G7, Em7, Dm7, Cmaj7",
+    "Giọng: C Major",
+    "Gam: C Major",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj7",
+      "G7",
+      "Em7",
+      "Dm7",
+      "Cmaj7"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Đoạn trình diễn mở đầu minh họa âm sắc nâng cao của các hợp âm 7 và vòng hòa âm ứng dụng trong đệm hát piano.",
+    "music_entities": {
+      "chords": [
+        "Fmaj7",
+        "G7",
+        "Em7",
+        "Dm7",
+        "Cmaj7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C2",
+        "G2",
+        "E3",
+        "B3",
+        "G3"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "E3",
+          "B3",
+          "G3"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C2",
+          "G2",
+          "E3",
+          "B3",
+          "G3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "E3",
+            "B3",
+            "G3"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Đoạn trình diễn mở đầu minh họa âm sắc nâng cao của các hợp âm 7 và vòng hòa âm ứng dụng trong đệm hát piano."
+}

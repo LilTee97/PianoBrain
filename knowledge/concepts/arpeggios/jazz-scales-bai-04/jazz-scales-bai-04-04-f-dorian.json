@@ -1,0 +1,46 @@
+{
+  "id": "jazz-scales-bai-04-04-f-dorian",
+  "type": "arpeggio",
+  "name": "Cấu trúc Arpeggio hai tay (3 nốt tay trái + 3 nốt tay phải):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-04",
+    "locator": "06:25-07:19",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Eb Sus4",
+    "Ngẫu hứng jazz trên hợp âm Ab Maj7 Sus2/Eb",
+    "Ngẫu hứng jazz trên hợp âm F min9(11)",
+    "Chọn gam / scale khi gặp hợp âm Sus4, majj7Sus2/Eb, m9(11) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "Sus4",
+      "majj7Sus2/Eb",
+      "m9(11)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F min9(11)",
+    "notes": [
+      "Eb3",
+      "Ab3",
+      "Bb3",
+      "Eb4",
+      "F4",
+      "C5"
+    ],
+    "source_text": "Cấu trúc Arpeggio hai tay (3 nốt tay trái + 3 nốt tay phải): Tay trái chơi 1 hợp âm Sus4 (3 nốt), Tay phải chơi 1 hợp âm Maj7sus2/nốt gốc bass (3 nốt) luân phiên chạy dịch quãng octave trên toàn phím."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 4 của nguồn Jazz Scales (YouTube), mốc 06:25-07:19. Cấu trúc Arpeggio hai tay (3 nốt tay trái + 3 nốt tay phải): Tay trái chơi 1 hợp âm Sus4 (3 nốt), Tay phải chơi 1 hợp âm Maj7sus2/nốt gốc bass (3 nốt) luân phiên chạy dịch quãng octave trên toàn phím. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

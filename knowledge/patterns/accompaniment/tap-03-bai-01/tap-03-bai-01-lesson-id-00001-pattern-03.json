@@ -1,0 +1,104 @@
+{
+  "id": "tap-03-bai-01-lesson-id-00001-pattern-03",
+  "type": "accompaniment",
+  "name": "Kỹ thuật Staccato (Bật đầu ngón tay / Ngắt rời): Đầu ngón tay bám sát phím, dùng lực cơ của đầu ngón tay bật mạnh từ dướ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-01",
+    "locator": "00:28:04-00:31:35",
+    "media_id": "video_tap_03_bai_01",
+    "supporting": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Tango, Upbeat Pop, Disco"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "tango",
+      "pop",
+      "upbeat-pop",
+      "disco"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Kỹ thuật Staccato (Bật đầu ngón tay / Ngắt rời): Đầu ngón tay bám sát phím, dùng lực cơ của đầu ngón tay bật mạnh từ dưới lên trên rời khỏi mặt phím. Âm thanh: To, vang, ngắt rời sắc nét. Tác dụng: Luyện ngón tay chắc khỏe cực hạn.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Tango",
+        "Upbeat Pop",
+        "Disco"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": null,
+        "notes": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3"
+          ],
+          "right": [
+            "C4",
+            "D4",
+            "E4",
+            "F4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật Staccato (Bật đầu ngón tay / Ngắt rời): Đầu ngón tay bám sát phím, dùng lực cơ của đầu ngón tay bật mạnh từ dưới lên trên rời khỏi mặt phím. Âm thanh: To, vang, ngắt rời sắc nét. Tác dụng: Luyện ngón tay chắc khỏe cực hạn."
+}

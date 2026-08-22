@@ -1,0 +1,91 @@
+{
+  "id": "tap-03-bai-07-tap-03-bai-07-001",
+  "type": "concept",
+  "name": "Bài 7 trong Giáo trình Tập 3 hướng dẫn tác phẩm Mùa Xuân (Giai điệu quen thuộc Ah! vous dirai-je, Maman / ABC Song / Twi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-07",
+    "locator": "00:00:00-00:01:05 pdf p.4",
+    "media_id": "video_tap_03_bai_07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 4,
+        "section": "Bài 7 - Mùa Xuân"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F, G7",
+    "Giọng: C Major",
+    "Gam: C Major Scale",
+    "Điệu / phong cách: Classic, Children Song"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F",
+      "G7"
+    ],
+    "style": [
+      "classic",
+      "children-song"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Bài 7 trong Giáo trình Tập 3 hướng dẫn tác phẩm Mùa Xuân (Giai điệu quen thuộc Ah! vous dirai-je, Maman / ABC Song / Twinkle Twinkle Little Star của W.A. Mozart) viết ở giọng Đô trưởng (C Major), nhịp 4/4.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Classic",
+        "Children Song"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C4",
+        "G4",
+        "A4",
+        "F4",
+        "E4",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "E3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "C4",
+          "G4",
+          "G4",
+          "A4",
+          "A4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 7 trong Giáo trình Tập 3 hướng dẫn tác phẩm Mùa Xuân (Giai điệu quen thuộc Ah! vous dirai-je, Maman / ABC Song / Twinkle Twinkle Little Star của W.A. Mozart) viết ở giọng Đô trưởng (C Major), nhịp 4/4."
+}

@@ -1,0 +1,27 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-learn-vocabulary-not-scales",
+  "type": "concept",
+  "name": "Học lick chuẩn (vocabulary) thay vì chỉ nhớ hình thế hợp âm và thang âm rời rạc",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:00:40"
+  },
+  "use_when": [
+    "Người mới tập ngẫu hứng jazz",
+    "Chơi thang âm mà câu vẫn khô cứng"
+  ],
+  "output": {
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi mới học ứng tấu jazz, thay vì chỉ nghĩ về hình thế hợp âm rời rạc hay thang âm khô cứng, việc ghi nhớ các chuỗi lick chuẩn trên vòng ii-V-I giúp tạo thói quen dẫn hướng giai điệu tự nhiên.",
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  }
+}

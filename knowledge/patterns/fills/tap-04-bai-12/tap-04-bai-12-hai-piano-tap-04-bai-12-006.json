@@ -1,0 +1,133 @@
+{
+  "id": "tap-04-bai-12-hai-piano-tap-04-bai-12-006",
+  "type": "fill",
+  "name": "Bài 12 - Câu 5: Kỹ thuật kẹp hợp âm 2 tay đầy đặn (dense voicing / block chord fills)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-12",
+    "locator": "08:52:00-10:20:00 pdf p.61",
+    "media_id": "video_tap_04_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 61,
+        "section": "Bài 12 - Câu 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Em/G, Fmaj7, C/E, Dm, Am/C, Bm7b5, E7, Am",
+    "Giọng: A minor",
+    "Gam: A minor",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: Full Piano Arrangement"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Em/G",
+      "Fmaj7",
+      "C/E",
+      "Dm",
+      "Am/C",
+      "Bm7b5",
+      "E7",
+      "Am"
+    ],
+    "style": [
+      "full-piano-arrangement"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Bài 12 - Câu 5: Kỹ thuật kẹp hợp âm 2 tay đầy đặn (dense voicing / block chord fills). Tay phải kẹp các nốt hợp âm bên dưới nốt giai điệu chính, giữ cho nốt giai điệu luôn ở tầm cao nhất để làm nổi bật dòng giai điệu đệm.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Em/G",
+        "Fmaj7",
+        "C/E",
+        "Dm",
+        "Am/C",
+        "Bm7b5",
+        "E7",
+        "Am"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Full Piano Arrangement"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A3",
+        "C4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A3",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 12 - Câu 5: Kỹ thuật kẹp hợp âm 2 tay đầy đặn (dense voicing / block chord fills). Tay phải kẹp các nốt hợp âm bên dưới nốt giai điệu chính, giữ cho nốt giai điệu luôn ở tầm cao nhất để làm nổi bật dòng giai điệu đệm."
+}

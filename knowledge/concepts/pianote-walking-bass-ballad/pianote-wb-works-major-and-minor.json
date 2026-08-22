@@ -1,0 +1,26 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-works-major-and-minor",
+  "type": "concept",
+  "name": "Mẫu 1-2-3-5 chạy được trên cả hợp âm trưởng lẫn hợp âm thứ",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:00:20"
+  },
+  "use_when": [
+    "Vòng có cả hợp âm trưởng và thứ"
+  ],
+  "output": {
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Mẫu nốt 1-2-3-5 áp dụng linh hoạt được trên cả hợp âm trưởng và hợp âm thứ trong ca khúc ballad.",
+  "input": {
+    "style": [
+      "pop_ballad"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "tap-02-bai-14-lesson-14-002",
+  "type": "voicing",
+  "name": "Cấu tạo và thế bấm hợp âm Đô 7.9.11 (C7.9.11 / C11): Tay trái đánh C-G (bậc 1-5), tay phải đánh hợp âm Si giáng trưởng B",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:01:32-00:04:11 pdf p.5",
+    "media_id": "video_tap_02_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 5,
+        "section": "C7.9.11"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C7.9.11, Bb, F, C",
+    "Giọng: C major, F major",
+    "Nốt màu: 9, 11",
+    "Điệu / phong cách: Pop, Jazz, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C7.9.11",
+      "Bb",
+      "F",
+      "C"
+    ],
+    "style": [
+      "pop",
+      "jazz",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Cấu tạo và thế bấm hợp âm Đô 7.9.11 (C7.9.11 / C11): Tay trái đánh C-G (bậc 1-5), tay phải đánh hợp âm Si giáng trưởng Bb (thế bB-D-F đại diện cho b7, 9, 11). Hợp âm này tạo màu sắc căng và rất đẹp khi dùng ở các câu kết câu hoặc kết nửa.",
+    "music_entities": {
+      "chords": [
+        "C7.9.11",
+        "Bb",
+        "F",
+        "C"
+      ],
+      "tensions": [
+        "9",
+        "11"
+      ],
+      "keys": [
+        "C major",
+        "F major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop",
+        "Jazz",
+        "Worship"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C7(9,11)",
+      "notes": [
+        "C2",
+        "G2",
+        "Bb3",
+        "D4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "Bb3",
+          "D4",
+          "F4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C7(9,11)",
+        "notes": [
+          "C2",
+          "G2",
+          "Bb3",
+          "D4",
+          "F4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "Bb3",
+            "D4",
+            "F4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Cấu tạo và thế bấm hợp âm Đô 7.9.11 (C7.9.11 / C11): Tay trái đánh C-G (bậc 1-5), tay phải đánh hợp âm Si giáng trưởng Bb (thế bB-D-F đại diện cho b7, 9, 11). Hợp âm này tạo màu sắc căng và rất đẹp khi dùng ở các câu kết câu hoặc kết nửa."
+}

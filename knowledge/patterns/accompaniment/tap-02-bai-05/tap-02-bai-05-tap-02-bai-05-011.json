@@ -1,0 +1,118 @@
+{
+  "id": "tap-02-bai-05-tap-02-bai-05-011",
+  "type": "exercise",
+  "name": "Ứng dụng hợp âm 7 vào ca khúc Pop nhẹ nhàng 'Vết Mưa' (Vũ Cát Tường), minh họa sự kết hợp linh hoạt giữa hòa âm bậc 3, 5",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": "22:43-24:24 pdf p.8",
+    "media_id": "video_tap_02_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 8,
+        "section": "Bài tập áp dụng"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj7, Em7, Dm7, G7, Cmaj7",
+    "Giọng: C Major",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj7",
+      "Em7",
+      "Dm7",
+      "G7",
+      "Cmaj7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ứng dụng hợp âm 7 vào ca khúc Pop nhẹ nhàng 'Vết Mưa' (Vũ Cát Tường), minh họa sự kết hợp linh hoạt giữa hòa âm bậc 3, 5 và bậc 7 để tạo điểm nhấn cảm xúc.",
+    "music_entities": {
+      "chords": [
+        "Fmaj7",
+        "Em7",
+        "Dm7",
+        "G7",
+        "Cmaj7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Em7",
+      "notes": [
+        "E2",
+        "B2",
+        "G3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "E2",
+          "B2"
+        ],
+        "right": [
+          "G3",
+          "D4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Em7",
+        "notes": [
+          "E2",
+          "B2",
+          "G3",
+          "D4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "E2",
+            "B2"
+          ],
+          "right": [
+            "G3",
+            "D4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng hợp âm 7 vào ca khúc Pop nhẹ nhàng 'Vết Mưa' (Vũ Cát Tường), minh họa sự kết hợp linh hoạt giữa hòa âm bậc 3, 5 và bậc 7 để tạo điểm nhấn cảm xúc."
+}

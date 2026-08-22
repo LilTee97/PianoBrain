@@ -1,0 +1,19 @@
+{
+  "id": "voicing-rh-rootless-a",
+  "type": "voicing",
+  "name": "Tay phải rootless dạng A (3-5-7-9)",
+  "difficulty": 4,
+  "source": null,
+  "use_when": ["Có bass thật giữ nốt gốc", "Comping jazz", "Chorus cần dày"],
+  "avoid_when": ["Chơi một mình không ai giữ bass gốc", "Người học chưa vững hợp âm 7"],
+  "input": { "chord_quality": ["maj7", "m7", "7"], "hand": "RH", "style": ["jazz"] },
+  "output": {
+    "intervals_from_root": [4, 7, 11, 14],
+    "shape_note": "bỏ gốc, xếp 3-5-7-9 trong một quãng tám quanh C4-C5",
+    "example": { "chord": "Cmaj7", "notes": ["E4", "G4", "B4", "D5"] },
+    "fingering_id": null
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Bỏ nốt gốc vì bass đã giữ. Bốn nốt còn lại nằm gọn trong bàn tay và đổi hợp âm chỉ cần xê dịch một hai nốt."
+}

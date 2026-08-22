@@ -1,0 +1,89 @@
+{
+  "id": "tap-02-bai-06-lesson-id-00001",
+  "type": "concept",
+  "name": "Giới thiệu Bài 6 Tập 2: Hướng dẫn chi tiết cách ứng dụng các loại hợp âm 7 (Thứ 7, Trưởng 7, Bảy Át, Thứ 7-5, Bảy Giảm,",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-06",
+    "locator": "00:00:25-00:01:21 pdf p.2",
+    "media_id": "video_tap_02_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 2,
+        "section": "BÀI 6 : CÁCH DÙNG HỢP ÂM 7 - XẾP - LẤP KHOẢNG TRỐNG - TT"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am7, Cmaj7, C7, Bm7-5, Bm07, Am.major7",
+    "Giọng: Am, C",
+    "Điệu / phong cách: Ballad, Nhạc nhẹ, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am7",
+      "Cmaj7",
+      "C7",
+      "Bm7-5",
+      "Bm07",
+      "Am.major7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "nh-c-nh",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu Bài 6 Tập 2: Hướng dẫn chi tiết cách ứng dụng các loại hợp âm 7 (Thứ 7, Trưởng 7, Bảy Át, Thứ 7-5, Bảy Giảm, Thứ Bảy Trưởng) trong đệm hát, tạo câu dẫn, câu lót và lấp khoảng trống âm nhạc.",
+    "music_entities": {
+      "chords": [
+        "Am7",
+        "Cmaj7",
+        "C7",
+        "Bm7-5",
+        "Bm07",
+        "Am.major7"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am",
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad",
+        "Nhạc nhẹ",
+        "Thánh ca"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7",
+      "notes": [
+        "A2",
+        "C3",
+        "E3",
+        "G3"
+      ],
+      "hands": {
+        "left": [
+          "A2"
+        ],
+        "right": [
+          "C3",
+          "E3",
+          "G3"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu Bài 6 Tập 2: Hướng dẫn chi tiết cách ứng dụng các loại hợp âm 7 (Thứ 7, Trưởng 7, Bảy Át, Thứ 7-5, Bảy Giảm, Thứ Bảy Trưởng) trong đệm hát, tạo câu dẫn, câu lót và lấp khoảng trống âm nhạc."
+}

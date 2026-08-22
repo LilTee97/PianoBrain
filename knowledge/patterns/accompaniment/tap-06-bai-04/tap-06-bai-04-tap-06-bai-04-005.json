@@ -1,0 +1,112 @@
+{
+  "id": "tap-06-bai-04-tap-06-bai-04-005",
+  "type": "accompaniment",
+  "name": "Mẫu 3 (Country Fox tiết tấu chấm giật / Syncopation): Tay trái chơi nhịp giật chấm đơn phách 1 và móc đôi phách 2 (La..",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-04",
+    "locator": "00:09:31-00:13:45 pdf p.1",
+    "media_id": "video_tap_06_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_04",
+        "page": 1,
+        "section": "Mẫu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, G, C",
+    "Giọng: A minor",
+    "Điệu / phong cách: Country Fox"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "G",
+      "C"
+    ],
+    "style": [
+      "country-fox"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 3 (Country Fox tiết tấu chấm giật / Syncopation): Tay trái chơi nhịp giật chấm đơn phách 1 và móc đôi phách 2 (La... La Mi | Mi Re... Re La), tay phải giữ nhịp chát giật tạo cảm giác sôi động và đẩy lực bài hát lên cao trào.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "G",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Country Fox"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "A2",
+        "E3"
+      ],
+      "hands": {
+        "left": [
+          "A2 (đơn chấm)",
+          "A2 (móc đôi)",
+          "E3 (móc đơn)"
+        ],
+        "right": [
+          "Chát nẩy phách lệch"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A2",
+          "A2",
+          "E3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2 (đơn chấm)",
+            "A2 (móc đôi)",
+            "E3 (móc đơn)"
+          ],
+          "right": [
+            "Chát nẩy phách lệch"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 3 (Country Fox tiết tấu chấm giật / Syncopation): Tay trái chơi nhịp giật chấm đơn phách 1 và móc đôi phách 2 (La... La Mi | Mi Re... Re La), tay phải giữ nhịp chát giật tạo cảm giác sôi động và đẩy lực bài hát lên cao trào."
+}

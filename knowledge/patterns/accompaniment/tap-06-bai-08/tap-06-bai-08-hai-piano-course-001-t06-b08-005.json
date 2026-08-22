@@ -1,0 +1,123 @@
+{
+  "id": "tap-06-bai-08-hai-piano-course-001-t06-b08-005",
+  "type": "accompaniment",
+  "name": "Mẫu 3 - Fast Swing / Walking Bass: Tay trái chạy tuyến nốt bass liên tục các nốt đen (Walking Bass Line) kết hợp các nốt",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-08",
+    "locator": "10:08-14:13 pdf p.2",
+    "media_id": "video_Tap_06_Bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_Tap_06_Bai_08",
+        "page": 2,
+        "section": "Mau_3_Fast_Swing_Walking_Bass"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bm7b5, E7, Am7",
+    "Giọng: Am",
+    "Gam: A Chromatic, A Minor",
+    "Điệu / phong cách: Fast Swing, Walking Bass"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bm7b5",
+      "E7",
+      "Am7"
+    ],
+    "style": [
+      "jazz",
+      "fast-swing",
+      "walking-bass"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 3 - Fast Swing / Walking Bass: Tay trái chạy tuyến nốt bass liên tục các nốt đen (Walking Bass Line) kết hợp các nốt Chromatic chuyển tiếp. Tay phải đệm gõ đúp hợp âm ngắn gọn ngắt tiếng (staccato/comping).",
+    "music_entities": {
+      "chords": [
+        "Bm7b5",
+        "E7",
+        "Am7"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A Chromatic",
+        "A Minor"
+      ],
+      "styles": [
+        "Fast Swing",
+        "Walking Bass"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7",
+      "notes": [
+        "A1",
+        "B1",
+        "C2",
+        "C#2",
+        "D2"
+      ],
+      "hands": {
+        "left": [
+          "A1",
+          "B1",
+          "C2",
+          "C#2"
+        ],
+        "right": [
+          "C4-E4-G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am7",
+        "notes": [
+          "A1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A1",
+            "B1",
+            "C2",
+            "C#2"
+          ],
+          "right": [
+            "C4-E4-G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 3 - Fast Swing / Walking Bass: Tay trái chạy tuyến nốt bass liên tục các nốt đen (Walking Bass Line) kết hợp các nốt Chromatic chuyển tiếp. Tay phải đệm gõ đúp hợp âm ngắn gọn ngắt tiếng (staccato/comping)."
+}

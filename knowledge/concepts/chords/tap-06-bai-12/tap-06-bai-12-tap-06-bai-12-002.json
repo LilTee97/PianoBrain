@@ -1,0 +1,92 @@
+{
+  "id": "tap-06-bai-12-tap-06-bai-12-002",
+  "type": "concept",
+  "name": "Vòng hòa âm thực hành tiết điệu Tango trên giọng La thứ (A minor): Am (bậc i) - Dm (bậc iv) - Bm7b5 (bậc ii°) - E7 (bậc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-12",
+    "locator": "01:48-02:24 pdf p.1",
+    "media_id": "video_tap_06_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_12",
+        "page": 1,
+        "section": "Vong_Hoa_Am_Thuc_Hanh"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, Bm7b5, E7",
+    "Giọng: A minor",
+    "Gam: A minor scale",
+    "Điệu / phong cách: Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Vòng hòa âm thực hành tiết điệu Tango trên giọng La thứ (A minor): Am (bậc i) - Dm (bậc iv) - Bm7b5 (bậc ii°) - E7 (bậc V7) - Am (bậc i). Chuỗi hòa âm này thể hiện tính chất cổ điển chuẩn mực của Tango giọng thứ.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A minor scale"
+      ],
+      "styles": [
+        "Tango"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am - Dm - Bm7b5 - E7 - Am",
+      "notes": [
+        "A",
+        "C",
+        "E",
+        "D",
+        "F",
+        "A",
+        "B",
+        "F",
+        "A",
+        "G#"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "D3",
+          "B2",
+          "E3"
+        ],
+        "right": [
+          "C4-E4-A4",
+          "D4-F4-A4",
+          "D4-F4-A4",
+          "B3-D4-E4-G#4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm thực hành tiết điệu Tango trên giọng La thứ (A minor): Am (bậc i) - Dm (bậc iv) - Bm7b5 (bậc ii°) - E7 (bậc V7) - Am (bậc i). Chuỗi hòa âm này thể hiện tính chất cổ điển chuẩn mực của Tango giọng thứ."
+}

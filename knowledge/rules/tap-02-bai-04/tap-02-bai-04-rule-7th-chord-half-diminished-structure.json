@@ -1,0 +1,72 @@
+{
+  "id": "tap-02-bai-04-rule-7th-chord-half-diminished-structure",
+  "type": "rule",
+  "name": "Cấu tạo hợp âm Thứ 7 giáng 5 (Half-Diminished / m7b5)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: accompaniment, ballad, gospel, pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment",
+      "pop_ballad",
+      "ballad",
+      "gospel",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "accompaniment",
+        "ballad",
+        "gospel",
+        "pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Hợp âm Thứ 7-5 được cấu tạo bởi 1 Hợp âm 3 giảm cộng thêm 1 Quãng 3 Trưởng. Quãng giữa nốt gốc và nốt ngọn là Quãng 7 thứ. Âm sắc căng nghịch, hay làm hợp âm II-5 trong giọng thứ.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_7th_chord_half_diminished_structure",
+      "category": "harmony",
+      "summary": "Cấu tạo hợp âm Thứ 7 giáng 5 (Half-Diminished / m7b5)",
+      "description": "Hợp âm Thứ 7-5 được cấu tạo bởi 1 Hợp âm 3 giảm cộng thêm 1 Quãng 3 Trưởng. Quãng giữa nốt gốc và nốt ngọn là Quãng 7 thứ. Âm sắc căng nghịch, hay làm hợp âm II-5 trong giọng thứ.",
+      "conditions": {
+        "root_type": "diminished_triad",
+        "added_interval": "major_3rd"
+      },
+      "action": {
+        "resulting_chord": "Half-Diminished 7th (Xm7b5 / Xm7-5)"
+      },
+      "lesson_folder": "Tap_02_Bai_04"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Hợp âm Thứ 7-5 được cấu tạo bởi 1 Hợp âm 3 giảm cộng thêm 1 Quãng 3 Trưởng. Quãng giữa nốt gốc và nốt ngọn là Quãng 7 thứ. Âm sắc căng nghịch, hay làm hợp âm II-5 trong giọng thứ."
+}

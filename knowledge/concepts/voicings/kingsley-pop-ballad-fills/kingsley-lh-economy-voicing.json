@@ -1,0 +1,42 @@
+{
+  "difficulty": 2,
+  "avoid_when": [
+    "Chơi một mình không có tay phải làm gì thì tay trái quá trống"
+  ],
+  "source": {
+    "teacher_id": "kingsley",
+    "source_id": "kingsley-pop-ballad-fills",
+    "locator": "Folders 03, 05/03, 06, 11, 12"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "id": "kingsley-lh-economy-voicing",
+  "type": "voicing",
+  "name": "Tay trái tối giản 1-5 hoặc 1-5-8 để chừa dải giữa cho tay phải",
+  "use_when": [
+    "Tay phải đang chạy nốt nhanh",
+    "Đệm hát cần chỗ cho câu lót"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "F",
+      "G",
+      "Am"
+    ],
+    "hand": "LH"
+  },
+  "output": {
+    "shapes": [
+      "1-5",
+      "1-5-8",
+      "giữ nốt ngân"
+    ],
+    "why": "tránh đục dải trầm và chừa không gian dải trung cho tay phải",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi tay phải chạy nốt nhanh, tay trái rút về thế tối giản: quãng 1-5, hoặc 1-5-8, hoặc chỉ giữ nốt ngân. Mục đích là không làm đục dải trầm và chừa dải trung cho tay phải chơi câu lót."
+}

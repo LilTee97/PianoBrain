@@ -1,0 +1,101 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-001",
+  "type": "concept",
+  "name": "Giới thiệu tổng quan về việc ứng dụng hợp âm 9 (Ninth chords) và giai điệu nằm ở bậc 9 trong hòa âm nâng cao piano đệm h",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:00:00-00:00:41 pdf p.7",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 7,
+        "section": "BÀI 8 : ỨNG DỤNG HỢP ÂM 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, Dm79, Em79, Fmaj79, G79, Am79, Bm7b5",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: 9, maj7",
+    "Điệu / phong cách: Ballad, Pop, Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "Dm79",
+      "Em79",
+      "Fmaj79",
+      "G79",
+      "Am79",
+      "Bm7b5"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu tổng quan về việc ứng dụng hợp âm 9 (Ninth chords) và giai điệu nằm ở bậc 9 trong hòa âm nâng cao piano đệm hát và solo. Nốt giai điệu đặt trên bậc 9 giúp màu sắc hòa âm thêm tinh tế, bay bổng và hiện đại.",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "Dm79",
+        "Em79",
+        "Fmaj79",
+        "G79",
+        "Am79",
+        "Bm7b5"
+      ],
+      "tensions": [
+        "9",
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop",
+        "Solo Piano"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj79",
+      "notes": [
+        "C2",
+        "G2",
+        "B3",
+        "E4",
+        "G4",
+        "D5"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "B3",
+          "E4",
+          "G4",
+          "D5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu tổng quan về việc ứng dụng hợp âm 9 (Ninth chords) và giai điệu nằm ở bậc 9 trong hòa âm nâng cao piano đệm hát và solo. Nốt giai điệu đặt trên bậc 9 giúp màu sắc hòa âm thêm tinh tế, bay bổng và hiện đại."
+}

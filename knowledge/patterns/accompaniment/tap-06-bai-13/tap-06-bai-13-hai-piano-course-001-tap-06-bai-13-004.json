@@ -1,0 +1,120 @@
+{
+  "id": "tap-06-bai-13-hai-piano-course-001-tap-06-bai-13-004",
+  "type": "accompaniment",
+  "name": "Mẫu 3: Mẫu Montuno Cha Cha Cha kết hợp thang âm Blues (A Blues scale: A - C - D - D# - E - G)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-13",
+    "locator": "08:54-12:03 pdf p.13",
+    "media_id": "video_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 13,
+        "section": "Mẫu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, E7",
+    "Giọng: A minor",
+    "Gam: A Blues Scale",
+    "Nốt màu: #11, b5",
+    "Điệu / phong cách: Latin Jazz, Cha Cha Cha"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "E7"
+    ],
+    "style": [
+      "jazz",
+      "latin-jazz",
+      "cha-cha-cha"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 3: Mẫu Montuno Cha Cha Cha kết hợp thang âm Blues (A Blues scale: A - C - D - D# - E - G). Tay phải chạy các nốt riff Blues trên nền giai điệu Cha Cha Cha, tạo hiệu ứng Latin Jazz hiện đại.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "E7"
+      ],
+      "tensions": [
+        "#11",
+        "b5"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A Blues Scale"
+      ],
+      "styles": [
+        "Latin Jazz",
+        "Cha Cha Cha"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A",
+        "C",
+        "D",
+        "D#",
+        "E",
+        "G"
+      ],
+      "hands": {
+        "left": [
+          "Cha Cha Cha syncopated bass/chord support"
+        ],
+        "right": [
+          "Melodic riffing using A Blues scale notes (D# passing tone)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A",
+          "C",
+          "D",
+          "D#",
+          "E",
+          "G"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "Cha Cha Cha syncopated bass/chord support"
+          ],
+          "right": [
+            "Melodic riffing using A Blues scale notes (D# passing tone)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 3: Mẫu Montuno Cha Cha Cha kết hợp thang âm Blues (A Blues scale: A - C - D - D# - E - G). Tay phải chạy các nốt riff Blues trên nền giai điệu Cha Cha Cha, tạo hiệu ứng Latin Jazz hiện đại."
+}

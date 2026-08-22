@@ -1,0 +1,37 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-3-note",
+  "type": "solo_idea",
+  "name": "Enclosure 3 nốt: nốt thang âm trên, nốt nửa cung dưới, rồi nốt đích (đích C: D - B - C)",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:04:45"
+  },
+  "use_when": [
+    "Chỗ trống chỉ đủ ba nốt",
+    "Muốn câu gọn mà vẫn có chất bebop"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Cmaj7",
+      "C"
+    ]
+  },
+  "output": {
+    "target": "C",
+    "notes": [
+      "D",
+      "B",
+      "C"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Đi từ một nốt thang âm bên trên, xuống nốt nửa cung bên dưới, rồi vào nốt đích. Nhắm nốt C thì đi D - B - C."
+}

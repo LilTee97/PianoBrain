@@ -1,0 +1,52 @@
+{
+  "id": "jazz-scales-bai-05-07-c-bebop-dominant",
+  "type": "rule",
+  "name": "Quy tắc Bebop Dominant hoạt động hoàn hảo cả ở tiết tấu gấp đôi (Double-Time / 16th notes - móc ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-05",
+    "locator": "06:03-06:28",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Chọn gam / scale khi gặp hợp âm 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C7",
+    "notes": [
+      "C5",
+      "Bb4",
+      "A4",
+      "G4",
+      "F4",
+      "E4",
+      "D4",
+      "C4",
+      "B3",
+      "Bb3",
+      "A3",
+      "G3",
+      "F3",
+      "E3",
+      "D3",
+      "C3"
+    ],
+    "source_text": "Quy tắc Bebop Dominant hoạt động hoàn hảo cả ở tiết tấu gấp đôi (Double-Time / 16th notes - móc kép). Khi chạy móc kép bắt đầu từ Chord Tone ở đầu phách, các nốt hợp âm tiếp tục rơi vào các vị trí phách chính (nhịp 1, 2, 3, 4 và các nốt 16th thứ nhất/thứ ba)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 5 của nguồn Jazz Scales (YouTube), mốc 06:03-06:28. Quy tắc Bebop Dominant hoạt động hoàn hảo cả ở tiết tấu gấp đôi (Double-Time / 16th notes - móc kép). Khi chạy móc kép bắt đầu từ Chord Tone ở đầu phách, các nốt hợp âm tiếp tục rơi vào các vị trí phách chính (nhịp 1, 2, 3, 4 và các nốt 16th thứ nhất/thứ ba). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

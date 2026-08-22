@@ -1,0 +1,31 @@
+{
+  "id": "jazz-scales",
+  "type": "teacher",
+  "name": "Jazz Scales (YouTube)",
+  "difficulty": 3,
+  "source": null,
+  "use_when": [
+    "Người học hỏi chọn gam / scale hoặc rải arpeggio để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Câu hỏi về đệm hát ballad Việt — đó là phần của thầy Hải Joseph, không phải nguồn này"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "declared_focus": [
+      "chord-scale",
+      "arpeggio",
+      "walking bass jazz",
+      "ngẫu hứng"
+    ],
+    "language": "en+vi",
+    "ingested_sources": 13
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Bốn bài giảng jazz trên YouTube, gom dưới một nguồn vì kho master không tách kênh. Bài 1 Julian Bradley (Jazz Tutorial), bài 2 Jonny May, bài 3 Oliver Prehn (NewJazz), bài 4 Noah Kellman — tên giảng viên ghi ở đây để không ai đọc nhầm thành một người. Nguồn này đứng CẠNH thầy Hải Joseph, không thay: item của nó luôn mang teacher_id 'jazz-scales' và style 'jazz'."
+}

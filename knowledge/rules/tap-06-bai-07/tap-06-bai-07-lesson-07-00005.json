@@ -1,0 +1,58 @@
+{
+  "id": "tap-06-bai-07-lesson-07-00005",
+  "type": "rule",
+  "name": "Quy tắc luyện tập: Mỗi âm hình tiết tấu (Rumba, Bolero, Ballad...) cần được luyện tập thành thạo trên 15 vòng hòa âm cơ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-07",
+    "locator": "09:20-09:35 pdf p.2",
+    "media_id": "vid_tap_06_bai_07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 2,
+        "section": "Quy tac luyen tap"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Rumba, Bolero, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "rumba",
+      "pop_ballad",
+      "bolero",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc luyện tập: Mỗi âm hình tiết tấu (Rumba, Bolero, Ballad...) cần được luyện tập thành thạo trên 15 vòng hòa âm cơ bản và nâng cao để đạt độ vững nhịp và phản xạ tự nhiên khi đệm hát thực tế.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Rumba",
+        "Bolero",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc luyện tập: Mỗi âm hình tiết tấu (Rumba, Bolero, Ballad...) cần được luyện tập thành thạo trên 15 vòng hòa âm cơ bản và nâng cao để đạt độ vững nhịp và phản xạ tự nhiên khi đệm hát thực tế."
+}

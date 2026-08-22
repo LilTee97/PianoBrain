@@ -1,0 +1,110 @@
+{
+  "id": "tap-01-bai-14-lesson-14-00001",
+  "type": "scale",
+  "name": "Quy trình bước 1 & 2: Xác định giọng chính của bài hát (Đô Trưởng - C Major) và khai thác âm giai tương ứng gồm 7 nốt C",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "06:01-07:11 pdf p.8",
+    "media_id": "video_tap_01_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_11_15",
+        "page": 8,
+        "section": "1. Xác định Giọng & 2. Âm Giai"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C",
+    "Giọng: C Major",
+    "Gam: C Major Scale",
+    "Điệu / phong cách: Ballad, Valse"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "valse"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Quy trình bước 1 & 2: Xác định giọng chính của bài hát (Đô Trưởng - C Major) và khai thác âm giai tương ứng gồm 7 nốt C - D - E - F - G - A - B.",
+    "music_entities": {
+      "chords": [
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Ballad",
+        "Valse"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "hands": {
+        "left": [
+          "C2"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4",
+          "A4",
+          "B4"
+        ]
+      }
+    },
+    "scale": {
+      "name": "Quy trình bước 1 & 2",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [],
+      "review": "rà tay từ raw_text: Giọng chính Đô Trưởng, âm giai tương ứng gồm 7 nốt C - D - E - F - G - A - B"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy trình bước 1 & 2: Xác định giọng chính của bài hát (Đô Trưởng - C Major) và khai thác âm giai tương ứng gồm 7 nốt C - D - E - F - G - A - B."
+}

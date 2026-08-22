@@ -1,0 +1,69 @@
+{
+  "id": "tap-03-bai-12-rule-hai-piano-fingering-voicing-lead",
+  "type": "rule",
+  "name": "Khi đánh solo piano hòa âm giai điệu tay phải, sử dụng ngón 3, 4, 5 cho nốt giai điệu cao nhất và ngón 1, 2 rải nhẹ các",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-12",
+    "locator": "00:22:32-00:27:30 pdf p.14",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Chorus, Pop Ballad, Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-chorus",
+      "pop",
+      "pop-ballad",
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Chorus",
+        "Pop Ballad",
+        "Solo Piano"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi đánh solo piano hòa âm giai điệu tay phải, sử dụng ngón 3, 4, 5 cho nốt giai điệu cao nhất và ngón 1, 2 rải nhẹ các nốt hợp âm đệm phía dưới.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_hai_piano_fingering_voicing_lead",
+      "description": "Khi đánh solo piano hòa âm giai điệu tay phải, sử dụng ngón 3, 4, 5 cho nốt giai điệu cao nhất và ngón 1, 2 rải nhẹ các nốt hợp âm đệm phía dưới.",
+      "domain": "fingering_and_voicing",
+      "origin": "extracted_from_lesson",
+      "confidence": "direct",
+      "associated_items": [
+        "tap_03_bai_12_003",
+        "tap_03_bai_12_007"
+      ],
+      "lesson_folder": "Tap_03_Bai_12"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi đánh solo piano hòa âm giai điệu tay phải, sử dụng ngón 3, 4, 5 cho nốt giai điệu cao nhất và ngón 1, 2 rải nhẹ các nốt hợp âm đệm phía dưới."
+}

@@ -1,0 +1,122 @@
+{
+  "id": "tap-06-bai-09-lesson-id-00038",
+  "type": "fill",
+  "name": "Mẫu 1 điệu Waltz: Tay trái đánh nốt Bass ở phách 1, tay phải chèn hợp âm ở phách 2 và 3",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-09",
+    "locator": "00:01:35-00:05:08 pdf p.1",
+    "media_id": "Tap_06_Bai_09_Video",
+    "supporting": [
+      {
+        "source_id": "Tap_06_Bai_09_PDF",
+        "page": 1,
+        "section": "Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am7, F, G7",
+    "Giọng: C major",
+    "Điệu / phong cách: Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am7",
+      "F",
+      "G7"
+    ],
+    "style": [
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1 điệu Waltz: Tay trái đánh nốt Bass ở phách 1, tay phải chèn hợp âm ở phách 2 và 3. Giữa các chuyên hợp âm có thể thêm nốt bass nối (passing bass) như Sol-La, Fa-Sol ở cuối ô nhịp để tạo chuyển động mượt mà.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am7",
+        "F",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Waltz"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "A3",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "A3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "G3",
+          "A3",
+          "E4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3",
+            "A3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1 điệu Waltz: Tay trái đánh nốt Bass ở phách 1, tay phải chèn hợp âm ở phách 2 và 3. Giữa các chuyên hợp âm có thể thêm nốt bass nối (passing bass) như Sol-La, Fa-Sol ở cuối ô nhịp để tạo chuyển động mượt mà."
+}

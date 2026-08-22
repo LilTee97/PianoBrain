@@ -1,0 +1,82 @@
+{
+  "id": "tap-03-bai-09-lesson-id-00006",
+  "type": "concept",
+  "name": "Bổ sung Tension ngón tay trái: Thêm nốt Bậc 9 (Add9 / Maj9) vào arpeggio tay trái (ví dụ Am9: A-E-B-C, Fmaj9: F-C-G-A) l",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-09",
+    "locator": "18:02-19:48 pdf p.8",
+    "media_id": "video_tap_03_bai_09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 8,
+        "section": "Mẫu đệm tay trái nâng cao 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am9, Fmaj9, Dm9",
+    "Giọng: A minor",
+    "Nốt màu: 9, maj9",
+    "Điệu / phong cách: Modern Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am9",
+      "Fmaj9",
+      "Dm9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "modern-pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "tension",
+    "raw_text": "Bổ sung Tension ngón tay trái: Thêm nốt Bậc 9 (Add9 / Maj9) vào arpeggio tay trái (ví dụ Am9: A-E-B-C, Fmaj9: F-C-G-A) làm cho màu sắc hợp âm mềm mại và hiện đại hơn.",
+    "music_entities": {
+      "chords": [
+        "Am9",
+        "Fmaj9",
+        "Dm9"
+      ],
+      "tensions": [
+        "9",
+        "maj9"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Modern Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am9",
+      "notes": [
+        "A1",
+        "E2",
+        "B2",
+        "C3"
+      ],
+      "hands": {
+        "left": [
+          "A1",
+          "E2",
+          "B2",
+          "C3"
+        ],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bổ sung Tension ngón tay trái: Thêm nốt Bậc 9 (Add9 / Maj9) vào arpeggio tay trái (ví dụ Am9: A-E-B-C, Fmaj9: F-C-G-A) làm cho màu sắc hợp âm mềm mại và hiện đại hơn."
+}

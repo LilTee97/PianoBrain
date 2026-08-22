@@ -1,0 +1,50 @@
+{
+  "id": "jazz-scales-bai-04-07-c-major",
+  "type": "rule",
+  "name": "Tránh chỉ chơi hợp âm đứng yên (block chords) khô khốc giữa các khoảng nghỉ của giai điệu khi so",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-04",
+    "locator": "11:09-13:41",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm D min9(11)",
+    "Ngẫu hứng jazz trên hợp âm G13(b9)",
+    "Ngẫu hứng jazz trên hợp âm C Maj7",
+    "Ngẫu hứng jazz trên hợp âm F Maj9(#11)",
+    "Chọn gam / scale khi gặp hợp âm m9(11), 13(b9), majj7, majj9(#11) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m9(11)",
+      "13(b9)",
+      "majj7",
+      "majj9(#11)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "D min9(11)",
+    "notes": [
+      "D2",
+      "A2",
+      "F3",
+      "C4",
+      "E4",
+      "G4",
+      "A4",
+      "C5"
+    ],
+    "source_text": "Tránh chỉ chơi hợp âm đứng yên (block chords) khô khốc giữa các khoảng nghỉ của giai điệu khi solo piano. Hãy dùng Arpeggio Formation Theory để lấp khoảng trống (fill space) nhưng vẫn giữ nhịp nội tại (internal metronome)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 4 của nguồn Jazz Scales (YouTube), mốc 11:09-13:41. Tránh chỉ chơi hợp âm đứng yên (block chords) khô khốc giữa các khoảng nghỉ của giai điệu khi solo piano. Hãy dùng Arpeggio Formation Theory để lấp khoảng trống (fill space) nhưng vẫn giữ nhịp nội tại (internal metronome). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

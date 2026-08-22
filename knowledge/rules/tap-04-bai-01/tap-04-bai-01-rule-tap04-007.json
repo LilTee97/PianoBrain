@@ -1,0 +1,82 @@
+{
+  "id": "tap-04-bai-01-rule-tap04-007",
+  "type": "rule",
+  "name": "Dịch giọng bài tập trên 12 nửa tông để làm chủ ngón tay và tư duy hòa âm.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-01",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: 16-bit, Ballad, Blues, Boston, Contemporary Ballad, Modern Ballad, Pop Ballad, Slow Rock, Smooth Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "16-bit",
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "blues",
+      "boston",
+      "pop",
+      "contemporary-ballad",
+      "modern-ballad",
+      "pop-ballad",
+      "slow-rock",
+      "smooth-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "16-bit",
+        "Ballad",
+        "Blues",
+        "Boston",
+        "Contemporary Ballad",
+        "Modern Ballad",
+        "Pop Ballad",
+        "Slow Rock",
+        "Smooth Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Dịch giọng bài tập trên 12 nửa tông để làm chủ ngón tay và tư duy hòa âm.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Dịch chuyển toàn bộ vòng hợp âm và mẫu câu lót sang các giọng khác (D, Eb, E, F, G, A, Bb...)."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_tap04_007",
+      "name": "Transposition_12_Keys_Practice",
+      "domain": "practice_methodology",
+      "summary": "Dịch giọng bài tập trên 12 nửa tông để làm chủ ngón tay và tư duy hòa âm.",
+      "condition": "Sau khi đã thuộc lòng nét lót trên giọng Đô trưởng (C Major).",
+      "action": "Dịch chuyển toàn bộ vòng hợp âm và mẫu câu lót sang các giọng khác (D, Eb, E, F, G, A, Bb...).",
+      "explanation": "Việc dịch giọng giúp tư duy theo bậc (Roman Numerals) thay vì nốt cố định, nâng cao khả năng ứng tác thực chiến khi đệm hát cho nhiều ca sĩ ở các tông giọng khác nhau.",
+      "lesson_folder": "Tap_04_Bai_01"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Dịch giọng bài tập trên 12 nửa tông để làm chủ ngón tay và tư duy hòa âm."
+}

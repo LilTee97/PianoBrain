@@ -1,0 +1,17 @@
+{
+  "id": "color-l2-sevenths",
+  "type": "chord_color",
+  "name": "Bảng màu 2 — thêm bậc 7",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Muốn mềm hơn triad mà chưa cần jazz", "Ballad chậm"],
+  "avoid_when": ["Rock/mộc cần hợp âm cứng", "Giai điệu đang giữ nốt bậc 7 trưởng ở chỗ V"],
+  "input": { "progression": ["I", "vi", "IV", "V"], "key_context": "major", "style": ["pop_ballad", "pop", "jazz"], "difficulty_max": 3 },
+  "output": {
+    "qualities": { "I": "maj7", "vi": "m7", "IV": "maj7", "V": "7" },
+    "inserts": []
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "I và IV lấy 7 trưởng cho mềm, V lấy 7 át để kéo về I. Đây là bước đầu tiên nghe ra chất ballad."
+}

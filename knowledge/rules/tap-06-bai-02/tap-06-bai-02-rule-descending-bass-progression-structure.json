@@ -1,0 +1,71 @@
+{
+  "id": "tap-06-bai-02-rule-descending-bass-progression-structure",
+  "type": "rule",
+  "name": "Vòng hòa âm nốt bass đi liền bậc gián tiếp (I - V/7 - vi - I/5 - IV - I/3 - ii - V) tạo chuyển động tuyến tính liền mạch",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-02",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Chất hợp âm: Major",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Major"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": "Major",
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Vòng hòa âm nốt bass đi liền bậc gián tiếp (I - V/7 - vi - I/5 - IV - I/3 - ii - V) tạo chuyển động tuyến tính liền mạch ở dải trầm.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Use chord voicings with step-down bass notes: C -> G/B -> Am -> C/G -> F -> C/E -> Dm -> G."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_descending_bass_progression_structure",
+      "description": "Vòng hòa âm nốt bass đi liền bậc gián tiếp (I - V/7 - vi - I/5 - IV - I/3 - ii - V) tạo chuyển động tuyến tính liền mạch ở dải trầm.",
+      "category": "harmony",
+      "conditions": {
+        "key_type": "Major",
+        "progression_type": "Descending Bass"
+      },
+      "action": "Use chord voicings with step-down bass notes: C -> G/B -> Am -> C/G -> F -> C/E -> Dm -> G.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_02"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Vòng hòa âm nốt bass đi liền bậc gián tiếp (I - V/7 - vi - I/5 - IV - I/3 - ii - V) tạo chuyển động tuyến tính liền mạch ở dải trầm."
+}

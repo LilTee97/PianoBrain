@@ -1,0 +1,36 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-think-in-degrees-to-transpose",
+  "type": "concept",
+  "name": "Nhớ câu theo bậc chức năng để dịch được sang cả 12 giọng",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:02:46"
+  },
+  "use_when": [
+    "Muốn chơi cùng một lick ở giọng khác",
+    "Tập dịch giọng"
+  ],
+  "output": {
+    "chain": [
+      "nốt gốc",
+      "nốt hàng xóm dưới",
+      "bậc 3",
+      "bậc 9",
+      "enclosure quanh bậc 3",
+      "đi xuống từ bậc b7",
+      "giải quyết về bậc 5"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Cách tư duy để dịch câu lick qua 12 giọng: phân tích từng nốt theo bậc chức năng — nốt gốc, nốt hàng xóm dưới, bậc 3, bậc 9, enclosure quanh bậc 3, đi xuống từ bậc b7, rồi giải quyết về bậc 5.",
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  }
+}

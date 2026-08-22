@@ -1,0 +1,35 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-two-hand-split",
+  "type": "accompaniment",
+  "name": "Tay trái đi bốn nốt liên tục, tay phải nhấn hợp âm đầu phách hoặc đảo phách nhẹ",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:01:29"
+  },
+  "use_when": [
+    "Đệm cho người hát",
+    "Đã quen mẫu 1-2-3-5 tay trái"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "F",
+      "G",
+      "Am"
+    ]
+  },
+  "output": {
+    "lh": "walking bass 1-2-3-5, bốn nốt đều trong ô nhịp",
+    "rh": "nhấn giữ hợp âm ở đầu phách, hoặc đảo phách nhẹ",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Tay trái giữ nhịp bốn nốt liên tục theo mẫu 1-2-3-5, tay phải nhấn giữ hợp âm ở đầu phách hoặc đệm đảo phách nhẹ để đỡ người hát."
+}

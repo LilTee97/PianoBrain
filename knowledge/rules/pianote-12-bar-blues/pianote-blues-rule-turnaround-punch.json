@@ -1,0 +1,36 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-rule-turnaround-punch",
+  "type": "rule",
+  "name": "Ngón út đáp vào bass G thì tay phải chốt G7 cùng lúc",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:07:04"
+  },
+  "use_when": [
+    "Cuối câu turnaround",
+    "Cần lực đẩy sang vòng 12 bar tiếp theo"
+  ],
+  "input": {
+    "style": [
+      "blues"
+    ],
+    "chord_quality": [
+      "G7"
+    ]
+  },
+  "output": {
+    "if": "tay trái đáp ngón út vào nốt bass G ở cuối turnaround",
+    "then": {
+      "rh_chord": "G7",
+      "articulation": "nhấn đồng thời, chốt nhịp"
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi tay trái đáp ngón út vào nốt bass G ở cuối câu turnaround, tay phải nhấn hợp âm G7 cùng lúc để chốt nhịp và tạo lực đẩy sang vòng 12 bar tiếp theo."
+}

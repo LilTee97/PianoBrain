@@ -1,0 +1,113 @@
+{
+  "id": "tap-01-bai-02-hai-piano-001-bai-02-003",
+  "type": "accompaniment",
+  "name": "Ballad Kiểu 2: Tay trái giữ Bass bậc 1 ở phách 1, phách 2 nhấp nhẹ nốt quãng 5/âm trung bằng móc đơn tạo tiết tấu nhịp n",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-02",
+    "locator": "06:30-07:40 pdf p.6",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 6,
+        "section": "BALLAD KIỂU 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G",
+    "Giọng: C major",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Ballad Kiểu 2: Tay trái giữ Bass bậc 1 ở phách 1, phách 2 nhấp nhẹ nốt quãng 5/âm trung bằng móc đơn tạo tiết tấu nhịp nhàng (pum-pam). Tay phải duy trì nốt đen đệm hòa âm.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C2 (beat 1)",
+          "G2 (beat 1.5/2)"
+        ],
+        "right": [
+          "C4-E4 (beats 1, 2, 3, 4)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "G2",
+          "C4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2 (beat 1)",
+            "G2 (beat 1.5/2)"
+          ],
+          "right": [
+            "C4-E4 (beats 1, 2, 3, 4)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ballad Kiểu 2: Tay trái giữ Bass bậc 1 ở phách 1, phách 2 nhấp nhẹ nốt quãng 5/âm trung bằng móc đơn tạo tiết tấu nhịp nhàng (pum-pam). Tay phải duy trì nốt đen đệm hòa âm."
+}

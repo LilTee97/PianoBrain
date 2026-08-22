@@ -1,0 +1,42 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-rule-rh-on-v",
+  "type": "rule",
+  "name": "Sang bậc V thì tay phải đổi sang D và F",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:05:13"
+  },
+  "use_when": [
+    "Ô nhịp 9 và ô 12 của vòng 12 bar",
+    "Tay trái vừa chuyển sang G"
+  ],
+  "input": {
+    "style": [
+      "blues"
+    ],
+    "chord_quality": [
+      "G7"
+    ]
+  },
+  "output": {
+    "if": "tay trái chuyển sang hợp âm bậc V (G)",
+    "then": {
+      "rh_notes": [
+        "D",
+        "F"
+      ],
+      "degrees": [
+        "5",
+        "b7"
+      ]
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi tay trái chuyển sang hợp âm bậc V là G, tay phải đổi sang bấm hai nốt cao của G7 là D và F."
+}

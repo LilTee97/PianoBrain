@@ -1,0 +1,73 @@
+{
+  "id": "tap-02-bai-02-rule-harmonic-major-b6-derivation",
+  "type": "rule",
+  "name": "Giáng bậc 6 của giọng Trưởng tự nhiên xuống 1/2 cung (Degree 6 -> b6)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-02",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Chất hợp âm: Major",
+    "Điệu / phong cách: Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Major"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": "Major",
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Giáng bậc 6 của giọng Trưởng tự nhiên xuống 1/2 cung (Degree 6 -> b6). Tạo ra các hợp âm diệu màu nâng cao: ii° (minor 7 b5 / dim), iv (minor), bVI+ (augmented).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_harmonic_major_b6_derivation",
+      "title": "Quy tắc biến đổi Trưởng Tự Nhiên thành Trưởng Hòa Thanh",
+      "description": "Giáng bậc 6 của giọng Trưởng tự nhiên xuống 1/2 cung (Degree 6 -> b6). Tạo ra các hợp âm diệu màu nâng cao: ii° (minor 7 b5 / dim), iv (minor), bVI+ (augmented).",
+      "conditions": {
+        "key_type": "Major",
+        "alteration": "b6"
+      },
+      "recommended_chords": [
+        "iv (Minor subdominant - e.g., Fm in C Major)",
+        "ii° (Diminished supertonic - e.g., Dm-5 in C Major)",
+        "bVI+ (Augmented submediant - e.g., Ab+ in C Major)"
+      ],
+      "lesson_folder": "Tap_02_Bai_02"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Giáng bậc 6 của giọng Trưởng tự nhiên xuống 1/2 cung (Degree 6 -> b6). Tạo ra các hợp âm diệu màu nâng cao: ii° (minor 7 b5 / dim), iv (minor), bVI+ (augmented)."
+}

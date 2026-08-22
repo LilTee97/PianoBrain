@@ -1,0 +1,127 @@
+{
+  "id": "tap-03-bai-14-lesson-tap-03-bai-14-006",
+  "type": "accompaniment",
+  "name": "Ở điệp khúc, hòa âm dịch chuyển theo vòng Bass giẫm tiến (F -> G/F -> Em7 -> Am7 -> Dm7 -> G7 -> C)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-14",
+    "locator": "11:38:00-16:50:00 pdf p.17",
+    "media_id": "video_tap_03_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 17,
+        "section": "Đoạn Cao trào / Điệp khúc - Ô nhịp 17-24"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: F, G/F, Em7, Am7, Dm7, G7, C",
+    "Giọng: C Major",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Pop Ballad Chorus"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "F",
+      "G/F",
+      "Em7",
+      "Am7",
+      "Dm7",
+      "G7",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad-chorus"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Ở điệp khúc, hòa âm dịch chuyển theo vòng Bass giẫm tiến (F -> G/F -> Em7 -> Am7 -> Dm7 -> G7 -> C). Tay trái đánh nốt Bass ở phách 1 rồi rải nốt hòa âm đệm, tay phải vừa xướng giai điệu chính vừa đệm thêm hợp âm quãng 3/quáng 6 bổ trợ.",
+    "music_entities": {
+      "chords": [
+        "F",
+        "G/F",
+        "Em7",
+        "Am7",
+        "Dm7",
+        "G7",
+        "C"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad Chorus"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G/F",
+      "notes": [
+        "F",
+        "D",
+        "G",
+        "B"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "D3",
+          "G3"
+        ],
+        "right": [
+          "B4",
+          "D5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "G/F",
+        "notes": [
+          "F",
+          "D",
+          "G",
+          "B"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "D3",
+            "G3"
+          ],
+          "right": [
+            "B4",
+            "D5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ở điệp khúc, hòa âm dịch chuyển theo vòng Bass giẫm tiến (F -> G/F -> Em7 -> Am7 -> Dm7 -> G7 -> C). Tay trái đánh nốt Bass ở phách 1 rồi rải nốt hòa âm đệm, tay phải vừa xướng giai điệu chính vừa đệm thêm hợp âm quãng 3/quáng 6 bổ trợ."
+}

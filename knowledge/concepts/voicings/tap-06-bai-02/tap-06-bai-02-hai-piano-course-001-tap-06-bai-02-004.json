@@ -1,0 +1,132 @@
+{
+  "id": "tap-06-bai-02-hai-piano-course-001-tap-06-bai-02-004",
+  "type": "voicing",
+  "name": "Mẫu 3: Tiết tấu đệm Pop Ballad cao trào dành cho Điệp khúc (Chorus)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-02",
+    "locator": "10:24-15:12 pdf p.1",
+    "media_id": "video_tap_06_bai_02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_02",
+        "page": 1,
+        "section": "Mẫu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, C/G, F, C/E, Dm, G",
+    "Giọng: C major",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "C/G",
+      "F",
+      "C/E",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 3: Tiết tấu đệm Pop Ballad cao trào dành cho Điệp khúc (Chorus). Mật độ nhịp rải dày, tay phải dậm hợp âm nhịp nhàng phối hợp đảo phách linh hoạt với tay trái để đẩy năng lượng bài hát lên mức cao nhất.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "C/G",
+        "F",
+        "C/E",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3"
+        ],
+        "right": [
+          "G4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "G2",
+          "C3",
+          "E4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "C3"
+          ],
+          "right": [
+            "G4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 3: Tiết tấu đệm Pop Ballad cao trào dành cho Điệp khúc (Chorus). Mật độ nhịp rải dày, tay phải dậm hợp âm nhịp nhàng phối hợp đảo phách linh hoạt với tay trái để đẩy năng lượng bài hát lên mức cao nhất."
+}

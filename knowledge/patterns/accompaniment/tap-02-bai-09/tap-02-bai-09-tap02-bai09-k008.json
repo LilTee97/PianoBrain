@@ -1,0 +1,142 @@
+{
+  "id": "tap-02-bai-09-tap02-bai09-k008",
+  "type": "exercise",
+  "name": "Kỹ thuật kết bài bằng dải rải arpeggio/chạy ngón hợp âm 9: Rải nối tiếp nốt bậc 1-3-5-7-9 hoặc 1-5-9-3 trải dài qua các",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-09",
+    "locator": "00:25:16-00:27:06 pdf p.8",
+    "media_id": "video_tap02_bai09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap02_bai06_10",
+        "page": 8,
+        "section": "Cmajor79 -> Outro kết 79 rất đẹp !"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, Cadd9",
+    "Giọng: C major",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: Solo Piano, Ending Technique"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "Cadd9"
+    ],
+    "style": [
+      "solo-piano",
+      "ending-technique"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Kỹ thuật kết bài bằng dải rải arpeggio/chạy ngón hợp âm 9: Rải nối tiếp nốt bậc 1-3-5-7-9 hoặc 1-5-9-3 trải dài qua các quãng tám từ trầm lên cao ở tay phải để kết bài ngưng đọng.",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "Cadd9"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Solo Piano",
+        "Ending Technique"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7(9) Arpeggio Run",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "B3",
+        "D4",
+        "E4",
+        "G4",
+        "B4",
+        "D5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "C3",
+          "E3",
+          "G3",
+          "B3",
+          "D4",
+          "E4",
+          "G4",
+          "B4",
+          "D5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7(9) Arpeggio Run",
+        "notes": [
+          "C3",
+          "E3",
+          "G3",
+          "B3",
+          "D4",
+          "E4",
+          "G4",
+          "B4",
+          "D5",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "C3",
+            "E3",
+            "G3",
+            "B3",
+            "D4",
+            "E4",
+            "G4",
+            "B4",
+            "D5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật kết bài bằng dải rải arpeggio/chạy ngón hợp âm 9: Rải nối tiếp nốt bậc 1-3-5-7-9 hoặc 1-5-9-3 trải dài qua các quãng tám từ trầm lên cao ở tay phải để kết bài ngưng đọng."
+}

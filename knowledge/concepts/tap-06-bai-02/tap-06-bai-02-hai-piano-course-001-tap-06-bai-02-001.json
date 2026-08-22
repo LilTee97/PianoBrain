@@ -1,0 +1,103 @@
+{
+  "id": "tap-06-bai-02-hai-piano-course-001-tap-06-bai-02-001",
+  "type": "concept",
+  "name": "Tiết tấu Pop Ballad là tiết điệu thông dụng trong nhạc nhẹ, pop, và thánh ca",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-02",
+    "locator": "00:38-01:50 pdf p.1",
+    "media_id": "video_tap_06_bai_02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_02",
+        "page": 1,
+        "section": "Bài 2 - Tiết Tấu Pop Ballad"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, C/G, F, C/E, Dm, G",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "C/G",
+      "F",
+      "C/E",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Tiết tấu Pop Ballad là tiết điệu thông dụng trong nhạc nhẹ, pop, và thánh ca. Tốc độ (tempo) phổ biến nằm trong khoảng từ 65 đến 75 BPM. Vòng hòa âm mẫu cho bài học là vòng bass đi liền bậc gián tiếp (C - G/B - Am - C/G - F - C/E - Dm - G), giúp tạo nền vững chắc và êm ái cho giai điệu.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "C/G",
+        "F",
+        "C/E",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - G/B - Am - C/G - F - C/E - Dm - G",
+      "notes": [
+        "C",
+        "B",
+        "A",
+        "G",
+        "F",
+        "E",
+        "D",
+        "G"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "B1",
+          "A1",
+          "G1",
+          "F1",
+          "E1",
+          "D1",
+          "G1"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết tấu Pop Ballad là tiết điệu thông dụng trong nhạc nhẹ, pop, và thánh ca. Tốc độ (tempo) phổ biến nằm trong khoảng từ 65 đến 75 BPM. Vòng hòa âm mẫu cho bài học là vòng bass đi liền bậc gián tiếp (C - G/B - Am - C/G - F - C/E - Dm - G), giúp tạo nền vững chắc và êm ái cho giai điệu."
+}

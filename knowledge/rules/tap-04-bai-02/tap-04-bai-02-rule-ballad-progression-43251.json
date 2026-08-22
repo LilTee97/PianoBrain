@@ -1,0 +1,64 @@
+{
+  "id": "tap-04-bai-02-rule-ballad-progression-43251",
+  "type": "rule",
+  "name": "Vòng hòa âm 4-3-2-5-1 (tương ứng IV - III - II - V - I trong giọng Trưởng hoặc iv - v - iv - V - i trong giọng Thứ) là v",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-02",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Vòng hòa âm 4-3-2-5-1 (tương ứng IV - III - II - V - I trong giọng Trưởng hoặc iv - v - iv - V - i trong giọng Thứ) là vòng tiến trình hợp âm nền tảng cực kỳ phổ biến trong nhạc Pop Ballad, tạo cảm giác chuyển động êm ái, nối tiếp liên tục.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Áp dụng chuỗi hợp âm Dm(7/9) -> Em(7) -> Dm(7) -> G(7)/E7 -> C(maj7/add9)."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_ballad_progression_43251",
+      "name": "Cấu trúc vòng hòa âm 4-3-2-5-1 trong Pop Ballad",
+      "description": "Vòng hòa âm 4-3-2-5-1 (tương ứng IV - III - II - V - I trong giọng Trưởng hoặc iv - v - iv - V - i trong giọng Thứ) là vòng tiến trình hợp âm nền tảng cực kỳ phổ biến trong nhạc Pop Ballad, tạo cảm giác chuyển động êm ái, nối tiếp liên tục.",
+      "condition": "Soạn câu lót, câu dẫn Intro/Outro hoặc đệm hát Ballad ở giọng C Major / A Minor.",
+      "action": "Áp dụng chuỗi hợp âm Dm(7/9) -> Em(7) -> Dm(7) -> G(7)/E7 -> C(maj7/add9).",
+      "confidence": "direct",
+      "lesson_folder": "Tap_04_Bai_02"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Vòng hòa âm 4-3-2-5-1 (tương ứng IV - III - II - V - I trong giọng Trưởng hoặc iv - v - iv - V - i trong giọng Thứ) là vòng tiến trình hợp âm nền tảng cực kỳ phổ biến trong nhạc Pop Ballad, tạo cảm giác chuyển động êm ái, nối tiếp liên tục."
+}

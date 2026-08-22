@@ -1,0 +1,53 @@
+{
+  "id": "tap-03-bai-05-lesson-id-00004",
+  "type": "concept",
+  "name": "Nhịp lấy đà (Anacrusis): Là ô nhịp đầu tiên không đủ số phách quy định của nhịp (ở đây nhịp 6/4 nhưng ô nhịp đầu chỉ có",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-05",
+    "locator": "07:12-08:12 pdf p.2",
+    "media_id": "video_tap_03_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 2,
+        "section": "Nhịp lấy đà"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_05"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Nhịp lấy đà (Anacrusis): Là ô nhịp đầu tiên không đủ số phách quy định của nhịp (ở đây nhịp 6/4 nhưng ô nhịp đầu chỉ có 3 phách). Khi bắt đầu chơi nhịp lấy đà thì không đập phách ở các nốt lấy đà, bắt đầu đập phách chính xác từ ô nhịp thứ hai.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "E5",
+        "D#5"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "E5",
+          "D#5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nhịp lấy đà (Anacrusis): Là ô nhịp đầu tiên không đủ số phách quy định của nhịp (ở đây nhịp 6/4 nhưng ô nhịp đầu chỉ có 3 phách). Khi bắt đầu chơi nhịp lấy đà thì không đập phách ở các nốt lấy đà, bắt đầu đập phách chính xác từ ô nhịp thứ hai."
+}

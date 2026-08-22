@@ -1,0 +1,125 @@
+{
+  "id": "tap-03-bai-12-tap-03-bai-12-003",
+  "type": "voicing",
+  "name": "Phân tích tay phải kết hợp hợp âm Fmaj7 (F-A-C-E) và G/F (F-G-B-D)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-12",
+    "locator": "00:02:40-00:06:12 pdf p.13",
+    "media_id": "video_tap_03_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03_bai_12",
+        "page": 13,
+        "section": "Ô nhịp 1 - 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj7, G/F, Em7",
+    "Giọng: A minor",
+    "Gam: A minor",
+    "Nốt màu: maj7, 7",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj7",
+      "G/F",
+      "Em7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Phân tích tay phải kết hợp hợp âm Fmaj7 (F-A-C-E) và G/F (F-G-B-D). Sắp xếp ngón tay phải ưu tiên ngón 3, 4, 5 cho giai điệu phía trên, ngón 1 và 2 rải đệm các nốt bổ trợ của hợp âm bên dưới.",
+    "music_entities": {
+      "chords": [
+        "Fmaj7",
+        "G/F",
+        "Em7"
+      ],
+      "tensions": [
+        "maj7",
+        "7"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fmaj7",
+      "notes": [
+        "F2",
+        "C3",
+        "E3",
+        "A3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3"
+        ],
+        "right": [
+          "E3",
+          "A3",
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Fmaj7",
+        "notes": [
+          "F2",
+          "C3",
+          "E3",
+          "A3",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "C3"
+          ],
+          "right": [
+            "E3",
+            "A3",
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phân tích tay phải kết hợp hợp âm Fmaj7 (F-A-C-E) và G/F (F-G-B-D). Sắp xếp ngón tay phải ưu tiên ngón 3, 4, 5 cho giai điệu phía trên, ngón 1 và 2 rải đệm các nốt bổ trợ của hợp âm bên dưới."
+}

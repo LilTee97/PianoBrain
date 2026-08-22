@@ -1,0 +1,112 @@
+{
+  "id": "tap-06-bai-12-tap-06-bai-12-005",
+  "type": "accompaniment",
+  "name": "Tango Mẫu 3 (Điệp khúc / Cao trào): Tiết tấu Bass đảo nhịp mạnh mẽ (Bass - lặng - Bass - Bass), kết hợp tay phải chát dồ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-12",
+    "locator": "10:31-14:03 pdf p.2",
+    "media_id": "video_tap_06_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_12",
+        "page": 2,
+        "section": "Mau_3_Tango_Cao_Trao"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, Bm7b5, E7",
+    "Giọng: A minor",
+    "Điệu / phong cách: Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Tango Mẫu 3 (Điệp khúc / Cao trào): Tiết tấu Bass đảo nhịp mạnh mẽ (Bass - lặng - Bass - Bass), kết hợp tay phải chát dồn dập dứt khoát tạo sức đẩy tối đa cho đoạn Điệp khúc (Chorus).",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Tango"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "E3",
+        "A3"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "A3"
+        ],
+        "right": [
+          "C4-E4-A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A2",
+          "E3",
+          "A3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3",
+            "A3"
+          ],
+          "right": [
+            "C4-E4-A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tango Mẫu 3 (Điệp khúc / Cao trào): Tiết tấu Bass đảo nhịp mạnh mẽ (Bass - lặng - Bass - Bass), kết hợp tay phải chát dồn dập dứt khoát tạo sức đẩy tối đa cho đoạn Điệp khúc (Chorus)."
+}

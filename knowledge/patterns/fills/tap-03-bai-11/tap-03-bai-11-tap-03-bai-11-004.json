@@ -1,0 +1,129 @@
+{
+  "id": "tap-03-bai-11-tap-03-bai-11-004",
+  "type": "fill",
+  "name": "Ghép hai tay đoạn Intro: Tay trái đi các hợp âm dải ngón rải móc đơn mượt mà, tay phải chơi giai điệu chính",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-11",
+    "locator": "00:08:18-00:11:06 pdf p.11",
+    "media_id": "video_tap_03_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 11,
+        "section": "Intro Both Hands Combined"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dadd9, A/C#, Am/C, G/B, Bm7, Em7, A7",
+    "Giọng: D major",
+    "Nốt màu: add9, 7",
+    "Điệu / phong cách: Pop Solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dadd9",
+      "A/C#",
+      "Am/C",
+      "G/B",
+      "Bm7",
+      "Em7",
+      "A7"
+    ],
+    "style": [
+      "pop",
+      "pop-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Ghép hai tay đoạn Intro: Tay trái đi các hợp âm dải ngón rải móc đơn mượt mà, tay phải chơi giai điệu chính. Chú ý các phách nghỉ và nốt móc kép để hai tay hòa nhịp chính xác.",
+    "music_entities": {
+      "chords": [
+        "Dadd9",
+        "A/C#",
+        "Am/C",
+        "G/B",
+        "Bm7",
+        "Em7",
+        "A7"
+      ],
+      "tensions": [
+        "add9",
+        "7"
+      ],
+      "keys": [
+        "D major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "A/C#",
+      "notes": [
+        "C#3",
+        "A3",
+        "E4",
+        "F#4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "C#3",
+          "A3",
+          "E4"
+        ],
+        "right": [
+          "F#4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "A/C#",
+        "notes": [
+          "C#3",
+          "A3",
+          "E4",
+          "F#4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C#3",
+            "A3",
+            "E4"
+          ],
+          "right": [
+            "F#4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ghép hai tay đoạn Intro: Tay trái đi các hợp âm dải ngón rải móc đơn mượt mà, tay phải chơi giai điệu chính. Chú ý các phách nghỉ và nốt móc kép để hai tay hòa nhịp chính xác."
+}

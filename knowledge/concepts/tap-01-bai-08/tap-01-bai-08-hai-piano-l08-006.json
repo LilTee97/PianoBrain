@@ -1,0 +1,73 @@
+{
+  "id": "tap-01-bai-08-hai-piano-l08-006",
+  "type": "concept",
+  "name": "3 Cách xây dựng Intro: Cách 1 - Trích lấy trực tiếp 1 câu hoặc 1 đoạn hay nhất trong bài (thường là đoạn Điệp khúc hoặc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-08",
+    "locator": "00:18:24-00:22:48 pdf p.6",
+    "media_id": "video_hai_piano_l08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_06_10",
+        "page": 6,
+        "section": "Cách làm Intro - Cách 1 & Cách 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G",
+    "Giọng: C major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "3 Cách xây dựng Intro: Cách 1 - Trích lấy trực tiếp 1 câu hoặc 1 đoạn hay nhất trong bài (thường là đoạn Điệp khúc hoặc câu kết); Cách 2 - Lấy một đoạn ngắn/mô-típ tiết tấu trong bài rồi phát triển mô tiến (sequence) nâng cao độ lên.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "G4",
+          "E4",
+          "C4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "3 Cách xây dựng Intro: Cách 1 - Trích lấy trực tiếp 1 câu hoặc 1 đoạn hay nhất trong bài (thường là đoạn Điệp khúc hoặc câu kết); Cách 2 - Lấy một đoạn ngắn/mô-típ tiết tấu trong bài rồi phát triển mô tiến (sequence) nâng cao độ lên."
+}

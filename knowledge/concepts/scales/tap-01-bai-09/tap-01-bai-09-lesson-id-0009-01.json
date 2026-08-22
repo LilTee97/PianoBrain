@@ -1,0 +1,98 @@
+{
+  "id": "tap-01-bai-09-lesson-id-0009-01",
+  "type": "scale",
+  "name": "Thang âm ngũ cung giọng Thứ gồm các bậc 1 - 3 - 4 - 5 - 7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-09",
+    "locator": "04:31-08:45 pdf p.15",
+    "media_id": "Tap_01_Bai_09.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_01_Bai_06_10.pdf",
+        "page": 15,
+        "section": "1. THANH ÂM NGŨ CUNG - Giọng Thứ"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: Am, Dm",
+    "Gam: Minor Pentatonic, Thang âm ngũ cung giọng Thứ",
+    "Điệu / phong cách: Folk, Dân ca Bắc Bộ"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "folk",
+      "d-n-ca-b-c-b"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Thang âm ngũ cung giọng Thứ gồm các bậc 1 - 3 - 4 - 5 - 7. Ví dụ trên giọng Am gồm nốt A - C - D - E - G hoặc giọng Dm gồm D - F - G - A - C. Thang âm này không có bậc 2 và bậc 6, tạo âm hưởng dân ca truyền thống/miền Bắc. Khi chơi kỹ thuật đàn tranh/rải, sử dụng thế ngón chạy liên tục 5 nốt ngũ cung này.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "Am",
+        "Dm"
+      ],
+      "scales": [
+        "Minor Pentatonic",
+        "Thang âm ngũ cung giọng Thứ"
+      ],
+      "styles": [
+        "Folk",
+        "Dân ca Bắc Bộ"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "G"
+      ],
+      "hands": {
+        "left": [
+          "A2"
+        ],
+        "right": [
+          "A4",
+          "C5",
+          "D5",
+          "E5",
+          "G5",
+          "A5"
+        ]
+      }
+    },
+    "scale": {
+      "name": "Thang âm ngũ cung giọng Thứ gồm các bậc 1 - 3 - 4 - 5 - 7",
+      "root": "A",
+      "note_names": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "G"
+      ],
+      "semitones_from_root": [
+        0,
+        3,
+        5,
+        7,
+        10
+      ],
+      "for_qualities": [],
+      "review": "rà tay từ raw_text: Thang âm ngũ cung giọng Thứ bậc 1 - 3 - 4 - 5 - 7; ví dụ giọng Am gồm A - C - D - E - G"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thang âm ngũ cung giọng Thứ gồm các bậc 1 - 3 - 4 - 5 - 7. Ví dụ trên giọng Am gồm nốt A - C - D - E - G hoặc giọng Dm gồm D - F - G - A - C. Thang âm này không có bậc 2 và bậc 6, tạo âm hưởng dân ca truyền thống/miền Bắc. Khi chơi kỹ thuật đàn tranh/rải, sử dụng thế ngón chạy liên tục 5 nốt ngũ cung này."
+}

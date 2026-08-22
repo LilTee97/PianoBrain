@@ -1,0 +1,85 @@
+{
+  "id": "tap-06-bai-15-lesson-15-00005",
+  "type": "rule",
+  "name": "Kỹ thuật pha trộn tiết điệu (Rhythm Mixing) & biến tấu vòng hòa âm: Trong một bài hát, có thể chuyển đổi giữa March, Fox",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-15",
+    "locator": "11:00-15:18 pdf p.2",
+    "media_id": "video_lesson_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_15",
+        "page": 2,
+        "section": "Kỹ thuật Pha trộn Tiết điệu & Vòng hòa âm"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G, F, Em",
+    "Giọng: C major",
+    "Điệu / phong cách: March, Fox, Swing, Bossa Nova, Tango, Reggae, 16-beat"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G",
+      "F",
+      "Em"
+    ],
+    "style": [
+      "march",
+      "fox",
+      "jazz",
+      "swing",
+      "bossa-nova",
+      "tango",
+      "reggae",
+      "16-beat"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Kỹ thuật pha trộn tiết điệu (Rhythm Mixing) & biến tấu vòng hòa âm: Trong một bài hát, có thể chuyển đổi giữa March, Fox, Swing, Bossa Nova, Tango, Reggae, 16-beat giữa các phiên khúc A và điệp khúc B để tạo độ tương phản nghệ thuật.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G",
+        "F",
+        "Em"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "March",
+        "Fox",
+        "Swing",
+        "Bossa Nova",
+        "Tango",
+        "Reggae",
+        "16-beat"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Vòng 1-6-2-5-1 kết hợp 1-2-3-4-5-1",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật pha trộn tiết điệu (Rhythm Mixing) & biến tấu vòng hòa âm: Trong một bài hát, có thể chuyển đổi giữa March, Fox, Swing, Bossa Nova, Tango, Reggae, 16-beat giữa các phiên khúc A và điệp khúc B để tạo độ tương phản nghệ thuật."
+}

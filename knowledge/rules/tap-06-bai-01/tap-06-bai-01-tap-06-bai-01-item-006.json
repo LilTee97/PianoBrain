@@ -1,0 +1,47 @@
+{
+  "id": "tap-06-bai-01-tap-06-bai-01-item-006",
+  "type": "rule",
+  "name": "Quy tắc tập luyện: Bắt buộc luyện tập kết hợp với Metronome ở tốc độ 63 - 70 BPM",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-01",
+    "locator": "00:16:35-00:17:03 pdf p.2",
+    "media_id": "video_tap_06_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_01",
+        "page": 2,
+        "section": "Hướng dẫn tập luyện"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_06_Bai_01"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc tập luyện: Bắt buộc luyện tập kết hợp với Metronome ở tốc độ 63 - 70 BPM. Giữ đều nhịp chân, kiểm soát lực ngón tay trái vừa phải để câu Bass không bị quá thô hoặc át tiếng hát.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc tập luyện: Bắt buộc luyện tập kết hợp với Metronome ở tốc độ 63 - 70 BPM. Giữ đều nhịp chân, kiểm soát lực ngón tay trái vừa phải để câu Bass không bị quá thô hoặc át tiếng hát."
+}

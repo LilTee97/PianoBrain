@@ -1,0 +1,96 @@
+{
+  "id": "tap-03-bai-10-tap-03-bai-10-003",
+  "type": "accompaniment",
+  "name": "Hướng dẫn giai điệu tay phải cho Đoạn A: Ngón số 1 đặt ở F4, phát triển giai điệu F4-C5-F4-G4-A4-Bb4-D5-E5-C5",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-10",
+    "locator": "00:02:20-00:04:06 pdf p.9",
+    "media_id": "video_tap_03_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 9,
+        "section": "Melody Line"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: F Major",
+    "Gam: F Major Scale",
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Hướng dẫn giai điệu tay phải cho Đoạn A: Ngón số 1 đặt ở F4, phát triển giai điệu F4-C5-F4-G4-A4-Bb4-D5-E5-C5. Chú ý giữ nốt giai điệu ngân dài và thả lỏng ngón tay.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "F Major"
+      ],
+      "scales": [
+        "F Major Scale"
+      ],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "F",
+      "notes": [
+        "F4",
+        "C5"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "F4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "F",
+        "notes": [
+          "F4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [],
+          "right": [
+            "F4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hướng dẫn giai điệu tay phải cho Đoạn A: Ngón số 1 đặt ở F4, phát triển giai điệu F4-C5-F4-G4-A4-Bb4-D5-E5-C5. Chú ý giữ nốt giai điệu ngân dài và thả lỏng ngón tay."
+}

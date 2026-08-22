@@ -1,0 +1,133 @@
+{
+  "id": "tap-04-bai-13-hai-piano-course-001-tap04-bai13-003",
+  "type": "exercise",
+  "name": "Mẫu câu 2: Phát triển nét giai điệu câu dẫn với nhịp điệu biến tấu móc đơn và móc kép, liên kết liền mạch giữa vòng 1-6-",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-13",
+    "locator": "04:45:00-05:41:00 pdf p.63",
+    "media_id": "video_tap_04_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 63,
+        "section": "Bài 13 - Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G, C, F, Em, Dm, G, C",
+    "Giọng: C major",
+    "Gam: C major diatonic",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G",
+      "C",
+      "F",
+      "Em",
+      "Dm",
+      "G",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu 2: Phát triển nét giai điệu câu dẫn với nhịp điệu biến tấu móc đơn và móc kép, liên kết liền mạch giữa vòng 1-6-2-5-1 và vòng 4-3-2-5-1.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G",
+        "C",
+        "F",
+        "Em",
+        "Dm",
+        "G",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major diatonic"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - Am - Dm - G",
+      "notes": [
+        "G4",
+        "A4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "G4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - Am - Dm - G",
+        "notes": [
+          "G4",
+          "A4",
+          "C5",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "G4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 2: Phát triển nét giai điệu câu dẫn với nhịp điệu biến tấu móc đơn và móc kép, liên kết liền mạch giữa vòng 1-6-2-5-1 và vòng 4-3-2-5-1."
+}

@@ -1,0 +1,132 @@
+{
+  "id": "tap-04-bai-11-hai-piano-tap04-bai11-006",
+  "type": "exercise",
+  "name": "Mẫu câu lót số 4 (Câu 4): Tận dụng nốt bậc 9 (Add9 / Tension 9) tạo màu sắc hiện đại, sang trọng (như D4 trong hợp âm Ca",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-11",
+    "locator": "08:15-09:46 pdf p.55",
+    "media_id": "video_tap04_bai11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04_bai11",
+        "page": 55,
+        "section": "Bài 11 - Câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, G/B, Am7, C/G, Fadd9, C/E, Dm7, G7",
+    "Giọng: C major",
+    "Gam: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "G/B",
+      "Am7",
+      "C/G",
+      "Fadd9",
+      "C/E",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu lót số 4 (Câu 4): Tận dụng nốt bậc 9 (Add9 / Tension 9) tạo màu sắc hiện đại, sang trọng (như D4 trong hợp âm Cadd9) khi lót giai điệu.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "G/B",
+        "Am7",
+        "C/G",
+        "Fadd9",
+        "C/E",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "D4",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "D4",
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cadd9",
+        "notes": [
+          "D4",
+          "E4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3"
+          ],
+          "right": [
+            "D4",
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 4 (Câu 4): Tận dụng nốt bậc 9 (Add9 / Tension 9) tạo màu sắc hiện đại, sang trọng (như D4 trong hợp âm Cadd9) khi lót giai điệu."
+}

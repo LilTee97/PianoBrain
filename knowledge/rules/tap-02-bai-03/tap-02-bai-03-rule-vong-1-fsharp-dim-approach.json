@@ -1,0 +1,71 @@
+{
+  "id": "tap-02-bai-03-rule-vong-1-fsharp-dim-approach",
+  "type": "rule",
+  "name": "Sử dụng hợp âm bậc VI# giảm (F#m7b5 / F#dim) từ thang âm A Melodic Minor làm hợp âm tiếp cận giữa C (hoặc Em) và F Major",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Contemporary, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Contemporary",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng hợp âm bậc VI# giảm (F#m7b5 / F#dim) từ thang âm A Melodic Minor làm hợp âm tiếp cận giữa C (hoặc Em) và F Major. Nốt Bass F# di chuyển nửa cung xuống F.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_vong_1_fsharp_dim_approach": null,
+      "rule_id": "rule_vong_1_fsharp_dim_approach",
+      "name": "Dẫn hợp âm F#m7b5 về F Major trong giọng C Major",
+      "category": "Harmonic Progression",
+      "description": "Sử dụng hợp âm bậc VI# giảm (F#m7b5 / F#dim) từ thang âm A Melodic Minor làm hợp âm tiếp cận giữa C (hoặc Em) và F Major. Nốt Bass F# di chuyển nửa cung xuống F.",
+      "conditions": {
+        "source_chord": "C or Em",
+        "target_chord": "F",
+        "passing_chord": "F#m7b5 (F#dim)"
+      },
+      "examples": [
+        "C (2 phách) -> F#m7b5 (2 phách/1 phách) -> F"
+      ],
+      "lesson_folder": "Tap_02_Bai_03"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng hợp âm bậc VI# giảm (F#m7b5 / F#dim) từ thang âm A Melodic Minor làm hợp âm tiếp cận giữa C (hoặc Em) và F Major. Nốt Bass F# di chuyển nửa cung xuống F."
+}

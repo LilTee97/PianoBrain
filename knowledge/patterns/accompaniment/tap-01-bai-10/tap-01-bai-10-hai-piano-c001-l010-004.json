@@ -1,0 +1,121 @@
+{
+  "id": "tap-01-bai-10-hai-piano-c001-l010-004",
+  "type": "accompaniment",
+  "name": "Tiết tấu Fox Kiểu A trong nhịp 2/4: Mô hình 'Bum - Chát'",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-10",
+    "locator": "16:00:00-21:05:00 pdf p.8",
+    "media_id": "video_l10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap1_bai6_10",
+        "page": 8,
+        "section": "Fox - Kiểu A"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G, Am, F",
+    "Giọng: C major",
+    "Gam: C major",
+    "Điệu / phong cách: Fox, Polka"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G",
+      "Am",
+      "F"
+    ],
+    "style": [
+      "fox",
+      "polka"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Tiết tấu Fox Kiểu A trong nhịp 2/4: Mô hình 'Bum - Chát'. Tay trái đánh nốt Bass ở phách chính (Nonlegato), tay phải dập hợp âm ở phách phụ / đảo phách (Staccato). Tay trái có thể luôn phiên bass bậc 1 và bậc 5 (chẳng hạn C - G).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Fox",
+        "Polka"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "G3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "G3",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3"
+          ],
+          "right": [
+            "G3",
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết tấu Fox Kiểu A trong nhịp 2/4: Mô hình 'Bum - Chát'. Tay trái đánh nốt Bass ở phách chính (Nonlegato), tay phải dập hợp âm ở phách phụ / đảo phách (Staccato). Tay trái có thể luôn phiên bass bậc 1 và bậc 5 (chẳng hạn C - G)."
+}

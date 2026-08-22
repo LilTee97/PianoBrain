@@ -1,0 +1,82 @@
+{
+  "id": "tap-01-bai-07-lesson-id-00004",
+  "type": "concept",
+  "name": "Hợp âm giảm (Diminished Chord) F#dim (hoặc F#m-5) làm hợp âm dẫn từ C về F hoặc đi xuống nửa cung",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-07",
+    "locator": "16:21-20:06 pdf p.4",
+    "media_id": "video_tap01_bai07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 4,
+        "section": "VD1: C -> F (F#dim)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F#dim, F#m-5, F",
+    "Giọng: C major",
+    "Điệu / phong cách: Slow Rock, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F#dim",
+      "F#m-5",
+      "F"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hợp âm giảm (Diminished Chord) F#dim (hoặc F#m-5) làm hợp âm dẫn từ C về F hoặc đi xuống nửa cung. Hợp âm giảm có tính chất kịch tính, căng thẳng và hiệu quả nhất khi hút liền bậc nửa cung lên hoặc xuống.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F#dim",
+        "F#m-5",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Slow Rock",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "F#dim",
+      "notes": [
+        "F#3",
+        "A3",
+        "C4",
+        "Eb4"
+      ],
+      "hands": {
+        "left": [
+          "F#3"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "Eb4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm giảm (Diminished Chord) F#dim (hoặc F#m-5) làm hợp âm dẫn từ C về F hoặc đi xuống nửa cung. Hợp âm giảm có tính chất kịch tính, căng thẳng và hiệu quả nhất khi hút liền bậc nửa cung lên hoặc xuống."
+}

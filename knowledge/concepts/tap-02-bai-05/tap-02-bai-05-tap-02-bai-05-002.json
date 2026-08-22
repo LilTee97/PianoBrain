@@ -1,0 +1,59 @@
+{
+  "id": "tap-02-bai-05-tap-02-bai-05-002",
+  "type": "concept",
+  "name": "Giới thiệu bài 5: Hướng dẫn cách dùng hợp âm 7 để đặt hòa âm cho giai điệu, giúp mở rộng màu sắc âm thanh sang trọng và",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": "00:00:36-01:25 pdf p.8",
+    "media_id": "video_tap_02_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 8,
+        "section": "CÁCH DÙNG HỢP ÂM 7"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C Major",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu bài 5: Hướng dẫn cách dùng hợp âm 7 để đặt hòa âm cho giai điệu, giúp mở rộng màu sắc âm thanh sang trọng và tinh tế hơn so with các hợp âm 3 nốt cơ bản.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu bài 5: Hướng dẫn cách dùng hợp âm 7 để đặt hòa âm cho giai điệu, giúp mở rộng màu sắc âm thanh sang trọng và tinh tế hơn so with các hợp âm 3 nốt cơ bản."
+}

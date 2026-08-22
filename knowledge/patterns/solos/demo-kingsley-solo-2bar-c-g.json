@@ -1,0 +1,103 @@
+{
+  "difficulty": 4,
+  "avoid_when": [
+    "Đừng trích bảng này như sheet của Kingsley — nốt, phách và số ngón là tự soạn"
+  ],
+  "source": null,
+  "origin": "invented",
+  "status": "draft",
+  "id": "demo-kingsley-solo-2bar-c-g",
+  "type": "solo_idea",
+  "name": "Solo 2 ô tự soạn: C sang G, kết bằng câu chạy móc kép về nốt gốc",
+  "use_when": [
+    "Giang tấu hai ô trên C rồi G",
+    "Tập câu chạy móc kép dẫn về chủ âm"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "progression": [
+      "I",
+      "V"
+    ],
+    "key_context": "major",
+    "chord_quality": [
+      "C",
+      "G"
+    ],
+    "hand": "both"
+  },
+  "output": {
+    "stage": "invented_demo",
+    "key": "C",
+    "meter": "4/4",
+    "bars": [
+      {
+        "bar": 1,
+        "chord": "C",
+        "lh": {
+          "1": "C2 nốt đen",
+          "2": "G2 nốt đen",
+          "3-4": "E3 nốt trắng"
+        },
+        "lh_fingers": [
+          5,
+          2,
+          1
+        ],
+        "rh": {
+          "1": "móc đơn chấm dôi E4 rồi móc kép G4",
+          "2": "C5 nốt đen",
+          "3": "móc đơn hoa mỹ D5→E5 rồi móc đơn D5",
+          "4": "móc đơn C5 rồi móc đơn A4"
+        },
+        "rh_fingers": [
+          1,
+          2,
+          4,
+          "4→5",
+          4,
+          3,
+          2
+        ]
+      },
+      {
+        "bar": 2,
+        "chord": "G",
+        "lh": {
+          "1": "G1 nốt trắng",
+          "3": "D2 nốt trắng"
+        },
+        "lh_fingers": [
+          5,
+          1
+        ],
+        "rh": {
+          "1": "B4 nốt đen",
+          "2": "móc đơn A4 rồi móc đơn G4",
+          "3-4": "tám móc kép D4 - E4 - G4 - A4 - B4 - C5 - D5 - G5"
+        },
+        "rh_fingers": [
+          3,
+          2,
+          1,
+          1,
+          2,
+          3,
+          4,
+          1,
+          2,
+          3,
+          5
+        ],
+        "technique": "câu chạy móc kép kết ở G5, nốt gốc của hợp âm G"
+      }
+    ],
+    "inspired_by": [
+      "kingsley-run-4-3-1-5",
+      "kingsley-lh-economy-voicing"
+    ]
+  },
+  "note_vi": "Solo hai ô trên C rồi G, tông Đô trưởng. Câu chạy móc kép ở ô 2 kết vào G5 là nốt gốc của hợp âm G. BẢNG NÀY LÀ TỰ SOẠN. Nốt, quãng tám, phách và số ngón do người viết đặt ra theo đúng công thức của Kingsley, KHÔNG phải bản ký âm trong khóa học. Khóa chỉ dạy công thức bậc, không đưa sheet từng ô nhịp."
+}

@@ -1,0 +1,94 @@
+{
+  "id": "tap-02-bai-13-lesson-id-00001",
+  "type": "concept",
+  "name": "Giới thiệu Bài 13: Cung cấp các vòng hòa âm nâng cao phổ biến ứng dụng kiến thức từ Bài 1 đến Bài 12 để làm Intro, Outro",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-13",
+    "locator": "00:00:24-01:40:00 pdf p.4",
+    "media_id": "Tap_02_Bai_13.mp4",
+    "supporting": [
+      {
+        "source_id": "PDF_Tap_2_Bai_11_15.pdf",
+        "page": 4,
+        "section": "Bài 13: Một số vòng hợp âm"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, Cmaj79",
+    "Giọng: C major",
+    "Gam: C Major, C Harmonic Minor, C Melodic Minor",
+    "Nốt màu: 9, maj7",
+    "Điệu / phong cách: Pop, Ballad, Thánh ca, Bossa Nova"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "Cmaj79"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "th-nh-ca",
+      "jazz",
+      "bossa-nova"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu Bài 13: Cung cấp các vòng hòa âm nâng cao phổ biến ứng dụng kiến thức từ Bài 1 đến Bài 12 để làm Intro, Outro, gián tấu và câu lót dẫn cho bài hát.",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "Cmaj79"
+      ],
+      "tensions": [
+        "9",
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major",
+        "C Harmonic Minor",
+        "C Melodic Minor"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad",
+        "Thánh ca",
+        "Bossa Nova"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C9",
+      "notes": [
+        "C3",
+        "G3",
+        "D4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "D4",
+          "E4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu Bài 13: Cung cấp các vòng hòa âm nâng cao phổ biến ứng dụng kiến thức từ Bài 1 đến Bài 12 để làm Intro, Outro, gián tấu và câu lót dẫn cho bài hát."
+}

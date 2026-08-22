@@ -1,0 +1,133 @@
+{
+  "id": "tap-04-bai-02-lesson-tap04-bai02-005",
+  "type": "exercise",
+  "name": "Mẫu câu 4 (Câu 4): Mở rộng hòa âm với nốt bậc 9 (Tension 9/add9) và hòa âm 9 như Dm9, Em9, E7b9, Cadd9",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-02",
+    "locator": "06:19:00-08:04:00 pdf p.10",
+    "media_id": "video_tap04_bai02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04",
+        "page": 10,
+        "section": "Bài 2 - Câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm9, Em7, E7b9, Cadd9",
+    "Giọng: C major",
+    "Nốt màu: 9th, b9",
+    "Điệu / phong cách: Modern Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm9",
+      "Em7",
+      "E7b9",
+      "Cadd9"
+    ],
+    "style": [
+      "pop_ballad",
+      "modern-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu 4 (Câu 4): Mở rộng hòa âm với nốt bậc 9 (Tension 9/add9) và hòa âm 9 như Dm9, Em9, E7b9, Cadd9. Nốt bậc 9 tạo độ vang sáng, sang trọng cho câu lót và câu Intro.",
+    "music_entities": {
+      "chords": [
+        "Dm9",
+        "Em7",
+        "E7b9",
+        "Cadd9"
+      ],
+      "tensions": [
+        "9th",
+        "b9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Modern Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm9 - Em7 - E7b9 - Cadd9",
+      "notes": [
+        "E5",
+        "F5",
+        "D5",
+        "F5",
+        "D5",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "D3",
+          "E3",
+          "E3",
+          "C3"
+        ],
+        "right": [
+          "E5",
+          "G4",
+          "F5",
+          "D5",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm9 - Em7 - E7b9 - Cadd9",
+        "notes": [
+          "E5",
+          "F5",
+          "D5",
+          "F5",
+          "D5",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D3",
+            "E3",
+            "E3",
+            "C3"
+          ],
+          "right": [
+            "E5",
+            "G4",
+            "F5",
+            "D5",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 4 (Câu 4): Mở rộng hòa âm với nốt bậc 9 (Tension 9/add9) và hòa âm 9 như Dm9, Em9, E7b9, Cadd9. Nốt bậc 9 tạo độ vang sáng, sang trọng cho câu lót và câu Intro."
+}

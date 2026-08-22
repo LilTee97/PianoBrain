@@ -1,0 +1,72 @@
+{
+  "id": "tap-03-bai-13-rule-stepwise-bassline-transition",
+  "type": "rule",
+  "name": "Sử dụng hợp âm đảo bass (Slash Chords) như D/F# hoặc G/B để tạo đường bass đi từng bước liền kề khi di chuyển giữa các h",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "14:44:00-18:42:00 pdf p.16",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Arpeggio, Chorus Peak, Pop Piano Solo, Pop Solo Piano, Voice Leading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-arpeggio",
+      "chorus-peak",
+      "pop",
+      "pop-piano-solo",
+      "pop-solo-piano",
+      "voice-leading"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Arpeggio",
+        "Chorus Peak",
+        "Pop Piano Solo",
+        "Pop Solo Piano",
+        "Voice Leading"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng hợp âm đảo bass (Slash Chords) như D/F# hoặc G/B để tạo đường bass đi từng bước liền kề khi di chuyển giữa các hợp âm chính.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Insert step bass chord D/F# or G/B."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_stepwise_bassline_transition",
+      "description": "Sử dụng hợp âm đảo bass (Slash Chords) như D/F# hoặc G/B để tạo đường bass đi từng bước liền kề khi di chuyển giữa các hợp âm chính.",
+      "domain": "voice_leading",
+      "condition": "Chord progression moves between I and VI (G to Em) or I and IV (G to C)",
+      "action": "Insert step bass chord D/F# or G/B.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_13"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng hợp âm đảo bass (Slash Chords) như D/F# hoặc G/B để tạo đường bass đi từng bước liền kề khi di chuyển giữa các hợp âm chính."
+}

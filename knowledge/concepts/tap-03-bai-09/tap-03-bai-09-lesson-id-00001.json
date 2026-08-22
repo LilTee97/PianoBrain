@@ -1,0 +1,81 @@
+{
+  "id": "tap-03-bai-09-lesson-id-00001",
+  "type": "concept",
+  "name": "Bài hát 'Forever' thường được chơi ở giọng Đô đô thứ (C#m), nhưng trong giáo trình được dịch chuyển (transpose) sang giọ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-09",
+    "locator": "00:22-00:40 pdf p.8",
+    "media_id": "video_tap_03_bai_09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 8,
+        "section": "Bài 9 Forever"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, C#m",
+    "Giọng: A minor, C# minor",
+    "Gam: A minor natural",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "C#m"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Bài hát 'Forever' thường được chơi ở giọng Đô đô thứ (C#m), nhưng trong giáo trình được dịch chuyển (transpose) sang giọng La thứ (Am) để giúp người mới bắt đầu dễ luyện tập hơn.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "C#m"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor",
+        "C# minor"
+      ],
+      "scales": [
+        "A minor natural"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "hands": {
+        "left": [
+          "A2"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "A4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài hát 'Forever' thường được chơi ở giọng Đô đô thứ (C#m), nhưng trong giáo trình được dịch chuyển (transpose) sang giọng La thứ (Am) để giúp người mới bắt đầu dễ luyện tập hơn."
+}

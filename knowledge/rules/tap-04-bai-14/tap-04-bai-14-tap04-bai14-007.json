@@ -1,0 +1,55 @@
+{
+  "id": "tap-04-bai-14-tap04-bai14-007",
+  "type": "rule",
+  "name": "Phương pháp ghép cấu trúc bài đệm: Sử dụng 5 mẫu câu lót/cấu trúc dẫn từ cơ bản đến nâng cao để phân phân bổ cho Intro,",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-14",
+    "locator": "00:10:10-00:11:10 pdf p.67",
+    "media_id": "video_tap04_bai14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04_75_mau_cau_lot",
+        "page": 67,
+        "section": "Bài 14 tổng quan"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Phương pháp ghép cấu trúc bài đệm: Sử dụng 5 mẫu câu lót/cấu trúc dẫn từ cơ bản đến nâng cao để phân phân bổ cho Intro, Phiên khúc (Verse), Điệp khúc (Chorus), Dạo giữa (Interlude) và Outro cho một ca khúc trọn vẹn.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phương pháp ghép cấu trúc bài đệm: Sử dụng 5 mẫu câu lót/cấu trúc dẫn từ cơ bản đến nâng cao để phân phân bổ cho Intro, Phiên khúc (Verse), Điệp khúc (Chorus), Dạo giữa (Interlude) và Outro cho một ca khúc trọn vẹn."
+}

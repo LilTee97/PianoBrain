@@ -1,0 +1,90 @@
+{
+  "id": "tap-02-bai-04-hai-piano-tap-02-bai-04-006",
+  "type": "concept",
+  "name": "Hợp âm Bảy Giảm (Diminished 7th - Ký hiệu Cm0-7, C°7): Cấu tạo bởi 1 Hợp âm 3 giảm + Quãng 3 thứ (H.A.3- + Q3t)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": "22:42:00-25:21:00 pdf p.6",
+    "media_id": "video_tap_02_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_book",
+        "page": 6,
+        "section": "5 Thứ 7-"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cm0-7, Am0-7, Bm0-7",
+    "Giọng: C, Am",
+    "Gam: Diminished",
+    "Nốt màu: b5, bb7",
+    "Điệu / phong cách: cinematic, dramatic, classic"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cm0-7",
+      "Am0-7",
+      "Bm0-7"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "classic"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hợp âm Bảy Giảm (Diminished 7th - Ký hiệu Cm0-7, C°7): Cấu tạo bởi 1 Hợp âm 3 giảm + Quãng 3 thứ (H.A.3- + Q3t). Hai âm ngoài cùng tạo thành Quãng 7 giảm (Q7-). Nốt bậc 7 giảm kép tương đương với nốt A. Màu sắc nghịch mạnh, kịch tính, ma mị, hay dùng tạo kịch tính hoặc nối cầu giữa các hợp âm.",
+    "music_entities": {
+      "chords": [
+        "Cm0-7",
+        "Am0-7",
+        "Bm0-7"
+      ],
+      "tensions": [
+        "b5",
+        "bb7"
+      ],
+      "keys": [
+        "C",
+        "Am"
+      ],
+      "scales": [
+        "Diminished"
+      ],
+      "styles": [
+        "cinematic",
+        "dramatic",
+        "classic"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cm0-7",
+      "notes": [
+        "C4",
+        "Eb4",
+        "Gb4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "Gb3"
+        ],
+        "right": [
+          "Eb4",
+          "Gb4",
+          "A4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Bảy Giảm (Diminished 7th - Ký hiệu Cm0-7, C°7): Cấu tạo bởi 1 Hợp âm 3 giảm + Quãng 3 thứ (H.A.3- + Q3t). Hai âm ngoài cùng tạo thành Quãng 7 giảm (Q7-). Nốt bậc 7 giảm kép tương đương với nốt A. Màu sắc nghịch mạnh, kịch tính, ma mị, hay dùng tạo kịch tính hoặc nối cầu giữa các hợp âm."
+}

@@ -1,0 +1,44 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "source": {
+    "teacher_id": "kingsley",
+    "source_id": "kingsley-pop-ballad-fills",
+    "locator": "Folders 03, 05/03, 06, 11, 12"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "id": "kingsley-reversed-add2-outro",
+  "type": "outro",
+  "name": "Rải ngược add2 kết bài (reversed add2 outro): G - E - D - C trên hợp âm C",
+  "use_when": [
+    "Kết bài ballad",
+    "Cần câu buông nhẹ dần",
+    "Câu outro kết bài, rải ngược (reversed) theo bậc 5-3-2-1"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "Cmaj7"
+    ]
+  },
+  "output": {
+    "degrees": [
+      5,
+      3,
+      2,
+      1
+    ],
+    "notes_on_c": [
+      "G",
+      "E",
+      "D",
+      "C"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Rải ngược theo bậc 5-3-2-1, trên C là G - E - D - C. Nốt bậc 2 giữ lại làm màu add2 trước khi về nốt gốc. Dùng để kết bài."
+}

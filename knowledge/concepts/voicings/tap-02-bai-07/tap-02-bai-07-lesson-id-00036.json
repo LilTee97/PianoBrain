@@ -1,0 +1,125 @@
+{
+  "id": "tap-02-bai-07-lesson-id-00036",
+  "type": "voicing",
+  "name": "Hợp âm Thứ Trưởng 79 (Cm.Major7.9 / CmΔ79) cấu tạo gồm hợp âm Thứ Bảy Trưởng (Cm.Major7: C-bE-G-B) cộng thêm nốt bậc 9 (",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-07",
+    "locator": "00:13:30-00:15:15 pdf p.6",
+    "media_id": "hai_piano_t2_b07_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_t2_pdf3",
+        "page": 6,
+        "section": "Hợp âm Đô Thứ Trưởng 79 - Cm.Major7.9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cm.Major7.9, Am.Major7.9",
+    "Giọng: C minor",
+    "Gam: Melodic Minor, Harmonic Minor",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Jazz, Cinematic, Advanced Accompaniment"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cm.Major7.9",
+      "Am.Major7.9"
+    ],
+    "style": [
+      "jazz",
+      "cinematic",
+      "advanced-accompaniment"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Hợp âm Thứ Trưởng 79 (Cm.Major7.9 / CmΔ79) cấu tạo gồm hợp âm Thứ Bảy Trưởng (Cm.Major7: C-bE-G-B) cộng thêm nốt bậc 9 (D), tạo chuỗi nốt: C - bE - G - B - D. Cho cảm giác bí ẩn, cổ điển, huyền ảo, thường dùng trong các đoạn chuyển tiếp lót câu phức tạp.",
+    "music_entities": {
+      "chords": [
+        "Cm.Major7.9",
+        "Am.Major7.9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C minor"
+      ],
+      "scales": [
+        "Melodic Minor",
+        "Harmonic Minor"
+      ],
+      "styles": [
+        "Jazz",
+        "Cinematic",
+        "Advanced Accompaniment"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cm.Major7.9",
+      "notes": [
+        "C3",
+        "G3",
+        "B3",
+        "D4",
+        "Eb4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "B3",
+          "D4",
+          "Eb4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cm.Major7.9",
+        "notes": [
+          "C3",
+          "G3",
+          "B3",
+          "D4",
+          "Eb4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "B3",
+            "D4",
+            "Eb4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Thứ Trưởng 79 (Cm.Major7.9 / CmΔ79) cấu tạo gồm hợp âm Thứ Bảy Trưởng (Cm.Major7: C-bE-G-B) cộng thêm nốt bậc 9 (D), tạo chuỗi nốt: C - bE - G - B - D. Cho cảm giác bí ẩn, cổ điển, huyền ảo, thường dùng trong các đoạn chuyển tiếp lót câu phức tạp."
+}

@@ -1,0 +1,101 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-002",
+  "type": "scale",
+  "name": "Giọng Sol trưởng (G Major) có 1 dấu thăng ở nốt Pha (F#)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "01:14:00-01:42:00 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "Key Signature & Scale"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: G Major",
+    "Gam: G Major Scale",
+    "Điệu / phong cách: Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Giọng Sol trưởng (G Major) có 1 dấu thăng ở nốt Pha (F#). Âm hình thang âm Sol trưởng gồm các nốt: Sol (G), La (A), Si (B), Đô (C), Rê (D), Mi (E), Pha thăng (F#), Sol (G).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "G Major"
+      ],
+      "scales": [
+        "G Major Scale"
+      ],
+      "styles": [
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G Major Scale",
+      "notes": [
+        "G3",
+        "A3",
+        "B3",
+        "C4",
+        "D4",
+        "E4",
+        "F#4",
+        "G4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "G3",
+          "A3",
+          "B3",
+          "C4",
+          "D4",
+          "E4",
+          "F#4",
+          "G4"
+        ]
+      }
+    },
+    "scale": {
+      "name": "Giọng Sol trưởng",
+      "root": "G",
+      "note_names": [
+        "G",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F#"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [],
+      "review": "rà tay từ raw_text: Âm hình thang âm Sol trưởng gồm: Sol, La, Si, Đô, Rê, Mi, Pha thăng"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giọng Sol trưởng (G Major) có 1 dấu thăng ở nốt Pha (F#). Âm hình thang âm Sol trưởng gồm các nốt: Sol (G), La (A), Si (B), Đô (C), Rê (D), Mi (E), Pha thăng (F#), Sol (G)."
+}

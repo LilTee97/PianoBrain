@@ -1,0 +1,20 @@
+{
+  "id": "acc-ballad-broken-8th",
+  "type": "accompaniment",
+  "name": "Đệm ballad rải móc đơn",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Ballad 4/4 chậm và vừa", "Đệm cho một giọng hát"],
+  "avoid_when": ["Nhịp trên 100 — rải sẽ rối", "Bài cần đệm khối chắc nhịp"],
+  "input": { "style": ["pop_ballad"], "section": ["verse", "pre", "chorus"], "hand": "both" },
+  "output": {
+    "meter": "4/4",
+    "lh": "nốt gốc phách 1, quãng 5 phách 3",
+    "rh": "rải 1-3-5-3 theo móc đơn",
+    "voicing_id": "voicing-lh-shell",
+    "density_source": "style-pop-ballad"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Khuôn đệm nền. Mật độ cụ thể từng đoạn không nằm ở đây mà lấy từ item điệu style-pop-ballad."
+}

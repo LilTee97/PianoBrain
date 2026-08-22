@@ -1,0 +1,85 @@
+{
+  "id": "tap-01-bai-11-lesson-id-0011-08",
+  "type": "concept",
+  "name": "Hợp âm Tăng (Augmented triad / aug / + / +5): Cấu tạo gồm 2 quãng 3 trưởng chồng lên nhau (Q3T + Q3T = Quãng 5 tăng / 3",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-11",
+    "locator": "00:23:30-00:24:08 pdf p.3",
+    "media_id": "video_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_11_15",
+        "page": 3,
+        "section": "4. TĂNG"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C+, E+, G+",
+    "Giọng: C, Am",
+    "Nốt màu: #5",
+    "Điệu / phong cách: pop, jazz, ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C+",
+      "E+",
+      "G+"
+    ],
+    "style": [
+      "pop",
+      "jazz",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hợp âm Tăng (Augmented triad / aug / + / +5): Cấu tạo gồm 2 quãng 3 trưởng chồng lên nhau (Q3T + Q3T = Quãng 5 tăng / 3 cung). Ví dụ C+: C - E - G#. Màu sắc âm nhạc: Căng thẳng, gắt, ức chế, đòi hỏi giải kết mạnh mẽ.",
+    "music_entities": {
+      "chords": [
+        "C+",
+        "E+",
+        "G+"
+      ],
+      "tensions": [
+        "#5"
+      ],
+      "keys": [
+        "C",
+        "Am"
+      ],
+      "scales": [],
+      "styles": [
+        "pop",
+        "jazz",
+        "ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C+",
+      "notes": [
+        "C4",
+        "E4",
+        "G#4"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G#4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Tăng (Augmented triad / aug / + / +5): Cấu tạo gồm 2 quãng 3 trưởng chồng lên nhau (Q3T + Q3T = Quãng 5 tăng / 3 cung). Ví dụ C+: C - E - G#. Màu sắc âm nhạc: Căng thẳng, gắt, ức chế, đòi hỏi giải kết mạnh mẽ."
+}

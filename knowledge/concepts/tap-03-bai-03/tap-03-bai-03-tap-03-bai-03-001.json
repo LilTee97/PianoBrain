@@ -1,0 +1,88 @@
+{
+  "id": "tap-03-bai-03-tap-03-bai-03-001",
+  "type": "concept",
+  "name": "Giới thiệu bài học 3 Tập 3: Mở rộng luyện tập thang âm (gam) và arpeggio từ 1-2 quãng 8 lên 4 quãng 8 trên toàn phím đàn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-03",
+    "locator": "00:00:00-00:02:56 pdf p.1",
+    "media_id": "video_tap_03_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 1,
+        "section": "Kỹ thuật ngón Piano cơ bản và Solo Tập 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: Solo Piano, Technical Exercise"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "solo-piano",
+      "technical-exercise"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu bài học 3 Tập 3: Mở rộng luyện tập thang âm (gam) và arpeggio từ 1-2 quãng 8 lên 4 quãng 8 trên toàn phím đàn. Rèn luyện kỹ thuật luồn ngón cái (thumb-under) và vắt ngón (finger-over) kết hợp các hình tiết tấu phức hợp để chuẩn bị cho việc đọc bản nhạc solo.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Solo Piano",
+        "Technical Exercise"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "D3",
+          "E3",
+          "F3",
+          "G3",
+          "A3",
+          "B3",
+          "C4"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4",
+          "A4",
+          "B4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu bài học 3 Tập 3: Mở rộng luyện tập thang âm (gam) và arpeggio từ 1-2 quãng 8 lên 4 quãng 8 trên toàn phím đàn. Rèn luyện kỹ thuật luồn ngón cái (thumb-under) và vắt ngón (finger-over) kết hợp các hình tiết tấu phức hợp để chuẩn bị cho việc đọc bản nhạc solo."
+}

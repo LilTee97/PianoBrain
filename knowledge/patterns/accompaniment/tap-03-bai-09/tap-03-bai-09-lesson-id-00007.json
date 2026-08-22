@@ -1,0 +1,81 @@
+{
+  "id": "tap-03-bai-09-lesson-id-00007",
+  "type": "exercise",
+  "name": "Kỹ thuật kẹp hợp âm giai điệu tay phải: Dùng ngón út (ngón 5) giữ nốt giai điệu chính ở quãng cao, các ngón 1, 2, 3 kẹp",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-09",
+    "locator": "20:09-20:30 pdf p.8",
+    "media_id": "video_tap_03_bai_09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 8,
+        "section": "Kỹ thuật kẹp hợp âm tay phải"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, F, G, C",
+    "Giọng: A minor",
+    "Điệu / phong cách: Advanced Piano Solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "F",
+      "G",
+      "C"
+    ],
+    "style": [
+      "advanced-piano-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Kỹ thuật kẹp hợp âm giai điệu tay phải: Dùng ngón út (ngón 5) giữ nốt giai điệu chính ở quãng cao, các ngón 1, 2, 3 kẹp thêm nốt hòa âm bên dưới để làm dày tiếng đàn solo.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "F",
+        "G",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Advanced Piano Solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A3",
+        "C4",
+        "E4",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "A3 (Finger 1)",
+          "C4 (Finger 2)",
+          "E4 (Finger 3)",
+          "E5 (Finger 5 - Melody)"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật kẹp hợp âm giai điệu tay phải: Dùng ngón út (ngón 5) giữ nốt giai điệu chính ở quãng cao, các ngón 1, 2, 3 kẹp thêm nốt hòa âm bên dưới để làm dày tiếng đàn solo."
+}

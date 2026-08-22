@@ -1,0 +1,35 @@
+{
+  "name": "pianobrain",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent piano music knowledge engine. Apps consume it; no app owns this logic.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --test src/tests/*.test.ts",
+    "demo": "tsx src/demo.ts",
+    "mrhai": "tsx src/mrhai/demo.ts",
+    "import": "tsx src/migrate/importMaster.ts",
+    "chat": "tsx src/mrhai/chatCli.ts",
+    "ask": "tsx src/mrhai/chatCli.ts",
+    "import:jazz": "tsx src/migrate/importJazzScales.ts",
+    "review:hai-scales": "tsx src/migrate/reviewHaiScales.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "yaml": "^2.9.0"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "jazz-scales-bai-01-01-c-lydian",
+  "type": "concept",
+  "name": "The Chordal Tones + Whole-Step Technique:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-01",
+    "locator": "00:08-01:17",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cmaj7",
+    "Chọn gam / scale khi gặp hợp âm maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Lydian",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "E",
+        "F#",
+        "G",
+        "A",
+        "B"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "maj7"
+      ],
+      "use_when": [
+        "hợp âm Cmaj7"
+      ]
+    },
+    "chord_symbol": "Cmaj7",
+    "notes": [
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B"
+    ],
+    "source_text": "The Chordal Tones + Whole-Step Technique: Start with the chordal tones (Root, 3rd, 5th, 7th) and add a whole step above the Root, 3rd, and 5th to construct the target scale."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 1 của nguồn Jazz Scales (YouTube), mốc 00:08-01:17. The Chordal Tones + Whole-Step Technique: Start with the chordal tones (Root, 3rd, 5th, 7th) and add a whole step above the Root, 3rd, and 5th to construct the target scale. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

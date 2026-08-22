@@ -1,0 +1,67 @@
+{
+  "id": "tap-06-bai-09-rule-waltz-passing-bass-connection",
+  "type": "rule",
+  "name": "Kỹ thuật liên kết nốt Bass nối (Passing Bass) trong điệu Waltz giữa các chuyển đoạn hợp âm.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-09",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Boston, Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "boston",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Boston",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Kỹ thuật liên kết nốt Bass nối (Passing Bass) trong điệu Waltz giữa các chuyển đoạn hợp âm.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_waltz_passing_bass_connection",
+      "description": "Kỹ thuật liên kết nốt Bass nối (Passing Bass) trong điệu Waltz giữa các chuyển đoạn hợp âm.",
+      "type": "arranging_rule",
+      "applicable_styles": [
+        "Waltz"
+      ],
+      "conditions": {
+        "measure_transition": "Phách 3 của ô nhịp trước chuyển sang phách 1 ô nhịp sau"
+      },
+      "recommendation": "Sử dụng các bước chuyển nốt liền bậc (ví dụ: Sol - La khi sang Am, Fa - Sol khi sang G) ở cuối ô nhịp để câu đệm tay trái liền mạch.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_09"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Kỹ thuật liên kết nốt Bass nối (Passing Bass) trong điệu Waltz giữa các chuyển đoạn hợp âm."
+}

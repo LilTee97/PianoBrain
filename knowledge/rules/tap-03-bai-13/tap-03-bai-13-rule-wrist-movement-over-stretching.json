@@ -1,0 +1,72 @@
+{
+  "id": "tap-03-bai-13-rule-wrist-movement-over-stretching",
+  "type": "rule",
+  "name": "Khi rải các quãng rộng (> octave) ở tay trái, di chuyển cổ tay thả lỏng thay vì cố xoè căng các ngón tay để tránh chấn t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "14:44:00-18:42:00 pdf p.16",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Ballad Arpeggio, Chorus Peak, Pop Piano Solo, Pop Solo Piano, Voice Leading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "ballad-arpeggio",
+      "chorus-peak",
+      "pop",
+      "pop-piano-solo",
+      "pop-solo-piano",
+      "voice-leading"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Ballad Arpeggio",
+        "Chorus Peak",
+        "Pop Piano Solo",
+        "Pop Solo Piano",
+        "Voice Leading"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi rải các quãng rộng (> octave) ở tay trái, di chuyển cổ tay thả lỏng thay vì cố xoè căng các ngón tay để tránh chấn thương cơ.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Use wrist lateral movement and relaxed thumb turn."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_wrist_movement_over_stretching",
+      "description": "Khi rải các quãng rộng (> octave) ở tay trái, di chuyển cổ tay thả lỏng thay vì cố xoè căng các ngón tay để tránh chấn thương cơ.",
+      "domain": "piano_technique",
+      "condition": "Arpeggio span > 8th",
+      "action": "Use wrist lateral movement and relaxed thumb turn.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_13"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi rải các quãng rộng (> octave) ở tay trái, di chuyển cổ tay thả lỏng thay vì cố xoè căng các ngón tay để tránh chấn thương cơ."
+}

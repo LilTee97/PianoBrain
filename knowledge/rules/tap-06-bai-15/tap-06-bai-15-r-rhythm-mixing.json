@@ -1,0 +1,80 @@
+{
+  "id": "tap-06-bai-15-r-rhythm-mixing",
+  "type": "rule",
+  "name": "Có thể linh hoạt đệm một bài hát bằng cách phối kết hợp các tiết điệu cùng họ tiết tấu (như March - Fox - Country/Pop, h",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-15",
+    "locator": "11:00-15:18 pdf p.2",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: 16-beat, Bossa Nova, Fox, Hành khúc, March, Reggae, Swing, Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "16-beat",
+      "jazz",
+      "bossa-nova",
+      "fox",
+      "h-nh-kh-c",
+      "march",
+      "reggae",
+      "swing",
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "16-beat",
+        "Bossa Nova",
+        "Fox",
+        "Hành khúc",
+        "March",
+        "Reggae",
+        "Swing",
+        "Tango"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Có thể linh hoạt đệm một bài hát bằng cách phối kết hợp các tiết điệu cùng họ tiết tấu (như March - Fox - Country/Pop, hoặc Bossa Nova - Swing, Tango - Cha Cha Cha) giữa Đoạn A (Verse) và Đoạn B (Chorus) để bài đệm không bị đơn điệu.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_RHYTHM_MIXING",
+      "name": "Nguyên tắc phối hợp đa tiết điệu trong bài hát (Arranging Multiple Rhythms)",
+      "category": "arrangement_principle",
+      "description": "Có thể linh hoạt đệm một bài hát bằng cách phối kết hợp các tiết điệu cùng họ tiết tấu (như March - Fox - Country/Pop, hoặc Bossa Nova - Swing, Tango - Cha Cha Cha) giữa Đoạn A (Verse) và Đoạn B (Chorus) để bài đệm không bị đơn điệu.",
+      "applicability": {
+        "styles": [
+          "Pop",
+          "Ballad",
+          "Latin",
+          "Jazz",
+          "March"
+        ]
+      },
+      "lesson_folder": "Tap_06_Bai_15"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Có thể linh hoạt đệm một bài hát bằng cách phối kết hợp các tiết điệu cùng họ tiết tấu (như March - Fox - Country/Pop, hoặc Bossa Nova - Swing, Tango - Cha Cha Cha) giữa Đoạn A (Verse) và Đoạn B (Chorus) để bài đệm không bị đơn điệu."
+}

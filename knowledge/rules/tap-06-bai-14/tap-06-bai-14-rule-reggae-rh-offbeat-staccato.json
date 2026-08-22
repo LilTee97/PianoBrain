@@ -1,0 +1,75 @@
+{
+  "id": "tap-06-bai-14-rule-reggae-rh-offbeat-staccato",
+  "type": "rule",
+  "name": "Trong tiết điệu Reggae/Rap, tay phải đóng vai trò giật nhịp off-beat (phách 2 và 4 hoặc các phách chát) với kỹ thuật nảy",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-14",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Pop, Rap, Reggae"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop",
+      "rap",
+      "reggae"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Pop",
+        "Rap",
+        "Reggae"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trong tiết điệu Reggae/Rap, tay phải đóng vai trò giật nhịp off-beat (phách 2 và 4 hoặc các phách chát) với kỹ thuật nảy ngón staccato sắc nét, dứt khoát.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_reggae_rh_offbeat_staccato",
+      "name": "Reggae Right Hand Off-Beat Staccato Rule",
+      "category": "rhythm_accompaniment",
+      "style": "Reggae",
+      "description": "Trong tiết điệu Reggae/Rap, tay phải đóng vai trò giật nhịp off-beat (phách 2 và 4 hoặc các phách chát) với kỹ thuật nảy ngón staccato sắc nét, dứt khoát.",
+      "conditions": {
+        "style_match": [
+          "Reggae",
+          "Rap",
+          "Ska"
+        ],
+        "time_signature": "4/4"
+      },
+      "action": {
+        "right_hand": "Play short, crisp staccato chord voicings on beats 2 and 4 or upbeats.",
+        "left_hand": "Play low bass notes on beat 1 and/or 3."
+      },
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_14"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trong tiết điệu Reggae/Rap, tay phải đóng vai trò giật nhịp off-beat (phách 2 và 4 hoặc các phách chát) với kỹ thuật nảy ngón staccato sắc nét, dứt khoát."
+}

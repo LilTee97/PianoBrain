@@ -1,0 +1,116 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-008",
+  "type": "accompaniment",
+  "name": "Xử lý câu lặp phần A: Chuyển ngón linh hoạt tại nốt Sol4 về ngón 1 để chuẩn bị cho câu giai điệu leo cao ở phần Cao trào",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "08:47:00-11:12:00 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "Part A Second Phrase & Transitions"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C/G, Emadd9, D/F#, D7",
+    "Giọng: G Major",
+    "Nốt màu: add9, 7"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C/G",
+      "Emadd9",
+      "D/F#",
+      "D7"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Xử lý câu lặp phần A: Chuyển ngón linh hoạt tại nốt Sol4 về ngón 1 để chuẩn bị cho câu giai điệu leo cao ở phần Cao trào (Part B). Tay trái chuyển biến linh hoạt giữa C/G, Emadd9 và D/F#.",
+    "music_entities": {
+      "chords": [
+        "C/G",
+        "Emadd9",
+        "D/F#",
+        "D7"
+      ],
+      "tensions": [
+        "add9",
+        "7"
+      ],
+      "keys": [
+        "G Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "Emadd9",
+      "notes": [
+        "E2",
+        "B2",
+        "F#3",
+        "G3"
+      ],
+      "hands": {
+        "left": [
+          "E2",
+          "B2",
+          "F#3"
+        ],
+        "right": [
+          "G3",
+          "B3",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Emadd9",
+        "notes": [
+          "E2",
+          "B2",
+          "F#3",
+          "G3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "E2",
+            "B2",
+            "F#3"
+          ],
+          "right": [
+            "G3",
+            "B3",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Xử lý câu lặp phần A: Chuyển ngón linh hoạt tại nốt Sol4 về ngón 1 để chuẩn bị cho câu giai điệu leo cao ở phần Cao trào (Part B). Tay trái chuyển biến linh hoạt giữa C/G, Emadd9 và D/F#."
+}

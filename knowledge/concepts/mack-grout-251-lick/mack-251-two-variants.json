@@ -1,0 +1,30 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-two-variants",
+  "type": "concept",
+  "name": "Hai biến thể: bản ngắn dừng sớm, bản dài đi trọn ô nhịp hợp âm át rồi về bậc 5",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:02:17"
+  },
+  "use_when": [
+    "Chọn độ dài câu lick theo chỗ trống trong bài"
+  ],
+  "output": {
+    "variants": {
+      "short": "dừng sớm, chưa đi hết ô nhịp hợp âm át",
+      "long": "đi trọn ô nhịp hợp âm át rồi giải quyết về nốt G (bậc 5 của C)"
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Câu lick có hai biến thể: bản ngắn dừng sớm, bản dài đi trọn vẹn qua ô nhịp của hợp âm át rồi giải quyết về nốt bậc 5 (G) của hợp âm chủ C.",
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  }
+}

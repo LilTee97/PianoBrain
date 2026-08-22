@@ -1,0 +1,79 @@
+{
+  "id": "tap-03-bai-04-rule-bass-clef-reading-direction-001",
+  "type": "rule",
+  "name": "Khi nhìn bản nhạc 2 dòng (Grand Staff), mắt đọc hướng từ dòng dưới (Khóa Pha - tay trái) lên dòng trên (Khóa Sol - tay p",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "09:16-13:36 pdf p.1",
+    "extra_locators": [
+      "22:58-26:23 pdf p.1"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Classical, Folk, Hymn, Piano Solo, Pop/Ballad Fill, Sight Reading, Solo Fill"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical",
+      "folk",
+      "hymn",
+      "piano-solo",
+      "pop_ballad",
+      "pop",
+      "pop-ballad-fill",
+      "sight-reading",
+      "solo-fill"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Classical",
+        "Folk",
+        "Hymn",
+        "Piano Solo",
+        "Pop/Ballad Fill",
+        "Sight Reading",
+        "Solo Fill"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi nhìn bản nhạc 2 dòng (Grand Staff), mắt đọc hướng từ dòng dưới (Khóa Pha - tay trái) lên dòng trên (Khóa Sol - tay phải). Học vị trí nốt Khóa Pha độc lập, không dùng thuật toán dịch quãng từ Khóa Sol.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_BASS_CLEF_READING_DIRECTION_001",
+      "name": "Quy Tắc Đọc Sheet Độc Lập Từ Dưới Lên",
+      "category": "Sight Reading",
+      "description": "Khi nhìn bản nhạc 2 dòng (Grand Staff), mắt đọc hướng từ dòng dưới (Khóa Pha - tay trái) lên dòng trên (Khóa Sol - tay phải). Học vị trí nốt Khóa Pha độc lập, không dùng thuật toán dịch quãng từ Khóa Sol.",
+      "conditions": {
+        "reading_mode": "Grand Staff / Solo Piano Sheet"
+      },
+      "execution": {
+        "reading_order": "Bottom staff (Bass Clef) -> Top staff (Treble Clef)"
+      },
+      "lesson_folder": "Tap_03_Bai_04"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Khi nhìn bản nhạc 2 dòng (Grand Staff), mắt đọc hướng từ dòng dưới (Khóa Pha - tay trái) lên dòng trên (Khóa Sol - tay phải). Học vị trí nốt Khóa Pha độc lập, không dùng thuật toán dịch quãng từ Khóa Sol."
+}

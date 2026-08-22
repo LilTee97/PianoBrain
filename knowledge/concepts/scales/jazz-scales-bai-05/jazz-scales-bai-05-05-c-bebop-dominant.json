@@ -1,0 +1,44 @@
+{
+  "id": "jazz-scales-bai-05-05-c-bebop-dominant",
+  "type": "scale",
+  "name": "Gam C Bebop Dominant cho hợp âm C7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-05",
+    "locator": "04:13-05:09",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Chọn gam / scale khi gặp hợp âm 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C7",
+    "notes": [
+      "E",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "B",
+      "C",
+      "D"
+    ],
+    "source_text": "Thực hành chạy thang âm Bebop Dominant 8 nốt đi xuống/đi lên xuất phát từ các nốt hợp âm khác nhau trên nhịp mạnh: (1) Từ nốt 3rd (E), (2) Từ nốt Root (C), (3) Từ nốt 5th (G), (4) Từ nốt b7th (Bb). Mọi nốt hợp âm đều tự động khớp vào các phách 1, 2, 3, 4."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 5 của nguồn Jazz Scales (YouTube), mốc 04:13-05:09. Thực hành chạy thang âm Bebop Dominant 8 nốt đi xuống/đi lên xuất phát từ các nốt hợp âm khác nhau trên nhịp mạnh: (1) Từ nốt 3rd (E), (2) Từ nốt Root (C), (3) Từ nốt 5th (G), (4) Từ nốt b7th (Bb). Mọi nốt hợp âm đều tự động khớp vào các phách 1, 2, 3, 4. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

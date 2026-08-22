@@ -1,0 +1,119 @@
+{
+  "id": "tap-01-bai-02-hai-piano-001-bai-02-004",
+  "type": "fill",
+  "name": "Ballad Kiểu 3 (Dùng cho Solo / Intro / Câu lót): Tay trái rải nốt móc đơn theo cấu trúc Bậc 1 - Bậc 5 - Bậc 1(octave) -",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-02",
+    "locator": "19:19-22:52 pdf p.6",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 6,
+        "section": "BALLAD KIỂU 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G",
+    "Giọng: C major",
+    "Điệu / phong cách: Ballad, Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Ballad Kiểu 3 (Dùng cho Solo / Intro / Câu lót): Tay trái rải nốt móc đơn theo cấu trúc Bậc 1 - Bậc 5 - Bậc 1(octave) - Bậc 3 (1-5-1-3 / 1-5-8-10, ví dụ: C-G-C-E, Am: A-E-A-C, Dm: D-A-D-F, G: G-D-G-B).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad",
+        "Solo Piano"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "E3"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3",
+          "E3"
+        ],
+        "right": [
+          "Melody / Chord Fill"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "G2",
+          "C3",
+          "E3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "C3",
+            "E3"
+          ],
+          "right": [
+            "Melody / Chord Fill"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ballad Kiểu 3 (Dùng cho Solo / Intro / Câu lót): Tay trái rải nốt móc đơn theo cấu trúc Bậc 1 - Bậc 5 - Bậc 1(octave) - Bậc 3 (1-5-1-3 / 1-5-8-10, ví dụ: C-G-C-E, Am: A-E-A-C, Dm: D-A-D-F, G: G-D-G-B)."
+}

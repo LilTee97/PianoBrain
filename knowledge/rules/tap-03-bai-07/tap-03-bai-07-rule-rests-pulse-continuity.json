@@ -1,0 +1,66 @@
+{
+  "id": "tap-03-bai-07-rule-rests-pulse-continuity",
+  "type": "rule",
+  "name": "Dấu lặng biểu thị khoảng im lặng về âm thanh, nhưng nhịp/phách vẫn phải tiếp tục đập và đếm đầy đủ không được bỏ qua thờ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-07",
+    "locator": "00:18:00-00:20:10",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Accompaniment Pattern, Children Song, Classic, Music Theory"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment-pattern",
+      "children-song",
+      "classic",
+      "music-theory"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Accompaniment Pattern",
+        "Children Song",
+        "Classic",
+        "Music Theory"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Dấu lặng biểu thị khoảng im lặng về âm thanh, nhưng nhịp/phách vẫn phải tiếp tục đập và đếm đầy đủ không được bỏ qua thời gian của dấu lặng.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_rests_pulse_continuity",
+      "type": "music_theory",
+      "description": "Dấu lặng biểu thị khoảng im lặng về âm thanh, nhưng nhịp/phách vẫn phải tiếp tục đập và đếm đầy đủ không được bỏ qua thời gian của dấu lặng.",
+      "applies_to": [
+        "general_rhythm"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_07"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Dấu lặng biểu thị khoảng im lặng về âm thanh, nhưng nhịp/phách vẫn phải tiếp tục đập và đếm đầy đủ không được bỏ qua thời gian của dấu lặng."
+}

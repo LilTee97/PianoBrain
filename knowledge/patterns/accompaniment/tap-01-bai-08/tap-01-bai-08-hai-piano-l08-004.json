@@ -1,0 +1,122 @@
+{
+  "id": "tap-01-bai-08-hai-piano-l08-004",
+  "type": "exercise",
+  "name": "Ứng dụng đệm hát tiết tấu Slowrock vào ca khúc 'Hà Nội Mùa Thu' và 'Hồ Tây Chiều Thu'",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-08",
+    "locator": "00:09:08-00:14:55 pdf p.5",
+    "media_id": "video_hai_piano_l08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_06_10",
+        "page": 5,
+        "section": "Đệm hát và Solo Slowrock"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, Dm, G, F",
+    "Giọng: C major, A minor",
+    "Điệu / phong cách: Slowrock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "Dm",
+      "G",
+      "F"
+    ],
+    "style": [
+      "pop_ballad",
+      "slowrock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ứng dụng đệm hát tiết tấu Slowrock vào ca khúc 'Hà Nội Mùa Thu' và 'Hồ Tây Chiều Thu'. Để tạo cao trào, tay trái đánh Bass quãng 8 (1-8), tay phải gảy arpeggio quãng rộng (C2-G2-C3-E3-G3) hoặc chơi hợp âm 3 nốt dồn dập ở chùm liên 3.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major",
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Slowrock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "C3",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "C3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "C3",
+          "E4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "C3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng đệm hát tiết tấu Slowrock vào ca khúc 'Hà Nội Mùa Thu' và 'Hồ Tây Chiều Thu'. Để tạo cao trào, tay trái đánh Bass quãng 8 (1-8), tay phải gảy arpeggio quãng rộng (C2-G2-C3-E3-G3) hoặc chơi hợp âm 3 nốt dồn dập ở chùm liên 3."
+}

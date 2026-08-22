@@ -1,0 +1,115 @@
+{
+  "id": "tap-01-bai-11-lesson-id-0011-02",
+  "type": "voicing",
+  "name": "Cấu tạo hợp âm Sus4 gồm Bậc 1 - Bậc 4 - Bậc 5",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-11",
+    "locator": "00:03:38-00:05:20 pdf p.2",
+    "media_id": "video_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_11_15",
+        "page": 2,
+        "section": "1. SUS4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Csus4, Gsus4",
+    "Giọng: C",
+    "Điệu / phong cách: ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Csus4",
+      "Gsus4"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Cấu tạo hợp âm Sus4 gồm Bậc 1 - Bậc 4 - Bậc 5. Bỏ nốt bậc 3. Các thể xếp voicing của Csus4: Thế 1 (1-4-5: C-F-G), Thế 2 (4-5-1: F-G-C), Thế 3 (5-1-4: G-C-F). Tay trái bấm B1 + B5, Tay phải bấm B1 - B4 - B5.",
+    "music_entities": {
+      "chords": [
+        "Csus4",
+        "Gsus4"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Csus4",
+      "notes": [
+        "C3",
+        "G3",
+        "F4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "F4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Csus4",
+        "notes": [
+          "C3",
+          "G3",
+          "F4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "F4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Cấu tạo hợp âm Sus4 gồm Bậc 1 - Bậc 4 - Bậc 5. Bỏ nốt bậc 3. Các thể xếp voicing của Csus4: Thế 1 (1-4-5: C-F-G), Thế 2 (4-5-1: F-G-C), Thế 3 (5-1-4: G-C-F). Tay trái bấm B1 + B5, Tay phải bấm B1 - B4 - B5."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "jazz-scales-bai-10-06-g-altered-scale",
+  "type": "exercise",
+  "name": "In a major ii-V-I progression (Dm7 - G7 - Cmaj7), modify the G7 chord to G7(#5) or G7alt (Left h",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-10",
+    "locator": "04:40-05:46",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm G7#5",
+    "Ngẫu hứng jazz trên hợp âm G7alt",
+    "Ngẫu hứng jazz trên hợp âm Cmaj7",
+    "Chọn gam / scale khi gặp hợp âm m7, 7, 7#5, 7alt, maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "7",
+      "7#5",
+      "7alt",
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G7(#5)",
+    "notes": [
+      "G",
+      "F",
+      "B",
+      "Eb"
+    ],
+    "source_text": "In a major ii-V-I progression (Dm7 - G7 - Cmaj7), modify the G7 chord to G7(#5) or G7alt (Left hand shell/voicing: G in bass, F-B-Eb) and improvise using the G altered scale (Ab melodic minor) over G7alt."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 10 của nguồn Jazz Scales (YouTube), mốc 04:40-05:46. In a major ii-V-I progression (Dm7 - G7 - Cmaj7), modify the G7 chord to G7(#5) or G7alt (Left hand shell/voicing: G in bass, F-B-Eb) and improvise using the G altered scale (Ab melodic minor) over G7alt. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

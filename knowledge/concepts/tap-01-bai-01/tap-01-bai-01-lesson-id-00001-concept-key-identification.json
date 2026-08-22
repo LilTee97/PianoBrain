@@ -1,0 +1,83 @@
+{
+  "id": "tap-01-bai-01-lesson-id-00001-concept-key-identification",
+  "type": "concept",
+  "name": "Cách xác định giọng chính của bài nhạc qua 3 phương pháp: Cách 1 xem nốt mở đầu, nốt kết đoạn và nốt kết bài",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-01",
+    "locator": "03:13-11:08 pdf p.2",
+    "media_id": "video_input_0",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 2,
+        "section": "BÀI 1: XÁC ĐỊNH ÂM GIAI - GIỌNG CHÍNH VÀ GIỌNG SONG SONG"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, F, D",
+    "Giọng: C Major, A Minor, F Major, D Major, B Minor",
+    "Điệu / phong cách: Pop, Sacred Music"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "F",
+      "D"
+    ],
+    "style": [
+      "pop",
+      "sacred-music"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Cách xác định giọng chính của bài nhạc qua 3 phương pháp: Cách 1 xem nốt mở đầu, nốt kết đoạn và nốt kết bài; Cách 2 xem dấu hóa ở đầu khuông nhạc; Cách 3 xác định cấu trúc câu/đoạn nhạc đối với bài chuyển giọng giữa đoạn A và B.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "F",
+        "D"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major",
+        "A Minor",
+        "F Major",
+        "D Major",
+        "B Minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop",
+        "Sacred Music"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "G4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Cách xác định giọng chính của bài nhạc qua 3 phương pháp: Cách 1 xem nốt mở đầu, nốt kết đoạn và nốt kết bài; Cách 2 xem dấu hóa ở đầu khuông nhạc; Cách 3 xác định cấu trúc câu/đoạn nhạc đối với bài chuyển giọng giữa đoạn A và B."
+}

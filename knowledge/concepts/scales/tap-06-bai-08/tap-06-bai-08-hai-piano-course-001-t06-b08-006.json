@@ -1,0 +1,75 @@
+{
+  "id": "tap-06-bai-08-hai-piano-course-001-t06-b08-006",
+  "type": "scale",
+  "name": "Sử dụng nốt Blues (như nốt Eb/G# trong giọng Am) và nốt bán âm Chromatic làm nốt lướt (passing tone) khi đi Walking Bass",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-08",
+    "locator": "10:45-11:15 pdf p.2",
+    "media_id": "video_Tap_06_Bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_Tap_06_Bai_08",
+        "page": 2,
+        "section": "Blues_Note_Chromatic"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: Am",
+    "Gam: A Blues Scale, Chromatic Scale",
+    "Nốt màu: b5",
+    "Điệu / phong cách: Jazz, Blues"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "blues"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Sử dụng nốt Blues (như nốt Eb/G# trong giọng Am) và nốt bán âm Chromatic làm nốt lướt (passing tone) khi đi Walking Bass để tạo màu sắc nảy câu đặc trưng phong cách Jazz/Blues.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [
+        "b5"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A Blues Scale",
+        "Chromatic Scale"
+      ],
+      "styles": [
+        "Jazz",
+        "Blues"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "G#1",
+        "A1",
+        "Eb2",
+        "E2"
+      ],
+      "hands": {
+        "left": [
+          "G#1",
+          "A1",
+          "Eb2",
+          "E2"
+        ],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng nốt Blues (như nốt Eb/G# trong giọng Am) và nốt bán âm Chromatic làm nốt lướt (passing tone) khi đi Walking Bass để tạo màu sắc nảy câu đặc trưng phong cách Jazz/Blues."
+}

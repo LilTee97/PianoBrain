@@ -1,0 +1,14 @@
+{
+  "id": "scale-mixolydian",
+  "type": "scale",
+  "name": "Mixolydian cho hợp âm át",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Hợp âm 7 át", "Solo hoặc fill trên V7"],
+  "avoid_when": ["V7 đã biến âm (7b9, 7b13) — dùng gam khác, chưa có trong kho"],
+  "input": { "chord_quality": ["7", "7sus4", "13"], "style": ["jazz", "pop_ballad"] },
+  "output": { "semitones_from_root": [0, 2, 4, 5, 7, 9, 10], "avoid_degree": 4 },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Giống gam trưởng nhưng hạ bậc 7 nửa cung. Bậc 4 là nốt tránh: đừng dừng lâu ở đó vì nó nghịch với bậc 3 của hợp âm."
+}

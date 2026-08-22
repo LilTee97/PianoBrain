@@ -1,0 +1,42 @@
+{
+  "id": "jazz-scales-bai-06-04-g7-9-11-13",
+  "type": "voicing",
+  "name": "Arpeggio starting on the 7th degree of G7 (F-A-C-E), forming an FM7 chord (IVM7 in C major) cont",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-06",
+    "locator": "01:54-02:24",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm FM7",
+    "Chọn gam / scale khi gặp hợp âm 7, M7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "M7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G7(9,11,13)",
+    "notes": [
+      "F4",
+      "A4",
+      "C5",
+      "E5"
+    ],
+    "source_text": "Arpeggio starting on the 7th degree of G7 (F-A-C-E), forming an FM7 chord (IVM7 in C major) containing rich upper extensions: 7th, 9th, 11th, and 13th of G7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 6 của nguồn Jazz Scales (YouTube), mốc 01:54-02:24. Arpeggio starting on the 7th degree of G7 (F-A-C-E), forming an FM7 chord (IVM7 in C major) containing rich upper extensions: 7th, 9th, 11th, and 13th of G7. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

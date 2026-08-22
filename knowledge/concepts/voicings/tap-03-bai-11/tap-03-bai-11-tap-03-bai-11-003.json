@@ -1,0 +1,129 @@
+{
+  "id": "tap-03-bai-11-tap-03-bai-11-003",
+  "type": "voicing",
+  "name": "Chuỗi hợp âm tay trái đoạn Intro sử dụng đường bass đi xuống (Descending Bassline): Dadd9 -> A/C# -> Am/C -> G/B -> Bm -",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-11",
+    "locator": "00:05:49-00:08:18 pdf p.11",
+    "media_id": "video_tap_03_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 11,
+        "section": "Intro Left Hand Voicings"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dadd9, A/C#, Am/C, G/B, Bm, F#m, E7, Asus4, A7",
+    "Giọng: D major",
+    "Nốt màu: add9, 7, sus4",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dadd9",
+      "A/C#",
+      "Am/C",
+      "G/B",
+      "Bm",
+      "F#m",
+      "E7",
+      "Asus4",
+      "A7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Chuỗi hợp âm tay trái đoạn Intro sử dụng đường bass đi xuống (Descending Bassline): Dadd9 -> A/C# -> Am/C -> G/B -> Bm -> F#m -> E7 -> Asus4/A7. Từng nốt bass chuyển động từng nửa cung/nguyên cung tạo cảm giác hòa âm sâu lắng, lãng mạn.",
+    "music_entities": {
+      "chords": [
+        "Dadd9",
+        "A/C#",
+        "Am/C",
+        "G/B",
+        "Bm",
+        "F#m",
+        "E7",
+        "Asus4",
+        "A7"
+      ],
+      "tensions": [
+        "add9",
+        "7",
+        "sus4"
+      ],
+      "keys": [
+        "D major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dadd9",
+      "notes": [
+        "D3",
+        "A3",
+        "E4",
+        "F#4"
+      ],
+      "hands": {
+        "left": [
+          "D3",
+          "A3",
+          "E4",
+          "F#4"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dadd9",
+        "notes": [
+          "D3",
+          "A3",
+          "E4",
+          "F#4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D3",
+            "A3",
+            "E4",
+            "F#4"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Chuỗi hợp âm tay trái đoạn Intro sử dụng đường bass đi xuống (Descending Bassline): Dadd9 -> A/C# -> Am/C -> G/B -> Bm -> F#m -> E7 -> Asus4/A7. Từng nốt bass chuyển động từng nửa cung/nguyên cung tạo cảm giác hòa âm sâu lắng, lãng mạn."
+}

@@ -1,0 +1,114 @@
+{
+  "id": "tap-01-bai-12-hai-piano-c1-b12-004",
+  "type": "accompaniment",
+  "name": "Mẫu Valse Kiểu 1 (Block Chords cơ bản): Tay trái đánh nốt Bass ở phách 1 (ngân dài nốt trắng chấm / 3 phách)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-12",
+    "locator": "13:31-17:28 pdf p.5",
+    "media_id": "video_hai_piano_tap1_bai12",
+    "supporting": [
+      {
+        "source_id": "pdf_hoam_coban_tap1_bai11_15",
+        "page": 5,
+        "section": "BÀI 12 : TIẾT TẤU BOSANOVA & VALSE - B. VALSE Kiểu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G7, Am, F",
+    "Giọng: C",
+    "Điệu / phong cách: Valse"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G7",
+      "Am",
+      "F"
+    ],
+    "style": [
+      "valse"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu Valse Kiểu 1 (Block Chords cơ bản): Tay trái đánh nốt Bass ở phách 1 (ngân dài nốt trắng chấm / 3 phách). Tay phải lặng phách 1, dậm chát cả hợp âm ở phách 2 và phách 3 (chơi non-legato/staccato nhẹ).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G7",
+        "Am",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Valse"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3 (ngân 3 phách)"
+        ],
+        "right": [
+          "Lặng phách 1",
+          "[E4-G4-C5] phách 2",
+          "[E4-G4-C5] phách 3"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C3",
+          "E4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3 (ngân 3 phách)"
+          ],
+          "right": [
+            "Lặng phách 1",
+            "[E4-G4-C5] phách 2",
+            "[E4-G4-C5] phách 3"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu Valse Kiểu 1 (Block Chords cơ bản): Tay trái đánh nốt Bass ở phách 1 (ngân dài nốt trắng chấm / 3 phách). Tay phải lặng phách 1, dậm chát cả hợp âm ở phách 2 và phách 3 (chơi non-legato/staccato nhẹ)."
+}

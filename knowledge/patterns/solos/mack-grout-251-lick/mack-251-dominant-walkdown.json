@@ -1,0 +1,44 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-dominant-walkdown",
+  "type": "solo_idea",
+  "name": "Đi xuống từ bậc b7: F → E → D rồi đáp về G",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:02:46"
+  },
+  "use_when": [
+    "Nửa sau ô nhịp hợp âm át",
+    "Cần đường về hợp âm chủ cho mượt"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "G7",
+      "G13"
+    ]
+  },
+  "output": {
+    "hand": "RH",
+    "notes": [
+      "F",
+      "E",
+      "D",
+      "G"
+    ],
+    "roles": [
+      "bậc b7 của G7",
+      "bậc thang âm",
+      "bậc thang âm",
+      "bậc 5 của C"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Từ nốt bậc b7 của hợp âm át là F, đi lùi theo bậc thang âm tự nhiên xuống E rồi D, và đáp về nốt bậc 5 của hợp âm chủ C là G."
+}

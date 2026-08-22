@@ -1,0 +1,47 @@
+{
+  "id": "tap-01-bai-06-tap01-bai06-006",
+  "type": "rule",
+  "name": "Quy tắc dồn lực và giữ vị trí tay phải: Các nốt hòa âm đệm ở giữa của tay phải không được di chuyển quá quãng 3 (minor 3",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-06",
+    "locator": "17:40:00-18:55:00 pdf p.4",
+    "media_id": "video_tap01_bai06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai01_05",
+        "page": 4,
+        "section": "Lưu ý di chuyển tay phải"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_01_Bai_06"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc dồn lực và giữ vị trí tay phải: Các nốt hòa âm đệm ở giữa của tay phải không được di chuyển quá quãng 3 (minor 3rd / 3 bán âm) giữa các chuyển thừa hợp âm, nhằm giữ nền hòa âm vững chắc, không làm xáo trộn không gian giai điệu chính.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc dồn lực và giữ vị trí tay phải: Các nốt hòa âm đệm ở giữa của tay phải không được di chuyển quá quãng 3 (minor 3rd / 3 bán âm) giữa các chuyển thừa hợp âm, nhằm giữ nền hòa âm vững chắc, không làm xáo trộn không gian giai điệu chính."
+}

@@ -1,0 +1,113 @@
+{
+  "id": "tap-02-bai-01-lesson-tap02-bai01-003",
+  "type": "scale",
+  "name": "Âm giai Thứ Giai Điệu (Melodic Minor Scale) nâng cả bậc 6 và bậc 7 lên 1/2 cung (F -> F#, G -> G#)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-01",
+    "locator": "00:14:41-00:18:30 pdf p.2",
+    "media_id": "video.mp4",
+    "supporting": [
+      {
+        "source_id": "hai_piano_tap_2_1_5.pdf",
+        "page": 2,
+        "section": "Thứ Giai Điệu"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Bm, C+, D, E, F#m-5, G#m-5",
+    "Giọng: Am",
+    "Gam: A Melodic Minor",
+    "Điệu / phong cách: Jazz, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Bm",
+      "C+",
+      "D",
+      "E",
+      "F#m-5",
+      "G#m-5"
+    ],
+    "style": [
+      "jazz",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Âm giai Thứ Giai Điệu (Melodic Minor Scale) nâng cả bậc 6 và bậc 7 lên 1/2 cung (F -> F#, G -> G#). Bảng hợp âm sinh ra 3 hợp âm mới: Bm (bậc II: B-D-F#), D major (bậc IV: D-F#-A), và F#m-5 (bậc VI: F#-A-C).",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Bm",
+        "C+",
+        "D",
+        "E",
+        "F#m-5",
+        "G#m-5"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A Melodic Minor"
+      ],
+      "styles": [
+        "Jazz",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "D",
+      "notes": [
+        "D3",
+        "F#3",
+        "A3"
+      ],
+      "hands": {
+        "left": [
+          "D2"
+        ],
+        "right": [
+          "F#3",
+          "A3",
+          "D4"
+        ]
+      }
+    },
+    "scale": {
+      "name": "Âm giai Thứ Giai Điệu",
+      "root": "A",
+      "note_names": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F#",
+        "G#"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [],
+      "review": "rà tay từ raw_text: Âm giai Thứ Giai Điệu nâng cả bậc 6 và bậc 7 lên 1/2 cung (F -> F#, G -> G#)"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Âm giai Thứ Giai Điệu (Melodic Minor Scale) nâng cả bậc 6 và bậc 7 lên 1/2 cung (F -> F#, G -> G#). Bảng hợp âm sinh ra 3 hợp âm mới: Bm (bậc II: B-D-F#), D major (bậc IV: D-F#-A), và F#m-5 (bậc VI: F#-A-C)."
+}

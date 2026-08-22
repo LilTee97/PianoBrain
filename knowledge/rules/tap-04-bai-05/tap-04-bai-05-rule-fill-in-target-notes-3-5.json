@@ -1,0 +1,72 @@
+{
+  "id": "tap-04-bai-05-rule-fill-in-target-notes-3-5",
+  "type": "rule",
+  "name": "Khi tạo câu lót cơ bản ở cuối câu hát hoặc khoảng trống giữa các ô nhịp, ưu tiên chọn nốt mục tiêu (target note/peak not",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-05",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Modern Ballad, Pop, Pop/Jazz Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "modern-ballad",
+      "pop",
+      "jazz",
+      "pop-jazz-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Modern Ballad",
+        "Pop",
+        "Pop/Jazz Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi tạo câu lót cơ bản ở cuối câu hát hoặc khoảng trống giữa các ô nhịp, ưu tiên chọn nốt mục tiêu (target note/peak note) rơi vào bậc 3 hoặc bậc 5 của hợp âm hiện tại.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_fill_in_target_notes_3_5",
+      "type": "melodic_fill_in",
+      "description": "Khi tạo câu lót cơ bản ở cuối câu hát hoặc khoảng trống giữa các ô nhịp, ưu tiên chọn nốt mục tiêu (target note/peak note) rơi vào bậc 3 hoặc bậc 5 của hợp âm hiện tại.",
+      "conditions": {
+        "skill_level": "basic",
+        "rhythm": "Ballad fill-in"
+      },
+      "recommendations": [
+        "Nốt bậc 3 tạo cảm giác hòa quyện rõ tính chất Trưởng/Thứ.",
+        "Nốt bậc 5 tạo độ ổn định và vang sáng cho câu lót."
+      ],
+      "lesson_folder": "Tap_04_Bai_05"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi tạo câu lót cơ bản ở cuối câu hát hoặc khoảng trống giữa các ô nhịp, ưu tiên chọn nốt mục tiêu (target note/peak note) rơi vào bậc 3 hoặc bậc 5 của hợp âm hiện tại."
+}

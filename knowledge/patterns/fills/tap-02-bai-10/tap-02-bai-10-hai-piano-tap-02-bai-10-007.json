@@ -1,0 +1,134 @@
+{
+  "id": "tap-02-bai-10-hai-piano-tap-02-bai-10-007",
+  "type": "fill",
+  "name": "Câu dẫn chuyển Cmajor7 sang Dm7: Giai điệu đi lên Mi - Mi - Mi - Fa - Sol - Fa kết hợp hợp âm C9 / Cadd9 lướt qua C#dim/",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-10",
+    "locator": "10:10:00-13:00:00 pdf p.9",
+    "media_id": "tap_02_bai_10_video",
+    "supporting": [
+      {
+        "source_id": "tap_02_pdf_3",
+        "page": 9,
+        "section": "Cmajor7 - Dm7"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, C9, C#dim, Dm7, Dm9",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: 9, m7",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "C9",
+      "C#dim",
+      "Dm7",
+      "Dm9"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Câu dẫn chuyển Cmajor7 sang Dm7: Giai điệu đi lên Mi - Mi - Mi - Fa - Sol - Fa kết hợp hợp âm C9 / Cadd9 lướt qua C#dim/C#m7b5 để dẫn hút mượt mà về Dm7 (hoặc Dm9).",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "C9",
+        "C#dim",
+        "Dm7",
+        "Dm9"
+      ],
+      "tensions": [
+        "9",
+        "m7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C9 -> C#dim -> Dm9",
+      "notes": [
+        "E4",
+        "E4",
+        "E4",
+        "F4",
+        "G4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "C#3",
+          "D3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "Bb4",
+          "D5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C9 -> C#dim -> Dm9",
+        "notes": [
+          "E4",
+          "E4",
+          "E4",
+          "F4",
+          "G4",
+          "F4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "C#3",
+            "D3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "Bb4",
+            "D5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu dẫn chuyển Cmajor7 sang Dm7: Giai điệu đi lên Mi - Mi - Mi - Fa - Sol - Fa kết hợp hợp âm C9 / Cadd9 lướt qua C#dim/C#m7b5 để dẫn hút mượt mà về Dm7 (hoặc Dm9)."
+}

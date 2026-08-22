@@ -1,0 +1,49 @@
+{
+  "id": "tap-03-bai-07-tap-03-bai-07-007",
+  "type": "rule",
+  "name": "Lỗi thường gặp khi chơi nốt móc đơn tay trái: Nhấn bằng lực tay quá cứng khiến âm thanh bị đập mạnh đều đặn làm chìm gia",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-07",
+    "locator": "00:06:20-00:06:45 pdf p.4",
+    "media_id": "video_tap_03_bai_07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 4,
+        "section": "Bài 7"
+      }
+    ]
+  },
+  "use_when": [
+    "Theo bài Tap_03_Bai_07"
+  ],
+  "avoid_when": [
+    "Lỗi thường gặp khi chơi nốt móc đơn tay trái: Nhấn bằng lực tay quá cứng khiến âm thanh bị đập mạnh đều đặn làm chìm giai điệu tay phải. Cần thả lỏng cổ tay và tuân thủ nguyên tắc 'Mạnh - Nhẹ' (đập vào phách chính, nhấc lỏng ở phách phụ)."
+  ],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "warning",
+    "raw_text": "Lỗi thường gặp khi chơi nốt móc đơn tay trái: Nhấn bằng lực tay quá cứng khiến âm thanh bị đập mạnh đều đặn làm chìm giai điệu tay phải. Cần thả lỏng cổ tay và tuân thủ nguyên tắc 'Mạnh - Nhẹ' (đập vào phách chính, nhấc lỏng ở phách phụ).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Lỗi thường gặp khi chơi nốt móc đơn tay trái: Nhấn bằng lực tay quá cứng khiến âm thanh bị đập mạnh đều đặn làm chìm giai điệu tay phải. Cần thả lỏng cổ tay và tuân thủ nguyên tắc 'Mạnh - Nhẹ' (đập vào phách chính, nhấc lỏng ở phách phụ)."
+}

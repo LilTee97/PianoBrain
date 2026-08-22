@@ -1,0 +1,75 @@
+{
+  "id": "tap-01-bai-10-rule-boston-dynamics-34",
+  "type": "rule",
+  "name": "Nhịp 3/4 điệu Boston tuân thủ phách 1 Mạnh (Bass tay trái), phách 2 & 3 Nhẹ (Hợp âm tay phải đệm Nonlegato nhẹ nhàng để",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-10",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Boston, Fox, Hành khúc, March, Polka, Solo Piano, Valse chậm"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "boston",
+      "fox",
+      "h-nh-kh-c",
+      "march",
+      "polka",
+      "solo-piano",
+      "valse-ch-m"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Boston",
+        "Fox",
+        "Hành khúc",
+        "March",
+        "Polka",
+        "Solo Piano",
+        "Valse chậm"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Nhịp 3/4 điệu Boston tuân thủ phách 1 Mạnh (Bass tay trái), phách 2 & 3 Nhẹ (Hợp âm tay phải đệm Nonlegato nhẹ nhàng để tạo độ đung đưa uốn lượn).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_BOSTON_DYNAMICS_34",
+      "title": "Quy tắc phách Mạnh - Nhẹ - Nhẹ trong điệu Boston",
+      "description": "Nhịp 3/4 điệu Boston tuân thủ phách 1 Mạnh (Bass tay trái), phách 2 & 3 Nhẹ (Hợp âm tay phải đệm Nonlegato nhẹ nhàng để tạo độ đung đưa uốn lượn).",
+      "category": "rhythm_dynamics",
+      "applies_to": [
+        "Boston",
+        "Valse chậm"
+      ],
+      "severity": "mandatory",
+      "lesson_folder": "Tap_01_Bai_10"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Nhịp 3/4 điệu Boston tuân thủ phách 1 Mạnh (Bass tay trái), phách 2 & 3 Nhẹ (Hợp âm tay phải đệm Nonlegato nhẹ nhàng để tạo độ đung đưa uốn lượn)."
+}

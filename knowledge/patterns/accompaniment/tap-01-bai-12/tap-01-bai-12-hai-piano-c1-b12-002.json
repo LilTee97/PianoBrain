@@ -1,0 +1,128 @@
+{
+  "id": "tap-01-bai-12-hai-piano-c1-b12-002",
+  "type": "accompaniment",
+  "name": "Mẫu âm hình Bossa Nova nhịp 4/4 trên hợp âm Am/C: Tay trái đánh Bass nốt gốc (Gốc/Bậc 1) ở phách 1 (nốt đen chấm đuôi),",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-12",
+    "locator": "03:31-11:24 pdf p.5",
+    "media_id": "video_hai_piano_tap1_bai12",
+    "supporting": [
+      {
+        "source_id": "pdf_hoam_coban_tap1_bai11_15",
+        "page": 5,
+        "section": "BÀI 12 : TIẾT TẤU BOSANOVA & VALSE - A. BOSANOVA"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, C, Dm, G7, F",
+    "Giọng: Am, C",
+    "Điệu / phong cách: Bossa Nova"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "C",
+      "Dm",
+      "G7",
+      "F"
+    ],
+    "style": [
+      "jazz",
+      "bossa-nova"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu âm hình Bossa Nova nhịp 4/4 trên hợp âm Am/C: Tay trái đánh Bass nốt gốc (Gốc/Bậc 1) ở phách 1 (nốt đen chấm đuôi), nốt Bậc 5 ở đảo phách và phách 3. Tay phải nghỉ phách 1, xen kẽ các chùm chát hợp âm ở giữa các phách mạnh để tạo tính đảo phách đặc trưng.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "C",
+        "Dm",
+        "G7",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am",
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Bossa Nova"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "E3",
+        "E3",
+        "C4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "A2 (phách 1, đen chấm)",
+          "E3 (phách 2u)",
+          "E3 (phách 3-4)"
+        ],
+        "right": [
+          "Lặng đen phách 1",
+          "Chát [C4-E4-A4] phách 2",
+          "Chát phách 3u",
+          "Chát phách 4u"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A2",
+          "E3",
+          "E3",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2 (phách 1, đen chấm)",
+            "E3 (phách 2u)",
+            "E3 (phách 3-4)"
+          ],
+          "right": [
+            "Lặng đen phách 1",
+            "Chát [C4-E4-A4] phách 2",
+            "Chát phách 3u",
+            "Chát phách 4u"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu âm hình Bossa Nova nhịp 4/4 trên hợp âm Am/C: Tay trái đánh Bass nốt gốc (Gốc/Bậc 1) ở phách 1 (nốt đen chấm đuôi), nốt Bậc 5 ở đảo phách và phách 3. Tay phải nghỉ phách 1, xen kẽ các chùm chát hợp âm ở giữa các phách mạnh để tạo tính đảo phách đặc trưng."
+}

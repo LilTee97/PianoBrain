@@ -1,0 +1,157 @@
+{
+  "id": "tap-02-bai-03-tap-02-bai-03-007",
+  "type": "accompaniment",
+  "name": "Vòng 6: C - G/B - Em-5/Bb - Am - Bm-5 - F#m-5 - F - Em - Am - Dm - D/#F - G",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": "00:31:39-00:37:37 pdf p.4",
+    "media_id": "hai_piano_video_tap_02_bai_03",
+    "supporting": [
+      {
+        "source_id": "HOÀ ÂM NÂNG CAO ĐỆM HÁT TẬP 2 BÀI 1 - BÀI 5",
+        "page": 4,
+        "section": "Vòng 6"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Em-5/Bb, Am, Bm-5, F#m-5, F, Em, Dm, D/#F, G",
+    "Giọng: C major",
+    "Gam: C major, C harmonic major",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Em-5/Bb",
+      "Am",
+      "Bm-5",
+      "F#m-5",
+      "F",
+      "Em",
+      "Dm",
+      "D/#F",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Vòng 6: C - G/B - Em-5/Bb - Am - Bm-5 - F#m-5 - F - Em - Am - Dm - D/#F - G. Tận dụng hợp âm Em-5/Bb (Em7b5/Bb) và D/#F tạo hướng tiếp cận liền bậc nốt Bass mượt mà.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Em-5/Bb",
+        "Am",
+        "Bm-5",
+        "F#m-5",
+        "F",
+        "Em",
+        "Dm",
+        "D/#F",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major",
+        "C harmonic major"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm - D/#F - G",
+      "notes": [
+        "D3",
+        "F3",
+        "A3",
+        "D4",
+        "F#2",
+        "D3",
+        "F#3",
+        "A3",
+        "D4",
+        "G2",
+        "D3",
+        "G3",
+        "B3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "D3",
+          "F#2",
+          "G2"
+        ],
+        "right": [
+          "F3-A3-D4",
+          "D3-F#3-A3-D4",
+          "D3-G3-B3-D4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm - D/#F - G",
+        "notes": [
+          "D3",
+          "F3",
+          "A3",
+          "D4",
+          "F#2",
+          "D3",
+          "F#3",
+          "A3",
+          "D4",
+          "G2",
+          "D3",
+          "G3",
+          "B3",
+          "D4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D3",
+            "F#2",
+            "G2"
+          ],
+          "right": [
+            "F3-A3-D4",
+            "D3-F#3-A3-D4",
+            "D3-G3-B3-D4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng 6: C - G/B - Em-5/Bb - Am - Bm-5 - F#m-5 - F - Em - Am - Dm - D/#F - G. Tận dụng hợp âm Em-5/Bb (Em7b5/Bb) và D/#F tạo hướng tiếp cận liền bậc nốt Bass mượt mà."
+}

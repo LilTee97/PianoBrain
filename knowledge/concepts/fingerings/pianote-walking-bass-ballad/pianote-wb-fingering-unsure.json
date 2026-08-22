@@ -1,0 +1,31 @@
+{
+  "id": "pianote-wb-fingering-unsure",
+  "type": "fingering",
+  "name": "Số ngón cho bước đi 1-2-3-5 — video không nêu",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Ai tập walking bass 1-2-3-5 và muốn biết chỗ này còn để ngỏ"
+  ],
+  "avoid_when": [
+    "Đừng trích item này như lời Pianote — video không đưa số ngón"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "hand": "LH"
+  },
+  "output": {
+    "stage": "unsure",
+    "candidates": [
+      "5-4-3-1",
+      "5-3-2-1"
+    ],
+    "needs_human_review": true,
+    "source_hint": "pianote-walking-bass-ballad @ 00:01:08"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Video chỉ thị phạm nguyên lý nốt và thế tay trên đàn, không ghi số ngón khuyến nghị cố định cho từng bước đi. Hai cách thông dụng là 5-4-3-1 hoặc 5-3-2-1 tùy độ rộng bàn tay. Đây là ghi chú suy ra, KHÔNG phải lời của Pianote — item không mang nguồn."
+}

@@ -1,0 +1,71 @@
+{
+  "id": "tap-02-bai-03-rule-chromatic-diminished-descending",
+  "type": "rule",
+  "name": "Chèn hợp âm giảm nửa cung nằm giữa hai hợp âm thứ cách nhau 1 nguyên cung (ví dụ: Ebm-5 giữa Em và Dm) để tạo bước di ch",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Contemporary, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "contemporary"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Contemporary",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Chèn hợp âm giảm nửa cung nằm giữa hai hợp âm thứ cách nhau 1 nguyên cung (ví dụ: Ebm-5 giữa Em và Dm) để tạo bước di chuyển nốt Bass cromatique đi xuống.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_chromatic_diminished_descending": null,
+      "rule_id": "rule_chromatic_diminished_descending",
+      "name": "Sử dụng Hợp âm Giảm Cromatique đi xuống (Descending Chromatic Diminished Passing)",
+      "category": "Voice Leading",
+      "description": "Chèn hợp âm giảm nửa cung nằm giữa hai hợp âm thứ cách nhau 1 nguyên cung (ví dụ: Ebm-5 giữa Em và Dm) để tạo bước di chuyển nốt Bass cromatique đi xuống.",
+      "conditions": {
+        "source_chord": "Em",
+        "passing_chord": "Ebm5 (Ebdim)",
+        "target_chord": "Dm"
+      },
+      "examples": [
+        "Em -> Ebm-5 -> Dm"
+      ],
+      "lesson_folder": "Tap_02_Bai_03"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Chèn hợp âm giảm nửa cung nằm giữa hai hợp âm thứ cách nhau 1 nguyên cung (ví dụ: Ebm-5 giữa Em và Dm) để tạo bước di chuyển nốt Bass cromatique đi xuống."
+}

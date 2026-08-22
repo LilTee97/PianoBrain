@@ -1,0 +1,92 @@
+{
+  "id": "tap-02-bai-09-tap02-bai09-k001",
+  "type": "concept",
+  "name": "Hợp âm 9 (Cadd9, C9, Fadd9, F9) cung cấp màu sắc âm thanh hiện đại, mượt mà và bay bổng hơn so with hợp âm 3 nốt truyền",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-09",
+    "locator": "00:00:00-00:02:29 pdf p.8",
+    "media_id": "video_tap02_bai09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap02_bai06_10",
+        "page": 8,
+        "section": "BÀI 9: ỨNG DỤNG HỢP ÂM 9 LÀM CÂU LÓT LÂU DẪN - INTRO - OUTRO"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, C9, Fadd9, Gsus4",
+    "Giọng: C major",
+    "Gam: C Major Scale",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Ballad, Pop, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "C9",
+      "Fadd9",
+      "Gsus4"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Hợp âm 9 (Cadd9, C9, Fadd9, F9) cung cấp màu sắc âm thanh hiện đại, mượt mà và bay bổng hơn so with hợp âm 3 nốt truyền thống khi dùng làm hợp âm chủ, hợp âm chuyển và câu lót/dẫn.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "C9",
+        "Fadd9",
+        "Gsus4"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop",
+        "Thánh ca"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "C3",
+        "G3",
+        "D4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "D4",
+          "E4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm 9 (Cadd9, C9, Fadd9, F9) cung cấp màu sắc âm thanh hiện đại, mượt mà và bay bổng hơn so with hợp âm 3 nốt truyền thống khi dùng làm hợp âm chủ, hợp âm chuyển và câu lót/dẫn."
+}

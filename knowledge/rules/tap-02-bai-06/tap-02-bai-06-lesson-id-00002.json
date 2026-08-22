@@ -1,0 +1,98 @@
+{
+  "id": "tap-02-bai-06-lesson-id-00002",
+  "type": "rule",
+  "name": "Hợp âm Thứ 7 (như Am7) mang tính chất trung gian, mềm mại",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-06",
+    "locator": "00:01:21-00:03:35 pdf p.2",
+    "media_id": "video_tap_02_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 2,
+        "section": "Am7 Bm-5 / Bm07 / Cmajor7 / Fmmajor7 / Em7 / Fm7"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am7, Bm7-5, Bm07, Cmaj7, Fmaj7, Em7, Dm7, C+",
+    "Giọng: Am, C",
+    "Điệu / phong cách: Pop, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am7",
+      "Bm7-5",
+      "Bm07",
+      "Cmaj7",
+      "Fmaj7",
+      "Em7",
+      "Dm7",
+      "C+"
+    ],
+    "style": [
+      "pop",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Hợp âm Thứ 7 (như Am7) mang tính chất trung gian, mềm mại. Từ Am7 có thể di chuyển mềm chuyển tiếp sang Bm7-5, Bm07, Cmaj7, Fmaj7, Em7, Dm7 hoặc C+ (Caug) để tạo độ căng dịu hoặc nâng độ sáng.",
+    "music_entities": {
+      "chords": [
+        "Am7",
+        "Bm7-5",
+        "Bm07",
+        "Cmaj7",
+        "Fmaj7",
+        "Em7",
+        "Dm7",
+        "C+"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am",
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop",
+        "Thánh ca"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7 -> Bm7-5",
+      "notes": [
+        "A2",
+        "G3",
+        "C4",
+        "E4",
+        "B2",
+        "A3",
+        "D4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "B2"
+        ],
+        "right": [
+          "G3",
+          "C4",
+          "E4",
+          "A3",
+          "D4",
+          "F4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Thứ 7 (như Am7) mang tính chất trung gian, mềm mại. Từ Am7 có thể di chuyển mềm chuyển tiếp sang Bm7-5, Bm07, Cmaj7, Fmaj7, Em7, Dm7 hoặc C+ (Caug) để tạo độ căng dịu hoặc nâng độ sáng."
+}

@@ -1,0 +1,119 @@
+{
+  "id": "tap-03-bai-03-tap-03-bai-03-006",
+  "type": "exercise",
+  "name": "Luyện chạy thang âm 4 quãng 8 kết hợp lần lượt với các âm hình tiết tấu: nốt đen (quarter), móc đơn (eighth), đơn trước",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-03",
+    "locator": "00:14:09-00:21:20 pdf p.1",
+    "media_id": "video_tap_03_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 1,
+        "section": "Thực hành âm hình tiết tấu trên gam 4 quãng 8"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: Technical Exercise, Rhythm Studies"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "technical-exercise",
+      "rhythm-studies"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Luyện chạy thang âm 4 quãng 8 kết hợp lần lượt với các âm hình tiết tấu: nốt đen (quarter), móc đơn (eighth), đơn trước kép sau (1/8 + 2/16), chùm liên ba (triplet), móc kép (sixteenth). Quy tắc động lực (dynamics): Phách 1/nốt đầu phách đánh Mạnh (Accent), các nốt sau đánh Nhẹ (Light) để tạo sự linh hoạt và độc lập ngón tay.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Technical Exercise",
+        "Rhythm Studies"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "...",
+          "C6"
+        ],
+        "right": [
+          "C3",
+          "...",
+          "C7"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": null,
+        "notes": [
+          "C3",
+          "D3",
+          "E3",
+          "F3",
+          "G3",
+          "A3",
+          "B3",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "...",
+            "C6"
+          ],
+          "right": [
+            "C3",
+            "...",
+            "C7"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Luyện chạy thang âm 4 quãng 8 kết hợp lần lượt với các âm hình tiết tấu: nốt đen (quarter), móc đơn (eighth), đơn trước kép sau (1/8 + 2/16), chùm liên ba (triplet), móc kép (sixteenth). Quy tắc động lực (dynamics): Phách 1/nốt đầu phách đánh Mạnh (Accent), các nốt sau đánh Nhẹ (Light) để tạo sự linh hoạt và độc lập ngón tay."
+}

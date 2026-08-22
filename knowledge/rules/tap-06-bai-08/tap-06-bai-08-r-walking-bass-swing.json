@@ -1,0 +1,74 @@
+{
+  "id": "tap-06-bai-08-r-walking-bass-swing",
+  "type": "rule",
+  "name": "Khi chơi Fast Swing ở tốc độ nhanh, tay trái sử dụng tuyến Walking Bass đi đều phách nốt đen liền bậc hoặc kết hợp nốt C",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-08",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Fast Swing, Jazz, Medium Swing, Pop, Swing, Walking Bass"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "fast-swing",
+      "medium-swing",
+      "pop",
+      "swing",
+      "walking-bass"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Fast Swing",
+        "Jazz",
+        "Medium Swing",
+        "Pop",
+        "Swing",
+        "Walking Bass"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi chơi Fast Swing ở tốc độ nhanh, tay trái sử dụng tuyến Walking Bass đi đều phách nốt đen liền bậc hoặc kết hợp nốt Chromatic lướt nối giữa các âm gốc hợp âm.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Play continuous quarter-note walking bassline with chromatic passing tones"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_WALKING_BASS_SWING",
+      "title": "Kỹ thuật Walking Bass cho Fast Swing",
+      "description": "Khi chơi Fast Swing ở tốc độ nhanh, tay trái sử dụng tuyến Walking Bass đi đều phách nốt đen liền bậc hoặc kết hợp nốt Chromatic lướt nối giữa các âm gốc hợp âm.",
+      "conditions": {
+        "style": "Fast Swing",
+        "hand": "left_hand"
+      },
+      "action": "Play continuous quarter-note walking bassline with chromatic passing tones",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_08"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi chơi Fast Swing ở tốc độ nhanh, tay trái sử dụng tuyến Walking Bass đi đều phách nốt đen liền bậc hoặc kết hợp nốt Chromatic lướt nối giữa các âm gốc hợp âm."
+}

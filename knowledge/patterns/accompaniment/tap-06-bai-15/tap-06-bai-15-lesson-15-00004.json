@@ -1,0 +1,116 @@
+{
+  "id": "tap-06-bai-15-lesson-15-00004",
+  "type": "accompaniment",
+  "name": "Mẫu 3: Tay trái đi quãng 8 (Double Octave Bass) tăng cường độ dày và uy lực cho tiếng bass trong điệu March, phù hợp đoạ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-15",
+    "locator": "09:27-11:00 pdf p.2",
+    "media_id": "video_lesson_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_15",
+        "page": 2,
+        "section": "Tiết điệu MARCH - Mẫu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Dm, Em, F, G",
+    "Giọng: C major",
+    "Điệu / phong cách: March, Hành khúc"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ],
+    "style": [
+      "march",
+      "h-nh-kh-c"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 3: Tay trái đi quãng 8 (Double Octave Bass) tăng cường độ dày và uy lực cho tiếng bass trong điệu March, phù hợp đoạn cao trào hoặc phần điệp khúc.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Dm",
+        "Em",
+        "F",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "March",
+        "Hành khúc"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C1",
+        "C2"
+      ],
+      "hands": {
+        "left": [
+          "C1",
+          "C2"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C1",
+          "C2"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C1",
+            "C2"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 3: Tay trái đi quãng 8 (Double Octave Bass) tăng cường độ dày và uy lực cho tiếng bass trong điệu March, phù hợp đoạn cao trào hoặc phần điệp khúc."
+}

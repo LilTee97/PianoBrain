@@ -1,0 +1,14 @@
+{
+  "id": "kingsley",
+  "type": "teacher",
+  "name": "Kingsley Ng (Piano with Kingsley)",
+  "difficulty": 3,
+  "source": null,
+  "use_when": ["Người học hỏi câu lót, intro, outro, câu chạy hoặc solo cho pop ballad"],
+  "avoid_when": ["Câu hỏi bossa (Peter Martin), blues (Pianote), bebop (Mack Grout, Charlie Tran)"],
+  "input": { "style": ["pop_ballad"] },
+  "output": { "declared_focus": ["fills", "intro", "outro", "soloing", "pop ballad"], "language": "en", "ingested_sources": 1 },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Kênh dạy piano pop ballad tiếng Anh. Đây là nguồn thứ sáu của kho, đứng CẠNH thầy Hải Joseph chứ không thay. Mọi item mang teacher_id 'kingsley'."
+}

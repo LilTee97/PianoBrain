@@ -1,0 +1,136 @@
+{
+  "id": "tap-02-bai-10-hai-piano-tap-02-bai-10-009",
+  "type": "exercise",
+  "name": "Chuỗi câu dẫn kết hợp C -> Am7 -> Dm7: Sử dụng nốt thắt móc kép (móc đơn kép) tạo điểm nhấn rhythmic accent, kết hợp hợp",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-10",
+    "locator": "15:42:00-18:20:00 pdf p.9",
+    "media_id": "tap_02_bai_10_video",
+    "supporting": [
+      {
+        "source_id": "tap_02_pdf_3",
+        "page": 9,
+        "section": "Cmajor7 - Am7 - Dm7"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Am7, F#m7b5, Dm7",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: maj7, 7",
+    "Điệu / phong cách: Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Am7",
+      "F#m7b5",
+      "Dm7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Chuỗi câu dẫn kết hợp C -> Am7 -> Dm7: Sử dụng nốt thắt móc kép (móc đơn kép) tạo điểm nhấn rhythmic accent, kết hợp hợp âm dẫn bán thân (chromatic bass C -> B -> A -> A/G -> F#m7b5 -> F) dẫn về Dm7.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Am7",
+        "F#m7b5",
+        "Dm7"
+      ],
+      "tensions": [
+        "maj7",
+        "7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7 -> Am7 -> Dm7",
+      "notes": [
+        "E4",
+        "E4",
+        "E4",
+        "D4",
+        "E4",
+        "D4",
+        "C4",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "A2",
+          "D3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7 -> Am7 -> Dm7",
+        "notes": [
+          "E4",
+          "E4",
+          "E4",
+          "D4",
+          "E4",
+          "D4",
+          "C4",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "A2",
+            "D3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Chuỗi câu dẫn kết hợp C -> Am7 -> Dm7: Sử dụng nốt thắt móc kép (móc đơn kép) tạo điểm nhấn rhythmic accent, kết hợp hợp âm dẫn bán thân (chromatic bass C -> B -> A -> A/G -> F#m7b5 -> F) dẫn về Dm7."
+}

@@ -1,0 +1,40 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-rule-a-minor",
+  "type": "rule",
+  "name": "Ô nhịp hợp âm Am thì hạ bậc 3, đi A - B - C - E",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:00:52"
+  },
+  "use_when": [
+    "Ô nhịp là hợp âm thứ"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "Am"
+    ]
+  },
+  "output": {
+    "if": "ô nhịp chuyển sang hợp âm Am",
+    "then": {
+      "notes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "change": "bậc 3 đổi sang quãng thứ"
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi ô nhịp chuyển sang hợp âm Am, tay trái đổi bậc 3 sang quãng thứ và đi chuỗi nốt A - B - C - E. Video lấy bài Killing Me Softly làm ví dụ."
+}

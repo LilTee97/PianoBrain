@@ -1,0 +1,65 @@
+{
+  "id": "tap-03-bai-10-r-two-hand-balanced-voicing",
+  "type": "rule",
+  "name": "Right Hand Harmonic Assistance in Solo Playing",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-10",
+    "locator": "00:16:56-00:22:49 pdf p.9",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Advanced Ballad, Piano Solo, Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "advanced-ballad",
+      "piano-solo",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Advanced Ballad",
+        "Piano Solo",
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Right Hand Harmonic Assistance in Solo Playing",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Use right-hand inner fingers (fingers 1, 2, 3) to fill in inner chord voicings (middle octave) while finger 4 or 5 holds the top melody note."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TWO_HAND_BALANCED_VOICING",
+      "name": "Right Hand Harmonic Assistance in Solo Playing",
+      "domain": "voicing_and_arrangement",
+      "condition": "Right hand has sustained or long melody notes in a solo piano arrangement.",
+      "action": "Use right-hand inner fingers (fingers 1, 2, 3) to fill in inner chord voicings (middle octave) while finger 4 or 5 holds the top melody note.",
+      "reasoning": "Prevents the left hand from having to jump too high into the treble staff, maintaining clear bass separation and rich harmony.",
+      "lesson_folder": "Tap_03_Bai_10"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Right Hand Harmonic Assistance in Solo Playing"
+}

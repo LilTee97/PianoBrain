@@ -1,0 +1,70 @@
+{
+  "id": "tap-03-bai-10-tap-03-bai-10-002",
+  "type": "concept",
+  "name": "Giới thiệu Bài 10: Hướng dẫn kỹ thuật chơi Piano Solo bài nhạc ngoại nổi tiếng Can't Help Falling In Love ở giọng F Majo",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-10",
+    "locator": "00:00:35-00:02:19 pdf p.9",
+    "media_id": "video_tap_03_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 9,
+        "section": "Title & Header"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: F",
+    "Giọng: F Major",
+    "Gam: F Major Scale",
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "F"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu Bài 10: Hướng dẫn kỹ thuật chơi Piano Solo bài nhạc ngoại nổi tiếng Can't Help Falling In Love ở giọng F Major (Pha trưởng - có 1 dấu Si gián Bb). Phong cách Slow Rock với nhịp 4/4 chia chùm 3 (12/8 feel).",
+    "music_entities": {
+      "chords": [
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "F Major"
+      ],
+      "scales": [
+        "F Major Scale"
+      ],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "F",
+      "notes": [
+        "F",
+        "A",
+        "C"
+      ],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu Bài 10: Hướng dẫn kỹ thuật chơi Piano Solo bài nhạc ngoại nổi tiếng Can't Help Falling In Love ở giọng F Major (Pha trưởng - có 1 dấu Si gián Bb). Phong cách Slow Rock với nhịp 4/4 chia chùm 3 (12/8 feel)."
+}

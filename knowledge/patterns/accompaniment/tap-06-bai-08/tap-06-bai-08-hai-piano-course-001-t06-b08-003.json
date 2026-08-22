@@ -1,0 +1,113 @@
+{
+  "id": "tap-06-bai-08-hai-piano-course-001-t06-b08-003",
+  "type": "accompaniment",
+  "name": "Mẫu 1 - Medium Swing cơ bản: Tay trái giữ nốt Bass ở phách chính (phách 1, 3 hoặc giậm chân), Tay phải đệm chát/dập hợp",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-08",
+    "locator": "03:12-06:31 pdf p.1",
+    "media_id": "video_Tap_06_Bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_Tap_06_Bai_08",
+        "page": 1,
+        "section": "Mau_1_Medium_Swing"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bm7b5, E7, Am7",
+    "Giọng: Am",
+    "Điệu / phong cách: Medium Swing"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bm7b5",
+      "E7",
+      "Am7"
+    ],
+    "style": [
+      "jazz",
+      "medium-swing"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1 - Medium Swing cơ bản: Tay trái giữ nốt Bass ở phách chính (phách 1, 3 hoặc giậm chân), Tay phải đệm chát/dập hợp âm rơi vào phách nhẹ/nghịch phách (off-beat) tạo độ đảo nhịp (syncopation).",
+    "music_entities": {
+      "chords": [
+        "Bm7b5",
+        "E7",
+        "Am7"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [],
+      "styles": [
+        "Medium Swing"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am7",
+      "notes": [
+        "A1",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "A1"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am7",
+        "notes": [
+          "A1",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A1"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1 - Medium Swing cơ bản: Tay trái giữ nốt Bass ở phách chính (phách 1, 3 hoặc giậm chân), Tay phải đệm chát/dập hợp âm rơi vào phách nhẹ/nghịch phách (off-beat) tạo độ đảo nhịp (syncopation)."
+}

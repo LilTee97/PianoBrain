@@ -1,0 +1,65 @@
+{
+  "id": "tap-01-bai-07-rule-passing-line-construction",
+  "type": "rule",
+  "name": "Khi tạo câu lót/câu dẫn (fill-in): 1",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-07",
+    "locator": "25:31-28:18 pdf p.4",
+    "extra_locators": [
+      "28:19-30:05 pdf p.4"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi tạo câu lót/câu dẫn (fill-in): 1. Giữ nguyên motif tiết tấu giai điệu chính; 2. Ưu tiên sử dụng nốt Bậc 3 (B3), Bậc 5 (B5), Bậc 1 (B1) của hợp âm (hoặc B3, B4, B6 nếu là hợp âm đảo); 3. Kết nối mượt mà về nốt đầu tiên của hợp âm tiếp theo.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_passing_line_construction",
+      "type": "fill_in_construction",
+      "description": "Khi tạo câu lót/câu dẫn (fill-in): 1. Giữ nguyên motif tiết tấu giai điệu chính; 2. Ưu tiên sử dụng nốt Bậc 3 (B3), Bậc 5 (B5), Bậc 1 (B1) của hợp âm (hoặc B3, B4, B6 nếu là hợp âm đảo); 3. Kết nối mượt mà về nốt đầu tiên của hợp âm tiếp theo.",
+      "applies_to": [
+        "voice_leading",
+        "melody_fill"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_01_Bai_07"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi tạo câu lót/câu dẫn (fill-in): 1. Giữ nguyên motif tiết tấu giai điệu chính; 2. Ưu tiên sử dụng nốt Bậc 3 (B3), Bậc 5 (B5), Bậc 1 (B1) của hợp âm (hoặc B3, B4, B6 nếu là hợp âm đảo); 3. Kết nối mượt mà về nốt đầu tiên của hợp âm tiếp theo."
+}

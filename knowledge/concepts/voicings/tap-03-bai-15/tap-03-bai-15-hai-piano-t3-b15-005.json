@@ -1,0 +1,126 @@
+{
+  "id": "tap-03-bai-15-hai-piano-t3-b15-005",
+  "type": "voicing",
+  "name": "Đoạn Điệp khúc (Chorus) sử dụng Mi trưởng (E7/G#) đóng vai trò Secondary Dominant (V7/vi) dẫn sang La thứ (Am), kết hợp",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-15",
+    "locator": "00:13:43-00:16:01 pdf p.20",
+    "media_id": "video_tap_03_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 20,
+        "section": "Measure 13-18 (Chorus B)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: E7/G#, Am, Fadd9, G7sus4, G9",
+    "Giọng: C major",
+    "Nốt màu: add9, sus4, 7",
+    "Điệu / phong cách: ballad solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "E7/G#",
+      "Am",
+      "Fadd9",
+      "G7sus4",
+      "G9"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Đoạn Điệp khúc (Chorus) sử dụng Mi trưởng (E7/G#) đóng vai trò Secondary Dominant (V7/vi) dẫn sang La thứ (Am), kết hợp hợp âm Fadd9 và G7sus4 để tạo cao trào cảm xúc.",
+    "music_entities": {
+      "chords": [
+        "E7/G#",
+        "Am",
+        "Fadd9",
+        "G7sus4",
+        "G9"
+      ],
+      "tensions": [
+        "add9",
+        "sus4",
+        "7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "ballad solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "E7/G#",
+      "notes": [
+        "G#2",
+        "E3",
+        "G#3",
+        "B3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "G#2"
+        ],
+        "right": [
+          "E3",
+          "G#3",
+          "B3",
+          "D4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "E7/G#",
+        "notes": [
+          "G#2",
+          "E3",
+          "G#3",
+          "B3",
+          "D4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "G#2"
+          ],
+          "right": [
+            "E3",
+            "G#3",
+            "B3",
+            "D4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Đoạn Điệp khúc (Chorus) sử dụng Mi trưởng (E7/G#) đóng vai trò Secondary Dominant (V7/vi) dẫn sang La thứ (Am), kết hợp hợp âm Fadd9 và G7sus4 để tạo cao trào cảm xúc."
+}

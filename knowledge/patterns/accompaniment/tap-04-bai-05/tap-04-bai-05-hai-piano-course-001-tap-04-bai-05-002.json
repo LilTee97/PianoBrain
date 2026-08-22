@@ -1,0 +1,141 @@
+{
+  "id": "tap-04-bai-05-hai-piano-course-001-tap-04-bai-05-002",
+  "type": "accompaniment",
+  "name": "Phân tích Vòng hòa âm quãng 4 (Circle of 4ths) trên giọng La thứ (A minor): Am (i) -> Dm (iv) -> G (VII) -> C (III) -> F",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-05",
+    "locator": "00:00:58-00:02:34 pdf p.22",
+    "media_id": "video_tap_04_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 22,
+        "section": "Bài 5 - Câu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, G, C, F, Bm7b5, E7",
+    "Giọng: Am",
+    "Gam: A Natural Minor, A Harmonic Minor",
+    "Nốt màu: b5, 7",
+    "Điệu / phong cách: Ballad, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "G",
+      "C",
+      "F",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Phân tích Vòng hòa âm quãng 4 (Circle of 4ths) trên giọng La thứ (A minor): Am (i) -> Dm (iv) -> G (VII) -> C (III) -> F (VI) -> Bm7b5 (ii°) -> E7 (V7) -> Am (i). Đây là vòng hòa âm rất phổ biến trong nhạc nhẹ/Ballad.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "G",
+        "C",
+        "F",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [
+        "b5",
+        "7"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A Natural Minor",
+        "A Harmonic Minor"
+      ],
+      "styles": [
+        "Ballad",
+        "Pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Circle of 4ths in Am",
+      "notes": [
+        "A",
+        "D",
+        "G",
+        "C",
+        "F",
+        "B",
+        "E"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "D3",
+          "G2",
+          "C3",
+          "F2",
+          "B2",
+          "E2"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Circle of 4ths in Am",
+        "notes": [
+          "A",
+          "D",
+          "G",
+          "C",
+          "F",
+          "B",
+          "E"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "D3",
+            "G2",
+            "C3",
+            "F2",
+            "B2",
+            "E2"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phân tích Vòng hòa âm quãng 4 (Circle of 4ths) trên giọng La thứ (A minor): Am (i) -> Dm (iv) -> G (VII) -> C (III) -> F (VI) -> Bm7b5 (ii°) -> E7 (V7) -> Am (i). Đây là vòng hòa âm rất phổ biến trong nhạc nhẹ/Ballad."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "tap-06-bai-03-hai-piano-course-001-lesson-03-001",
+  "type": "concept",
+  "name": "Tiết tấu Slow Rock thường được viết ở nhịp 6/8 (hoặc 2/4 biến tấu)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-03",
+    "locator": "00:00:44-00:02:40 pdf p.1",
+    "media_id": "Tap_06_Bai_03.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_06_Bai_03.pdf",
+        "page": 1,
+        "section": "Bài 3 - Tiết Tấu Slow Rock"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Tiết tấu Slow Rock thường được viết ở nhịp 6/8 (hoặc 2/4 biến tấu). Nhịp 6/8 gồm 6 phách móc đơn trong một ô nhịp, chia làm 2 nhóm phách chính (mỗi phách chính gồm 3 phách móc đơn: 1-2-3 và 4-5-6).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết tấu Slow Rock thường được viết ở nhịp 6/8 (hoặc 2/4 biến tấu). Nhịp 6/8 gồm 6 phách móc đơn trong một ô nhịp, chia làm 2 nhóm phách chính (mỗi phách chính gồm 3 phách móc đơn: 1-2-3 và 4-5-6)."
+}

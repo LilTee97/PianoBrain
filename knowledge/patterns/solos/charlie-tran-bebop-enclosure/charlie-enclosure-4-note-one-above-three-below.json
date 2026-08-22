@@ -1,0 +1,40 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-4-note-one-above-three-below",
+  "type": "solo_idea",
+  "name": "Enclosure 4 nốt dạng bất đối xứng: một nốt trên, ba nốt chromatic dưới (đích E: F - C# - D - D# - E)",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:01:30"
+  },
+  "use_when": [
+    "Nốt đích là bậc 3 hoặc bậc 7",
+    "Muốn nốt đỉnh nằm trong thang âm"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Cmaj7",
+      "C"
+    ]
+  },
+  "output": {
+    "target": "E",
+    "notes": [
+      "F",
+      "C#",
+      "D",
+      "D#",
+      "E"
+    ],
+    "shape": "1 nốt thang âm phía trên, rồi ba nốt chromatic đi lên từ dưới",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Dùng một nốt thang âm phía trên rồi ba nốt chromatic đi từ dưới lên. Nhắm nốt E thì đi F - C# - D - D# rồi đáp vào E. Ở đây F đúng là cách E nửa cung, và ba nốt dưới đi lên đúng từng nửa cung."
+}

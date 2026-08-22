@@ -1,0 +1,63 @@
+{
+  "id": "tap-06-bai-06-rule-bossa-nova-articulation-001",
+  "type": "rule",
+  "name": "Khi chơi tiết điệu Bossa Nova trên Piano, tay phải dập hợp âm theo kiểu non-legato (chát gọn, nảy) để tạo tính tiết tấu,",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-06",
+    "locator": "00:06:45-00:06:55 pdf p.1",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Bossa Nova, Latin, Latin Jazz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "bossa-nova",
+      "latin",
+      "latin-jazz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Bossa Nova",
+        "Latin",
+        "Latin Jazz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi chơi tiết điệu Bossa Nova trên Piano, tay phải dập hợp âm theo kiểu non-legato (chát gọn, nảy) để tạo tính tiết tấu, trong khi tay trái đi câu Bass liền tiếng (legato) để giữ nền hòa âm vững chắc.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_bossa_nova_articulation_001",
+      "title": "Phân bổ Touch tay trong đệm Bossa Nova",
+      "description": "Khi chơi tiết điệu Bossa Nova trên Piano, tay phải dập hợp âm theo kiểu non-legato (chát gọn, nảy) để tạo tính tiết tấu, trong khi tay trái đi câu Bass liền tiếng (legato) để giữ nền hòa âm vững chắc.",
+      "category": "performance_technique",
+      "source_ref": "hai_piano_course_001_lesson_006_003",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_06"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi chơi tiết điệu Bossa Nova trên Piano, tay phải dập hợp âm theo kiểu non-legato (chát gọn, nảy) để tạo tính tiết tấu, trong khi tay trái đi câu Bass liền tiếng (legato) để giữ nền hòa âm vững chắc."
+}

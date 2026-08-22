@@ -1,0 +1,93 @@
+{
+  "id": "tap-03-bai-12-tap-03-bai-12-008",
+  "type": "rule",
+  "name": "Kỹ thuật đảo thế ngón khi gặp các cụm nốt móc kép liên tiếp: Giữ chắc ngón cái làm tâm xoay, giãn rộng biên độ bàn tay đ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-12",
+    "locator": "00:22:32-00:27:30 pdf p.14",
+    "media_id": "video_tap_03_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03_bai_12",
+        "page": 14,
+        "section": "Trang 14-15 - Ô nhịp 29 - 38"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj7, Em7, Am7, Dm7, G7, C",
+    "Giọng: A minor, C major",
+    "Gam: C major",
+    "Nốt màu: maj7, 7",
+    "Điệu / phong cách: Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj7",
+      "Em7",
+      "Am7",
+      "Dm7",
+      "G7",
+      "C"
+    ],
+    "style": [
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Kỹ thuật đảo thế ngón khi gặp các cụm nốt móc kép liên tiếp: Giữ chắc ngón cái làm tâm xoay, giãn rộng biên độ bàn tay để nhấn các nốt giai điệu phách mạnh mà không bị gãy nhịp.",
+    "music_entities": {
+      "chords": [
+        "Fmaj7",
+        "Em7",
+        "Am7",
+        "Dm7",
+        "G7",
+        "C"
+      ],
+      "tensions": [
+        "maj7",
+        "7"
+      ],
+      "keys": [
+        "A minor",
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Solo Piano"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm7",
+      "notes": [
+        "D2",
+        "A2",
+        "C3",
+        "F3",
+        "A3"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "A2"
+        ],
+        "right": [
+          "C3",
+          "F3",
+          "A3"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật đảo thế ngón khi gặp các cụm nốt móc kép liên tiếp: Giữ chắc ngón cái làm tâm xoay, giãn rộng biên độ bàn tay để nhấn các nốt giai điệu phách mạnh mà không bị gãy nhịp."
+}

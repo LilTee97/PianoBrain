@@ -1,0 +1,83 @@
+{
+  "id": "tap-01-bai-14-lesson-14-00004",
+  "type": "concept",
+  "name": "Bước 6 & 7: Ứng dụng hợp âm Tăng (C+, F+, G+) và Giảm (Amdim, Dmdim, Emdim) làm hợp âm dẫn nửa cung hoặc tạo cảm giác kị",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "09:32-09:56 pdf p.8",
+    "media_id": "video_tap_01_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_11_15",
+        "page": 8,
+        "section": "6. Hợp Âm Tăng & 7. Hợp Âm Giảm"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C+, F+, G+, Amdim, Dmdim, Emdim, Bdim",
+    "Giọng: C Major, A Minor",
+    "Nốt màu: aug, dim"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C+",
+      "F+",
+      "G+",
+      "Amdim",
+      "Dmdim",
+      "Emdim",
+      "Bdim"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Bước 6 & 7: Ứng dụng hợp âm Tăng (C+, F+, G+) và Giảm (Amdim, Dmdim, Emdim) làm hợp âm dẫn nửa cung hoặc tạo cảm giác kịch tính, hụt hẫng trước khi về hòa âm chính.",
+    "music_entities": {
+      "chords": [
+        "C+",
+        "F+",
+        "G+",
+        "Amdim",
+        "Dmdim",
+        "Emdim",
+        "Bdim"
+      ],
+      "tensions": [
+        "aug",
+        "dim"
+      ],
+      "keys": [
+        "C Major",
+        "A Minor"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C+",
+      "notes": [
+        "C",
+        "E",
+        "G#"
+      ],
+      "hands": {
+        "left": [
+          "C2"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G#4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bước 6 & 7: Ứng dụng hợp âm Tăng (C+, F+, G+) và Giảm (Amdim, Dmdim, Emdim) làm hợp âm dẫn nửa cung hoặc tạo cảm giác kịch tính, hụt hẫng trước khi về hòa âm chính."
+}

@@ -1,0 +1,127 @@
+{
+  "id": "tap-02-bai-01-lesson-tap02-bai01-004",
+  "type": "accompaniment",
+  "name": "Sử dụng hợp âm G#m-5 (G#dim) hoặc E7 từ giọng Thứ Hòa Thanh làm hợp âm dẫn (leading chord) tạo sức hút mạnh mẽ về hợp âm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-01",
+    "locator": "00:09:06-00:14:40 pdf p.2",
+    "media_id": "video.mp4",
+    "supporting": [
+      {
+        "source_id": "hai_piano_tap_2_1_5.pdf",
+        "page": 2,
+        "section": "Thứ Hoà Thanh"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: G#m-5, E7, Am",
+    "Giọng: Am",
+    "Gam: A Harmonic Minor",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Pop, Ballad, Jazz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "G#m-5",
+      "E7",
+      "Am"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad",
+      "jazz"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Sử dụng hợp âm G#m-5 (G#dim) hoặc E7 từ giọng Thứ Hòa Thanh làm hợp âm dẫn (leading chord) tạo sức hút mạnh mẽ về hợp âm chủ Am (Tonic).",
+    "music_entities": {
+      "chords": [
+        "G#m-5",
+        "E7",
+        "Am"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A Harmonic Minor"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad",
+        "Jazz"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G#m-5/Am",
+      "notes": [
+        "G#2",
+        "B3",
+        "D4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "G#2"
+        ],
+        "right": [
+          "B3",
+          "D4",
+          "E4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "G#m-5/Am",
+        "notes": [
+          "G#2",
+          "B3",
+          "D4",
+          "E4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "G#2"
+          ],
+          "right": [
+            "B3",
+            "D4",
+            "E4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng hợp âm G#m-5 (G#dim) hoặc E7 từ giọng Thứ Hòa Thanh làm hợp âm dẫn (leading chord) tạo sức hút mạnh mẽ về hợp âm chủ Am (Tonic)."
+}

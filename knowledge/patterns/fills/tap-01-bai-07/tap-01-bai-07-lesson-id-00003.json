@@ -1,0 +1,122 @@
+{
+  "id": "tap-01-bai-07-lesson-id-00003",
+  "type": "fill",
+  "name": "Kỹ thuật tạo câu lót/câu dẫn trên tiến trình C -> C/E -> F: Giữ hình tiết tấu (motif) nốt đen chấm dôi + nốt móc đơn, ch",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-07",
+    "locator": "11:15-16:20 pdf p.4",
+    "media_id": "video_tap01_bai07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 4,
+        "section": "Viết câu dẫn"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, C/E, F",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "C/E",
+      "F"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Kỹ thuật tạo câu lót/câu dẫn trên tiến trình C -> C/E -> F: Giữ hình tiết tấu (motif) nốt đen chấm dôi + nốt móc đơn, chọn các nốt thuộc hợp âm (E - C - G - C - G - A) để dẫn tay phải và bass mượt mà về nốt F.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "C/E",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C/E",
+      "notes": [
+        "E3",
+        "E4",
+        "C5",
+        "G4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "E3"
+        ],
+        "right": [
+          "E4",
+          "C5",
+          "G4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C/E",
+        "notes": [
+          "E3",
+          "E4",
+          "C5",
+          "G4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "E3"
+          ],
+          "right": [
+            "E4",
+            "C5",
+            "G4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật tạo câu lót/câu dẫn trên tiến trình C -> C/E -> F: Giữ hình tiết tấu (motif) nốt đen chấm dôi + nốt móc đơn, chọn các nốt thuộc hợp âm (E - C - G - C - G - A) để dẫn tay phải và bass mượt mà về nốt F."
+}

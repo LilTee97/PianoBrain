@@ -1,0 +1,64 @@
+{
+  "id": "tap-06-bai-03-rule-slow-rock-meter-6-8",
+  "type": "rule",
+  "name": "Nhịp Slow Rock 6/8 gồm 6 phách móc đơn, chia thành 2 cụm phách lớn (mỗi cụm 3 phách)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-03",
+    "locator": "00:05:00-00:05:35 pdf p.1",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Nhịp Slow Rock 6/8 gồm 6 phách móc đơn, chia thành 2 cụm phách lớn (mỗi cụm 3 phách). Phách 1 là phách mạnh nhất, phách 4 là phách mạnh vừa.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_slow_rock_meter_6_8",
+      "title": "Quy tắc cấu trúc nhịp 6/8 trong Slow Rock",
+      "description": "Nhịp Slow Rock 6/8 gồm 6 phách móc đơn, chia thành 2 cụm phách lớn (mỗi cụm 3 phách). Phách 1 là phách mạnh nhất, phách 4 là phách mạnh vừa.",
+      "confidence": "direct",
+      "applied_in": [
+        {
+          "lesson_id": "hai_piano_course_001_lesson_03",
+          "timestamp": "00:00:44"
+        }
+      ],
+      "lesson_folder": "Tap_06_Bai_03"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Nhịp Slow Rock 6/8 gồm 6 phách móc đơn, chia thành 2 cụm phách lớn (mỗi cụm 3 phách). Phách 1 là phách mạnh nhất, phách 4 là phách mạnh vừa."
+}

@@ -1,0 +1,80 @@
+{
+  "id": "tap-01-bai-15-rule-rh-leap-limit",
+  "type": "rule",
+  "name": "Tay phải không di chuyển chuyển thế hợp âm vượt quá quãng 3 nhằm tránh tạo khoảng đứt gãy âm thanh.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-15",
+    "locator": "01:40-03:55 pdf p.11",
+    "extra_locators": [
+      "05:25-07:25 pdf p.11",
+      "11:15-14:28 pdf p.11"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Accompaniment, Ballad, Intro, Outro, Pop, Solo, Vocal Accompaniment"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment",
+      "pop_ballad",
+      "ballad",
+      "intro",
+      "outro",
+      "pop",
+      "solo",
+      "vocal-accompaniment"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Accompaniment",
+        "Ballad",
+        "Intro",
+        "Outro",
+        "Pop",
+        "Solo",
+        "Vocal Accompaniment"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi chuyển giữa hai hợp âm liên tiếp, các nốt của tay phải không được dịch chuyển quá một quãng 3. Nếu khoảng cách giữa hai thể bấm lớn hơn quãng 3, người chơi phải chèn hợp âm dẫn (passing chord), sử dụng câu lót/câu dẫn (fills), hoặc thêm nốt bậc 7/9 để giữ nốt chung.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_RH_LEAP_LIMIT",
+      "name": "Giới hạn khoảng nhảy tay phải trong đệm hát",
+      "summary": "Tay phải không di chuyển chuyển thế hợp âm vượt quá quãng 3 nhằm tránh tạo khoảng đứt gãy âm thanh.",
+      "description": "Khi chuyển giữa hai hợp âm liên tiếp, các nốt của tay phải không được dịch chuyển quá một quãng 3. Nếu khoảng cách giữa hai thể bấm lớn hơn quãng 3, người chơi phải chèn hợp âm dẫn (passing chord), sử dụng câu lót/câu dẫn (fills), hoặc thêm nốt bậc 7/9 để giữ nốt chung.",
+      "type": "constraint",
+      "severity": "error",
+      "source": {
+        "lesson_id": "Tap_01_Bai_15",
+        "timestamp_start": "05:25",
+        "timestamp_end": "07:25",
+        "pdf_page": 11
+      },
+      "lesson_folder": "Tap_01_Bai_15"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi chuyển giữa hai hợp âm liên tiếp, các nốt của tay phải không được dịch chuyển quá một quãng 3. Nếu khoảng cách giữa hai thể bấm lớn hơn quãng 3, người chơi phải chèn hợp âm dẫn (passing chord), sử dụng câu lót/câu dẫn (fills), hoặc thêm nốt bậc 7/9 để giữ nốt chung."
+}

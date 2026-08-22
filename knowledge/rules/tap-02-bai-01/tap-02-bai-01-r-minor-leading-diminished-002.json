@@ -1,0 +1,75 @@
+{
+  "id": "tap-02-bai-01-r-minor-leading-diminished-002",
+  "type": "rule",
+  "name": "Sử dụng G#m-5 (G#dim) ở bậc VII Thứ Hòa Thanh làm hợp âm lót/hợp âm dẫn hút về Am.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-01",
+    "locator": "00:18:31-00:28:40 pdf p.2",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Acoustics, Ballad, Jazz, Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "acoustics",
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Acoustics",
+        "Ballad",
+        "Jazz",
+        "Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng G#m-5 (G#dim) ở bậc VII Thứ Hòa Thanh làm hợp âm lót/hợp âm dẫn hút về Am.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Đặt G#m-5 hoặc G#dim7 trước Am"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_MINOR_LEADING_DIMINISHED_002",
+      "name": "Sử dụng Hợp âm Bậc VII Giảm làm Hợp âm Dẫn (Leading Chord)",
+      "description": "Sử dụng G#m-5 (G#dim) ở bậc VII Thứ Hòa Thanh làm hợp âm lót/hợp âm dẫn hút về Am.",
+      "applied_keys": [
+        "Am",
+        "Minor Keys"
+      ],
+      "condition": "Trước hợp âm chủ Am",
+      "action": "Đặt G#m-5 hoặc G#dim7 trước Am",
+      "source_ref": {
+        "lesson_id": "hai_piano_tap02_bai01",
+        "timestamp": "11:13 - 14:00",
+        "pdf_page": 2
+      },
+      "lesson_folder": "Tap_02_Bai_01"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng G#m-5 (G#dim) ở bậc VII Thứ Hòa Thanh làm hợp âm lót/hợp âm dẫn hút về Am."
+}

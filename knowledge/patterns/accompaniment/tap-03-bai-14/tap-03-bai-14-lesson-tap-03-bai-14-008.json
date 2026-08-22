@@ -1,0 +1,137 @@
+{
+  "id": "tap-03-bai-14-lesson-tap-03-bai-14-008",
+  "type": "exercise",
+  "name": "Trình diễn mẫu toàn bộ bài Piano Solo 'Cơn Gió Lạ' với tốc độ vừa phải, thể hiện rõ nét tính chất êm ái, tình cảm của Po",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-14",
+    "locator": "22:18:00-24:34:00 pdf p.17",
+    "media_id": "video_tap_03_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 17,
+        "section": "Trình diễn hoàn chỉnh"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, G/B, Am9, Em/G, F, G/F, Em7, Am7, Dm7, G7, C",
+    "Giọng: C Major",
+    "Nốt màu: add9, 9, 7",
+    "Điệu / phong cách: Pop Ballad Solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "G/B",
+      "Am9",
+      "Em/G",
+      "F",
+      "G/F",
+      "Em7",
+      "Am7",
+      "Dm7",
+      "G7",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Trình diễn mẫu toàn bộ bài Piano Solo 'Cơn Gió Lạ' với tốc độ vừa phải, thể hiện rõ nét tính chất êm ái, tình cảm của Pop Ballad, kết hợp ngân vang pedal và kiểm soát lực ngón tay (dynamic contrast).",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "G/B",
+        "Am9",
+        "Em/G",
+        "F",
+        "G/F",
+        "Em7",
+        "Am7",
+        "Dm7",
+        "G7",
+        "C"
+      ],
+      "tensions": [
+        "add9",
+        "9",
+        "7"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad Solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C",
+        "G",
+        "E"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "E3"
+        ],
+        "right": [
+          "G4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C",
+          "G",
+          "E"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "E3"
+          ],
+          "right": [
+            "G4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Trình diễn mẫu toàn bộ bài Piano Solo 'Cơn Gió Lạ' với tốc độ vừa phải, thể hiện rõ nét tính chất êm ái, tình cảm của Pop Ballad, kết hợp ngân vang pedal và kiểm soát lực ngón tay (dynamic contrast)."
+}

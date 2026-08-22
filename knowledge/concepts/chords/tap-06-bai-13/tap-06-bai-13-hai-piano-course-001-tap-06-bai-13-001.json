@@ -1,0 +1,93 @@
+{
+  "id": "tap-06-bai-13-hai-piano-course-001-tap-06-bai-13-001",
+  "type": "concept",
+  "name": "Vòng hòa âm đặc trưng của nhạc Cha Cha Cha trên giọng thứ: Bậc I thứ (Am) -> Bậc VII giảm/giảm 1/2 cung theo giọng thứ h",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-13",
+    "locator": "02:33-03:47 pdf p.13",
+    "media_id": "video_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 13,
+        "section": "Vòng Hòa Âm Cha Cha Cha Thứ"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, G, E7",
+    "Giọng: A minor",
+    "Gam: A Natural Minor, A Harmonic Minor",
+    "Điệu / phong cách: Cha Cha Cha, Latin"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "G",
+      "E7"
+    ],
+    "style": [
+      "cha-cha-cha",
+      "latin"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "progression",
+    "raw_text": "Vòng hòa âm đặc trưng của nhạc Cha Cha Cha trên giọng thứ: Bậc I thứ (Am) -> Bậc VII giảm/giảm 1/2 cung theo giọng thứ hòa thanh (G) -> Bậc I thứ (Am) -> Bậc V7 (E7). Vòng i - bVII - i - V7 tạo chất nhạc Latin/Cha Cha Cha đậm nét.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "G",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A Natural Minor",
+        "A Harmonic Minor"
+      ],
+      "styles": [
+        "Cha Cha Cha",
+        "Latin"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am - G - Am - E7",
+      "notes": [
+        "A",
+        "C",
+        "E",
+        "G",
+        "B",
+        "D",
+        "E",
+        "G#",
+        "B",
+        "D"
+      ],
+      "hands": {
+        "left": [
+          "A1",
+          "G1",
+          "A1",
+          "E1"
+        ],
+        "right": [
+          "A3-C4-E4",
+          "G3-B3-D4",
+          "A3-C4-E4",
+          "E3-G#3-B3-D4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm đặc trưng của nhạc Cha Cha Cha trên giọng thứ: Bậc I thứ (Am) -> Bậc VII giảm/giảm 1/2 cung theo giọng thứ hòa thanh (G) -> Bậc I thứ (Am) -> Bậc V7 (E7). Vòng i - bVII - i - V7 tạo chất nhạc Latin/Cha Cha Cha đậm nét."
+}

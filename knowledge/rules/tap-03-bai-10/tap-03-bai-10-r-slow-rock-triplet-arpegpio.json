@@ -1,0 +1,66 @@
+{
+  "id": "tap-03-bai-10-r-slow-rock-triplet-arpegpio",
+  "type": "rule",
+  "name": "Slow Rock Triplet Accompaniment Pattern",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-10",
+    "locator": "00:16:56-00:22:49 pdf p.9",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Advanced Ballad, Piano Solo, Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "advanced-ballad",
+      "piano-solo",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Advanced Ballad",
+        "Piano Solo",
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Slow Rock Triplet Accompaniment Pattern",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Play left-hand arpeggio in groups of 3 eighth notes per beat using Root-5th-8th-10th or Root-5th-8th-5th framework."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_SLOW_ROCK_TRIPLET_ARPEGPIO",
+      "name": "Slow Rock Triplet Accompaniment Pattern",
+      "domain": "rhythm_and_accompaniment",
+      "condition": "Song style is Slow Rock (4/4 time signature divided into triplets or 12/8 feel).",
+      "action": "Play left-hand arpeggio in groups of 3 eighth notes per beat using Root-5th-8th-10th or Root-5th-8th-5th framework.",
+      "reasoning": "Maintains steady rhythmic drive while leaving room for the right-hand solo melody.",
+      "lesson_folder": "Tap_03_Bai_10"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Slow Rock Triplet Accompaniment Pattern"
+}

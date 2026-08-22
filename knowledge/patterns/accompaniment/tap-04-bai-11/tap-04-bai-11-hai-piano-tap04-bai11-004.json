@@ -1,0 +1,119 @@
+{
+  "id": "tap-04-bai-11-hai-piano-tap04-bai11-004",
+  "type": "exercise",
+  "name": "Mẫu câu lót số 2 (Câu 2): Kết hợp khoảng quãng 3, quãng 5 và quãng 6 với hợp âm đảo",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-11",
+    "locator": "05:14-07:17 pdf p.53",
+    "media_id": "video_tap04_bai11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04_bai11",
+        "page": 53,
+        "section": "Bài 11 - Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, C/G, F, C/E, Dm7, G7",
+    "Giọng: C major",
+    "Gam: C major",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "C/G",
+      "F",
+      "C/E",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu lót số 2 (Câu 2): Kết hợp khoảng quãng 3, quãng 5 và quãng 6 với hợp âm đảo. Cho phép xếp 2 hợp âm trong một ô nhịp để tạo sự linh hoạt cao hơn.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "C/G",
+        "F",
+        "C/E",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - G/B",
+      "notes": [],
+      "hands": {
+        "left": [
+          "C3",
+          "B2"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "D5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - G/B",
+        "notes": [],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "B2"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "D5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 2 (Câu 2): Kết hợp khoảng quãng 3, quãng 5 và quãng 6 với hợp âm đảo. Cho phép xếp 2 hợp âm trong một ô nhịp để tạo sự linh hoạt cao hơn."
+}

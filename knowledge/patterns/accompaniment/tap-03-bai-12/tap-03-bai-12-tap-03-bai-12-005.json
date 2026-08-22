@@ -1,0 +1,122 @@
+{
+  "id": "tap-03-bai-12-tap-03-bai-12-005",
+  "type": "exercise",
+  "name": "Tập chậm từng tay và ghép hai tay cho phiên khúc (Verse 1)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-12",
+    "locator": "00:09:38-00:11:15 pdf p.13",
+    "media_id": "video_tap_03_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03_bai_12",
+        "page": 13,
+        "section": "Ô nhịp 9 - 12"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm7, G7, Cmaj7, Am7",
+    "Giọng: C major, A minor",
+    "Gam: C major",
+    "Nốt màu: 7, maj7",
+    "Điệu / phong cách: Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm7",
+      "G7",
+      "Cmaj7",
+      "Am7"
+    ],
+    "style": [
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Tập chậm từng tay và ghép hai tay cho phiên khúc (Verse 1). Chú ý điểm rơi của phách chính rơi đúng nốt Bass tay trái.",
+    "music_entities": {
+      "chords": [
+        "Dm7",
+        "G7",
+        "Cmaj7",
+        "Am7"
+      ],
+      "tensions": [
+        "7",
+        "maj7"
+      ],
+      "keys": [
+        "C major",
+        "A minor"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Solo Piano"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C2",
+        "G2",
+        "B3",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "B3",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C2",
+          "G2",
+          "B3",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "B3",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tập chậm từng tay và ghép hai tay cho phiên khúc (Verse 1). Chú ý điểm rơi của phách chính rơi đúng nốt Bass tay trái."
+}

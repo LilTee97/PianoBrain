@@ -1,0 +1,81 @@
+{
+  "id": "tap-02-bai-07-r-dominant-7b9-resolution",
+  "type": "rule",
+  "name": "C7(-9) tạo sức hút kịch tính giải quyết về hợp âm bậc IV (Trưởng/Thứ) hoặc bậc I Thứ.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-07",
+    "locator": "00:15:15-00:22:30 pdf p.6",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Advanced Accompaniment, All Styles, Ballad, Cinematic, Jazz, Light Music, Pop Ballad, Soul, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "advanced-accompaniment",
+      "all-styles",
+      "pop_ballad",
+      "ballad",
+      "cinematic",
+      "jazz",
+      "light-music",
+      "pop",
+      "pop-ballad",
+      "soul",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Advanced Accompaniment",
+        "All Styles",
+        "Ballad",
+        "Cinematic",
+        "Jazz",
+        "Light Music",
+        "Pop Ballad",
+        "Soul",
+        "Worship"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Nốt b9 (ví dụ Db trong C7b9) tạo khoảng nửa cung căng thẳng với nốt bậc 1 (C) và hướng trực tiếp về nốt C hoặc C# của hợp âm đích.\nThường dùng để chuyển về Fm, F, hoặc trong giọng thứ (ví dụ E7b9 -> Am).\n",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_DOMINANT_7B9_RESOLUTION",
+      "title": "Sức hút giải quyết của Hợp âm Dominant 7b9",
+      "domain": "harmonic_progression_and_voice_leading",
+      "summary": "C7(-9) tạo sức hút kịch tính giải quyết về hợp âm bậc IV (Trưởng/Thứ) hoặc bậc I Thứ.",
+      "description": "Nốt b9 (ví dụ Db trong C7b9) tạo khoảng nửa cung căng thẳng với nốt bậc 1 (C) và hướng trực tiếp về nốt C hoặc C# của hợp âm đích.\nThường dùng để chuyển về Fm, F, hoặc trong giọng thứ (ví dụ E7b9 -> Am).\n",
+      "applies_to": [
+        "C7(-9)",
+        "E7(-9)",
+        "harmonic_resolution"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_07"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nốt b9 (ví dụ Db trong C7b9) tạo khoảng nửa cung căng thẳng với nốt bậc 1 (C) và hướng trực tiếp về nốt C hoặc C# của hợp âm đích.\nThường dùng để chuyển về Fm, F, hoặc trong giọng thứ (ví dụ E7b9 -> Am)."
+}

@@ -1,0 +1,108 @@
+{
+  "id": "tap-06-bai-04-tap-06-bai-04-002",
+  "type": "concept",
+  "name": "Vòng hòa âm quãng 4 trên giọng La thứ (Am): Am -> Dm -> G -> C -> F -> Bdim (Bm7b5) -> E (E7) -> Am",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-04",
+    "locator": "00:01:09-00:01:45 pdf p.1",
+    "media_id": "video_tap_06_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_04",
+        "page": 1,
+        "section": "Sơ đồ vòng hòa âm Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, G, C, F, Bm7b5, E7",
+    "Giọng: A minor",
+    "Gam: A natural minor",
+    "Điệu / phong cách: Fox"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "G",
+      "C",
+      "F",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "fox"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Vòng hòa âm quãng 4 trên giọng La thứ (Am): Am -> Dm -> G -> C -> F -> Bdim (Bm7b5) -> E (E7) -> Am. Vòng hòa âm kinh điển nối tiếp quãng 4 tăng tính liên kết hòa âm sinh động.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "G",
+        "C",
+        "F",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A natural minor"
+      ],
+      "styles": [
+        "Fox"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am - Dm - G - C - F - Bm7b5 - E7 - Am",
+      "notes": [
+        "A",
+        "C",
+        "E",
+        "D",
+        "F",
+        "G",
+        "B",
+        "C",
+        "E",
+        "F",
+        "B",
+        "E",
+        "G#"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "D3",
+          "G2",
+          "C3",
+          "F2",
+          "B2",
+          "E2",
+          "A2"
+        ],
+        "right": [
+          "C4-E4-A4",
+          "D4-F4-A4",
+          "B3-D4-G4",
+          "C4-E4-G4",
+          "C4-F4-A4",
+          "D4-F4-B4",
+          "B3-E4-G#4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm quãng 4 trên giọng La thứ (Am): Am -> Dm -> G -> C -> F -> Bdim (Bm7b5) -> E (E7) -> Am. Vòng hòa âm kinh điển nối tiếp quãng 4 tăng tính liên kết hòa âm sinh động."
+}

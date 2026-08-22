@@ -1,0 +1,62 @@
+{
+  "id": "rule-interlude-plain-harmony",
+  "type": "rule",
+  "name": "Giang tấu dùng hợp âm gốc, không dùng bản đã tô màu",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Chọn vòng hợp âm cho đoạn giang tấu, dạo đầu hoặc kết bài",
+    "Dựng câu solo hoặc câu chạy ngón trên đoạn không lời"
+  ],
+  "avoid_when": [
+    "Đoạn có lời — chỗ đó vẫn dùng bảng màu đã chọn cho cả bài",
+    "Người học tự bật màu jazz cho đoạn giang tấu"
+  ],
+  "input": {
+    "progression_source": "hợp âm gốc của bài, trước khi tái hòa âm",
+    "allowed_qualities": [
+      "maj",
+      "min",
+      "7",
+      "maj7",
+      "m7",
+      "m7b5",
+      "sus2",
+      "sus4"
+    ],
+    "blocked_qualities": [
+      "add9",
+      "madd9",
+      "6",
+      "69",
+      "9",
+      "m9",
+      "11",
+      "m11",
+      "13",
+      "m13",
+      "maj9",
+      "maj13",
+      "maj7#11",
+      "7b9",
+      "7#9",
+      "7#5",
+      "7b5",
+      "7#11",
+      "7b13",
+      "13b9",
+      "dim",
+      "dim7",
+      "aug"
+    ]
+  },
+  "output": {
+    "if": "đang chọn hợp âm cho đoạn giang tấu",
+    "then": "lấy vòng hợp âm gốc rồi rút về tính chất cơ bản; nốt chạy ưu tiên thang âm (nốt hợp âm -> ngũ cung -> thang âm của giọng) chứ không dựa vào nốt màu của hợp âm",
+    "note": "dim và dim7 rút về m7b5; hợp âm bảy biến âm rút về bảy thường; add9 và 6/9 rút về hợp âm ba nốt",
+    "enforced_by": "KeyTrain src/reharm/style/interludeChords.ts"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Giang tấu là chỗ ngẫu hứng, tai người nghe bám vào đường giai điệu chứ không bám vào màu hợp âm. Chồng add9, 6/9, 13 hay hợp âm giảm lên nền solo thì nốt ngoài giọng nhiều tới mức câu chạy nghe lạc, và người đệm mất chỗ tựa. Lấy đúng vòng gốc, để màu cho phần có lời. Suy từ nguyên lý chung, chưa có bài giảng nào trong kho nói thẳng điều này — chưa được gán cho thầy nào."
+}

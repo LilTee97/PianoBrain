@@ -1,0 +1,83 @@
+{
+  "id": "tap-02-bai-06-rule-inversion-voice-leading-dominant-3rd-inversion",
+  "type": "rule",
+  "name": "Sử dụng thể đảo 3 của hợp âm Bảy Át (nốt Bass là nốt Bảy Giáng) để tạo đường Bass đi xuống liền bậc uyển chuyển.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-06",
+    "locator": "00:01:21-00:03:35 pdf p.2",
+    "extra_locators": [
+      "00:03:35-00:10:16 pdf p.2",
+      "00:10:16-00:17:15 pdf p.2",
+      "00:17:15-00:22:28 pdf p.2",
+      "00:22:28-00:27:19 pdf p.3"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Classic Pop, Jazz, Movie Score, Nhạc nhẹ, Pop, Pop Ballad, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "classic-pop",
+      "jazz",
+      "movie-score",
+      "nh-c-nh",
+      "pop-ballad",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Classic Pop",
+        "Jazz",
+        "Movie Score",
+        "Nhạc nhẹ",
+        "Pop",
+        "Pop Ballad",
+        "Thánh ca"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng thể đảo 3 của hợp âm Bảy Át (nốt Bass là nốt Bảy Giáng) để tạo đường Bass đi xuống liền bậc uyển chuyển.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Chèn hợp âm Bảy Át đảo 3 giữa I và IV."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_INVERSION_VOICE_LEADING_DOMINANT_3RD_INVERSION",
+      "name": "Dominant 7th 3rd Inversion Bass Descending Line Rule",
+      "description": "Sử dụng thể đảo 3 của hợp âm Bảy Át (nốt Bass là nốt Bảy Giáng) để tạo đường Bass đi xuống liền bậc uyển chuyển.",
+      "condition": "Tiến trình hòa âm chuyển từ Bậc I Trưởng sang Bậc IV Trưởng.",
+      "action": "Chèn hợp âm Bảy Át đảo 3 giữa I và IV.",
+      "examples": [
+        "C -> C7/Bb -> F/A"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_06"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng thể đảo 3 của hợp âm Bảy Át (nốt Bass là nốt Bảy Giáng) để tạo đường Bass đi xuống liền bậc uyển chuyển."
+}

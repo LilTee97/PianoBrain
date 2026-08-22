@@ -1,0 +1,90 @@
+{
+  "id": "tap-02-bai-09-r-tap02-bai09-001",
+  "type": "rule",
+  "name": "Thêm nốt bậc 9 vào các hợp âm bậc I (Cadd9), IV (Fadd9/F9), V (Gsus4/G9) để tạo đường giai điệu chuyển câu dịu nhẹ, lấp khoảng trống trong đệm hát.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-09",
+    "locator": "00:02:30-00:07:01 pdf p.8",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Gospel, Pop, Pop Ballad, Slow Ballad, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "gospel",
+      "pop",
+      "pop-ballad",
+      "slow-ballad",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Gospel",
+        "Pop",
+        "Pop Ballad",
+        "Slow Ballad",
+        "Thánh ca"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Thêm nốt bậc 9 vào các hợp âm bậc I (Cadd9), IV (Fadd9/F9), V (Gsus4/G9) để tạo đường giai điệu chuyển câu dịu nhẹ, lấp khoảng trống trong đệm hát.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP02_BAI09_001",
+      "title": "Sử dụng Bậc 9 cho câu lót và câu dẫn mượt mà",
+      "summary": "Thêm nốt bậc 9 vào các hợp âm bậc I (Cadd9), IV (Fadd9/F9), V (Gsus4/G9) để tạo đường giai điệu chuyển câu dịu nhẹ, lấp khoảng trống trong đệm hát.",
+      "domain": "accompaniment_line",
+      "applicability": {
+        "keys": [
+          "All major keys"
+        ],
+        "styles": [
+          "Ballad",
+          "Pop",
+          "Thánh ca",
+          "Slow Rock"
+        ]
+      },
+      "conditions": [
+        "Khoảng trống giữa các câu hát (2-4 nhịp).",
+        "Giai điệu dừng ở nốt thuộc hợp âm chủ hoặc hợp âm bậc IV/V."
+      ],
+      "action": {
+        "left_hand": "Đánh nốt gốc + bậc 5 (1-5).",
+        "right_hand": "Chạy chuỗi nốt ngắn gồm bậc 9 kết hợp bậc 3, 5, 1 theo tiết tấu móc đơn hoặc móc kép."
+      },
+      "example": {
+        "chord_sequence": "Cadd9 -> Fadd9",
+        "fill_in_phrase": "D4 - E4 - G4 - G4 dẫn sang F3"
+      },
+      "lesson_folder": "Tap_02_Bai_09"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thêm nốt bậc 9 vào các hợp âm bậc I (Cadd9), IV (Fadd9/F9), V (Gsus4/G9) để tạo đường giai điệu chuyển câu dịu nhẹ, lấp khoảng trống trong đệm hát."
+}

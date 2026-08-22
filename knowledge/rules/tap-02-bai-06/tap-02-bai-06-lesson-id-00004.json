@@ -1,0 +1,98 @@
+{
+  "id": "tap-02-bai-06-lesson-id-00004",
+  "type": "rule",
+  "name": "Quy tắc bắt buộc đối với Hợp âm Bảy Át (Dominant 7th): Hợp âm Bảy Át có lực hút rất mạnh và phải giải quyết về hợp âm Bậ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-06",
+    "locator": "00:10:16-00:17:15 pdf p.2",
+    "media_id": "video_tap_02_bai_06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 2,
+        "section": "Nguyên tắc Hợp âm 7 át : phải về B4 - Hoặc Thể Đảo 1 của B4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C7, F, Fmaj7, C7/Bb, F/A, Fm/Ab, C/G, Gsus4",
+    "Giọng: C, F",
+    "Điệu / phong cách: Thánh ca, Nhạc nhẹ"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C7",
+      "F",
+      "Fmaj7",
+      "C7/Bb",
+      "F/A",
+      "Fm/Ab",
+      "C/G",
+      "Gsus4"
+    ],
+    "style": [
+      "th-nh-ca",
+      "nh-c-nh"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc bắt buộc đối với Hợp âm Bảy Át (Dominant 7th): Hợp âm Bảy Át có lực hút rất mạnh và phải giải quyết về hợp âm Bậc IV (B4) hoặc thể đảo 1 của Bậc IV. Ví dụ: C7 bắt buộc hút về F (hoặc Fmaj7), C7/Bb hút về F/A.",
+    "music_entities": {
+      "chords": [
+        "C7",
+        "F",
+        "Fmaj7",
+        "C7/Bb",
+        "F/A",
+        "Fm/Ab",
+        "C/G",
+        "Gsus4"
+      ],
+      "tensions": [],
+      "keys": [
+        "C",
+        "F"
+      ],
+      "scales": [],
+      "styles": [
+        "Thánh ca",
+        "Nhạc nhẹ"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C7/Bb -> F/A",
+      "notes": [
+        "Bb2",
+        "G3",
+        "C4",
+        "E4",
+        "A2",
+        "F3",
+        "C4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "Bb2",
+          "A2"
+        ],
+        "right": [
+          "G3",
+          "C4",
+          "E4",
+          "F3",
+          "C4",
+          "F4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc bắt buộc đối với Hợp âm Bảy Át (Dominant 7th): Hợp âm Bảy Át có lực hút rất mạnh và phải giải quyết về hợp âm Bậc IV (B4) hoặc thể đảo 1 của Bậc IV. Ví dụ: C7 bắt buộc hút về F (hoặc Fmaj7), C7/Bb hút về F/A."
+}

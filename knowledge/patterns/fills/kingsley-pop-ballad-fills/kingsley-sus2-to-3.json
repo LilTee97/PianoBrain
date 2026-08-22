@@ -1,0 +1,48 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "source": {
+    "teacher_id": "kingsley",
+    "source_id": "kingsley-pop-ballad-fills",
+    "locator": "Folders 03, 05/03, 06, 11, 12"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "id": "kingsley-sus2-to-3",
+  "type": "fill",
+  "name": "Chuyển sus2 sang bậc 3 — câu lót nội thanh của pop ballad",
+  "use_when": [
+    "Hợp âm trưởng đang ngân",
+    "Muốn có chuyển động bên trong mà không đổi hợp âm"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "G",
+      "F",
+      "Cmaj7"
+    ]
+  },
+  "output": {
+    "move": "bậc 2 (sus2) lên bậc 3",
+    "examples": {
+      "C": [
+        "D",
+        "E"
+      ],
+      "G": [
+        "A",
+        "B"
+      ],
+      "F": [
+        "G",
+        "A"
+      ]
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Câu lót (fill) kiểu pop ballad: cho nốt bậc 2 chuyển sus2 sang bậc 3 ngay trong lòng hợp âm. Trên C đi D sang E, trên G đi A sang B, trên F đi G sang A. Đây là chuyển động nội thanh, không đổi hợp âm, dùng ở chỗ ca sĩ nghỉ."
+}

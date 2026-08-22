@@ -1,0 +1,103 @@
+{
+  "id": "tap-06-bai-10-hai-piano-001-t06-b10-003",
+  "type": "exercise",
+  "name": "Ứng dụng Mẫu 1 vào đệm ca khúc dân ca quen thuộc như 'Yêu nhau cởi áo cho nhau' hay 'Bèo dạt mây trôi'.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-10",
+    "locator": "04:07-04:47 pdf p.1",
+    "media_id": "hai_piano_course_001_t06_b10_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_course_001_t06_b10_pdf",
+        "page": 1,
+        "section": "Ứng dụng Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, E, Am",
+    "Giọng: Am",
+    "Gam: Pentatonic",
+    "Điệu / phong cách: Dân ca Quan họ / Dân ca Bắc Bộ"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "E",
+      "Am"
+    ],
+    "style": [
+      "d-n-ca-quan-h-d-n-ca-b-c-b"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ứng dụng Mẫu 1 vào đệm ca khúc dân ca quen thuộc như 'Yêu nhau cởi áo cho nhau' hay 'Bèo dạt mây trôi'.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "E",
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "Pentatonic"
+      ],
+      "styles": [
+        "Dân ca Quan họ / Dân ca Bắc Bộ"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am - Dm - E - Am",
+      "notes": [],
+      "hands": {
+        "left": [
+          "Đánh bass quãng 8 kết hợp giữ nhịp"
+        ],
+        "right": [
+          "Đi câu lót ngũ cung rải nhẹ"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am - Dm - E - Am",
+        "notes": [],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "Đánh bass quãng 8 kết hợp giữ nhịp"
+          ],
+          "right": [
+            "Đi câu lót ngũ cung rải nhẹ"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng Mẫu 1 vào đệm ca khúc dân ca quen thuộc như 'Yêu nhau cởi áo cho nhau' hay 'Bèo dạt mây trôi'."
+}

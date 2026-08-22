@@ -1,0 +1,45 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-minor-second-sequence-dm",
+  "type": "solo_idea",
+  "name": "Chuỗi quãng 2 thứ trên Dm: D → C# → D → F",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:01:26"
+  },
+  "use_when": [
+    "Ô nhịp hợp âm bậc ii",
+    "Mở đầu một câu lick ii-V-I"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Dm",
+      "Dm7",
+      "Dm9"
+    ]
+  },
+  "output": {
+    "hand": "RH",
+    "notes": [
+      "D",
+      "C#",
+      "D",
+      "F"
+    ],
+    "roles": [
+      "root",
+      "nốt hàng xóm dưới",
+      "root",
+      "bậc 3 thứ"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Trên hợp âm Dm: bắt đầu từ nốt gốc D, đi xuống nốt hàng xóm dưới C#, quay lại D, rồi nhảy lên nốt bậc 3 thứ là F."
+}

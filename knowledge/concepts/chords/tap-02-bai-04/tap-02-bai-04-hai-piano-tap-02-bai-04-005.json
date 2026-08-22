@@ -1,0 +1,93 @@
+{
+  "id": "tap-02-bai-04-hai-piano-tap-02-bai-04-005",
+  "type": "concept",
+  "name": "Hợp âm Thứ 7 giảm 5 / Bán giảm (Half-Diminished 7th - Ký hiệu Cm7-5, Cm7b5, Cø7): Cấu tạo bởi 1 Hợp âm 3 giảm + Quãng 3",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": "18:59:00-22:42:00 pdf p.6",
+    "media_id": "video_tap_02_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_book",
+        "page": 6,
+        "section": "4 Thứ 7-5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cm7-5, Am7-5, Bm7-5, Dm7-5",
+    "Giọng: C, Am",
+    "Gam: Half-Diminished",
+    "Nốt màu: b5, b7",
+    "Điệu / phong cách: jazz, pop, ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cm7-5",
+      "Am7-5",
+      "Bm7-5",
+      "Dm7-5"
+    ],
+    "style": [
+      "jazz",
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hợp âm Thứ 7 giảm 5 / Bán giảm (Half-Diminished 7th - Ký hiệu Cm7-5, Cm7b5, Cø7): Cấu tạo bởi 1 Hợp âm 3 giảm + Quãng 3 Trưởng (H.A.3- + Q3T). Hai âm ngoài cùng tạo thành Quãng 7 thứ (Q7t). Âm thanh căng nghịch, thường dùng làm hợp âm bậc II trong giọng thứ (chuỗi II-V-I thứ).",
+    "music_entities": {
+      "chords": [
+        "Cm7-5",
+        "Am7-5",
+        "Bm7-5",
+        "Dm7-5"
+      ],
+      "tensions": [
+        "b5",
+        "b7"
+      ],
+      "keys": [
+        "C",
+        "Am"
+      ],
+      "scales": [
+        "Half-Diminished"
+      ],
+      "styles": [
+        "jazz",
+        "pop",
+        "ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cm7-5",
+      "notes": [
+        "C4",
+        "Eb4",
+        "Gb4",
+        "Bb4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "Gb3"
+        ],
+        "right": [
+          "Eb4",
+          "Gb4",
+          "Bb4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Thứ 7 giảm 5 / Bán giảm (Half-Diminished 7th - Ký hiệu Cm7-5, Cm7b5, Cø7): Cấu tạo bởi 1 Hợp âm 3 giảm + Quãng 3 Trưởng (H.A.3- + Q3T). Hai âm ngoài cùng tạo thành Quãng 7 thứ (Q7t). Âm thanh căng nghịch, thường dùng làm hợp âm bậc II trong giọng thứ (chuỗi II-V-I thứ)."
+}

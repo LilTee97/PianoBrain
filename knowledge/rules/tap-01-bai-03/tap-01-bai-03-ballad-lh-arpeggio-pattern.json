@@ -1,0 +1,75 @@
+{
+  "id": "tap-01-bai-03-ballad-lh-arpeggio-pattern",
+  "type": "rule",
+  "name": "Tay trái rải theo thứ tự Bậc 1 - Bậc 5 - Bậc 1 (bát cao) - Bậc 3 để tạo nền nhịp 4/4 hoặc 2/4 vững chắc và tràn đầy cho",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-03",
+    "locator": "00:00:36-00:06:27 pdf p.7",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Tay trái rải theo thứ tự Bậc 1 - Bậc 5 - Bậc 1 (bát cao) - Bậc 3 để tạo nền nhịp 4/4 hoặc 2/4 vững chắc và tràn đầy cho điệu Ballad.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "ballad_lh_arpeggio_pattern",
+      "name": "Mẫu rải tay trái tiết điệu Ballad (1-5-1-3)",
+      "description": "Tay trái rải theo thứ tự Bậc 1 - Bậc 5 - Bậc 1 (bát cao) - Bậc 3 để tạo nền nhịp 4/4 hoặc 2/4 vững chắc và tràn đầy cho điệu Ballad.",
+      "applies_to": {
+        "styles": [
+          "Ballad",
+          "Pop Ballad",
+          "Sacred Ballad"
+        ],
+        "time_signatures": [
+          "4/4",
+          "2/4"
+        ]
+      },
+      "constraints": {
+        "left_hand_pattern": [
+          "1",
+          "5",
+          "1_octave_up",
+          "3"
+        ]
+      },
+      "lesson_folder": "Tap_01_Bai_03"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tay trái rải theo thứ tự Bậc 1 - Bậc 5 - Bậc 1 (bát cao) - Bậc 3 để tạo nền nhịp 4/4 hoặc 2/4 vững chắc và tràn đầy cho điệu Ballad."
+}

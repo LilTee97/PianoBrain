@@ -1,0 +1,61 @@
+{
+  "id": "tap-06-bai-07-rule-practice-15-progressions",
+  "type": "rule",
+  "name": "Mỗi mẫu tiết tấu cần luyện tập qua đủ 15 vòng hòa âm trong bộ bài học để đảm bảo tính làm chủ nhịp phách và tay trái/phả",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-07",
+    "locator": "09:20-09:35 pdf p.2",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Bolero, Rumba"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "bolero",
+      "rumba"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Bolero",
+        "Rumba"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Mỗi mẫu tiết tấu cần luyện tập qua đủ 15 vòng hòa âm trong bộ bài học để đảm bảo tính làm chủ nhịp phách và tay trái/phải phối hợp độc lập.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_practice_15_progressions",
+      "description": "Mỗi mẫu tiết tấu cần luyện tập qua đủ 15 vòng hòa âm trong bộ bài học để đảm bảo tính làm chủ nhịp phách và tay trái/phải phối hợp độc lập.",
+      "context": "Phương pháp luyện tập Hải Piano",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_07"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mỗi mẫu tiết tấu cần luyện tập qua đủ 15 vòng hòa âm trong bộ bài học để đảm bảo tính làm chủ nhịp phách và tay trái/phải phối hợp độc lập."
+}

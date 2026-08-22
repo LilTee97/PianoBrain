@@ -1,0 +1,133 @@
+{
+  "id": "tap-03-bai-04-lesson-tap3-bai4-001",
+  "type": "exercise",
+  "name": "Kỹ thuật rải Arpeggio quãng rộng (Extended Range Arpeggios) trên hợp âm C Major",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "02:24-05:07 pdf p.1",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "sheet_001",
+        "page": 1,
+        "section": "Kỹ thuật Arpeggio quãng rộng"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C",
+    "Giọng: C major",
+    "Gam: C major arpeggio",
+    "Điệu / phong cách: Piano Solo, Pop/Ballad Accompaniment"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C"
+    ],
+    "style": [
+      "piano-solo",
+      "pop_ballad",
+      "pop",
+      "pop-ballad-accompaniment"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Kỹ thuật rải Arpeggio quãng rộng (Extended Range Arpeggios) trên hợp âm C Major. Thay vì vắt ngón trong 1 octave, học viên rải nối các quãng 8 liên tục bằng cách chuyền ngón 1 dưới ngón 3 (phía đi lên) và vắt ngón 3 qua ngón 1 (phía đi xuống). Ngón bấm tay phải: C4(1) - E4(2) - G4(3) -> vắt ngón 1 sang C5(1) - E5(2) - G5(3) -> C6(5).",
+    "music_entities": {
+      "chords": [
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major arpeggio"
+      ],
+      "styles": [
+        "Piano Solo",
+        "Pop/Ballad Accompaniment"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C4",
+        "E4",
+        "G4",
+        "C5",
+        "E5",
+        "G5",
+        "C6"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "C4"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4",
+          "C5",
+          "E5",
+          "G5",
+          "C6"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C4",
+          "E4",
+          "G4",
+          "C5",
+          "E5",
+          "G5",
+          "C6"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3",
+            "C4"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "G4",
+            "C5",
+            "E5",
+            "G5",
+            "C6"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật rải Arpeggio quãng rộng (Extended Range Arpeggios) trên hợp âm C Major. Thay vì vắt ngón trong 1 octave, học viên rải nối các quãng 8 liên tục bằng cách chuyền ngón 1 dưới ngón 3 (phía đi lên) và vắt ngón 3 qua ngón 1 (phía đi xuống). Ngón bấm tay phải: C4(1) - E4(2) - G4(3) -> vắt ngón 1 sang C5(1) - E5(2) - G5(3) -> C6(5)."
+}

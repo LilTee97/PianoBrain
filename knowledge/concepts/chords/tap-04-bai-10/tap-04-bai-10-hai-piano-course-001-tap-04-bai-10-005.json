@@ -1,0 +1,92 @@
+{
+  "id": "tap-04-bai-10-hai-piano-course-001-tap-04-bai-10-005",
+  "type": "concept",
+  "name": "Mẫu câu lót 16-Beat số 4: Mở rộng sử dụng nốt bậc 9 (Am9, Dm9, Fmaj9) đưa giai điệu câu dẫn lên cao trào, tạo nét giai đ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-10",
+    "locator": "00:08:16-00:10:09 pdf p.50",
+    "media_id": "video_tap_04_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 50,
+        "section": "Bài 10 - Câu 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am9, Dm9, Fmaj9, E7",
+    "Giọng: Am",
+    "Gam: A minor",
+    "Nốt màu: 9th",
+    "Điệu / phong cách: Modern 16-Beat Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am9",
+      "Dm9",
+      "Fmaj9",
+      "E7"
+    ],
+    "style": [
+      "pop_ballad",
+      "modern-16-beat-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "tension",
+    "raw_text": "Mẫu câu lót 16-Beat số 4: Mở rộng sử dụng nốt bậc 9 (Am9, Dm9, Fmaj9) đưa giai điệu câu dẫn lên cao trào, tạo nét giai điệu mượt mà, tinh tế.",
+    "music_entities": {
+      "chords": [
+        "Am9",
+        "Dm9",
+        "Fmaj9",
+        "E7"
+      ],
+      "tensions": [
+        "9th"
+      ],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Modern 16-Beat Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am9",
+      "notes": [
+        "A2",
+        "E3",
+        "G3",
+        "B4",
+        "C5",
+        "E5",
+        "B5"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "G3"
+        ],
+        "right": [
+          "B4",
+          "C5",
+          "E5",
+          "B5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót 16-Beat số 4: Mở rộng sử dụng nốt bậc 9 (Am9, Dm9, Fmaj9) đưa giai điệu câu dẫn lên cao trào, tạo nét giai điệu mượt mà, tinh tế."
+}

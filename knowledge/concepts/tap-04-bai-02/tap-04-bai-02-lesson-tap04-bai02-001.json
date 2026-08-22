@@ -1,0 +1,94 @@
+{
+  "id": "tap-04-bai-02-lesson-tap04-bai02-001",
+  "type": "concept",
+  "name": "Giới thiệu Tập 4 Bài 2 trong bộ 75 mẫu câu lót câu dẫn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-02",
+    "locator": "00:00:25-01:24:00 pdf p.7",
+    "media_id": "video_tap04_bai02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04",
+        "page": 7,
+        "section": "Bài 2 - Tong quan"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm7, Em7, G7, E7, C, Am",
+    "Giọng: C major, A minor",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm7",
+      "Em7",
+      "G7",
+      "E7",
+      "C",
+      "Am"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu Tập 4 Bài 2 trong bộ 75 mẫu câu lót câu dẫn. Bài học tập trung vào vòng hòa âm 4 - 3 - 2 - 5 - 1 rất phổ biến trong Pop/Ballad (như Dm7 - Em7 - Dm7 - G7/E7 - C/Am), giảng dạy qua 5 cấp độ từ cơ bản đến nâng cao.",
+    "music_entities": {
+      "chords": [
+        "Dm7",
+        "Em7",
+        "G7",
+        "E7",
+        "C",
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major",
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm7 - Em7 - Dm7 - G7 - C",
+      "notes": [
+        "D",
+        "F",
+        "A",
+        "C",
+        "E",
+        "G",
+        "B"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "E2",
+          "D2",
+          "G2",
+          "C2"
+        ],
+        "right": [
+          "F4",
+          "A4",
+          "C5",
+          "E5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu Tập 4 Bài 2 trong bộ 75 mẫu câu lót câu dẫn. Bài học tập trung vào vòng hòa âm 4 - 3 - 2 - 5 - 1 rất phổ biến trong Pop/Ballad (như Dm7 - Em7 - Dm7 - G7/E7 - C/Am), giảng dạy qua 5 cấp độ từ cơ bản đến nâng cao."
+}

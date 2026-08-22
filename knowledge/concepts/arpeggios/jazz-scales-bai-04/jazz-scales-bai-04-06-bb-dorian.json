@@ -1,0 +1,46 @@
+{
+  "id": "jazz-scales-bai-04-06-bb-dorian",
+  "type": "arpeggio",
+  "name": "Rải kiểu Ấn tượng (Impressionistic Hand-Crossing):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-04",
+    "locator": "08:19-10:32",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Bb min9(13)/Db",
+    "Ngẫu hứng jazz trên hợp âm Bb min7/Db",
+    "Chọn gam / scale khi gặp hợp âm m9(13)/Db, m7/Db trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m9(13)/Db",
+      "m7/Db"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Bb min9(13)/Db",
+    "notes": [
+      "Db3",
+      "F3",
+      "Ab3",
+      "C4",
+      "Bb2",
+      "Db3",
+      "G3",
+      "C4"
+    ],
+    "source_text": "Rải kiểu Ấn tượng (Impressionistic Hand-Crossing): Tay phải bắt đầu đánh ở vị trí phía dưới tay trái (bắt chéo tay), cuộn từ dưới lên tạo hiệu ứng tiếng nước chảy/giọt mưa (raindrop effect) ảnh hưởng từ Ravel và Debussy."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 4 của nguồn Jazz Scales (YouTube), mốc 08:19-10:32. Rải kiểu Ấn tượng (Impressionistic Hand-Crossing): Tay phải bắt đầu đánh ở vị trí phía dưới tay trái (bắt chéo tay), cuộn từ dưới lên tạo hiệu ứng tiếng nước chảy/giọt mưa (raindrop effect) ảnh hưởng từ Ravel và Debussy. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

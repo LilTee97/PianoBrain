@@ -1,0 +1,75 @@
+{
+  "id": "jazz-scales-bai-02-10-c-half-diminished",
+  "type": "scale",
+  "name": "Gam C Half-Diminished cho hợp âm Cm7b5",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-02",
+    "locator": "14:22-15:54",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm7b5",
+    "Ngẫu hứng jazz trên hợp âm Cø7",
+    "Chọn gam / scale khi gặp hợp âm m7b5, ø7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7b5",
+      "ø7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Half-Diminished",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "Gb",
+        "Ab",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [
+        "m7b5",
+        "ø7"
+      ],
+      "use_when": [
+        "hợp âm Cm7b5",
+        "hợp âm Cø7"
+      ]
+    },
+    "chord_symbol": "Cm7b5",
+    "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "Gb",
+      "Ab",
+      "Bb"
+    ],
+    "source_text": "Scale #2 - Half-Diminished Scale ('The Mystery-Sad Scale' / Locrian #2): C Half-Diminished (C, D, Eb, F, Gb, Ab, Bb). Used on m7b5 / half-diminished 2-chords in minor keys. Special trick: 7th mode of Db major scale with a natural 2."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 2 của nguồn Jazz Scales (YouTube), mốc 14:22-15:54. Scale #2 - Half-Diminished Scale ('The Mystery-Sad Scale' / Locrian #2): C Half-Diminished (C, D, Eb, F, Gb, Ab, Bb). Used on m7b5 / half-diminished 2-chords in minor keys. Special trick: 7th mode of Db major scale with a natural 2. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

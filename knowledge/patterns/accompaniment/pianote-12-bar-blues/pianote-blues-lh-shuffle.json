@@ -1,0 +1,59 @@
+{
+  "difficulty": 2,
+  "avoid_when": [
+    "Đã có bass thật đang chạy walking — hai bên sẽ đá nhau"
+  ],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-lh-shuffle",
+  "type": "accompaniment",
+  "name": "Shuffle bass tay trái: giữ gốc, trên luân phiên quãng 5 và quãng 6 (C: C-G rồi C-A)",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:00:41"
+  },
+  "use_when": [
+    "Đệm 12-bar blues",
+    "Tay trái giữ nhịp cho cả bài",
+    "Tông C, F, G"
+  ],
+  "input": {
+    "style": [
+      "blues"
+    ],
+    "chord_quality": [
+      "C7",
+      "F7",
+      "G7",
+      "C",
+      "F",
+      "G"
+    ]
+  },
+  "output": {
+    "hand": "LH",
+    "shape": "root giữ dưới, nốt trên luân phiên quãng 5 đúng và quãng 6 trưởng",
+    "example": {
+      "C": [
+        "C-G",
+        "C-A"
+      ],
+      "F": [
+        "F-C",
+        "F-D"
+      ],
+      "G": [
+        "G-D",
+        "G-E"
+      ]
+    },
+    "fingering": {
+      "finger_root": 5,
+      "finger_top": 1
+    },
+    "feel": "shuffle",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Tay trái giữ nốt gốc ở dưới, nốt trên luân phiên quãng 5 đúng rồi quãng 6 trưởng theo tiết tấu swing. Ở hợp âm C là C-G chuyển sang C-A. Ngón út giữ nốt gốc, ngón cái luân phiên hai nốt trên."
+}

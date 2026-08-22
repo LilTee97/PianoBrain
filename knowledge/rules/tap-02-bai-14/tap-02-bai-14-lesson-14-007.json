@@ -1,0 +1,102 @@
+{
+  "id": "tap-02-bai-14-lesson-14-007",
+  "type": "rule",
+  "name": "Hợp âm 13 biến tấu C7(9,11,-13) hay C7(b9,b13): Bậc -13 (b13 / Ab) và -9 (b9 / Db) tạo lực hút giải kết cực mạnh về hợp",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:14:36-00:22:30 pdf p.7",
+    "media_id": "video_tap_02_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 7,
+        "section": "Cm7.9.11.13"
+      },
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 8,
+        "section": "C7.9.11.-13"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C7(b9,b13), E7(b9,b13), G7(b9,b13), Am7",
+    "Giọng: A minor, C minor",
+    "Gam: Altered scale",
+    "Nốt màu: b9, b13, 13",
+    "Điệu / phong cách: Ballad, Thánh ca, Jazz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C7(b9,b13)",
+      "E7(b9,b13)",
+      "G7(b9,b13)",
+      "Am7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "th-nh-ca",
+      "jazz"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Hợp âm 13 biến tấu C7(9,11,-13) hay C7(b9,b13): Bậc -13 (b13 / Ab) và -9 (b9 / Db) tạo lực hút giải kết cực mạnh về hợp âm thứ chủ (ví dụ E7(b9,b13) -> Am7). Rất hiệu quả trong các đoạn cao trào, kết câu của bài hát Pop/Ballad và Thánh ca.",
+    "music_entities": {
+      "chords": [
+        "C7(b9,b13)",
+        "E7(b9,b13)",
+        "G7(b9,b13)",
+        "Am7"
+      ],
+      "tensions": [
+        "b9",
+        "b13",
+        "13"
+      ],
+      "keys": [
+        "A minor",
+        "C minor"
+      ],
+      "scales": [
+        "Altered scale"
+      ],
+      "styles": [
+        "Ballad",
+        "Thánh ca",
+        "Jazz"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "E7(b9,b13)",
+      "notes": [
+        "E2",
+        "B2",
+        "G#3",
+        "D4",
+        "F4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "E2",
+          "B2"
+        ],
+        "right": [
+          "G#3",
+          "D4",
+          "F4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm 13 biến tấu C7(9,11,-13) hay C7(b9,b13): Bậc -13 (b13 / Ab) và -9 (b9 / Db) tạo lực hút giải kết cực mạnh về hợp âm thứ chủ (ví dụ E7(b9,b13) -> Am7). Rất hiệu quả trong các đoạn cao trào, kết câu của bài hát Pop/Ballad và Thánh ca."
+}

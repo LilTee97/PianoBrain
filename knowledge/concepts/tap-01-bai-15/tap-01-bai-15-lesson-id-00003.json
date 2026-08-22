@@ -1,0 +1,116 @@
+{
+  "id": "tap-01-bai-15-lesson-id-00003",
+  "type": "concept",
+  "name": "Hợp âm đảo có hai chức năng chính: Thế đảo 1 (Inversion 1 - B3 ở Bass) dùng làm âm dẫn giúp ngón bass di chuyển liền bậc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-15",
+    "locator": "08:15-11:15 pdf p.11",
+    "media_id": "Tap_01_Bai_15",
+    "supporting": [
+      {
+        "source_id": "Tap_01_Bai_11_15_PDF",
+        "page": 11,
+        "section": "Mục 4 & 6 - Hợp âm dẫn & Khai thác hợp âm Đảo"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C/E, C/G, F/A, G/B",
+    "Giọng: C major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C/E",
+      "C/G",
+      "F/A",
+      "G/B"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Hợp âm đảo có hai chức năng chính: Thế đảo 1 (Inversion 1 - B3 ở Bass) dùng làm âm dẫn giúp ngón bass di chuyển liền bậc (stepwise bassline); Thế đảo 2 (Inversion 2 - B5 ở Bass) dùng cho đoạn kết (cadence/outro) để tạo cảm giác đầy đặn, trọn vẹn.",
+    "music_entities": {
+      "chords": [
+        "C/E",
+        "C/G",
+        "F/A",
+        "G/B"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C -> C/E -> F",
+      "notes": [
+        "C3",
+        "E3",
+        "F3",
+        "G3",
+        "C4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "E3",
+          "F3"
+        ],
+        "right": [
+          "G3",
+          "C4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C -> C/E -> F",
+        "notes": [
+          "C3",
+          "E3",
+          "F3",
+          "G3",
+          "C4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "E3",
+            "F3"
+          ],
+          "right": [
+            "G3",
+            "C4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm đảo có hai chức năng chính: Thế đảo 1 (Inversion 1 - B3 ở Bass) dùng làm âm dẫn giúp ngón bass di chuyển liền bậc (stepwise bassline); Thế đảo 2 (Inversion 2 - B5 ở Bass) dùng cho đoạn kết (cadence/outro) để tạo cảm giác đầy đặn, trọn vẹn."
+}

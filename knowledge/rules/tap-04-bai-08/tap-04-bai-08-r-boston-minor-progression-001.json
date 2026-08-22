@@ -1,0 +1,67 @@
+{
+  "id": "tap-04-bai-08-r-boston-minor-progression-001",
+  "type": "rule",
+  "name": "Trong nhịp Boston (3/4) giọng thứ, vòng hòa âm tiêu chuẩn cho Intro/Outro và câu lót là: i (Am) -> v (Em) -> iv (Dm) ->",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-08",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Chất hợp âm: minor",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "minor"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": "minor",
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Boston"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Trong nhịp Boston (3/4) giọng thứ, vòng hòa âm tiêu chuẩn cho Intro/Outro và câu lót là: i (Am) -> v (Em) -> iv (Dm) -> i (Am) -> ii° (Bm-5) -> V7 (E7) -> i (Am).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_BOSTON_MINOR_PROGRESSION_001",
+      "name": "Minor Boston Chord Progression Rule",
+      "category": "Harmony / Chord Progression",
+      "description": "Trong nhịp Boston (3/4) giọng thứ, vòng hòa âm tiêu chuẩn cho Intro/Outro và câu lót là: i (Am) -> v (Em) -> iv (Dm) -> i (Am) -> ii° (Bm-5) -> V7 (E7) -> i (Am).",
+      "conditions": {
+        "key_type": "minor",
+        "rhythm": "Boston 3/4"
+      },
+      "recommendation": "Sử dụng vòng hợp âm này để xây dựng nét dẫn dắt mượt mượt cho toàn bộ bài đệm Boston thứ.",
+      "lesson_folder": "Tap_04_Bai_08"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Trong nhịp Boston (3/4) giọng thứ, vòng hòa âm tiêu chuẩn cho Intro/Outro và câu lót là: i (Am) -> v (Em) -> iv (Dm) -> i (Am) -> ii° (Bm-5) -> V7 (E7) -> i (Am)."
+}

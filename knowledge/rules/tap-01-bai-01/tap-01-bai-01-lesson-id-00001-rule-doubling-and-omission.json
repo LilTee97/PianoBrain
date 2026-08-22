@@ -1,0 +1,69 @@
+{
+  "id": "tap-01-bai-01-lesson-id-00001-rule-doubling-and-omission",
+  "type": "rule",
+  "name": "Quy tắc tăng đôi và bỏ nốt: Được phép tăng đôi âm bậc I và bậc V (ví dụ tay trái đánh C thì tay phải cũng có thể đánh C)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-01",
+    "locator": "31:13-32:30 pdf p.4",
+    "media_id": "video_input_0",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_01_05",
+        "page": 4,
+        "section": "Những lưu ý"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am",
+    "Giọng: C Major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc tăng đôi và bỏ nốt: Được phép tăng đôi âm bậc I và bậc V (ví dụ tay trái đánh C thì tay phải cũng có thể đánh C). KHÔNG ĐƯỢC tăng đôi nốt bậc 3. KHÔNG ĐƯỢC bỏ nốt bậc 3 vì nốt bậc 3 quyết định màu sắc Trưởng hay Thứ của hợp âm.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc tăng đôi và bỏ nốt: Được phép tăng đôi âm bậc I và bậc V (ví dụ tay trái đánh C thì tay phải cũng có thể đánh C). KHÔNG ĐƯỢC tăng đôi nốt bậc 3. KHÔNG ĐƯỢC bỏ nốt bậc 3 vì nốt bậc 3 quyết định màu sắc Trưởng hay Thứ của hợp âm."
+}

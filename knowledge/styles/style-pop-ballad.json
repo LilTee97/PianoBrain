@@ -1,0 +1,25 @@
+{
+  "id": "style-pop-ballad",
+  "type": "style",
+  "name": "Pop ballad — mật độ theo đoạn",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Mọi bài ballad 4/4", "Cần biết chỗ nào đổi tiết tấu"],
+  "avoid_when": ["Bossa, valse, swing — cần item điệu riêng, chưa có trong kho"],
+  "input": { "style": ["pop_ballad"], "section": ["intro", "verse", "pre", "chorus", "bridge", "outro"] },
+  "output": {
+    "meter": "4/4",
+    "sections": {
+      "intro": { "density": 1, "lh": "nốt gốc tròn", "rh": "rải thưa", "note_vi": "đặt tông, chưa vào nhịp" },
+      "verse": { "density": 2, "lh": "gốc phách 1, quãng 5 phách 3", "rh": "rải ngắt, chừa chỗ cho giọng", "note_vi": "thưa nhất trong bài" },
+      "pre": { "density": 3, "lh": "thêm quãng tám, bass dày hơn", "rh": "rải liên tục móc đơn", "note_vi": "bắt đầu dồn, báo hiệu chorus" },
+      "chorus": { "density": 4, "lh": "quãng tám đi theo hợp âm", "rh": "hợp âm khối móc đơn", "note_vi": "dày nhất, đây là chỗ bài mở ra" },
+      "bridge": { "density": 2, "lh": "giữ dài", "rh": "thưa, đổi màu hợp âm", "note_vi": "hạ xuống để chorus cuối còn chỗ lên" },
+      "outro": { "density": 1, "lh": "gốc tròn chậm dần", "rh": "rải thưa dần", "note_vi": "buông ra" }
+    },
+    "transition_rule_id": "rule-section-density"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Nguyên tắc: mật độ đi lên verse thấp - pre vừa - chorus cao, bridge tụt xuống để chorus cuối còn đường lên. Đây là khung chung của ballad, CHƯA phải cách chơi riêng của thầy nào."
+}

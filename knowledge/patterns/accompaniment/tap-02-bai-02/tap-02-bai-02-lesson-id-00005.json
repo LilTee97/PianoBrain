@@ -1,0 +1,93 @@
+{
+  "id": "tap-02-bai-02-lesson-id-00005",
+  "type": "accompaniment",
+  "name": "Hợp âm Bb (bVII) từ Trưởng Giai Điệu được tạo ra do nốt Bb (b7) ghép với D và F, ứng dụng tạo câu lót, intro phong cách",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-02",
+    "locator": "16:32-25:20 pdf p.3",
+    "media_id": "video_tap_02_bai_02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 3,
+        "section": "Trưởng Giai điệu"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Bb, F/A, Fm/Ab, C/G",
+    "Giọng: C Major",
+    "Gam: C Melodic Major",
+    "Nốt màu: b7, b6",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Bb",
+      "F/A",
+      "Fm/Ab",
+      "C/G"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Hợp âm Bb (bVII) từ Trưởng Giai Điệu được tạo ra do nốt Bb (b7) ghép với D và F, ứng dụng tạo câu lót, intro phong cách Pop/Ballad hiện đại, ví dụ chuỗi tiến trình C -> Bb -> F/A -> Fm/Ab -> C/G.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Bb",
+        "F/A",
+        "Fm/Ab",
+        "C/G"
+      ],
+      "tensions": [
+        "b7",
+        "b6"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Melodic Major"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Bb",
+      "notes": [
+        "Bb2",
+        "F3",
+        "Bb3",
+        "D4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "Bb2",
+          "F3"
+        ],
+        "right": [
+          "Bb3",
+          "D4",
+          "F4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Bb (bVII) từ Trưởng Giai Điệu được tạo ra do nốt Bb (b7) ghép với D và F, ứng dụng tạo câu lót, intro phong cách Pop/Ballad hiện đại, ví dụ chuỗi tiến trình C -> Bb -> F/A -> Fm/Ab -> C/G."
+}

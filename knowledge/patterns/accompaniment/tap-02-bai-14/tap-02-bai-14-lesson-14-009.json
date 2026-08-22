@@ -1,0 +1,134 @@
+{
+  "id": "tap-02-bai-14-lesson-14-009",
+  "type": "exercise",
+  "name": "Tổng kết Bài 14: Luyện tập áp dụng linh hoạt hợp âm 11, 13 và hợp âm 6 vào các vòng hòa âm thực tế",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:27:31-00:30:33 pdf p.5",
+    "media_id": "video_tap_02_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 5,
+        "section": "BÀI 14 : HỢP ÂM 11 và 13"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C7(9,11), Cm11, C13, E7(b13), Fm6",
+    "Giọng: C major, A minor",
+    "Nốt màu: 11, 13, b13",
+    "Điệu / phong cách: Pop, Jazz, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C7(9,11)",
+      "Cm11",
+      "C13",
+      "E7(b13)",
+      "Fm6"
+    ],
+    "style": [
+      "pop",
+      "jazz",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Tổng kết Bài 14: Luyện tập áp dụng linh hoạt hợp âm 11, 13 và hợp âm 6 vào các vòng hòa âm thực tế. Chuẩn bị cho Bài 15 (Tổng hợp hòa âm nâng cao vào tác phẩm 'Nàng Thơ').",
+    "music_entities": {
+      "chords": [
+        "C7(9,11)",
+        "Cm11",
+        "C13",
+        "E7(b13)",
+        "Fm6"
+      ],
+      "tensions": [
+        "11",
+        "13",
+        "b13"
+      ],
+      "keys": [
+        "C major",
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop",
+        "Jazz",
+        "Worship"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7(9,13)",
+      "notes": [
+        "C2",
+        "G2",
+        "B3",
+        "D4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "B3",
+          "D4",
+          "E4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7(9,13)",
+        "notes": [
+          "C2",
+          "G2",
+          "B3",
+          "D4",
+          "E4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "B3",
+            "D4",
+            "E4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tổng kết Bài 14: Luyện tập áp dụng linh hoạt hợp âm 11, 13 và hợp âm 6 vào các vòng hòa âm thực tế. Chuẩn bị cho Bài 15 (Tổng hợp hòa âm nâng cao vào tác phẩm 'Nàng Thơ')."
+}

@@ -1,0 +1,126 @@
+{
+  "id": "tap-01-bai-14-lesson-14-00003",
+  "type": "voicing",
+  "name": "Bước 4 & 5: Mở rộng hợp âm với Sus2 và Sus4 cho cả hợp âm Trưởng và Thứ (Csus2, Fsus2, Gsus2, Csus4, Fsus4, Gsus4) nhằm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-14",
+    "locator": "08:35-09:32 pdf p.8",
+    "media_id": "video_tap_01_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_01_bai_11_15",
+        "page": 8,
+        "section": "4. Hợp Âm Sus2 & 5. Hợp Âm Sus4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Csus2, Fsus2, Gsus2, Csus4, Fsus4, Gsus4, Amsus2, Dmsus2, Emsus2",
+    "Giọng: C Major",
+    "Nốt màu: sus2, sus4"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Csus2",
+      "Fsus2",
+      "Gsus2",
+      "Csus4",
+      "Fsus4",
+      "Gsus4",
+      "Amsus2",
+      "Dmsus2",
+      "Emsus2"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Bước 4 & 5: Mở rộng hợp âm với Sus2 và Sus4 cho cả hợp âm Trưởng và Thứ (Csus2, Fsus2, Gsus2, Csus4, Fsus4, Gsus4) nhằm tạo hiệu ứng lơ lửng, chuyển tiếp mềm mại.",
+    "music_entities": {
+      "chords": [
+        "Csus2",
+        "Fsus2",
+        "Gsus2",
+        "Csus4",
+        "Fsus4",
+        "Gsus4",
+        "Amsus2",
+        "Dmsus2",
+        "Emsus2"
+      ],
+      "tensions": [
+        "sus2",
+        "sus4"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "Csus4 -> C",
+      "notes": [
+        "C",
+        "F",
+        "G",
+        "E"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "C4",
+          "F4",
+          "G4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Csus4 -> C",
+        "notes": [
+          "C",
+          "F",
+          "G",
+          "E"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "C4",
+            "F4",
+            "G4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bước 4 & 5: Mở rộng hợp âm với Sus2 và Sus4 cho cả hợp âm Trưởng và Thứ (Csus2, Fsus2, Gsus2, Csus4, Fsus4, Gsus4) nhằm tạo hiệu ứng lơ lửng, chuyển tiếp mềm mại."
+}

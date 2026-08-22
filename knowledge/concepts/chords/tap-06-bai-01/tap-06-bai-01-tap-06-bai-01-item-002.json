@@ -1,0 +1,101 @@
+{
+  "id": "tap-06-bai-01-tap-06-bai-01-item-002",
+  "type": "concept",
+  "name": "Sử dụng vòng hòa âm 1-6-2-5 trên giọng Đô trưởng (C Major) gồm các hợp âm bậc Cmaj7 - Am7(9) - Dm7(9) - G7 để thực hành",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-01",
+    "locator": "00:03:05-00:04:09 pdf p.1",
+    "media_id": "video_tap_06_bai_01",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_01",
+        "page": 1,
+        "section": "Vòng hòa âm áp dụng"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Am7, Dm7, G7",
+    "Giọng: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Am7",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Sử dụng vòng hòa âm 1-6-2-5 trên giọng Đô trưởng (C Major) gồm các hợp âm bậc Cmaj7 - Am7(9) - Dm7(9) - G7 để thực hành xuyên suốt các mẫu đệm 16 Beat.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Am7",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7 - Am7(9) - Dm7(9) - G7",
+      "notes": [
+        "C",
+        "E",
+        "G",
+        "B",
+        "A",
+        "C",
+        "E",
+        "G",
+        "B",
+        "D",
+        "F",
+        "A",
+        "C",
+        "E",
+        "G",
+        "B",
+        "D",
+        "F"
+      ],
+      "hands": {
+        "left": [
+          "C2-G2",
+          "A1-E2",
+          "D2-A2",
+          "G1-D2"
+        ],
+        "right": [
+          "E4-G4-B4-D5",
+          "G3-C4-E4-B4",
+          "F3-A3-C4-E4",
+          "F3-A3-B3-E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng vòng hòa âm 1-6-2-5 trên giọng Đô trưởng (C Major) gồm các hợp âm bậc Cmaj7 - Am7(9) - Dm7(9) - G7 để thực hành xuyên suốt các mẫu đệm 16 Beat."
+}

@@ -1,0 +1,125 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-011",
+  "type": "fill",
+  "name": "Dùng nốt bậc 9 để chạy câu dán/câu lót (fill-in) khi chuyển hợp âm: Tay trái giữ 1-5 hoặc 1-7, tay phải rải câu giai điệ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:22:25-00:28:50 pdf p.8",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 8,
+        "section": "BÀI 9 : ỨNG DỤNG HỢP ÂM 9 LÀM CÂU LÓT"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, Fmaj79, Gsus4, C9",
+    "Giọng: C major",
+    "Gam: Diatonic",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Ballad Fill-in"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "Fmaj79",
+      "Gsus4",
+      "C9"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad-fill-in"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Dùng nốt bậc 9 để chạy câu dán/câu lót (fill-in) khi chuyển hợp âm: Tay trái giữ 1-5 hoặc 1-7, tay phải rải câu giai điệu đi qua nốt bậc 9 trước khi giải về nốt hòa âm chính.",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "Fmaj79",
+        "Gsus4",
+        "C9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "Diatonic"
+      ],
+      "styles": [
+        "Ballad Fill-in"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "C2",
+        "G2",
+        "D4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "D4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cadd9",
+        "notes": [
+          "C2",
+          "G2",
+          "D4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2"
+          ],
+          "right": [
+            "D4",
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Dùng nốt bậc 9 để chạy câu dán/câu lót (fill-in) khi chuyển hợp âm: Tay trái giữ 1-5 hoặc 1-7, tay phải rải câu giai điệu đi qua nốt bậc 9 trước khi giải về nốt hòa âm chính."
+}

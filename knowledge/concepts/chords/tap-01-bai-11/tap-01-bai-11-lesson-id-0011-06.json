@@ -1,0 +1,86 @@
+{
+  "id": "tap-01-bai-11-lesson-id-0011-06",
+  "type": "concept",
+  "name": "Hợp âm Giảm (Diminished triad / dim / -5 / b5 / Cm0): Cấu tạo gồm 2 quãng 3 thứ chồng lên nhau (Q3t + Q3t = Quãng 5 giảm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-11",
+    "locator": "00:18:18-00:19:48 pdf p.3",
+    "media_id": "video_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_11_15",
+        "page": 3,
+        "section": "3. GIẢM"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cdim, Bdim, F#m-5, G#dim",
+    "Giọng: C, Am",
+    "Nốt màu: b5",
+    "Điệu / phong cách: dramatic, cinematic, pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cdim",
+      "Bdim",
+      "F#m-5",
+      "G#dim"
+    ],
+    "style": [
+      "dramatic",
+      "cinematic",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hợp âm Giảm (Diminished triad / dim / -5 / b5 / Cm0): Cấu tạo gồm 2 quãng 3 thứ chồng lên nhau (Q3t + Q3t = Quãng 5 giảm / 3 cung). Ví dụ Cdim: C - Eb - Gb. Màu sắc âm nhạc: Nghịch, căng, kịch tính, ma mị, bi thảm, hụt hẫng.",
+    "music_entities": {
+      "chords": [
+        "Cdim",
+        "Bdim",
+        "F#m-5",
+        "G#dim"
+      ],
+      "tensions": [
+        "b5"
+      ],
+      "keys": [
+        "C",
+        "Am"
+      ],
+      "scales": [],
+      "styles": [
+        "dramatic",
+        "cinematic",
+        "pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cdim",
+      "notes": [
+        "C4",
+        "Eb4",
+        "Gb4"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "C4",
+          "Eb4",
+          "Gb4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Giảm (Diminished triad / dim / -5 / b5 / Cm0): Cấu tạo gồm 2 quãng 3 thứ chồng lên nhau (Q3t + Q3t = Quãng 5 giảm / 3 cung). Ví dụ Cdim: C - Eb - Gb. Màu sắc âm nhạc: Nghịch, căng, kịch tính, ma mị, bi thảm, hụt hẫng."
+}

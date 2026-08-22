@@ -1,0 +1,14 @@
+{
+  "id": "color-ii-v-i-l4",
+  "type": "chord_color",
+  "name": "ii-V-I bảng màu 4 — V biến âm",
+  "difficulty": 4,
+  "source": null,
+  "use_when": ["Cần V căng hơn trước khi về I", "Jazz ballad"],
+  "avoid_when": ["Giai điệu đang giữ nốt bậc 5 tự nhiên trên V", "Pop mộc"],
+  "input": { "progression": ["ii", "V", "I"], "key_context": "major", "style": ["jazz"], "difficulty_max": 5 },
+  "output": { "qualities": { "ii": "m9", "V": "7b13", "I": "maj9" }, "inserts": [] },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "V7b13 làm nốt căng đi xuống nửa cung vào bậc 5 của I. Đây là chỗ dễ nghe nhất để hiểu vì sao biến âm chỉ đặt trên hợp âm át."
+}

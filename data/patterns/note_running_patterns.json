@@ -1,0 +1,1508 @@
+[
+  {
+    "pattern_id": "Tap_01_Bai_01_lesson_id_00001_pattern_ballad_styles",
+    "type": "note_running_pattern",
+    "name": "3 Dạng tiết tấu Ballad cơ bản: Dạng 1 đệm rải/dập phách nốt đen tay phải trên nố",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Ballad"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3-G3-C4-E4 (móc đơn 1-5-1-3)"
+        ],
+        "right": [
+          "Melody/Giai điệu"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_01_Bai_01",
+        "lesson_id": "hai_piano_course_001_lesson_01",
+        "source_id": "video_input_0",
+        "timestamp_start": "33:33",
+        "timestamp_end": "39:00",
+        "pdf_page": 5
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_01_Bai_02_hai_piano_001_bai_02_004",
+    "type": "note_running_pattern",
+    "name": "Ballad Kiểu 3 (Dùng cho Solo / Intro / Câu lót): Tay trái rải nốt móc đơn theo c",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Ballad",
+        "Solo Piano"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "E3"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3",
+          "E3"
+        ],
+        "right": [
+          "Melody / Chord Fill"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_01_Bai_02",
+        "lesson_id": "Tap_01_Bai_02",
+        "source_id": "video_001",
+        "timestamp_start": "19:19",
+        "timestamp_end": "22:52",
+        "pdf_page": 6
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_01_Bai_06_tap01_bai06_005",
+    "type": "note_running_pattern",
+    "name": "Phân tích hòa âm thực hành trọn vẹn tác phẩm 'Silent Night' (Đêm Thánh Vô Cùng) ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "F#m-5 (F#m7b5)",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Waltz",
+        "Slow Ballad",
+        "Sacred Music"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "F#m-5 (F#m7b5)",
+      "notes": [
+        "F#2",
+        "A3",
+        "C4",
+        "E4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "F#2"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_01_Bai_06",
+        "lesson_id": "Tap_01_Bai_06",
+        "source_id": "video_tap01_bai06",
+        "timestamp_start": "15:30:00",
+        "timestamp_end": "28:40:00",
+        "pdf_page": 3
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_01_Bai_10_hai_piano_c001_l010_008",
+    "type": "note_running_pattern",
+    "name": "Tiết tấu Boston Kiểu C (Chuyên dùng cho Solo / Intro / Câu lót): Tay trái rải ch",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Boston",
+        "Solo Piano"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "E3",
+        "C3",
+        "G2"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3",
+          "E3",
+          "C3",
+          "G2"
+        ],
+        "right": []
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_01_Bai_10",
+        "lesson_id": "hai_piano_c001_l010",
+        "source_id": "video_l10",
+        "timestamp_start": "31:38:00",
+        "timestamp_end": "34:13:00",
+        "pdf_page": 9
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_02_Bai_09_tap02_bai09_k008",
+    "type": "note_running_pattern",
+    "name": "Kỹ thuật kết bài bằng dải rải arpeggio/chạy ngón hợp âm 9: Rải nối tiếp nốt bậc ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Cmaj7(9) Arpeggio Run",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Solo Piano",
+        "Ending Technique"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Cmaj7(9) Arpeggio Run",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "B3",
+        "D4",
+        "E4",
+        "G4",
+        "B4",
+        "D5",
+        "E5"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "C3",
+          "E3",
+          "G3",
+          "B3",
+          "D4",
+          "E4",
+          "G4",
+          "B4",
+          "D5"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_02_Bai_09",
+        "lesson_id": "hai_piano_tap02_bai09",
+        "source_id": "video_tap02_bai09",
+        "timestamp_start": "00:25:16",
+        "timestamp_end": "00:27:06",
+        "pdf_page": 8
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_01_lesson_id_00001_pattern_02",
+    "type": "note_running_pattern",
+    "name": "Kỹ thuật Legato (Kéo ngón tay / Liền tiếng): Giữ cổ tay cố định thả lỏng, nâng đ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Ballad",
+        "Pop Solo"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": null,
+      "notes": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3",
+          "D3",
+          "E3",
+          "F3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_01",
+        "lesson_id": "Tap_03_Bai_01",
+        "source_id": "video_tap_03_bai_01",
+        "timestamp_start": "00:15:20",
+        "timestamp_end": "00:28:04",
+        "pdf_page": null
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_04_lesson_tap3_bai4_001",
+    "type": "note_running_pattern",
+    "name": "Kỹ thuật rải Arpeggio quãng rộng (Extended Range Arpeggios) trên hợp âm C Major.",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Piano Solo",
+        "Pop/Ballad Accompaniment"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C4",
+        "E4",
+        "G4",
+        "C5",
+        "E5",
+        "G5",
+        "C6"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "C4"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4",
+          "C5",
+          "E5",
+          "G5",
+          "C6"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_04",
+        "lesson_id": "Tap_03_Bai_04",
+        "source_id": "video_001",
+        "timestamp_start": "02:24",
+        "timestamp_end": "05:07",
+        "pdf_page": 1
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_07_tap_03_bai_07_002",
+    "type": "note_running_pattern",
+    "name": "Kỹ thuật xếp ngón và xử lý nốt lặp cho tay phải bài Mùa Xuân. Khi hai nốt cùng c",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Solo Piano"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": null,
+      "notes": [
+        "C4",
+        "C4",
+        "G4",
+        "G4",
+        "A4",
+        "A4",
+        "G4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [],
+        "right": [
+          "C4(1)",
+          "C4(1)",
+          "G4(4)",
+          "G4(4)",
+          "A4(5)",
+          "A4(5)",
+          "G4(4)"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_07",
+        "lesson_id": "tap_03_bai_07",
+        "source_id": "video_tap_03_bai_07",
+        "timestamp_start": "00:01:06",
+        "timestamp_end": "00:05:52",
+        "pdf_page": 4
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_07_tap_03_bai_07_004",
+    "type": "note_running_pattern",
+    "name": "Ghép hai tay bài Mùa Xuân: Tay trái chạy liên tục các nốt móc đơn đòi hỏi sự độc",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Solo Piano"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "E3",
+        "G3",
+        "C4",
+        "G4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3",
+          "G3",
+          "E3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "C4",
+          "G4",
+          "G4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_07",
+        "lesson_id": "tap_03_bai_07",
+        "source_id": "video_tap_03_bai_07",
+        "timestamp_start": "00:08:17",
+        "timestamp_end": "00:17:09",
+        "pdf_page": 4
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_10_tap_03_bai_10_001",
+    "type": "note_running_pattern",
+    "name": "Demo trình diễn Piano Solo bài Can't Help Falling In Love với tiết tấu Slow Rock",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "F",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Slow Rock",
+        "Pop Ballad"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "F",
+      "notes": [
+        "F2",
+        "C3",
+        "F3",
+        "A3",
+        "C4",
+        "F4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "F2",
+          "C3",
+          "F3"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "F4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_10",
+        "lesson_id": "Tap_03_Bai_10",
+        "source_id": "video_tap_03_bai_10",
+        "timestamp_start": "00:00:00",
+        "timestamp_end": "00:00:34",
+        "pdf_page": 9
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_11_tap_03_bai_11_002",
+    "type": "note_running_pattern",
+    "name": "Kỹ thuật đổi ngón trên cùng một nốt lặp lại ở giai điệu Intro: Khi gặp chuỗi nốt",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Dadd9",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Pop Solo"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Dadd9",
+      "notes": [
+        "F#4",
+        "G4",
+        "A4",
+        "A4",
+        "A4",
+        "A4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [],
+        "right": [
+          "F#4",
+          "G4",
+          "A4",
+          "A4",
+          "A4",
+          "A4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_11",
+        "lesson_id": "hai_piano_tap_03_bai_11",
+        "source_id": "video_tap_03_bai_11",
+        "timestamp_start": "00:02:43",
+        "timestamp_end": "00:05:49",
+        "pdf_page": 11
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_11_tap_03_bai_11_004",
+    "type": "note_running_pattern",
+    "name": "Ghép hai tay đoạn Intro: Tay trái đi các hợp âm dải ngón rải móc đơn mượt mà, ta",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "A/C#",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Pop Solo"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "A/C#",
+      "notes": [
+        "C#3",
+        "A3",
+        "E4",
+        "F#4",
+        "A4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C#3",
+          "A3",
+          "E4"
+        ],
+        "right": [
+          "F#4",
+          "A4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_11",
+        "lesson_id": "hai_piano_tap_03_bai_11",
+        "source_id": "video_tap_03_bai_11",
+        "timestamp_start": "00:08:18",
+        "timestamp_end": "00:11:06",
+        "pdf_page": 11
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_11_tap_03_bai_11_007",
+    "type": "note_running_pattern",
+    "name": "Đoạn Điệp khúc B (Anh ch chớ biết...): Tay trái chuyển sang đánh nốt Bass quãng ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "D",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Pop Solo",
+        "Power Ballad"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "D",
+      "notes": [
+        "D2",
+        "D3",
+        "F#4",
+        "A4",
+        "D5"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "D2",
+          "D3"
+        ],
+        "right": [
+          "F#4",
+          "A4",
+          "D5"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_11",
+        "lesson_id": "hai_piano_tap_03_bai_11",
+        "source_id": "video_tap_03_bai_11",
+        "timestamp_start": "00:20:12",
+        "timestamp_end": "00:25:54",
+        "pdf_page": 12
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_11_tap_03_bai_11_008",
+    "type": "note_running_pattern",
+    "name": "Trình diễn toàn bộ tác phẩm Piano Solo 'Tình Thôi Xót Xa' với đầy đủ Intro, Vers",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Dadd9",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Pop Solo"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Dadd9",
+      "notes": [
+        "D2",
+        "A2",
+        "F#3",
+        "A3",
+        "C#4",
+        "E4",
+        "F#4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "D2",
+          "A2"
+        ],
+        "right": [
+          "F#3",
+          "A3",
+          "C#4",
+          "E4",
+          "F#4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_11",
+        "lesson_id": "hai_piano_tap_03_bai_11",
+        "source_id": "video_tap_03_bai_11",
+        "timestamp_start": "00:27:55",
+        "timestamp_end": "00:31:11",
+        "pdf_page": 11
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_12_tap_03_bai_12_001",
+    "type": "note_running_pattern",
+    "name": "Trình diễn thị phạm Piano Solo tác phẩm 'Tháng Tư Là Lời Nói Dối Của Em' làm mẫu",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Fmaj7",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Pop Ballad",
+        "Piano Solo"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Fmaj7",
+      "notes": [
+        "F2",
+        "C3",
+        "E3",
+        "A3",
+        "C4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "F2",
+          "C3"
+        ],
+        "right": [
+          "E3",
+          "A3",
+          "C4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_12",
+        "lesson_id": "tap_03_bai_12",
+        "source_id": "video_tap_03_bai_12",
+        "timestamp_start": "00:00:00",
+        "timestamp_end": "00:00:51",
+        "pdf_page": 13
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_12_tap_03_bai_12_005",
+    "type": "note_running_pattern",
+    "name": "Tập chậm từng tay và ghép hai tay cho phiên khúc (Verse 1). Chú ý điểm rơi của p",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Cmaj7",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Solo Piano"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Cmaj7",
+      "notes": [
+        "C2",
+        "G2",
+        "B3",
+        "E4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "B3",
+          "E4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_12",
+        "lesson_id": "tap_03_bai_12",
+        "source_id": "video_tap_03_bai_12",
+        "timestamp_start": "00:09:38",
+        "timestamp_end": "00:11:15",
+        "pdf_page": 13
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_13_tap_03_bai_13_item_005",
+    "type": "note_running_pattern",
+    "name": "Kỹ thuật phân bổ hòa âm: Tay phải không chỉ đánh giai điệu chính mà còn chơi kẹp",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Gadd9 / C/G",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Pop Piano Solo"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Gadd9 / C/G",
+      "notes": [
+        "G2",
+        "D3",
+        "A3",
+        "B3",
+        "D4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "G2",
+          "D3"
+        ],
+        "right": [
+          "A3",
+          "B3",
+          "D4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_13",
+        "lesson_id": "tap_03_bai_13",
+        "source_id": "video_tap_03_bai_13",
+        "timestamp_start": "02:40:00",
+        "timestamp_end": "03:05:00",
+        "pdf_page": 16
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_14_lesson_tap_03_bai_14_007",
+    "type": "note_running_pattern",
+    "name": "Kỹ thuật phân chia nhiệm vụ hai tay ở trang 2: Khi tay trái phải di chuyển âm vự",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Bb",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Solo Piano Voicing"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Bb",
+      "notes": [
+        "Bb",
+        "F",
+        "D",
+        "F"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "Bb2",
+          "F3"
+        ],
+        "right": [
+          "D4",
+          "F4",
+          "Bb4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_14",
+        "lesson_id": "Tap_03_Bai_14",
+        "source_id": "video_tap_03_bai_14",
+        "timestamp_start": "16:50:00",
+        "timestamp_end": "22:18:00",
+        "pdf_page": 18
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_14_lesson_tap_03_bai_14_008",
+    "type": "note_running_pattern",
+    "name": "Trình diễn mẫu toàn bộ bài Piano Solo 'Cơn Gió Lạ' với tốc độ vừa phải, thể hiện",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "Pop Ballad Solo"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C",
+        "G",
+        "E"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "E3"
+        ],
+        "right": [
+          "G4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_14",
+        "lesson_id": "Tap_03_Bai_14",
+        "source_id": "video_tap_03_bai_14",
+        "timestamp_start": "22:18:00",
+        "timestamp_end": "24:34:00",
+        "pdf_page": 17
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_15_hai_piano_t3_b15_002",
+    "type": "note_running_pattern",
+    "name": "Kỹ thuật rải móc kép (16th-note arpeggio figure) cho tay phải trong đoạn Intro: ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "pop solo"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C4",
+        "E4",
+        "G4",
+        "C5",
+        "E5"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_15",
+        "lesson_id": "hai_piano_tap_03_bai_15",
+        "source_id": "video_tap_03_bai_15",
+        "timestamp_start": "00:01:43",
+        "timestamp_end": "00:03:34",
+        "pdf_page": 19
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_15_hai_piano_t3_b15_005",
+    "type": "note_running_pattern",
+    "name": "Đoạn Điệp khúc (Chorus) sử dụng Mi trưởng (E7/G#) đóng vai trò Secondary Dominan",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "E7/G#",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "ballad solo"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "E7/G#",
+      "notes": [
+        "G#2",
+        "E3",
+        "G#3",
+        "B3",
+        "D4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "G#2"
+        ],
+        "right": [
+          "E3",
+          "G#3",
+          "B3",
+          "D4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_15",
+        "lesson_id": "hai_piano_tap_03_bai_15",
+        "source_id": "video_tap_03_bai_15",
+        "timestamp_start": "00:13:43",
+        "timestamp_end": "00:16:01",
+        "pdf_page": 20
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_03_Bai_15_hai_piano_t3_b15_006",
+    "type": "note_running_pattern",
+    "name": "Thực hành trình diễn hoàn chỉnh bài Happy New Year trên piano solo ở nhịp 4/4 tố",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "C",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "pop solo"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "C",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_03_Bai_15",
+        "lesson_id": "hai_piano_tap_03_bai_15",
+        "source_id": "video_tap_03_bai_15",
+        "timestamp_start": "00:20:33",
+        "timestamp_end": "00:22:46",
+        "pdf_page": 19
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  },
+  {
+    "pattern_id": "Tap_04_Bai_10_hai_piano_course_001_tap_04_bai_10_006",
+    "type": "note_running_pattern",
+    "name": "Mẫu câu lót 16-Beat số 5: Thực hành hoàn chỉnh 2 vòng hòa âm kết hợp câu Intro, ",
+    "applies_when": {
+      "chord_quality": null,
+      "chord_symbol": "Esus4 - E7 - Am",
+      "scale": null,
+      "key_context": null,
+      "phrase_position": null,
+      "style_tags": [
+        "16-Beat Pop Ballad"
+      ],
+      "difficulty": null
+    },
+    "formula": {
+      "intervals": [],
+      "scale_degrees": [],
+      "rhythm": [],
+      "contour": null
+    },
+    "example": {
+      "key": null,
+      "chord": "Esus4 - E7 - Am",
+      "notes": [
+        "E3",
+        "A3",
+        "B3",
+        "E4",
+        "G#3",
+        "B3",
+        "D4",
+        "E4",
+        "A2",
+        "E3",
+        "A3",
+        "C4",
+        "E4"
+      ],
+      "rhythm": [],
+      "hands": {
+        "left": [
+          "E2",
+          "A2"
+        ],
+        "right": [
+          "A3",
+          "B3",
+          "E4",
+          "G#3",
+          "B3",
+          "D4",
+          "C4"
+        ]
+      }
+    },
+    "transformations": {
+      "transpose": true,
+      "diatonic_adapt": true,
+      "chromatic_adapt": null
+    },
+    "validation": {},
+    "source_refs": [
+      {
+        "lesson_folder": "Tap_04_Bai_10",
+        "lesson_id": "hai_piano_course_001_tap_04_bai_10",
+        "source_id": "video_tap_04_bai_10",
+        "timestamp_start": "00:10:10",
+        "timestamp_end": "00:12:35",
+        "pdf_page": 51
+      }
+    ],
+    "confidence": "direct",
+    "status": "approved"
+  }
+]

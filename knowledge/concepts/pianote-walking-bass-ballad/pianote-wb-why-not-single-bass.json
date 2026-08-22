@@ -1,0 +1,26 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-why-not-single-bass",
+  "type": "concept",
+  "name": "1-2-3-5 làm tay trái tự sinh một bè trầm có giai điệu, thay vì dậm nốt bass đơn lẻ",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:01:15"
+  },
+  "use_when": [
+    "Đệm hát ballad mà bè trái nghe chán"
+  ],
+  "output": {
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Bước đi 1-2-3-5 giúp tay trái tự sinh ra một đường bè trầm có giai điệu rõ ràng, xóa bỏ sự đơn điệu khi đệm hát ballad thay vì chỉ dậm nốt bass đơn lẻ.",
+  "input": {
+    "style": [
+      "pop_ballad"
+    ]
+  }
+}

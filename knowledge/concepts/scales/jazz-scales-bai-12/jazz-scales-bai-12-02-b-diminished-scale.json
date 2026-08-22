@@ -1,0 +1,80 @@
+{
+  "id": "jazz-scales-bai-12-02-b-diminished-scale",
+  "type": "scale",
+  "name": "Gam B Diminished Scale cho hợp âm G7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-12",
+    "locator": "02:03-05:53",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm G7b9",
+    "Ngẫu hứng jazz trên hợp âm Bdim7",
+    "Chọn gam / scale khi gặp hợp âm 7, 7b9, dim7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "7b9",
+      "dim7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "B Diminished Scale",
+      "root": "B",
+      "note_names": [
+        "G",
+        "Ab",
+        "A#",
+        "B",
+        "C#",
+        "D",
+        "E",
+        "F"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "dim7"
+      ],
+      "use_when": [
+        "hợp âm G7",
+        "hợp âm G7b9",
+        "hợp âm Bdim7"
+      ]
+    },
+    "chord_symbol": "G7b9",
+    "notes": [
+      "G",
+      "Ab",
+      "A#",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F"
+    ],
+    "source_text": "The Half-Whole / Whole-Half Diminished Scale over G7 (derived from Bdim7) is an 8-note scale containing 3 altered notes: b9, #9, and #11."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 12 của nguồn Jazz Scales (YouTube), mốc 02:03-05:53. The Half-Whole / Whole-Half Diminished Scale over G7 (derived from Bdim7) is an 8-note scale containing 3 altered notes: b9, #9, and #11. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

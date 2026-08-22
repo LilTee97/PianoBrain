@@ -1,0 +1,79 @@
+{
+  "id": "tap-03-bai-11-r-piano-finger-switch-repeated-notes",
+  "type": "rule",
+  "name": "Đổi ngón tay liên tục khi đánh nốt giai điệu lặp lại",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-11",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Pop Ballad, Pop Solo, Power Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "pop-ballad",
+      "pop-solo",
+      "power-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop Ballad",
+        "Pop Solo",
+        "Power Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Đổi ngón tay liên tục khi đánh nốt giai điệu lặp lại",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_PIANO_FINGER_SWITCH_REPEATED_NOTES",
+      "domain": "piano_technique",
+      "summary": "Đổi ngón tay liên tục khi đánh nốt giai điệu lặp lại",
+      "statement": "Khi gặp chuỗi nốt nhạc lặp lại cùng một cao độ trong giai điệu tốc độ vừa/nhanh, cần áp dụng kỹ thuật đổi ngón (VD: 5-4-3-2) thay vì dùng 1 ngón đập liên tiếp, giúp cổ tay thả lỏng và câu nhạc mượt mà.",
+      "conditions": {
+        "melodic_pattern": "repeated_same_pitch_notes",
+        "tempo": "medium_to_fast"
+      },
+      "action": {
+        "change_fingers": [
+          "5",
+          "4",
+          "3",
+          "2"
+        ],
+        "wrist_state": "relaxed"
+      },
+      "lesson_folder": "Tap_03_Bai_11"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Đổi ngón tay liên tục khi đánh nốt giai điệu lặp lại"
+}

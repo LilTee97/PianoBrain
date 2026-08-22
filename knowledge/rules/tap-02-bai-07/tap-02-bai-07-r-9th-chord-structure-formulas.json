@@ -1,0 +1,83 @@
+{
+  "id": "tap-02-bai-07-r-9th-chord-structure-formulas",
+  "type": "rule",
+  "name": "Hợp âm 9 được tạo thành bằng cách chồng thêm quãng 3 lên hợp âm 7 tương ứng.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-07",
+    "locator": "00:15:15-00:22:30 pdf p.6",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Advanced Accompaniment, All Styles, Ballad, Cinematic, Jazz, Light Music, Pop Ballad, Soul, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "advanced-accompaniment",
+      "all-styles",
+      "pop_ballad",
+      "ballad",
+      "cinematic",
+      "jazz",
+      "light-music",
+      "pop",
+      "pop-ballad",
+      "soul",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Advanced Accompaniment",
+        "All Styles",
+        "Ballad",
+        "Cinematic",
+        "Jazz",
+        "Light Music",
+        "Pop Ballad",
+        "Soul",
+        "Worship"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "1. Major 9 (Cmaj79 / C.Major7.9): H.A 7 Trưởng + Q3 thứ (1 - 3 - 5 - 7 - 9: C-E-G-B-D).\n2. Dominant 9 (C9 / C79): H.A 7 Át + Q3 trưởng (1 - 3 - 5 - b7 - 9: C-E-G-bB-D).\n3. Minor 9 (Cm79): H.A 7 Thứ + Q3 trưởng (1 - b3 - 5 - b7 - 9: C-bE-G-bB-D).\n4. Dominant 7 Flat 9 (C7(-9) / C7b9): H.A 7 Át + Q3 thứ (1 - 3 - 5 - b7 - b9: C-E-G-bB-bD).\n5. Add9 (Cadd9): H.A 3 Trưởng + Nốt bậc 9 (không có nốt bậc 7: 1 - 3 - 5 - 9: C-E-G-D).\n",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_9TH_CHORD_STRUCTURE_FORMULAS",
+      "title": "Công thức cấu tạo các loại Hợp âm 9",
+      "domain": "harmony_and_voicings",
+      "summary": "Hợp âm 9 được tạo thành bằng cách chồng thêm quãng 3 lên hợp âm 7 tương ứng.",
+      "description": "1. Major 9 (Cmaj79 / C.Major7.9): H.A 7 Trưởng + Q3 thứ (1 - 3 - 5 - 7 - 9: C-E-G-B-D).\n2. Dominant 9 (C9 / C79): H.A 7 Át + Q3 trưởng (1 - 3 - 5 - b7 - 9: C-E-G-bB-D).\n3. Minor 9 (Cm79): H.A 7 Thứ + Q3 trưởng (1 - b3 - 5 - b7 - 9: C-bE-G-bB-D).\n4. Dominant 7 Flat 9 (C7(-9) / C7b9): H.A 7 Át + Q3 thứ (1 - 3 - 5 - b7 - b9: C-E-G-bB-bD).\n5. Add9 (Cadd9): H.A 3 Trưởng + Nốt bậc 9 (không có nốt bậc 7: 1 - 3 - 5 - 9: C-E-G-D).\n",
+      "applies_to": [
+        "Cmaj79",
+        "C9",
+        "Cm79",
+        "C7(-9)",
+        "Cadd9"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_07"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "1. Major 9 (Cmaj79 / C.Major7.9): H.A 7 Trưởng + Q3 thứ (1 - 3 - 5 - 7 - 9: C-E-G-B-D).\n2. Dominant 9 (C9 / C79): H.A 7 Át + Q3 trưởng (1 - 3 - 5 - b7 - 9: C-E-G-bB-D).\n3. Minor 9 (Cm79): H.A 7 Thứ + Q3 trưởng (1 - b3 - 5 - b7 - 9: C-bE-G-bB-D).\n4. Dominant 7 Flat 9 (C7(-9) / C7b9): H.A 7 Át + Q3 thứ (1 - 3 - 5 - b7 - b9: C-E-G-bB-bD).\n5. Add9 (Cadd9): H.A 3 Trưởng + Nốt bậc 9 (không có nốt bậc 7: 1 - 3 - 5 - 9: C-E-G-D)."
+}

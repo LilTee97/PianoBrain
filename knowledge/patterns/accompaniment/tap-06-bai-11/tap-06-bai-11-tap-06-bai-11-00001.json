@@ -1,0 +1,140 @@
+{
+  "id": "tap-06-bai-11-tap-06-bai-11-00001",
+  "type": "exercise",
+  "name": "Mở đầu bài học bằng đoạn trình diễn mẫu hòa tấu đệm piano tiết điệu Pop Rock trên vòng hòa âm C - G - Am - F - C.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-11",
+    "locator": "00:00:10-00:00:39 pdf p.1",
+    "media_id": "video_tap_06_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_11",
+        "page": 1,
+        "section": "Melodic Preview / Demo"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G, Am, F, Cmaj7, G/B, Am7, Fmaj7",
+    "Giọng: C major",
+    "Gam: C Major Scale",
+    "Nốt màu: 7, maj7",
+    "Điệu / phong cách: Pop Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G",
+      "Am",
+      "F",
+      "Cmaj7",
+      "G/B",
+      "Am7",
+      "Fmaj7"
+    ],
+    "style": [
+      "pop",
+      "pop-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mở đầu bài học bằng đoạn trình diễn mẫu hòa tấu đệm piano tiết điệu Pop Rock trên vòng hòa âm C - G - Am - F - C.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "F",
+        "Cmaj7",
+        "G/B",
+        "Am7",
+        "Fmaj7"
+      ],
+      "tensions": [
+        "7",
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Pop Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - G - Am - F",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "B4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C - G - Am - F",
+        "notes": [
+          "C3",
+          "G3",
+          "C4",
+          "E4",
+          "G4",
+          "B4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "C3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "B4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mở đầu bài học bằng đoạn trình diễn mẫu hòa tấu đệm piano tiết điệu Pop Rock trên vòng hòa âm C - G - Am - F - C."
+}

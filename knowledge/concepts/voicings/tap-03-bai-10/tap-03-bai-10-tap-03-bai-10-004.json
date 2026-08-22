@@ -1,0 +1,116 @@
+{
+  "id": "tap-03-bai-10-tap-03-bai-10-004",
+  "type": "voicing",
+  "name": "Mẫu âm hình rải tay trái chuẩn Slow Rock: Chơi theo chùm 3 nốt (1-5-8 hoặc 1-5-10) đều đặn cho mỗi phách",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-10",
+    "locator": "00:04:07-00:05:47 pdf p.9",
+    "media_id": "video_tap_03_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 9,
+        "section": "Left Hand Accompaniment"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: F, Am, Dm, Bb",
+    "Giọng: F Major",
+    "Gam: F Major Scale",
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "F",
+      "Am",
+      "Dm",
+      "Bb"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Mẫu âm hình rải tay trái chuẩn Slow Rock: Chơi theo chùm 3 nốt (1-5-8 hoặc 1-5-10) đều đặn cho mỗi phách. Ví dụ hợp âm F: F2-C3-F3-A3-F3-C3.",
+    "music_entities": {
+      "chords": [
+        "F",
+        "Am",
+        "Dm",
+        "Bb"
+      ],
+      "tensions": [],
+      "keys": [
+        "F Major"
+      ],
+      "scales": [
+        "F Major Scale"
+      ],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "F",
+      "notes": [
+        "F2",
+        "C3",
+        "F3",
+        "A3"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "C3",
+          "F3",
+          "A3"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "F",
+        "notes": [
+          "F2",
+          "C3",
+          "F3",
+          "A3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F2",
+            "C3",
+            "F3",
+            "A3"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu âm hình rải tay trái chuẩn Slow Rock: Chơi theo chùm 3 nốt (1-5-8 hoặc 1-5-10) đều đặn cho mỗi phách. Ví dụ hợp âm F: F2-C3-F3-A3-F3-C3."
+}

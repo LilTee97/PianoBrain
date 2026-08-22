@@ -1,0 +1,91 @@
+{
+  "id": "tap-02-bai-10-r-transition-phrase-structure",
+  "type": "rule",
+  "name": "Câu dẫn mượt mà nối giữa 2 hợp âm cần xuất phát từ chord tone hợp âm đầu, dùng passing tone ở phách nhẹ và kết thúc vào chord tone hợp âm đích ở phách mạnh.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-10",
+    "locator": "18:20:00-21:53:00 pdf p.9",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, General Accompaniment, Jazz Pop, Pop Ballad, Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "general-accompaniment",
+      "jazz",
+      "pop",
+      "jazz-pop",
+      "pop-ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "General Accompaniment",
+        "Jazz Pop",
+        "Pop Ballad",
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Câu dẫn mượt mà nối giữa 2 hợp âm cần xuất phát từ chord tone hợp âm đầu, dùng passing tone ở phách nhẹ và kết thúc vào chord tone hợp âm đích ở phách mạnh.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TRANSITION_PHRASE_STRUCTURE",
+      "name": "Cấu trúc câu dẫn hòa âm trong đệm hát Piano",
+      "domain": "Harmony & Accompaniment",
+      "summary": "Câu dẫn mượt mà nối giữa 2 hợp âm cần xuất phát từ chord tone hợp âm đầu, dùng passing tone ở phách nhẹ và kết thúc vào chord tone hợp âm đích ở phách mạnh.",
+      "condition": {
+        "key": "C Major / General",
+        "progression_type": "Diatonic / Secondary Dominant transition"
+      },
+      "action": {
+        "melody": "Chord tone (Strong Beat) -> Passing/Neighbor tone (Weak Beat) -> Target Chord Tone (Strong Beat)",
+        "harmony": "Biến tấu hợp âm gốc thành 7/9 (Cmaj7, Cadd9, Dm9, Fmaj7) hoặc chèn hợp âm dẫn bán âm/quảng 4 (F#m7b5, C#dim, G/B)."
+      },
+      "confidence": "direct",
+      "sources": [
+        {
+          "primary_source_id": "tap_02_bai_10_video",
+          "timestamps": [
+            "02:08:00-04:15:00",
+            "10:10:00-13:00:00",
+            "18:20:00-21:53:00"
+          ]
+        },
+        {
+          "supporting_source_id": "tap_02_pdf_3",
+          "page": 9,
+          "section": "BÀI 10 : THỰC HÀNH CÂU DẪN"
+        }
+      ],
+      "lesson_folder": "Tap_02_Bai_10"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu dẫn mượt mà nối giữa 2 hợp âm cần xuất phát từ chord tone hợp âm đầu, dùng passing tone ở phách nhẹ và kết thúc vào chord tone hợp âm đích ở phách mạnh."
+}

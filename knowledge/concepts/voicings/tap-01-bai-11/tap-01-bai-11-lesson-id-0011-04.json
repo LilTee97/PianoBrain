@@ -1,0 +1,128 @@
+{
+  "id": "tap-01-bai-11-lesson-id-0011-04",
+  "type": "voicing",
+  "name": "Cấu tạo hợp âm Sus2 gồm Bậc 1 - Bậc 2 - Bậc 5 (bỏ nốt bậc 3)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-11",
+    "locator": "00:11:00-00:15:15 pdf p.2",
+    "media_id": "video_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_11_15",
+        "page": 2,
+        "section": "2. SUS2"
+      },
+      {
+        "source_id": "pdf_tap_1_bai_11_15",
+        "page": 3,
+        "section": "Sus2 thường dùng"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Csus2, Fsus2, Am7, Fmaj7, Gsus4",
+    "Giọng: C",
+    "Điệu / phong cách: pop, ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Csus2",
+      "Fsus2",
+      "Am7",
+      "Fmaj7",
+      "Gsus4"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Cấu tạo hợp âm Sus2 gồm Bậc 1 - Bậc 2 - Bậc 5 (bỏ nốt bậc 3). Các thể xếp voicing Csus2: Thế 1 (1-2-5: C-D-G), Thế 2 (2-5-1: D-G-C), Thế 3 (5-1-2: G-C-D). Dùng phổ biến trong hợp âm Trưởng, hợp âm dẫn, câu dẫn.",
+    "music_entities": {
+      "chords": [
+        "Csus2",
+        "Fsus2",
+        "Am7",
+        "Fmaj7",
+        "Gsus4"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "pop",
+        "ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Csus2",
+      "notes": [
+        "C3",
+        "G3",
+        "C4",
+        "D4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Csus2",
+        "notes": [
+          "C3",
+          "G3",
+          "C4",
+          "D4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "C4",
+            "D4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Cấu tạo hợp âm Sus2 gồm Bậc 1 - Bậc 2 - Bậc 5 (bỏ nốt bậc 3). Các thể xếp voicing Csus2: Thế 1 (1-2-5: C-D-G), Thế 2 (2-5-1: D-G-C), Thế 3 (5-1-2: G-C-D). Dùng phổ biến trong hợp âm Trưởng, hợp âm dẫn, câu dẫn."
+}

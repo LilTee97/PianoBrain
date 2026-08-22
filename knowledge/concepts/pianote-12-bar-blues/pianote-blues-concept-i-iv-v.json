@@ -1,0 +1,32 @@
+{
+  "difficulty": 1,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-concept-i-iv-v",
+  "type": "concept",
+  "name": "12-bar blues dựng trên ba bậc chính I, IV, V",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:00:15"
+  },
+  "use_when": [
+    "Bắt đầu học blues",
+    "Cần biết bộ khung hợp âm của một vòng blues"
+  ],
+  "output": {
+    "degrees": [
+      "I",
+      "IV",
+      "V"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Cấu trúc 12 Bar Blues kinh điển được xây dựng trên ba hợp âm bậc chính: bậc I, bậc IV và bậc V.",
+  "input": {
+    "style": [
+      "blues"
+    ]
+  }
+}

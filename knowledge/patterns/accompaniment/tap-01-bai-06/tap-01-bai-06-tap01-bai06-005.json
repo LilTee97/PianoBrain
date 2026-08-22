@@ -1,0 +1,140 @@
+{
+  "id": "tap-01-bai-06-tap01-bai06-005",
+  "type": "exercise",
+  "name": "Phân tích hòa âm thực hành trọn vẹn tác phẩm 'Silent Night' (Đêm Thánh Vô Cùng) ở giọng C Major (nhịp 3/4)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-06",
+    "locator": "15:30:00-28:40:00 pdf p.3",
+    "media_id": "video_tap01_bai06",
+    "supporting": [
+      {
+        "source_id": "pdf_tap01_bai06_10",
+        "page": 3,
+        "section": "SILENT NIGHT - Sheet nhạc chi tiết"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, F/C, G/B, Am, C/E, G/F, Dm, F#m-5, Em, G#m-5, C/G, G7, C7",
+    "Giọng: C Major",
+    "Nốt màu: m7b5",
+    "Điệu / phong cách: Waltz, Slow Ballad, Sacred Music"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "F/C",
+      "G/B",
+      "Am",
+      "C/E",
+      "G/F",
+      "Dm",
+      "F#m-5",
+      "Em",
+      "G#m-5",
+      "C/G",
+      "G7",
+      "C7"
+    ],
+    "style": [
+      "waltz",
+      "pop_ballad",
+      "slow-ballad",
+      "sacred-music"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Phân tích hòa âm thực hành trọn vẹn tác phẩm 'Silent Night' (Đêm Thánh Vô Cùng) ở giọng C Major (nhịp 3/4). Sử dụng các hợp âm đảo (C/E, G/B, G/F, C/G, F/C, G/D) kết hợp với các hợp âm dẫn tạo màu sắc căng/hút (F#m7b5 / F#dim, G#dim, G7, C7) để tạo cao trào và sự tinh tế khi đệm hát cũng như độc tấu solo.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "F/C",
+        "G/B",
+        "Am",
+        "C/E",
+        "G/F",
+        "Dm",
+        "F#m-5",
+        "Em",
+        "G#m-5",
+        "C/G",
+        "G7",
+        "C7"
+      ],
+      "tensions": [
+        "m7b5"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Waltz",
+        "Slow Ballad",
+        "Sacred Music"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "F#m-5 (F#m7b5)",
+      "notes": [
+        "F#2",
+        "A3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "F#2"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "F#m-5 (F#m7b5)",
+        "notes": [
+          "F#2",
+          "A3",
+          "C4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F#2"
+          ],
+          "right": [
+            "A3",
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phân tích hòa âm thực hành trọn vẹn tác phẩm 'Silent Night' (Đêm Thánh Vô Cùng) ở giọng C Major (nhịp 3/4). Sử dụng các hợp âm đảo (C/E, G/B, G/F, C/G, F/C, G/D) kết hợp với các hợp âm dẫn tạo màu sắc căng/hút (F#m7b5 / F#dim, G#dim, G7, C7) để tạo cao trào và sự tinh tế khi đệm hát cũng như độc tấu solo."
+}

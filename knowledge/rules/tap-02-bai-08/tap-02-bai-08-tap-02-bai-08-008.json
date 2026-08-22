@@ -1,0 +1,96 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-008",
+  "type": "rule",
+  "name": "Khi nốt giai điệu là B, chọn hợp âm gốc A có B làm bậc 9: Am9 / Am79 (A-C-E-G-B), Aadd9 (A-C#-E-B), A9 (A-C#-E-G-B), Ama",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:12:24-00:14:53 pdf p.7",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 7,
+        "section": "Cột B - Nốt B làm bậc 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am9, Am79, Aadd9, A9, Amaj79",
+    "Giọng: C major, A minor, A major",
+    "Gam: Major, Minor",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Pop, Jazz, Acoustic"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am9",
+      "Am79",
+      "Aadd9",
+      "A9",
+      "Amaj79"
+    ],
+    "style": [
+      "pop",
+      "jazz",
+      "acoustic"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Khi nốt giai điệu là B, chọn hợp âm gốc A có B làm bậc 9: Am9 / Am79 (A-C-E-G-B), Aadd9 (A-C#-E-B), A9 (A-C#-E-G-B), Amaj79 (A-C#-E-G#-B).",
+    "music_entities": {
+      "chords": [
+        "Am9",
+        "Am79",
+        "Aadd9",
+        "A9",
+        "Amaj79"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major",
+        "A minor",
+        "A major"
+      ],
+      "scales": [
+        "Major",
+        "Minor"
+      ],
+      "styles": [
+        "Pop",
+        "Jazz",
+        "Acoustic"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am79",
+      "notes": [
+        "A2",
+        "E3",
+        "C4",
+        "G4",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "C4",
+          "G4",
+          "B4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu là B, chọn hợp âm gốc A có B làm bậc 9: Am9 / Am79 (A-C-E-G-B), Aadd9 (A-C#-E-B), A9 (A-C#-E-G-B), Amaj79 (A-C#-E-G#-B)."
+}

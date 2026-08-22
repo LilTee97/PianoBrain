@@ -1,0 +1,75 @@
+{
+  "id": "tap-02-bai-05-tap-02-bai-05-009",
+  "type": "rule",
+  "name": "Nốt Si (B) đóng vai trò bậc 7 trong Cmaj7 hoặc Cm(maj7)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-05",
+    "locator": "14:13-15:57 pdf p.8",
+    "media_id": "video_tap_02_bai_05",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_01_05",
+        "page": 8,
+        "section": "Bảng Thang Âm Bậc 7 - Nốt B & C"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Cm.major7, Dm7, D7, Dm7-5",
+    "Giọng: C Major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Cm.major7",
+      "Dm7",
+      "D7",
+      "Dm7-5"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "harmony_rule",
+    "raw_text": "Nốt Si (B) đóng vai trò bậc 7 trong Cmaj7 hoặc Cm(maj7). Nốt Đô (C) đóng vai trò bậc 7 trong Dm7, D7, Dm7-5.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Cm.major7",
+        "Dm7",
+        "D7",
+        "Dm7-5"
+      ],
+      "tensions": [],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C2",
+        "G2",
+        "E3",
+        "B3"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "E3",
+          "B3"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nốt Si (B) đóng vai trò bậc 7 trong Cmaj7 hoặc Cm(maj7). Nốt Đô (C) đóng vai trò bậc 7 trong Dm7, D7, Dm7-5."
+}

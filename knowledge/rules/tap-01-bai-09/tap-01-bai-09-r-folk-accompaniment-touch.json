@@ -1,0 +1,70 @@
+{
+  "id": "tap-01-bai-09-r-folk-accompaniment-touch",
+  "type": "rule",
+  "name": "Khi đệm tiết tấu dân ca 4/4, tay trái chơi nốt Bass liền tiếng (legato), tay phải dậm hợp âm ngắt tiếng nhẹ (non-legato",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-09",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Dân ca, Folk Ballad, Folk Harmony, Hòa âm ngũ cung"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "d-n-ca",
+      "pop_ballad",
+      "folk-ballad",
+      "folk-harmony",
+      "h-a-m-ng-cung"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Dân ca",
+        "Folk Ballad",
+        "Folk Harmony",
+        "Hòa âm ngũ cung"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi đệm tiết tấu dân ca 4/4, tay trái chơi nốt Bass liền tiếng (legato), tay phải dậm hợp âm ngắt tiếng nhẹ (non-legato hoặc staccato) để tạo độ nảy và độ nảy phách đặc trưng.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_FOLK_ACCOMPANIMENT_TOUCH",
+      "title": "Kỹ thuật Khớp Tay cho Tiết tấu Đệm Dân ca",
+      "category": "accompaniment",
+      "description": "Khi đệm tiết tấu dân ca 4/4, tay trái chơi nốt Bass liền tiếng (legato), tay phải dậm hợp âm ngắt tiếng nhẹ (non-legato hoặc staccato) để tạo độ nảy và độ nảy phách đặc trưng.",
+      "conditions": {
+        "style": "Dân ca",
+        "meter": "4/4"
+      },
+      "recommendation": "Giữ cổ tay thả lỏng ở tay phải khi gõ nốt non-legato.",
+      "lesson_folder": "Tap_01_Bai_09"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Khi đệm tiết tấu dân ca 4/4, tay trái chơi nốt Bass liền tiếng (legato), tay phải dậm hợp âm ngắt tiếng nhẹ (non-legato hoặc staccato) để tạo độ nảy và độ nảy phách đặc trưng."
+}

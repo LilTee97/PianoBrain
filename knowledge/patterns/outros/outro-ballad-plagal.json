@@ -1,0 +1,19 @@
+{
+  "id": "outro-ballad-plagal",
+  "type": "outro",
+  "name": "Outro IV - iv - I",
+  "difficulty": 3,
+  "source": null,
+  "use_when": ["Kết bài ballad", "Muốn kết mềm không dùng V-I"],
+  "avoid_when": ["Bài cần kết dứt khoát mạnh"],
+  "input": { "section": ["outro"], "style": ["pop_ballad"], "progression": ["IV", "iv", "I"] },
+  "output": {
+    "bars": 3,
+    "degrees": ["IV", "iv", "I"],
+    "qualities": { "IV": "maj7", "iv": "m6", "I": "maj9" },
+    "dynamics": "chậm dần, rải thưa dần ở ô nhịp cuối"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "iv mượn từ giọng thứ cùng tên: nốt bậc 6 hạ xuống nửa cung rồi rơi vào bậc 5 của I. Đây là cái kết buồn quen thuộc của ballad."
+}

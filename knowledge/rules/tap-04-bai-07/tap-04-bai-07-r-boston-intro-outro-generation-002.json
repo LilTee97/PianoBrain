@@ -1,0 +1,70 @@
+{
+  "id": "tap-04-bai-07-r-boston-intro-outro-generation-002",
+  "type": "rule",
+  "name": "Một vòng câu lót 8 bar hoàn chỉnh theo tiến trình II - V - III - VI - IV - V - I có thể được dùng làm đoạn Intro, Dạo gi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-07",
+    "locator": null,
+    "locator_note": "lesson-level source; rule yaml had no per-rule timestamp",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Boston"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Một vòng câu lót 8 bar hoàn chỉnh theo tiến trình II - V - III - VI - IV - V - I có thể được dùng làm đoạn Intro, Dạo giữa (Interlude) hoặc Outro cho bất kỳ ca khúc điệu Boston nào.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_BOSTON_INTRO_OUTRO_GENERATION_002",
+      "title": "Tạo đoạn Intro / Outro từ vòng câu lót Boston",
+      "description": "Một vòng câu lót 8 bar hoàn chỉnh theo tiến trình II - V - III - VI - IV - V - I có thể được dùng làm đoạn Intro, Dạo giữa (Interlude) hoặc Outro cho bất kỳ ca khúc điệu Boston nào.",
+      "conditions": {
+        "style": "Boston",
+        "time_signature": "3/4",
+        "section_type": [
+          "Intro",
+          "Interlude",
+          "Outro"
+        ]
+      },
+      "actions": [
+        {
+          "use_full_pattern_as_section": true
+        }
+      ],
+      "lesson_folder": "Tap_04_Bai_07"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Một vòng câu lót 8 bar hoàn chỉnh theo tiến trình II - V - III - VI - IV - V - I có thể được dùng làm đoạn Intro, Dạo giữa (Interlude) hoặc Outro cho bất kỳ ca khúc điệu Boston nào."
+}

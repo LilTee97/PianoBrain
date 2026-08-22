@@ -1,0 +1,131 @@
+{
+  "id": "tap-06-bai-05-lesson-tap06-bai05-004",
+  "type": "accompaniment",
+  "name": "Mẫu 2 (Pattern 2) điệu Boston: Rải nốt liên tục ở nốt móc đơn (8th notes flow)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-05",
+    "locator": "00:07:55-00:10:43 pdf p.1",
+    "media_id": "video_tap06_bai05",
+    "supporting": [
+      {
+        "source_id": "sheet_tap06_bai05_pdf",
+        "page": 1,
+        "section": "Mẫu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am9, Dm7, Fmaj7, E7",
+    "Giọng: A minor",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Boston"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am9",
+      "Dm7",
+      "Fmaj7",
+      "E7"
+    ],
+    "style": [
+      "boston"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 2 (Pattern 2) điệu Boston: Rải nốt liên tục ở nốt móc đơn (8th notes flow). Tay trái rải quãng 1 - 5 - 9 - 5 - 3 - 5 hoặc tạo sóng âm thanh liên tục giữa 3 phách. Phù hợp sử dụng ở đoạn Đoạn A2 hoặc Điệp khúc (Chorus) để tăng độ cuộn và cảm xúc.",
+    "music_entities": {
+      "chords": [
+        "Am9",
+        "Dm7",
+        "Fmaj7",
+        "E7"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Boston"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am9",
+      "notes": [
+        "A1",
+        "E2",
+        "B2",
+        "E2",
+        "C3",
+        "E2"
+      ],
+      "hands": {
+        "left": [
+          "A1",
+          "E2",
+          "B2",
+          "E2",
+          "C3",
+          "E2"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am9",
+        "notes": [
+          "A1",
+          "E2",
+          "B2",
+          "E2",
+          "C3",
+          "E2"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A1",
+            "E2",
+            "B2",
+            "E2",
+            "C3",
+            "E2"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 2 (Pattern 2) điệu Boston: Rải nốt liên tục ở nốt móc đơn (8th notes flow). Tay trái rải quãng 1 - 5 - 9 - 5 - 3 - 5 hoặc tạo sóng âm thanh liên tục giữa 3 phách. Phù hợp sử dụng ở đoạn Đoạn A2 hoặc Điệp khúc (Chorus) để tăng độ cuộn và cảm xúc."
+}

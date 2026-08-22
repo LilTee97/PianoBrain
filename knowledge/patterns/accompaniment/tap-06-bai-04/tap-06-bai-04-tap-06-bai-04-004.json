@@ -1,0 +1,122 @@
+{
+  "id": "tap-06-bai-04-tap-06-bai-04-004",
+  "type": "accompaniment",
+  "name": "Mẫu 2 (Country Fox lai): Tay trái di chuyển nốt Bass có các nốt dẫn bán âm / bước dẫn liên tiếp между các hợp âm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-04",
+    "locator": "00:04:44-00:09:30 pdf p.1",
+    "media_id": "video_tap_06_bai_04",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_04",
+        "page": 1,
+        "section": "Mẫu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, G, C, F, Bm7b5, E7",
+    "Giọng: A minor",
+    "Điệu / phong cách: Country Fox"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "G",
+      "C",
+      "F",
+      "Bm7b5",
+      "E7"
+    ],
+    "style": [
+      "country-fox"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 2 (Country Fox lai): Tay trái di chuyển nốt Bass có các nốt dẫn bán âm / bước dẫn liên tiếp между các hợp âm. Tay phải nhân đôi nhịp nảy (chát chát chát chát) tạo mật độ âm thanh dày dặn.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "G",
+        "C",
+        "F",
+        "Bm7b5",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Country Fox"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am -> Dm",
+      "notes": [
+        "A2",
+        "E2",
+        "E2",
+        "D2"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E2",
+          "E2 (nốt dẫn)",
+          "D2"
+        ],
+        "right": [
+          "Lặng - Chát - Chát - Chát - Chát (móc đơn)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am -> Dm",
+        "notes": [
+          "A2",
+          "E2",
+          "E2",
+          "D2"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E2",
+            "E2 (nốt dẫn)",
+            "D2"
+          ],
+          "right": [
+            "Lặng - Chát - Chát - Chát - Chát (móc đơn)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 2 (Country Fox lai): Tay trái di chuyển nốt Bass có các nốt dẫn bán âm / bước dẫn liên tiếp между các hợp âm. Tay phải nhân đôi nhịp nảy (chát chát chát chát) tạo mật độ âm thanh dày dặn."
+}

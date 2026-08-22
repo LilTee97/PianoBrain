@@ -1,0 +1,55 @@
+{
+  "difficulty": 2,
+  "avoid_when": [
+    "Đã có bass thật đang chạy — hai bè sẽ đá nhau"
+  ],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-major-walk",
+  "type": "accompaniment",
+  "name": "Walking bass 1-2-3-5 trên hợp âm trưởng: gốc, bậc 2 trưởng, bậc 3 trưởng, bậc 5 đúng",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:00:07"
+  },
+  "use_when": [
+    "Ô nhịp là hợp âm trưởng",
+    "Ballad nhịp 4/4"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "F",
+      "G"
+    ]
+  },
+  "output": {
+    "hand": "LH",
+    "degrees": [
+      "1",
+      "2 trưởng",
+      "3 trưởng",
+      "5 đúng"
+    ],
+    "example": {
+      "C": [
+        "C",
+        "D",
+        "E",
+        "G"
+      ],
+      "F": [
+        "F",
+        "G",
+        "A",
+        "C"
+      ]
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Trên hợp âm trưởng, tay trái đi: nốt gốc, bậc 2 trưởng, bậc 3 trưởng, bậc 5 đúng."
+}

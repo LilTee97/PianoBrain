@@ -1,0 +1,128 @@
+{
+  "id": "tap-03-bai-10-tap-03-bai-10-006",
+  "type": "exercise",
+  "name": "Ghép hai tay Đoạn B (Chorus/Điệp khúc): Chuyển biến hòa âm sang Am - E7 - Am - E7 (hoặc Am - Em) rồi về Dm7 - G7 - C - C",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-10",
+    "locator": "00:11:31-00:16:55 pdf p.10",
+    "media_id": "video_tap_03_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 10,
+        "section": "Section B Measures 13-20"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, E7, Dm7, G7, C, C7",
+    "Giọng: F Major, A Minor",
+    "Gam: A Harmonic Minor",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "E7",
+      "Dm7",
+      "G7",
+      "C",
+      "C7"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ghép hai tay Đoạn B (Chorus/Điệp khúc): Chuyển biến hòa âm sang Am - E7 - Am - E7 (hoặc Am - Em) rồi về Dm7 - G7 - C - C7 trước khi quay lại F Major.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "E7",
+        "Dm7",
+        "G7",
+        "C",
+        "C7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "F Major",
+        "A Minor"
+      ],
+      "scales": [
+        "A Harmonic Minor"
+      ],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "E7",
+      "notes": [
+        "E2",
+        "B2",
+        "E3",
+        "G#3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "E2",
+          "B2"
+        ],
+        "right": [
+          "G#3",
+          "D4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "E7",
+        "notes": [
+          "E2",
+          "B2",
+          "E3",
+          "G#3",
+          "D4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "E2",
+            "B2"
+          ],
+          "right": [
+            "G#3",
+            "D4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ghép hai tay Đoạn B (Chorus/Điệp khúc): Chuyển biến hòa âm sang Am - E7 - Am - E7 (hoặc Am - Em) rồi về Dm7 - G7 - C - C7 trước khi quay lại F Major."
+}

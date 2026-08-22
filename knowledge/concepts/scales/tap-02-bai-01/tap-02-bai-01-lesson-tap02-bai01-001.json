@@ -1,0 +1,115 @@
+{
+  "id": "tap-02-bai-01-lesson-tap02-bai01-001",
+  "type": "scale",
+  "name": "Âm giai Thứ Tự Nhiên (Natural Minor Scale) trên giọng La thứ (Am) gồm các nốt: A, B, C, D, E, F, G",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-01",
+    "locator": "00:01:55-00:05:10 pdf p.2",
+    "media_id": "video.mp4",
+    "supporting": [
+      {
+        "source_id": "hai_piano_tap_2_1_5.pdf",
+        "page": 2,
+        "section": "Thứ Tự Nhiên"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Bm-5, C, Dm, Em, F, G",
+    "Giọng: Am",
+    "Gam: A Natural Minor",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Bm-5",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Âm giai Thứ Tự Nhiên (Natural Minor Scale) trên giọng La thứ (Am) gồm các nốt: A, B, C, D, E, F, G. 7 hợp âm cơ bản bậc I-VII bao gồm: Am (bậc I), Bm-5 (bậc II), C (bậc III), Dm (bậc IV), Em (bậc V), F (bậc VI), G (bậc VII).",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Bm-5",
+        "C",
+        "Dm",
+        "Em",
+        "F",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A Natural Minor"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "C3",
+        "E3",
+        "A3"
+      ],
+      "hands": {
+        "left": [
+          "A2"
+        ],
+        "right": [
+          "C3",
+          "E3",
+          "A3"
+        ]
+      }
+    },
+    "scale": {
+      "name": "Âm giai Thứ Tự Nhiên",
+      "root": "A",
+      "note_names": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "for_qualities": [],
+      "review": "rà tay từ raw_text: Âm giai Thứ Tự Nhiên trên giọng La thứ gồm các nốt: A, B, C, D, E, F, G"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Âm giai Thứ Tự Nhiên (Natural Minor Scale) trên giọng La thứ (Am) gồm các nốt: A, B, C, D, E, F, G. 7 hợp âm cơ bản bậc I-VII bao gồm: Am (bậc I), Bm-5 (bậc II), C (bậc III), Dm (bậc IV), Em (bậc V), F (bậc VI), G (bậc VII)."
+}

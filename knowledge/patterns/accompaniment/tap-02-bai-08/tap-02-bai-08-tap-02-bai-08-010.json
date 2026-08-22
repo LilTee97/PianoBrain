@@ -1,0 +1,128 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-010",
+  "type": "exercise",
+  "name": "Ứng dụng phân tích bài 'Nàng Thơ' (Hoàng Dũng): Giai điệu chứa các nốt bậc 9 linh hoạt như E (bậc 9 của Dm79), C (bậc 9",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:19:30-00:22:25 pdf p.7",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 7,
+        "section": "Bài tập ứng dụng thực hành"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm79, Bm7b5, Am79, C9, Fmaj79",
+    "Giọng: C major",
+    "Gam: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: V-Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm79",
+      "Bm7b5",
+      "Am79",
+      "C9",
+      "Fmaj79"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "v-pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ứng dụng phân tích bài 'Nàng Thơ' (Hoàng Dũng): Giai điệu chứa các nốt bậc 9 linh hoạt như E (bậc 9 của Dm79), C (bậc 9 của Bm7b5/Am79), tạo màu sắc lãng mạn nhẹ nhàng.",
+    "music_entities": {
+      "chords": [
+        "Dm79",
+        "Bm7b5",
+        "Am79",
+        "C9",
+        "Fmaj79"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "V-Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm79",
+      "notes": [
+        "D2",
+        "A2",
+        "C4",
+        "F4",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "A2"
+        ],
+        "right": [
+          "C4",
+          "F4",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm79",
+        "notes": [
+          "D2",
+          "A2",
+          "C4",
+          "F4",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D2",
+            "A2"
+          ],
+          "right": [
+            "C4",
+            "F4",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng phân tích bài 'Nàng Thơ' (Hoàng Dũng): Giai điệu chứa các nốt bậc 9 linh hoạt như E (bậc 9 của Dm79), C (bậc 9 của Bm7b5/Am79), tạo màu sắc lãng mạn nhẹ nhàng."
+}

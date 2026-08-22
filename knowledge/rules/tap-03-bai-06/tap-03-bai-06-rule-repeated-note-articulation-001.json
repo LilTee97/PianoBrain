@@ -1,0 +1,82 @@
+{
+  "id": "tap-03-bai-06-rule-repeated-note-articulation-001",
+  "type": "rule",
+  "name": "Consecutive notes of the exact same pitch must be re-struck with a light wrist lift (non-legato) to cleanly separate the",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "03:05-05:55 pdf p.3",
+    "extra_locators": [
+      "09:20-09:35 pdf p.3",
+      "13:00-16:45 pdf p.3",
+      "31:10-34:00 pdf p.3"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Waltz"
+  ],
+  "avoid_when": [
+    "Tied notes (dấu nối) where sound is sustained without re-striking"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Consecutive notes of the exact same pitch must be re-struck with a light wrist lift (non-legato) to cleanly separate the attacks, rather than holding down the key smoothly.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_repeated_note_articulation_001",
+      "name": "Repeated Note Non-Legato Articulation",
+      "domain": "touch_and_articulation",
+      "description": "Consecutive notes of the exact same pitch must be re-struck with a light wrist lift (non-legato) to cleanly separate the attacks, rather than holding down the key smoothly.",
+      "if_conditions": [
+        {
+          "condition": "note_current.pitch == note_previous.pitch"
+        },
+        {
+          "condition": "slur_tie_type != 'tie'"
+        }
+      ],
+      "then_actions": [
+        {
+          "action": "execute_non_legato_wrist_lift"
+        }
+      ],
+      "exceptions": [
+        "Tied notes (dấu nối) where sound is sustained without re-striking"
+      ],
+      "lesson_folder": "Tap_03_Bai_06"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Consecutive notes of the exact same pitch must be re-struck with a light wrist lift (non-legato) to cleanly separate the attacks, rather than holding down the key smoothly."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "color-l4-slash-upper",
+  "type": "chord_color",
+  "name": "Bảng màu 4 — bass đảo và upper structure",
+  "difficulty": 4,
+  "source": null,
+  "use_when": ["Muốn bass đi mượt theo bậc thang", "Pre-chorus cần dâng"],
+  "avoid_when": ["Ban nhạc đã có bass thật đang giữ nốt gốc", "Người học chưa vững tay trái"],
+  "input": { "progression": ["I", "vi", "IV", "V"], "key_context": "major", "style": ["pop_ballad", "jazz"], "difficulty_max": 5 },
+  "output": {
+    "qualities": { "I": "maj9", "vi": "m11", "IV": "6/9", "V": "13" },
+    "bass_degree": { "I": "I", "vi": "I", "IV": "IV", "V": "V" },
+    "inserts": []
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "vi giữ nguyên bass I thành slash chord (Am11/C), IV lấy 6/9 cho sáng, V13 thay V7. Bass đứng yên ở hai ô đầu nên câu hát nghe liền mạch hơn."
+}

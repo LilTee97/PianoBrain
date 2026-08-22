@@ -1,0 +1,72 @@
+{
+  "id": "tap-03-bai-06-lesson-id-00006",
+  "type": "exercise",
+  "name": "Thực hành tay trái Dòng 1 (ô nhịp 1-8): Ô nhịp 1-4 chơi hợp âm C rải đơn nốt đen Do3(5) - Mi3(3) - Sol3(1)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "10:00-12:30 pdf p.3",
+    "media_id": "hai_piano_video_t03_b06",
+    "supporting": [
+      {
+        "source_id": "hai_piano_pdf_t03",
+        "page": 3,
+        "section": "Silent Night Line 1 (m.1-8)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G7/B",
+    "Giọng: C major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G7/B"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành tay trái Dòng 1 (ô nhịp 1-8): Ô nhịp 1-4 chơi hợp âm C rải đơn nốt đen Do3(5) - Mi3(3) - Sol3(1). Ô nhịp 5-6 chuyển sang hợp âm G7/Si rải Si2(5) - Fa3(2) - Sol3(1). Ô nhịp 7-8 quay về C rải Do3(5) - Mi3(3) - Sol3(1).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G7/B"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "C, G7/B",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "B2",
+        "F3",
+        "G3"
+      ],
+      "hands": {
+        "left": [
+          "C3(5)",
+          "E3(3)",
+          "G3(1)",
+          "B2(5)",
+          "F3(2)",
+          "G3(1)"
+        ],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành tay trái Dòng 1 (ô nhịp 1-8): Ô nhịp 1-4 chơi hợp âm C rải đơn nốt đen Do3(5) - Mi3(3) - Sol3(1). Ô nhịp 5-6 chuyển sang hợp âm G7/Si rải Si2(5) - Fa3(2) - Sol3(1). Ô nhịp 7-8 quay về C rải Do3(5) - Mi3(3) - Sol3(1)."
+}

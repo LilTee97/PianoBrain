@@ -1,0 +1,120 @@
+{
+  "id": "tap-03-bai-14-lesson-tap-03-bai-14-004",
+  "type": "voicing",
+  "name": "Voicing đệm tay trái rải quãng rộng dạng Root - 5th - 9th (ví dụ C - G - D cho Cadd9, A - E - B cho Am9)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-14",
+    "locator": "03:42:00-05:52:00 pdf p.17",
+    "media_id": "video_tap_03_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 17,
+        "section": "Hợp âm đệm tay trái - Đoạn A"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, G/B, Am9, Em/G, F, Dm, Gsus4",
+    "Giọng: C Major",
+    "Nốt màu: add9, 9",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "G/B",
+      "Am9",
+      "Em/G",
+      "F",
+      "Dm",
+      "Gsus4"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Voicing đệm tay trái rải quãng rộng dạng Root - 5th - 9th (ví dụ C - G - D cho Cadd9, A - E - B cho Am9). Kỹ thuật rải này tạo khoảng âm rộng, sáng và hiện đại đặc trưng cho dòng Pop Ballad.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "G/B",
+        "Am9",
+        "Em/G",
+        "F",
+        "Dm",
+        "Gsus4"
+      ],
+      "tensions": [
+        "add9",
+        "9"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "C",
+        "G",
+        "D"
+      ],
+      "hands": {
+        "left": [
+          "C3 (5)",
+          "G3 (2)",
+          "D4 (1)"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cadd9",
+        "notes": [
+          "C",
+          "G",
+          "D"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3 (5)",
+            "G3 (2)",
+            "D4 (1)"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Voicing đệm tay trái rải quãng rộng dạng Root - 5th - 9th (ví dụ C - G - D cho Cadd9, A - E - B cho Am9). Kỹ thuật rải này tạo khoảng âm rộng, sáng và hiện đại đặc trưng cho dòng Pop Ballad."
+}

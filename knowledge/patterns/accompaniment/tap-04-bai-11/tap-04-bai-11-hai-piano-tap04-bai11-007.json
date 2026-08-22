@@ -1,0 +1,122 @@
+{
+  "id": "tap-04-bai-11-hai-piano-tap04-bai11-007",
+  "type": "exercise",
+  "name": "Mẫu câu lót số 5 (Câu 5): Câu lót tổng hợp kết hợp thế đảo hợp âm, bậc 9 và các mô-típ nhịp điệu phong phú cho bài hát P",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-11",
+    "locator": "09:47-10:33 pdf p.56",
+    "media_id": "video_tap04_bai11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04_bai11",
+        "page": 56,
+        "section": "Bài 11 - Câu 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, C/G, F, C/E, Dm7, G7",
+    "Giọng: C major",
+    "Gam: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "C/G",
+      "F",
+      "C/E",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu lót số 5 (Câu 5): Câu lót tổng hợp kết hợp thế đảo hợp âm, bậc 9 và các mô-típ nhịp điệu phong phú cho bài hát Pop Ballad.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "C/G",
+        "F",
+        "C/E",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "D5",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "D5",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 5 (Câu 5): Câu lót tổng hợp kết hợp thế đảo hợp âm, bậc 9 và các mô-típ nhịp điệu phong phú cho bài hát Pop Ballad."
+}

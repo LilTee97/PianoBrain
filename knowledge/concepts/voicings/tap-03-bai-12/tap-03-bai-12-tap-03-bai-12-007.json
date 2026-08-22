@@ -1,0 +1,137 @@
+{
+  "id": "tap-03-bai-12-tap-03-bai-12-007",
+  "type": "voicing",
+  "name": "Hướng dẫn đoạn Điệp khúc (Chorus)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-12",
+    "locator": "00:16:02-00:22:32 pdf p.14",
+    "media_id": "video_tap_03_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03_bai_12",
+        "page": 14,
+        "section": "Trang 14 - Ô nhịp 19 - 28"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj7, G/F, Em7, Am9, Dm7, G, Cmaj7",
+    "Giọng: C major",
+    "Gam: C major",
+    "Nốt màu: maj7, 7, 9",
+    "Điệu / phong cách: Ballad Chorus"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj7",
+      "G/F",
+      "Em7",
+      "Am9",
+      "Dm7",
+      "G",
+      "Cmaj7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad-chorus"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Hướng dẫn đoạn Điệp khúc (Chorus). Tay phải chơi nốt cao trào bằng ngón 5, tay trái đi âm hình rải dồn lực phách 1 và phách 3. Sử dụng voicing hợp âm Am9 (A-E-G-B-C) và Dm7 (D-A-C-F).",
+    "music_entities": {
+      "chords": [
+        "Fmaj7",
+        "G/F",
+        "Em7",
+        "Am9",
+        "Dm7",
+        "G",
+        "Cmaj7"
+      ],
+      "tensions": [
+        "maj7",
+        "7",
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Ballad Chorus"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am9",
+      "notes": [
+        "A2",
+        "E3",
+        "G3",
+        "B3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "G3",
+          "B3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am9",
+        "notes": [
+          "A2",
+          "E3",
+          "G3",
+          "B3",
+          "C4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3"
+          ],
+          "right": [
+            "G3",
+            "B3",
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hướng dẫn đoạn Điệp khúc (Chorus). Tay phải chơi nốt cao trào bằng ngón 5, tay trái đi âm hình rải dồn lực phách 1 và phách 3. Sử dụng voicing hợp âm Am9 (A-E-G-B-C) và Dm7 (D-A-C-F)."
+}

@@ -1,0 +1,129 @@
+{
+  "id": "tap-02-bai-07-lesson-id-00035",
+  "type": "voicing",
+  "name": "Hợp âm Thứ 7 9 (Cm79 / Cm7(9)) được cấu tạo từ hợp âm Bảy Thứ (Cm7: C-bE-G-bB) cộng thêm một quãng 3 trưởng (bB-D), tạo",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-07",
+    "locator": "00:10:48-00:13:30 pdf p.5",
+    "media_id": "hai_piano_t2_b07_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_t2_pdf3",
+        "page": 5,
+        "section": "Hợp âm Đô Thứ 7.9 - Cm.79"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cm79, Am79, Dm79, Gm79",
+    "Giọng: C minor, A minor",
+    "Gam: Dorian, Aeolian",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Ballad, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cm79",
+      "Am79",
+      "Dm79",
+      "Gm79"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Hợp âm Thứ 7 9 (Cm79 / Cm7(9)) được cấu tạo từ hợp âm Bảy Thứ (Cm7: C-bE-G-bB) cộng thêm một quãng 3 trưởng (bB-D), tạo ra chuỗi nốt: C - bE - G - bB - D (1 - b3 - 5 - b7 - 9). Màu sắc êm dịu, mềm mại, u buồn tinh tế, dùng rất phổ biến trong ballad và thánh ca.",
+    "music_entities": {
+      "chords": [
+        "Cm79",
+        "Am79",
+        "Dm79",
+        "Gm79"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C minor",
+        "A minor"
+      ],
+      "scales": [
+        "Dorian",
+        "Aeolian"
+      ],
+      "styles": [
+        "Ballad",
+        "Worship"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cm79",
+      "notes": [
+        "C3",
+        "G3",
+        "Bb3",
+        "D4",
+        "Eb4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "Bb3",
+          "D4",
+          "Eb4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cm79",
+        "notes": [
+          "C3",
+          "G3",
+          "Bb3",
+          "D4",
+          "Eb4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "Bb3",
+            "D4",
+            "Eb4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Thứ 7 9 (Cm79 / Cm7(9)) được cấu tạo từ hợp âm Bảy Thứ (Cm7: C-bE-G-bB) cộng thêm một quãng 3 trưởng (bB-D), tạo ra chuỗi nốt: C - bE - G - bB - D (1 - b3 - 5 - b7 - 9). Màu sắc êm dịu, mềm mại, u buồn tinh tế, dùng rất phổ biến trong ballad và thánh ca."
+}

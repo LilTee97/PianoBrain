@@ -1,0 +1,116 @@
+{
+  "id": "tap-06-bai-07-lesson-07-00001",
+  "type": "concept",
+  "name": "Giới thiệu vòng hòa âm 4 - 3 - 2 - 1 trong giọng Đô trưởng (C Major): Bậc IV (F / Fmaj7) -> Bậc III (Em / Em7) -> Bậc II",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-07",
+    "locator": "00:31-02:19 pdf p.1",
+    "media_id": "vid_tap_06_bai_07",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 1,
+        "section": "Intro & Vong hoa am 4-3-2-1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Fmaj7, Em7, Dm7, Cmaj7, F, Em, Dm, C",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: maj7, 7",
+    "Điệu / phong cách: Rumba, Pop Ballad, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Fmaj7",
+      "Em7",
+      "Dm7",
+      "Cmaj7",
+      "F",
+      "Em",
+      "Dm",
+      "C"
+    ],
+    "style": [
+      "rumba",
+      "pop_ballad",
+      "pop",
+      "pop-ballad",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Giới thiệu vòng hòa âm 4 - 3 - 2 - 1 trong giọng Đô trưởng (C Major): Bậc IV (F / Fmaj7) -> Bậc III (Em / Em7) -> Bậc II (Dm / Dm7) -> Bậc I (C / Cmaj7). Vòng hòa âm này rất phổ biến trong nhạc nhẹ, thánh ca và nhạc trữ tình.",
+    "music_entities": {
+      "chords": [
+        "Fmaj7",
+        "Em7",
+        "Dm7",
+        "Cmaj7",
+        "F",
+        "Em",
+        "Dm",
+        "C"
+      ],
+      "tensions": [
+        "maj7",
+        "7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Rumba",
+        "Pop Ballad",
+        "Thánh ca"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fmaj7 - Em7 - Dm7 - Cmaj7",
+      "notes": [
+        "F",
+        "A",
+        "C",
+        "E",
+        "E",
+        "G",
+        "B",
+        "D",
+        "D",
+        "F",
+        "A",
+        "C",
+        "C",
+        "E",
+        "G",
+        "B"
+      ],
+      "hands": {
+        "left": [
+          "F2",
+          "E2",
+          "D2",
+          "C2"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu vòng hòa âm 4 - 3 - 2 - 1 trong giọng Đô trưởng (C Major): Bậc IV (F / Fmaj7) -> Bậc III (Em / Em7) -> Bậc II (Dm / Dm7) -> Bậc I (C / Cmaj7). Vòng hòa âm này rất phổ biến trong nhạc nhẹ, thánh ca và nhạc trữ tình."
+}

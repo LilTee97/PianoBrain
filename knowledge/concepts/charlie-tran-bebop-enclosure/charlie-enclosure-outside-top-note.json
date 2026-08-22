@@ -1,0 +1,31 @@
+{
+  "difficulty": 4,
+  "avoid_when": [
+    "Đệm hát phổ thông — nghe sẽ chối tai"
+  ],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-outside-top-note",
+  "type": "concept",
+  "name": "Nốt trên cùng ngoài thang âm thì câu nghe căng, gai góc (outside)",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:03:02"
+  },
+  "use_when": [
+    "Muốn câu solo căng hơn",
+    "Chỗ cao trào"
+  ],
+  "output": {
+    "top_note": "ngoài thang âm, ví dụ #11",
+    "color": "outside",
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Nếu nốt trên cùng là nốt ngoài thang âm, ví dụ nốt thăng 11, câu lick sẽ tạo màu căng thẳng và gai góc hơn.",
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-rule-c-major",
+  "type": "rule",
+  "name": "Ô nhịp hợp âm C trưởng thì tay trái đi C - D - E - G",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:00:36"
+  },
+  "use_when": [
+    "Ô nhịp là C trưởng"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C"
+    ]
+  },
+  "output": {
+    "if": "ô nhịp là hợp âm C trưởng",
+    "then": {
+      "notes": [
+        "C",
+        "D",
+        "E",
+        "G"
+      ]
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi ô nhịp là hợp âm C trưởng, tay trái đi chuỗi nốt C - D - E - G. Video lấy bài Hey Jude làm ví dụ."
+}

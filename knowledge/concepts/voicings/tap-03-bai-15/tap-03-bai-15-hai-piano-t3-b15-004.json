@@ -1,0 +1,123 @@
+{
+  "id": "tap-03-bai-15-hai-piano-t3-b15-004",
+  "type": "voicing",
+  "name": "Áp dụng hợp âm át thứ cấp Rê 7 (D7 hay D7/F#) đóng vai trò Secondary Dominant (V7/V) dẫn về Sol trưởng (G) trong vòng hò",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-15",
+    "locator": "00:11:43-00:13:42 pdf p.19",
+    "media_id": "video_tap_03_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 19,
+        "section": "Measure 9-12 (Verse A)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: D7, D7/F#, G, G7",
+    "Giọng: C major",
+    "Nốt màu: 7",
+    "Điệu / phong cách: pop ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "D7",
+      "D7/F#",
+      "G",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Áp dụng hợp âm át thứ cấp Rê 7 (D7 hay D7/F#) đóng vai trò Secondary Dominant (V7/V) dẫn về Sol trưởng (G) trong vòng hòa âm C -> Em/B -> Am -> D7 -> G7.",
+    "music_entities": {
+      "chords": [
+        "D7",
+        "D7/F#",
+        "G",
+        "G7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "pop ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "D7/F#",
+      "notes": [
+        "F#2",
+        "D3",
+        "F#3",
+        "A3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "F#2"
+        ],
+        "right": [
+          "D3",
+          "F#3",
+          "A3",
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "D7/F#",
+        "notes": [
+          "F#2",
+          "D3",
+          "F#3",
+          "A3",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "F#2"
+          ],
+          "right": [
+            "D3",
+            "F#3",
+            "A3",
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Áp dụng hợp âm át thứ cấp Rê 7 (D7 hay D7/F#) đóng vai trò Secondary Dominant (V7/V) dẫn về Sol trưởng (G) trong vòng hòa âm C -> Em/B -> Am -> D7 -> G7."
+}

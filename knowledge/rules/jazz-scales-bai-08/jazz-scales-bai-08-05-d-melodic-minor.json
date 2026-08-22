@@ -1,0 +1,69 @@
+{
+  "id": "jazz-scales-bai-08-05-d-melodic-minor",
+  "type": "rule",
+  "name": "Over a minor ii chord (m7b5), play the Melodic Minor scale built up a minor 3rd from the root (e",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-08",
+    "locator": "07:32-10:25",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Bm7(b5)",
+    "Chọn gam / scale khi gặp hợp âm m7(b5) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7(b5)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "D Melodic Minor",
+      "root": "D",
+      "note_names": [
+        "B",
+        "C#",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [],
+      "use_when": [
+        "hợp âm Bm7(b5)"
+      ]
+    },
+    "chord_symbol": "Bm7(b5)",
+    "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A"
+    ],
+    "source_text": "Over a minor ii chord (m7b5), play the Melodic Minor scale built up a minor 3rd from the root (e.g., over Bm7b5, use D Melodic Minor). This produces the Locrian #2 mode (B-C#-D-E-F-G-A-B), featuring the smooth sharp 2nd (#2/9) note."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 8 của nguồn Jazz Scales (YouTube), mốc 07:32-10:25. Over a minor ii chord (m7b5), play the Melodic Minor scale built up a minor 3rd from the root (e.g., over Bm7b5, use D Melodic Minor). This produces the Locrian #2 mode (B-C#-D-E-F-G-A-B), featuring the smooth sharp 2nd (#2/9) note. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

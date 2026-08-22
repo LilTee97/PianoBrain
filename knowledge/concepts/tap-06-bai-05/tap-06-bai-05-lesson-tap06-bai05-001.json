@@ -1,0 +1,58 @@
+{
+  "id": "tap-06-bai-05-lesson-tap06-bai05-001",
+  "type": "concept",
+  "name": "Khái niệm Tiết điệu Boston (Slow Waltz / Valse chậm): Điệu nhạc ở nhịp 3/4, nhịp đơn gồm 1 phách mạnh và 2 phách nhẹ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-05",
+    "locator": "00:00:40-00:03:00 pdf p.1",
+    "media_id": "video_tap06_bai05",
+    "supporting": [
+      {
+        "source_id": "sheet_tap06_bai05_pdf",
+        "page": 1,
+        "section": "Overview"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: A minor",
+    "Điệu / phong cách: Boston, Slow Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "boston",
+      "slow-waltz"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Khái niệm Tiết điệu Boston (Slow Waltz / Valse chậm): Điệu nhạc ở nhịp 3/4, nhịp đơn gồm 1 phách mạnh và 2 phách nhẹ. Tốc độ (Tempo) lý tưởng khi đệm hát khoảng từ 63 đến 70 BPM. Phù hợp cho các bài hát lãng mạn, nhạc trẻ, nhạc tiền chiến, thánh ca.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Boston",
+        "Slow Waltz"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khái niệm Tiết điệu Boston (Slow Waltz / Valse chậm): Điệu nhạc ở nhịp 3/4, nhịp đơn gồm 1 phách mạnh và 2 phách nhẹ. Tốc độ (Tempo) lý tưởng khi đệm hát khoảng từ 63 đến 70 BPM. Phù hợp cho các bài hát lãng mạn, nhạc trẻ, nhạc tiền chiến, thánh ca."
+}

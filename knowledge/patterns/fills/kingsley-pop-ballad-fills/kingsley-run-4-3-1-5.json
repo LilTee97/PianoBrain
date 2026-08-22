@@ -1,0 +1,72 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "source": {
+    "teacher_id": "kingsley",
+    "source_id": "kingsley-pop-ballad-fills",
+    "locator": "Folders 03, 05/03, 06, 11, 12"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "id": "kingsley-run-4-3-1-5",
+  "type": "fill",
+  "name": "Câu chạy 4-3-1-5 (biến thể 5-1-4-3-1-5) cho bậc I, IV và vi",
+  "use_when": [
+    "Câu chạy kết bài",
+    "Nối giữa hai vòng hợp âm"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "F",
+      "Am"
+    ]
+  },
+  "output": {
+    "degrees": [
+      4,
+      3,
+      1,
+      5
+    ],
+    "variant": [
+      5,
+      1,
+      4,
+      3,
+      1,
+      5
+    ],
+    "examples": {
+      "C": [
+        "F",
+        "E",
+        "C",
+        "G"
+      ],
+      "F": [
+        "Bb",
+        "A",
+        "F",
+        "C"
+      ],
+      "Am": [
+        "D",
+        "C",
+        "A",
+        "E"
+      ]
+    },
+    "applies_to_degrees": [
+      "I",
+      "IV",
+      "vi"
+    ],
+    "stage": "source_knowledge",
+    "review_note": "Bản ghi gọi đây là 'pentatonic run'. Không đúng: ngũ cung Đô trưởng là C-D-E-G-A, không có F. Đây là chuỗi bậc 4-3-1-5, không phải câu ngũ cung."
+  },
+  "note_vi": "Câu chạy theo bậc 4-3-1-5, có biến thể dài 5-1-4-3-1-5. Trên C là F - E - C - G, trên F là Bb - A - F - C, trên Am là D - C - A - E. Dùng cho bậc I, IV và vi, làm câu chạy kết bài hoặc nối vòng. Lưu ý: đây KHÔNG phải câu ngũ cung, vì bậc 4 không nằm trong ngũ cung."
+}

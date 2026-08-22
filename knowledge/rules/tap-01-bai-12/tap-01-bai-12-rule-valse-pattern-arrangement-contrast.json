@@ -1,0 +1,68 @@
+{
+  "id": "tap-01-bai-12-rule-valse-pattern-arrangement-contrast",
+  "type": "rule",
+  "name": "Đoạn A (Verse) nên đệm Valse Kiểu 1 (dậm hợp âm chát nhẹ) hoặc Kiểu 2 (rải đơn nhẹ) để giữ tính êm dịu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-12",
+    "locator": "22:38-24:47 pdf p.6",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Bossa Nova, Latin, Valse, Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "bossa-nova",
+      "latin",
+      "valse",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Bossa Nova",
+        "Latin",
+        "Valse",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Đoạn A (Verse) nên đệm Valse Kiểu 1 (dậm hợp âm chát nhẹ) hoặc Kiểu 2 (rải đơn nhẹ) để giữ tính êm dịu; sang đoạn B (Chorus) chuyển sang Valse Kiểu 3 (rải liên tục móc đơn) để tạo cao trào.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_valse_pattern_arrangement_contrast",
+      "name": "Phối hợp các mẫu Valse theo cấu trúc đoạn nhạc",
+      "type": "arrangement_rule",
+      "description": "Đoạn A (Verse) nên đệm Valse Kiểu 1 (dậm hợp âm chát nhẹ) hoặc Kiểu 2 (rải đơn nhẹ) để giữ tính êm dịu; sang đoạn B (Chorus) chuyển sang Valse Kiểu 3 (rải liên tục móc đơn) để tạo cao trào.",
+      "applies_to": [
+        "styles:Valse",
+        "time_signatures:3/4"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_01_Bai_12"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Đoạn A (Verse) nên đệm Valse Kiểu 1 (dậm hợp âm chát nhẹ) hoặc Kiểu 2 (rải đơn nhẹ) để giữ tính êm dịu; sang đoạn B (Chorus) chuyển sang Valse Kiểu 3 (rải liên tục móc đơn) để tạo cao trào."
+}

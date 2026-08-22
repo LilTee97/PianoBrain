@@ -1,0 +1,73 @@
+{
+  "id": "tap-06-bai-04-rule-pattern-arrangement-dynamic-growth",
+  "type": "rule",
+  "name": "Phát triển cường độ bài hát qua việc biến tấu mẫu đệm Fox",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-04",
+    "locator": "00:13:46-00:15:18 pdf p.1",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Country Fox, Fox"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "country-fox",
+      "fox"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Country Fox",
+        "Fox"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng Mẫu 1 (Fox cơ bản) cho Đoạn A (Verse), Mẫu 2 (Country Fox chát kép) cho Đoạn B (Pre-Chorus), và Mẫu 3 (Chấm giật Syncopation) cho Điệp khúc (Chorus) để tạo sự tương phản cường độ rõ rệt.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_pattern_arrangement_dynamic_growth",
+      "domain": "song_structuring",
+      "summary": "Phát triển cường độ bài hát qua việc biến tấu mẫu đệm Fox",
+      "description": "Sử dụng Mẫu 1 (Fox cơ bản) cho Đoạn A (Verse), Mẫu 2 (Country Fox chát kép) cho Đoạn B (Pre-Chorus), và Mẫu 3 (Chấm giật Syncopation) cho Điệp khúc (Chorus) để tạo sự tương phản cường độ rõ rệt.",
+      "trigger_conditions": {
+        "song_structure": [
+          "Verse",
+          "Pre-Chorus",
+          "Chorus"
+        ],
+        "style": "Fox / Country Fox"
+      },
+      "action": {
+        "verse": "Pattern 1 (Basic Fox)",
+        "pre_chorus": "Pattern 2 (Double-stroke Country Fox)",
+        "chorus": "Pattern 3 (Syncopated Dotted-note Fox)"
+      },
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_04"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Sử dụng Mẫu 1 (Fox cơ bản) cho Đoạn A (Verse), Mẫu 2 (Country Fox chát kép) cho Đoạn B (Pre-Chorus), và Mẫu 3 (Chấm giật Syncopation) cho Điệp khúc (Chorus) để tạo sự tương phản cường độ rõ rệt."
+}

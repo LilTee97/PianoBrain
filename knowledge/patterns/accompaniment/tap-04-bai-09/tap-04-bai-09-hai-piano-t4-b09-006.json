@@ -1,0 +1,132 @@
+{
+  "id": "tap-04-bai-09-hai-piano-t4-b09-006",
+  "type": "exercise",
+  "name": "Câu 5: Mẫu câu tổng hợp cao cấp kết hợp trọn bộ bậc 3, 5, 7, 9 cùng kỹ thuật rải nốt liên tục (arpeggio) và đảo hợp âm l",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-09",
+    "locator": "00:08:00-00:09:05 pdf p.46",
+    "media_id": "video_t04_b09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 46,
+        "section": "Câu 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj9, Fmaj9, Dm9, G11, Cadd9",
+    "Giọng: C Major",
+    "Gam: C Major Diatonic",
+    "Nốt màu: 3, 5, 7, 9, 11",
+    "Điệu / phong cách: 16-beat High-level Pop/Jazz-pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj9",
+      "Fmaj9",
+      "Dm9",
+      "G11",
+      "Cadd9"
+    ],
+    "style": [
+      "jazz",
+      "pop",
+      "16-beat-high-level-pop-jazz-pop"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Câu 5: Mẫu câu tổng hợp cao cấp kết hợp trọn bộ bậc 3, 5, 7, 9 cùng kỹ thuật rải nốt liên tục (arpeggio) và đảo hợp âm linh hoạt, tạo thành câu Intro / Interlude / Outro trọn vẹn cho ca khúc 16-bit.",
+    "music_entities": {
+      "chords": [
+        "Cmaj9",
+        "Fmaj9",
+        "Dm9",
+        "G11",
+        "Cadd9"
+      ],
+      "tensions": [
+        "3",
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
+      "keys": [
+        "C Major"
+      ],
+      "scales": [
+        "C Major Diatonic"
+      ],
+      "styles": [
+        "16-beat High-level Pop/Jazz-pop"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj9",
+      "notes": [
+        "C3",
+        "G3",
+        "B3",
+        "D4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "B3",
+          "D4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj9",
+        "notes": [
+          "C3",
+          "G3",
+          "B3",
+          "D4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "B3",
+            "D4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu 5: Mẫu câu tổng hợp cao cấp kết hợp trọn bộ bậc 3, 5, 7, 9 cùng kỹ thuật rải nốt liên tục (arpeggio) và đảo hợp âm linh hoạt, tạo thành câu Intro / Interlude / Outro trọn vẹn cho ca khúc 16-bit."
+}

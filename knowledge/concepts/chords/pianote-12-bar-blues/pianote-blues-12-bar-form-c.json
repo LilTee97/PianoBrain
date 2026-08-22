@@ -1,0 +1,57 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-12-bar-form-c",
+  "type": "chord_color",
+  "name": "Vòng 12-bar blues tông C: 4 ô I, 2 ô IV, 2 ô I, rồi V - IV - I - V",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:01:26"
+  },
+  "use_when": [
+    "Đệm nguyên một vòng blues",
+    "Cần biết ô nào đổi hợp âm"
+  ],
+  "input": {
+    "style": [
+      "blues"
+    ],
+    "progression": [
+      "I",
+      "I",
+      "I",
+      "I",
+      "IV",
+      "IV",
+      "I",
+      "I",
+      "V",
+      "IV",
+      "I",
+      "V"
+    ],
+    "key_context": "major"
+  },
+  "output": {
+    "qualities": {
+      "I": "7",
+      "IV": "7",
+      "V": "7"
+    },
+    "inserts": [],
+    "bars": {
+      "9": "V",
+      "10": "IV",
+      "11": "I",
+      "12": "V (turnaround)",
+      "1-4": "I",
+      "5-6": "IV",
+      "7-8": "I"
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Vòng 12 ô tông C: ô 1-4 chơi C, ô 5-6 chơi F, ô 7-8 về C, ô 9 G, ô 10 F, ô 11 C, ô 12 G làm turnaround quay lại đầu bài. Cả ba hợp âm đều là át 7."
+}

@@ -1,0 +1,69 @@
+{
+  "id": "tap-01-bai-09-r-central-highlands-trung",
+  "type": "rule",
+  "name": "Để tạo nét đặc trưng âm nhạc Tây Nguyên, sử dụng thang âm Trưởng 1-3-4-5-7 kết hợp chạy quãng 8, tremolo rải nhanh và cá",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-09",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Dân ca, Folk Ballad, Folk Harmony, Hòa âm ngũ cung"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "d-n-ca",
+      "pop_ballad",
+      "folk-ballad",
+      "folk-harmony",
+      "h-a-m-ng-cung"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Dân ca",
+        "Folk Ballad",
+        "Folk Harmony",
+        "Hòa âm ngũ cung"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Để tạo nét đặc trưng âm nhạc Tây Nguyên, sử dụng thang âm Trưởng 1-3-4-5-7 kết hợp chạy quãng 8, tremolo rải nhanh và các nốt hoa mỹ (grace notes) lướt sát ngón.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_CENTRAL_HIGHLANDS_TRUNG",
+      "title": "Kỹ thuật Mô phỏng Đàn T'rưng trên Piano",
+      "category": "performance_technique",
+      "description": "Để tạo nét đặc trưng âm nhạc Tây Nguyên, sử dụng thang âm Trưởng 1-3-4-5-7 kết hợp chạy quãng 8, tremolo rải nhanh và các nốt hoa mỹ (grace notes) lướt sát ngón.",
+      "conditions": {
+        "style": "Tây Nguyên"
+      },
+      "recommendation": "Chơi phách nhịp dồn dập, quãng 8 đập hai tay luân phiên mô phỏng tiếng dùi gõ đàn T'rưng.",
+      "lesson_folder": "Tap_01_Bai_09"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Để tạo nét đặc trưng âm nhạc Tây Nguyên, sử dụng thang âm Trưởng 1-3-4-5-7 kết hợp chạy quãng 8, tremolo rải nhanh và các nốt hoa mỹ (grace notes) lướt sát ngón."
+}

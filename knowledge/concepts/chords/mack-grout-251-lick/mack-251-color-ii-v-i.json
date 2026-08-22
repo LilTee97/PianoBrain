@@ -1,0 +1,41 @@
+{
+  "difficulty": 4,
+  "avoid_when": [
+    "Người học chưa vững hợp âm 7"
+  ],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-color-ii-v-i",
+  "type": "chord_color",
+  "name": "Bảng màu ii-V-I của Mack Grout: m9 → 13 → maj7",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:01:01"
+  },
+  "use_when": [
+    "Vòng ii-V-I trong jazz",
+    "Muốn màu dày hơn bộ 7 cơ bản"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "progression": [
+      "ii",
+      "V",
+      "I"
+    ],
+    "key_context": "major"
+  },
+  "output": {
+    "qualities": {
+      "ii": "m9",
+      "V": "13",
+      "I": "maj7"
+    },
+    "inserts": [],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Vòng ii-V-I dùng trong bài: bậc ii lấy m9, bậc V lấy 13, bậc I lấy maj7."
+}

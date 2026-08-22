@@ -1,0 +1,95 @@
+{
+  "id": "tap-02-bai-07-lesson-id-00034",
+  "type": "concept",
+  "name": "Hợp âm Bảy Át Trừ 9 (C7(-9) / C7b9) cấu tạo gồm H.A 7 át cộng quãng 3 thứ (C - E - G - bB - bD)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-07",
+    "locator": "00:06:40-00:10:48 pdf p.5",
+    "media_id": "hai_piano_t2_b07_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_t2_pdf3",
+        "page": 5,
+        "section": "Hợp âm Đô 7 Trừ 9 - C7(-9)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C7(-9), E7(-9), Fm, Am",
+    "Giọng: C major, A minor, F minor",
+    "Gam: Harmonic Minor",
+    "Nốt màu: b9",
+    "Điệu / phong cách: Pop Ballad, Worship, Dramatic Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C7(-9)",
+      "E7(-9)",
+      "Fm",
+      "Am"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad",
+      "worship",
+      "dramatic-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "tension",
+    "raw_text": "Hợp âm Bảy Át Trừ 9 (C7(-9) / C7b9) cấu tạo gồm H.A 7 át cộng quãng 3 thứ (C - E - G - bB - bD). Nốt bậc -9 (Db) tạo ra sức hút rất mạnh, căng căng và giải quyết kịch tính về hợp âm thứ hoặc trưởng bậc IV/I (ví dụ C7b9 giải quyết về Fm hoặc F, E7b9 giải quyết về Am).",
+    "music_entities": {
+      "chords": [
+        "C7(-9)",
+        "E7(-9)",
+        "Fm",
+        "Am"
+      ],
+      "tensions": [
+        "b9"
+      ],
+      "keys": [
+        "C major",
+        "A minor",
+        "F minor"
+      ],
+      "scales": [
+        "Harmonic Minor"
+      ],
+      "styles": [
+        "Pop Ballad",
+        "Worship",
+        "Dramatic Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C7(-9)",
+      "notes": [
+        "C3",
+        "G3",
+        "Bb3",
+        "Db4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "Bb3",
+          "Db4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hợp âm Bảy Át Trừ 9 (C7(-9) / C7b9) cấu tạo gồm H.A 7 át cộng quãng 3 thứ (C - E - G - bB - bD). Nốt bậc -9 (Db) tạo ra sức hút rất mạnh, căng căng và giải quyết kịch tính về hợp âm thứ hoặc trưởng bậc IV/I (ví dụ C7b9 giải quyết về Fm hoặc F, E7b9 giải quyết về Am)."
+}

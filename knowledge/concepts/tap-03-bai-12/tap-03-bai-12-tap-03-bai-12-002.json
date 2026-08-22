@@ -1,0 +1,96 @@
+{
+  "id": "tap-03-bai-12-tap-03-bai-12-002",
+  "type": "concept",
+  "name": "Giới thiệu giọng chủ âm La thứ (Am) / Đô trưởng (C) không có dấu thăng giảm ở đầu khuông nhạc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-12",
+    "locator": "00:00:51-00:02:40 pdf p.13",
+    "media_id": "video_tap_03_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03_bai_12",
+        "page": 13,
+        "section": "Trang 1 - Tiêu đề & Dòng 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, Em, C, F, G, Fmaj7",
+    "Giọng: A minor, C major",
+    "Gam: A minor scale, C major scale",
+    "Nốt màu: maj7",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "Em",
+      "C",
+      "F",
+      "G",
+      "Fmaj7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Giới thiệu giọng chủ âm La thứ (Am) / Đô trưởng (C) không có dấu thăng giảm ở đầu khuông nhạc. Tác phẩm bắt đầu bằng hợp âm bậc IV (Fmaj7) tạo cảm giác bay bổng đặc trưng của nhạc Pop Ballad.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "Em",
+        "C",
+        "F",
+        "G",
+        "Fmaj7"
+      ],
+      "tensions": [
+        "maj7"
+      ],
+      "keys": [
+        "A minor",
+        "C major"
+      ],
+      "scales": [
+        "A minor scale",
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "E3",
+        "A3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Giới thiệu giọng chủ âm La thứ (Am) / Đô trưởng (C) không có dấu thăng giảm ở đầu khuông nhạc. Tác phẩm bắt đầu bằng hợp âm bậc IV (Fmaj7) tạo cảm giác bay bổng đặc trưng của nhạc Pop Ballad."
+}

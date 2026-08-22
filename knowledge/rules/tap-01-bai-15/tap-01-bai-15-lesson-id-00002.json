@@ -1,0 +1,92 @@
+{
+  "id": "tap-01-bai-15-lesson-id-00002",
+  "type": "rule",
+  "name": "Khi di chuyển giữa hai hợp âm mà tay phải phải nhảy xa quá 1 quãng 3 (leap > 3rd), cần giải quyết bằng 3 cách: (1) Thêm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-15",
+    "locator": "05:25-07:25 pdf p.11",
+    "media_id": "Tap_01_Bai_15",
+    "supporting": [
+      {
+        "source_id": "Tap_01_Bai_11_15_PDF",
+        "page": 11,
+        "section": "Mục 1 - Di chuyển Hợp âm"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: A, A/C#, Dm, C, C/E, F",
+    "Giọng: D minor, C major",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: Accompaniment"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "A",
+      "A/C#",
+      "Dm",
+      "C",
+      "C/E",
+      "F"
+    ],
+    "style": [
+      "accompaniment"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Khi di chuyển giữa hai hợp âm mà tay phải phải nhảy xa quá 1 quãng 3 (leap > 3rd), cần giải quyết bằng 3 cách: (1) Thêm câu lót/câu dẫn, (2) Dùng hợp âm dẫn intermediate (như hợp âm đảo hoặc hợp âm bass tăng/giảm liền bậc), (3) Điều chỉnh thể bấm tay phải từ 2 nốt sang 3 nốt hoặc dùng hợp âm 7/9 để tạo nốt chung.",
+    "music_entities": {
+      "chords": [
+        "A",
+        "A/C#",
+        "Dm",
+        "C",
+        "C/E",
+        "F"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "D minor",
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Accompaniment"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "A -> A/C# -> Dm",
+      "notes": [
+        "A2",
+        "C#3",
+        "D3",
+        "E4",
+        "A4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "C#3",
+          "D3"
+        ],
+        "right": [
+          "E4",
+          "A4",
+          "F4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi di chuyển giữa hai hợp âm mà tay phải phải nhảy xa quá 1 quãng 3 (leap > 3rd), cần giải quyết bằng 3 cách: (1) Thêm câu lót/câu dẫn, (2) Dùng hợp âm dẫn intermediate (như hợp âm đảo hoặc hợp âm bass tăng/giảm liền bậc), (3) Điều chỉnh thể bấm tay phải từ 2 nốt sang 3 nốt hoặc dùng hợp âm 7/9 để tạo nốt chung."
+}

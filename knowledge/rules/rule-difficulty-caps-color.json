@@ -1,0 +1,18 @@
+{
+  "id": "rule-difficulty-caps-color",
+  "type": "rule",
+  "name": "Độ khó chặn bảng màu",
+  "difficulty": 1,
+  "source": null,
+  "use_when": ["Mọi lần chọn bảng màu hợp âm cho người học"],
+  "avoid_when": [],
+  "input": { "difficulty_max": 5 },
+  "output": {
+    "if": "người học yêu cầu độ khó D",
+    "then": "chỉ được chọn chord_color có difficulty <= D",
+    "enforced_by": "src/mrhai/answer.ts"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Không đưa màu vượt tầm tay người học. Muốn khó hơn thì nâng D chứ không phá luật."
+}

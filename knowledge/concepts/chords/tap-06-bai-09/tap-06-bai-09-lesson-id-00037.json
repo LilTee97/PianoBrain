@@ -1,0 +1,85 @@
+{
+  "id": "tap-06-bai-09-lesson-id-00037",
+  "type": "concept",
+  "name": "Vòng hoà âm 1 - 6 - 4 - 5 - 1 (C - Am7 - F - G7 - C) ở giọng Đô trưởng được dùng làm khung thực hành các mẫu tiết tấu Wa",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-09",
+    "locator": "00:00:50-00:01:34 pdf p.1",
+    "media_id": "Tap_06_Bai_09_Video",
+    "supporting": [
+      {
+        "source_id": "Tap_06_Bai_09_PDF",
+        "page": 1,
+        "section": "Vòng hoà âm 1-6-4-5-1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am7, F, G7",
+    "Giọng: C major",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am7",
+      "F",
+      "G7"
+    ],
+    "style": [
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Vòng hoà âm 1 - 6 - 4 - 5 - 1 (C - Am7 - F - G7 - C) ở giọng Đô trưởng được dùng làm khung thực hành các mẫu tiết tấu Waltz, đồng thời làm đoạn Intro, Dạo giữa (Interlude) và Kết bài (Outro).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am7",
+        "F",
+        "G7"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Waltz"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - Am7 - F - G7 - C",
+      "notes": [
+        "C3",
+        "A2",
+        "F2",
+        "G2"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "A2",
+          "F2",
+          "G2"
+        ],
+        "right": [
+          "E4",
+          "G4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hoà âm 1 - 6 - 4 - 5 - 1 (C - Am7 - F - G7 - C) ở giọng Đô trưởng được dùng làm khung thực hành các mẫu tiết tấu Waltz, đồng thời làm đoạn Intro, Dạo giữa (Interlude) và Kết bài (Outro)."
+}

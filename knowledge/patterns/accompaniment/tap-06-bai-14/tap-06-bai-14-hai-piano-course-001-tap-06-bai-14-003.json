@@ -1,0 +1,114 @@
+{
+  "id": "tap-06-bai-14-hai-piano-course-001-tap-06-bai-14-003",
+  "type": "accompaniment",
+  "name": "Mẫu 1 (Reggae cơ bản): Tay trái đánh nốt Bass ở phách 1 và phách 3 (nốt gốc và nốt bậc 5)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-14",
+    "locator": "02:58-05:50 pdf p.1",
+    "media_id": "video_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 1,
+        "section": "Mẫu 1 - Tiết điệu Reggae cơ bản"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, G, F",
+    "Giọng: C major",
+    "Điệu / phong cách: Reggae"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "G",
+      "F"
+    ],
+    "style": [
+      "reggae"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1 (Reggae cơ bản): Tay trái đánh nốt Bass ở phách 1 và phách 3 (nốt gốc và nốt bậc 5). Tay phải giật hợp âm staccato sắc nét vào các phách lẻ/sau phách (off-beat) tạo ra tiếng 'chát' đặc trưng của điệu Reggae.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "G",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Reggae"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C2 (phách 1)",
+          "G2 (phách 3)"
+        ],
+        "right": [
+          "Staccato chord C4-E4-G4 ở off-beats (phách 2, 4)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "G2",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2 (phách 1)",
+            "G2 (phách 3)"
+          ],
+          "right": [
+            "Staccato chord C4-E4-G4 ở off-beats (phách 2, 4)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1 (Reggae cơ bản): Tay trái đánh nốt Bass ở phách 1 và phách 3 (nốt gốc và nốt bậc 5). Tay phải giật hợp âm staccato sắc nét vào các phách lẻ/sau phách (off-beat) tạo ra tiếng 'chát' đặc trưng của điệu Reggae."
+}

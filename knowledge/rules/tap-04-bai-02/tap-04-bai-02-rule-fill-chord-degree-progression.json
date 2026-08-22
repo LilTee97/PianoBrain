@@ -1,0 +1,64 @@
+{
+  "id": "tap-04-bai-02-rule-fill-chord-degree-progression",
+  "type": "rule",
+  "name": "Để phát triển kỹ năng đặt câu lót từ dễ đến khó, người chơi nên bắt đầu bằng việc đi nốt giai điệu rơi vào Bậc 3, sau đó",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-02",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Để phát triển kỹ năng đặt câu lót từ dễ đến khó, người chơi nên bắt đầu bằng việc đi nốt giai điệu rơi vào Bậc 3, sau đó kết hợp Bậc 5, tiếp đến bổ sung Bậc 7 và nâng cao bằng Bậc 9/11.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Câu 1: Bậc 3 -> Câu 2: Bậc 3 & 5 -> Câu 3: Bậc 7 (Hợp âm 7) -> Câu 4: Bậc 9 (Hợp âm 9) -> Câu 5: Tổng hợp Tensions & Chromatic."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_fill_chord_degree_progression",
+      "name": "Phương pháp phát triển giai điệu lót theo bậc mở rộng (3 -> 5 -> 7 -> 9)",
+      "description": "Để phát triển kỹ năng đặt câu lót từ dễ đến khó, người chơi nên bắt đầu bằng việc đi nốt giai điệu rơi vào Bậc 3, sau đó kết hợp Bậc 5, tiếp đến bổ sung Bậc 7 và nâng cao bằng Bậc 9/11.",
+      "condition": "Xây dựng các bài tập lót/dẫn cho học viên theo hệ thống cấp độ.",
+      "action": "Câu 1: Bậc 3 -> Câu 2: Bậc 3 & 5 -> Câu 3: Bậc 7 (Hợp âm 7) -> Câu 4: Bậc 9 (Hợp âm 9) -> Câu 5: Tổng hợp Tensions & Chromatic.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_04_Bai_02"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Để phát triển kỹ năng đặt câu lót từ dễ đến khó, người chơi nên bắt đầu bằng việc đi nốt giai điệu rơi vào Bậc 3, sau đó kết hợp Bậc 5, tiếp đến bổ sung Bậc 7 và nâng cao bằng Bậc 9/11."
+}

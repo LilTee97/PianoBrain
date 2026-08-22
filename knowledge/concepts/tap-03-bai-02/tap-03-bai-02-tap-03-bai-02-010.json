@@ -1,0 +1,52 @@
+{
+  "id": "tap-03-bai-02-tap-03-bai-02-010",
+  "type": "concept",
+  "name": "Nhận biết vị trí 4 khe chính (Spaces) trên Khóa Sol (Treble Clef) tính từ dưới lên: Khe 1 = Fa 4 (F4), Khe 2 = La 4 (A4)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-02",
+    "locator": "30:58:00-33:00:00",
+    "media_id": "video_tap_03_bai_02",
+    "supporting": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Sight Reading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "sight-reading"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Nhận biết vị trí 4 khe chính (Spaces) trên Khóa Sol (Treble Clef) tính từ dưới lên: Khe 1 = Fa 4 (F4), Khe 2 = La 4 (A4), Khe 3 = Đô 5 (C5), Khe 4 = Mi 5 (E5). Nhớ vị trí nốt gắn liền với quãng vòm trên phím đàn (quãng 4 và quãng 5).",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Sight Reading"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "F4",
+        "A4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Nhận biết vị trí 4 khe chính (Spaces) trên Khóa Sol (Treble Clef) tính từ dưới lên: Khe 1 = Fa 4 (F4), Khe 2 = La 4 (A4), Khe 3 = Đô 5 (C5), Khe 4 = Mi 5 (E5). Nhớ vị trí nốt gắn liền với quãng vòm trên phím đàn (quãng 4 và quãng 5)."
+}

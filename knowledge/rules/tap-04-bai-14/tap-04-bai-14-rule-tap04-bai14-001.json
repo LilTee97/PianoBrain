@@ -1,0 +1,73 @@
+{
+  "id": "tap-04-bai-14-rule-tap04-bai14-001",
+  "type": "rule",
+  "name": "Xây dựng câu lót cho giọng Thứ dựa trên vòng 1 - 4 - 6 - 5 - 1 kết hợp vòng hợp âm bậc IV",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-14",
+    "locator": "00:10:10-00:11:10 pdf p.67",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Chất hợp âm: Minor",
+    "Điệu / phong cách: Ballad, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Minor"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": "Minor",
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Pop Ballad"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Xây dựng câu lót cho giọng Thứ dựa trên vòng 1 - 4 - 6 - 5 - 1 kết hợp vòng hợp âm bậc IV",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_tap04_bai14_001",
+      "name": "Minor Key Progression Filling Framework",
+      "summary": "Xây dựng câu lót cho giọng Thứ dựa trên vòng 1 - 4 - 6 - 5 - 1 kết hợp vòng hợp âm bậc IV",
+      "conditions": {
+        "key_type": "Minor",
+        "progression": "i - iv - VI - V - i / Circle of Fifths variants"
+      },
+      "action": {
+        "step_1": "Dùng Câu 1 (Triad đơn giản) cho phần Verse 1 để tạo cảm giác nhẹ nhàng, rõ ràng",
+        "step_2": "Dùng Câu 2 và Câu 3 (thêm hợp âm 7) cho Verse 2 và pre-chorus để tăng độ chuyển động",
+        "step_3": "Dùng Câu 4 và Câu 5 (mở rộng bậc 9, sus4, altered) cho Chorus và Interlude/Giằng câu cao trào"
+      },
+      "confidence": "direct",
+      "lesson_folder": "Tap_04_Bai_14"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Xây dựng câu lót cho giọng Thứ dựa trên vòng 1 - 4 - 6 - 5 - 1 kết hợp vòng hợp âm bậc IV"
+}

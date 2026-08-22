@@ -1,0 +1,156 @@
+{
+  "id": "tap-02-bai-03-tap-02-bai-03-005",
+  "type": "accompaniment",
+  "name": "Vòng 3 & 4 kết hợp: C - Fm/C - G - Am - Gm - C - F",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-03",
+    "locator": "00:18:05-00:25:45 pdf p.4",
+    "media_id": "hai_piano_video_tap_02_bai_03",
+    "supporting": [
+      {
+        "source_id": "HOÀ ÂM NÂNG CAO ĐỆM HÁT TẬP 2 BÀI 1 - BÀI 5",
+        "page": 4,
+        "section": "Vòng 3 & Vòng 4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Fm/C, G, Am, Gm, C, F",
+    "Giọng: C major, F major",
+    "Gam: C major, C melodic major",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Fm/C",
+      "G",
+      "Am",
+      "Gm",
+      "C",
+      "F"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Vòng 3 & 4 kết hợp: C - Fm/C - G - Am - Gm - C - F. Sử dụng chuỗi 2-5-1 phụ (Gm - C - F) nối tiếp từ Am về F Major, trong đó Gm thuộc Trưởng giai điệu C major.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Fm/C",
+        "G",
+        "Am",
+        "Gm",
+        "C",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major",
+        "F major"
+      ],
+      "scales": [
+        "C major",
+        "C melodic major"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am - Gm - C - F",
+      "notes": [
+        "A2",
+        "E4",
+        "A4",
+        "Bb2",
+        "G4",
+        "D5",
+        "C3",
+        "E4",
+        "G4",
+        "C5",
+        "F2",
+        "A3",
+        "C4",
+        "F4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "Bb2",
+          "C3",
+          "F2"
+        ],
+        "right": [
+          "E4-A4",
+          "G4-D5",
+          "E4-G4-C5",
+          "A3-C4-F4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am - Gm - C - F",
+        "notes": [
+          "A2",
+          "E4",
+          "A4",
+          "Bb2",
+          "G4",
+          "D5",
+          "C3",
+          "E4",
+          "G4",
+          "C5",
+          "F2",
+          "A3",
+          "C4",
+          "F4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "Bb2",
+            "C3",
+            "F2"
+          ],
+          "right": [
+            "E4-A4",
+            "G4-D5",
+            "E4-G4-C5",
+            "A3-C4-F4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng 3 & 4 kết hợp: C - Fm/C - G - Am - Gm - C - F. Sử dụng chuỗi 2-5-1 phụ (Gm - C - F) nối tiếp từ Am về F Major, trong đó Gm thuộc Trưởng giai điệu C major."
+}

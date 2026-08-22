@@ -1,0 +1,90 @@
+{
+  "id": "tap-06-bai-15-lesson-15-00001",
+  "type": "concept",
+  "name": "Tiết điệu MARCH (Hành khúc / Nhạc đi / Nhạc tiền chiến) phù hợp cho các bài hát vui, sôi nổi, nghi lễ, thánh ca nhập lễ/",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-15",
+    "locator": "03:16-04:09 pdf p.1",
+    "media_id": "video_lesson_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_15",
+        "page": 1,
+        "section": "Khái niệm Tiết điệu MARCH & Vòng hòa âm 1-2-3-4-5-1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Dm, Em, F, G",
+    "Giọng: C major",
+    "Điệu / phong cách: March, Hành khúc"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ],
+    "style": [
+      "march",
+      "h-nh-kh-c"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Tiết điệu MARCH (Hành khúc / Nhạc đi / Nhạc tiền chiến) phù hợp cho các bài hát vui, sôi nổi, nghi lễ, thánh ca nhập lễ/kết lễ. Sử dụng vòng hòa âm 1-2-3-4-5-1 (C - Dm - Em - F - G - C).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Dm",
+        "Em",
+        "F",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "March",
+        "Hành khúc"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - Dm - Em - F - G - C",
+      "notes": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "D2",
+          "E2",
+          "F2",
+          "G2"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tiết điệu MARCH (Hành khúc / Nhạc đi / Nhạc tiền chiến) phù hợp cho các bài hát vui, sôi nổi, nghi lễ, thánh ca nhập lễ/kết lễ. Sử dụng vòng hòa âm 1-2-3-4-5-1 (C - Dm - Em - F - G - C)."
+}

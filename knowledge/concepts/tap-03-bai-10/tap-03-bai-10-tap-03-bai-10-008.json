@@ -1,0 +1,49 @@
+{
+  "id": "tap-03-bai-10-tap-03-bai-10-008",
+  "type": "concept",
+  "name": "Tổng kết bài học Bài 10 Tập 3",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-10",
+    "locator": "00:22:50-00:23:46 pdf p.21",
+    "media_id": "video_tap_03_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 21,
+        "section": "Contact & Summary"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: F Major"
+  ],
+  "avoid_when": [],
+  "input": {},
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Tổng kết bài học Bài 10 Tập 3. Hướng dẫn học viên quay video thực hành gửi thầy kiểm tra và sửa lỗi ngón, lực ngón.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "F Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tổng kết bài học Bài 10 Tập 3. Hướng dẫn học viên quay video thực hành gửi thầy kiểm tra và sửa lỗi ngón, lực ngón."
+}

@@ -1,0 +1,104 @@
+{
+  "id": "tap-02-bai-01-lesson-tap02-bai01-005",
+  "type": "rule",
+  "name": "Khi đệm hát giọng Thứ, sự kết hợp giữa 3 thể âm giai (Tự nhiên, Hòa thanh, Giai điệu) cung cấp tổng cộng 39 hợp âm/thế đ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-01",
+    "locator": "00:18:31-00:28:40 pdf p.2",
+    "media_id": "video.mp4",
+    "supporting": [
+      {
+        "source_id": "hai_piano_tap_2_1_5.pdf",
+        "page": 2,
+        "section": "Tổng số hợp âm cơ bản"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Bm, C+, D, E, F#m-5, G#m-5",
+    "Giọng: Am",
+    "Gam: A Natural Minor, A Harmonic Minor, A Melodic Minor",
+    "Điệu / phong cách: Pop, Jazz, Acoustics"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Bm",
+      "C+",
+      "D",
+      "E",
+      "F#m-5",
+      "G#m-5"
+    ],
+    "style": [
+      "pop",
+      "jazz",
+      "acoustics"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Khi đệm hát giọng Thứ, sự kết hợp giữa 3 thể âm giai (Tự nhiên, Hòa thanh, Giai điệu) cung cấp tổng cộng 39 hợp âm/thế đảo cơ bản (21 + 9 + 9), giúp tạo tuyến Bass chuyển động liền bậc và phong phú màu sắc hòa âm.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Bm",
+        "C+",
+        "D",
+        "E",
+        "F#m-5",
+        "G#m-5"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A Natural Minor",
+        "A Harmonic Minor",
+        "A Melodic Minor"
+      ],
+      "styles": [
+        "Pop",
+        "Jazz",
+        "Acoustics"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "F#m-5 -> G#m-5 -> Am",
+      "notes": [
+        "F#2",
+        "A3",
+        "C4",
+        "G#2",
+        "B3",
+        "D4",
+        "A2",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "F#2",
+          "G#2",
+          "A2"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "B3",
+          "D4",
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi đệm hát giọng Thứ, sự kết hợp giữa 3 thể âm giai (Tự nhiên, Hòa thanh, Giai điệu) cung cấp tổng cộng 39 hợp âm/thế đảo cơ bản (21 + 9 + 9), giúp tạo tuyến Bass chuyển động liền bậc và phong phú màu sắc hòa âm."
+}

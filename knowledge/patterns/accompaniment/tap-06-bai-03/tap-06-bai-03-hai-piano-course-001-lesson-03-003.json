@@ -1,0 +1,132 @@
+{
+  "id": "tap-06-bai-03-hai-piano-course-001-lesson-03-003",
+  "type": "accompaniment",
+  "name": "Mẫu 1 (Slow Rock cơ bản): Tay trái rải ngón dải rộng theo bậc 1 - 5 - 8 - 9 - 10 - 9 tương ứng với 6 nốt móc đơn trong ô",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-03",
+    "locator": "00:03:18-00:05:35 pdf p.1",
+    "media_id": "Tap_06_Bai_03.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_06_Bai_03.pdf",
+        "page": 1,
+        "section": "Mẫu 1 - Arpeggio 6/8 Cơ Bản"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, Dm7, Gsus4",
+    "Giọng: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "Dm7",
+      "Gsus4"
+    ],
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1 (Slow Rock cơ bản): Tay trái rải ngón dải rộng theo bậc 1 - 5 - 8 - 9 - 10 - 9 tương ứng với 6 nốt móc đơn trong ô nhịp 6/8 (đếm 1 - 2 - 3 - 4 - 5 - 6). Nốt bậc 9 và 10 tạo màu sắc hiện đại cho âm hình đệm.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "Dm7",
+        "Gsus4"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "D3",
+        "E3",
+        "D3"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3",
+          "D3",
+          "E3",
+          "D3"
+        ],
+        "right": [
+          "B3",
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7",
+        "notes": [
+          "C2",
+          "G2",
+          "C3",
+          "D3",
+          "E3",
+          "D3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "C3",
+            "D3",
+            "E3",
+            "D3"
+          ],
+          "right": [
+            "B3",
+            "C4",
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1 (Slow Rock cơ bản): Tay trái rải ngón dải rộng theo bậc 1 - 5 - 8 - 9 - 10 - 9 tương ứng với 6 nốt móc đơn trong ô nhịp 6/8 (đếm 1 - 2 - 3 - 4 - 5 - 6). Nốt bậc 9 và 10 tạo màu sắc hiện đại cho âm hình đệm."
+}

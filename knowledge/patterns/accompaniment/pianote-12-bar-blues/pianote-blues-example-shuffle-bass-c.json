@@ -1,0 +1,83 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-blues-example-shuffle-bass-c",
+  "type": "accompaniment",
+  "name": "Ví dụ shuffle bass tông C: C-G/C-A, F-C/F-D, G-D/G-E",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-12-bar-blues",
+    "locator": "00:00:34"
+  },
+  "use_when": [
+    "Tập tay trái blues tông C",
+    "Cần nốt cụ thể cho cả ba hợp âm"
+  ],
+  "input": {
+    "style": [
+      "blues"
+    ],
+    "chord_quality": [
+      "C",
+      "F",
+      "G"
+    ]
+  },
+  "output": {
+    "hand": "LH",
+    "example": {
+      "C": {
+        "notes": [
+          [
+            "C",
+            "G"
+          ],
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "fingers": [
+          5,
+          1
+        ]
+      },
+      "F": {
+        "notes": [
+          [
+            "F",
+            "C"
+          ],
+          [
+            "F",
+            "D"
+          ]
+        ],
+        "fingers": [
+          5,
+          1
+        ]
+      },
+      "G": {
+        "notes": [
+          [
+            "G",
+            "D"
+          ],
+          [
+            "G",
+            "E"
+          ]
+        ],
+        "fingers": [
+          5,
+          1
+        ]
+      }
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Tông C, tay trái: hợp âm C bấm C-G rồi C-A; hợp âm F bấm F-C rồi F-D; hợp âm G bấm G-D rồi G-E. Ngón út giữ nốt gốc, ngón cái luân phiên hai nốt trên."
+}

@@ -1,0 +1,128 @@
+{
+  "id": "tap-06-bai-02-hai-piano-course-001-tap-06-bai-02-002",
+  "type": "accompaniment",
+  "name": "Mẫu 1: Tiết tấu đệm Pop Ballad cơ bản nhẹ nhàng cho tay trái và tay phải",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-02",
+    "locator": "01:50-07:03 pdf p.1",
+    "media_id": "video_tap_06_bai_02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_02",
+        "page": 1,
+        "section": "Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, C/G, F, C/E, Dm, G",
+    "Giọng: C major",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "C/G",
+      "F",
+      "C/E",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu 1: Tiết tấu đệm Pop Ballad cơ bản nhẹ nhàng cho tay trái và tay phải. Tay trái đi các nốt gốc - bậc 5 - octave (1-5-8) đập rải chậm, kết hợp tay phải chèn hợp âm ở các phách nhẹ. Phù hợp đệm phiên khúc (Verse).",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "C/G",
+        "F",
+        "C/E",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3"
+        ],
+        "right": [
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C2",
+          "G2",
+          "C3",
+          "E4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "C3"
+          ],
+          "right": [
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu 1: Tiết tấu đệm Pop Ballad cơ bản nhẹ nhàng cho tay trái và tay phải. Tay trái đi các nốt gốc - bậc 5 - octave (1-5-8) đập rải chậm, kết hợp tay phải chèn hợp âm ở các phách nhẹ. Phù hợp đệm phiên khúc (Verse)."
+}

@@ -1,0 +1,45 @@
+{
+  "difficulty": 3,
+  "avoid_when": [
+    "Không dùng trên hợp âm thứ — b3 là nốt hợp âm của nó, mất hẳn hiệu ứng"
+  ],
+  "source": {
+    "teacher_id": "kingsley",
+    "source_id": "kingsley-pop-ballad-fills",
+    "locator": "Folders 03, 05/03, 06, 11, 12"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "id": "kingsley-flat3-to-3-grace",
+  "type": "fill",
+  "name": "Nốt hoa mỹ nửa cung b3 lên bậc 3 trên hợp âm trưởng",
+  "use_when": [
+    "Hợp âm trưởng",
+    "Muốn màu pop ballad hiện đại, hơi blues"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "F",
+      "G"
+    ]
+  },
+  "output": {
+    "grace": "b3 lên 3",
+    "examples": {
+      "C": [
+        "Eb",
+        "E"
+      ],
+      "F": [
+        "Ab",
+        "A"
+      ]
+    },
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Nốt hoa mỹ nửa cung đi từ b3 lên bậc 3, chỉ dùng trên hợp âm trưởng: trên C là Eb lên E, trên F là Ab lên A. Đây là nốt ngoài gam, lướt qua rất nhanh, tạo màu pop ballad hiện đại."
+}

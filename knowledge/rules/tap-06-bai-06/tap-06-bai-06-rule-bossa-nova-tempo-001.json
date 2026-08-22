@@ -1,0 +1,63 @@
+{
+  "id": "tap-06-bai-06-rule-bossa-nova-tempo-001",
+  "type": "rule",
+  "name": "Slow Bossa Nova thực hiện trong khoảng Tempo 110 - 125 BPM",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-06",
+    "locator": "00:06:45-00:06:55 pdf p.1",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Bossa Nova, Latin, Latin Jazz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "jazz",
+      "bossa-nova",
+      "latin",
+      "latin-jazz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Bossa Nova",
+        "Latin",
+        "Latin Jazz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Slow Bossa Nova thực hiện trong khoảng Tempo 110 - 125 BPM. Fast Bossa Nova thực hiện trong khoảng Tempo 160 - 180 BPM.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_bossa_nova_tempo_001",
+      "title": "Phạm vi Tốc độ Bossa Nova",
+      "description": "Slow Bossa Nova thực hiện trong khoảng Tempo 110 - 125 BPM. Fast Bossa Nova thực hiện trong khoảng Tempo 160 - 180 BPM.",
+      "category": "tempo_guideline",
+      "source_ref": "hai_piano_course_001_lesson_006_004",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_06"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Slow Bossa Nova thực hiện trong khoảng Tempo 110 - 125 BPM. Fast Bossa Nova thực hiện trong khoảng Tempo 160 - 180 BPM."
+}

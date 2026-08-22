@@ -1,0 +1,68 @@
+{
+  "id": "tap-06-bai-09-rule-waltz-syncopated-pattern-3",
+  "type": "rule",
+  "name": "Kỹ thuật tạo biến tấu đảo phách (Syncopation) cho nhịp 3/4 Waltz ở đoạn điệp khúc.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-09",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Boston, Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "boston",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Boston",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Kỹ thuật tạo biến tấu đảo phách (Syncopation) cho nhịp 3/4 Waltz ở đoạn điệp khúc.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_waltz_syncopated_pattern_3",
+      "description": "Kỹ thuật tạo biến tấu đảo phách (Syncopation) cho nhịp 3/4 Waltz ở đoạn điệp khúc.",
+      "type": "rhythm_rule",
+      "applicable_styles": [
+        "Waltz"
+      ],
+      "conditions": {
+        "section_type": "Chorus / Peak",
+        "time_signature": "3/4"
+      },
+      "recommendation": "Sử dụng nốt đen có dấu chấm ở phách 1 kết hợp giật phách 2 để tạo sự đột phá nhịp điệu và tăng tính hiện đại cho bản đệm.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_09"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Kỹ thuật tạo biến tấu đảo phách (Syncopation) cho nhịp 3/4 Waltz ở đoạn điệp khúc."
+}

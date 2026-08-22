@@ -1,0 +1,126 @@
+{
+  "id": "tap-02-bai-11-hai-piano-tap02-bai11-008",
+  "type": "accompaniment",
+  "name": "Thế tay trái 8 dành cho hợp âm 9: Công thức bậc 1.5.1.9.3.9 (hoặc mở rộng thành 1.5.1.9.3.9.1)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-11",
+    "locator": "00:21:31-00:23:08 pdf p.2",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_002",
+        "page": 2,
+        "section": "Thế 8: 1.5.1.9.3.9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cadd9, Am9, Fadd9",
+    "Giọng: C major",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cadd9",
+      "Am9",
+      "Fadd9"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Thế tay trái 8 dành cho hợp âm 9: Công thức bậc 1.5.1.9.3.9 (hoặc mở rộng thành 1.5.1.9.3.9.1). Tạo bước di chuyển quãng rộng từ bậc 1 lên quãng 8 rồi qua bậc 9 và 3.",
+    "music_entities": {
+      "chords": [
+        "Cadd9",
+        "Am9",
+        "Fadd9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cadd9",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "D3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2",
+          "C3",
+          "D3",
+          "E3",
+          "D3",
+          "C3"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cadd9",
+        "notes": [
+          "C2",
+          "G2",
+          "C3",
+          "D3",
+          "E3",
+          "D3",
+          "C3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "G2",
+            "C3",
+            "D3",
+            "E3",
+            "D3",
+            "C3"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thế tay trái 8 dành cho hợp âm 9: Công thức bậc 1.5.1.9.3.9 (hoặc mở rộng thành 1.5.1.9.3.9.1). Tạo bước di chuyển quãng rộng từ bậc 1 lên quãng 8 rồi qua bậc 9 và 3."
+}

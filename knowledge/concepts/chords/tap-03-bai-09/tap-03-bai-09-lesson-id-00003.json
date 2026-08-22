@@ -1,0 +1,120 @@
+{
+  "id": "tap-03-bai-09-lesson-id-00003",
+  "type": "concept",
+  "name": "Hòa âm đoạn A bài Forever gồm chuỗi hợp âm: Am (La thứ) -> Em/E7 (Mi thứ/Mi 7) -> F (Pha trưởng) -> Dm (Rê thứ) -> C (Đô",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-09",
+    "locator": "03:01-04:06 pdf p.8",
+    "media_id": "video_tap_03_bai_09",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 8,
+        "section": "Đoạn A - Hòa âm & Tay Trái"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Em, E7, F, Dm, C",
+    "Giọng: A minor",
+    "Nốt màu: 7",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Em",
+      "E7",
+      "F",
+      "Dm",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Hòa âm đoạn A bài Forever gồm chuỗi hợp âm: Am (La thứ) -> Em/E7 (Mi thứ/Mi 7) -> F (Pha trưởng) -> Dm (Rê thứ) -> C (Đô trưởng) -> E7 (Mi 7). Tay trái đánh mẫu rải nốt móc đơn liền tiếng.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Em",
+        "E7",
+        "F",
+        "Dm",
+        "C"
+      ],
+      "tensions": [
+        "7"
+      ],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "E3",
+        "A3",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "A3",
+          "C4"
+        ],
+        "right": []
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A2",
+          "E3",
+          "A3",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3",
+            "A3",
+            "C4"
+          ],
+          "right": []
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hòa âm đoạn A bài Forever gồm chuỗi hợp âm: Am (La thứ) -> Em/E7 (Mi thứ/Mi 7) -> F (Pha trưởng) -> Dm (Rê thứ) -> C (Đô trưởng) -> E7 (Mi 7). Tay trái đánh mẫu rải nốt móc đơn liền tiếng."
+}

@@ -1,0 +1,86 @@
+{
+  "id": "tap-02-bai-09-r-tap02-bai09-004",
+  "type": "rule",
+  "name": "Để tạo cái kết đọng lại ấn tượng cho tác phẩm, thực hiện rải hợp âm mở rộng 9th/Major7 nối tiếp qua 2-3 octave ở cuối bài.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-09",
+    "locator": "00:02:30-00:07:01 pdf p.8",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Gospel, Pop, Pop Ballad, Slow Ballad, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "gospel",
+      "pop",
+      "pop-ballad",
+      "slow-ballad",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Gospel",
+        "Pop",
+        "Pop Ballad",
+        "Slow Ballad",
+        "Thánh ca"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Để tạo cái kết đọng lại ấn tượng cho tác phẩm, thực hiện rải hợp âm mở rộng 9th/Major7 nối tiếp qua 2-3 octave ở cuối bài.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP02_BAI09_004",
+      "title": "Kỹ thuật Kết Outro bằng Arpeggio Bậc 9/Major 7",
+      "summary": "Để tạo cái kết đọng lại ấn tượng cho tác phẩm, thực hiện rải hợp âm mở rộng 9th/Major7 nối tiếp qua 2-3 octave ở cuối bài.",
+      "domain": "outro_technique",
+      "applicability": {
+        "keys": [
+          "All major keys"
+        ],
+        "styles": [
+          "Solo Piano",
+          "Ballad Ending"
+        ]
+      },
+      "conditions": [
+        "Tác phẩm ở nốt kết thúc về hợp âm chủ."
+      ],
+      "action": {
+        "technique": "Rải liên tục nốt bậc 1-5-7-9-3 từ tay trái truyền lên tay phải trên quãng rộng, kết thúc bằng một hợp âm rải chậm đè pedal."
+      },
+      "example": {
+        "chord": "Cmaj7(9)",
+        "notes": "C2 - G2 - B2 - D3 - E3 - G3 - B3 - D4 - E4 - G4"
+      },
+      "lesson_folder": "Tap_02_Bai_09"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Để tạo cái kết đọng lại ấn tượng cho tác phẩm, thực hiện rải hợp âm mở rộng 9th/Major7 nối tiếp qua 2-3 octave ở cuối bài."
+}

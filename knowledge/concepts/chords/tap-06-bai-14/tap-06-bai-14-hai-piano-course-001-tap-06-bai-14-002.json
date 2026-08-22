@@ -1,0 +1,93 @@
+{
+  "id": "tap-06-bai-14-hai-piano-course-001-tap-06-bai-14-002",
+  "type": "concept",
+  "name": "Vòng hòa âm thực hành tiết điệu Reggae theo bậc: I - VI - V - IV - V - I trên giọng Đô trưởng (C Major): C -> Am -> G ->",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-14",
+    "locator": "01:54-02:57 pdf p.1",
+    "media_id": "video_bai_14",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06",
+        "page": 1,
+        "section": "Vòng hòa âm Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, Am, G, F",
+    "Giọng: C major",
+    "Điệu / phong cách: Reggae"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "Am",
+      "G",
+      "F"
+    ],
+    "style": [
+      "reggae"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Vòng hòa âm thực hành tiết điệu Reggae theo bậc: I - VI - V - IV - V - I trên giọng Đô trưởng (C Major): C -> Am -> G -> F -> G -> C. Vòng này tạo cảm giác di chuyển tròn, rất thích hợp cho đoạn Intro, Giằng tấu hoặc đệm toàn bộ bài hát.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "Am",
+        "G",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Reggae"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C - Am - G - F - G - C",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "A2",
+        "C3",
+        "E3",
+        "G2",
+        "B2",
+        "D3",
+        "F2",
+        "A2",
+        "C3"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "A1",
+          "G1",
+          "F1",
+          "G1",
+          "C2"
+        ],
+        "right": [
+          "C4-E4-G4",
+          "A3-C4-E4",
+          "G3-B3-D4",
+          "F3-A3-C4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm thực hành tiết điệu Reggae theo bậc: I - VI - V - IV - V - I trên giọng Đô trưởng (C Major): C -> Am -> G -> F -> G -> C. Vòng này tạo cảm giác di chuyển tròn, rất thích hợp cho đoạn Intro, Giằng tấu hoặc đệm toàn bộ bài hát."
+}

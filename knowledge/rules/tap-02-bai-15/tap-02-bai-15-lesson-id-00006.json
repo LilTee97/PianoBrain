@@ -1,0 +1,106 @@
+{
+  "id": "tap-02-bai-15-lesson-id-00006",
+  "type": "rule",
+  "name": "Quy tắc lót đoạn/chuyển hợp âm: Khi chuyển từ giọng chính C sang bậc VI (Am), sử dụng chuỗi Bm7-5 -> E7(b9,13) -> Am7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-15",
+    "locator": "11:20:00-13:21:00 pdf p.11",
+    "media_id": "video_tap_02_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 11,
+        "section": "Phân tích chuyển đoạn & kỹ thuật lót"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bm7-5, E7(b9,13), Am7, Gm7, C7(b9), Fmaj7, Gsus4, C9",
+    "Giọng: C major",
+    "Gam: C major",
+    "Nốt màu: b9, 13, add9",
+    "Điệu / phong cách: Arranging Rule"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bm7-5",
+      "E7(b9,13)",
+      "Am7",
+      "Gm7",
+      "C7(b9)",
+      "Fmaj7",
+      "Gsus4",
+      "C9"
+    ],
+    "style": [
+      "arranging-rule"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc lót đoạn/chuyển hợp âm: Khi chuyển từ giọng chính C sang bậc VI (Am), sử dụng chuỗi Bm7-5 -> E7(b9,13) -> Am7. Khi về bậc IV (Fmaj7), áp dụng 2-5 phụ Gm7 -> C7(b9) -> Fmaj7. Khi kết bài, dùng hợp âm G6 hoặc Gsus4 chuyển dần về C9/Cadd9.",
+    "music_entities": {
+      "chords": [
+        "Bm7-5",
+        "E7(b9,13)",
+        "Am7",
+        "Gm7",
+        "C7(b9)",
+        "Fmaj7",
+        "Gsus4",
+        "C9"
+      ],
+      "tensions": [
+        "b9",
+        "13",
+        "add9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Arranging Rule"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Gm7 -> C7(-9)",
+      "notes": [
+        "G2",
+        "F3",
+        "Bb3",
+        "D4",
+        "->",
+        "C3",
+        "E3",
+        "Bb3",
+        "Db4"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "->",
+          "C3"
+        ],
+        "right": [
+          "F3",
+          "Bb3",
+          "D4",
+          "->",
+          "E3",
+          "Bb3",
+          "Db4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc lót đoạn/chuyển hợp âm: Khi chuyển từ giọng chính C sang bậc VI (Am), sử dụng chuỗi Bm7-5 -> E7(b9,13) -> Am7. Khi về bậc IV (Fmaj7), áp dụng 2-5 phụ Gm7 -> C7(b9) -> Fmaj7. Khi kết bài, dùng hợp âm G6 hoặc Gsus4 chuyển dần về C9/Cadd9."
+}

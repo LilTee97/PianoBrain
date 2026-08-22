@@ -1,0 +1,114 @@
+{
+  "id": "tap-02-bai-12-hai-piano-course-001-t2-b12-002",
+  "type": "accompaniment",
+  "name": "Đặc trưng kỹ thuật chơi Tango trên Piano: Tay trái chơi liền tiếng (Legato) để tạo nền âm bass vững chắc, trong khi Tay",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-12",
+    "locator": "00:01:13-00:03:09 pdf p.3",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 3,
+        "section": "BÀI 12 : TIẾT TẤU TANGO"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, E7, G",
+    "Giọng: Am",
+    "Điệu / phong cách: Tango"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "E7",
+      "G"
+    ],
+    "style": [
+      "tango"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Đặc trưng kỹ thuật chơi Tango trên Piano: Tay trái chơi liền tiếng (Legato) để tạo nền âm bass vững chắc, trong khi Tay phải chơi nẩy tiếng (Staccato) dứt khoát kết hợp nhấn phách đảo (Syncopation / Accent) để tạo lực đẩy tiết tấu.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "E7",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [],
+      "styles": [
+        "Tango"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A2",
+        "C4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "A2"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "A4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "A2",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "A4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Đặc trưng kỹ thuật chơi Tango trên Piano: Tay trái chơi liền tiếng (Legato) để tạo nền âm bass vững chắc, trong khi Tay phải chơi nẩy tiếng (Staccato) dứt khoát kết hợp nhấn phách đảo (Syncopation / Accent) để tạo lực đẩy tiết tấu."
+}

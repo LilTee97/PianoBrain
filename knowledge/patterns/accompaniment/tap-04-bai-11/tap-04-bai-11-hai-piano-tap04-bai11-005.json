@@ -1,0 +1,117 @@
+{
+  "id": "tap-04-bai-11-hai-piano-tap04-bai11-005",
+  "type": "exercise",
+  "name": "Mẫu câu lót số 3 (Câu 3): Câu lót dạng Intro/Lót giữa câu với nét giai điệu tinh tế, chạy chuyển tiếp liền bậc mượt mà g",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-11",
+    "locator": "07:18-08:14 pdf p.54",
+    "media_id": "video_tap04_bai11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04_bai11",
+        "page": 54,
+        "section": "Bài 11 - Câu 3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G/B, Am, C/G, F, C/E, Dm7, G7",
+    "Giọng: C major",
+    "Gam: C major",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G/B",
+      "Am",
+      "C/G",
+      "F",
+      "C/E",
+      "Dm7",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu lót số 3 (Câu 3): Câu lót dạng Intro/Lót giữa câu với nét giai điệu tinh tế, chạy chuyển tiếp liền bậc mượt mà giữa các ô nhịp.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G/B",
+        "Am",
+        "C/G",
+        "F",
+        "C/E",
+        "Dm7",
+        "G7"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "G4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3"
+          ],
+          "right": [
+            "G4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 3 (Câu 3): Câu lót dạng Intro/Lót giữa câu với nét giai điệu tinh tế, chạy chuyển tiếp liền bậc mượt mà giữa các ô nhịp."
+}

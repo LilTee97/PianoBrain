@@ -1,0 +1,82 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-010",
+  "type": "rule",
+  "name": "Quy tắc dẫn nốt bass và hợp âm đảo bass (Slash Chords): Khi chuyển từ G sang Em, đi qua nốt Bass F# (D/F#) hoặc G/B để t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "14:44:00-18:42:00 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "Part B Hands Together & Voice Leading"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: G, D/F#, Em, G/B, C",
+    "Giọng: G Major",
+    "Điệu / phong cách: Voice Leading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "G",
+      "D/F#",
+      "Em",
+      "G/B",
+      "C"
+    ],
+    "style": [
+      "voice-leading"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc dẫn nốt bass và hợp âm đảo bass (Slash Chords): Khi chuyển từ G sang Em, đi qua nốt Bass F# (D/F#) hoặc G/B để tạo đường bass liền bậc (stepwise bassline), giúp liên kết hòa âm mịn màng.",
+    "music_entities": {
+      "chords": [
+        "G",
+        "D/F#",
+        "Em",
+        "G/B",
+        "C"
+      ],
+      "tensions": [],
+      "keys": [
+        "G Major"
+      ],
+      "scales": [],
+      "styles": [
+        "Voice Leading"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G -> D/F# -> Em",
+      "notes": [
+        "G2",
+        "F#2",
+        "E2"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "F#2",
+          "E2"
+        ],
+        "right": [
+          "B3-D4-G4",
+          "A3-D4-F#4",
+          "G3-B3-E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc dẫn nốt bass và hợp âm đảo bass (Slash Chords): Khi chuyển từ G sang Em, đi qua nốt Bass F# (D/F#) hoặc G/B để tạo đường bass liền bậc (stepwise bassline), giúp liên kết hòa âm mịn màng."
+}

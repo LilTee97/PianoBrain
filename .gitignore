@@ -1,0 +1,7 @@
+node_modules
+dist
+*.log
+
+# Kho master nằm ngoài repo, đường dẫn qua PIANOBRAIN_MASTER — không chép vào đây.
+/master/
+/sources/raw/

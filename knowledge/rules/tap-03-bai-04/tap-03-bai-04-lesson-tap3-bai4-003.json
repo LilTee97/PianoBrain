@@ -1,0 +1,89 @@
+{
+  "id": "tap-03-bai-04-lesson-tap3-bai4-003",
+  "type": "rule",
+  "name": "Quy tắc ngón chạy Gam Chromatic (12 nửa cung): Tất cả phím đen sử dụng ngón 3, phím trắng đi liền với phím đen sử dụng n",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "09:16-13:36 pdf p.1",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "sheet_001",
+        "page": 1,
+        "section": "Gam Chromatic"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: Chromatic",
+    "Gam: Chromatic scale",
+    "Điệu / phong cách: Classical, Solo Fill"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical",
+      "solo-fill"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc ngón chạy Gam Chromatic (12 nửa cung): Tất cả phím đen sử dụng ngón 3, phím trắng đi liền với phím đen sử dụng ngón 1. Ngoại lệ duy nhất tại hai vị trí nửa cung trắng-trắng liên tiếp (E-F và B-C) thì dùng ngón 1 - ngón 2.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "Chromatic"
+      ],
+      "scales": [
+        "Chromatic scale"
+      ],
+      "styles": [
+        "Classical",
+        "Solo Fill"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Chromatic Run",
+      "notes": [
+        "C",
+        "C#",
+        "D",
+        "D#",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "A#",
+        "B",
+        "C"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "1",
+          "3",
+          "1",
+          "3",
+          "1",
+          "2",
+          "3",
+          "1",
+          "3",
+          "1",
+          "3",
+          "1",
+          "2"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc ngón chạy Gam Chromatic (12 nửa cung): Tất cả phím đen sử dụng ngón 3, phím trắng đi liền với phím đen sử dụng ngón 1. Ngoại lệ duy nhất tại hai vị trí nửa cung trắng-trắng liên tiếp (E-F và B-C) thì dùng ngón 1 - ngón 2."
+}

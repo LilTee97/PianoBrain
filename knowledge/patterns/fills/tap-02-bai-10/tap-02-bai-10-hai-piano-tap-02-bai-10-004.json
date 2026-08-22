@@ -1,0 +1,134 @@
+{
+  "id": "tap-02-bai-10-hai-piano-tap-02-bai-10-004",
+  "type": "fill",
+  "name": "Câu dẫn C sang F (Kiểu đi xuống): Giai điệu bắt đầu ở bậc 5 (Sol) đi xuống bậc 1 (Sol - Sol - Sol - Fa - Mi - Re - Do) n",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-10",
+    "locator": "04:15:00-06:23:00 pdf p.9",
+    "media_id": "tap_02_bai_10_video",
+    "supporting": [
+      {
+        "source_id": "tap_02_pdf_3",
+        "page": 9,
+        "section": "1. Chuyển từ C -> F"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, C/E, F, Fadd9",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Nốt màu: add9",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "C/E",
+      "F",
+      "Fadd9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Câu dẫn C sang F (Kiểu đi xuống): Giai điệu bắt đầu ở bậc 5 (Sol) đi xuống bậc 1 (Sol - Sol - Sol - Fa - Mi - Re - Do) nối về hợp âm đích F hoặc Fadd9.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "C/E",
+        "F",
+        "Fadd9"
+      ],
+      "tensions": [
+        "add9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C/E -> F",
+      "notes": [
+        "G4",
+        "G4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "hands": {
+        "left": [
+          "E3",
+          "C3"
+        ],
+        "right": [
+          "G4",
+          "F4",
+          "E4",
+          "D4",
+          "C4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C/E -> F",
+        "notes": [
+          "G4",
+          "G4",
+          "G4",
+          "F4",
+          "E4",
+          "D4",
+          "C4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "E3",
+            "C3"
+          ],
+          "right": [
+            "G4",
+            "F4",
+            "E4",
+            "D4",
+            "C4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu dẫn C sang F (Kiểu đi xuống): Giai điệu bắt đầu ở bậc 5 (Sol) đi xuống bậc 1 (Sol - Sol - Sol - Fa - Mi - Re - Do) nối về hợp âm đích F hoặc Fadd9."
+}

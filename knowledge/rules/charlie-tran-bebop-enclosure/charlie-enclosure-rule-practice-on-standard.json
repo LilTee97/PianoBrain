@@ -1,0 +1,32 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-rule-practice-on-standard",
+  "type": "rule",
+  "name": "Tập trên bài chuẩn thì dùng enclosure 3 nốt nhắm mọi bậc 3",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:08:38"
+  },
+  "use_when": [
+    "Tập enclosure vào một bài thật, ví dụ Autumn Leaves"
+  ],
+  "output": {
+    "if": "luyện ứng dụng vào một bài tiêu chuẩn",
+    "then": {
+      "shape": "enclosure 3 nốt",
+      "target": "tất cả nốt bậc 3 của từng hợp âm trong vòng"
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Khi tập ứng dụng vào bài tiêu chuẩn như Autumn Leaves, áp dụng enclosure ba nốt, tập trung nhắm vào tất cả các nốt bậc 3 của từng hợp âm trong vòng chuyển.",
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  }
+}

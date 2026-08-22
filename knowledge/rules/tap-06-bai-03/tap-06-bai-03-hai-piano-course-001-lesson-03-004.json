@@ -1,0 +1,66 @@
+{
+  "id": "tap-06-bai-03-hai-piano-course-001-lesson-03-004",
+  "type": "rule",
+  "name": "Quy tắc xếp ngón tay trái khi rải quãng rộng (1-5-8-9-10-9): Sử dụng thế ngón 5 (nốt 1) - 2 (nốt 5) - 1 (nốt 8) để ngón",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-03",
+    "locator": "00:05:00-00:05:35 pdf p.1",
+    "media_id": "Tap_06_Bai_03.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_06_Bai_03.pdf",
+        "page": 1,
+        "section": "Thế Ngón Tay Trái Mẫu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Quy tắc xếp ngón tay trái khi rải quãng rộng (1-5-8-9-10-9): Sử dụng thế ngón 5 (nốt 1) - 2 (nốt 5) - 1 (nốt 8) để ngón 1 dễ dàng di chuyển mở rộng sang các bậc 9 và 10 mà không bị sượng tay.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [],
+      "scales": [],
+      "styles": [
+        "Slow Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C2",
+        "G2",
+        "C3",
+        "D3",
+        "E3"
+      ],
+      "hands": {
+        "left": [
+          "C2 (ngón 5)",
+          "G2 (ngón 2)",
+          "C3 (ngón 1)",
+          "D3 (ngón 2/1)",
+          "E3 (ngón 1)"
+        ],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Quy tắc xếp ngón tay trái khi rải quãng rộng (1-5-8-9-10-9): Sử dụng thế ngón 5 (nốt 1) - 2 (nốt 5) - 1 (nốt 8) để ngón 1 dễ dàng di chuyển mở rộng sang các bậc 9 và 10 mà không bị sượng tay."
+}

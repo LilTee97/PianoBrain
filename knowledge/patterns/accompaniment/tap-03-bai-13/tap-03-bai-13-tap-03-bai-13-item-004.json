@@ -1,0 +1,116 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-004",
+  "type": "exercise",
+  "name": "Phần A - Hướng dẫn sắp xếp ngón tay tay phải cho câu giai điệu đầu: Rê - Sol - Si - Rê (D4-G4-B4-D5)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "02:20:00-03:43:00 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "Part A Melody & Fingering"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Gadd9",
+    "Giọng: G Major"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Gadd9"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Phần A - Hướng dẫn sắp xếp ngón tay tay phải cho câu giai điệu đầu: Rê - Sol - Si - Rê (D4-G4-B4-D5). Chuẩn bị thế ngón linh hoạt bằng cách chuyển ngón 1 vào nốt Sol4 để vươn ngón 5 lên nốt Rê5.",
+    "music_entities": {
+      "chords": [
+        "Gadd9"
+      ],
+      "tensions": [],
+      "keys": [
+        "G Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "Melody Line A1",
+      "notes": [
+        "D4",
+        "G4",
+        "B4",
+        "D5",
+        "E5",
+        "D5",
+        "B4",
+        "A4"
+      ],
+      "hands": {
+        "left": [],
+        "right": [
+          "D4(1)",
+          "G4(2)",
+          "B4(3)",
+          "D5(5)",
+          "E5(5)",
+          "D5(4)",
+          "B4(2)",
+          "A4(1)"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Melody Line A1",
+        "notes": [
+          "D4",
+          "G4",
+          "B4",
+          "D5",
+          "E5",
+          "D5",
+          "B4",
+          "A4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [],
+          "right": [
+            "D4(1)",
+            "G4(2)",
+            "B4(3)",
+            "D5(5)",
+            "E5(5)",
+            "D5(4)",
+            "B4(2)",
+            "A4(1)"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phần A - Hướng dẫn sắp xếp ngón tay tay phải cho câu giai điệu đầu: Rê - Sol - Si - Rê (D4-G4-B4-D5). Chuẩn bị thế ngón linh hoạt bằng cách chuyển ngón 1 vào nốt Sol4 để vươn ngón 5 lên nốt Rê5."
+}

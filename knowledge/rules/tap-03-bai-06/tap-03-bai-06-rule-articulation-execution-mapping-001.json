@@ -1,0 +1,85 @@
+{
+  "id": "tap-03-bai-06-rule-articulation-execution-mapping-001",
+  "type": "rule",
+  "name": "Mapping visual notation symbols to technical touch execution: Legato (different pitches or slurred), Non-legato (same pi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "03:05-05:55 pdf p.3",
+    "extra_locators": [
+      "09:20-09:35 pdf p.3",
+      "13:00-16:45 pdf p.3",
+      "31:10-34:00 pdf p.3"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Waltz"
+  ],
+  "avoid_when": [
+    "Pedal-assisted legato passages"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Mapping visual notation symbols to technical touch execution: Legato (different pitches or slurred), Non-legato (same pitch, dotted under slur, tenuto bar), Staccato (dot directly on notehead).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_articulation_execution_mapping_001",
+      "name": "Standard Piano Articulation Mapping Rules",
+      "domain": "articulation_rules",
+      "description": "Mapping visual notation symbols to technical touch execution: Legato (different pitches or slurred), Non-legato (same pitch, dotted under slur, tenuto bar), Staccato (dot directly on notehead).",
+      "if_conditions": [
+        {
+          "condition": "evaluating_phrase_articulation == true"
+        }
+      ],
+      "then_actions": [
+        {
+          "action": "apply_legato_if_different_pitches_or_slurred"
+        },
+        {
+          "action": "apply_non_legato_if_same_pitch_or_tenuto_or_slurred_dot"
+        },
+        {
+          "action": "apply_staccato_if_staccato_dot_on_notehead"
+        }
+      ],
+      "exceptions": [
+        "Pedal-assisted legato passages"
+      ],
+      "lesson_folder": "Tap_03_Bai_06"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Mapping visual notation symbols to technical touch execution: Legato (different pitches or slurred), Non-legato (same pitch, dotted under slur, tenuto bar), Staccato (dot directly on notehead)."
+}

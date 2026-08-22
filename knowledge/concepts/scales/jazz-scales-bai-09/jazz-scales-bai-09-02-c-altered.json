@@ -1,0 +1,71 @@
+{
+  "id": "jazz-scales-bai-09-02-c-altered",
+  "type": "scale",
+  "name": "Gam C altered cho hợp âm C7alt",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-09",
+    "locator": "02:55-04:10",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7alt",
+    "Chọn gam / scale khi gặp hợp âm 7alt trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7alt"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C altered",
+      "root": "C",
+      "note_names": [
+        "C",
+        "Db",
+        "Eb",
+        "E",
+        "Gb",
+        "Ab",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [
+        "7alt"
+      ],
+      "use_when": [
+        "hợp âm C7alt"
+      ]
+    },
+    "chord_symbol": "C7alt",
+    "notes": [
+      "C",
+      "Db",
+      "Eb",
+      "E",
+      "Gb",
+      "Ab",
+      "Bb"
+    ],
+    "source_text": "Peter's method to memorize C altered: Start with half-step, whole-step, half-step (diminished formula: C-Db-Eb-E), then transition into a whole-tone scale from E upward (E-Gb-Ab-Bb-C)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 9 của nguồn Jazz Scales (YouTube), mốc 02:55-04:10. Peter's method to memorize C altered: Start with half-step, whole-step, half-step (diminished formula: C-Db-Eb-E), then transition into a whole-tone scale from E upward (E-Gb-Ab-Bb-C). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

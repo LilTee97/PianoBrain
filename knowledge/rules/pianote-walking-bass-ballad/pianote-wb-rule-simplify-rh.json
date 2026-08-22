@@ -1,0 +1,37 @@
+{
+  "difficulty": 3,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "pianote-wb-rule-simplify-rh",
+  "type": "rule",
+  "name": "Hai tay quá tải thì tay phải rút về chơi hợp âm đệm",
+  "source": {
+    "teacher_id": "pianote",
+    "source_id": "pianote-walking-bass-ballad",
+    "locator": "00:01:23"
+  },
+  "use_when": [
+    "Vừa đi bass vừa chạy giai điệu thấy rối"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad"
+    ],
+    "chord_quality": [
+      "C",
+      "F",
+      "G",
+      "Am"
+    ]
+  },
+  "output": {
+    "if": "vừa đi walking bass vừa chạy giai điệu tay phải thấy quá tải",
+    "then": {
+      "rh": "chỉ chơi hợp âm đệm, khối hoặc đảo phách"
+    },
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Nếu vừa đi walking bass vừa chạy giai điệu tay phải thấy quá tải, tay phải đơn giản hóa bằng cách chỉ chơi hợp âm đệm."
+}

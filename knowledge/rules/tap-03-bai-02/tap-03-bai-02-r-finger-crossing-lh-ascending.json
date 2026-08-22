@@ -1,0 +1,64 @@
+{
+  "id": "tap-03-bai-02-r-finger-crossing-lh-ascending",
+  "type": "rule",
+  "name": "Khi đánh Gam Đô Trưởng đi lên bằng tay trái, dùng ngón 5-4-3-2-1 cho C-D-E-F-G, sau đó vắt ngón 3 qua ngón 1 để bấm A, t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-02",
+    "locator": "20:36:00-25:34:00",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Classical/Technique, Music Theory, Sight Reading"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical-technique",
+      "music-theory",
+      "sight-reading"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Classical/Technique",
+        "Music Theory",
+        "Sight Reading"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi đánh Gam Đô Trưởng đi lên bằng tay trái, dùng ngón 5-4-3-2-1 cho C-D-E-F-G, sau đó vắt ngón 3 qua ngón 1 để bấm A, tiếp tục ngón 2-1 cho B-C.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Cross finger 3 over thumb (finger 1) onto A"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_FINGER_CROSSING_LH_ASCENDING",
+      "category": "fingering",
+      "description": "Khi đánh Gam Đô Trưởng đi lên bằng tay trái, dùng ngón 5-4-3-2-1 cho C-D-E-F-G, sau đó vắt ngón 3 qua ngón 1 để bấm A, tiếp tục ngón 2-1 cho B-C.",
+      "condition": "Left hand ascending 1-octave C major scale",
+      "action": "Cross finger 3 over thumb (finger 1) onto A",
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_02"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi đánh Gam Đô Trưởng đi lên bằng tay trái, dùng ngón 5-4-3-2-1 cho C-D-E-F-G, sau đó vắt ngón 3 qua ngón 1 để bấm A, tiếp tục ngón 2-1 cho B-C."
+}

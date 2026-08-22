@@ -1,0 +1,50 @@
+{
+  "id": "jazz-scales-bai-06-05-g-dominant-bebop-scale",
+  "type": "arpeggio",
+  "name": "Pattern Type 1:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-06",
+    "locator": "02:25-03:42",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm Bm7b5",
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Ngẫu hứng jazz trên hợp âm FM7",
+    "Chọn gam / scale khi gặp hợp âm 7, m7b5, m7, M7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "m7b5",
+      "m7",
+      "M7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G7",
+    "notes": [
+      "B3",
+      "D4",
+      "F4",
+      "A4",
+      "G4",
+      "F4",
+      "E4",
+      "D4"
+    ],
+    "source_text": "Pattern Type 1: Play an ascending 4-note arpeggio (starting from 3rd, 5th, or 7th) followed by 4 descending notes of the G Dominant Bebop Scale. Accent the highest note of each arpeggio for swing feel."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 6 của nguồn Jazz Scales (YouTube), mốc 02:25-03:42. Pattern Type 1: Play an ascending 4-note arpeggio (starting from 3rd, 5th, or 7th) followed by 4 descending notes of the G Dominant Bebop Scale. Accent the highest note of each arpeggio for swing feel. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,122 @@
+{
+  "id": "tap-03-bai-13-tap-03-bai-13-item-007",
+  "type": "exercise",
+  "name": "Ghép hai tay phần A: Chú ý khớp tiết tấu giữa nốt đen chấm móc của tay phải và các nốt rải móc đơn tay trái",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-13",
+    "locator": "06:16:00-08:46:00 pdf p.16",
+    "media_id": "video_tap_03_bai_13",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 16,
+        "section": "Hands Together Practice - Part A"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Gadd9, C/G, Em7, D/F#",
+    "Giọng: G Major",
+    "Nốt màu: add9, 7"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Gadd9",
+      "C/G",
+      "Em7",
+      "D/F#"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Ghép hai tay phần A: Chú ý khớp tiết tấu giữa nốt đen chấm móc của tay phải và các nốt rải móc đơn tay trái. Giữ nhịp đập phách đều đặn ở phách 1 và 3.",
+    "music_entities": {
+      "chords": [
+        "Gadd9",
+        "C/G",
+        "Em7",
+        "D/F#"
+      ],
+      "tensions": [
+        "add9",
+        "7"
+      ],
+      "keys": [
+        "G Major"
+      ],
+      "scales": [],
+      "styles": []
+    },
+    "observed_example": {
+      "chord_symbol": "Gadd9 -> C/G",
+      "notes": [
+        "G2",
+        "D3",
+        "A3",
+        "B3",
+        "D4",
+        "G4",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "D3",
+          "A3"
+        ],
+        "right": [
+          "D4",
+          "G4",
+          "B4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Gadd9 -> C/G",
+        "notes": [
+          "G2",
+          "D3",
+          "A3",
+          "B3",
+          "D4",
+          "G4",
+          "B4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "G2",
+            "D3",
+            "A3"
+          ],
+          "right": [
+            "D4",
+            "G4",
+            "B4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ghép hai tay phần A: Chú ý khớp tiết tấu giữa nốt đen chấm móc của tay phải và các nốt rải móc đơn tay trái. Giữ nhịp đập phách đều đặn ở phách 1 và 3."
+}

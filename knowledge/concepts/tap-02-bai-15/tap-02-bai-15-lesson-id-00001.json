@@ -1,0 +1,100 @@
+{
+  "id": "tap-02-bai-15-lesson-id-00001",
+  "type": "concept",
+  "name": "Bài 15 là bài tổng hợp toàn bộ kiến thức hòa âm nâng cao của Tập 2 (hợp âm 3, hợp âm 7, hợp âm 9, 11, 13, trưởng/thứ hòa",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-15",
+    "locator": "00:00:33-01:31:00 pdf p.9",
+    "media_id": "video_tap_02_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 9,
+        "section": "Bài 15: Tổng hợp những gì đã học vào một tác phẩm"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, Em7, Am7, Fmaj7, G7",
+    "Giọng: C major",
+    "Gam: C major, C harmonic minor, C melodic minor",
+    "Nốt màu: add9, 7, 9, 11, 13",
+    "Điệu / phong cách: Ballade, Pop Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "Em7",
+      "Am7",
+      "Fmaj7",
+      "G7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballade",
+      "pop",
+      "pop-piano"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Bài 15 là bài tổng hợp toàn bộ kiến thức hòa âm nâng cao của Tập 2 (hợp âm 3, hợp âm 7, hợp âm 9, 11, 13, trưởng/thứ hòa thanh, thứ giai điệu) áp dụng vào bài hát thực tế 'Nàng Thơ' (sáng tác: Hoàng Dũng) trên giọng Đô trưởng (C Major).",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "Em7",
+        "Am7",
+        "Fmaj7",
+        "G7"
+      ],
+      "tensions": [
+        "add9",
+        "7",
+        "9",
+        "11",
+        "13"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major",
+        "C harmonic minor",
+        "C melodic minor"
+      ],
+      "styles": [
+        "Ballade",
+        "Pop Piano"
+      ],
+      "observed_example": {
+        "chord_symbol": "C9",
+        "notes": [
+          "C3",
+          "G3",
+          "E4",
+          "G4",
+          "D5"
+        ],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "E4",
+            "G4",
+            "D5"
+          ]
+        }
+      }
+    },
+    "observed_example": {}
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 15 là bài tổng hợp toàn bộ kiến thức hòa âm nâng cao của Tập 2 (hợp âm 3, hợp âm 7, hợp âm 9, 11, 13, trưởng/thứ hòa thanh, thứ giai điệu) áp dụng vào bài hát thực tế 'Nàng Thơ' (sáng tác: Hoàng Dũng) trên giọng Đô trưởng (C Major)."
+}

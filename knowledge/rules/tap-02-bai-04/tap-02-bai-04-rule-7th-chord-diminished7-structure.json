@@ -1,0 +1,72 @@
+{
+  "id": "tap-02-bai-04-rule-7th-chord-diminished7-structure",
+  "type": "rule",
+  "name": "Cấu tạo hợp âm Bảy Giảm (Diminished 7th)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-04",
+    "locator": null,
+    "locator_note": "kho gốc không ghi mốc cho rule này",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: accompaniment, ballad, gospel, pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment",
+      "pop_ballad",
+      "ballad",
+      "gospel",
+      "pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "accompaniment",
+        "ballad",
+        "gospel",
+        "pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Hợp âm Bảy Giảm được cấu tạo bởi 1 Hợp âm 3 giảm cộng thêm 1 Quãng 3 thứ. Quãng giữa nốt gốc và nốt ngọn là Quãng 7 giảm. Âm sắc ma mị, kịch tính, căng thẳng cao.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_7th_chord_diminished7_structure",
+      "category": "harmony",
+      "summary": "Cấu tạo hợp âm Bảy Giảm (Diminished 7th)",
+      "description": "Hợp âm Bảy Giảm được cấu tạo bởi 1 Hợp âm 3 giảm cộng thêm 1 Quãng 3 thứ. Quãng giữa nốt gốc và nốt ngọn là Quãng 7 giảm. Âm sắc ma mị, kịch tính, căng thẳng cao.",
+      "conditions": {
+        "root_type": "diminished_triad",
+        "added_interval": "minor_3rd"
+      },
+      "action": {
+        "resulting_chord": "Diminished 7th (X°7 / Xm0-7)"
+      },
+      "lesson_folder": "Tap_02_Bai_04"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Hợp âm Bảy Giảm được cấu tạo bởi 1 Hợp âm 3 giảm cộng thêm 1 Quãng 3 thứ. Quãng giữa nốt gốc và nốt ngọn là Quãng 7 giảm. Âm sắc ma mị, kịch tính, căng thẳng cao."
+}

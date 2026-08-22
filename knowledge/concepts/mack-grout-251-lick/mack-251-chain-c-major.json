@@ -1,0 +1,43 @@
+{
+  "difficulty": 2,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "mack-251-chain-c-major",
+  "type": "concept",
+  "name": "Vòng ii-V-I tông C: Dm9 → G13/G7 → Cmaj7",
+  "source": {
+    "teacher_id": "mack-grout",
+    "source_id": "mack-grout-251-lick",
+    "locator": "00:01:01"
+  },
+  "use_when": [
+    "Bắt đầu học vòng ii-V-I",
+    "Cần biết bộ khung hợp âm để tập lick"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Dm9",
+      "G13",
+      "G7",
+      "Cmaj7"
+    ]
+  },
+  "output": {
+    "degrees": [
+      "ii",
+      "V",
+      "I"
+    ],
+    "chords": [
+      "Dm9",
+      "G13/G7",
+      "Cmaj7"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Vòng hòa thanh ii-V-I ở giọng Đô trưởng gồm chuỗi: Dm9 (bậc ii) → G13 hoặc G7 (bậc V) → Cmaj7 (bậc I)."
+}

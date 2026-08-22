@@ -1,0 +1,91 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-002",
+  "type": "rule",
+  "name": "Khi nốt giai điệu là C, ta có thể chọn các hợp âm có bậc 9 là nốt C: Bm79 (B-D-F#-A-C), Bmdim79 / Bm7b5(9) (B-D-F-A-C),",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:02:10-00:04:12 pdf p.7",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 7,
+        "section": "Cột C - Nốt C làm bậc 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bm79, Bm7b5(9), Bbmaj79",
+    "Giọng: C major, G major",
+    "Gam: Diatonic",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Jazz, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bm79",
+      "Bm7b5(9)",
+      "Bbmaj79"
+    ],
+    "style": [
+      "jazz",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Khi nốt giai điệu là C, ta có thể chọn các hợp âm có bậc 9 là nốt C: Bm79 (B-D-F#-A-C), Bmdim79 / Bm7b5(9) (B-D-F-A-C), hoặc Bbmaj79 (Bb-D-F-A-C).",
+    "music_entities": {
+      "chords": [
+        "Bm79",
+        "Bm7b5(9)",
+        "Bbmaj79"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major",
+        "G major"
+      ],
+      "scales": [
+        "Diatonic"
+      ],
+      "styles": [
+        "Jazz",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Bm79",
+      "notes": [
+        "B1",
+        "F#2",
+        "A3",
+        "D4",
+        "F#4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "B1",
+          "F#2"
+        ],
+        "right": [
+          "A3",
+          "D4",
+          "F#4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu là C, ta có thể chọn các hợp âm có bậc 9 là nốt C: Bm79 (B-D-F#-A-C), Bmdim79 / Bm7b5(9) (B-D-F-A-C), hoặc Bbmaj79 (Bb-D-F-A-C)."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "jazz-scales-bai-02-01",
+  "type": "concept",
+  "name": "Introduction to the 10 most essential jazz scales for piano improvisation to simplify solos over",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-02",
+    "locator": "00:00-00:54",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Introduction to the 10 most essential jazz scales for piano improvisation to simplify solos over major, minor, dominant, diminished, and altered chords."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 2 của nguồn Jazz Scales (YouTube), mốc 00:00-00:54. Introduction to the 10 most essential jazz scales for piano improvisation to simplify solos over major, minor, dominant, diminished, and altered chords. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

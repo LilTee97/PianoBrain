@@ -1,0 +1,102 @@
+{
+  "id": "tap-04-bai-10-hai-piano-course-001-tap-04-bai-10-001",
+  "type": "concept",
+  "name": "Hướng dẫn kỹ thuật đánh câu lót, câu dẫn trên tiết tấu 16-Beat ở giọng Thứ (Am)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-10",
+    "locator": "00:00:00-00:02:47 pdf p.47",
+    "media_id": "video_tap_04_bai_10",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 47,
+        "section": "Bài 10 - Giới thiệu vòng hòa âm giọng Thứ 16-Beat"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Dm, F, E7",
+    "Giọng: Am",
+    "Gam: A natural minor, A harmonic minor",
+    "Điệu / phong cách: 16-Beat, Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Dm",
+      "F",
+      "E7"
+    ],
+    "style": [
+      "16-beat",
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Hướng dẫn kỹ thuật đánh câu lót, câu dẫn trên tiết tấu 16-Beat ở giọng Thứ (Am). Vòng hòa âm tiêu chuẩn được sử dụng là bậc 1 - 4 - 6 - 5 - 1 (Am - Dm - F - E7 - Am).",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Dm",
+        "F",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "Am"
+      ],
+      "scales": [
+        "A natural minor",
+        "A harmonic minor"
+      ],
+      "styles": [
+        "16-Beat",
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am - Dm - F - E7 - Am",
+      "notes": [
+        "A",
+        "C",
+        "E",
+        "D",
+        "F",
+        "A",
+        "F",
+        "A",
+        "C",
+        "E",
+        "G#",
+        "B",
+        "D"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "D3",
+          "F2",
+          "E2"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "A4",
+          "D4",
+          "F4",
+          "G#4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Hướng dẫn kỹ thuật đánh câu lót, câu dẫn trên tiết tấu 16-Beat ở giọng Thứ (Am). Vòng hòa âm tiêu chuẩn được sử dụng là bậc 1 - 4 - 6 - 5 - 1 (Am - Dm - F - E7 - Am)."
+}

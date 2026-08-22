@@ -1,0 +1,133 @@
+{
+  "id": "tap-02-bai-10-hai-piano-tap-02-bai-10-008",
+  "type": "fill",
+  "name": "Câu dẫn chuyển từ Cmajor7 sang Am7: Giai điệu lượn quanh các bậc cao (Si - Do - Si - Sol - Mi), hòa âm đi từ Cmaj7 -> G/",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-10",
+    "locator": "13:00:00-15:42:00 pdf p.9",
+    "media_id": "tap_02_bai_10_video",
+    "supporting": [
+      {
+        "source_id": "tap_02_pdf_3",
+        "page": 9,
+        "section": "Cmajor7 - Am7"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj7, G/B, E7, Am7, Am9",
+    "Giọng: C major, A minor",
+    "Gam: C major scale",
+    "Nốt màu: maj7, 9",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj7",
+      "G/B",
+      "E7",
+      "Am7",
+      "Am9"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Câu dẫn chuyển từ Cmajor7 sang Am7: Giai điệu lượn quanh các bậc cao (Si - Do - Si - Sol - Mi), hòa âm đi từ Cmaj7 -> G/B (hoặc E7) -> Am7/Am9.",
+    "music_entities": {
+      "chords": [
+        "Cmaj7",
+        "G/B",
+        "E7",
+        "Am7",
+        "Am9"
+      ],
+      "tensions": [
+        "maj7",
+        "9"
+      ],
+      "keys": [
+        "C major",
+        "A minor"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7 -> G/B -> Am9",
+      "notes": [
+        "B4",
+        "C5",
+        "B4",
+        "G4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "B2",
+          "A2"
+        ],
+        "right": [
+          "B4",
+          "C5",
+          "G4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj7 -> G/B -> Am9",
+        "notes": [
+          "B4",
+          "C5",
+          "B4",
+          "G4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "B2",
+            "A2"
+          ],
+          "right": [
+            "B4",
+            "C5",
+            "G4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Câu dẫn chuyển từ Cmajor7 sang Am7: Giai điệu lượn quanh các bậc cao (Si - Do - Si - Sol - Mi), hòa âm đi từ Cmaj7 -> G/B (hoặc E7) -> Am7/Am9."
+}

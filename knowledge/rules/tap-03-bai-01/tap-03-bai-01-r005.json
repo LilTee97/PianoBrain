@@ -1,0 +1,70 @@
+{
+  "id": "tap-03-bai-01-r005",
+  "type": "rule",
+  "name": "Giữ cổ tay yên và thả lỏng, nhấc cao khớp khuỷu ngón tay đập xuống",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-01",
+    "locator": "00:04:39-00:05:58",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Ballad, Bossa Nova, Classical, Disco, Pop, Pop Accompaniment, Pop Solo, Tango, Upbeat Pop"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "bossa-nova",
+      "classical",
+      "disco",
+      "pop",
+      "pop-accompaniment",
+      "pop-solo",
+      "tango",
+      "upbeat-pop"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Bossa Nova",
+        "Classical",
+        "Disco",
+        "Pop",
+        "Pop Accompaniment",
+        "Pop Solo",
+        "Tango",
+        "Upbeat Pop"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Giữ cổ tay yên và thả lỏng, nhấc cao khớp khuỷu ngón tay đập xuống. Nhấc ngón trước chính xác tại thời điểm ngón sau chạm phím để tiếng nốt liền mạch hoàn toàn.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Lift knuckle joint independently, connect sounds continuously without overlap or gap"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Giữ cổ tay yên và thả lỏng, nhấc cao khớp khuỷu ngón tay đập xuống. Nhấc ngón trước chính xác tại thời điểm ngón sau chạm phím để tiếng nốt liền mạch hoàn toàn."
+}

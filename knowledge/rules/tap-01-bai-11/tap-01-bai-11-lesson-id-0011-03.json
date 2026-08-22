@@ -1,0 +1,123 @@
+{
+  "id": "tap-01-bai-11-lesson-id-0011-03",
+  "type": "rule",
+  "name": "Ứng dụng hợp âm Sus4: Dùng ở vị trí kết câu, kết đoạn, kết bài hoặc kết nửa (half cadence)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-11",
+    "locator": "00:05:20-00:10:58 pdf p.2",
+    "media_id": "video_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_1_bai_11_15",
+        "page": 2,
+        "section": "1. SUS4"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Gsus4, G, Csus4, C, F",
+    "Giọng: C",
+    "Điệu / phong cách: ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Gsus4",
+      "G",
+      "Csus4",
+      "C",
+      "F"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Ứng dụng hợp âm Sus4: Dùng ở vị trí kết câu, kết đoạn, kết bài hoặc kết nửa (half cadence). Sus4 có xu hướng hút về nốt bậc 3 của hợp âm Trưởng/Thứ nguyên thể (ví dụ Gsus4 -> G -> C, hoặc Csus4 -> C). Giúp câu nhạc chuyển mượt mà, sang trọng hơn.",
+    "music_entities": {
+      "chords": [
+        "Gsus4",
+        "G",
+        "Csus4",
+        "C",
+        "F"
+      ],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [],
+      "styles": [
+        "ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Gsus4 -> G -> C",
+      "notes": [
+        "G2",
+        "D3",
+        "G3",
+        "C4",
+        "D4",
+        "G4",
+        "B4",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "G2",
+          "D3"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "if": {
+        "chord_quality": null,
+        "chord_symbol": null,
+        "chord_function": null,
+        "key_context": null,
+        "progression_context": null,
+        "melody_context": null,
+        "style_tags": [
+          "ballad",
+          "gospel",
+          "pop"
+        ],
+        "difficulty_range": null
+      },
+      "then": {
+        "description": "Ứng dụng hợp âm Sus4: Dùng ở vị trí kết câu, kết đoạn, kết bài hoặc kết nửa (half cadence). Sus4 có xu hướng hút về nốt bậc 3 của hợp âm Trưởng/Thứ nguyên thể (ví dụ Gsus4 -> G -> C, hoặc Csus4 -> C). Giúp câu nhạc chuyển mượt mà, sang trọng hơn.",
+        "action": {
+          "select": [],
+          "add": [],
+          "transform": [],
+          "generate": []
+        }
+      },
+      "enforced_by": null,
+      "candidate": {
+        "rule_id": "lesson_id_0011_03",
+        "description": "Ứng dụng hợp âm Sus4: Dùng ở vị trí kết câu, kết đoạn, kết bài hoặc kết nửa (half cadence). Sus4 có xu hướng hút về nốt bậc 3 của hợp âm Trưởng/Thứ nguyên thể (ví dụ Gsus4 -> G -> C, hoặc Csus4 -> C). Giúp câu nhạc chuyển mượt mà, sang trọng hơn.",
+        "confidence": "direct",
+        "category": "rule_candidate",
+        "lesson_folder": "Tap_01_Bai_11"
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Ứng dụng hợp âm Sus4: Dùng ở vị trí kết câu, kết đoạn, kết bài hoặc kết nửa (half cadence). Sus4 có xu hướng hút về nốt bậc 3 của hợp âm Trưởng/Thứ nguyên thể (ví dụ Gsus4 -> G -> C, hoặc Csus4 -> C). Giúp câu nhạc chuyển mượt mà, sang trọng hơn."
+}

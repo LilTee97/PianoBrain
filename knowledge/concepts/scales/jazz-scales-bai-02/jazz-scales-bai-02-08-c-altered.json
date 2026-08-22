@@ -1,0 +1,87 @@
+{
+  "id": "jazz-scales-bai-02-08-c-altered",
+  "type": "scale",
+  "name": "Gam C Altered cho hợp âm C7alt",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-02",
+    "locator": "11:05-12:38",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7alt",
+    "Ngẫu hứng jazz trên hợp âm C7b9",
+    "Ngẫu hứng jazz trên hợp âm C7#9",
+    "Ngẫu hứng jazz trên hợp âm C7#11",
+    "Ngẫu hứng jazz trên hợp âm C7b13",
+    "Chọn gam / scale khi gặp hợp âm 7alt, 7b9, 7#9, 7#11, 7b13 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7alt",
+      "7b9",
+      "7#9",
+      "7#11",
+      "7b13"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Altered",
+      "root": "C",
+      "note_names": [
+        "C",
+        "Db",
+        "Eb",
+        "E",
+        "Gb",
+        "Ab",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [
+        "7alt",
+        "7b9",
+        "7#9",
+        "7#11",
+        "7b13"
+      ],
+      "use_when": [
+        "hợp âm C7alt",
+        "hợp âm C7b9",
+        "hợp âm C7#9",
+        "hợp âm C7#11",
+        "hợp âm C7b13"
+      ]
+    },
+    "chord_symbol": "C7alt",
+    "notes": [
+      "C",
+      "Db",
+      "Eb",
+      "E",
+      "Gb",
+      "Ab",
+      "Bb"
+    ],
+    "source_text": "Scale #4 - Altered Scale ('The Angular Scale' / Super Locrian): C Altered (C, Db, Eb, E, Gb, Ab, Bb). Used on fully altered dominant chords (C7b9, C7#9, C7#11, C7b13). Special trick: First 3 notes of C Dominant Diminished + E Whole Tone scale."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 2 của nguồn Jazz Scales (YouTube), mốc 11:05-12:38. Scale #4 - Altered Scale ('The Angular Scale' / Super Locrian): C Altered (C, Db, Eb, E, Gb, Ab, Bb). Used on fully altered dominant chords (C7b9, C7#9, C7#11, C7b13). Special trick: First 3 notes of C Dominant Diminished + E Whole Tone scale. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "tap-02-bai-08-r-tap02-b08-002",
+  "type": "rule",
+  "name": "Khi nốt giai điệu tạo khoảng cách quãng 2 thứ (1 bán phong) trên nốt gốc của hợp âm át (Dominant 7th), sử dụng hợp âm 7(",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:02:10-00:04:12 pdf p.7",
+    "extra_locators": [
+      "00:04:12-00:05:25 pdf p.7",
+      "00:05:25-00:06:20 pdf p.7",
+      "00:06:20-00:09:13 pdf p.7",
+      "00:09:13-00:11:07 pdf p.7",
+      "00:11:07-00:12:24 pdf p.7",
+      "00:12:24-00:14:53 pdf p.7"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Accompaniment Voicing, Acoustic, Ballad, Ballad Fill-in, Cinematic, Contemporary, Jazz, Pop, Solo Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment-voicing",
+      "acoustic",
+      "pop_ballad",
+      "ballad",
+      "ballad-fill-in",
+      "cinematic",
+      "pop",
+      "contemporary",
+      "jazz",
+      "solo-piano"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Accompaniment Voicing",
+        "Acoustic",
+        "Ballad",
+        "Ballad Fill-in",
+        "Cinematic",
+        "Contemporary",
+        "Jazz",
+        "Pop",
+        "Solo Piano"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi nốt giai điệu tạo khoảng cách quãng 2 thứ (1 bán phong) trên nốt gốc của hợp âm át (Dominant 7th), sử dụng hợp âm 7(-9) hay 7b9 để tạo sức căng (tension) chuẩn bị giải về hợp âm bộc lộ sự kịch tính.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Áp dụng cấu trúc 7(-9), ví dụ E7(-9) có nốt giai điệu F (b9 của E), giải về Am."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP02_B08_002",
+      "name": "Altered 9th (-9 / b9) Placement on Dominant 7th",
+      "category": "Dominant Harmony",
+      "description": "Khi nốt giai điệu tạo khoảng cách quãng 2 thứ (1 bán phong) trên nốt gốc của hợp âm át (Dominant 7th), sử dụng hợp âm 7(-9) hay 7b9 để tạo sức căng (tension) chuẩn bị giải về hợp âm bộc lộ sự kịch tính.",
+      "condition": "Hợp âm át (Dominant) chuẩn bị giải về hợp âm thứ/trưởng, giai điệu mang nốt b9.",
+      "action": "Áp dụng cấu trúc 7(-9), ví dụ E7(-9) có nốt giai điệu F (b9 của E), giải về Am.",
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_08"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu tạo khoảng cách quãng 2 thứ (1 bán phong) trên nốt gốc của hợp âm át (Dominant 7th), sử dụng hợp âm 7(-9) hay 7b9 để tạo sức căng (tension) chuẩn bị giải về hợp âm bộc lộ sự kịch tính."
+}

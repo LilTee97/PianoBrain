@@ -1,0 +1,60 @@
+{
+  "id": "tap-06-bai-05-r-boston-lh-voicing-arpegpio",
+  "type": "rule",
+  "name": "Tay trái thay vì bấm hợp âm đóng (close voicing) nên dãn quãng 1-5-3-9 (Root - 5th - 3rd - 9th) trải rộng qua 3 phách để",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-05",
+    "locator": "00:03:01-00:03:48 pdf p.1",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Boston, Slow Waltz"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "boston",
+      "slow-waltz"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Boston",
+        "Slow Waltz"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Tay trái thay vì bấm hợp âm đóng (close voicing) nên dãn quãng 1-5-3-9 (Root - 5th - 3rd - 9th) trải rộng qua 3 phách để phủ trọn dải trầm và trung.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_BOSTON_LH_VOICING_ARPEGPIO",
+      "name": "Cấu trúc rải tay trái quãng rộng 1-5-3-9 cho Boston",
+      "category": "left_hand_arpeggio",
+      "description": "Tay trái thay vì bấm hợp âm đóng (close voicing) nên dãn quãng 1-5-3-9 (Root - 5th - 3rd - 9th) trải rộng qua 3 phách để phủ trọn dải trầm và trung.",
+      "applicability": "Cả 3 mẫu đệm Boston (Mẫu 1, Mẫu 2, Mẫu 3)",
+      "confidence": "direct",
+      "lesson_folder": "Tap_06_Bai_05"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Tay trái thay vì bấm hợp âm đóng (close voicing) nên dãn quãng 1-5-3-9 (Root - 5th - 3rd - 9th) trải rộng qua 3 phách để phủ trọn dải trầm và trung."
+}

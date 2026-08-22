@@ -1,0 +1,67 @@
+{
+  "id": "tap-03-bai-07-rule-repeated-notes-non-legato",
+  "type": "rule",
+  "name": "Khi hai nốt nhạc liên tiếp có cùng cao độ, không dính nốt (legato) mà phải nhấc nhẹ cổ tay/ngón tay để ngắt nốt (non-leg",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-07",
+    "locator": "00:18:00-00:20:10",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Accompaniment Pattern, Children Song, Classic, Music Theory"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "accompaniment-pattern",
+      "children-song",
+      "classic",
+      "music-theory"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Accompaniment Pattern",
+        "Children Song",
+        "Classic",
+        "Music Theory"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi hai nốt nhạc liên tiếp có cùng cao độ, không dính nốt (legato) mà phải nhấc nhẹ cổ tay/ngón tay để ngắt nốt (non-legato) giúp âm thanh rõ ràng.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_repeated_notes_non_legato",
+      "type": "technique",
+      "description": "Khi hai nốt nhạc liên tiếp có cùng cao độ, không dính nốt (legato) mà phải nhấc nhẹ cổ tay/ngón tay để ngắt nốt (non-legato) giúp âm thanh rõ ràng.",
+      "applies_to": [
+        "right_hand",
+        "melody"
+      ],
+      "confidence": "direct",
+      "lesson_folder": "Tap_03_Bai_07"
+    },
+    "review_reason": "rule_needs_review: uncertain or unclassified or missing source"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Khi hai nốt nhạc liên tiếp có cùng cao độ, không dính nốt (legato) mà phải nhấc nhẹ cổ tay/ngón tay để ngắt nốt (non-legato) giúp âm thanh rõ ràng."
+}

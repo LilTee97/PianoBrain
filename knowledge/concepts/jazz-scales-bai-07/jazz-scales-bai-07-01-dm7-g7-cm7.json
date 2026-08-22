@@ -1,0 +1,52 @@
+{
+  "id": "jazz-scales-bai-07-01-dm7-g7-cm7",
+  "type": "concept",
+  "name": "The ii-V-I progression is the most fundamental chord progression in jazz music.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-07",
+    "locator": "00:00-01:08",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm CM7",
+    "Chọn gam / scale khi gặp hợp âm m7, 7, M7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "7",
+      "M7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Dm7 - G7 - CM7",
+    "notes": [
+      "D",
+      "F",
+      "A",
+      "C",
+      "G",
+      "B",
+      "D",
+      "F",
+      "C",
+      "E",
+      "G",
+      "B"
+    ],
+    "source_text": "The ii-V-I progression is the most fundamental chord progression in jazz music. In the key of C Major, it consists of Dm7 (iim7), G7 (V7), and CM7 (IM7)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 7 của nguồn Jazz Scales (YouTube), mốc 00:00-01:08. The ii-V-I progression is the most fundamental chord progression in jazz music. In the key of C Major, it consists of Dm7 (iim7), G7 (V7), and CM7 (IM7). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

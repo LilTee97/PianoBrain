@@ -1,0 +1,93 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-003",
+  "type": "rule",
+  "name": "Khi nốt giai điệu là D, ta chọn hợp âm gốc C có nốt D làm bậc 9: C9 (C-E-G-Bb-D), Cmaj79 (C-E-G-B-D), Cadd9 (C-E-G-D), C",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:04:12-00:05:25 pdf p.7",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 7,
+        "section": "Cột D - Nốt D làm bậc 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C9, Cmaj79, Cadd9, Cm79",
+    "Giọng: C major, C minor",
+    "Gam: C major, C minor",
+    "Nốt màu: 9, maj7",
+    "Điệu / phong cách: Pop, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C9",
+      "Cmaj79",
+      "Cadd9",
+      "Cm79"
+    ],
+    "style": [
+      "pop",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Khi nốt giai điệu là D, ta chọn hợp âm gốc C có nốt D làm bậc 9: C9 (C-E-G-Bb-D), Cmaj79 (C-E-G-B-D), Cadd9 (C-E-G-D), Cm79 (C-Eb-G-Bb-D).",
+    "music_entities": {
+      "chords": [
+        "C9",
+        "Cmaj79",
+        "Cadd9",
+        "Cm79"
+      ],
+      "tensions": [
+        "9",
+        "maj7"
+      ],
+      "keys": [
+        "C major",
+        "C minor"
+      ],
+      "scales": [
+        "C major",
+        "C minor"
+      ],
+      "styles": [
+        "Pop",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj79",
+      "notes": [
+        "C2",
+        "G2",
+        "E3",
+        "B3",
+        "D4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "G2"
+        ],
+        "right": [
+          "E3",
+          "B3",
+          "D4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu là D, ta chọn hợp âm gốc C có nốt D làm bậc 9: C9 (C-E-G-Bb-D), Cmaj79 (C-E-G-B-D), Cadd9 (C-E-G-D), Cm79 (C-Eb-G-Bb-D)."
+}

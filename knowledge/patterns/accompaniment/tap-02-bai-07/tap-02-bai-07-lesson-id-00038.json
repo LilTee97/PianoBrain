@@ -1,0 +1,131 @@
+{
+  "id": "tap-02-bai-07-lesson-id-00038",
+  "type": "exercise",
+  "name": "Thực hành chuỗi hợp âm 9 (Cmaj79 -> Am79 -> Fmaj79 -> Gsus4/G7(-9)) áp dụng thế bấm ngón 1-2-3-4 cho khối hợp âm tay phả",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-07",
+    "locator": "00:22:30-00:34:50 pdf p.6",
+    "media_id": "hai_piano_t2_b07_video",
+    "supporting": [
+      {
+        "source_id": "hai_piano_t2_pdf3",
+        "page": 6,
+        "section": "Chúng ta cùng nhau thực hành Vòng C.major79 -> Am79 -> FMajor79"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, Am79, Fmaj79, G7(-9), Gsus4",
+    "Giọng: C major",
+    "Gam: Major",
+    "Nốt màu: 9, b9",
+    "Điệu / phong cách: Pop Ballad, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "Am79",
+      "Fmaj79",
+      "G7(-9)",
+      "Gsus4"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành chuỗi hợp âm 9 (Cmaj79 -> Am79 -> Fmaj79 -> Gsus4/G7(-9)) áp dụng thế bấm ngón 1-2-3-4 cho khối hợp âm tay phải, giải phóng ngón 5 tay phải để chạy giai điệu lót (câu lót / câu dẫn). Áp dụng thực tế vào các tác phẩm như Hello, Lời Ngài Là Sức Sống, Nàng Thơ.",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "Am79",
+        "Fmaj79",
+        "G7(-9)",
+        "Gsus4"
+      ],
+      "tensions": [
+        "9",
+        "b9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "Major"
+      ],
+      "styles": [
+        "Pop Ballad",
+        "Worship"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj79",
+      "notes": [
+        "C3",
+        "G3",
+        "B3",
+        "D4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "B3",
+          "D4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj79",
+        "notes": [
+          "C3",
+          "G3",
+          "B3",
+          "D4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "B3",
+            "D4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành chuỗi hợp âm 9 (Cmaj79 -> Am79 -> Fmaj79 -> Gsus4/G7(-9)) áp dụng thế bấm ngón 1-2-3-4 cho khối hợp âm tay phải, giải phóng ngón 5 tay phải để chạy giai điệu lót (câu lót / câu dẫn). Áp dụng thực tế vào các tác phẩm như Hello, Lời Ngài Là Sức Sống, Nàng Thơ."
+}

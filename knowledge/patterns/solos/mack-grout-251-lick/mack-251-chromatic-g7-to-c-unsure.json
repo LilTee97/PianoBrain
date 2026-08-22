@@ -1,0 +1,30 @@
+{
+  "id": "mack-251-chromatic-g7-to-c-unsure",
+  "type": "solo_idea",
+  "name": "Nốt chromatic lướt ở chỗ chuyển G7 sang C — video không ghi nốt",
+  "difficulty": 4,
+  "source": null,
+  "use_when": [
+    "Ai tập lại đoạn chuyển G7 về C và muốn biết chỗ này còn để ngỏ"
+  ],
+  "avoid_when": [
+    "Đừng trích item này như lời Mack Grout — video không đưa nốt cố định"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "G7",
+      "Cmaj7"
+    ]
+  },
+  "output": {
+    "stage": "unsure",
+    "needs_human_review": true,
+    "source_hint": "mack-grout-251-lick @ 00:02:46"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Ở mốc 00:02:46 tác giả đọc phân tích bậc bằng lời rất nhanh, các nốt dẫn chromatic lướt qua chỗ chuyển từ G7 sang C chỉ nghe được qua tai thị phạm, màn hình không hiện nốt. Vì vậy chỗ này chưa có nốt cố định. Đây là ghi chú suy ra, KHÔNG phải lời của Mack Grout — item không mang nguồn."
+}

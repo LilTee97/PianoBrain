@@ -1,0 +1,86 @@
+{
+  "id": "tap-02-bai-15-r-tap02-b15-001",
+  "type": "rule",
+  "name": "To transition smoothly from I (C) to IV (Fmaj7), insert a secondary ii-V progression: Gm7 (ii/IV) -> C7(b9) (V7(b9)/IV)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-15",
+    "locator": "11:20:00-13:21:00 pdf p.11",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Chất hợp âm: Major",
+    "Điệu / phong cách: Arranging Rule, Ballade, Ballade Intro, Jazz-influenced Pop Ballad, Pop Ballad Chorus, Pop Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Major"
+    ],
+    "style": [
+      "arranging-rule",
+      "pop_ballad",
+      "ballade",
+      "ballade-intro",
+      "jazz",
+      "pop",
+      "jazz-influenced-pop-ballad",
+      "pop-ballad-chorus",
+      "pop-piano"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": "Major",
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Arranging Rule",
+        "Ballade",
+        "Ballade Intro",
+        "Jazz-influenced Pop Ballad",
+        "Pop Ballad Chorus",
+        "Pop Piano"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "To transition smoothly from I (C) to IV (Fmaj7), insert a secondary ii-V progression: Gm7 (ii/IV) -> C7(b9) (V7(b9)/IV) -> Fmaj7 (IV).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "{'preceding_chords': ['Gm7', 'C7(b9)'], 'target': 'Fmaj7 or Fmaj79'}"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP02_B15_001",
+      "name": "Secondary Dominant 2-V-I to Subdominant (IV)",
+      "description": "To transition smoothly from I (C) to IV (Fmaj7), insert a secondary ii-V progression: Gm7 (ii/IV) -> C7(b9) (V7(b9)/IV) -> Fmaj7 (IV).",
+      "conditions": {
+        "key_type": "Major",
+        "target_chord": "Fmaj7 (IV)"
+      },
+      "implementation": {
+        "preceding_chords": [
+          "Gm7",
+          "C7(b9)"
+        ],
+        "target": "Fmaj7 or Fmaj79"
+      },
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_15"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "To transition smoothly from I (C) to IV (Fmaj7), insert a secondary ii-V progression: Gm7 (ii/IV) -> C7(b9) (V7(b9)/IV) -> Fmaj7 (IV)."
+}

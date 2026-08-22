@@ -1,0 +1,84 @@
+{
+  "id": "tap-02-bai-15-r-tap02-b15-005",
+  "type": "rule",
+  "name": "Use bVII9 (Bb9 in C Major) followed by a minor/major dominant hybrid (Fm(maj7)/G or G7-9,13) before V7/I cadence in intr",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-15",
+    "locator": "11:20:00-13:21:00 pdf p.11",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Giọng: C Major",
+    "Điệu / phong cách: Arranging Rule, Ballade, Ballade Intro, Jazz-influenced Pop Ballad, Pop Ballad Chorus, Pop Piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "arranging-rule",
+      "pop_ballad",
+      "ballade",
+      "ballade-intro",
+      "jazz",
+      "pop",
+      "jazz-influenced-pop-ballad",
+      "pop-ballad-chorus",
+      "pop-piano"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": "C Major",
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Arranging Rule",
+        "Ballade",
+        "Ballade Intro",
+        "Jazz-influenced Pop Ballad",
+        "Pop Ballad Chorus",
+        "Pop Piano"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Use bVII9 (Bb9 in C Major) followed by a minor/major dominant hybrid (Fm(maj7)/G or G7-9,13) before V7/I cadence in intro or outro.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "{'sequence': ['Bb9', 'Fm(maj7)/G', 'F/G', 'C9']}"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_TAP02_B15_005",
+      "name": "Modal Interchange bVII9 Intro/Outro Cadence",
+      "description": "Use bVII9 (Bb9 in C Major) followed by a minor/major dominant hybrid (Fm(maj7)/G or G7-9,13) before V7/I cadence in intro or outro.",
+      "conditions": {
+        "key": "C Major",
+        "context": "Intro or Outro Cadence"
+      },
+      "implementation": {
+        "sequence": [
+          "Bb9",
+          "Fm(maj7)/G",
+          "F/G",
+          "C9"
+        ]
+      },
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_15"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Use bVII9 (Bb9 in C Major) followed by a minor/major dominant hybrid (Fm(maj7)/G or G7-9,13) before V7/I cadence in intro or outro."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "tap-03-bai-06-lesson-id-00001",
+  "type": "concept",
+  "name": "Thế nào là nhịp 3/4: Nhịp 3/4 là nhịp đơn, trong mỗi ô nhịp có 3 phách, mỗi phách tính bằng 1 nốt đen",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-06",
+    "locator": "00:00:48-00:01:56 pdf p.3",
+    "media_id": "hai_piano_video_t03_b06",
+    "supporting": [
+      {
+        "source_id": "hai_piano_pdf_t03",
+        "page": 3,
+        "section": "Silent Night Header"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Điệu / phong cách: Waltz, Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "waltz",
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "concept",
+    "raw_text": "Thế nào là nhịp 3/4: Nhịp 3/4 là nhịp đơn, trong mỗi ô nhịp có 3 phách, mỗi phách tính bằng 1 nốt đen. Nhịp đơn gồm 1 phách mạnh và 2 phách nhẹ.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Waltz",
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [],
+      "hands": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thế nào là nhịp 3/4: Nhịp 3/4 là nhịp đơn, trong mỗi ô nhịp có 3 phách, mỗi phách tính bằng 1 nốt đen. Nhịp đơn gồm 1 phách mạnh và 2 phách nhẹ."
+}

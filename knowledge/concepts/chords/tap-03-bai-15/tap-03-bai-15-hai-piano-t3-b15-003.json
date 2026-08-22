@@ -1,0 +1,82 @@
+{
+  "id": "tap-03-bai-15-hai-piano-t3-b15-003",
+  "type": "concept",
+  "name": "Sử dụng hợp âm Rê thứ 7 trừ 5 trên bass Đô (Dm7b5/C hay Dm7-5/C) tạo màu sắc hòa âm chuyển tiếp đặc trưng (modal interch",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-15",
+    "locator": "00:08:39-00:10:14 pdf p.19",
+    "media_id": "video_tap_03_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 19,
+        "section": "Measure 5-8 (Verse A)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm7b5/C, C",
+    "Giọng: C major",
+    "Nốt màu: b5, 7",
+    "Điệu / phong cách: ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm7b5/C",
+      "C"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Sử dụng hợp âm Rê thứ 7 trừ 5 trên bass Đô (Dm7b5/C hay Dm7-5/C) tạo màu sắc hòa âm chuyển tiếp đặc trưng (modal interchange / m7b5 color) da diết cho đoạn Phiên khúc (Verse A).",
+    "music_entities": {
+      "chords": [
+        "Dm7b5/C",
+        "C"
+      ],
+      "tensions": [
+        "b5",
+        "7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm7b5/C",
+      "notes": [
+        "C3",
+        "D4",
+        "F4",
+        "Ab4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "D4",
+          "F4",
+          "Ab4",
+          "C5"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng hợp âm Rê thứ 7 trừ 5 trên bass Đô (Dm7b5/C hay Dm7-5/C) tạo màu sắc hòa âm chuyển tiếp đặc trưng (modal interchange / m7b5 color) da diết cho đoạn Phiên khúc (Verse A)."
+}

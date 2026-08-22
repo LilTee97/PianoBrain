@@ -1,0 +1,138 @@
+{
+  "id": "tap-04-bai-12-hai-piano-tap-04-bai-12-002",
+  "type": "exercise",
+  "name": "Bài 12 - Câu 1: Xây dựng câu lót/câu dẫn cơ bản trên vòng hòa âm bass đi xuống bằng cách ưu tiên các nốt quãng 3 và quãn",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-12",
+    "locator": "02:05:00-03:36:00 pdf p.57",
+    "media_id": "video_tap_04_bai_12",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 57,
+        "section": "Bài 12 - Câu 1"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Am, Em/G, Fmaj7, C/E, Dm, Am/C, Bm7b5, Esus4, E7",
+    "Giọng: A minor",
+    "Gam: A minor",
+    "Điệu / phong cách: Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Am",
+      "Em/G",
+      "Fmaj7",
+      "C/E",
+      "Dm",
+      "Am/C",
+      "Bm7b5",
+      "Esus4",
+      "E7"
+    ],
+    "style": [
+      "pop_ballad",
+      "ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Bài 12 - Câu 1: Xây dựng câu lót/câu dẫn cơ bản trên vòng hòa âm bass đi xuống bằng cách ưu tiên các nốt quãng 3 và quãng 5 của từng hợp âm, tạo nét giai điệu liền mạch mượt mà.",
+    "music_entities": {
+      "chords": [
+        "Am",
+        "Em/G",
+        "Fmaj7",
+        "C/E",
+        "Dm",
+        "Am/C",
+        "Bm7b5",
+        "Esus4",
+        "E7"
+      ],
+      "tensions": [],
+      "keys": [
+        "A minor"
+      ],
+      "scales": [
+        "A minor"
+      ],
+      "styles": [
+        "Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "C5",
+        "B4",
+        "A4",
+        "G4",
+        "F4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "A2",
+          "E3",
+          "A3"
+        ],
+        "right": [
+          "C5",
+          "E5",
+          "B4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Am",
+        "notes": [
+          "C5",
+          "B4",
+          "A4",
+          "G4",
+          "F4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "A2",
+            "E3",
+            "A3"
+          ],
+          "right": [
+            "C5",
+            "E5",
+            "B4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 12 - Câu 1: Xây dựng câu lót/câu dẫn cơ bản trên vòng hòa âm bass đi xuống bằng cách ưu tiên các nốt quãng 3 và quãng 5 của từng hợp âm, tạo nét giai điệu liền mạch mượt mà."
+}

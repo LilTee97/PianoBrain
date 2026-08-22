@@ -1,0 +1,97 @@
+{
+  "id": "tap-02-bai-13-rule-hp-tap02-b13-001",
+  "type": "rule",
+  "name": "Khi xây dựng vòng hòa âm đệm cho C Major, việc thiết kế nốt Bass đi lên rồi đi xuống liền bậc (ví dụ C -> D -> C -> B -> Bb -> A -> B -> C) tạo sự liên kết tự nhiên và uyển chuyển cho giai điệu đệm.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-13",
+    "locator": "17:59:00-21:20:00 pdf p.4",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Vòng hợp âm: Intro, Outro, Lót câu, Gián tấu",
+    "Điệu / phong cách: Ballad, Bossa Nova, Jazz Pop, Pop, Thánh ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "ballad",
+      "jazz",
+      "bossa-nova",
+      "pop",
+      "jazz-pop",
+      "th-nh-ca"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": "C major",
+      "progression_context": "Intro, Outro, Lót câu, Gián tấu",
+      "melody_context": null,
+      "style_tags": [
+        "Ballad",
+        "Bossa Nova",
+        "Jazz Pop",
+        "Pop",
+        "Thánh ca"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Khi xây dựng vòng hòa âm đệm cho C Major, việc thiết kế nốt Bass đi lên rồi đi xuống liền bậc (ví dụ C -> D -> C -> B -> Bb -> A -> B -> C) tạo sự liên kết tự nhiên và uyển chuyển cho giai điệu đệm.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "{'bass_line': ['C', 'D', 'C', 'B', 'Bb', 'A', 'B', 'C'], 'chords': ['C9', 'Dm7-5', 'C9', 'G/B', 'Gm/Bb', 'F/A', 'G/B', 'C9']}"
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "rule_hp_tap02_b13_001",
+      "title": "Tuyển Bậc Bass Trong Vòng Hòa Âm Đi Lên Đi Xuống Liền Bậc",
+      "type": "harmonic_bass_movement",
+      "summary": "Khi xây dựng vòng hòa âm đệm cho C Major, việc thiết kế nốt Bass đi lên rồi đi xuống liền bậc (ví dụ C -> D -> C -> B -> Bb -> A -> B -> C) tạo sự liên kết tự nhiên và uyển chuyển cho giai điệu đệm.",
+      "conditions": {
+        "key": "C major",
+        "progression_context": "Intro, Outro, Lót câu, Gián tấu"
+      },
+      "implementation": {
+        "bass_line": [
+          "C",
+          "D",
+          "C",
+          "B",
+          "Bb",
+          "A",
+          "B",
+          "C"
+        ],
+        "chords": [
+          "C9",
+          "Dm7-5",
+          "C9",
+          "G/B",
+          "Gm/Bb",
+          "F/A",
+          "G/B",
+          "C9"
+        ]
+      },
+      "confidence": "direct",
+      "lesson_folder": "Tap_02_Bai_13"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi xây dựng vòng hòa âm đệm cho C Major, việc thiết kế nốt Bass đi lên rồi đi xuống liền bậc (ví dụ C -> D -> C -> B -> Bb -> A -> B -> C) tạo sự liên kết tự nhiên và uyển chuyển cho giai điệu đệm."
+}

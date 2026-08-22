@@ -1,0 +1,39 @@
+{
+  "difficulty": 4,
+  "avoid_when": [],
+  "origin": "extracted",
+  "status": "draft",
+  "id": "charlie-enclosure-example-target-e",
+  "type": "solo_idea",
+  "name": "Ví dụ bao quanh nốt E, bậc 3 của C: F - C# - D - D# - E",
+  "source": {
+    "teacher_id": "charlie-tran",
+    "source_id": "charlie-tran-bebop-enclosure",
+    "locator": "00:04:02"
+  },
+  "use_when": [
+    "Tập enclosure vào bậc 3",
+    "Tông C"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ],
+    "chord_quality": [
+      "Cmaj7",
+      "C"
+    ]
+  },
+  "output": {
+    "target": "E",
+    "notes": [
+      "F",
+      "C#",
+      "D",
+      "D#",
+      "E"
+    ],
+    "stage": "source_knowledge"
+  },
+  "note_vi": "Nhắm nốt E, tức bậc 3 của hợp âm C: đi F - C# - D - D# rồi đáp vào E."
+}

@@ -1,0 +1,95 @@
+{
+  "id": "tap-06-bai-11-tap-06-bai-11-00003",
+  "type": "concept",
+  "name": "Vòng hòa âm kinh điển I - V - vi - IV - I trong giọng C major bao gồm các hợp âm: C (Cmaj7) - G - Am (Am7) - F (Fmaj7) -",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-06-bai-11",
+    "locator": "00:01:21-00:03:42 pdf p.1",
+    "media_id": "video_tap_06_bai_11",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_06_bai_11",
+        "page": 1,
+        "section": "Vòng hòa âm I - V - vi - IV - I"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G, Am, F, Cmaj7, Am7, Fmaj7",
+    "Giọng: C major",
+    "Gam: C Major Scale",
+    "Nốt màu: 7, maj7",
+    "Điệu / phong cách: Pop Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G",
+      "Am",
+      "F",
+      "Cmaj7",
+      "Am7",
+      "Fmaj7"
+    ],
+    "style": [
+      "pop",
+      "pop-rock"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "chord",
+    "raw_text": "Vòng hòa âm kinh điển I - V - vi - IV - I trong giọng C major bao gồm các hợp âm: C (Cmaj7) - G - Am (Am7) - F (Fmaj7) - C. Đây là vòng hòa âm phổ biến dùng cho rất nhiều bài nhạc trẻ/hit.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "F",
+        "Cmaj7",
+        "Am7",
+        "Fmaj7"
+      ],
+      "tensions": [
+        "7",
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C Major Scale"
+      ],
+      "styles": [
+        "Pop Rock"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj7 - G - Am7 - Fmaj7 - C",
+      "notes": [
+        "C3",
+        "G3",
+        "B3",
+        "E4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "C3"
+        ],
+        "right": [
+          "B3",
+          "E4",
+          "G4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Vòng hòa âm kinh điển I - V - vi - IV - I trong giọng C major bao gồm các hợp âm: C (Cmaj7) - G - Am (Am7) - F (Fmaj7) - C. Đây là vòng hòa âm phổ biến dùng cho rất nhiều bài nhạc trẻ/hit."
+}

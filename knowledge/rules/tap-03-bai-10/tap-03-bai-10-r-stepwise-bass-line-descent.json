@@ -1,0 +1,65 @@
+{
+  "id": "tap-03-bai-10-r-stepwise-bass-line-descent",
+  "type": "rule",
+  "name": "Stepwise Bassline Descent in Major Keys",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-10",
+    "locator": "00:16:56-00:22:49 pdf p.9",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Advanced Ballad, Piano Solo, Slow Rock"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "advanced-ballad",
+      "piano-solo",
+      "slow-rock"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Advanced Ballad",
+        "Piano Solo",
+        "Slow Rock"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Stepwise Bassline Descent in Major Keys",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": [
+          "Play inverted bass note (E in C/E) on beat 3/4 to create a smooth descending bass line F -> E -> D."
+        ]
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "R_STEPWISE_BASS_LINE_DESCENT",
+      "name": "Stepwise Bassline Descent in Major Keys",
+      "domain": "harmony",
+      "condition": "Progression moving I - V/7 - vi (e.g., F - C/E - Dm).",
+      "action": "Play inverted bass note (E in C/E) on beat 3/4 to create a smooth descending bass line F -> E -> D.",
+      "reasoning": "Creates a smooth scalar movement in the bass line, enhancing emotional resonance in romantic ballads.",
+      "lesson_folder": "Tap_03_Bai_10"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Stepwise Bassline Descent in Major Keys"
+}

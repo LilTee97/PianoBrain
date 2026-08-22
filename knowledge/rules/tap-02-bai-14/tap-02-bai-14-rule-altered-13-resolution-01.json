@@ -1,0 +1,88 @@
+{
+  "id": "tap-02-bai-14-rule-altered-13-resolution-01",
+  "type": "rule",
+  "name": "Altered dominant chords with b13 (or b9,b13) create strong voice-leading tension resolving smoothly down a half step into the 5th or 9th of a minor tonic chord (V7(b9,b13) -> Im7).",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-14",
+    "locator": "00:14:36-00:22:30 pdf p.7",
+    "extra_locators": []
+  },
+  "use_when": [
+    "Điệu / phong cách: Acoustic, Ballad, Dân ca, Jazz, Pop, Pop Ballad, Smooth Jazz, Thánh ca, Worship"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "acoustic",
+      "pop_ballad",
+      "ballad",
+      "d-n-ca",
+      "jazz",
+      "pop",
+      "pop-ballad",
+      "smooth-jazz",
+      "th-nh-ca",
+      "worship"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Acoustic",
+        "Ballad",
+        "Dân ca",
+        "Jazz",
+        "Pop",
+        "Pop Ballad",
+        "Smooth Jazz",
+        "Thánh ca",
+        "Worship"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Altered dominant chords with b13 (or b9,b13) create strong voice-leading tension resolving smoothly down a half step into the 5th or 9th of a minor tonic chord (V7(b9,b13) -> Im7).",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_ALTERED_13_RESOLUTION_01",
+      "name": "Altered Dominant 13th Resolution to Minor Tonic",
+      "category": "harmonic_progression",
+      "summary": "Altered dominant chords with b13 (or b9,b13) create strong voice-leading tension resolving smoothly down a half step into the 5th or 9th of a minor tonic chord (V7(b9,b13) -> Im7).",
+      "conditions": {
+        "progression": "V7(b9,b13) -> Im7"
+      },
+      "action": {
+        "resolution_path": "b13 resolves to 5th of target minor chord"
+      },
+      "examples": [
+        {
+          "chord_sequence": [
+            "E7(b9",
+            "b13)",
+            "Am7"
+          ]
+        }
+      ],
+      "lesson_folder": "Tap_02_Bai_14"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Altered dominant chords with b13 (or b9,b13) create strong voice-leading tension resolving smoothly down a half step into the 5th or 9th of a minor tonic chord (V7(b9,b13) -> Im7)."
+}

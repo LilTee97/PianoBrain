@@ -1,0 +1,46 @@
+{
+  "id": "jazz-scales-bai-04-02-f-dorian",
+  "type": "arpeggio",
+  "name": "Tạo Arpeggio 2 Hình khối (2-Shape Arpeggio / Melodic Cells):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-04",
+    "locator": "02:30-03:38",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F min9(11)",
+    "Ngẫu hứng jazz trên hợp âm Ab Maj(add2)/C",
+    "Chọn gam / scale khi gặp hợp âm m9(11), majj(add2)/C trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m9(11)",
+      "majj(add2)/C"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F min9(11)",
+    "notes": [
+      "F3",
+      "Ab3",
+      "C4",
+      "Eb4",
+      "C4",
+      "Eb4",
+      "G4",
+      "Bb4"
+    ],
+    "source_text": "Tạo Arpeggio 2 Hình khối (2-Shape Arpeggio / Melodic Cells): Kết hợp 2 mô-tiếp/ô giai điệu (melodic cell) 4 nốt khác nhau nối tiếp nhau để tạo dòng rải câu dài ngẫu hứng phong phú hơn rải đơn hợp âm."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 4 của nguồn Jazz Scales (YouTube), mốc 02:30-03:38. Tạo Arpeggio 2 Hình khối (2-Shape Arpeggio / Melodic Cells): Kết hợp 2 mô-tiếp/ô giai điệu (melodic cell) 4 nốt khác nhau nối tiếp nhau để tạo dòng rải câu dài ngẫu hứng phong phú hơn rải đơn hợp âm. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

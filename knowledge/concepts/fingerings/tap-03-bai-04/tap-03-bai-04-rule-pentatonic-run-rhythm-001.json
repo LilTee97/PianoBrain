@@ -1,0 +1,94 @@
+{
+  "id": "tap-03-bai-04-rule-pentatonic-run-rhythm-001",
+  "type": "fingering",
+  "name": "Sử dụng chuỗi ngón 1-2-3-4-1 để chạy các nốt thang ngũ cung (Ví dụ La-Đô-Rê-Mi-Sol) ở trường độ nốt móc kép (16th notes)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-04",
+    "locator": "09:16-13:36 pdf p.1",
+    "extra_locators": [
+      "22:58-26:23 pdf p.1"
+    ]
+  },
+  "use_when": [
+    "Điệu / phong cách: Classical, Folk, Hymn, Piano Solo, Pop/Ballad Fill, Sight Reading, Solo Fill"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "classical",
+      "folk",
+      "hymn",
+      "piano-solo",
+      "pop_ballad",
+      "pop",
+      "pop-ballad-fill",
+      "sight-reading",
+      "solo-fill"
+    ]
+  },
+  "output": {
+    "stage": "formalized",
+    "if": {
+      "chord_quality": null,
+      "chord_symbol": null,
+      "chord_function": null,
+      "key_context": null,
+      "progression_context": null,
+      "melody_context": null,
+      "style_tags": [
+        "Classical",
+        "Folk",
+        "Hymn",
+        "Piano Solo",
+        "Pop/Ballad Fill",
+        "Sight Reading",
+        "Solo Fill"
+      ],
+      "difficulty_range": null
+    },
+    "then": {
+      "description": "Sử dụng chuỗi ngón 1-2-3-4-1 để chạy các nốt thang ngũ cung (Ví dụ La-Đô-Rê-Mi-Sol) ở trường độ nốt móc kép (16th notes) tạo hiệu ứng câu lót âm hưởng dân tộc/thánh ca mượt mà.",
+      "action": {
+        "select": [],
+        "add": [],
+        "transform": [],
+        "generate": []
+      }
+    },
+    "enforced_by": null,
+    "candidate": {
+      "rule_id": "RULE_PENTATONIC_RUN_RHYTHM_001",
+      "name": "Chạy Thang Ngũ Cung Móc Kép",
+      "category": "Solo & Accompaniment Fills",
+      "description": "Sử dụng chuỗi ngón 1-2-3-4-1 để chạy các nốt thang ngũ cung (Ví dụ La-Đô-Rê-Mi-Sol) ở trường độ nốt móc kép (16th notes) tạo hiệu ứng câu lót âm hưởng dân tộc/thánh ca mượt mà.",
+      "conditions": {
+        "scale_type": "Pentatonic Scale",
+        "rhythm": "16th notes (Móc kép)"
+      },
+      "execution": {
+        "fingering_pattern": [
+          1,
+          2,
+          3,
+          4,
+          1
+        ]
+      },
+      "lesson_folder": "Tap_03_Bai_04"
+    },
+    "fingering": {
+      "fingering_pattern": [
+        1,
+        2,
+        3,
+        4,
+        1
+      ]
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Sử dụng chuỗi ngón 1-2-3-4-1 để chạy các nốt thang ngũ cung (Ví dụ La-Đô-Rê-Mi-Sol) ở trường độ nốt móc kép (16th notes) tạo hiệu ứng câu lót âm hưởng dân tộc/thánh ca mượt mà."
+}

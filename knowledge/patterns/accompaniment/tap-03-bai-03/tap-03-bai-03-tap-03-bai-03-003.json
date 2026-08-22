@@ -1,0 +1,163 @@
+{
+  "id": "tap-03-bai-03-tap-03-bai-03-003",
+  "type": "exercise",
+  "name": "Thực hành ghép hai tay thang âm Đô Trưởng 2 quãng 8 (Hands Together)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-03",
+    "locator": "00:05:22-00:08:33 pdf p.1",
+    "media_id": "video_tap_03_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 1,
+        "section": "Luyện ngón 2 tay 2 quãng 8"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: Technical Exercise"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "technical-exercise"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Thực hành ghép hai tay thang âm Đô Trưởng 2 quãng 8 (Hands Together). Yêu cầu thả lỏng cổ tay và khuỷu tay, ngón cái phải chuyển động chủ động vắt dưới lòng bàn tay ngay khi ngón 3 hoặc ngón 4 chuẩn bị bấm, giữ bàn tay vuông góc với phím đàn để tránh xoay lắc cổ tay.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Technical Exercise"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "D3",
+          "E3",
+          "F3",
+          "G3",
+          "A3",
+          "B3",
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4",
+          "A4",
+          "B4",
+          "C5"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4",
+          "A4",
+          "B4",
+          "C5",
+          "D5",
+          "E5",
+          "F5",
+          "G5",
+          "A5",
+          "B5",
+          "C6"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": null,
+        "notes": [
+          "C3",
+          "E3",
+          "G3",
+          "C4",
+          "E4",
+          "G4",
+          "C5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "D3",
+            "E3",
+            "F3",
+            "G3",
+            "A3",
+            "B3",
+            "C4",
+            "D4",
+            "E4",
+            "F4",
+            "G4",
+            "A4",
+            "B4",
+            "C5"
+          ],
+          "right": [
+            "C4",
+            "D4",
+            "E4",
+            "F4",
+            "G4",
+            "A4",
+            "B4",
+            "C5",
+            "D5",
+            "E5",
+            "F5",
+            "G5",
+            "A5",
+            "B5",
+            "C6"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thực hành ghép hai tay thang âm Đô Trưởng 2 quãng 8 (Hands Together). Yêu cầu thả lỏng cổ tay và khuỷu tay, ngón cái phải chuyển động chủ động vắt dưới lòng bàn tay ngay khi ngón 3 hoặc ngón 4 chuẩn bị bấm, giữ bàn tay vuông góc với phím đàn để tránh xoay lắc cổ tay."
+}

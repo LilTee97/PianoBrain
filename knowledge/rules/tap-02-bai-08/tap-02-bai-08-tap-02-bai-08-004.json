@@ -1,0 +1,90 @@
+{
+  "id": "tap-02-bai-08-tap-02-bai-08-004",
+  "type": "rule",
+  "name": "Khi nốt giai điệu là E, ta chọn hợp âm gốc D làm bậc 9: Dm79 (D-F-A-C-E), Dmaj79 (D-F#-A-C#-E), D9 (D-F#-A-C-E), Dadd9.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-08",
+    "locator": "00:05:25-00:06:20 pdf p.7",
+    "media_id": "video_tap_02_bai_08",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_06_10",
+        "page": 7,
+        "section": "Cột E - Nốt E làm bậc 9"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm79, Dmaj79, D9, Dadd9",
+    "Giọng: C major, D major",
+    "Gam: Diatonic",
+    "Nốt màu: 9",
+    "Điệu / phong cách: Pop, Contemporary"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm79",
+      "Dmaj79",
+      "D9",
+      "Dadd9"
+    ],
+    "style": [
+      "pop",
+      "contemporary"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "rule_candidate",
+    "raw_text": "Khi nốt giai điệu là E, ta chọn hợp âm gốc D làm bậc 9: Dm79 (D-F-A-C-E), Dmaj79 (D-F#-A-C#-E), D9 (D-F#-A-C-E), Dadd9.",
+    "music_entities": {
+      "chords": [
+        "Dm79",
+        "Dmaj79",
+        "D9",
+        "Dadd9"
+      ],
+      "tensions": [
+        "9"
+      ],
+      "keys": [
+        "C major",
+        "D major"
+      ],
+      "scales": [
+        "Diatonic"
+      ],
+      "styles": [
+        "Pop",
+        "Contemporary"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm79",
+      "notes": [
+        "D2",
+        "A2",
+        "F3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "D2",
+          "A2"
+        ],
+        "right": [
+          "F3",
+          "C4",
+          "E4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Khi nốt giai điệu là E, ta chọn hợp âm gốc D làm bậc 9: Dm79 (D-F-A-C-E), Dmaj79 (D-F#-A-C#-E), D9 (D-F#-A-C-E), Dadd9."
+}

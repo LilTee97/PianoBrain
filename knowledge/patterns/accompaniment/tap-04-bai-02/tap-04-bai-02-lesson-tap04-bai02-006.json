@@ -1,0 +1,140 @@
+{
+  "id": "tap-04-bai-02-lesson-tap04-bai02-006",
+  "type": "exercise",
+  "name": "Mẫu câu 5 (Câu 5): Cấp độ tổng hợp cao nhất kết hợp hòa âm mở rộng (Tensions 7, 9, 11), passing chords (hợp âm dẫn croma",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-02",
+    "locator": "08:05:00-10:45:00 pdf p.11",
+    "media_id": "video_tap04_bai02",
+    "supporting": [
+      {
+        "source_id": "pdf_tap04",
+        "page": 11,
+        "section": "Bài 2 - Câu 5"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Dm11, Em7, E7, G13, Cmaj9",
+    "Giọng: C major",
+    "Gam: Chromatic",
+    "Nốt màu: 7th, 9th, 11th",
+    "Điệu / phong cách: Contemporary Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Dm11",
+      "Em7",
+      "E7",
+      "G13",
+      "Cmaj9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "contemporary-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "exercise",
+    "raw_text": "Mẫu câu 5 (Câu 5): Cấp độ tổng hợp cao nhất kết hợp hòa âm mở rộng (Tensions 7, 9, 11), passing chords (hợp âm dẫn cromatique/bán cấp) và nét hoa mỹ kỹ thuật cao trên tay phải để tạo đoạn Intro/Outro hoàn chỉnh chuyên nghiệp.",
+    "music_entities": {
+      "chords": [
+        "Dm11",
+        "Em7",
+        "E7",
+        "G13",
+        "Cmaj9"
+      ],
+      "tensions": [
+        "7th",
+        "9th",
+        "11th"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "Chromatic"
+      ],
+      "styles": [
+        "Contemporary Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Dm11 - Em7 - E7 - G13 - Cmaj9",
+      "notes": [
+        "G5",
+        "F5",
+        "E5",
+        "D5",
+        "C5",
+        "B4"
+      ],
+      "hands": {
+        "left": [
+          "D3",
+          "E3",
+          "G2",
+          "C3"
+        ],
+        "right": [
+          "G5",
+          "F5",
+          "E5",
+          "D5",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Dm11 - Em7 - E7 - G13 - Cmaj9",
+        "notes": [
+          "G5",
+          "F5",
+          "E5",
+          "D5",
+          "C5",
+          "B4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "D3",
+            "E3",
+            "G2",
+            "C3"
+          ],
+          "right": [
+            "G5",
+            "F5",
+            "E5",
+            "D5",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu 5 (Câu 5): Cấp độ tổng hợp cao nhất kết hợp hòa âm mở rộng (Tensions 7, 9, 11), passing chords (hợp âm dẫn cromatique/bán cấp) và nét hoa mỹ kỹ thuật cao trên tay phải để tạo đoạn Intro/Outro hoàn chỉnh chuyên nghiệp."
+}

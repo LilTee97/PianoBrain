@@ -1,0 +1,127 @@
+{
+  "id": "tap-04-bai-03-lesson-tap-04-bai-03-003",
+  "type": "fill",
+  "name": "Mẫu câu lót số 2: Kết hợp nốt quãng 3 và quãng 5 làm giai điệu câu dẫn, tạo thế bấm linh hoạt hơn cho tay phải khi di ch",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-04-bai-03",
+    "locator": "04:43-05:54 pdf p.13",
+    "media_id": "video_tap_04_bai_03",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_04",
+        "page": 13,
+        "section": "Bài 3 - Câu 2"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, G, Am, Em, F, C, Dm, G",
+    "Giọng: C major",
+    "Gam: C major scale",
+    "Điệu / phong cách: Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "G",
+      "Am",
+      "Em",
+      "F",
+      "C",
+      "Dm",
+      "G"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop",
+      "pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Mẫu câu lót số 2: Kết hợp nốt quãng 3 và quãng 5 làm giai điệu câu dẫn, tạo thế bấm linh hoạt hơn cho tay phải khi di chuyển giữa các hợp âm bậc III và bậc V.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "Em",
+        "F",
+        "C",
+        "Dm",
+        "G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C major scale"
+      ],
+      "styles": [
+        "Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "G/B",
+      "notes": [
+        "B2",
+        "G3",
+        "D4",
+        "G4"
+      ],
+      "hands": {
+        "left": [
+          "B2"
+        ],
+        "right": [
+          "G3",
+          "D4",
+          "G4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "G/B",
+        "notes": [
+          "B2",
+          "G3",
+          "D4",
+          "G4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "B2"
+          ],
+          "right": [
+            "G3",
+            "D4",
+            "G4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Mẫu câu lót số 2: Kết hợp nốt quãng 3 và quãng 5 làm giai điệu câu dẫn, tạo thế bấm linh hoạt hơn cho tay phải khi di chuyển giữa các hợp âm bậc III và bậc V."
+}

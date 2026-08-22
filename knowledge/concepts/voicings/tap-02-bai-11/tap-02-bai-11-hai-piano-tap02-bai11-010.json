@@ -1,0 +1,125 @@
+{
+  "id": "tap-02-bai-11-hai-piano-tap02-bai11-010",
+  "type": "voicing",
+  "name": "Thế tay trái 10 dành cho hợp âm 79: Công thức 1.7.9.3 (lược bỏ bậc 5)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-11",
+    "locator": "00:24:49-00:26:31 pdf p.2",
+    "media_id": "video_001",
+    "supporting": [
+      {
+        "source_id": "pdf_002",
+        "page": 2,
+        "section": "Thế 10: 1.7.9.3"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Cmaj79, Am79, Fmaj79, G79",
+    "Giọng: C major",
+    "Nốt màu: 7, 9",
+    "Điệu / phong cách: Modern Jazz/Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Cmaj79",
+      "Am79",
+      "Fmaj79",
+      "G79"
+    ],
+    "style": [
+      "pop_ballad",
+      "jazz",
+      "pop",
+      "modern-jazz-pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Thế tay trái 10 dành cho hợp âm 79: Công thức 1.7.9.3 (lược bỏ bậc 5). Ví dụ Cmaj79 = C2 - B2 - D3 - E3. Đây là thế xếp hợp âm đệm tay trái rải hoặc nén rất sang trọng, mở không gian cho tay phải hòa tấu.",
+    "music_entities": {
+      "chords": [
+        "Cmaj79",
+        "Am79",
+        "Fmaj79",
+        "G79"
+      ],
+      "tensions": [
+        "7",
+        "9"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "Modern Jazz/Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Cmaj79",
+      "notes": [
+        "C2",
+        "B2",
+        "D3",
+        "E3"
+      ],
+      "hands": {
+        "left": [
+          "C2",
+          "B2",
+          "D3",
+          "E3"
+        ],
+        "right": [
+          "G4",
+          "C5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Cmaj79",
+        "notes": [
+          "C2",
+          "B2",
+          "D3",
+          "E3"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C2",
+            "B2",
+            "D3",
+            "E3"
+          ],
+          "right": [
+            "G4",
+            "C5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thế tay trái 10 dành cho hợp âm 79: Công thức 1.7.9.3 (lược bỏ bậc 5). Ví dụ Cmaj79 = C2 - B2 - D3 - E3. Đây là thế xếp hợp âm đệm tay trái rải hoặc nén rất sang trọng, mở không gian cho tay phải hòa tấu."
+}

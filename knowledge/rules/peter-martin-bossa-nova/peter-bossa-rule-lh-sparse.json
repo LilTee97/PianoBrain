@@ -1,0 +1,37 @@
+{
+  "id": "peter-bossa-rule-lh-sparse",
+  "type": "rule",
+  "name": "Tay trái chơi thưa, không dồn bass",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "peter-martin",
+    "source_id": "peter-martin-bossa-nova",
+    "locator": "00:00:27"
+  },
+  "use_when": [
+    "Đệm bossa nova",
+    "Tay trái đang chơi quá dày làm bài nặng"
+  ],
+  "avoid_when": [
+    "Điệu cần bass dồn như disco hay march"
+  ],
+  "input": {
+    "style": [
+      "bossa_nova",
+      "latin"
+    ],
+    "hand": "LH"
+  },
+  "output": {
+    "if": "đang đệm bossa nova",
+    "then": {
+      "lh": "chơi thưa, bỏ bass dồn dập"
+    },
+    "why": "bớt việc tay trái để tay phải được tự do; cảm giác giống guitar, âm ở dải trung",
+    "enforced_by": null,
+    "stage": "source_knowledge"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Trong bossa nova, tay trái chơi thưa chứ không dồn bass liên tục. Lý do thầy nêu: bớt việc cho tay trái thì tay phải mới tự do, và tiếng nghe giống guitar, nằm ở dải trung của đàn."
+}

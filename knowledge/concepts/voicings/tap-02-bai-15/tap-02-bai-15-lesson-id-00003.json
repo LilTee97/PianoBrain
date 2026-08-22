@@ -1,0 +1,132 @@
+{
+  "id": "tap-02-bai-15-lesson-id-00003",
+  "type": "voicing",
+  "name": "Phân tích cách xếp tiếng (voicing) cho hai hợp âm biến tấu trong Intro: Bb9 (Bb-D-F-A/C-D) đóng vai trò hợp âm bVII9 vay",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-15",
+    "locator": "03:17:00-05:22:00 pdf p.9",
+    "media_id": "video_tap_02_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_02_bai_11_15",
+        "page": 9,
+        "section": "Intro Chord Breakdown"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: Bb9, Fm(maj7)/G, G7(-9,13), F/G, C9",
+    "Giọng: C major",
+    "Gam: C minor, C melodic minor",
+    "Nốt màu: b9, 13, maj7",
+    "Điệu / phong cách: Jazz-influenced Pop Ballad"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "Bb9",
+      "Fm(maj7)/G",
+      "G7(-9,13)",
+      "F/G",
+      "C9"
+    ],
+    "style": [
+      "pop_ballad",
+      "jazz",
+      "pop",
+      "jazz-influenced-pop-ballad"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "voicing",
+    "raw_text": "Phân tích cách xếp tiếng (voicing) cho hai hợp âm biến tấu trong Intro: Bb9 (Bb-D-F-A/C-D) đóng vai trò hợp âm bVII9 vay mượn từ C minor; Fm(maj7)/G thực chất là hợp âm át G7(-9,13) giải kết về F/G rồi C9. Nốt giai điệu Intro nằm ở giai điệu tuyến trên (top voice) tạo sự liền bậc quyến rũ.",
+    "music_entities": {
+      "chords": [
+        "Bb9",
+        "Fm(maj7)/G",
+        "G7(-9,13)",
+        "F/G",
+        "C9"
+      ],
+      "tensions": [
+        "b9",
+        "13",
+        "maj7"
+      ],
+      "keys": [
+        "C major"
+      ],
+      "scales": [
+        "C minor",
+        "C melodic minor"
+      ],
+      "styles": [
+        "Jazz-influenced Pop Ballad"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "Fm(maj7)/G",
+      "notes": [
+        "G2",
+        "F3",
+        "Ab3",
+        "C4",
+        "E4"
+      ],
+      "hands": {
+        "left": [
+          "G2"
+        ],
+        "right": [
+          "F3",
+          "Ab3",
+          "C4",
+          "E4"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "Fm(maj7)/G",
+        "notes": [
+          "G2",
+          "F3",
+          "Ab3",
+          "C4",
+          "E4"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "G2"
+          ],
+          "right": [
+            "F3",
+            "Ab3",
+            "C4",
+            "E4"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Phân tích cách xếp tiếng (voicing) cho hai hợp âm biến tấu trong Intro: Bb9 (Bb-D-F-A/C-D) đóng vai trò hợp âm bVII9 vay mượn từ C minor; Fm(maj7)/G thực chất là hợp âm át G7(-9,13) giải kết về F/G rồi C9. Nốt giai điệu Intro nằm ở giai điệu tuyến trên (top voice) tạo sự liền bậc quyến rũ."
+}

@@ -1,0 +1,97 @@
+{
+  "id": "tap-01-bai-09-lesson-id-0009-02",
+  "type": "scale",
+  "name": "Thang âm ngũ cung giọng Trưởng chuẩn gồm các bậc 1 - 2 - 3 - 5 - 6 - 1",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-01-bai-09",
+    "locator": "08:46-10:25 pdf p.15",
+    "media_id": "Tap_01_Bai_09.mp4",
+    "supporting": [
+      {
+        "source_id": "Tap_01_Bai_06_10.pdf",
+        "page": 15,
+        "section": "1. THANH ÂM NGŨ CUNG - Giọng Trưởng"
+      }
+    ]
+  },
+  "use_when": [
+    "Giọng: C",
+    "Gam: Major Pentatonic, Thang âm ngũ cung giọng Trưởng",
+    "Điệu / phong cách: Folk, Dân ca"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "folk",
+      "d-n-ca"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "scale",
+    "raw_text": "Thang âm ngũ cung giọng Trưởng chuẩn gồm các bậc 1 - 2 - 3 - 5 - 6 - 1. Ví dụ trên giọng C Trưởng gồm C - D - E - G - A - C. Thang âm này bỏ bậc 4 và bậc 7, mang màu sắc tươi sáng, trong trẻo.",
+    "music_entities": {
+      "chords": [],
+      "tensions": [],
+      "keys": [
+        "C"
+      ],
+      "scales": [
+        "Major Pentatonic",
+        "Thang âm ngũ cung giọng Trưởng"
+      ],
+      "styles": [
+        "Folk",
+        "Dân ca"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C",
+        "D",
+        "E",
+        "G",
+        "A"
+      ],
+      "hands": {
+        "left": [
+          "C3"
+        ],
+        "right": [
+          "C4",
+          "D4",
+          "E4",
+          "G4",
+          "A4",
+          "C5"
+        ]
+      }
+    },
+    "scale": {
+      "name": "Thang âm ngũ cung giọng Trưởng chuẩn gồm các bậc 1 - 2 - 3 -",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "E",
+        "G",
+        "A"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        7,
+        9
+      ],
+      "for_qualities": [],
+      "review": "rà tay từ raw_text: Thang âm ngũ cung giọng Trưởng bậc 1 - 2 - 3 - 5 - 6; ví dụ C Trưởng gồm C - D - E - G - A"
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thang âm ngũ cung giọng Trưởng chuẩn gồm các bậc 1 - 2 - 3 - 5 - 6 - 1. Ví dụ trên giọng C Trưởng gồm C - D - E - G - A - C. Thang âm này bỏ bậc 4 và bậc 7, mang màu sắc tươi sáng, trong trẻo."
+}

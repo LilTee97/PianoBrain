@@ -1,0 +1,123 @@
+{
+  "id": "tap-03-bai-15-hai-piano-t3-b15-002",
+  "type": "fill",
+  "name": "Kỹ thuật rải móc kép (16th-note arpeggio figure) cho tay phải trong đoạn Intro: Ngón tay giữ nguyên vị trí trong phạm vi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-03-bai-15",
+    "locator": "00:01:43-00:03:34 pdf p.19",
+    "media_id": "video_tap_03_bai_15",
+    "supporting": [
+      {
+        "source_id": "pdf_tap_03",
+        "page": 19,
+        "section": "Measure 1-4 (Intro)"
+      }
+    ]
+  },
+  "use_when": [
+    "Hợp âm: C, C/B, Am, C/G",
+    "Giọng: C major",
+    "Điệu / phong cách: pop solo"
+  ],
+  "avoid_when": [],
+  "input": {
+    "chord_quality": [
+      "C",
+      "C/B",
+      "Am",
+      "C/G"
+    ],
+    "style": [
+      "pop",
+      "pop-solo"
+    ]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "master_type": "pattern",
+    "raw_text": "Kỹ thuật rải móc kép (16th-note arpeggio figure) cho tay phải trong đoạn Intro: Ngón tay giữ nguyên vị trí trong phạm vi 5 ngón (Do-Re-Mi-Fa-Sol) để bấm chính xác giai điệu nốt nối liền mạch.",
+    "music_entities": {
+      "chords": [
+        "C",
+        "C/B",
+        "Am",
+        "C/G"
+      ],
+      "tensions": [],
+      "keys": [
+        "C major"
+      ],
+      "scales": [],
+      "styles": [
+        "pop solo"
+      ]
+    },
+    "observed_example": {
+      "chord_symbol": "C",
+      "notes": [
+        "C4",
+        "E4",
+        "G4",
+        "C5",
+        "E5"
+      ],
+      "hands": {
+        "left": [
+          "C3",
+          "G3"
+        ],
+        "right": [
+          "C4",
+          "E4",
+          "G4",
+          "C5",
+          "E5"
+        ]
+      }
+    },
+    "formalized": {
+      "stage": "formalized",
+      "formula": {
+        "intervals": [],
+        "scale_degrees": [],
+        "rhythm": [],
+        "contour": null
+      },
+      "example": {
+        "key": null,
+        "chord": "C",
+        "notes": [
+          "C4",
+          "E4",
+          "G4",
+          "C5",
+          "E5"
+        ],
+        "rhythm": [],
+        "hands": {
+          "left": [
+            "C3",
+            "G3"
+          ],
+          "right": [
+            "C4",
+            "E4",
+            "G4",
+            "C5",
+            "E5"
+          ]
+        }
+      },
+      "transformations": {
+        "transpose": true,
+        "diatonic_adapt": true,
+        "chromatic_adapt": null
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Kỹ thuật rải móc kép (16th-note arpeggio figure) cho tay phải trong đoạn Intro: Ngón tay giữ nguyên vị trí trong phạm vi 5 ngón (Do-Re-Mi-Fa-Sol) để bấm chính xác giai điệu nốt nối liền mạch."
+}
