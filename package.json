@@ -21,7 +21,9 @@
     "chat": "tsx src/mrhai/chatCli.ts",
     "ask": "tsx src/mrhai/chatCli.ts",
     "import:jazz": "tsx src/migrate/importJazzScales.ts",
-    "review:hai-scales": "tsx src/migrate/reviewHaiScales.ts"
+    "review:hai-scales": "tsx src/migrate/reviewHaiScales.ts",
+    "audit:jazz": "tsx src/migrate/auditJazzScales.ts",
+    "review:jazz": "tsx src/migrate/reviewJazzScales.ts"
   },
   "engines": {
     "node": ">=20"
