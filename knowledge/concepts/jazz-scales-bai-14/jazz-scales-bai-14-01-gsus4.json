@@ -1,0 +1,43 @@
+{
+  "id": "jazz-scales-bai-14-01-gsus4",
+  "type": "concept",
+  "name": "Cấu trúc cơ bản của Sus Chord (Suspended Chord):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-14",
+    "locator": "00:06-00:51",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Gsus2",
+    "Ngẫu hứng jazz trên hợp âm Gsus4",
+    "Ngẫu hứng jazz trên hợp âm Gsus",
+    "Chọn gam / scale khi gặp hợp âm sus2, sus4, sus trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "sus2",
+      "sus4",
+      "sus"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Gsus4",
+    "notes": [
+      "G",
+      "C",
+      "D"
+    ],
+    "source_text": "Cấu trúc cơ bản của Sus Chord (Suspended Chord): Là hợp âm ba (triad) loại bỏ nốt bậc 3, thay bằng nốt bậc 2 (sus2) hoặc nốt bậc 4 (sus4). Hợp âm sus4 phổ biến hơn sus2 rất nhiều; kí hiệu 'sus' chung thường ngầm hiểu là sus4."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 14 của nguồn Jazz Scales (YouTube), mốc 00:06-00:51. Cấu trúc cơ bản của Sus Chord (Suspended Chord): Là hợp âm ba (triad) loại bỏ nốt bậc 3, thay bằng nốt bậc 2 (sus2) hoặc nốt bậc 4 (sus4). Hợp âm sus4 phổ biến hơn sus2 rất nhiều; kí hiệu 'sus' chung thường ngầm hiểu là sus4. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

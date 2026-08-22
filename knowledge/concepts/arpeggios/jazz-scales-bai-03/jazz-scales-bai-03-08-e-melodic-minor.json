@@ -25,6 +25,36 @@
     ]
   },
   "output": {
+    "arpeggio": {
+      "chord_symbol": "EmiMa7",
+      "inversions": [
+        [
+          "E3",
+          "G3",
+          "B3",
+          "D#4"
+        ],
+        [
+          "G3",
+          "B3",
+          "D#4",
+          "E4"
+        ],
+        [
+          "B3",
+          "D#4",
+          "E4",
+          "G4"
+        ],
+        [
+          "D#4",
+          "E4",
+          "G4",
+          "B4"
+        ]
+      ],
+      "note": "bốn thể đảo, cắt từ chuỗi nốt bài giảng đàn ra; không thêm nốt nào"
+    },
     "chord_symbol": "EmiMa7",
     "notes": [
       "E3",

@@ -1,0 +1,46 @@
+{
+  "id": "jazz-scales-bai-14-04-dm7-g7sus-g7-cmaj7",
+  "type": "accompaniment",
+  "name": "Tái hòa âm vòng ii-V-I trong C Major sử dụng Sus Chords:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-14",
+    "locator": "02:32-04:50",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm G9sus",
+    "Ngẫu hứng jazz trên hợp âm CMaj7",
+    "Chọn gam / scale khi gặp hợp âm m7, 7, 9sus, majj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "7",
+      "9sus",
+      "majj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Dm7 -> G7sus -> G7 -> CMaj7",
+    "notes": [
+      "D-F-A-C",
+      "D-F-G-C",
+      "D-F-G-B",
+      "C-E-G-B"
+    ],
+    "source_text": "Tái hòa âm vòng ii-V-I trong C Major sử dụng Sus Chords: Hợp âm G7sus/G9sus đóng vai trò làm cầu nối hoặc thay thế cho hợp âm ii (Dm7) và/hoặc hợp âm V (G7). Các biến thể tái hòa âm bao gồm: 1) G9sus - G7 - CMaj7; 2) Dm7 - G9sus - CMaj7; 3) Dm7 - G9sus - G7 - CMaj7; 4) G9sus - CMaj7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 14 của nguồn Jazz Scales (YouTube), mốc 02:32-04:50. Tái hòa âm vòng ii-V-I trong C Major sử dụng Sus Chords: Hợp âm G7sus/G9sus đóng vai trò làm cầu nối hoặc thay thế cho hợp âm ii (Dm7) và/hoặc hợp âm V (G7). Các biến thể tái hòa âm bao gồm: 1) G9sus - G7 - CMaj7; 2) Dm7 - G9sus - CMaj7; 3) Dm7 - G9sus - G7 - CMaj7; 4) G9sus - CMaj7. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

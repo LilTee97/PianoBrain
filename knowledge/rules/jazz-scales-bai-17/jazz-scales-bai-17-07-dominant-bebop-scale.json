@@ -1,0 +1,88 @@
+{
+  "id": "jazz-scales-bai-17-07-dominant-bebop-scale",
+  "type": "rule",
+  "name": "The Dominant Bebop Scale applies over any non-altered dominant 7th chord:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-17",
+    "locator": "08:33-09:02",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Ngẫu hứng jazz trên hợp âm C9",
+    "Ngẫu hứng jazz trên hợp âm C13",
+    "Ngẫu hứng jazz trên hợp âm C7sus4",
+    "Ngẫu hứng jazz trên hợp âm C9sus4",
+    "Ngẫu hứng jazz trên hợp âm C13sus4",
+    "Chọn gam / scale khi gặp hợp âm 7, 9, 13, 7sus4, 9sus4, 13sus4 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "9",
+      "13",
+      "7sus4",
+      "9sus4",
+      "13sus4"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "Dominant Bebop Scale",
+      "root": "C",
+      "note_names": [
+        "C",
+        "E",
+        "G",
+        "Bb",
+        "D",
+        "A"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "7",
+        "9",
+        "13",
+        "7sus4",
+        "9sus4",
+        "13sus4"
+      ],
+      "use_when": [
+        "hợp âm C7",
+        "hợp âm C9",
+        "hợp âm C13",
+        "hợp âm C7sus4",
+        "hợp âm C9sus4",
+        "hợp âm C13sus4"
+      ]
+    },
+    "chord_symbol": "C13",
+    "notes": [
+      "C",
+      "E",
+      "G",
+      "Bb",
+      "D",
+      "A"
+    ],
+    "source_text": "The Dominant Bebop Scale applies over any non-altered dominant 7th chord: C7, C9, C13, C7(sus4), C9(sus4), C13(sus4)."
+  },
+  "origin": "extracted",
+  "status": "rejected",
+  "note_vi": "Bài 17 của nguồn Jazz Scales (YouTube), mốc 08:33-09:02. The Dominant Bebop Scale applies over any non-altered dominant 7th chord: C7, C9, C13, C7(sus4), C9(sus4), C13(sus4). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu. [RÀ TAY: thầy chạy gam liền bậc, kho chép thành nốt nhảy — 6 nốt, gam bebop phải 8]"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "jazz-scales-bai-14-03-f-g",
+  "type": "voicing",
+  "name": "Hợp âm Sus kiểu Jazz (Jazz'd up Sus Chord / G9sus):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-14",
+    "locator": "01:13-02:32",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G9sus",
+    "Ngẫu hứng jazz trên hợp âm F/G",
+    "Ngẫu hứng jazz trên hợp âm Dm7/G",
+    "Chọn gam / scale khi gặp hợp âm 9sus, /G, m7/G trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "9sus",
+      "/G",
+      "m7/G"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F/G",
+    "notes": [
+      "G",
+      "F",
+      "A",
+      "C"
+    ],
+    "source_text": "Hợp âm Sus kiểu Jazz (Jazz'd up Sus Chord / G9sus): Trong Jazz, hợp âm sus thường được mở rộng thành hợp âm 9sus (G-C-D-F-A). Trên thực tế, voicings phổ biến nhất là hợp âm gạch chéo (slash chords) như F/G (F-A-C trên nốt bass G) hoặc Dm7/G (D-F-A-C trên nốt bass G)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 14 của nguồn Jazz Scales (YouTube), mốc 01:13-02:32. Hợp âm Sus kiểu Jazz (Jazz'd up Sus Chord / G9sus): Trong Jazz, hợp âm sus thường được mở rộng thành hợp âm 9sus (G-C-D-F-A). Trên thực tế, voicings phổ biến nhất là hợp âm gạch chéo (slash chords) như F/G (F-A-C trên nốt bass G) hoặc Dm7/G (D-F-A-C trên nốt bass G). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

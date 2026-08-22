@@ -1,0 +1,78 @@
+{
+  "id": "jazz-scales-bai-17-02-major-scale",
+  "type": "rule",
+  "name": "Playing a standard 7-note scale in 8th notes causes non-chord tones to land on downbeats.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-17",
+    "locator": "02:11-03:13",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C6",
+    "Ngẫu hứng jazz trên hợp âm Cmaj7",
+    "Chọn gam / scale khi gặp hợp âm 6, maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "6",
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": null,
+      "root": "C",
+      "note_names": [
+        "C",
+        "B",
+        "A",
+        "Ab",
+        "G",
+        "F",
+        "E",
+        "D"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "6",
+        "maj7"
+      ],
+      "use_when": [
+        "hợp âm C6",
+        "hợp âm Cmaj7"
+      ]
+    },
+    "chord_symbol": "C6",
+    "notes": [
+      "C",
+      "B",
+      "A",
+      "Ab",
+      "G",
+      "F",
+      "E",
+      "D"
+    ],
+    "source_text": "Playing a standard 7-note scale in 8th notes causes non-chord tones to land on downbeats. Adding a chromatic passing tone fixes the rhythm so chord tones land consistently on strong downbeats."
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 17 của nguồn Jazz Scales (YouTube), mốc 02:11-03:13. Playing a standard 7-note scale in 8th notes causes non-chord tones to land on downbeats. Adding a chromatic passing tone fixes the rhythm so chord tones land consistently on strong downbeats. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

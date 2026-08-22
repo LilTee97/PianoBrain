@@ -1,0 +1,54 @@
+{
+  "id": "rule-hai-triad-pentatonic",
+  "type": "rule",
+  "name": "Hợp âm ba nốt trưởng / thứ chạy ngũ cung dựng trên chính nốt gốc hợp âm",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "hai-joseph",
+    "source_id": "tap-02-bai-02",
+    "locator": "01:43-04:14",
+    "supporting": []
+  },
+  "use_when": [
+    "Đoạn giang tấu hoặc câu chạy trên hợp âm ba nốt của nhạc pop Việt",
+    "Bài chỉ toàn hợp âm ba nốt, không có hợp âm bảy để bám gam jazz"
+  ],
+  "avoid_when": [
+    "Hợp âm bảy jazz — chỗ đó đã có gam riêng, đừng rút xuống ngũ cung",
+    "Đoạn có lời: giọng hát là giai điệu, không cần thêm một đường nữa"
+  ],
+  "input": {
+    "chord_quality": [
+      "maj",
+      "m"
+    ],
+    "section": [
+      "interlude",
+      "solo"
+    ],
+    "hand": "RH"
+  },
+  "output": {
+    "if": "hợp âm ba nốt trưởng hoặc thứ, và kho chưa có gam jazz cho nó",
+    "then": "chạy ngũ cung dựng trên CHÍNH NỐT GỐC HỢP ÂM, không phải trên nốt chủ của giọng",
+    "chord_scale_map": [
+      {
+        "chord_quality": [
+          "maj"
+        ],
+        "scale_item": "tap-01-bai-09-lesson-id-0009-02"
+      },
+      {
+        "chord_quality": [
+          "m"
+        ],
+        "scale_item": "tap-01-bai-09-lesson-id-0009-01"
+      }
+    ],
+    "why_not_seven_notes": "thang âm bảy nốt dựng trên nốt gốc hợp âm thì lạc giọng — Fa trưởng trong giọng Đô ra nốt Si giáng, Sol trưởng ra Fa thăng. Ngũ cung dựng trên nốt gốc hợp âm thì không lạc một hợp âm nào của giọng: C-Dm-Em-F-G-Am đều nằm trọn.",
+    "enforced_by": "PianoBrain src/mrhai/scaleFor.ts"
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thầy Hải nói ở Tập 2 bài 2, mốc 01:43-04:14: 'Âm giai Đô trưởng tự nhiên bao gồm 7 nốt C - D - E - F - G - A - B - C, tạo ra 7 hợp âm ba bậc di chuyển chuẩn: C (I), Dm (ii), Em (iii), F (IV), G (V), Am (vi), Bm-5 (vii°).' Đó chính là quan hệ hợp âm - thang âm, chỉ đọc theo chiều ngược lại. Tập 1 bài 14 mốc 06:01-07:11 nói nốt phần còn lại của quy trình: 'xác định giọng chính của bài hát và khai thác âm giai tương ứng'. Nốt cụ thể lấy từ hai item thang âm thầy dạy ở Tập 1 bài 9: ngũ cung Trưởng (tap-01-bai-09-lesson-id-0009-02, bậc 1-2-3-5-6, ví dụ C-D-E-G-A) và ngũ cung Thứ (tap-01-bai-09-lesson-id-0009-01, bậc 1-3-4-5-7, ví dụ A-C-D-E-G). PHẦN NÀO LÀ CỦA THẦY, PHẦN NÀO LÀ CỦA APP: quan hệ 'thang âm của giọng sinh ra bảy hợp âm này' là lời thầy; hai bộ ngũ cung là nốt thầy đàn; còn việc CHỌN ngũ cung thay vì thang âm bảy nốt, và dựng nó trên nốt gốc hợp âm thay vì trên nốt chủ của giọng, là quyết định chơi đàn của app — chọn vậy vì đo ra thang âm bảy nốt dựng trên nốt gốc hợp âm thì lạc giọng, còn ngũ cung thì không. Item còn draft: chưa ai xem lại video để xác nhận cách đọc này."
+}

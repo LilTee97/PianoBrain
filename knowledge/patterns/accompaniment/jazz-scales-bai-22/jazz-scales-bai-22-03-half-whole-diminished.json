@@ -1,0 +1,45 @@
+{
+  "id": "jazz-scales-bai-22-03-half-whole-diminished",
+  "type": "accompaniment",
+  "name": "In jazz improvisation, the Half-Whole Diminished scale is primarily used over dominant 7th chord",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-22",
+    "locator": "04:30-05:05",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Ngẫu hứng jazz trên hợp âm C7(b9,#11,13)",
+    "Chọn gam / scale khi gặp hợp âm 7, 7(b9,#11,13) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "7(b9,#11,13)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C7(b9,#11,13)",
+    "notes": [
+      "C3",
+      "E3",
+      "Bb3",
+      "Db4",
+      "Eb4",
+      "F#4",
+      "A4"
+    ],
+    "source_text": "In jazz improvisation, the Half-Whole Diminished scale is primarily used over dominant 7th chords to add altered tensions: flat 9 (b9), sharp 9 (#9), sharp 11 (#11), and natural 13."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 22 của nguồn Jazz Scales (YouTube), mốc 04:30-05:05. In jazz improvisation, the Half-Whole Diminished scale is primarily used over dominant 7th chords to add altered tensions: flat 9 (b9), sharp 9 (#9), sharp 11 (#11), and natural 13. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

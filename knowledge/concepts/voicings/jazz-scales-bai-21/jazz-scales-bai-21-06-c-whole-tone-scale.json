@@ -1,0 +1,48 @@
+{
+  "id": "jazz-scales-bai-21-06-c-whole-tone-scale",
+  "type": "voicing",
+  "name": "Applying C Whole Tone Scale over a C7 shell voicing (LH:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-21",
+    "locator": "04:10-04:48",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Ngẫu hứng jazz trên hợp âm C7#5",
+    "Chọn gam / scale khi gặp hợp âm 7, 7#5 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "7#5"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C7#5",
+    "notes": [
+      "C3",
+      "E3",
+      "Bb3",
+      "C4",
+      "D4",
+      "E4",
+      "F#4",
+      "Ab4",
+      "Bb4",
+      "C5"
+    ],
+    "source_text": "Applying C Whole Tone Scale over a C7 shell voicing (LH: C, E, Bb). The scale provides altered chord tones / tensions flat 5th (F#/Gb) and sharp 5th / flat 13th (G#/Ab), making it ideal over Dom7#5 chords (e.g. C7#5)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 21 của nguồn Jazz Scales (YouTube), mốc 04:10-04:48. Applying C Whole Tone Scale over a C7 shell voicing (LH: C, E, Bb). The scale provides altered chord tones / tensions flat 5th (F#/Gb) and sharp 5th / flat 13th (G#/Ab), making it ideal over Dom7#5 chords (e.g. C7#5). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

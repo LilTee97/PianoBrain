@@ -1,0 +1,43 @@
+{
+  "id": "jazz-scales-bai-15-03-c13-sus4",
+  "type": "voicing",
+  "name": "To extend a 9(sus4) chord to a 13(sus4):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-15",
+    "locator": "01:22-01:49",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C13(sus4)",
+    "Ngẫu hứng jazz trên hợp âm Bbmaj7",
+    "Chọn gam / scale khi gặp hợp âm 13(sus4), maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "13(sus4)",
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C13(sus4)",
+    "notes": [
+      "C",
+      "Bb",
+      "D",
+      "F",
+      "A"
+    ],
+    "source_text": "To extend a 9(sus4) chord to a 13(sus4): play the root in the left hand and a Major 7th chord built off the b7 degree in the right hand. For C13(sus4), b7 is Bb, so right hand plays Bbmaj7 (Bb-D-F-A) over C."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 15 của nguồn Jazz Scales (YouTube), mốc 01:22-01:49. To extend a 9(sus4) chord to a 13(sus4): play the root in the left hand and a Major 7th chord built off the b7 degree in the right hand. For C13(sus4), b7 is Bb, so right hand plays Bbmaj7 (Bb-D-F-A) over C. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "jazz-scales-bai-14-08-g-phrygian",
+  "type": "concept",
+  "name": "Hợp âm Sus Flat 9 (Gsus b9 / G Phrygian Chord):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-14",
+    "locator": "08:10-09:18",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Gsusb9",
+    "Ngẫu hứng jazz trên hợp âm G Phrygian chord",
+    "Chọn gam / scale khi gặp hợp âm susb9, Phrygianchord trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "susb9",
+      "Phrygianchord"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Gsusb9",
+    "notes": [
+      "G",
+      "Ab",
+      "C",
+      "D",
+      "G"
+    ],
+    "source_text": "Hợp âm Sus Flat 9 (Gsus b9 / G Phrygian Chord): Cấu trúc G-Ab-C-D-G (chế độ Phrygian - bậc 3 của Eb Major) hoặc G-Ab-C-E-G (bậc 2 của F Melodic Minor). Được dùng như một biến thể thay thế cho hợp âm Dominant với màu sắc hiện đại."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 14 của nguồn Jazz Scales (YouTube), mốc 08:10-09:18. Hợp âm Sus Flat 9 (Gsus b9 / G Phrygian Chord): Cấu trúc G-Ab-C-D-G (chế độ Phrygian - bậc 3 của Eb Major) hoặc G-Ab-C-E-G (bậc 2 của F Melodic Minor). Được dùng như một biến thể thay thế cho hợp âm Dominant với màu sắc hiện đại. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

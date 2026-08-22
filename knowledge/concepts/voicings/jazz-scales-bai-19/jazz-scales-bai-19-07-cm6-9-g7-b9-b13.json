@@ -1,0 +1,50 @@
+{
+  "id": "jazz-scales-bai-19-07-cm6-9-g7-b9-b13",
+  "type": "voicing",
+  "name": "Xây dựng Rootless Voicings thế A và thế B cho hợp âm Minor 6/9 và Dominant Altered:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-19",
+    "locator": "03:48-04:21",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm6.9",
+    "Ngẫu hứng jazz trên hợp âm G7(b9,b13)",
+    "Ngẫu hứng jazz trên hợp âm Fm6",
+    "Ngẫu hứng jazz trên hợp âm C7(13,b9)",
+    "Chọn gam / scale khi gặp hợp âm m6.9, 7(b9,b13), m6, 7(13,b9) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m6.9",
+      "7(b9,b13)",
+      "m6",
+      "7(13,b9)"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cm6.9 -> G7(b9,b13)",
+    "notes": [
+      "Eb3",
+      "A3",
+      "D4",
+      "G4",
+      "F3",
+      "B3",
+      "Eb4",
+      "Ab4"
+    ],
+    "source_text": "Xây dựng Rootless Voicings thế A và thế B cho hợp âm Minor 6/9 và Dominant Altered: Cm6.9 (Eb-A-D-G / A-Eb-G-D) chuyển sang G7(b9,b13) (F-B-Eb-Ab / B-F-Ab-Eb)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 19 của nguồn Jazz Scales (YouTube), mốc 03:48-04:21. Xây dựng Rootless Voicings thế A và thế B cho hợp âm Minor 6/9 và Dominant Altered: Cm6.9 (Eb-A-D-G / A-Eb-G-D) chuyển sang G7(b9,b13) (F-B-Eb-Ab / B-F-Ab-Eb). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "jazz-scales-bai-22-06-half-whole-diminished",
+  "type": "rule",
+  "name": "A single Half-Whole Diminished scale fits four dominant 7th chords built a minor 3rd apart (e.g.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-22",
+    "locator": "06:48-08:33",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Ngẫu hứng jazz trên hợp âm Eb7",
+    "Ngẫu hứng jazz trên hợp âm F#7",
+    "Ngẫu hứng jazz trên hợp âm Gb7",
+    "Ngẫu hứng jazz trên hợp âm A7",
+    "Chọn gam / scale khi gặp hợp âm 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C7 / Gb7",
+    "notes": [
+      "C4",
+      "Bb3",
+      "A3",
+      "G3",
+      "F#3",
+      "E3",
+      "Eb3",
+      "Db3"
+    ],
+    "source_text": "A single Half-Whole Diminished scale fits four dominant 7th chords built a minor 3rd apart (e.g., C7, Eb7, F#7, A7). A C half-whole diminished scale can be conceptualized as combining the top half of C7 and the top half of its tritone sub Gb7 (F#7)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 22 của nguồn Jazz Scales (YouTube), mốc 06:48-08:33. A single Half-Whole Diminished scale fits four dominant 7th chords built a minor 3rd apart (e.g., C7, Eb7, F#7, A7). A C half-whole diminished scale can be conceptualized as combining the top half of C7 and the top half of its tritone sub Gb7 (F#7). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

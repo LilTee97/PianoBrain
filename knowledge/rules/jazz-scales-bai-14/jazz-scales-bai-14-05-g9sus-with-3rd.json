@@ -1,0 +1,41 @@
+{
+  "id": "jazz-scales-bai-14-05-g9sus-with-3rd",
+  "type": "rule",
+  "name": "Quy tắc đặt nốt bậc 3 trong Voicing Hợp âm Sus:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-14",
+    "locator": "04:50-05:31",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G9sus",
+    "Chọn gam / scale khi gặp hợp âm 9sus trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "9sus"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G9sus (with 3rd)",
+    "notes": [
+      "G",
+      "C",
+      "F",
+      "A",
+      "B"
+    ],
+    "source_text": "Quy tắc đặt nốt bậc 3 trong Voicing Hợp âm Sus: Có thể giữ nốt bậc 3 trong hợp âm Sus4 NẾU nốt bậc 3 được xếp nằm TRÊN nốt bậc 4 (ví dụ: G9sus voiced là G - C-F-A-B). Nếu đặt nốt bậc 3 ở DƯỚI nốt bậc 4 sẽ tạo khoảng chát bất hòa (dissonant/muddy)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 14 của nguồn Jazz Scales (YouTube), mốc 04:50-05:31. Quy tắc đặt nốt bậc 3 trong Voicing Hợp âm Sus: Có thể giữ nốt bậc 3 trong hợp âm Sus4 NẾU nốt bậc 3 được xếp nằm TRÊN nốt bậc 4 (ví dụ: G9sus voiced là G - C-F-A-B). Nếu đặt nốt bậc 3 ở DƯỚI nốt bậc 4 sẽ tạo khoảng chát bất hòa (dissonant/muddy). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -90,7 +90,10 @@ const norm = (s: string) =>
 const STOPWORDS = new Set(
   norm(
     "thay day chua co khong biet hoi kho brain minh toi em ban duoc lam gi the nao ve tren truoc sau voi va la cho cai nay do mot cach kien thuc ho tro con chi ra dung khi thi cua " +
-      "cho duoi sao ma hay hoac neu de tai bang cac nhung hai nao dau nhe nha ha o xin chao bao noi xem thu muon can giup them nua roi len xuong vao",
+      "cho duoi sao ma hay hoac neu de tai bang cac nhung hai nao dau nhe nha ha o xin chao bao noi xem thu muon can giup them nua roi len xuong vao " +
+      // Động từ đánh đàn: trong câu hỏi chúng là cách hỏi, không phải nội dung.
+      // "chơi gam gì", "bấm thế nào" — bỏ chúng ra thì còn lại đúng thứ cần tra.
+      "choi bam",
   ).split(" "),
 );
 

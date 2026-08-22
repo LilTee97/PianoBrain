@@ -1,0 +1,176 @@
+{
+  "reviewed": {
+    "jazz-scales-bai-02-02-c-lydian": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-02-03-c-major-bebop": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-02-04-c-dorian": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-02-05-c-minor-bebop": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-02-06-c-mixolydian": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-02-07-c-dominant-diminished": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-02-08-c-altered": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-02-09-c-diminished": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-02-10-c-half-diminished": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-02-11-c-mixo-blues": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-17-02-major-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-17-03-c-major-bebop-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-17-06-c-dominant-bebop-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-17-10-c-minor-bebop-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-17-13-bebop-melodic-minor": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-23-01-diminished-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-23-04-whole-half-diminished-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-23-05-half-whole-diminished-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-23-06-half-whole-diminished-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-01-01-c-lydian": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-01-02-c-dorian": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-01-03-c-lydian-dominant": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-05-02-c-mixolydian": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-05-03-c-mixolydian": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-05-04-c-bebop-dominant": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-10-01-altered-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-10-04-a-altered-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-10-05-g-altered-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-12-02-b-diminished-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-12-03-g-whole-tone-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-12-04-g-altered-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-07-02-d-dorian": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-07-05-g-bebop-dominant-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-09-02-c-altered": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-09-03-c-altered": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-19-03-g-altered-scale": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-19-04-ab-minor-melodic-ascending": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-08-07-a-melodic-minor": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-13-04-g-whole-tone": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-17-11-minor-bebop-scale-2": {
+      "status": "validated",
+      "mark": null
+    },
+    "jazz-scales-bai-18-02-g-altered": {
+      "status": "rejected",
+      "mark": "[RÀ TAY: thầy đàn nốt B, kho ghi nốt C]"
+    },
+    "jazz-scales-bai-17-07-dominant-bebop-scale": {
+      "status": "rejected",
+      "mark": "[RÀ TAY: thầy chạy gam liền bậc, kho chép thành nốt nhảy — 6 nốt, gam bebop phải 8]"
+    },
+    "jazz-scales-bai-17-12-minor-bebop-scale": {
+      "status": "rejected",
+      "mark": "[RÀ TAY: thầy chạy gam liền bậc, kho chép thành nốt nhảy — 6 nốt, gam bebop phải 8]"
+    }
+  }
+}

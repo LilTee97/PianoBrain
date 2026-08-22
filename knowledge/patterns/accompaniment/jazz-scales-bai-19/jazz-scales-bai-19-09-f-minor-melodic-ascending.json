@@ -1,0 +1,46 @@
+{
+  "id": "jazz-scales-bai-19-09-f-minor-melodic-ascending",
+  "type": "exercise",
+  "name": "Kết hợp tay trái đánh Rootless Voicing (Fm6.9 -> C7alt -> Fm6.9) và tay phải chạy câu giai điệu ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-19",
+    "locator": "05:29-06:26",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Fm6.9",
+    "Ngẫu hứng jazz trên hợp âm C7alt",
+    "Chọn gam / scale khi gặp hợp âm m6.9, 7alt trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m6.9",
+      "7alt"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Fm6.9 / C7(b13,#9)",
+    "notes": [
+      "Ab3",
+      "D4",
+      "G4",
+      "C5",
+      "Bb3",
+      "E4",
+      "Ab4",
+      "Eb5"
+    ],
+    "source_text": "Kết hợp tay trái đánh Rootless Voicing (Fm6.9 -> C7alt -> Fm6.9) và tay phải chạy câu giai điệu luân phiên giữa F Melodic Minor và C Altered scale."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 19 của nguồn Jazz Scales (YouTube), mốc 05:29-06:26. Kết hợp tay trái đánh Rootless Voicing (Fm6.9 -> C7alt -> Fm6.9) và tay phải chạy câu giai điệu luân phiên giữa F Melodic Minor và C Altered scale. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

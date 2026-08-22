@@ -1,0 +1,48 @@
+{
+  "id": "jazz-scales-bai-15-07-c13-sus4-c7-b9-5",
+  "type": "voicing",
+  "name": "Moving from C13(sus4) (C-Bb-D-F-A) to C7(#5,b9) (C-Bb-Db-E-Ab) moves three upper voices down by ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-15",
+    "locator": "04:09-05:08",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C13(sus4)",
+    "Ngẫu hứng jazz trên hợp âm C7(b9,#5)",
+    "Ngẫu hứng jazz trên hợp âm F69",
+    "Chọn gam / scale khi gặp hợp âm 13(sus4), 7(b9,#5), 69 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "13(sus4)",
+      "7(b9,#5)",
+      "69"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C13(sus4) -> C7(b9,#5)",
+    "notes": [
+      "C",
+      "Bb",
+      "D",
+      "F",
+      "A",
+      "Db",
+      "E",
+      "Ab"
+    ],
+    "source_text": "Moving from C13(sus4) (C-Bb-D-F-A) to C7(#5,b9) (C-Bb-Db-E-Ab) moves three upper voices down by a half step/step (D->Db, F->E, A->Ab), creating rich chromatic inner voice resolution into F6/9."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 15 của nguồn Jazz Scales (YouTube), mốc 04:09-05:08. Moving from C13(sus4) (C-Bb-D-F-A) to C7(#5,b9) (C-Bb-Db-E-Ab) moves three upper voices down by a half step/step (D->Db, F->E, A->Ab), creating rich chromatic inner voice resolution into F6/9. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

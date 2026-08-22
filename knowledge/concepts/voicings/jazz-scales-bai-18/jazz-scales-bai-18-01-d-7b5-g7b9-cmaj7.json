@@ -1,0 +1,51 @@
+{
+  "id": "jazz-scales-bai-18-01-d-7b5-g7b9-cmaj7",
+  "type": "voicing",
+  "name": "Left-hand voicings for minor and major ii-V-I progression in C:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-18",
+    "locator": "01:57-02:59",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm D-7b5",
+    "Ngẫu hứng jazz trên hợp âm G7b9",
+    "Ngẫu hứng jazz trên hợp âm Cmaj7",
+    "Ngẫu hứng jazz trên hợp âm C-6",
+    "Ngẫu hứng jazz trên hợp âm C-7",
+    "Chọn gam / scale khi gặp hợp âm -7b5, 7b9, maj7, -6, -7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "-7b5",
+      "7b9",
+      "maj7",
+      "-6",
+      "-7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "D-7b5 -> G7b9 -> Cmaj7",
+    "notes": [
+      "D",
+      "F",
+      "Ab",
+      "C",
+      "B",
+      "E",
+      "G"
+    ],
+    "source_text": "Left-hand voicings for minor and major ii-V-I progression in C: D-7b5 (D F Ab C), G7b9 rootless (D F Ab B), resolving to Cmaj7 (C E G B) or C-6/C-7 (C Eb G A)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 18 của nguồn Jazz Scales (YouTube), mốc 01:57-02:59. Left-hand voicings for minor and major ii-V-I progression in C: D-7b5 (D F Ab C), G7b9 rootless (D F Ab B), resolving to Cmaj7 (C E G B) or C-6/C-7 (C Eb G A). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

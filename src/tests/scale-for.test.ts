@@ -13,7 +13,7 @@ describe("scaleFor — chọn thang âm từ kho", () => {
   it("Cmaj7 ra Lydian, và Lydian phải có Fa thăng", () => {
     const s = best("Cmaj7");
     assert.ok(s, "kho có gam cho maj7 mà không trả về");
-    assert.match(s.name ?? "", /Lydian/);
+    assert.match(s.name ?? "", /lydian/i);
     assert.ok(s.pitch_classes.includes(pcOf("F#")), `thiếu Fa thăng: ${s.pitch_classes.join(",")}`);
     // Bậc 4 đúng là thứ Lydian bỏ đi — có nó thì đó là gam trưởng, không phải Lydian.
     assert.ok(!s.pitch_classes.includes(pcOf("F")));
@@ -22,7 +22,12 @@ describe("scaleFor — chọn thang âm từ kho", () => {
   it("C7 ra Bebop Dominant 8 nốt: C D E F G A Bb B", () => {
     const s = best("C7");
     assert.ok(s);
-    assert.match(s.name ?? "", /Bebop Dominant/);
+    /*
+      Khớp bằng **nốt**, không bằng chữ: bài 2 gọi "Bebop Dominant", bài 17 gọi
+      "Dominant Bebop Scale" — cùng một gam. Khoá theo tên là mỗi lần ingest
+      thêm một bài lại phải sửa test dù nhạc không đổi gì.
+    */
+    assert.match(s.name ?? "", /bebop/i);
     assert.equal(s.semitones_from_root.length, 8, "gam bebop phải đủ 8 bậc");
     assert.deepEqual(
       [...s.pitch_classes].sort((a, b) => a - b),
@@ -70,15 +75,23 @@ describe("scaleFor — chọn thang âm từ kho", () => {
 
   it("bài dạy sau chỉnh bài dạy trước", () => {
     // m(maj7): bài 2 xếp vào Minor Bebop, bài 8 dạy hẳn Melodic Minor.
-    assert.match(best("Cm(maj7)")?.name ?? "", /Melodic Minor/);
+    assert.match(best("Cm(maj7)")?.name ?? "", /melodic minor/i);
     // 7#5: bài 2 xếp vào Major Bebop, bài 12 dạy Whole Tone — và Major Bebop
     // thiếu hẳn nốt b7 nên bộ lọc nốt hợp âm cũng đã loại nó.
-    assert.match(best("C7#5")?.name ?? "", /Whole Tone/);
-    assert.match(best("C7alt")?.name ?? "", /Altered/);
+    assert.match(best("C7#5")?.name ?? "", /whole tone/i);
+    assert.match(best("C7alt")?.name ?? "", /altered/i);
   });
 
   it("kho không có thì trả null, không lấy gam gần giống", () => {
-    for (const symbol of ["Cadd9", "Csus4", "Csus2"]) {
+    /*
+      `Cadd9` và `Csus2` từng nằm trong danh sách này. Chúng có gam rồi — ngũ cung
+      Trưởng của thầy Hải, qua `rule-hai-triad-pentatonic-extended`: bậc 2 và bậc
+      6 vốn là bậc của ngũ cung nên gam chứa đủ nốt hợp âm.
+
+      `Csus4` và `Cm6` thì vẫn không: ngũ cung Trưởng không có bậc 4, ngũ cung Thứ
+      không có bậc 6. Nói thiếu đúng hơn là lấp bừa.
+    */
+    for (const symbol of ["Csus4", "Cm6", "Cdim"]) {
       const answer = scaleFor(symbol, kb);
       assert.equal(answer.best, null, `${symbol} không được có gam`);
       assert.equal(answer.alternatives.length, 0);
@@ -86,11 +99,37 @@ describe("scaleFor — chọn thang âm từ kho", () => {
     }
   });
 
-  it("chỉ đọc nguồn jazz-scales, không mượn item của thầy nào khác", () => {
-    for (const symbol of ["Cmaj7", "C7", "Cm7", "C7alt", "Cdim7"]) {
-      const answer = scaleFor(symbol, kb);
-      for (const choice of [answer.best, ...answer.alternatives]) {
-        if (choice) assert.equal(choice.teacher_id, "jazz-scales");
+  it("hợp âm bảy jazz lấy gam nguồn jazz; hợp âm ba nốt lấy ngũ cung thầy Hải", () => {
+    /*
+      Hai nguồn đứng cạnh nhau, mỗi nguồn giữ phần của mình. Trước đây hàm chỉ
+      đọc nguồn jazz, nên hợp âm ba nốt — quá nửa số ô của một bài pop Việt —
+      không có gam nào cả.
+    */
+    for (const symbol of ["Cmaj7", "C7", "Cm7", "Cdim7"]) {
+      assert.equal(scaleFor(symbol, kb).best?.teacher_id, "jazz-scales", symbol);
+    }
+    for (const symbol of ["C", "Am", "F", "G", "Dm", "Em"]) {
+      const best = scaleFor(symbol, kb).best;
+      assert.equal(best?.teacher_id, "hai-joseph", symbol);
+      assert.equal(best?.semitones_from_root.length, 5, `${symbol} phải là ngũ cung`);
+    }
+  });
+
+  it("hợp âm ba nốt: ngũ cung dựng trên nốt gốc hợp âm, không lạc giọng", () => {
+    /*
+      Chỗ này là lý do phải dùng ngũ cung chứ không dùng thang âm bảy nốt: thang
+      âm bảy nốt dựng trên nốt gốc hợp âm thì Fa trưởng trong giọng Đô ra nốt Si
+      giáng, Sol trưởng ra Fa thăng. Ngũ cung thì không lạc một hợp âm nào.
+
+      Cũng chặn luôn lỗi đo được trước khi có luật xếp hạng: `Am` từng lấy A
+      Dorian của nguồn jazz và ra Fa thăng.
+    */
+    const inKeyOfC = new Set([0, 2, 4, 5, 7, 9, 11]);
+    for (const symbol of ["C", "Dm", "Em", "F", "G", "Am"]) {
+      const best = scaleFor(symbol, kb).best;
+      assert.ok(best, symbol);
+      for (const pc of best.pitch_classes) {
+        assert.ok(inKeyOfC.has(pc), `${symbol}: nốt ${pc} lạc giọng Đô`);
       }
     }
   });
@@ -103,9 +142,25 @@ describe("scaleFor — chọn thang âm từ kho", () => {
     }
   });
 
-  it("siết requireValidated thì kho jazz im hẳn — item còn draft cả", () => {
-    // Nút để KeyTrain chọn: draft chưa được thành tiếng mặc định.
-    assert.equal(scaleFor("C7", kb, { requireValidated: true }).best, null);
+  it("siết requireValidated thì chỉ item đã có người rà mới được chọn", () => {
+    /*
+      Đây là nút để KeyTrain siết: kiến thức chưa ai đối chiếu lại nguồn thì
+      không được thành tiếng mặc định.
+
+      Kiểm bằng **cơ chế**, không bằng con số: bản đầu khoá cứng "trả về null vì
+      chưa rà item nào" — đúng lúc ấy, nhưng rà xong item đầu tiên là test đỏ,
+      tức lưới an toàn quay ra chặn đúng việc nó muốn khuyến khích.
+    */
+    for (const symbol of ["C7", "Cmaj7", "Cm7", "C7alt"]) {
+      const strict = scaleFor(symbol, kb, { requireValidated: true });
+      for (const choice of [strict.best, ...strict.alternatives]) {
+        if (choice) assert.equal(choice.status, "validated", `${symbol}: ${choice.item_id}`);
+      }
+      // Siết vào thì không bao giờ được nhiều lựa chọn hơn lúc thả lỏng.
+      const loose = scaleFor(symbol, kb);
+      const count = (a: typeof strict) => (a.best ? 1 : 0) + a.alternatives.length;
+      assert.ok(count(strict) <= count(loose));
+    }
   });
 });
 

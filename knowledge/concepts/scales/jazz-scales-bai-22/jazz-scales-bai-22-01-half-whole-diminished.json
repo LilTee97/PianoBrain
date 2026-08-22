@@ -1,0 +1,40 @@
+{
+  "id": "jazz-scales-bai-22-01-half-whole-diminished",
+  "type": "scale",
+  "name": "Gam Half-Whole Diminished",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-22",
+    "locator": "02:10-02:55",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "notes": [
+      "C4",
+      "Db4",
+      "Eb4",
+      "E4",
+      "F#4",
+      "G4",
+      "A4",
+      "Bb4",
+      "C5"
+    ],
+    "source_text": "The Half-Whole Diminished Scale is a symmetric 8-note (octatonic) scale constructed by alternating half steps (1 semitone) and whole steps (2 semitones)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 22 của nguồn Jazz Scales (YouTube), mốc 02:10-02:55. The Half-Whole Diminished Scale is a symmetric 8-note (octatonic) scale constructed by alternating half steps (1 semitone) and whole steps (2 semitones). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

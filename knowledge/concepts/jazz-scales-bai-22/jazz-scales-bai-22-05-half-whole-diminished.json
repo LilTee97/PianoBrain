@@ -1,0 +1,34 @@
+{
+  "id": "jazz-scales-bai-22-05-half-whole-diminished",
+  "type": "concept",
+  "name": "Due to minor 3rd symmetry (repeating every 3 semitones), there are only 3 distinct diminished sc",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-22",
+    "locator": "05:43-06:47",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "notes": [
+      "C",
+      "Db",
+      "D"
+    ],
+    "source_text": "Due to minor 3rd symmetry (repeating every 3 semitones), there are only 3 distinct diminished scales in tonal music: (1) C/Eb/F#/A, (2) Db/E/G/Bb, and (3) D/F/Ab/B."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 22 của nguồn Jazz Scales (YouTube), mốc 05:43-06:47. Due to minor 3rd symmetry (repeating every 3 semitones), there are only 3 distinct diminished scales in tonal music: (1) C/Eb/F#/A, (2) Db/E/G/Bb, and (3) D/F/Ab/B. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -25,6 +25,36 @@
     ]
   },
   "output": {
+    "arpeggio": {
+      "chord_symbol": "CMa7",
+      "inversions": [
+        [
+          "C4",
+          "E4",
+          "G4",
+          "B4"
+        ],
+        [
+          "E4",
+          "G4",
+          "B4",
+          "C5"
+        ],
+        [
+          "G4",
+          "B4",
+          "C5",
+          "E5"
+        ],
+        [
+          "B4",
+          "C5",
+          "E5",
+          "G5"
+        ]
+      ],
+      "note": "bốn thể đảo, cắt từ chuỗi nốt bài giảng đàn ra; không thêm nốt nào"
+    },
     "chord_symbol": "CMa7",
     "notes": [
       "C4",

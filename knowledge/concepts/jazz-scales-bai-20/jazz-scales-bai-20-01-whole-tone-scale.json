@@ -1,0 +1,29 @@
+{
+  "id": "jazz-scales-bai-20-01-whole-tone-scale",
+  "type": "concept",
+  "name": "Around 1900, impressionist composers such as Claude Debussy sought new musical materials, bringi",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-20",
+    "locator": "00:05-00:35",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Around 1900, impressionist composers such as Claude Debussy sought new musical materials, bringing back old church modes and introducing synthetic scales like the whole tone scale."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 20 của nguồn Jazz Scales (YouTube), mốc 00:05-00:35. Around 1900, impressionist composers such as Claude Debussy sought new musical materials, bringing back old church modes and introducing synthetic scales like the whole tone scale. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "jazz-scales-bai-15-06-c9-sus4-c7-b9",
+  "type": "rule",
+  "name": "When moving from a sus chord to a regular dominant chord, add alterations (such as b9 or #5) to ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-15",
+    "locator": "03:29-04:08",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Gm9",
+    "Ngẫu hứng jazz trên hợp âm C9(sus4)",
+    "Ngẫu hứng jazz trên hợp âm C7(b9)",
+    "Ngẫu hứng jazz trên hợp âm Fmaj7",
+    "Chọn gam / scale khi gặp hợp âm m9, 9(sus4), 7(b9), maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m9",
+      "9(sus4)",
+      "7(b9)",
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C9(sus4) -> C7(b9)",
+    "notes": [
+      "C",
+      "Bb",
+      "D",
+      "F",
+      "Db",
+      "E"
+    ],
+    "source_text": "When moving from a sus chord to a regular dominant chord, add alterations (such as b9 or #5) to build harmonic tension before resolving to I. Moving C9(sus4) (C-Bb-D-F) to C7(b9) (C-Bb-Db-E) creates dual chromatic voice leading: D drops to Db and F drops to E."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 15 của nguồn Jazz Scales (YouTube), mốc 03:29-04:08. When moving from a sus chord to a regular dominant chord, add alterations (such as b9 or #5) to build harmonic tension before resolving to I. Moving C9(sus4) (C-Bb-D-F) to C7(b9) (C-Bb-Db-E) creates dual chromatic voice leading: D drops to Db and F drops to E. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

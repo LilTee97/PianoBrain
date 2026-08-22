@@ -1,0 +1,67 @@
+{
+  "id": "jazz-scales-bai-16-05-c-dominant-bebop-scale",
+  "type": "fingering",
+  "name": "Descending right hand fingering for C Dominant Bebop scale:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-16",
+    "locator": "03:11-03:48",
+    "supporting": []
+  },
+  "use_when": [
+    "Tìm số ngón, thế ngón tay phải để chạy C Dominant Bebop Scale",
+    "Hỏi C Dominant Bebop Scale bấm thế nào, đặt ngón ra sao"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "fingering": {
+      "hand": "RH",
+      "notes": [
+        "C5",
+        "B4",
+        "Bb4",
+        "A4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "fingers": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        4,
+        3,
+        2,
+        1
+      ],
+      "scale": "C Dominant Bebop Scale"
+    },
+    "notes": [
+      "C5",
+      "B4",
+      "Bb4",
+      "A4",
+      "G4",
+      "F4",
+      "E4",
+      "D4",
+      "C4"
+    ],
+    "source_text": "Descending right hand fingering for C Dominant Bebop scale: play 5, 4, 3, 2, 1 starting on C5 down to G4, then cross finger 4 over to F4 and play 4, 3, 2, 1 down to C4."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 16 của nguồn Jazz Scales (YouTube), mốc 03:11-03:48. Descending right hand fingering for C Dominant Bebop scale: play 5, 4, 3, 2, 1 starting on C5 down to G4, then cross finger 4 over to F4 and play 4, 3, 2, 1 down to C4. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

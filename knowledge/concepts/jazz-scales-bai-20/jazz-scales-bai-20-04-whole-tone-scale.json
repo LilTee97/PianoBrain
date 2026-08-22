@@ -1,0 +1,42 @@
+{
+  "id": "jazz-scales-bai-20-04-whole-tone-scale",
+  "type": "concept",
+  "name": "Due to its symmetrical whole-step intervals, the whole tone scale lacks half steps, leading tone",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-20",
+    "locator": "01:17-01:37",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Augmented Triad",
+    "Chọn gam / scale khi gặp hợp âm ugmentedTriad trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "ugmentedTriad"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C-F# / D-G# / E-A#",
+    "notes": [
+      "C4",
+      "F#4",
+      "D4",
+      "G#4",
+      "E4",
+      "A#4"
+    ],
+    "source_text": "Due to its symmetrical whole-step intervals, the whole tone scale lacks half steps, leading tones (ti-do), subdominant-to-tonic pulls (fa-mi), or standard tritone resolutions. Any note can act as the tonic, making it harmonically unstable and ambiguous."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 20 của nguồn Jazz Scales (YouTube), mốc 01:17-01:37. Due to its symmetrical whole-step intervals, the whole tone scale lacks half steps, leading tones (ti-do), subdominant-to-tonic pulls (fa-mi), or standard tritone resolutions. Any note can act as the tonic, making it harmonically unstable and ambiguous. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "jazz-scales-bai-21-01-whole-tone-scale",
+  "type": "concept",
+  "name": "The whole tone scale is a symmetrical scale used over altered dominant chords.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-21",
+    "locator": "00:15-00:38",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Altered Dominant",
+    "Chọn gam / scale khi gặp hợp âm lteredDominant trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "lteredDominant"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "The whole tone scale is a symmetrical scale used over altered dominant chords. It is frequently used in modern jazz improvisation and is famous for descending scale runs such as those by Thelonious Monk."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 21 của nguồn Jazz Scales (YouTube), mốc 00:15-00:38. The whole tone scale is a symmetrical scale used over altered dominant chords. It is frequently used in modern jazz improvisation and is famous for descending scale runs such as those by Thelonious Monk. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

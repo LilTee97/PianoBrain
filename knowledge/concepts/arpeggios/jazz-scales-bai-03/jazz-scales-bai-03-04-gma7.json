@@ -25,6 +25,36 @@
     ]
   },
   "output": {
+    "arpeggio": {
+      "chord_symbol": "GMa7",
+      "inversions": [
+        [
+          "G3",
+          "B3",
+          "D4",
+          "F#4"
+        ],
+        [
+          "B3",
+          "D4",
+          "F#4",
+          "G4"
+        ],
+        [
+          "D4",
+          "F#4",
+          "G4",
+          "B4"
+        ],
+        [
+          "F#4",
+          "G4",
+          "B4",
+          "D5"
+        ]
+      ],
+      "note": "bốn thể đảo, cắt từ chuỗi nốt bài giảng đàn ra; không thêm nốt nào"
+    },
     "chord_symbol": "GMa7",
     "notes": [
       "G3",

@@ -1,0 +1,45 @@
+{
+  "id": "jazz-scales-bai-19-02-c-minor-melodic-ascending",
+  "type": "concept",
+  "name": "Thang âm Minor Melodic Tăng (Melodic Minor Ascending) được sử dụng rộng rãi trong Jazz khi chơi ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-19",
+    "locator": "00:17-01:21",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm Abm",
+    "Chọn gam / scale khi gặp hợp âm 7, m trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "m"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G7alt",
+    "notes": [
+      "G",
+      "Ab",
+      "Bb",
+      "B",
+      "Db",
+      "Eb",
+      "F"
+    ],
+    "source_text": "Thang âm Minor Melodic Tăng (Melodic Minor Ascending) được sử dụng rộng rãi trong Jazz khi chơi trên các hợp âm thứ (Minor Key standards). Thang âm G Altered được xây dựng từ bậc 7 của thang âm Ab Minor Melodic Ascending."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 19 của nguồn Jazz Scales (YouTube), mốc 00:17-01:21. Thang âm Minor Melodic Tăng (Melodic Minor Ascending) được sử dụng rộng rãi trong Jazz khi chơi trên các hợp âm thứ (Minor Key standards). Thang âm G Altered được xây dựng từ bậc 7 của thang âm Ab Minor Melodic Ascending. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

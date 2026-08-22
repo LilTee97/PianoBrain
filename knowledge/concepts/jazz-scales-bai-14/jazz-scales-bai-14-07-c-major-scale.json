@@ -1,0 +1,43 @@
+{
+  "id": "jazz-scales-bai-14-07-c-major-scale",
+  "type": "concept",
+  "name": "Ưu điểm của G9sus trong ngẫu hứng (No Avoid Note):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-14",
+    "locator": "07:06-08:10",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm G9sus",
+    "Chọn gam / scale khi gặp hợp âm 7, 9sus trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "9sus"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G9sus",
+    "notes": [
+      "G",
+      "C",
+      "D",
+      "F",
+      "A"
+    ],
+    "source_text": "Ưu điểm của G9sus trong ngẫu hứng (No Avoid Note): Trên hợp âm G7, nốt C là Avoid Note do xung đột với nốt B (bậc 3). Khi chuyển sang G9sus, nốt C trở thành nốt chức năng chính của hợp âm, do đó toàn bộ các nốt trong âm giai C Major đều có thể dùng để ngẫu hứng tự do mà không gặp Avoid Note."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 14 của nguồn Jazz Scales (YouTube), mốc 07:06-08:10. Ưu điểm của G9sus trong ngẫu hứng (No Avoid Note): Trên hợp âm G7, nốt C là Avoid Note do xung đột với nốt B (bậc 3). Khi chuyển sang G9sus, nốt C trở thành nốt chức năng chính của hợp âm, do đó toàn bộ các nốt trong âm giai C Major đều có thể dùng để ngẫu hứng tự do mà không gặp Avoid Note. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

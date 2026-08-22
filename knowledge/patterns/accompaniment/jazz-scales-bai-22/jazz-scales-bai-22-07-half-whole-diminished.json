@@ -1,0 +1,52 @@
+{
+  "id": "jazz-scales-bai-22-07-half-whole-diminished",
+  "type": "accompaniment",
+  "name": "Any melodic shape or cell constructed within a diminished scale can be transposed verbatim up or",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-22",
+    "locator": "08:34-10:18",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Chọn gam / scale khi gặp hợp âm 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C7",
+    "notes": [
+      "C#5",
+      "C5",
+      "A4",
+      "E4",
+      "A#4",
+      "A4",
+      "F#4",
+      "C4",
+      "G4",
+      "F#4",
+      "Eb4",
+      "A3",
+      "E4",
+      "Eb4",
+      "C4",
+      "G3"
+    ],
+    "source_text": "Any melodic shape or cell constructed within a diminished scale can be transposed verbatim up or down in minor 3rds (+/- 3 semitones) across the entire octave while remaining 100% inside the scale."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 22 của nguồn Jazz Scales (YouTube), mốc 08:34-10:18. Any melodic shape or cell constructed within a diminished scale can be transposed verbatim up or down in minor 3rds (+/- 3 semitones) across the entire octave while remaining 100% inside the scale. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

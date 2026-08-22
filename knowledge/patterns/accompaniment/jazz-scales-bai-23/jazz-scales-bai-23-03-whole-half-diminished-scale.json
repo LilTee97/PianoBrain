@@ -1,0 +1,42 @@
+{
+  "id": "jazz-scales-bai-23-03-whole-half-diminished-scale",
+  "type": "accompaniment",
+  "name": "Notes that are a whole step above any chord tone of a diminished 7th chord are whole-step extens",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-23",
+    "locator": "02:38-05:48",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Ebdim7",
+    "Ngẫu hứng jazz trên hợp âm C#dim7",
+    "Chọn gam / scale khi gặp hợp âm dim7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Eb°7(ext)",
+    "notes": [
+      "Eb",
+      "Gb",
+      "A",
+      "C",
+      "F"
+    ],
+    "source_text": "Notes that are a whole step above any chord tone of a diminished 7th chord are whole-step extensions (tensions) and can be added directly to enrich diminished harmony without breaking harmonic validity."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 23 của nguồn Jazz Scales (YouTube), mốc 02:38-05:48. Notes that are a whole step above any chord tone of a diminished 7th chord are whole-step extensions (tensions) and can be added directly to enrich diminished harmony without breaking harmonic validity. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

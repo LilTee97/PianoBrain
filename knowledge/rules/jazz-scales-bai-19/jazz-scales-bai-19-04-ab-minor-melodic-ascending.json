@@ -1,0 +1,80 @@
+{
+  "id": "jazz-scales-bai-19-04-ab-minor-melodic-ascending",
+  "type": "rule",
+  "name": "Thang âm Ab Minor Melodic Ascending có thể ứng dụng áp dụng lên 4 loại hợp âm:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-19",
+    "locator": "02:14-02:34",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Abm6",
+    "Ngẫu hứng jazz trên hợp âm Fm7b5",
+    "Ngẫu hứng jazz trên hợp âm Db7#11",
+    "Ngẫu hứng jazz trên hợp âm G7alt",
+    "Chọn gam / scale khi gặp hợp âm m6, m7b5, 7#11, 7alt trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m6",
+      "m7b5",
+      "7#11",
+      "7alt"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "Ab minor melodic ascending",
+      "root": "Ab",
+      "note_names": [
+        "Ab",
+        "Bb",
+        "Cb",
+        "Db",
+        "Eb",
+        "F",
+        "G"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "m6"
+      ],
+      "use_when": [
+        "hợp âm Abm6",
+        "hợp âm Fm7b5",
+        "hợp âm Db7#11",
+        "hợp âm G7alt"
+      ]
+    },
+    "chord_symbol": "G7alt / Db7#11 / Fm7b5 / Abm6",
+    "notes": [
+      "Ab",
+      "Bb",
+      "Cb",
+      "Db",
+      "Eb",
+      "F",
+      "G"
+    ],
+    "source_text": "Thang âm Ab Minor Melodic Ascending có thể ứng dụng áp dụng lên 4 loại hợp âm: 1) Abm6 / Abm(maj7); 2) Fm7b5 (bậc 6); 3) Db7#11 / Db Lydian Dominant (bậc 4); 4) G7alt / G Altered (bậc 7)."
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 19 của nguồn Jazz Scales (YouTube), mốc 02:14-02:34. Thang âm Ab Minor Melodic Ascending có thể ứng dụng áp dụng lên 4 loại hợp âm: 1) Abm6 / Abm(maj7); 2) Fm7b5 (bậc 6); 3) Db7#11 / Db Lydian Dominant (bậc 4); 4) G7alt / G Altered (bậc 7). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

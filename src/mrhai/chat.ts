@@ -1,7 +1,7 @@
 import type { KnowledgeBase } from "../kb/types.js";
 import type { KnowledgeItem } from "../kb/types.js";
 import { askMrHai, type ItemRef } from "./answer.js";
-import { auditCapability, type AuditResult } from "./audit.js";
+import { auditCapability, contentTerms, termOverlap, type AuditResult } from "./audit.js";
 import { generateFill, generateIntro, generateOutro, type PhrasePlan } from "./fill.js";
 import { generateRun } from "./generate.js";
 import { classify, vocalFromText, type Intent, type Progression } from "./parse.js";
@@ -235,6 +235,26 @@ function roundRobinByTeacher(pool: [KnowledgeItem, string][], limit: number): [K
   return out;
 }
 
+/**
+ * Item khớp **nhiều từ nhất** của câu hỏi, dù không khớp trọn.
+ *
+ * Dùng khi phép tra chặt trả về rỗng: thà chỉ ra chỗ gần nhất rồi nói thẳng là
+ * thiếu, còn hơn trả lời "chưa rõ ý em" cho một câu hỏi rõ ràng.
+ */
+function nearestItems(text: string, kb: KnowledgeBase): KnowledgeItem[] {
+  const terms = contentTerms(text);
+  if (terms.length < 2) return [];
+
+  return kb.items
+    .filter((i) => i.status !== "rejected" && i.type !== "teacher")
+    .map((i) => ({ item: i, hits: termOverlap(i, terms) }))
+    // Trúng đúng một từ thì gần như là trùng ngẫu nhiên, không đáng đưa ra.
+    .filter((x) => x.hits >= 2)
+    .sort((a, b) => b.hits - a.hits || a.item.name.length - b.item.name.length)
+    .slice(0, 3)
+    .map((x) => x.item);
+}
+
 export function reply(text: string, kb: KnowledgeBase): string[] {
   const intent = classify(text);
   if (intent.mode === "greet") return ["Chào em. Em đưa vòng hợp âm, hay hỏi thầy kho có gì?"];
@@ -249,5 +269,24 @@ export function reply(text: string, kb: KnowledgeBase): string[] {
   if (a.teacher.length + a.draft.length + a.seed.length + a.generators.length > 0) {
     return [...answerAudit(a), inventory(a)];
   }
+
+  /*
+    Không khớp trọn vẹn thì thử khớp **một phần** trước khi bó tay.
+
+    Kho lập ra để nói thiếu chứ không phải để nói "chưa rõ ý em". Hỏi "ngón bebop
+    dominant" mà kho có bài về bebop nhưng không có thế ngón cho nó thì câu trả
+    lời đúng là *"chưa có phần ấy, đây là thứ gần nhất"* — chứ trả lời "chưa rõ
+    ý" là để người học tưởng mình hỏi sai, trong khi chính kho mới là chỗ thiếu.
+  */
+  const near = nearestItems(text, kb);
+  if (near.length > 0) {
+    return [
+      `"${text.slice(0, 50)}": CHƯA CÓ.`,
+      "  Kho chưa có item nào khớp trọn câu hỏi. Gần nhất:",
+      ...near.map((i) => `  · [${i.source?.teacher_id ?? "seed"}] ${i.name.slice(0, 80)}  (${i.id})`),
+      "  Muốn có thì ingest thêm nguồn theo ingest/PIPELINE.md — thầy không bịa cho em đâu.",
+    ];
+  }
+
   return ["Thầy chưa rõ ý em. Em đưa vòng hợp âm (ví dụ `C Am F G`), hay đang hỏi kho có gì?"];
 }

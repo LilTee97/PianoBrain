@@ -1,0 +1,43 @@
+{
+  "id": "jazz-scales-bai-23-02-diminished-scale",
+  "type": "rule",
+  "name": "The diminished scale functions effectively over fully diminished 7th chords and dominant 7th (b9",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-23",
+    "locator": "02:06-02:38",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C#dim7",
+    "Ngẫu hứng jazz trên hợp âm C7b9",
+    "Chọn gam / scale khi gặp hợp âm dim7, 7b9 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim7",
+      "7b9"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C7b9",
+    "notes": [
+      "C",
+      "Db",
+      "E",
+      "G",
+      "Bb"
+    ],
+    "source_text": "The diminished scale functions effectively over fully diminished 7th chords and dominant 7th (b9) chords due to shared chord tone structure."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 23 của nguồn Jazz Scales (YouTube), mốc 02:06-02:38. The diminished scale functions effectively over fully diminished 7th chords and dominant 7th (b9) chords due to shared chord tone structure. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,40 @@
+{
+  "id": "jazz-scales-bai-22-02-half-whole-diminished",
+  "type": "concept",
+  "name": "Skipping every other note in a Half-Whole Diminished Scale extracts a fully diminished 7th chord",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-22",
+    "locator": "03:36-03:51",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cdim7",
+    "Chọn gam / scale khi gặp hợp âm dim7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cdim7",
+    "notes": [
+      "C4",
+      "Eb4",
+      "F#4",
+      "A4"
+    ],
+    "source_text": "Skipping every other note in a Half-Whole Diminished Scale extracts a fully diminished 7th chord (minor 3rd intervals). From C half-whole, C - Eb - F# - A forms a C diminished 7th chord."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 22 của nguồn Jazz Scales (YouTube), mốc 03:36-03:51. Skipping every other note in a Half-Whole Diminished Scale extracts a fully diminished 7th chord (minor 3rd intervals). From C half-whole, C - Eb - F# - A forms a C diminished 7th chord. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

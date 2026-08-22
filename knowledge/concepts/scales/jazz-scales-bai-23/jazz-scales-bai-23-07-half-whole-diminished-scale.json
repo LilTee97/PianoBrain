@@ -1,0 +1,61 @@
+{
+  "id": "jazz-scales-bai-23-07-half-whole-diminished-scale",
+  "type": "scale",
+  "name": "Gam Half-Whole Diminished Scale cho hợp âm Gm7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-23",
+    "locator": "08:10-14:40",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Gm7",
+    "Ngẫu hứng jazz trên hợp âm C7b9",
+    "Ngẫu hứng jazz trên hợp âm Fmaj7",
+    "Ngẫu hứng jazz trên hợp âm Bbm7",
+    "Ngẫu hứng jazz trên hợp âm Eb7b9",
+    "Ngẫu hứng jazz trên hợp âm Abmaj7",
+    "Ngẫu hứng jazz trên hợp âm C#m7",
+    "Ngẫu hứng jazz trên hợp âm F#7b9",
+    "Chọn gam / scale khi gặp hợp âm m7, 7b9, maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "7b9",
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Gm7 - C7b9 - Fmaj7",
+    "notes": [
+      "G",
+      "Bb",
+      "D",
+      "F",
+      "C",
+      "Db",
+      "Eb",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "F",
+      "A",
+      "C",
+      "E"
+    ],
+    "source_text": "Practice ii-V-I progressions in minor-3rd related keys (F, Ab, B, D) using the identical diminished scale over each dominant V7(b9) chord."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 23 của nguồn Jazz Scales (YouTube), mốc 08:10-14:40. Practice ii-V-I progressions in minor-3rd related keys (F, Ab, B, D) using the identical diminished scale over each dominant V7(b9) chord. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

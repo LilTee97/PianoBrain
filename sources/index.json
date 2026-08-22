@@ -877,7 +877,7 @@
       "source_id": "jazz-scales-bai-01",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "video_20250226_090520_616.mp4",
+      "title": "Jazz Scales for Piano (Which Scale to Play Over Any Chord).mp4",
       "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
@@ -887,133 +887,221 @@
       "source_id": "jazz-scales-bai-02",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "The 10 Most Important Jazz Scales",
+      "title": "The 10 Most Important Jazz Scales.mp4",
       "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "JazzScales_Bai_02",
-      "source_map_missing_video": true
+      "lesson_id": "JazzScales_Bai_02"
     },
     {
       "source_id": "jazz-scales-bai-03",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "Easy & Thrilling Jazz Solo by playing Arpeggio",
+      "title": "How to improvise an EASY JAZZ SOLO with simple ARPEGGIOS.mp4",
       "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "jazz_scales_001_bai_03",
-      "source_map_missing_video": true
+      "lesson_id": "jazz_scales_001_bai_03"
     },
     {
       "source_id": "jazz-scales-bai-04",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "Arpeggio Formation Theory & Two-Handed Modern Runs",
+      "title": "How to Create Killer Runs and Arpeggios.mp4",
       "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "jazz_scales_001_lesson_04",
-      "source_map_missing_video": true
+      "lesson_id": "jazz_scales_001_lesson_04"
     },
     {
       "source_id": "jazz-scales-bai-05",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "The Bebop Dominant Scale",
-      "url": "https://www.youtube.com/watch?v=JazzScales_Bai_05",
+      "title": "How To Play Bebop Piano Lesson 1 The Bebop Dominant Scale_ PDF In All Keys.mp4",
+      "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "JazzScales_Bai_05",
-      "source_map_missing_video": true
+      "lesson_id": "JazzScales_Bai_05"
     },
     {
       "source_id": "jazz-scales-bai-06",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "Bebop Piano Tutorial 2: Combining Arpeggios with the Bebop Scale",
-      "url": "https://www.youtube.com/watch?v=JazzScales_Bai_06",
+      "title": "How To Play Bebop Piano Lesson 2 Combining Arpeggios With The Bebop Dominant Scale_ PDF All Keys.mp4",
+      "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "jazz_scales_001_lesson_06",
-      "source_map_missing_video": true
+      "lesson_id": "jazz_scales_001_lesson_06"
     },
     {
       "source_id": "jazz-scales-bai-07",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "Improvising over ii-V-I Chord Progressions",
-      "url": "https://www.youtube.com/watch?v=jazz_scales_007",
+      "title": "How To Play Bebop Piano Lesson 3. Improvising Over a 2 5 1 Progression_ PDF In All Keys.mp4",
+      "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "JazzScales_Bai_07",
-      "source_map_missing_video": true
+      "lesson_id": "JazzScales_Bai_07"
     },
     {
       "source_id": "jazz-scales-bai-08",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "The Mysterious Melodic Minor Scale & Minor 2-5-1 Improv",
+      "title": "Melodic Minor Scale- The Pro Improviser's Scale.mp4",
       "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "JazzScales_Bai_08",
-      "source_map_missing_video": true
+      "lesson_id": "JazzScales_Bai_08"
     },
     {
       "source_id": "jazz-scales-bai-09",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "Advanced Use of the Altered Scale",
+      "title": "Advanced Use of the ALTERED SCALE _ You'll Hear It.mp4",
       "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "JazzScales_Bai_09",
-      "source_map_missing_video": true
+      "lesson_id": "JazzScales_Bai_09"
     },
     {
       "source_id": "jazz-scales-bai-10",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "Understanding & Using The Altered Scale in Jazz Piano",
+      "title": "The Altered Scale (the only video you need).mp4",
       "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "jazz_scales_001_bai_10",
-      "source_map_missing_video": true
+      "lesson_id": "jazz_scales_001_bai_10"
     },
     {
       "source_id": "jazz-scales-bai-11",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "Whole Tone Scale - Tone, Tone, Tone!",
+      "title": "What Is Whole Tone Scale_.mp4",
       "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "JazzScales_Bai_11",
-      "source_map_missing_video": true
+      "lesson_id": "JazzScales_Bai_11"
     },
     {
       "source_id": "jazz-scales-bai-12",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "3 Scales for Dominant 7th Chords with Altered Notes",
+      "title": "YTDown.com_YouTube_How-To-Play-Bebop-Piano-Lesson-10-Dimini_Media_lXT9bcVm2Co_001_1080p.mp4",
       "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "jazz_scales_001_lesson_12",
-      "source_map_missing_video": true
+      "lesson_id": "jazz_scales_001_lesson_12"
     },
     {
       "source_id": "jazz-scales-bai-13",
       "teacher_id": "jazz-scales",
       "kind": "video",
-      "title": "Jazz Scales Lesson 13 - Whole Tone Scale Patterns and Outside Improvisation",
+      "title": "How to Use the Whole Tone Scale (feat. Ryan Devlin).mp4",
       "url": null,
       "ingested_at": "2026-08-22",
       "course_id": "jazz_scales_001",
-      "lesson_id": "jazz_scales_001_bai_13",
-      "source_map_missing_video": true
+      "lesson_id": "jazz_scales_001_bai_13"
+    },
+    {
+      "source_id": "jazz-scales-bai-14",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Jazz Piano Tutorial - Suspended Chords.mp4",
+      "url": null,
+      "ingested_at": "2026-08-22",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_14"
+    },
+    {
+      "source_id": "jazz-scales-bai-15",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Sus Chords Explained _ Suspended Chords For Jazz Piano.mp4",
+      "url": null,
+      "ingested_at": "2026-08-22",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "jazz_scales_001_lesson_15"
+    },
+    {
+      "source_id": "jazz-scales-bai-16",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "COMMONLY USED BEBOP SCALES - FINGERING AND HARMONIZATION.mp4",
+      "url": null,
+      "ingested_at": "2026-08-22",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_16"
+    },
+    {
+      "source_id": "jazz-scales-bai-17",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "The Ultimate Guide To Bebop Scales.mp4",
+      "url": null,
+      "ingested_at": "2026-08-22",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_17"
+    },
+    {
+      "source_id": "jazz-scales-bai-18",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "🎶 Beginner’s Guide to the Altered Scale (Simple Jazz Exercise).mp4",
+      "url": null,
+      "ingested_at": "2026-08-22",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_18"
+    },
+    {
+      "source_id": "jazz-scales-bai-19",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Altered Scale Exercise 🎹 Jazz Piano College.mp4",
+      "url": null,
+      "ingested_at": "2026-08-22",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_19"
+    },
+    {
+      "source_id": "jazz-scales-bai-20",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Exploring the Whole Tone Scale _ Music Theory _ Composition _ Berklee Online.mp4",
+      "url": null,
+      "ingested_at": "2026-08-22",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "jazz_scales_001_lesson_020"
+    },
+    {
+      "source_id": "jazz-scales-bai-21",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Lesson #39_ Whole Tone Scale Fingering and Construction (Thelonious Monk).mp4",
+      "url": null,
+      "ingested_at": "2026-08-22",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_21"
+    },
+    {
+      "source_id": "jazz-scales-bai-22",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "The Diminished Scale _ What the Hell Is It_ _ You'll Hear It.mp4",
+      "url": null,
+      "ingested_at": "2026-08-22",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_22"
+    },
+    {
+      "source_id": "jazz-scales-bai-23",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "The DIMINISHED SCALE in depth, UNLOCK the secrets of jazz.mp4",
+      "url": null,
+      "ingested_at": "2026-08-22",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_23"
     }
   ],
   "coverage": {

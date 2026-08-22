@@ -1,0 +1,82 @@
+{
+  "id": "jazz-scales-bai-23-01-diminished-scale",
+  "type": "concept",
+  "name": "The diminished scale is an 8-note scale with a recurring symmetric pattern of alternating whole ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-23",
+    "locator": "01:20-02:06",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C#dim7",
+    "Ngẫu hứng jazz trên hợp âm Edim7",
+    "Ngẫu hứng jazz trên hợp âm Gdim7",
+    "Ngẫu hứng jazz trên hợp âm Bbdim7",
+    "Chọn gam / scale khi gặp hợp âm dim7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": null,
+      "root": "C#",
+      "note_names": [
+        "C#",
+        "D#",
+        "E",
+        "F#",
+        "G",
+        "A",
+        "A#",
+        "C",
+        "C#"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "dim7"
+      ],
+      "use_when": [
+        "hợp âm C#dim7",
+        "hợp âm Edim7",
+        "hợp âm Gdim7",
+        "hợp âm Bbdim7"
+      ]
+    },
+    "chord_symbol": "C#°7",
+    "notes": [
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "C",
+      "C#"
+    ],
+    "source_text": "The diminished scale is an 8-note scale with a recurring symmetric pattern of alternating whole steps and half steps (or half steps and whole steps). Because of its 3-semitone interval symmetry, there are only 3 unique diminished scales in total."
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 23 của nguồn Jazz Scales (YouTube), mốc 01:20-02:06. The diminished scale is an 8-note scale with a recurring symmetric pattern of alternating whole steps and half steps (or half steps and whole steps). Because of its 3-semitone interval symmetry, there are only 3 unique diminished scales in total. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

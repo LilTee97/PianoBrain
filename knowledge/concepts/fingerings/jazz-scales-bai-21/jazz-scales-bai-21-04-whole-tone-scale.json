@@ -1,0 +1,61 @@
+{
+  "id": "jazz-scales-bai-21-04-whole-tone-scale",
+  "type": "fingering",
+  "name": "Right hand fingering for Whole Tone Scale Collection 1 (C, D, E, F#, Ab, Bb):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-21",
+    "locator": "02:16-03:26",
+    "supporting": []
+  },
+  "use_when": [
+    "Tìm số ngón, thế ngón tay phải để chạy Whole Tone Scale",
+    "Hỏi Whole Tone Scale bấm thế nào, đặt ngón ra sao"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "fingering": {
+      "hand": "RH",
+      "notes": [
+        "C4",
+        "D4",
+        "E4",
+        "F#4",
+        "Ab4",
+        "Bb4",
+        "C5"
+      ],
+      "fingers": [
+        1,
+        2,
+        1,
+        2,
+        3,
+        4,
+        1
+      ],
+      "scale": "Whole Tone Scale"
+    },
+    "notes": [
+      "C4",
+      "D4",
+      "E4",
+      "F#4",
+      "Ab4",
+      "Bb4",
+      "C5"
+    ],
+    "source_text": "Right hand fingering for Whole Tone Scale Collection 1 (C, D, E, F#, Ab, Bb): Thumb (1) on C, finger 2 on D, thumb (1) under to E, fingers 2-3-4 on black keys F#, Ab, Bb. Pattern repeats: 1-2-1-2-3-4."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 21 của nguồn Jazz Scales (YouTube), mốc 02:16-03:26. Right hand fingering for Whole Tone Scale Collection 1 (C, D, E, F#, Ab, Bb): Thumb (1) on C, finger 2 on D, thumb (1) under to E, fingers 2-3-4 on black keys F#, Ab, Bb. Pattern repeats: 1-2-1-2-3-4. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,74 @@
+{
+  "id": "jazz-scales-bai-17-11-minor-bebop-scale-2",
+  "type": "scale",
+  "name": "Gam Minor Bebop Scale 2 cho hợp âm Cm7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-17",
+    "locator": "13:35-13:48",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "Minor Bebop Scale 2",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "G",
+        "A",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "m7"
+      ],
+      "use_when": [
+        "hợp âm Cm7"
+      ]
+    },
+    "chord_symbol": "Cm7",
+    "notes": [
+      "C",
+      "D",
+      "Eb",
+      "E",
+      "F",
+      "G",
+      "A",
+      "Bb"
+    ],
+    "source_text": "Minor Bebop Scale #2 (Alternative) adds a natural 3 (Major 3rd) passing tone between flat 3 and 4 in the Dorian scale."
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 17 của nguồn Jazz Scales (YouTube), mốc 13:35-13:48. Minor Bebop Scale #2 (Alternative) adds a natural 3 (Major 3rd) passing tone between flat 3 and 4 in the Dorian scale. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

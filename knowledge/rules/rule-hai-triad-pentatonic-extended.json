@@ -1,0 +1,46 @@
+{
+  "id": "rule-hai-triad-pentatonic-extended",
+  "type": "rule",
+  "name": "Hợp âm sus2, 6 và add9 mượn ngũ cung của hợp âm ba nốt cùng gốc",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Đoạn giang tấu trên hợp âm sus2, 6 hoặc add9"
+  ],
+  "avoid_when": [
+    "Hợp âm bảy jazz — đã có gam riêng",
+    "Khi kho có nguồn thật dạy gam cho họ sus: lúc đó bỏ item này đi, đừng giữ song song"
+  ],
+  "input": {
+    "chord_quality": [
+      "sus2",
+      "6",
+      "add9"
+    ],
+    "section": [
+      "interlude",
+      "solo"
+    ],
+    "hand": "RH"
+  },
+  "output": {
+    "if": "hợp âm ba nốt có thêm hoặc đổi một nốt, vẫn nằm trong giọng",
+    "then": "dùng đúng ngũ cung của hợp âm ba nốt cùng nốt gốc",
+    "chord_scale_map": [
+      {
+        "chord_quality": [
+          "sus2",
+          "6",
+          "add9"
+        ],
+        "scale_item": "tap-01-bai-09-lesson-id-0009-02"
+      }
+    ],
+    "derived_from": [
+      "rule-hai-triad-pentatonic"
+    ]
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Đây là phần MỞ RỘNG của rule-hai-triad-pentatonic, và nó là suy luận chứ không phải lời thầy: ở Tập 2 bài 2 thầy chỉ kể bảy hợp âm ba nốt của giọng, không nhắc sus, 6 hay add9. Suy luận là: mấy chất ấy vẫn là hợp âm ba nốt ấy, chỉ thêm hoặc đổi một nốt mà nốt ấy VẪN NẰM TRONG ngũ cung — bậc 2 của sus2 và add9, bậc 6 của hợp âm 6, cả ba đều là bậc của ngũ cung Trưởng (1-2-3-5-6). Vì thế ngũ cung cũ vẫn chứa đủ nốt hợp âm. CỐ Ý KHÔNG có sus4, m6 và madd9: ngũ cung Trưởng không có bậc 4, ngũ cung Thứ không có bậc 6 — đưa vào là gam thiếu chính nốt làm nên tính cách của hợp âm, và bộ lọc 'gam phải chứa đủ nốt hợp âm' bên scaleFor cũng loại chúng ra. Ba chất ấy vẫn chưa có gam, và nói thiếu thì đúng hơn là lấp bừa. Vì là suy luận nên item không mang nguồn, không gán cho thầy nào, và giữ draft. Có nguồn thật dạy gam cho họ sus thì bỏ item này, đừng để hai đường song song."
+}

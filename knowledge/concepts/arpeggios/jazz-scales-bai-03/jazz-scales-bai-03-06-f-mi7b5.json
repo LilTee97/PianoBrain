@@ -25,6 +25,36 @@
     ]
   },
   "output": {
+    "arpeggio": {
+      "chord_symbol": "F#mi7b5",
+      "inversions": [
+        [
+          "F#3",
+          "A3",
+          "C4",
+          "E4"
+        ],
+        [
+          "A3",
+          "C4",
+          "E4",
+          "F#4"
+        ],
+        [
+          "C4",
+          "E4",
+          "F#4",
+          "A4"
+        ],
+        [
+          "E4",
+          "F#4",
+          "A4",
+          "C5"
+        ]
+      ],
+      "note": "bốn thể đảo, cắt từ chuỗi nốt bài giảng đàn ra; không thêm nốt nào"
+    },
     "chord_symbol": "F#mi7b5",
     "notes": [
       "F#3",

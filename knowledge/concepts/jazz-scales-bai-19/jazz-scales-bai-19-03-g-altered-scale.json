@@ -1,0 +1,71 @@
+{
+  "id": "jazz-scales-bai-19-03-g-altered-scale",
+  "type": "concept",
+  "name": "Thang âm Altered Scale còn có tên gọi khác là Diminished Whole-Tone Scale vì nửa đầu cấu trúc th",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-19",
+    "locator": "01:22-01:37",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7alt",
+    "Chọn gam / scale khi gặp hợp âm 7alt trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7alt"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "G altered scale",
+      "root": "G",
+      "note_names": [
+        "G",
+        "Ab",
+        "Bb",
+        "B",
+        "C#",
+        "Eb",
+        "F"
+      ],
+      "semitones_from_root": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [
+        "7alt"
+      ],
+      "use_when": [
+        "hợp âm G7alt"
+      ]
+    },
+    "chord_symbol": "G7alt",
+    "notes": [
+      "G",
+      "Ab",
+      "Bb",
+      "B",
+      "C#",
+      "Eb",
+      "F"
+    ],
+    "source_text": "Thang âm Altered Scale còn có tên gọi khác là Diminished Whole-Tone Scale vì nửa đầu cấu trúc thang âm giống Diminished scale (nửa cung - nguyên cung) và nửa sau gồm một chuỗi các bước nguyên cung (Whole Tone)."
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Bài 19 của nguồn Jazz Scales (YouTube), mốc 01:22-01:37. Thang âm Altered Scale còn có tên gọi khác là Diminished Whole-Tone Scale vì nửa đầu cấu trúc thang âm giống Diminished scale (nửa cung - nguyên cung) và nửa sau gồm một chuỗi các bước nguyên cung (Whole Tone). Item còn draft: chưa ai xem lại video để đối chiếu."
+}
