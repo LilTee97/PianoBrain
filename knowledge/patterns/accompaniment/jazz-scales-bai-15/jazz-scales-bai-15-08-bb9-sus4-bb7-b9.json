@@ -1,0 +1,49 @@
+{
+  "id": "jazz-scales-bai-15-08-bb9-sus4-bb7-b9",
+  "type": "exercise",
+  "name": "In 'I Fall In Love Too Easily' (Eb major), bar 2 contains Bb7 resolving to Ebmaj7.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-15",
+    "locator": "05:09-05:59",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Fm7",
+    "Ngẫu hứng jazz trên hợp âm Bb9(sus4)",
+    "Ngẫu hứng jazz trên hợp âm Bb7(b9)",
+    "Ngẫu hứng jazz trên hợp âm Ebmaj7",
+    "Ngẫu hứng jazz trên hợp âm Abmaj7",
+    "Chọn gam / scale khi gặp hợp âm m7, 9(sus4), 7(b9), maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "9(sus4)",
+      "7(b9)",
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Bb9(sus4) -> Bb7(b9)",
+    "notes": [
+      "Bb",
+      "Ab",
+      "C",
+      "Eb",
+      "B",
+      "D"
+    ],
+    "source_text": "In 'I Fall In Love Too Easily' (Eb major), bar 2 contains Bb7 resolving to Ebmaj7. Reharmonize by inserting Bb9(sus4) on beat 1-2, resolving to Bb7(b9) on beat 3-4, then resolving to Ebmaj7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 15 của nguồn Jazz Scales (YouTube), mốc 05:09-05:59. In 'I Fall In Love Too Easily' (Eb major), bar 2 contains Bb7 resolving to Ebmaj7. Reharmonize by inserting Bb9(sus4) on beat 1-2, resolving to Bb7(b9) on beat 3-4, then resolving to Ebmaj7. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

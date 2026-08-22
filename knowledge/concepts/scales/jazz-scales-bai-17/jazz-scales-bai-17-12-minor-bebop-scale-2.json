@@ -1,12 +1,12 @@
 {
-  "id": "jazz-scales-bai-16-07-c-dorian-bebop-scale",
+  "id": "jazz-scales-bai-17-12-minor-bebop-scale-2",
   "type": "scale",
-  "name": "Gam C Dorian Bebop Scale cho hợp âm Cm7",
+  "name": "Gam Minor Bebop Scale #2 cho hợp âm Cm7",
   "difficulty": 3,
   "source": {
     "teacher_id": "jazz-scales",
-    "source_id": "jazz-scales-bai-16",
-    "locator": "05:12-06:52",
+    "source_id": "jazz-scales-bai-17",
+    "locator": "13:35-14:05",
     "supporting": []
   },
   "use_when": [
@@ -26,8 +26,8 @@
   },
   "output": {
     "scale": {
-      "name": "C Dorian Bebop Scale",
-      "root": "C",
+      "name": "Minor Bebop Scale #2",
+      "root": "C4",
       "note_names": [
         "C4",
         "D4",
@@ -56,6 +56,7 @@
         "hợp âm Cm7"
       ]
     },
+    "chord_symbol": "Cm7",
     "notes": [
       "C4",
       "D4",
@@ -67,9 +68,9 @@
       "Bb4",
       "C5"
     ],
-    "source_text": "C Dorian Bebop Scale is built on C Dorian mode (Bb major scale starting on C: C, D, Eb, F, G, A, Bb) with an added major 3rd (E natural) passing tone: C, D, Eb, E, F, G, A, Bb, C."
+    "source_text": "The Minor Bebop Scale #2 formula: Dorian Scale + Major 3rd (♮3) passing tone. In C: C, D, Eb, E♮, F, G, A, Bb, C. (Scale #1 is generally preferred)."
   },
   "origin": "extracted",
   "status": "draft",
-  "note_vi": "Bài 16 của nguồn Jazz Scales (YouTube), mốc 05:12-06:52. C Dorian Bebop Scale is built on C Dorian mode (Bb major scale starting on C: C, D, Eb, F, G, A, Bb) with an added major 3rd (E natural) passing tone: C, D, Eb, E, F, G, A, Bb, C. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+  "note_vi": "Bài 17 của nguồn Jazz Scales (YouTube), mốc 13:35-14:05. The Minor Bebop Scale #2 formula: Dorian Scale + Major 3rd (♮3) passing tone. In C: C, D, Eb, E♮, F, G, A, Bb, C. (Scale #1 is generally preferred). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
 }

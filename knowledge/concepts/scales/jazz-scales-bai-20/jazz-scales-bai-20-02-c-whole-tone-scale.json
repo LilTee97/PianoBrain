@@ -21,6 +21,29 @@
     ]
   },
   "output": {
+    "scale": {
+      "name": "C Whole Tone Scale",
+      "root": "C",
+      "note_names": [
+        "C4",
+        "D4",
+        "E4",
+        "F#4",
+        "G#4",
+        "A#4",
+        "C5"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [],
+      "use_when": []
+    },
     "chord_symbol": "C(aug)",
     "notes": [
       "C4",

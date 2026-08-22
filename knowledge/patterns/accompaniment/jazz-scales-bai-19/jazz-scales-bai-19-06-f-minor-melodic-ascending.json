@@ -1,0 +1,48 @@
+{
+  "id": "jazz-scales-bai-19-06-f-minor-melodic-ascending",
+  "type": "accompaniment",
+  "name": "Dịch chuyển bài tập qua Vòng tròn bậc 5 (Circle of Fifths):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-19",
+    "locator": "03:13-03:47",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Fm6",
+    "Ngẫu hứng jazz trên hợp âm C7alt",
+    "Chọn gam / scale khi gặp hợp âm m6, 7alt trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m6",
+      "7alt"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Fm6 -> C7alt",
+    "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "E",
+      "Db",
+      "Eb",
+      "F#"
+    ],
+    "source_text": "Dịch chuyển bài tập qua Vòng tròn bậc 5 (Circle of Fifths): Từ C minor dịch sang F minor (Fm6 dùng F minor melodic ascending, C7alt dùng C altered scale dựa trên Db minor melodic ascending)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 19 của nguồn Jazz Scales (YouTube), mốc 03:13-03:47. Dịch chuyển bài tập qua Vòng tròn bậc 5 (Circle of Fifths): Từ C minor dịch sang F minor (Fm6 dùng F minor melodic ascending, C7alt dùng C altered scale dựa trên Db minor melodic ascending). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

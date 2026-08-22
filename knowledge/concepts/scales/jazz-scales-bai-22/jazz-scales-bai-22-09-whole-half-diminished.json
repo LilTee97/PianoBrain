@@ -28,6 +28,40 @@
     ]
   },
   "output": {
+    "scale": {
+      "name": "Whole-Half Diminished",
+      "root": "C4",
+      "note_names": [
+        "C4",
+        "D4",
+        "Eb4",
+        "F4",
+        "F#4",
+        "G#4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "dim7"
+      ],
+      "use_when": [
+        "hợp âm Cdim7",
+        "hợp âm Ebdim7",
+        "hợp âm F#dim7",
+        "hợp âm Adim7"
+      ]
+    },
     "chord_symbol": "Cdim7",
     "notes": [
       "C4",

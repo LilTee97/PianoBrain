@@ -1,0 +1,67 @@
+{
+  "id": "jazz-scales-bai-17-13-minor-bebop-scale",
+  "type": "fingering",
+  "name": "Minor Bebop Scale #1 Right Hand Fingering in C:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-17",
+    "locator": "14:06-14:14",
+    "supporting": []
+  },
+  "use_when": [
+    "Tìm số ngón, thế ngón tay phải để chạy Minor Bebop Scale",
+    "Hỏi Minor Bebop Scale bấm thế nào, đặt ngón ra sao"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "fingering": {
+      "hand": "RH",
+      "notes": [
+        "C4",
+        "D4",
+        "Eb4",
+        "F4",
+        "G4",
+        "A4",
+        "Bb4",
+        "B4",
+        "C5"
+      ],
+      "fingers": [
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1
+      ],
+      "scale": "Minor Bebop Scale"
+    },
+    "notes": [
+      "C4",
+      "D4",
+      "Eb4",
+      "F4",
+      "G4",
+      "A4",
+      "Bb4",
+      "B4",
+      "C5"
+    ],
+    "source_text": "Minor Bebop Scale #1 Right Hand Fingering in C: 1-2-3-4-1-2-3-4-1 (1 on C, 2 on D, 3 on Eb, 4 on F, cross thumb under to 1 on G, 2 on A, 3 on Bb, 4 on B, 1 on C)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 17 của nguồn Jazz Scales (YouTube), mốc 14:06-14:14. Minor Bebop Scale #1 Right Hand Fingering in C: 1-2-3-4-1-2-3-4-1 (1 on C, 2 on D, 3 on Eb, 4 on F, cross thumb under to 1 on G, 2 on A, 3 on Bb, 4 on B, 1 on C). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

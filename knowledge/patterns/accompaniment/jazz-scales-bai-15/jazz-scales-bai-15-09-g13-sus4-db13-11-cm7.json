@@ -1,0 +1,54 @@
+{
+  "id": "jazz-scales-bai-15-09-g13-sus4-db13-11-cm7",
+  "type": "exercise",
+  "name": "In a minor ii-V-I (Dm7b5 -> G7 -> Cm7), replace G7 with G13(sus4) then resolve either to G7(b9) ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-15",
+    "locator": "06:00-07:07",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Dm7(b5)",
+    "Ngẫu hứng jazz trên hợp âm G13(sus4)",
+    "Ngẫu hứng jazz trên hợp âm G7(b9)",
+    "Ngẫu hứng jazz trên hợp âm Db13(#11)",
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Chọn gam / scale khi gặp hợp âm m7(b5), 13(sus4), 7(b9), 13(#11), m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7(b5)",
+      "13(sus4)",
+      "7(b9)",
+      "13(#11)",
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G13(sus4) -> Db13(#11) -> Cm7",
+    "notes": [
+      "G",
+      "F",
+      "A",
+      "C",
+      "E",
+      "Db",
+      "F",
+      "B",
+      "Eb",
+      "G"
+    ],
+    "source_text": "In a minor ii-V-I (Dm7b5 -> G7 -> Cm7), replace G7 with G13(sus4) then resolve either to G7(b9) or to tritone substitution Db13(#11) before resolving to Cm7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 15 của nguồn Jazz Scales (YouTube), mốc 06:00-07:07. In a minor ii-V-I (Dm7b5 -> G7 -> Cm7), replace G7 with G13(sus4) then resolve either to G7(b9) or to tritone substitution Db13(#11) before resolving to Cm7. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

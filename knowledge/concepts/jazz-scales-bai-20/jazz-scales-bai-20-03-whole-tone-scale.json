@@ -21,6 +21,28 @@
     ]
   },
   "output": {
+    "scale": {
+      "name": "Whole Tone Scale",
+      "root": "C4",
+      "note_names": [
+        "C4",
+        "E4",
+        "G#4",
+        "A#4",
+        "D5",
+        "F#5"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [],
+      "use_when": []
+    },
     "chord_symbol": "C7#5",
     "notes": [
       "C4",

@@ -1,0 +1,38 @@
+{
+  "id": "jazz-scales-bai-11-04-whole-tone-scale",
+  "type": "exercise",
+  "name": "Ear training challenge:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-11",
+    "locator": "02:28-02:58",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "notes": [
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A#",
+      "C"
+    ],
+    "source_text": "Ear training challenge: Practice singing the Whole Tone Scale ascending and descending. Because there are no semitone anchor points or traditional leading tones, human ears tend to inadvertently collapse intervals into major scale semitones."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 11 của nguồn Jazz Scales (YouTube), mốc 02:28-02:58. Ear training challenge: Practice singing the Whole Tone Scale ascending and descending. Because there are no semitone anchor points or traditional leading tones, human ears tend to inadvertently collapse intervals into major scale semitones. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

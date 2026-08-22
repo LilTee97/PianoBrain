@@ -1,12 +1,12 @@
 {
-  "id": "jazz-scales-bai-16-04-c-dominant-bebop-scale",
+  "id": "jazz-scales-bai-17-06-dominant-bebop-scale",
   "type": "scale",
-  "name": "Gam C Dominant Bebop Scale cho hợp âm C7",
+  "name": "Gam Dominant Bebop Scale cho hợp âm C7",
   "difficulty": 3,
   "source": {
     "teacher_id": "jazz-scales",
-    "source_id": "jazz-scales-bai-16",
-    "locator": "02:30-03:10",
+    "source_id": "jazz-scales-bai-17",
+    "locator": "07:10-08:21",
     "supporting": []
   },
   "use_when": [
@@ -26,8 +26,8 @@
   },
   "output": {
     "scale": {
-      "name": "C Dominant Bebop Scale",
-      "root": "C",
+      "name": null,
+      "root": "C4",
       "note_names": [
         "C4",
         "D4",
@@ -68,9 +68,9 @@
       "B4",
       "C5"
     ],
-    "source_text": "C Dominant Bebop Scale is derived from the C Mixolydian scale (C major with flat 7th Bb) by adding a major 7th (B natural) passing tone: C, D, E, F, G, A, Bb, B, C."
+    "source_text": "The Dominant Bebop Scale formula: Mixolydian Scale + Natural 7 (♮7) passing tone. In C: C, D, E, F, G, A, Bb, B♮, C. The B♮ acts as a chromatic passing note between Bb (b7) and C (1)."
   },
   "origin": "extracted",
   "status": "draft",
-  "note_vi": "Bài 16 của nguồn Jazz Scales (YouTube), mốc 02:30-03:10. C Dominant Bebop Scale is derived from the C Mixolydian scale (C major with flat 7th Bb) by adding a major 7th (B natural) passing tone: C, D, E, F, G, A, Bb, B, C. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+  "note_vi": "Bài 17 của nguồn Jazz Scales (YouTube), mốc 07:10-08:21. The Dominant Bebop Scale formula: Mixolydian Scale + Natural 7 (♮7) passing tone. In C: C, D, E, F, G, A, Bb, B♮, C. The B♮ acts as a chromatic passing note between Bb (b7) and C (1). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
 }

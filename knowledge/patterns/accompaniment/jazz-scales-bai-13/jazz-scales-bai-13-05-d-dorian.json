@@ -1,0 +1,49 @@
+{
+  "id": "jazz-scales-bai-13-05-d-dorian",
+  "type": "exercise",
+  "name": "Application of Whole Tone Scale over major ii-V-I progression (Dm7 - G7 - Cmaj7):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-13",
+    "locator": "05:39-06:18",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm Cmaj7",
+    "Chọn gam / scale khi gặp hợp âm m7, 7, maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "7",
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G7",
+    "notes": [
+      "G",
+      "B",
+      "C#",
+      "A",
+      "B",
+      "G",
+      "F",
+      "D#",
+      "E"
+    ],
+    "source_text": "Application of Whole Tone Scale over major ii-V-I progression (Dm7 - G7 - Cmaj7): Option 1 plays inside diatonic lines over ii (Dm7), whole tone lines over V (G7), and resolves cleanly to I (Cmaj7). Option 2 superimposes the whole tone sound over both the ii and V chords before resolving to I."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 13 của nguồn Jazz Scales (YouTube), mốc 05:39-06:18. Application of Whole Tone Scale over major ii-V-I progression (Dm7 - G7 - Cmaj7): Option 1 plays inside diatonic lines over ii (Dm7), whole tone lines over V (G7), and resolves cleanly to I (Cmaj7). Option 2 superimposes the whole tone sound over both the ii and V chords before resolving to I. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "jazz-scales-bai-01-07-ab-lydian",
+  "type": "exercise",
+  "name": "Applying the technique to Ab maj 7 in 'Misty' produces the Ab Lydian scale (Ab, Bb, C, D, Eb, F,",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-01",
+    "locator": "07:11-07:41",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Abmaj7",
+    "Chọn gam / scale khi gặp hợp âm maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Abmaj7",
+    "notes": [
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G"
+    ],
+    "source_text": "Applying the technique to Ab maj 7 in 'Misty' produces the Ab Lydian scale (Ab, Bb, C, D, Eb, F, G)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 1 của nguồn Jazz Scales (YouTube), mốc 07:11-07:41. Applying the technique to Ab maj 7 in 'Misty' produces the Ab Lydian scale (Ab, Bb, C, D, Eb, F, G). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

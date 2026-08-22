@@ -1,0 +1,50 @@
+{
+  "id": "jazz-scales-bai-19-01-c-minor-melodic-ascending",
+  "type": "exercise",
+  "name": "Trình diễn bài tập Altered scale exercise trên chuỗi hợp âm Cm7 - G7 altered - Cm6.9 kết hợp các",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-19",
+    "locator": "00:00-00:16",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm Cm6.9",
+    "Chọn gam / scale khi gặp hợp âm m7, 7, m6.9 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "7",
+      "m6.9"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cm7 / G7alt",
+    "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "B",
+      "Ab",
+      "Bb",
+      "Db"
+    ],
+    "source_text": "Trình diễn bài tập Altered scale exercise trên chuỗi hợp âm Cm7 - G7 altered - Cm6.9 kết hợp các thang âm Melodic Minor và Altered Scale."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 19 của nguồn Jazz Scales (YouTube), mốc 00:00-00:16. Trình diễn bài tập Altered scale exercise trên chuỗi hợp âm Cm7 - G7 altered - Cm6.9 kết hợp các thang âm Melodic Minor và Altered Scale. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

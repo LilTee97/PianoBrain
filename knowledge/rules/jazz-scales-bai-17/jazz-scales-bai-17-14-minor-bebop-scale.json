@@ -1,0 +1,44 @@
+{
+  "id": "jazz-scales-bai-17-14-minor-bebop-scale",
+  "type": "rule",
+  "name": "The Minor Bebop Scale works over minor-functioning chords:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-17",
+    "locator": "14:15-14:35",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm",
+    "Ngẫu hứng jazz trên hợp âm Cm6",
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Ngẫu hứng jazz trên hợp âm Cm9",
+    "Ngẫu hứng jazz trên hợp âm Cm11",
+    "Ngẫu hứng jazz trên hợp âm Cm6/9",
+    "Chọn gam / scale khi gặp hợp âm m, m6, m7, m9, m11, m6/9 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m",
+      "m6",
+      "m7",
+      "m9",
+      "m11",
+      "m6/9"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cm7",
+    "source_text": "The Minor Bebop Scale works over minor-functioning chords: Cm, Cm6, Cm7, Cm9, Cm11, Cm6/9."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 17 của nguồn Jazz Scales (YouTube), mốc 14:15-14:35. The Minor Bebop Scale works over minor-functioning chords: Cm, Cm6, Cm7, Cm9, Cm11, Cm6/9. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

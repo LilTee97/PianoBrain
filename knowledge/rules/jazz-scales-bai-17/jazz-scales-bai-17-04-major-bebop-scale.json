@@ -1,7 +1,7 @@
 {
   "id": "jazz-scales-bai-17-04-major-bebop-scale",
   "type": "rule",
-  "name": "The Major Bebop Scale can be played over any chord functioning as a Major chord:",
+  "name": "The Major Bebop Scale can be used over any major-functioning chord:",
   "difficulty": 3,
   "source": {
     "teacher_id": "jazz-scales",
@@ -33,17 +33,10 @@
     ]
   },
   "output": {
-    "chord_symbol": "C6/9",
-    "notes": [
-      "C",
-      "E",
-      "G",
-      "A",
-      "D"
-    ],
-    "source_text": "The Major Bebop Scale can be played over any chord functioning as a Major chord: Major Triad, Major 6th (C6), Major 7th (Cmaj7), Major 9th (Cmaj9), or Major 6/9 (C6/9)."
+    "chord_symbol": "Cmaj7",
+    "source_text": "The Major Bebop Scale can be used over any major-functioning chord: C, C6, Cmaj7, Cmaj9, C6/9."
   },
   "origin": "extracted",
   "status": "draft",
-  "note_vi": "Bài 17 của nguồn Jazz Scales (YouTube), mốc 04:58-05:17. The Major Bebop Scale can be played over any chord functioning as a Major chord: Major Triad, Major 6th (C6), Major 7th (Cmaj7), Major 9th (Cmaj9), or Major 6/9 (C6/9). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+  "note_vi": "Bài 17 của nguồn Jazz Scales (YouTube), mốc 04:58-05:17. The Major Bebop Scale can be used over any major-functioning chord: C, C6, Cmaj7, Cmaj9, C6/9. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
 }

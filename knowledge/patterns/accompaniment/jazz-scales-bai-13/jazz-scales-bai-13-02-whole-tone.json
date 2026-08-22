@@ -1,0 +1,40 @@
+{
+  "id": "jazz-scales-bai-13-02-whole-tone",
+  "type": "accompaniment",
+  "name": "Ascending Whole Tone 4-note cell pattern based on skips and steps:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-13",
+    "locator": "02:45-04:07",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "notes": [
+      "G",
+      "B",
+      "C#",
+      "A",
+      "B",
+      "D#",
+      "F",
+      "C#",
+      "D#"
+    ],
+    "source_text": "Ascending Whole Tone 4-note cell pattern based on skips and steps: Skip Up (Major 3rd), Step Up (Whole Step), Skip Down (Major 3rd). Sequenced through each scale degree of the whole tone scale (e.g., G-B-C#-A-B). Descending pattern reverses the motion: Skip Down, Step Down, Skip Up (e.g., F-D#-C#-F)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 13 của nguồn Jazz Scales (YouTube), mốc 02:45-04:07. Ascending Whole Tone 4-note cell pattern based on skips and steps: Skip Up (Major 3rd), Step Up (Whole Step), Skip Down (Major 3rd). Sequenced through each scale degree of the whole tone scale (e.g., G-B-C#-A-B). Descending pattern reverses the motion: Skip Down, Step Down, Skip Up (e.g., F-D#-C#-F). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

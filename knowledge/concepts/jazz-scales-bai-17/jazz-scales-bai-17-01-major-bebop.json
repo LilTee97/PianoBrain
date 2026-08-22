@@ -1,0 +1,68 @@
+{
+  "id": "jazz-scales-bai-17-01-major-bebop",
+  "type": "concept",
+  "name": "A Bebop scale is created by taking a normal 7-note scale and adding 1 chromatic passing note to ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-17",
+    "locator": "01:58-03:03",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": null,
+      "root": "C4",
+      "note_names": [
+        "C4",
+        "B3",
+        "A3",
+        "Ab3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "for_qualities": [],
+      "use_when": []
+    },
+    "chord_symbol": "C6",
+    "notes": [
+      "C4",
+      "B3",
+      "A3",
+      "Ab3",
+      "G3",
+      "F3",
+      "E3",
+      "D3",
+      "C3"
+    ],
+    "source_text": "A Bebop scale is created by taking a normal 7-note scale and adding 1 chromatic passing note to make it an 8-note scale. This ensures that when playing descending 8th notes, chord tones land consistently on the downbeats."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 17 của nguồn Jazz Scales (YouTube), mốc 01:58-03:03. A Bebop scale is created by taking a normal 7-note scale and adding 1 chromatic passing note to make it an 8-note scale. This ensures that when playing descending 8th notes, chord tones land consistently on the downbeats. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

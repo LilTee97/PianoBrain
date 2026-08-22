@@ -27,6 +27,32 @@
     ]
   },
   "output": {
+    "scale": {
+      "name": "F Aeolian",
+      "root": "F",
+      "note_names": [
+        "F2",
+        "C3",
+        "Eb3",
+        "Ab3",
+        "Bb3",
+        "C4"
+      ],
+      "semitones_from_root": [
+        0,
+        3,
+        5,
+        7,
+        10
+      ],
+      "for_qualities": [
+        "m7(11)"
+      ],
+      "use_when": [
+        "hợp âm F min7(11)",
+        "hợp âm Ab Maj(add2)/C"
+      ]
+    },
     "chord_symbol": "F min7(11)",
     "notes": [
       "F2",

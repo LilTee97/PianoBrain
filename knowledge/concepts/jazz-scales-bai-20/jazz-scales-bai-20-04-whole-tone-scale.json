@@ -25,6 +25,30 @@
     ]
   },
   "output": {
+    "scale": {
+      "name": "Whole Tone Scale",
+      "root": "C4",
+      "note_names": [
+        "C4",
+        "F#4",
+        "D4",
+        "G#4",
+        "E4",
+        "A#4"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [],
+      "use_when": [
+        "hợp âm Augmented Triad"
+      ]
+    },
     "chord_symbol": "C-F# / D-G# / E-A#",
     "notes": [
       "C4",
