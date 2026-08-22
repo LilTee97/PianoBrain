@@ -59,9 +59,24 @@ const mmss = (t?: string): string | null => {
   return t;
 };
 
-/** Nốt của gam ghi trần (C, Eb) chứ không kèm quãng tám (C4) — dấu hiệu đây là gam, không phải thế bấm. */
+/**
+ * Bỏ số quãng tám khỏi tên nốt: "C4" -> "C", "Bb3" -> "Bb".
+ *
+ * Bản trích xuất đời đầu ghi nốt gam trần ("C D E") và nốt thế bấm kèm quãng
+ * tám ("C4 E4 G4"), nên chính cách viết đã phân biệt hộ hai thứ. Bản trích xuất
+ * sau ghi quãng tám cho mọi dòng — đúng hơn, vì "C" một mình không nói được
+ * thầy đàn quãng nào — nhưng nó xoá mất dấu hiệu ấy. Bài 16 và bài 17 trích
+ * xuất lại xong ra **0 gam** vì lý do này chứ không phải vì nội dung sai.
+ *
+ * Việc phân biệt gam với thế bấm nay dồn hết cho `looksLikeScale`, chỗ vốn đã
+ * làm việc ấy bằng nhạc lý: phải có tên gam, đúng loại dòng, 5–9 bậc, không
+ * bước nào quá một quãng ba thứ, không lặp bậc ở giữa.
+ */
+const bare = (note: string) => note.replace(/-?\d+$/, "");
+
+/** Danh sách này có phải toàn tên nốt đọc được không. */
 const isScaleSpelling = (notes: string[]) =>
-  notes.length >= 6 && notes.every((n) => PITCH[n] !== undefined);
+  notes.length >= 6 && notes.every((n) => PITCH[bare(n)] !== undefined);
 
 /** Bỏ nốt gốc khỏi ký hiệu hợp âm: "Cmaj7" -> "maj7", "Cmin7" -> "m7". */
 function quality(symbol: string): string | null {
@@ -110,7 +125,19 @@ function typeOf(row: Row): ItemType {
   if (row.type === "voicing") return "voicing";
   // Bài tập / khuôn: người dùng chốt "scale khi có nốt gam, arpeggio khi là arp".
   if (/arpeggi|rải|thể đảo|inversion/i.test(row.raw_text)) return "arpeggio";
-  if (isScaleSpelling(row.observed_example?.notes ?? [])) return "scale";
+  /*
+    Dòng còn lại là gam chỉ khi nó **dựng được** một gam.
+
+    Trước đây chỗ này hỏi "có phải toàn tên nốt ghi trần không" — dùng chính tả
+    làm bằng chứng. Khi tên nốt bắt đầu kèm quãng tám thì câu hỏi ấy mất nghĩa,
+    và mọi danh sách sáu nốt trở lên đều thành "gam": một câu lick ii-V của bài
+    7, một bài tập đảo chiều của bài 5, một thế bấm rải của bài 22.
+
+    Nên hỏi thẳng câu đáng hỏi: `scaleOutput` có dựng ra gam từ dòng này không.
+    Nó đã kiểm bằng nhạc lý — có tên gam, đúng loại dòng, 5–9 bậc, không bước
+    nào quá quãng ba thứ, không lặp bậc giữa chừng.
+  */
+  if (scaleOutput(row)) return "scale";
   return row.type === "exercise" ? "exercise" : "accompaniment";
 }
 
@@ -153,7 +180,7 @@ function looksLikeScale(row: Row, semitones: number[], notes: readonly string[])
   // Lặp lớp cao độ ở giữa danh sách: đây không phải một gam chạy liền.
   const seen = new Set<number>();
   for (const [at, name] of notes.entries()) {
-    const pc = ((PITCH[name] % 12) + 12) % 12;
+    const pc = ((PITCH[bare(name)] % 12) + 12) % 12;
     if (seen.has(pc) && at < notes.length - 1) return false;
     seen.add(pc);
   }
@@ -186,7 +213,7 @@ function scaleOutput(row: Row): Record<string, unknown> | null {
     khác — đúng nốt, sai gốc, và mọi phép dịch giọng sau đó đều lệch.
   */
   const rootName = rootOfScaleName(name ?? undefined) ?? notes[0];
-  const root = PITCH[rootName];
+  const root = PITCH[bare(rootName)];
 
   /*
     Chất hợp âm mà gam này thật sự chơi ĐƯỢC: chỉ những hợp âm dựng trên chính
@@ -201,7 +228,7 @@ function scaleOutput(row: Row): Record<string, unknown> | null {
       (row.music_entities?.chords ?? [])
         .filter((c) => {
           const r = rootOfChord(c);
-          return r !== null && PITCH[r] === root;
+          return r !== null && PITCH[bare(r)] === root;
         })
         .map(quality)
         .filter((q): q is string => q !== null),
@@ -209,7 +236,7 @@ function scaleOutput(row: Row): Record<string, unknown> | null {
   ];
 
   const semitones = [
-    ...new Set(notes.map((n) => (((PITCH[n] - root) % 12) + 12) % 12)),
+    ...new Set(notes.map((n) => (((PITCH[bare(n)] - root) % 12) + 12) % 12)),
   ].sort((a, b) => a - b);
 
   /*
@@ -497,6 +524,25 @@ function realVideo(root: string, folder: string): string | null {
   return fs.readdirSync(dir).find((name) => name.toLowerCase().endsWith(".mp4")) ?? null;
 }
 
+/**
+ * Dấu nhận dạng một item: mốc trong video cộng nội dung nhạc của nó.
+ *
+ * Lượt rà bám theo id, mà id là `<bài>-<số thứ tự>-<tên gam>`. Số thứ tự đổi mỗi
+ * lần bài giảng được trích xuất lại, nên id cũ có thể rơi trúng một item hoàn
+ * toàn khác. Chuyện này đã xảy ra thật: bài 17 trích xuất lại, và
+ * `jazz-scales-bai-17-07-dominant-bebop-scale` — vốn là một dòng chép sai bị
+ * người rà bác — quay lại thành **item thế ngón ở mốc 08:22**, mang theo cờ
+ * `rejected` của một item không liên quan.
+ *
+ * Nên trạng thái chỉ được giữ khi dấu này còn khớp. Khác dấu nghĩa là nội dung
+ * đã đổi, tức chưa ai rà thứ đang cầm trên tay — và `draft` mới là sự thật.
+ */
+const dauNhanDang = (item: KnowledgeItem): string => {
+  const out = item.output as { scale?: { note_names?: string[] }; notes?: string[] };
+  const notes = out.scale?.note_names ?? out.notes ?? [];
+  return [item.type, item.source?.locator ?? "", notes.join(" ")].join("|");
+};
+
 function main(): void {
   const from = process.argv.slice(2).find((a) => !a.startsWith("-")) ?? process.env.PIANOBRAIN_JAZZ_SCALES;
   if (!from) {
@@ -598,7 +644,7 @@ function main(): void {
     Nốt và mốc vẫn lấy từ kho master như thường; chỉ `status` và dấu vết người rà
     trong `note_vi` là giữ nguyên.
   */
-  const reviewed = new Map<string, { status: KnowledgeItem["status"]; mark: string | null }>();
+  const reviewed = new Map<string, { status: KnowledgeItem["status"]; mark: string | null; dau?: string }>();
 
   /*
     Sổ rà nằm ngoài item, và được commit.
@@ -613,7 +659,7 @@ function main(): void {
   const ledgerFile = path.join(repo, "ingest", "jazz-scales-review.json");
   if (fs.existsSync(ledgerFile)) {
     const doc = JSON.parse(fs.readFileSync(ledgerFile, "utf8")) as {
-      reviewed: Record<string, { status: KnowledgeItem["status"]; mark: string | null }>;
+      reviewed: Record<string, { status: KnowledgeItem["status"]; mark: string | null; dau?: string }>;
     };
     for (const [id, entry] of Object.entries(doc.reviewed ?? {})) reviewed.set(id, entry);
   }
@@ -630,19 +676,28 @@ function main(): void {
         reviewed.set(old.id, {
           status: old.status,
           mark: /\[RÀ TAY:[^\]]*\]/.exec(old.note_vi)?.[0] ?? null,
+          dau: dauNhanDang(old),
         });
       }
     }
   }
 
+  let giu = 0;
+  const doiND: string[] = [];
   for (const b of built) {
     const kept = reviewed.get(b.item.id);
     if (!kept) continue;
+    if (kept.dau && kept.dau !== dauNhanDang(b.item)) {
+      doiND.push(b.item.id);
+      continue;
+    }
     b.item.status = kept.status;
     if (kept.mark) b.item.note_vi = `${b.item.note_vi} ${kept.mark}`;
+    giu += 1;
   }
-  if (reviewed.size > 0) {
-    console.log(`giữ nguyên ${reviewed.size} item đã có người rà`);
+  if (giu > 0) console.log(`giữ nguyên ${giu} item đã có người rà`);
+  for (const id of doiND) {
+    console.log(`  ${id}: nội dung đã đổi so với lúc rà — trả về draft`);
   }
 
   /*
@@ -680,12 +735,13 @@ function main(): void {
   }
 
   // Ghi lại sổ rà từ chính kho vừa ghi, để lượt rà mới cũng vào git.
-  const ledger: Record<string, { status: KnowledgeItem["status"]; mark: string | null }> = {};
+  const ledger: Record<string, { status: KnowledgeItem["status"]; mark: string | null; dau: string }> = {};
   for (const b of built) {
     if (b.item.status === "draft") continue;
     ledger[b.item.id] = {
       status: b.item.status,
       mark: /\[RÀ TAY:[^\]]*\]/.exec(b.item.note_vi)?.[0] ?? null,
+      dau: dauNhanDang(b.item),
     };
   }
   fs.mkdirSync(path.dirname(ledgerFile), { recursive: true });
