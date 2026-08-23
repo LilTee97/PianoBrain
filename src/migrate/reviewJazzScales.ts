@@ -357,19 +357,61 @@ function nghiNgo(scale: Scale): string | null {
   return null;
 }
 
+/**
+ * Thứ tự rà: theo **chỗ trống bài ấy lấp**, không theo số bài.
+ *
+ * Xếp theo số item thì bài nào nhiều dòng nhất lên đầu — hợp lý khi rà cả kho từ
+ * đầu, vì mỗi lần mở video đổi được nhiều lượt nhất. Nhưng khi kho đã rà gần hết
+ * và chỉ còn mấy bài mới, thứ đáng lên đầu là bài **lấp được chỗ đang câm**.
+ *
+ * Rà một bài cho `m6` là một chất hợp âm hết câm. Rà một bài dạy lại gam kho đã
+ * có thì chỉ thêm một phiếu bầu cho thứ vốn đã đứng vững.
+ */
+const UU_TIEN: [RegExp, string][] = [
+  [/-bai-(30|32)-/, "m6 — kho trống hẳn chất này, và hai bài này gắn thẳng for_qualities m6"],
+  [/-bai-(28|29)-/, "dim — gam giảm; coi chừng item chỉ nói về dim7, chất ấy đã có gam"],
+  [/(ku-teo|lop-nhac)/, "add9 / madd9 — hai kênh Việt; cái kho trống là bản THỨ, madd9"],
+  [/-bai-(24|25)-/, "sus4 — coi chừng 7sus: chất ấy đã có gam, cái trống là sus4 TRƠN"],
+  [/-bai-31-/, "chung — không thuộc bốn chất trống, để cuối"],
+];
+
+/** Bài này lấp chỗ nào; null nghĩa là bài cũ, đã rà xong từ đợt trước. */
+const chotrong = (id: string): string | null =>
+  UU_TIEN.find(([pattern]) => pattern.test(id))?.[1] ?? null;
+
+/** Thứ hạng để xếp: bài mới lên trước, theo đúng thứ tự UU_TIEN. */
+const hang = (id: string): number => {
+  const at = UU_TIEN.findIndex(([pattern]) => pattern.test(id));
+  return at < 0 ? UU_TIEN.length : at;
+};
+
 function phieu(scope: KnowledgeItem[], master: string, repo: string): void {
   const byLesson = new Map<string, KnowledgeItem[]>();
   for (const item of scope) {
     const key = item.source!.source_id;
     byLesson.set(key, [...(byLesson.get(key) ?? []), item]);
   }
-  // Bài nhiều item trước: một lần mở video đổi được nhiều lượt rà nhất.
-  const lessons = [...byLesson.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+  /*
+    Bài mới lên trước, xếp theo chỗ trống nó lấp. Bài cũ xếp sau, và trong nhóm
+    cũ thì bài nhiều item đứng trước — một lần mở video đổi được nhiều lượt nhất.
+  */
+  const lessons = [...byLesson.entries()].sort((a, b) => {
+    const ha = hang(a[1][0]!.id);
+    const hb = hang(b[1][0]!.id);
+    if (ha !== hb) return ha - hb;
+    return b[1].length - a[1].length || a[0].localeCompare(b[0]);
+  });
 
   const out: string[] = [
     "# Phiếu rà gam jazz",
     "",
-    `${scope.length} item, ${lessons.length} bài. Xếp theo bài nhiều item trước.`,
+    `${scope.length} item, ${lessons.length} bài.`,
+    "",
+    "**Chín bài mới xếp lên đầu**, theo chỗ trống mỗi bài lấp — không theo số bài",
+    "và không theo số item. Rà một bài cho `m6` là một chất hợp âm hết câm; rà một",
+    "bài dạy lại gam kho đã có thì chỉ thêm một phiếu bầu cho thứ vốn đã đứng vững.",
+    "",
+    "Bài cũ xếp sau, và trong nhóm cũ thì bài nhiều item đứng trước.",
     "Cách nhìn từng dòng: xem `ingest/RA-GAM-JAZZ.md`.",
     "",
     "Mỗi dòng ba câu hỏi, theo thứ tự rẻ dần:",
@@ -385,8 +427,13 @@ function phieu(scope: KnowledgeItem[], master: string, repo: string): void {
 
   for (const [sourceId, items] of lessons) {
     const video = videoPath(master, sourceId);
+    const lap = chotrong(items[0]!.id);
     out.push(`## ${sourceId} — ${items.length} item`);
     out.push("");
+    if (lap) {
+      out.push(`> **Lấp chỗ:** ${lap}`);
+      out.push("");
+    }
     out.push(video ? `Video: \`${video}\`` : "**KHÔNG TÌM THẤY FILE VIDEO**");
     out.push("");
     for (const item of items.sort((a, b) => (a.source!.locator ?? "").localeCompare(b.source!.locator ?? ""))) {
