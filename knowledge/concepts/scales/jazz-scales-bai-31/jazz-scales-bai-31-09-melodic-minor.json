@@ -1,0 +1,89 @@
+{
+  "id": "jazz-scales-bai-31-09-melodic-minor",
+  "type": "scale",
+  "name": "Gam Melodic Minor cho hợp âm Cm(maj7)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-31",
+    "locator": "16:24-22:43",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm(maj7)",
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Ngẫu hứng jazz trên hợp âm Ebmaj7#5",
+    "Ngẫu hứng jazz trên hợp âm F7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm Am7b5",
+    "Ngẫu hứng jazz trên hợp âm Bm7b5",
+    "Chọn gam / scale khi gặp hợp âm m(maj7), m7, maj7#5, 7, m7b5 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m(maj7)",
+      "m7",
+      "maj7#5",
+      "7",
+      "m7b5"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": null,
+      "root": "C4",
+      "note_names": [
+        "C4",
+        "D4",
+        "Eb4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "m(maj7)"
+      ],
+      "use_when": [
+        "hợp âm Cm(maj7)",
+        "hợp âm Dm7",
+        "hợp âm Ebmaj7#5",
+        "hợp âm F7",
+        "hợp âm G7",
+        "hợp âm Am7b5",
+        "hợp âm Bm7b5"
+      ]
+    },
+    "chord_symbol": "Cm(maj7)",
+    "notes": [
+      "C4",
+      "D4",
+      "Eb4",
+      "F4",
+      "G4",
+      "A4",
+      "B4",
+      "C5"
+    ],
+    "source_text": "Melodic Minor (Jazz Minor) modes starting on C: 1. Melodic Minor, 2. Dorian b2 (Phrygian #6), 3. Lydian #5 (Lydian Augmented), 4. Lydian b7 (Lydian Dominant/Overtone), 5. Mixolydian b6, 6. Aeolian b5 (Locrian #2), 7. Altered Dominant (Super Locrian)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 31 của nguồn Jazz Scales (YouTube), mốc 16:24-22:43. Melodic Minor (Jazz Minor) modes starting on C: 1. Melodic Minor, 2. Dorian b2 (Phrygian #6), 3. Lydian #5 (Lydian Augmented), 4. Lydian b7 (Lydian Dominant/Overtone), 5. Mixolydian b6, 6. Aeolian b5 (Locrian #2), 7. Altered Dominant (Super Locrian). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

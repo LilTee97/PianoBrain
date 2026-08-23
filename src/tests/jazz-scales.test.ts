@@ -7,10 +7,20 @@ import { generateFill, generateIntro, generateOutro } from "../mrhai/fill.js";
 const kb = loadKnowledgeBase();
 const say = (t: string) => reply(t, kb).join("\n");
 
-const SOURCE_IDS = Array.from({ length: 23 }, (_, i) => `jazz-scales-bai-${String(i + 1).padStart(2, "0")}`);
+/*
+  Ba mươi hai bài, nhưng **hai bài không thuộc nguồn này**.
+
+  Bài 26 và 27 là đệm hát pop Việt, tách sang `ku-teo-piano` và
+  `lop-nhac-sac-mau`. Lý do nằm trong chính bản ghi `jazz-scales`: `avoid_when`
+  của nó loại đệm hát ballad Việt ra, và `input.style` của nó là `jazz`.
+*/
+const KHONG_PHAI_JAZZ_SCALES = new Set([26, 27]);
+const SOURCE_IDS = Array.from({ length: 32 }, (_, i) => i + 1)
+  .filter((n) => !KHONG_PHAI_JAZZ_SCALES.has(n))
+  .map((n) => `jazz-scales-bai-${String(n).padStart(2, "0")}`);
 const items = kb.items.filter((i) => i.source?.teacher_id === "jazz-scales");
 
-describe("nguồn Jazz Scales — 23 bài video", () => {
+describe("nguồn Jazz Scales — 30 bài video", () => {
   it("mọi bài đăng ký riêng, kind video, cùng teacher jazz-scales", () => {
     for (const id of SOURCE_IDS) {
       const src = kb.sources.find((s) => s.source_id === id);

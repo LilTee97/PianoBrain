@@ -1,0 +1,43 @@
+{
+  "id": "lop-nhac-sac-mau-add9-02-am-add9",
+  "type": "concept",
+  "name": "Hợp âm Am(add9) được cấu tạo bởi hợp âm Am và âm 9 (cách nốt A quãng 9 Trưởng).",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "lop-nhac-sac-mau",
+    "source_id": "lop-nhac-sac-mau-add9",
+    "locator": "00:40-00:58",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Am(add9)",
+    "Ngẫu hứng jazz trên hợp âm Am",
+    "Chọn gam / scale khi gặp hợp âm m(add9), m trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "chord_quality": [
+      "m(add9)",
+      "m"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Am(add9)",
+    "notes": [
+      "A",
+      "C",
+      "E",
+      "B"
+    ],
+    "source_text": "Hợp âm Am(add9) được cấu tạo bởi hợp âm Am và âm 9 (cách nốt A quãng 9 Trưởng). Từ nốt A tính lên quãng 9T được nốt B. Nốt B chính là âm 9 của Am(add9). Vậy hợp âm Am(add9) có 4 nốt: A - C - E - B."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 27 của nguồn Jazz Scales (YouTube), mốc 00:40-00:58. Hợp âm Am(add9) được cấu tạo bởi hợp âm Am và âm 9 (cách nốt A quãng 9 Trưởng). Từ nốt A tính lên quãng 9T được nốt B. Nốt B chính là âm 9 của Am(add9). Vậy hợp âm Am(add9) có 4 nốt: A - C - E - B. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

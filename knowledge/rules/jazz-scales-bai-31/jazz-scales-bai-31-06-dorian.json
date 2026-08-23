@@ -1,0 +1,32 @@
+{
+  "id": "jazz-scales-bai-31-06-dorian",
+  "type": "rule",
+  "name": "For beginners learning modes:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-31",
+    "locator": "08:00-10:33",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm m7",
+    "Ngẫu hứng jazz trên hợp âm 7",
+    "Ngẫu hứng jazz trên hợp âm maj7",
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "For beginners learning modes: over any minor 7th chord play Dorian, over any dominant 7th chord play Mixolydian, over any major 7th chord play Ionian."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 31 của nguồn Jazz Scales (YouTube), mốc 08:00-10:33. For beginners learning modes: over any minor 7th chord play Dorian, over any dominant 7th chord play Mixolydian, over any major 7th chord play Ionian. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

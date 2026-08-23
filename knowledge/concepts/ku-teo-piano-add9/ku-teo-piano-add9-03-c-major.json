@@ -1,0 +1,43 @@
+{
+  "id": "ku-teo-piano-add9-03-c-major",
+  "type": "concept",
+  "name": "Ví dụ cấu tạo hợp âm C(add9) trên âm hình Đô trưởng:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "ku-teo-piano",
+    "source_id": "ku-teo-piano-add9",
+    "locator": "00:31-01:09",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cadd9",
+    "Ngẫu hứng jazz trên hợp âm C",
+    "Chọn gam / scale khi gặp hợp âm add9, maj trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "chord_quality": [
+      "add9",
+      "maj"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cadd9",
+    "notes": [
+      "C4",
+      "D4",
+      "E4",
+      "G4"
+    ],
+    "source_text": "Ví dụ cấu tạo hợp âm C(add9) trên âm hình Đô trưởng: Hợp âm Đô trưởng C (C-E-G) cộng thêm quãng 9 Trưởng tính từ nốt C (nốt D5), tạo thành các nốt C, D, E, G."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 26 của nguồn Jazz Scales (YouTube), mốc 00:31-01:09. Ví dụ cấu tạo hợp âm C(add9) trên âm hình Đô trưởng: Hợp âm Đô trưởng C (C-E-G) cộng thêm quãng 9 Trưởng tính từ nốt C (nốt D5), tạo thành các nốt C, D, E, G. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

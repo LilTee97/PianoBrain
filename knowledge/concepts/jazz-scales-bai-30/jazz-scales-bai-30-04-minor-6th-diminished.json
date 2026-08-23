@@ -1,0 +1,48 @@
+{
+  "id": "jazz-scales-bai-30-04-minor-6th-diminished",
+  "type": "concept",
+  "name": "Substitute minor 6th chords with minor 7th chords while preserving the diminished scale alternat",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-30",
+    "locator": "05:07-06:04",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F min7",
+    "Ngẫu hứng jazz trên hợp âm G dim7",
+    "Ngẫu hứng jazz trên hợp âm Ab Maj6",
+    "Ngẫu hứng jazz trên hợp âm Bb dim7",
+    "Ngẫu hứng jazz trên hợp âm Ab Maj6/C",
+    "Chọn gam / scale khi gặp hợp âm m7, dim7, majj6, majj6/C trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "dim7",
+      "majj6",
+      "majj6/C"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F min7",
+    "notes": [
+      "F3",
+      "Ab3",
+      "C4",
+      "Eb4",
+      "F4"
+    ],
+    "source_text": "Substitute minor 6th chords with minor 7th chords while preserving the diminished scale alternation structure to create a smoother, slightly less dissonant sound."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 30 của nguồn Jazz Scales (YouTube), mốc 05:07-06:04. Substitute minor 6th chords with minor 7th chords while preserving the diminished scale alternation structure to create a smoother, slightly less dissonant sound. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

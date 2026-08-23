@@ -1,0 +1,29 @@
+{
+  "id": "jazz-scales-bai-32-01",
+  "type": "concept",
+  "name": "Phết lý hòa thanh của Barry Harris:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-32",
+    "locator": "00:00-01:06",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Phết lý hòa thanh của Barry Harris: Đàn phím/nhạc cụ hòa tấu là nhạc cụ theo chiều ngang (horizontal). Âm nhạc cần tạo sự chuyển động (movement) giữa các hợp âm thông qua chuỗi hợp âm của gam (scale of chords) thay vì chỉ nhảy tĩnh từ hợp âm này sang hợp âm khác."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 32 của nguồn Jazz Scales (YouTube), mốc 00:00-01:06. Phết lý hòa thanh của Barry Harris: Đàn phím/nhạc cụ hòa tấu là nhạc cụ theo chiều ngang (horizontal). Âm nhạc cần tạo sự chuyển động (movement) giữa các hợp âm thông qua chuỗi hợp âm của gam (scale of chords) thay vì chỉ nhảy tĩnh từ hợp âm này sang hợp âm khác. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,69 @@
+{
+  "id": "jazz-scales-bai-25-05-c-dorian",
+  "type": "scale",
+  "name": "Gam C Dorian cho hợp âm F7sus",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-25",
+    "locator": "01:56-02:21",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F7sus",
+    "Chọn gam / scale khi gặp hợp âm 7sus trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7sus"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Dorian",
+      "root": "C",
+      "note_names": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "A",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [],
+      "use_when": [
+        "hợp âm F7sus"
+      ]
+    },
+    "chord_symbol": "F7sus",
+    "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "Bb"
+    ],
+    "source_text": "Playing a Dorian scale starting on the 5th degree of the sus chord (e.g., C Dorian over F7sus) creates a very smooth and melodic sound."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 25 của nguồn Jazz Scales (YouTube), mốc 01:56-02:21. Playing a Dorian scale starting on the 5th degree of the sus chord (e.g., C Dorian over F7sus) creates a very smooth and melodic sound. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

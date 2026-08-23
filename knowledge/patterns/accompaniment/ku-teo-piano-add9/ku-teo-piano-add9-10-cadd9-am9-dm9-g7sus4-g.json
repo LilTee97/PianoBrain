@@ -1,0 +1,42 @@
+{
+  "id": "ku-teo-piano-add9-10-cadd9-am9-dm9-g7sus4-g",
+  "type": "exercise",
+  "name": "Thực hành câu giai điệu đệm trên tiến trình hợp âm:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "ku-teo-piano",
+    "source_id": "ku-teo-piano-add9",
+    "locator": "04:01-04:23",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cadd9",
+    "Ngẫu hứng jazz trên hợp âm Am9",
+    "Ngẫu hứng jazz trên hợp âm Dm9",
+    "Ngẫu hứng jazz trên hợp âm G7sus4",
+    "Ngẫu hứng jazz trên hợp âm G",
+    "Chọn gam / scale khi gặp hợp âm add9, m9, 7sus4, maj trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "chord_quality": [
+      "add9",
+      "m9",
+      "7sus4",
+      "maj"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cadd9 - Am9 - Dm9 - G7sus4 - G",
+    "source_text": "Thực hành câu giai điệu đệm trên tiến trình hợp âm: Cadd9 -> Am9 -> Dm9 -> G7sus4 -> G."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 26 của nguồn Jazz Scales (YouTube), mốc 04:01-04:23. Thực hành câu giai điệu đệm trên tiến trình hợp âm: Cadd9 -> Am9 -> Dm9 -> G7sus4 -> G. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

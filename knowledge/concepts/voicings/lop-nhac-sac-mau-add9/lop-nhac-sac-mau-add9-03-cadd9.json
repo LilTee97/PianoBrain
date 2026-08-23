@@ -1,0 +1,43 @@
+{
+  "id": "lop-nhac-sac-mau-add9-03-cadd9",
+  "type": "voicing",
+  "name": "Thế bấm của hợp âm add9 (Ví dụ:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "lop-nhac-sac-mau",
+    "source_id": "lop-nhac-sac-mau-add9",
+    "locator": "00:59-01:34",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cadd9",
+    "Chọn gam / scale khi gặp hợp âm add9 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "chord_quality": [
+      "add9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cadd9",
+    "notes": [
+      "C2",
+      "G2",
+      "D4",
+      "E4",
+      "G4",
+      "C5"
+    ],
+    "source_text": "Thế bấm của hợp âm add9 (Ví dụ: Cadd9): Thế bấm 1 (C2-G2 bên tay trái, D4-E4-G4-C5 bên tay phải), Thế bấm 2 (C2-G2 bên tay trái, E3-G3-D4 bên tay phải), Thế bấm 3 (C3-G3 bên tay trái, D4-E4-G4-C5 bên tay phải)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 27 của nguồn Jazz Scales (YouTube), mốc 00:59-01:34. Thế bấm của hợp âm add9 (Ví dụ: Cadd9): Thế bấm 1 (C2-G2 bên tay trái, D4-E4-G4-C5 bên tay phải), Thế bấm 2 (C2-G2 bên tay trái, E3-G3-D4 bên tay phải), Thế bấm 3 (C3-G3 bên tay trái, D4-E4-G4-C5 bên tay phải). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

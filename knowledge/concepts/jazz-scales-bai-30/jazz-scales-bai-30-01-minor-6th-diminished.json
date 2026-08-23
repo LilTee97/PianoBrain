@@ -1,0 +1,29 @@
+{
+  "id": "jazz-scales-bai-30-01-minor-6th-diminished",
+  "type": "concept",
+  "name": "One of the quickest ways to improve your sound as a jazz piano player is to reharmonize melodies",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-30",
+    "locator": "00:30-01:08",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "One of the quickest ways to improve your sound as a jazz piano player is to reharmonize melodies that move through a specific scale using Barry Harris's minor 6th diminished scale."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 30 của nguồn Jazz Scales (YouTube), mốc 00:30-01:08. One of the quickest ways to improve your sound as a jazz piano player is to reharmonize melodies that move through a specific scale using Barry Harris's minor 6th diminished scale. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ku-teo-piano-add9-01",
+  "type": "concept",
+  "name": "Hợp âm add9 ('add' có nghĩa là thêm) là hợp âm được tạo thành bằng cách thêm bậc 9 (quãng 9) vào",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "ku-teo-piano",
+    "source_id": "ku-teo-piano-add9",
+    "locator": "00:00-00:23",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm add9",
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "source_text": "Hợp âm add9 ('add' có nghĩa là thêm) là hợp âm được tạo thành bằng cách thêm bậc 9 (quãng 9) vào hợp âm 3 nốt cơ bản để tạo thêm màu sắc độc đáo cho đệm hát."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 26 của nguồn Jazz Scales (YouTube), mốc 00:00-00:23. Hợp âm add9 ('add' có nghĩa là thêm) là hợp âm được tạo thành bằng cách thêm bậc 9 (quãng 9) vào hợp âm 3 nốt cơ bản để tạo thêm màu sắc độc đáo cho đệm hát. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

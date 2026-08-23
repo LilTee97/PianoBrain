@@ -1,0 +1,44 @@
+{
+  "id": "ku-teo-piano-add9-09-cadd9-am9-dm9-g",
+  "type": "accompaniment",
+  "name": "Ứng dụng hợp âm add9 vào tiến trình đệm hát:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "ku-teo-piano",
+    "source_id": "ku-teo-piano-add9",
+    "locator": "03:13-04:00",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C",
+    "Ngẫu hứng jazz trên hợp âm Am",
+    "Ngẫu hứng jazz trên hợp âm Dm",
+    "Ngẫu hứng jazz trên hợp âm G",
+    "Ngẫu hứng jazz trên hợp âm Cadd9",
+    "Ngẫu hứng jazz trên hợp âm Am9",
+    "Ngẫu hứng jazz trên hợp âm Dm9",
+    "Chọn gam / scale khi gặp hợp âm maj, m, add9, m9 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "chord_quality": [
+      "maj",
+      "m",
+      "add9",
+      "m9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cadd9 - Am9 - Dm9 - G",
+    "source_text": "Ứng dụng hợp âm add9 vào tiến trình đệm hát: Thay vì dùng vòng hợp âm ba cơ bản [C - Am - Dm - G], nâng cấp thành [Cadd9 - Am9 - Dm9 - G] để tạo màu sắc phong phú và hiện đại hơn."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 26 của nguồn Jazz Scales (YouTube), mốc 03:13-04:00. Ứng dụng hợp âm add9 vào tiến trình đệm hát: Thay vì dùng vòng hợp âm ba cơ bản [C - Am - Dm - G], nâng cấp thành [Cadd9 - Am9 - Dm9 - G] để tạo màu sắc phong phú và hiện đại hơn. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

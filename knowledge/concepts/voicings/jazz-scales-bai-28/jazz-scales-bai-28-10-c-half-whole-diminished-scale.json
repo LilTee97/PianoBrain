@@ -1,0 +1,50 @@
+{
+  "id": "jazz-scales-bai-28-10-c-half-whole-diminished-scale",
+  "type": "voicing",
+  "name": "A Double Diminished Chord is created by superimposing two diminished 7th chords a half step apar",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-28",
+    "locator": "12:17-14:00",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Db°",
+    "Ngẫu hứng jazz trên hợp âm C°",
+    "Ngẫu hứng jazz trên hợp âm C13b9#9#11",
+    "Ngẫu hứng jazz trên hợp âm D#13b9#9#11",
+    "Ngẫu hứng jazz trên hợp âm F#13b9#9#11",
+    "Ngẫu hứng jazz trên hợp âm A13b9#9#11",
+    "Chọn gam / scale khi gặp hợp âm °, 13b9#9#11 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "°",
+      "13b9#9#11"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C13b9#9#11",
+    "notes": [
+      "Db",
+      "E",
+      "G",
+      "Bb",
+      "C",
+      "Eb",
+      "Gb",
+      "A"
+    ],
+    "source_text": "A Double Diminished Chord is created by superimposing two diminished 7th chords a half step apart (e.g. Db° in left hand: Db E G Bb + C° in right hand: C Eb Gb A). This 8-note chord contains all notes of the diminished scale, functioning as C13b9#9#11, D#13b9#9#11, F#13b9#9#11, or A13b9#9#11 and creating extreme harmonic tension."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 28 của nguồn Jazz Scales (YouTube), mốc 12:17-14:00. A Double Diminished Chord is created by superimposing two diminished 7th chords a half step apart (e.g. Db° in left hand: Db E G Bb + C° in right hand: C Eb Gb A). This 8-note chord contains all notes of the diminished scale, functioning as C13b9#9#11, D#13b9#9#11, F#13b9#9#11, or A13b9#9#11 and creating extreme harmonic tension. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

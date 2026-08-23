@@ -1,0 +1,65 @@
+{
+  "id": "jazz-scales-bai-28-02-c-diminished-scale",
+  "type": "scale",
+  "name": "Gam C diminished scale",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-28",
+    "locator": "01:06-02:05",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C diminished scale",
+      "root": "C",
+      "note_names": [
+        "C",
+        "Db",
+        "D#",
+        "E",
+        "F#",
+        "G",
+        "A",
+        "Bb"
+      ],
+      "semitones_from_root": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [],
+      "use_when": []
+    },
+    "notes": [
+      "C",
+      "Db",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "Bb"
+    ],
+    "source_text": "Because the diminished scale repeats symmetrically in minor 3rd intervals, only three unique diminished scales exist: 1. C = Eb = Gb = A diminished scale; 2. B = D = F = Ab diminished scale; 3. Bb = Db = E = G diminished scale. Starting from any other note simply reproduces one of these three scales."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 28 của nguồn Jazz Scales (YouTube), mốc 01:06-02:05. Because the diminished scale repeats symmetrically in minor 3rd intervals, only three unique diminished scales exist: 1. C = Eb = Gb = A diminished scale; 2. B = D = F = Ab diminished scale; 3. Bb = Db = E = G diminished scale. Starting from any other note simply reproduces one of these three scales. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,97 @@
+{
+  "id": "jazz-scales-bai-30-02-f-minor-6th-diminished",
+  "type": "scale",
+  "name": "Gam F Minor 6th Diminished cho hợp âm F min6",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-30",
+    "locator": "02:31-03:29",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F min6",
+    "Ngẫu hứng jazz trên hợp âm G dim7",
+    "Ngẫu hứng jazz trên hợp âm F min6/Ab",
+    "Ngẫu hứng jazz trên hợp âm Bb dim7",
+    "Ngẫu hứng jazz trên hợp âm F min6/C",
+    "Ngẫu hứng jazz trên hợp âm Db dim7",
+    "Ngẫu hứng jazz trên hợp âm F min6/D",
+    "Ngẫu hứng jazz trên hợp âm E dim7",
+    "Chọn gam / scale khi gặp hợp âm m6, dim7, m6/Ab, m6/C, m6/D trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m6",
+      "dim7",
+      "m6/Ab",
+      "m6/C",
+      "m6/D"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "F Minor 6th Diminished",
+      "root": "F",
+      "note_names": [
+        "F4",
+        "G4",
+        "Ab4",
+        "Bb4",
+        "C5",
+        "Db5",
+        "D5",
+        "E5",
+        "F5"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "m6",
+        "m6/Ab",
+        "m6/C",
+        "m6/D"
+      ],
+      "use_when": [
+        "hợp âm F min6",
+        "hợp âm G dim7",
+        "hợp âm F min6/Ab",
+        "hợp âm Bb dim7",
+        "hợp âm F min6/C",
+        "hợp âm Db dim7",
+        "hợp âm F min6/D",
+        "hợp âm E dim7"
+      ]
+    },
+    "chord_symbol": "F min6 / G dim7",
+    "notes": [
+      "F4",
+      "G4",
+      "Ab4",
+      "Bb4",
+      "C5",
+      "Db5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "source_text": "Every other note that is not a chord tone is harmonized with a diminished chord. In F minor: F min6 chord tones (F, Ab, C, D) alternate with diminished 7th chord tones (G, Bb, Db, E)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 30 của nguồn Jazz Scales (YouTube), mốc 02:31-03:29. Every other note that is not a chord tone is harmonized with a diminished chord. In F minor: F min6 chord tones (F, Ab, C, D) alternate with diminished 7th chord tones (G, Bb, Db, E). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

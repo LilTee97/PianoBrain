@@ -1,0 +1,43 @@
+{
+  "id": "lop-nhac-sac-mau-add9-01-cadd9",
+  "type": "concept",
+  "name": "Hợp âm add9 = Hợp âm 3 + âm 9 (Âm 9 cách âm gốc quãng 9 Trưởng).",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "lop-nhac-sac-mau",
+    "source_id": "lop-nhac-sac-mau-add9",
+    "locator": "00:14-00:39",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cadd9",
+    "Ngẫu hứng jazz trên hợp âm C",
+    "Chọn gam / scale khi gặp hợp âm add9, maj trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "chord_quality": [
+      "add9",
+      "maj"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cadd9",
+    "notes": [
+      "C",
+      "E",
+      "G",
+      "D"
+    ],
+    "source_text": "Hợp âm add9 = Hợp âm 3 + âm 9 (Âm 9 cách âm gốc quãng 9 Trưởng). Ví dụ hợp âm Cadd9 gồm 4 nốt: C - E - G - D. Từ nốt C tính lên quãng 9T được nốt D. Nốt D chính là âm 9 của Cadd9."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 27 của nguồn Jazz Scales (YouTube), mốc 00:14-00:39. Hợp âm add9 = Hợp âm 3 + âm 9 (Âm 9 cách âm gốc quãng 9 Trưởng). Ví dụ hợp âm Cadd9 gồm 4 nốt: C - E - G - D. Từ nốt C tính lên quãng 9T được nốt D. Nốt D chính là âm 9 của Cadd9. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

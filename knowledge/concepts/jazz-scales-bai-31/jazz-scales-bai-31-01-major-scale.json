@@ -1,0 +1,29 @@
+{
+  "id": "jazz-scales-bai-31-01-major-scale",
+  "type": "concept",
+  "name": "Modes limit our choices of notes to play, creating specific sound colors and helping maintain to",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-31",
+    "locator": "01:10-03:59",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Modes limit our choices of notes to play, creating specific sound colors and helping maintain tonal consistency when improvising over chords."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 31 của nguồn Jazz Scales (YouTube), mốc 01:10-03:59. Modes limit our choices of notes to play, creating specific sound colors and helping maintain tonal consistency when improvising over chords. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

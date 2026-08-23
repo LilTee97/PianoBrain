@@ -1,0 +1,46 @@
+{
+  "id": "jazz-scales-bai-32-08-c-minor-6th-diminished-scale",
+  "type": "rule",
+  "name": "Tính tương đương hòa thanh giữa Cm6 và Am7b5:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-32",
+    "locator": "08:42-09:13",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm6",
+    "Ngẫu hứng jazz trên hợp âm Am7b5",
+    "Ngẫu hứng jazz trên hợp âm D7",
+    "Ngẫu hứng jazz trên hợp âm Gm",
+    "Chọn gam / scale khi gặp hợp âm m6, m7b5, 7, m trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m6",
+      "m7b5",
+      "7",
+      "m"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Am7b5",
+    "notes": [
+      "A3",
+      "C4",
+      "Eb4",
+      "G4"
+    ],
+    "source_text": "Tính tương đương hòa thanh giữa Cm6 và Am7b5: Cm6 (C-Eb-G-A) chứa cùng 4 nốt với Am7b5 / A half-diminished 7 (A-C-Eb-G). Dùng gam C Minor 6th Diminished để tạo chuyển động đệm cho Am7b5 trong tiến trình Minor 2-5-1 (Am7b5 - D7 - Gm)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 32 của nguồn Jazz Scales (YouTube), mốc 08:42-09:13. Tính tương đương hòa thanh giữa Cm6 và Am7b5: Cm6 (C-Eb-G-A) chứa cùng 4 nốt với Am7b5 / A half-diminished 7 (A-C-Eb-G). Dùng gam C Minor 6th Diminished để tạo chuyển động đệm cho Am7b5 trong tiến trình Minor 2-5-1 (Am7b5 - D7 - Gm). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

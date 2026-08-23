@@ -1,0 +1,42 @@
+{
+  "id": "ku-teo-piano-add9-07-cadd9",
+  "type": "voicing",
+  "name": "Thế bấm 3 của Cadd9:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "ku-teo-piano",
+    "source_id": "ku-teo-piano-add9",
+    "locator": "02:40-02:53",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cadd9",
+    "Chọn gam / scale khi gặp hợp âm add9 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "chord_quality": [
+      "add9"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cadd9",
+    "notes": [
+      "C3",
+      "E4",
+      "G4",
+      "C5",
+      "D5"
+    ],
+    "source_text": "Thế bấm 3 của Cadd9: Tay trái bấm C, tay phải bấm E4-G4-C5-D5."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 26 của nguồn Jazz Scales (YouTube), mốc 02:40-02:53. Thế bấm 3 của Cadd9: Tay trái bấm C, tay phải bấm E4-G4-C5-D5. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,40 @@
+{
+  "id": "jazz-scales-bai-29-02-c-diminished",
+  "type": "concept",
+  "name": "Adding the note A to C diminished gives the 4-note C diminished 7th chord:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-29",
+    "locator": "00:36-00:50",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cdim7",
+    "Chọn gam / scale khi gặp hợp âm dim7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cdim7",
+    "notes": [
+      "C4",
+      "Eb4",
+      "F#4",
+      "A4"
+    ],
+    "source_text": "Adding the note A to C diminished gives the 4-note C diminished 7th chord: C, Eb, F#, A."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 29 của nguồn Jazz Scales (YouTube), mốc 00:36-00:50. Adding the note A to C diminished gives the 4-note C diminished 7th chord: C, Eb, F#, A. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

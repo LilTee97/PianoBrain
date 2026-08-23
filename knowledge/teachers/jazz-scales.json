@@ -23,9 +23,9 @@
       "ngẫu hứng"
     ],
     "language": "en+vi",
-    "ingested_sources": 23
+    "ingested_sources": 30
   },
   "origin": "derived",
   "status": "draft",
-  "note_vi": "Tập hợp nhiều kênh dạy lý thuyết jazz tiếng Anh trên YouTube, gom dưới một nguồn vì kho master không tách kênh. Đây KHÔNG phải một người — tên giảng viên ghi ở đây để không ai đọc nhầm.\n\nTra được từ chính dữ liệu trích xuất: bài 1 Julian Bradley (Jazz Tutorial), bài 2 Jonny May, bài 3 Oliver Prehn (NewJazz), bài 4 Noah Kellman, bài 8 và 17 Jonny May, bài 9 và 22 kênh Open Studio (Peter Martin, Adam Maness), bài 10 và 24 PianoPig. Bài 16, 30 và 32 dạy PHƯƠNG PHÁP Barry Harris — đó là tên phương pháp, chưa rõ ai đứng lớp, nên không ghi thành tên người dạy. Các bài còn lại chưa tra ra tên giảng viên; để trống chứ không đoán.\n\nBài 26 và 27 KHÔNG thuộc nguồn này: chúng là đệm hát pop Việt, tách sang hai bản ghi thầy riêng 'ku-teo-piano' và 'lop-nhac-sac-mau'. Lý do nằm ngay trong avoid_when và input.style của chính bản ghi này.\n\nCần dọn về sau: kênh Open Studio có Peter Martin đứng lớp, mà kho đã có bản ghi thầy riêng 'peter-martin'. Hai chỗ đang chỉ vào cùng một người. Chưa gộp vì bài 9 và 22 đã có người rà, và đổi nhãn thầy là đổi cả lượt rà.\n\nNguồn này đứng CẠNH thầy Hải Joseph, không thay: item của nó luôn mang teacher_id 'jazz-scales' và style 'jazz'."
+  "note_vi": "Bốn bài giảng jazz trên YouTube, gom dưới một nguồn vì kho master không tách kênh. Bài 1 Julian Bradley (Jazz Tutorial), bài 2 Jonny May, bài 3 Oliver Prehn (NewJazz), bài 4 Noah Kellman — tên giảng viên ghi ở đây để không ai đọc nhầm thành một người. Nguồn này đứng CẠNH thầy Hải Joseph, không thay: item của nó luôn mang teacher_id 'jazz-scales' và style 'jazz'."
 }

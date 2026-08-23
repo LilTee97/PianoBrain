@@ -21,7 +21,7 @@ import { slug } from "./importMaster.js";
  */
 const TEACHER_ID = "jazz-scales";
 
-const LESSONS = Array.from({ length: 23 }, (_, i) => `JazzScales_Bai_${String(i + 1).padStart(2, "0")}`);
+const LESSONS = Array.from({ length: 32 }, (_, i) => `JazzScales_Bai_${String(i + 1).padStart(2, "0")}`);
 
 const PITCH: Record<string, number> = {
   C: 0, "C#": 1, Db: 1, D: 2, "D#": 3, Eb: 3, E: 4, Fb: 4, "E#": 5,
@@ -817,9 +817,22 @@ function main(): void {
   doc.sources = [...doc.sources.filter((s) => !sources.some((n) => n.source_id === s.source_id)), ...sources];
   fs.writeFileSync(indexFile, JSON.stringify(doc, null, 2) + "\n", "utf8");
 
+  /*
+    Danh sách thầy hợp lệ đọc từ **thư mục thầy trên đĩa**, không khoá cứng.
+
+    Trước đây chỗ này chỉ nhận đúng `jazz-scales`, vì lúc ấy nguồn này chỉ có một
+    thầy. Nay bài 26 và 27 mang thầy riêng, và khoá cứng thì bộ kiểm bác chính
+    item nó vừa dựng đúng.
+  */
+  const teacherDir = path.join(repo, "knowledge", "teachers");
+  const teacherIds = fs
+    .readdirSync(teacherDir)
+    .filter((name) => name.endsWith(".json"))
+    .map((name) => name.replace(/\.json$/, ""));
+
   const res = validateAll([teacher, ...built.map((b) => b.item)], {
     sources: doc.sources,
-    teacherIds: [TEACHER_ID],
+    teacherIds,
   });
   if (!res.ok) {
     console.error(res.errors.join("\n"));

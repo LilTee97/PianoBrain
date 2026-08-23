@@ -1,0 +1,41 @@
+{
+  "id": "jazz-scales-bai-24-04-c-major-scale",
+  "type": "concept",
+  "name": "Sus2 Chord Formula:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-24",
+    "locator": "02:34-03:18",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C",
+    "Ngẫu hứng jazz trên hợp âm Csus2",
+    "Chọn gam / scale khi gặp hợp âm maj, sus2 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "maj",
+      "sus2"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Csus2",
+    "notes": [
+      "C4",
+      "D4",
+      "G4"
+    ],
+    "source_text": "Sus2 Chord Formula: In a sus2 chord, the 3rd of the triad is replaced with the 2nd degree of the scale. Shortcut: lower the 3rd of a major triad down by a whole step (2 half steps). Example: C major (C-E-G) becomes Csus2 (C-D-G)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 24 của nguồn Jazz Scales (YouTube), mốc 02:34-03:18. Sus2 Chord Formula: In a sus2 chord, the 3rd of the triad is replaced with the 2nd degree of the scale. Shortcut: lower the 3rd of a major triad down by a whole step (2 half steps). Example: C major (C-E-G) becomes Csus2 (C-D-G). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

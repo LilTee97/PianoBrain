@@ -1,0 +1,79 @@
+{
+  "id": "jazz-scales-bai-32-07-c-minor-6th-diminished-scale",
+  "type": "scale",
+  "name": "Gam C Minor 6th Diminished Scale cho hợp âm Cm6",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-32",
+    "locator": "08:16-08:36",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm6",
+    "Ngẫu hứng jazz trên hợp âm Ddim7",
+    "Chọn gam / scale khi gặp hợp âm m6, dim7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m6",
+      "dim7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Minor 6th Diminished Scale",
+      "root": "C",
+      "note_names": [
+        "C4",
+        "D4",
+        "Eb4",
+        "F4",
+        "G4",
+        "G#4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "m6"
+      ],
+      "use_when": [
+        "hợp âm Cm6",
+        "hợp âm Ddim7"
+      ]
+    },
+    "chord_symbol": "Cm6",
+    "notes": [
+      "C4",
+      "D4",
+      "Eb4",
+      "F4",
+      "G4",
+      "G#4",
+      "A4",
+      "B4",
+      "C5"
+    ],
+    "source_text": "Cấu tạo gam C Minor 6th Diminished (Gam Thứ 6 Giảm): Giáng bậc 3 của gam C Major 6th Diminished xuống nửa bước (E thành Eb). Gam gồm 8 nốt: C, D, Eb, F, G, G#, A, B."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 32 của nguồn Jazz Scales (YouTube), mốc 08:16-08:36. Cấu tạo gam C Minor 6th Diminished (Gam Thứ 6 Giảm): Giáng bậc 3 của gam C Major 6th Diminished xuống nửa bước (E thành Eb). Gam gồm 8 nốt: C, D, Eb, F, G, G#, A, B. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

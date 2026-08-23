@@ -1,0 +1,73 @@
+{
+  "id": "jazz-scales-bai-31-05-e-phrygian",
+  "type": "scale",
+  "name": "Gam E Phrygian cho hợp âm Em7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-31",
+    "locator": "07:15-07:59",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Em7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "E Phrygian",
+      "root": "E",
+      "note_names": [
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5",
+        "D5",
+        "E5"
+      ],
+      "semitones_from_root": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "for_qualities": [
+        "m7"
+      ],
+      "use_when": [
+        "hợp âm Em7"
+      ]
+    },
+    "chord_symbol": "Em7",
+    "notes": [
+      "E4",
+      "F4",
+      "G4",
+      "A4",
+      "B4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "source_text": "E Phrygian is the 3rd mode of C Major, starting and ending on E, played over Em7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 31 của nguồn Jazz Scales (YouTube), mốc 07:15-07:59. E Phrygian is the 3rd mode of C Major, starting and ending on E, played over Em7. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

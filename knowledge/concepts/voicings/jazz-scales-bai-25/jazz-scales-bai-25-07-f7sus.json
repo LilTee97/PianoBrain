@@ -1,0 +1,39 @@
+{
+  "id": "jazz-scales-bai-25-07-f7sus",
+  "type": "voicing",
+  "name": "Using a simple 1-4-5 sus voicing shape (F-Bb-C over F7sus) produces an open, arpeggiated sound.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-25",
+    "locator": "02:48-03:17",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F7sus",
+    "Chọn gam / scale khi gặp hợp âm 7sus trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7sus"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F7sus",
+    "notes": [
+      "F",
+      "Bb",
+      "C"
+    ],
+    "source_text": "Using a simple 1-4-5 sus voicing shape (F-Bb-C over F7sus) produces an open, arpeggiated sound."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 25 của nguồn Jazz Scales (YouTube), mốc 02:48-03:17. Using a simple 1-4-5 sus voicing shape (F-Bb-C over F7sus) produces an open, arpeggiated sound. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

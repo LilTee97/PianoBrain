@@ -1,0 +1,41 @@
+{
+  "id": "jazz-scales-bai-24-03-f-major-scale",
+  "type": "concept",
+  "name": "Fsus4 Example:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-24",
+    "locator": "02:01-02:34",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F",
+    "Ngẫu hứng jazz trên hợp âm Fsus4",
+    "Chọn gam / scale khi gặp hợp âm maj, sus4 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "maj",
+      "sus4"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Fsus4",
+    "notes": [
+      "F4",
+      "A#4",
+      "C5"
+    ],
+    "source_text": "Fsus4 Example: Start with an F major triad (F-A-C) and move the 3rd (A) up by a half step to the 4th (Bb), forming Fsus4 (F-Bb-C)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 24 của nguồn Jazz Scales (YouTube), mốc 02:01-02:34. Fsus4 Example: Start with an F major triad (F-A-C) and move the 3rd (A) up by a half step to the 4th (Bb), forming Fsus4 (F-Bb-C). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

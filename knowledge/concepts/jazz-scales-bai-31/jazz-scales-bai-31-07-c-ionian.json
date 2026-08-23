@@ -1,0 +1,29 @@
+{
+  "id": "jazz-scales-bai-31-07-c-ionian",
+  "type": "concept",
+  "name": "Parallel modes approach compares modes starting on the same root C by formula:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-31",
+    "locator": "12:49-15:15",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Parallel modes approach compares modes starting on the same root C by formula: Lydian (#4), Ionian (1), Mixolydian (b7), Dorian (b3 b7), Aeolian (b3 b6 b7), Phrygian (b2 b3 b6 b7), Locrian (b2 b3 b5 b6 b7)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 31 của nguồn Jazz Scales (YouTube), mốc 12:49-15:15. Parallel modes approach compares modes starting on the same root C by formula: Lydian (#4), Ionian (1), Mixolydian (b7), Dorian (b3 b7), Aeolian (b3 b6 b7), Phrygian (b2 b3 b6 b7), Locrian (b2 b3 b5 b6 b7). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

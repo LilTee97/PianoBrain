@@ -1,0 +1,48 @@
+{
+  "id": "jazz-scales-bai-29-05-cdim",
+  "type": "voicing",
+  "name": "The 3-note C diminished triad inversions:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-29",
+    "locator": "02:51-03:57",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cdim",
+    "Chọn gam / scale khi gặp hợp âm dim trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cdim",
+    "notes": [
+      "C4",
+      "Eb4",
+      "F#4",
+      "Eb4",
+      "F#4",
+      "C5",
+      "F#4",
+      "C5",
+      "Eb5",
+      "C5",
+      "Eb5",
+      "F#5"
+    ],
+    "source_text": "The 3-note C diminished triad inversions: Root position (C-Eb-F#), 1st inversion (Eb-F#-C), 2nd inversion (F#-C-Eb), and back to Root position an octave higher (C-Eb-F#), as well as descending back down."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 29 của nguồn Jazz Scales (YouTube), mốc 02:51-03:57. The 3-note C diminished triad inversions: Root position (C-Eb-F#), 1st inversion (Eb-F#-C), 2nd inversion (F#-C-Eb), and back to Root position an octave higher (C-Eb-F#), as well as descending back down. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

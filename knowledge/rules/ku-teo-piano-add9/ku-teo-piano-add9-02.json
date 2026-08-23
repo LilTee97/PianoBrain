@@ -1,0 +1,31 @@
+{
+  "id": "ku-teo-piano-add9-02",
+  "type": "rule",
+  "name": "Cấu tạo hợp âm add9 = Hợp âm 3 (Triad) + Quãng 9 Trưởng (q.9T).",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "ku-teo-piano",
+    "source_id": "ku-teo-piano-add9",
+    "locator": "00:23-00:30",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm add9",
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "source_text": "Cấu tạo hợp âm add9 = Hợp âm 3 (Triad) + Quãng 9 Trưởng (q.9T)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 26 của nguồn Jazz Scales (YouTube), mốc 00:23-00:30. Cấu tạo hợp âm add9 = Hợp âm 3 (Triad) + Quãng 9 Trưởng (q.9T). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

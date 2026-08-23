@@ -1,0 +1,44 @@
+{
+  "id": "lop-nhac-sac-mau-add9-04-cadd9-am-add9-dm-add9-g",
+  "type": "arpeggio",
+  "name": "Ứng dụng hợp âm add9 vào vòng hợp âm C - Am - Dm - G:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "lop-nhac-sac-mau",
+    "source_id": "lop-nhac-sac-mau-add9",
+    "locator": "01:35-02:42",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C",
+    "Ngẫu hứng jazz trên hợp âm Am",
+    "Ngẫu hứng jazz trên hợp âm Dm",
+    "Ngẫu hứng jazz trên hợp âm G",
+    "Ngẫu hứng jazz trên hợp âm Cadd9",
+    "Ngẫu hứng jazz trên hợp âm Am(add9)",
+    "Ngẫu hứng jazz trên hợp âm Dm(add9)",
+    "Chọn gam / scale khi gặp hợp âm maj, m, add9, m(add9) trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "chord_quality": [
+      "maj",
+      "m",
+      "add9",
+      "m(add9)"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cadd9 - Am(add9) - Dm(add9) - G",
+    "source_text": "Ứng dụng hợp âm add9 vào vòng hợp âm C - Am - Dm - G: Thay thế bằng Cadd9 - Am(add9) - Dm(add9) - G giúp tạo thêm tiếng đệm rải/rải ngón mềm mại, màu sắc hài hòa tươi mới."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 27 của nguồn Jazz Scales (YouTube), mốc 01:35-02:42. Ứng dụng hợp âm add9 vào vòng hợp âm C - Am - Dm - G: Thay thế bằng Cadd9 - Am(add9) - Dm(add9) - G giúp tạo thêm tiếng đệm rải/rải ngón mềm mại, màu sắc hài hòa tươi mới. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

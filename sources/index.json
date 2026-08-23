@@ -1102,6 +1102,94 @@
       "ingested_at": "2026-08-23",
       "course_id": "jazz_scales_001",
       "lesson_id": "JazzScales_Bai_23"
+    },
+    {
+      "source_id": "jazz-scales-bai-24",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Piano Chords_ SUSPENDED CHORDS (sus4 _ sus2).mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_24"
+    },
+    {
+      "source_id": "jazz-scales-bai-25",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "6 Ways to Play Over SUS Chords.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "jazz_scales_001_bai_25"
+    },
+    {
+      "source_id": "ku-teo-piano-add9",
+      "teacher_id": "ku-teo-piano",
+      "kind": "video",
+      "title": "Mẹo ĐỆM HÁT hay hơn với HỢP ÂM Add9 _ Cách sử dụng Hợp Âm add9 _ Ku Tèo Piano.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "lesson_id": "JazzScales_Bai_26"
+    },
+    {
+      "source_id": "lop-nhac-sac-mau-add9",
+      "teacher_id": "lop-nhac-sac-mau",
+      "kind": "video",
+      "title": "HÒA ÂM NHẠC NHẸ - #1 Sử dụng hợp âm màu_ Hợp âm _add9_.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "lesson_id": "JazzScales_Bai_27"
+    },
+    {
+      "source_id": "jazz-scales-bai-28",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Jazz Scales - Diminished Scale _ Double Diminished Chord.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_28"
+    },
+    {
+      "source_id": "jazz-scales-bai-29",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "C Diminished Chord Piano _ Cdim + Cdim7 + Inversions Piano Tutorial.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "jazz_scales_001_bai_29"
+    },
+    {
+      "source_id": "jazz-scales-bai-30",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Barry Harris Minor 6th Diminished Scale in Action!.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_30"
+    },
+    {
+      "source_id": "jazz-scales-bai-31",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Modes - major, melodic minor and harmonic minor modes.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_31"
+    },
+    {
+      "source_id": "jazz-scales-bai-32",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Barry Harris Method_ 6th Diminished Scale (#22).mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_32"
     }
   ],
   "coverage": {

@@ -1,0 +1,36 @@
+{
+  "id": "jazz-scales-bai-32-04-c6-drop-2",
+  "type": "voicing",
+  "name": "Quy tắc cấu tạo Drop 2 Voicing:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-32",
+    "locator": "05:33-05:58",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C6 Drop 2",
+    "notes": [
+      "G3",
+      "C4",
+      "E4",
+      "A4"
+    ],
+    "source_text": "Quy tắc cấu tạo Drop 2 Voicing: Xuất phát từ thể bấm hợp âm 4 nốt ở dạng đóng (close position, đánh dấu 1-2-3-4 từ trên xuống), hạ giọng thứ 2 từ trên xuống (voice 2) xuống 1 quãng 8."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 32 của nguồn Jazz Scales (YouTube), mốc 05:33-05:58. Quy tắc cấu tạo Drop 2 Voicing: Xuất phát từ thể bấm hợp âm 4 nốt ở dạng đóng (close position, đánh dấu 1-2-3-4 từ trên xuống), hạ giọng thứ 2 từ trên xuống (voice 2) xuống 1 quãng 8. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

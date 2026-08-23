@@ -1,0 +1,29 @@
+{
+  "id": "jazz-scales-bai-31-12",
+  "type": "rule",
+  "name": "Theory is meant to serve the musician, not the other way around.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-31",
+    "locator": "29:10-31:26",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Theory is meant to serve the musician, not the other way around. Always trust your ears and target chord tones / guide tones when using chromatic modal notes."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 31 của nguồn Jazz Scales (YouTube), mốc 29:10-31:26. Theory is meant to serve the musician, not the other way around. Always trust your ears and target chord tones / guide tones when using chromatic modal notes. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

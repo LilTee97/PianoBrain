@@ -1,0 +1,53 @@
+{
+  "id": "lop-nhac-sac-mau-add9-05-cadd9",
+  "type": "accompaniment",
+  "name": "Ứng dụng hợp âm add9 trong đệm piano tác phẩm 'Không Còn Mùa Thu' (Sáng tác:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "lop-nhac-sac-mau",
+    "source_id": "lop-nhac-sac-mau-add9",
+    "locator": "02:43-03:34",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cadd9",
+    "Ngẫu hứng jazz trên hợp âm Em",
+    "Ngẫu hứng jazz trên hợp âm Fadd9",
+    "Ngẫu hứng jazz trên hợp âm Dmadd9",
+    "Ngẫu hứng jazz trên hợp âm Bm7-5",
+    "Ngẫu hứng jazz trên hợp âm G7sus4",
+    "Ngẫu hứng jazz trên hợp âm G",
+    "Chọn gam / scale khi gặp hợp âm add9, m, madd9, m7-5, 7sus4, maj trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "chord_quality": [
+      "add9",
+      "m",
+      "madd9",
+      "m7-5",
+      "7sus4",
+      "maj"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cadd9",
+    "notes": [
+      "C2",
+      "G2",
+      "E3",
+      "G3",
+      "D4"
+    ],
+    "source_text": "Ứng dụng hợp âm add9 trong đệm piano tác phẩm 'Không Còn Mùa Thu' (Sáng tác: Việt Anh): Sử dụng các thế bấm Cadd9, Fadd9, Dm(add9) đệm kết hợp sheet nhạc chi tiết."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 27 của nguồn Jazz Scales (YouTube), mốc 02:43-03:34. Ứng dụng hợp âm add9 trong đệm piano tác phẩm 'Không Còn Mùa Thu' (Sáng tác: Việt Anh): Sử dụng các thế bấm Cadd9, Fadd9, Dm(add9) đệm kết hợp sheet nhạc chi tiết. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

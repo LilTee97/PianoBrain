@@ -1,0 +1,43 @@
+{
+  "id": "ku-teo-piano-add9-04-a-minor",
+  "type": "concept",
+  "name": "Ví dụ hợp âm thứ 9 (Am9 / Am add9):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "ku-teo-piano",
+    "source_id": "ku-teo-piano-add9",
+    "locator": "01:10-01:40",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Am9",
+    "Ngẫu hứng jazz trên hợp âm Am",
+    "Chọn gam / scale khi gặp hợp âm m9, m trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt"
+  ],
+  "input": {
+    "chord_quality": [
+      "m9",
+      "m"
+    ],
+    "style": [
+      "pop_ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Am9",
+    "notes": [
+      "A3",
+      "C4",
+      "E4",
+      "B4"
+    ],
+    "source_text": "Ví dụ hợp âm thứ 9 (Am9 / Am add9): Hợp âm La thứ (A-C-E) cộng thêm nốt bậc 9 tính từ La (nốt B), gồm các nốt A, C, E, B."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 26 của nguồn Jazz Scales (YouTube), mốc 01:10-01:40. Ví dụ hợp âm thứ 9 (Am9 / Am add9): Hợp âm La thứ (A-C-E) cộng thêm nốt bậc 9 tính từ La (nốt B), gồm các nốt A, C, E, B. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

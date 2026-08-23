@@ -1,0 +1,45 @@
+{
+  "id": "jazz-scales-bai-25-08-f7sus",
+  "type": "accompaniment",
+  "name": "Combining triad pairs of Eb Major + F Major over F7sus creates an intervallic yet linear sound b",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-25",
+    "locator": "03:18-03:57",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F7sus",
+    "Ngẫu hứng jazz trên hợp âm Eb",
+    "Ngẫu hứng jazz trên hợp âm F",
+    "Chọn gam / scale khi gặp hợp âm 7sus, maj trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7sus",
+      "maj"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F7sus",
+    "notes": [
+      "Eb",
+      "G",
+      "Bb",
+      "F",
+      "A",
+      "C"
+    ],
+    "source_text": "Combining triad pairs of Eb Major + F Major over F7sus creates an intervallic yet linear sound based on the slash chord voicing structure."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 25 của nguồn Jazz Scales (YouTube), mốc 03:18-03:57. Combining triad pairs of Eb Major + F Major over F7sus creates an intervallic yet linear sound based on the slash chord voicing structure. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

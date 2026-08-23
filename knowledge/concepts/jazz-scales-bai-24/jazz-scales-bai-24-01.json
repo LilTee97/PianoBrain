@@ -1,0 +1,32 @@
+{
+  "id": "jazz-scales-bai-24-01",
+  "type": "concept",
+  "name": "Introduction to suspended chords (sus chords).",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-24",
+    "locator": "00:10-00:45",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm sus2",
+    "Ngẫu hứng jazz trên hợp âm sus4",
+    "Ngẫu hứng jazz trên hợp âm sus",
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Introduction to suspended chords (sus chords). The most common types are sus2 and sus4. When written simply as 'sus' without a number, it typically implies sus4."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 24 của nguồn Jazz Scales (YouTube), mốc 00:10-00:45. Introduction to suspended chords (sus chords). The most common types are sus2 and sus4. When written simply as 'sus' without a number, it typically implies sus4. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

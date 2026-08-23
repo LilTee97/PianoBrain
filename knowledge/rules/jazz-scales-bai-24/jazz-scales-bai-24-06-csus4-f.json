@@ -1,0 +1,45 @@
+{
+  "id": "jazz-scales-bai-24-06-csus4-f",
+  "type": "rule",
+  "name": "Resolution Rule 1:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-24",
+    "locator": "03:36-04:17",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Csus",
+    "Ngẫu hứng jazz trên hợp âm F",
+    "Chọn gam / scale khi gặp hợp âm sus, maj trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "sus",
+      "maj"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Csus4 -> F",
+    "notes": [
+      "C4",
+      "F4",
+      "G4",
+      "F3",
+      "A4",
+      "C5",
+      "E5"
+    ],
+    "source_text": "Resolution Rule 1: Sus chords are open/unresolved because they lack a defining 3rd (neither major nor minor). A common resolution is resolving down a 5th (e.g. Csus resolving to F)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 24 của nguồn Jazz Scales (YouTube), mốc 03:36-04:17. Resolution Rule 1: Sus chords are open/unresolved because they lack a defining 3rd (neither major nor minor). A common resolution is resolving down a 5th (e.g. Csus resolving to F). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

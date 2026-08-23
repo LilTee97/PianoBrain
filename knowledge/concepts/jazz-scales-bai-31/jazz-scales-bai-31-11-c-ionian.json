@@ -1,0 +1,73 @@
+{
+  "id": "jazz-scales-bai-31-11-c-ionian",
+  "type": "concept",
+  "name": "Over a Major 7th chord (e.g.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-31",
+    "locator": "25:59-28:00",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cmaj7",
+    "Chọn gam / scale khi gặp hợp âm maj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "maj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Ionian",
+      "root": "C",
+      "note_names": [
+        "C4",
+        "D#4",
+        "E4",
+        "F#4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "semitones_from_root": [
+        0,
+        3,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "maj7"
+      ],
+      "use_when": [
+        "hợp âm Cmaj7"
+      ]
+    },
+    "chord_symbol": "Cmaj7",
+    "notes": [
+      "C4",
+      "D#4",
+      "E4",
+      "F#4",
+      "G4",
+      "A4",
+      "B4",
+      "C5"
+    ],
+    "source_text": "Over a Major 7th chord (e.g. Cmaj7), you can play Ionian (from Major), Lydian (#4 from Major), or Lydian #2 (from Harmonic Minor) to achieve distinct tonal colors while respecting chord tones."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 31 của nguồn Jazz Scales (YouTube), mốc 25:59-28:00. Over a Major 7th chord (e.g. Cmaj7), you can play Ionian (from Major), Lydian (#4 from Major), or Lydian #2 (from Harmonic Minor) to achieve distinct tonal colors while respecting chord tones. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

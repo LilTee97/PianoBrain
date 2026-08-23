@@ -1,0 +1,41 @@
+{
+  "id": "jazz-scales-bai-24-05-a-major-scale",
+  "type": "concept",
+  "name": "Asus2 Example:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-24",
+    "locator": "03:18-03:36",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm A",
+    "Ngẫu hứng jazz trên hợp âm Asus2",
+    "Chọn gam / scale khi gặp hợp âm maj, sus2 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "maj",
+      "sus2"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Asus2",
+    "notes": [
+      "A3",
+      "B3",
+      "E4"
+    ],
+    "source_text": "Asus2 Example: Start with an A major triad (A-C#-E) and lower the 3rd (C#) down by a whole step to B, forming Asus2 (A-B-E)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 24 của nguồn Jazz Scales (YouTube), mốc 03:18-03:36. Asus2 Example: Start with an A major triad (A-C#-E) and lower the 3rd (C#) down by a whole step to B, forming Asus2 (A-B-E). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

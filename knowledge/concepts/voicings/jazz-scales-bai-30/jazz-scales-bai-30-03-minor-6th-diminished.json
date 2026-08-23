@@ -1,0 +1,45 @@
+{
+  "id": "jazz-scales-bai-30-03-minor-6th-diminished",
+  "type": "voicing",
+  "name": "Left hand plays the melody down an octave, creating melody notes in octaves on the outside while",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-30",
+    "locator": "03:30-03:58",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G dim7",
+    "Ngẫu hứng jazz trên hợp âm F min6/Ab",
+    "Ngẫu hứng jazz trên hợp âm Bb dim7",
+    "Ngẫu hứng jazz trên hợp âm F min6/C",
+    "Chọn gam / scale khi gặp hợp âm dim7, m6/Ab, m6/C trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim7",
+      "m6/Ab",
+      "m6/C"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G dim7",
+    "notes": [
+      "G3",
+      "Db4",
+      "E4",
+      "G4"
+    ],
+    "source_text": "Left hand plays the melody down an octave, creating melody notes in octaves on the outside while the inner notes complete the block chord voicings."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 30 của nguồn Jazz Scales (YouTube), mốc 03:30-03:58. Left hand plays the melody down an octave, creating melody notes in octaves on the outside while the inner notes complete the block chord voicings. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

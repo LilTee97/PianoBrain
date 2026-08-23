@@ -1,0 +1,56 @@
+{
+  "id": "jazz-scales-bai-29-03-cdim7",
+  "type": "voicing",
+  "name": "C diminished 7th chord has four inversions moving upward:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-29",
+    "locator": "00:50-02:05",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cdim7",
+    "Chọn gam / scale khi gặp hợp âm dim7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cdim7",
+    "notes": [
+      "C4",
+      "Eb4",
+      "F#4",
+      "A4",
+      "Eb4",
+      "F#4",
+      "A4",
+      "C5",
+      "F#4",
+      "A4",
+      "C5",
+      "Eb5",
+      "A4",
+      "C5",
+      "Eb5",
+      "F#5",
+      "C5",
+      "Eb5",
+      "F#5",
+      "A5"
+    ],
+    "source_text": "C diminished 7th chord has four inversions moving upward: Root position (C-Eb-F#-A), 1st inversion (Eb-F#-A-C), 2nd inversion (F#-A-C-Eb), 3rd inversion (A-C-Eb-F#), and back to Root position an octave higher (C-Eb-F#-A)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 29 của nguồn Jazz Scales (YouTube), mốc 00:50-02:05. C diminished 7th chord has four inversions moving upward: Root position (C-Eb-F#-A), 1st inversion (Eb-F#-A-C), 2nd inversion (F#-A-C-Eb), 3rd inversion (A-C-Eb-F#), and back to Root position an octave higher (C-Eb-F#-A). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

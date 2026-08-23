@@ -1,0 +1,40 @@
+{
+  "id": "jazz-scales-bai-28-09-c-half-whole-diminished-scale",
+  "type": "voicing",
+  "name": "Altering any single note in a diminished 7th chord up by a whole step maintains the note within ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-28",
+    "locator": "10:43-12:16",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Db°",
+    "Chọn gam / scale khi gặp hợp âm ° trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "°"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Db° altered",
+    "notes": [
+      "D#",
+      "E",
+      "G",
+      "Bb"
+    ],
+    "source_text": "Altering any single note in a diminished 7th chord up by a whole step maintains the note within the diminished scale while creating a higher-tension substitute voicing. For example, in Db° (Db, E, G, Bb), raising Db to D# yields D# E G Bb; raising E to F# yields Db F# G Bb; raising G to A yields Db E A Bb; raising Bb to C yields Db E G C."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 28 của nguồn Jazz Scales (YouTube), mốc 10:43-12:16. Altering any single note in a diminished 7th chord up by a whole step maintains the note within the diminished scale while creating a higher-tension substitute voicing. For example, in Db° (Db, E, G, Bb), raising Db to D# yields D# E G Bb; raising E to F# yields Db F# G Bb; raising G to A yields Db E A Bb; raising Bb to C yields Db E G C. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}
