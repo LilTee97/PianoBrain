@@ -65,6 +65,11 @@
       "mark": null,
       "dau": "scale|15:55-18:30|C D Eb E F F# G A Bb"
     },
+    "jazz-scales-bai-04-01-f-aeolian": {
+      "status": "rejected",
+      "mark": "[RÀ TAY: thầy rải thế bấm tay trái ra rộng, không chạy gam — 5 nốt là ngũ cung Thứ, không phải Aeolian]",
+      "dau": "concept|01:41-02:29|F2 C3 Eb3 Ab3 Bb3 C4"
+    },
     "jazz-scales-bai-05-02-c-mixolydian": {
       "status": "validated",
       "mark": null,
@@ -140,6 +145,41 @@
       "mark": null,
       "dau": "concept|04:29-05:38|G A B C# D# F"
     },
+    "jazz-scales-bai-16-04-c-dominant-bebop-scale": {
+      "status": "validated",
+      "mark": null,
+      "dau": "scale|02:30-03:10|C4 D4 E4 F4 G4 A4 Bb4 B4 C5"
+    },
+    "jazz-scales-bai-16-07-c-dorian-bebop-scale": {
+      "status": "validated",
+      "mark": null,
+      "dau": "scale|05:12-06:52|C4 D4 Eb4 E4 F4 G4 A4 Bb4 C5"
+    },
+    "jazz-scales-bai-17-02-major-bebop-scale": {
+      "status": "validated",
+      "mark": null,
+      "dau": "scale|03:14-04:31|C4 D4 E4 F4 G4 Ab4 A4 B4 C5"
+    },
+    "jazz-scales-bai-17-06-dominant-bebop-scale": {
+      "status": "validated",
+      "mark": null,
+      "dau": "scale|07:10-08:21|C4 D4 E4 F4 G4 A4 Bb4 B4 C5"
+    },
+    "jazz-scales-bai-17-11-minor-bebop-scale": {
+      "status": "validated",
+      "mark": null,
+      "dau": "scale|12:19-13:34|C4 D4 Eb4 F4 G4 A4 Bb4 B4 C5"
+    },
+    "jazz-scales-bai-17-12-minor-bebop-scale-2": {
+      "status": "validated",
+      "mark": null,
+      "dau": "scale|13:35-14:05|C4 D4 Eb4 E4 F4 G4 A4 Bb4 C5"
+    },
+    "jazz-scales-bai-17-15-bebop-melodic-minor": {
+      "status": "validated",
+      "mark": null,
+      "dau": "scale|15:23-16:14|C4 D4 Eb4 F4 G4 Ab4 A4 B4 C5"
+    },
     "jazz-scales-bai-18-02-g-altered": {
       "status": "rejected",
       "mark": "[RÀ TAY: thầy đàn nốt B, kho ghi nốt C]",
@@ -154,6 +194,16 @@
       "status": "validated",
       "mark": null,
       "dau": "rule|02:14-02:34|Ab Bb Cb Db Eb F G"
+    },
+    "jazz-scales-bai-22-06-half-whole-diminished": {
+      "status": "validated",
+      "mark": null,
+      "dau": "rule|06:48-08:33|C4 Bb3 A3 G3 F#3 E3 Eb3 Db3"
+    },
+    "jazz-scales-bai-22-09-whole-half-diminished": {
+      "status": "validated",
+      "mark": null,
+      "dau": "scale|11:35-12:40|C4 D4 Eb4 F4 F#4 G#4 A4 B4 C5"
     },
     "jazz-scales-bai-23-01-diminished-scale": {
       "status": "validated",

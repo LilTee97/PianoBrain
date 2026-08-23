@@ -27,32 +27,6 @@
     ]
   },
   "output": {
-    "scale": {
-      "name": "F Aeolian",
-      "root": "F",
-      "note_names": [
-        "F2",
-        "C3",
-        "Eb3",
-        "Ab3",
-        "Bb3",
-        "C4"
-      ],
-      "semitones_from_root": [
-        0,
-        3,
-        5,
-        7,
-        10
-      ],
-      "for_qualities": [
-        "m7(11)"
-      ],
-      "use_when": [
-        "hợp âm F min7(11)",
-        "hợp âm Ab Maj(add2)/C"
-      ]
-    },
     "chord_symbol": "F min7(11)",
     "notes": [
       "F2",
@@ -65,6 +39,6 @@
     "source_text": "Arpeggio Formation Theory cơ bản bắt đầu từ việc trực tiếp rải (arpeggiate) một thế bấm hợp âm (voicing) của tay trái ra rộng khắp trên bàn phím bằng một hoặc hai tay."
   },
   "origin": "extracted",
-  "status": "draft",
-  "note_vi": "Bài 4 của nguồn Jazz Scales (YouTube), mốc 01:41-02:29. Arpeggio Formation Theory cơ bản bắt đầu từ việc trực tiếp rải (arpeggiate) một thế bấm hợp âm (voicing) của tay trái ra rộng khắp trên bàn phím bằng một hoặc hai tay. Item còn draft: chưa ai xem lại video để đối chiếu."
+  "status": "rejected",
+  "note_vi": "Bài 4 của nguồn Jazz Scales (YouTube), mốc 01:41-02:29. Arpeggio Formation Theory cơ bản bắt đầu từ việc trực tiếp rải (arpeggiate) một thế bấm hợp âm (voicing) của tay trái ra rộng khắp trên bàn phím bằng một hoặc hai tay. Item còn draft: chưa ai xem lại video để đối chiếu. [RÀ TAY: thầy rải thế bấm tay trái ra rộng, không chạy gam — 5 nốt là ngũ cung Thứ, không phải Aeolian]"
 }
