@@ -121,6 +121,26 @@ function relabel(name: string | null, root: string): string | null {
  * ba nốt, còn `dim7` có bậc bảy giảm ở 9 nửa cung nên phép "có 10 hay 11 không"
  * cũng trượt. Danh sách thì đọc là hiểu và không có chỗ nào để trượt.
  */
+/**
+ * Bộ nốt của một giọng: `"C"` -> Đô trưởng, `"Am"` -> La thứ tự nhiên.
+ *
+ * Hai giọng ấy cùng bảy nốt, nên hàm chỉ cần dịch nốt gốc rồi lấy hình trưởng
+ * hoặc hình thứ tự nhiên. Không đọc được thì trả `null`, và bên gọi giữ nguyên
+ * lối cũ — thà không biết giọng còn hơn đoán sai giọng.
+ */
+const MAJOR_SHAPE = [0, 2, 4, 5, 7, 9, 11];
+const MINOR_SHAPE = [0, 2, 3, 5, 7, 8, 10];
+
+function keyPitchClasses(key: string | null | undefined): Set<number> | null {
+  if (!key) return null;
+  const m = /^([A-G][#b]?)\s*(m(?!aj)|min|minor)?$/i.exec(key.trim());
+  if (!m) return null;
+  const root = pitchOfNote(m[1]);
+  if (Number.isNaN(root)) return null;
+  const shape = m[2] ? MINOR_SHAPE : MAJOR_SHAPE;
+  return new Set(shape.map((s) => (((root + s) % 12) + 12) % 12));
+}
+
 const PLAIN_TRIADS = new Set([
   "maj",
   "m",
@@ -168,6 +188,23 @@ export interface ScaleForOptions {
   teachers?: readonly string[];
   /** Chỉ lấy item đã đối chiếu nguồn. Mặc định nhận cả draft. */
   requireValidated?: boolean;
+  /**
+   * Giọng của bài, ví dụ `"C"` hoặc `"Am"`.
+   *
+   * Không có nó thì hàm này chỉ biết **nốt gốc hợp âm**, và với hợp âm ba nốt
+   * đó là chỗ hẹp: cùng một chất, hai nốt gốc, hai gam khác nhau, mà cái quyết
+   * định là **bậc của hợp âm trong giọng**. Đo trên giọng Đô:
+   *
+   *     Am(add9)  cần A Aeolian  — Dorian trên La cho Fa thăng, lạc giọng
+   *     Dm(add9)  cần D Dorian   — Aeolian trên Rê cho Si giáng, lạc giọng
+   *
+   * Nên không có giọng thì hàm giữ nguyên lối cũ: hợp âm ba nốt chỉ nhận ngũ
+   * cung, vì ngũ cung dựng trên nốt gốc thì không lạc hợp âm nào. Có giọng thì
+   * nó nhận thêm thang âm bảy nốt — **nhưng chỉ khi mọi nốt của thang âm ấy nằm
+   * trong giọng**. Đó đúng là điều kiện mà bộ lọc cũ không kiểm được vì không
+   * biết giọng, nên nó phải cấm cả loại.
+   */
+  key?: string | null;
 }
 
 /**
@@ -350,8 +387,25 @@ export function scaleFor(
     Im lặng còn hơn kêu sai: không có ngũ cung thì bên gọi lùi về nốt hợp âm,
     vẫn đúng hoà âm, chỉ là ít màu.
   */
+  /*
+    Có giọng thì thang âm bảy nốt được nhận lại — **nếu nó nằm trọn trong giọng**.
+
+    Bộ lọc trên cấm cả loại vì nó không biết giọng, mà không biết giọng thì không
+    phân biệt được A Aeolian trên hợp âm La thứ (trọn trong giọng Đô) với A Dorian
+    trên cùng hợp âm ấy (cho Fa thăng, lạc hẳn). Cấm cả hai là an toàn nhưng câm
+    luôn cả cái đúng.
+
+    Biết giọng rồi thì điều kiện viết ra được, và nó là điều kiện thật chứ không
+    phải đếm số nốt: mọi nốt của thang âm phải là nốt của giọng.
+  */
+  const keyPcs = keyPitchClasses(options.key);
+  const trongGiong = (choice: ScaleChoice) =>
+    keyPcs !== null && choice.pitch_classes.every((pc) => keyPcs.has(pc));
+
   const usable = isTriad
-    ? matched.filter((choice) => choice.semitones_from_root.length <= 5)
+    ? matched.filter(
+        (choice) => choice.semitones_from_root.length <= 5 || trongGiong(choice),
+      )
     : [...matched];
   matched.length = 0;
   matched.push(...usable);

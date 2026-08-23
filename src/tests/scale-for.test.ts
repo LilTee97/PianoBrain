@@ -180,6 +180,69 @@ describe("scaleFor — chọn thang âm từ kho", () => {
     }
   });
 
+  it("biết giọng thì bậc thể của chính hợp âm được nhận", () => {
+    /*
+      Cùng một chất, hai nốt gốc, hai gam khác nhau — và cái quyết định là **bậc
+      của hợp âm trong giọng**, không phải chất hợp âm. Trong giọng Đô:
+
+        Am(add9) cần La thứ tự nhiên — Dorian trên La cho Fa thăng
+        Dm(add9) cần Rê Dorian       — Aeolian trên Rê cho Si giáng
+
+      Nên luật nối chỉ nêu ứng viên, còn bộ lọc theo giọng gạt cái nào lạc.
+    */
+    const trongGiongC = new Set([0, 2, 4, 5, 7, 9, 11]);
+    for (const [symbol, ten] of [
+      ["Am(add9)", /thứ tự nhiên|aeolian/i],
+      ["Dm(add9)", /dorian/i],
+      ["Csus4", /trưởng|ionian|major/i],
+      ["Gsus4", /mixolydian/i],
+      ["Dm6", /dorian/i],
+    ] as const) {
+      const best = scaleFor(symbol, kb, { requireValidated: true, key: "C" }).best;
+      assert.ok(best, `${symbol} không ra gam khi biết giọng`);
+      assert.match(best.name ?? "", ten, symbol);
+      for (const pc of best.pitch_classes) {
+        assert.ok(trongGiongC.has(pc), `${symbol}: nốt ${pc} lạc giọng Đô`);
+      }
+    }
+  });
+
+  it("hợp âm MƯỢN vẫn im, dù đã biết giọng", () => {
+    /*
+      `Em(add9)` cần bậc 9 tự nhiên, ra Fa thăng; `Am6` cần bậc 6 tự nhiên, cũng
+      Fa thăng. Hai hợp âm ấy không nằm trong giọng Đô, nên không bậc thể nào của
+      giọng phục vụ được — im là đúng, không phải thiếu sót.
+
+      `Bdim` thì thiếu thật: bậc thể của nó là Locrian, mà kho chưa có bản Locrian
+      nào đã rà.
+    */
+    for (const symbol of ["Em(add9)", "Am6", "Bdim"]) {
+      assert.equal(
+        scaleFor(symbol, kb, { requireValidated: true, key: "C" }).best,
+        null,
+        `${symbol} không được có gam trong giọng Đô`,
+      );
+    }
+  });
+
+  it("không biết giọng thì giữ nguyên lối cũ, không kêu bừa", () => {
+    /*
+      Đây là nửa an toàn của luật. Thang âm bảy nốt dựng trên nốt gốc hợp âm ba
+      nốt thì phần lớn lạc giọng; không biết giọng thì không phân biệt được cái
+      đúng với cái lạc, nên cấm cả loại vẫn là đúng.
+    */
+    for (const symbol of ["Am(add9)", "Dm(add9)", "Csus4", "Gsus4", "Dm6"]) {
+      assert.equal(scaleFor(symbol, kb, { requireValidated: true }).best, null, symbol);
+    }
+    // Hợp âm ba nốt trơn không đổi gì: ngũ cung vốn không lạc giọng bao giờ.
+    for (const symbol of ["C", "Am", "F", "G"]) {
+      const a = scaleFor(symbol, kb, { requireValidated: true }).best;
+      const b = scaleFor(symbol, kb, { requireValidated: true, key: "C" }).best;
+      assert.equal(a?.item_id, b?.item_id, symbol);
+      assert.equal(a?.semitones_from_root.length, 5, symbol);
+    }
+  });
+
   it("sus4 trơn, m6, madd9, dim vẫn im — và im là đúng", () => {
     /*
       Bốn chất này có tới 17-30 gam đã rà chứa đủ nốt, nên **nối được** về mặt

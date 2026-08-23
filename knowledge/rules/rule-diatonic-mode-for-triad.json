@@ -1,0 +1,46 @@
+{
+  "id": "rule-diatonic-mode-for-triad",
+  "type": "rule",
+  "name": "Hợp âm ba nốt mở rộng dùng bậc thể của chính nó trong giọng",
+  "difficulty": 3,
+  "source": null,
+  "use_when": [
+    "Đoạn giang tấu trên hợp âm sus4, m6, madd9 — và BIẾT giọng của bài"
+  ],
+  "avoid_when": [
+    "Không biết giọng: lúc đó bậc thể nào cũng có vẻ hợp mà phần lớn là lạc giọng",
+    "Hợp âm bảy jazz — đã có gam riêng thầy dạy thẳng",
+    "sus2, 6, add9 — ngũ cung của thầy Hải đã lo, và ngũ cung không lạc giọng bao giờ"
+  ],
+  "input": {
+    "chord_quality": ["sus4", "m6", "madd9", "madd2"],
+    "section": ["interlude", "solo"],
+    "hand": "RH"
+  },
+  "output": {
+    "if": "hợp âm ba nốt thêm hoặc đổi một nốt, và nốt ấy nằm trong giọng của bài",
+    "then": "dùng bậc thể của giọng dựng trên chính nốt gốc hợp âm — bậc thể nào thì để bộ lọc giọng chọn",
+    "chord_scale_map": [
+      {
+        "chord_quality": ["sus4"],
+        "scale_item": "tap-02-bai-02-lesson-id-00001"
+      },
+      {
+        "chord_quality": ["sus4"],
+        "scale_item": "jazz-scales-bai-02-06-c-mixolydian"
+      },
+      {
+        "chord_quality": ["sus4", "m6", "madd9", "madd2"],
+        "scale_item": "jazz-scales-bai-02-04-c-dorian"
+      },
+      {
+        "chord_quality": ["sus4", "madd9", "madd2"],
+        "scale_item": "tap-02-bai-01-lesson-tap02-bai01-001"
+      }
+    ],
+    "derived_from": ["rule-hai-triad-pentatonic-extended"]
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Suy luận, không phải lời thầy — không mang nguồn, không gán thầy, giữ draft. Luật này CỐ Ý liệt kê nhiều bậc thể cho cùng một chất, vì bậc thể đúng phụ thuộc BẬC CỦA HỢP ÂM TRONG GIỌNG chứ không phụ thuộc chất hợp âm: trong giọng Đô, Am(add9) cần La thứ tự nhiên còn Dm(add9) cần Rê Dorian — Dorian trên La cho Fa thăng, Aeolian trên Rê cho Si giáng, cả hai đều lạc. Không luật nào chốt sẵn một bậc thể mà đúng cho mọi nốt gốc. Nên luật chỉ nêu ứng viên, còn bộ lọc theo giọng bên scaleFor gạt cái nào lạc giọng — và khi không biết giọng thì bộ lọc hợp âm ba nốt vẫn cấm hết thang âm bảy nốt, tức im lặng như cũ, không kêu bừa. CỐ Ý KHÔNG có dim: bậc thể của hợp âm giảm trong giọng là Locrian, mà kho chưa có bản Locrian nào đã rà — item duy nhất mang hình Locrian là bản G altered bài 18 đã bị bác. CỐ Ý KHÔNG có madd9 trên bậc ba: hợp âm ấy cần bậc 9 tự nhiên, mà Phrygian có bậc 2 giáng — Em(add9) trong giọng Đô cho Fa thăng, tức nó là hợp âm mượn chứ không nằm trong giọng, không bậc thể nào phục vụ được."
+}
