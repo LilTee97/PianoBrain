@@ -164,6 +164,44 @@ describe("scaleFor — chọn thang âm từ kho", () => {
     }
   });
 
+  it("át treo có màu lấy gam của hợp âm át", () => {
+    /*
+      9sus4 và 13sus4 chỉ là 7sus4 thêm màu, mà 7sus4 thì bài 2 đã gắn thẳng cho
+      Mixolydian. Thứ làm chúng thuộc họ át là **bậc bảy hạ**, không phải bậc bốn
+      treo — nên gam của hợp âm át là đúng chỗ.
+    */
+    for (const symbol of ["C9sus4", "G13sus4", "E9sus4"]) {
+      const best = scaleFor(symbol, kb, { requireValidated: true }).best;
+      assert.ok(best, `${symbol} không ra gam`);
+      assert.match(best.name ?? "", /mixolydian/i);
+      // Dựng trên nốt gốc của chính hợp âm, không phải nốt gốc của bài giảng.
+      const chord = parseChord(symbol)!;
+      assert.equal(best.root, pitchOfNote(chord.root), symbol);
+    }
+  });
+
+  it("sus4 trơn, m6, madd9, dim vẫn im — và im là đúng", () => {
+    /*
+      Bốn chất này có tới 17-30 gam đã rà chứa đủ nốt, nên **nối được** về mặt
+      số học. Nhưng nối bằng thang âm bảy nốt dựng trên nốt gốc hợp âm thì lạc
+      giọng: đo trên một bài giọng Đô, `Fsus4` + Mixolydian ra Si giáng và Mi
+      giáng, `Am6` + Dorian ra Fa thăng, `C#dim` + Whole-Half lạc bốn nốt.
+
+      Ngũ cung thì không lạc, nhưng không ngũ cung nào chứa đủ nốt của chúng:
+      ngũ cung Trưởng thiếu bậc 4, ngũ cung Thứ thiếu cả bậc 2 lẫn bậc 6.
+
+      Im lặng còn hơn kêu sai — bên gọi lùi về nốt hợp âm, vẫn đúng hoà âm, chỉ
+      ít màu. Nới chỗ này ra là đổi một chỗ thiếu lấy một chỗ sai.
+    */
+    for (const symbol of ["Csus4", "Fsus4", "Cm6", "Am6", "Cmadd9", "Cdim"]) {
+      assert.equal(
+        scaleFor(symbol, kb, { requireValidated: true }).best,
+        null,
+        `${symbol} không được có gam`,
+      );
+    }
+  });
+
   it("gam chưa ai rà thì KHÔNG lọt, dù có luật trỏ tới", () => {
     /*
       Đây là nửa còn lại của cùng một luật, và là nửa quan trọng hơn. Nới cửa cho

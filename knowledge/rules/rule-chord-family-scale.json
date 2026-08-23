@@ -1,0 +1,34 @@
+{
+  "id": "rule-chord-family-scale",
+  "type": "rule",
+  "name": "Át treo có màu (9sus4, 13sus4) dùng gam của hợp âm át",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Đoạn giang tấu trên hợp âm 9sus4 hoặc 13sus4"
+  ],
+  "avoid_when": [
+    "sus4 trơn — không có bậc 7 thì nó là hợp âm treo giải quyết xuống, không phải hợp âm át",
+    "sus2, 6, add9 — đã có rule-hai-triad-pentatonic-extended lo",
+    "Khi kho có nguồn thật dạy gam cho họ sus: lúc đó bỏ item này đi, đừng giữ song song"
+  ],
+  "input": {
+    "chord_quality": ["9sus4", "13sus4"],
+    "section": ["interlude", "solo"],
+    "hand": "RH"
+  },
+  "output": {
+    "if": "hợp âm treo bậc bốn NHƯNG vẫn mang bậc bảy hạ",
+    "then": "dùng gam của hợp âm át cùng nốt gốc",
+    "chord_scale_map": [
+      {
+        "chord_quality": ["9sus4", "13sus4"],
+        "scale_item": "jazz-scales-bai-02-06-c-mixolydian"
+      }
+    ],
+    "derived_from": ["rule-hai-triad-pentatonic-extended"]
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Suy luận, không phải lời thầy — nên không mang nguồn, không gán thầy, giữ draft. Bài 2 của nguồn Jazz Scales đã gắn Mixolydian cho 7sus4; đây là phần mở rộng sang hai cách viết còn lại của CÙNG MỘT CHẤT, vì 9sus4 và 13sus4 chỉ là 7sus4 thêm màu. Điều làm chúng thuộc họ át là BẬC BẢY HẠ, không phải bậc bốn treo. CỐ Ý KHÔNG có sus4 trơn: thiếu bậc bảy thì nó không phải hợp âm át mà là hợp âm treo giải quyết xuống chính hợp âm ba nốt cùng gốc, và Mixolydian dựng trên nốt gốc ấy cho bậc bảy hạ lạc hẳn giọng — đo trên bài giọng Đô: Fsus4 ra Bb và Eb. CỐ Ý KHÔNG có m6, madd9 và dim: bản đầu của item này định nối chúng với Dorian và Whole-Half Diminished, nhưng đo lại thì Am6 và Am(add9) ra Gb, C#dim ra tới bốn nốt lạc giọng — đúng thứ mà bộ lọc 'hợp âm ba nốt chỉ nhận ngũ cung' bên scaleFor lập ra để chặn, và chặn đúng. Ba chất ấy vẫn chưa có gam: ngũ cung Trưởng không có bậc 4, ngũ cung Thứ không có bậc 2 lẫn bậc 6, nên không ngũ cung nào chứa đủ nốt của chúng. Nói thiếu đúng hơn là lấp bằng một gam lạc giọng."
+}
