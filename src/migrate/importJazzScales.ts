@@ -172,7 +172,23 @@ const rootOfChord = (symbol: string): string | null =>
  */
 const SCALE_ROWS = new Set(["scale", "concept", "rule_candidate", "warning"]);
 
+/*
+  Lời thầy đè nhãn của bộ trích xuất.
+
+  Bài 4 mốc 01:41 vào kho thành "F Aeolian" dùng cho m7(11), trong khi chính
+  dòng ấy chép lời thầy: "rải một thế bấm hợp âm của tay trái ra rộng khắp bàn
+  phím". Người rà mở video và xác nhận đúng vậy — tay trái giữ Fa trầm, tay phải
+  rải Đô Mi giáng La giáng Si giáng lên. Đó là thế bấm trải ra, không phải gam,
+  và năm nốt ấy là ngũ cung Thứ chứ không phải Aeolian bảy nốt.
+
+  Nhãn `type` là do bộ trích xuất đặt; `raw_text` là lời thầy. Lời thầy đúng hơn.
+  Đo trên cả 23 bài thì luật này chạm đúng hai dòng, cả hai đều ở bài 4 và cả hai
+  đều đang dạy rải hợp âm.
+*/
+const NOI_LA_RAI = /arpeggi|rải|thể đảo|inversion/i;
+
 function looksLikeScale(row: Row, semitones: number[], notes: readonly string[]): boolean {
+  if (NOI_LA_RAI.test(row.raw_text ?? "")) return false;
   if (!row.music_entities?.scales?.[0]) return false;
   if (!SCALE_ROWS.has(row.type)) return false;
   if (semitones.length < 5 || semitones.length > 9) return false;

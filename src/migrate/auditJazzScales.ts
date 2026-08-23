@@ -37,6 +37,9 @@ export const SHAPES: [RegExp, number[]][] = [
   [/mixolydian/i, [0, 2, 4, 5, 7, 9, 10]],
   [/lydian.?dominant|lydian dominant/i, [0, 2, 4, 6, 7, 9, 10]],
   [/lydian/i, [0, 2, 4, 6, 7, 9, 11]],
+  // Dorian thêm bậc 3 tự nhiên làm nốt lướt — phải đứng TRƯỚC /dorian/, không thì
+  // "Dorian Bebop Scale" bị bắt bởi luật Dorian thường rồi kêu thừa một nốt.
+  [/dorian bebop|bebop dorian/i, [0, 2, 3, 4, 5, 7, 9, 10]],
   [/dorian/i, [0, 2, 3, 5, 7, 9, 10]],
   [/major bebop/i, [0, 2, 4, 5, 7, 8, 9, 11]],
   [/minor bebop/i, [0, 2, 3, 5, 7, 9, 10, 11]],
