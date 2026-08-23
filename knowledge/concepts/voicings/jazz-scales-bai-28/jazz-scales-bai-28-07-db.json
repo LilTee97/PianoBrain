@@ -12,7 +12,7 @@
   "use_when": [
     "Ngẫu hứng jazz trên hợp âm C7b9",
     "Ngẫu hứng jazz trên hợp âm Db°",
-    "Chọn gam / scale khi gặp hợp âm 7b9, ° trong nhạc jazz"
+    "Chọn gam / scale khi gặp hợp âm 7b9, dim trong nhạc jazz"
   ],
   "avoid_when": [
     "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
@@ -20,7 +20,7 @@
   "input": {
     "chord_quality": [
       "7b9",
-      "°"
+      "dim"
     ],
     "style": [
       "jazz"

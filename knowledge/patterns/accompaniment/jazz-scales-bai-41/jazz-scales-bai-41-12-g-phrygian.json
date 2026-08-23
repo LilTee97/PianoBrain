@@ -1,0 +1,56 @@
+{
+  "id": "jazz-scales-bai-41-12-g-phrygian",
+  "type": "exercise",
+  "name": "Multiple borrowed chords from Phrygian/Aeolian/Locrian in 'Here's That Rainy Day' in G Major:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "16:10-16:58",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm GMaj7",
+    "Ngẫu hứng jazz trên hợp âm Bb7",
+    "Ngẫu hứng jazz trên hợp âm EbMaj7",
+    "Ngẫu hứng jazz trên hợp âm AbMaj7",
+    "Chọn gam / scale khi gặp hợp âm majj7, 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "majj7",
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "GMaj7 - Bb7 - EbMaj7 - AbMaj7",
+    "notes": [
+      "G2",
+      "B2",
+      "D3",
+      "F#3",
+      "Bb2",
+      "D3",
+      "F3",
+      "Ab3",
+      "Eb3",
+      "G3",
+      "Bb3",
+      "D4",
+      "Ab2",
+      "C3",
+      "Eb3",
+      "G3"
+    ],
+    "source_text": "Multiple borrowed chords from Phrygian/Aeolian/Locrian in 'Here's That Rainy Day' in G Major: GMaj7 -> Bb7 (bIII7 from Phrygian) -> EbMaj7 (bVIMaj7 from Aeolian/Phrygian) -> AbMaj7 (bIIMaj7 from Phrygian/Locrian)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 16:10-16:58. Multiple borrowed chords from Phrygian/Aeolian/Locrian in 'Here's That Rainy Day' in G Major: GMaj7 -> Bb7 (bIII7 from Phrygian) -> EbMaj7 (bVIMaj7 from Aeolian/Phrygian) -> AbMaj7 (bIIMaj7 from Phrygian/Locrian). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

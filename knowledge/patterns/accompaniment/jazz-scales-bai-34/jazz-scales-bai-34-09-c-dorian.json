@@ -1,0 +1,48 @@
+{
+  "id": "jazz-scales-bai-34-09-c-dorian",
+  "type": "accompaniment",
+  "name": "Technique 2:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-34",
+    "locator": "07:29-09:53",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cm7",
+    "notes": [
+      "Bb3",
+      "D4",
+      "C4",
+      "D4",
+      "F4",
+      "Eb4",
+      "F4",
+      "A4",
+      "G4",
+      "A4",
+      "C5",
+      "Bb4"
+    ],
+    "source_text": "Technique 2: Enclosures. Enclose chord tones (Root C, 3rd Eb, 5th G, 7th Bb) of Cm7 from below (lower note, upper note, target chord tone) or above."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 34 của nguồn Jazz Scales (YouTube), mốc 07:29-09:53. Technique 2: Enclosures. Enclose chord tones (Root C, 3rd Eb, 5th G, 7th Bb) of Cm7 from below (lower note, upper note, target chord tone) or above. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

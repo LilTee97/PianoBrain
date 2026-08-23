@@ -1,0 +1,46 @@
+{
+  "id": "jazz-scales-bai-33-14-melodic-minor",
+  "type": "rule",
+  "name": "To determine which chord a minor scale fits over for improvisation, isolate scale degrees 1, 3, ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-33",
+    "locator": "03:36-04:44",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm CmM7",
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Ngẫu hứng jazz trên hợp âm Cm7b5",
+    "Ngẫu hứng jazz trên hợp âm CmM7#5",
+    "Chọn gam / scale khi gặp hợp âm mM7, m7, m7b5, mM7#5 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "mM7",
+      "m7",
+      "m7b5",
+      "mM7#5"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "CmM7#5",
+    "notes": [
+      "C4",
+      "Eb4",
+      "G#4",
+      "B4"
+    ],
+    "source_text": "To determine which chord a minor scale fits over for improvisation, isolate scale degrees 1, 3, 5, and 7: 1-b3-5-7 matches minor-major 7 (mM7); 1-b3-5-b7 matches minor 7 (m7); 1-b3-b5-b7 matches half-diminished (m7b5); 1-b3-#5-7 matches minor-major 7 sharp 5 (mM7#5)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 33 của nguồn Jazz Scales (YouTube), mốc 03:36-04:44. To determine which chord a minor scale fits over for improvisation, isolate scale degrees 1, 3, 5, and 7: 1-b3-5-7 matches minor-major 7 (mM7); 1-b3-5-b7 matches minor 7 (m7); 1-b3-b5-b7 matches half-diminished (m7b5); 1-b3-#5-7 matches minor-major 7 sharp 5 (mM7#5). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

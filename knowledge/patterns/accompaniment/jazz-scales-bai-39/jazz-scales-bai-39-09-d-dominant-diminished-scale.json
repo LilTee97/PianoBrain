@@ -1,0 +1,42 @@
+{
+  "id": "jazz-scales-bai-39-09-d-dominant-diminished-scale",
+  "type": "exercise",
+  "name": "Ứng dụng Scale #3 (D Dominant Diminished) trên tiến trình V7 - I cho các hợp âm:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-39",
+    "locator": "20:23-26:34",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm D7",
+    "Ngẫu hứng jazz trên hợp âm GMaj7",
+    "Ngẫu hứng jazz trên hợp âm F7",
+    "Ngẫu hứng jazz trên hợp âm BbMaj7",
+    "Ngẫu hứng jazz trên hợp âm Ab7",
+    "Ngẫu hứng jazz trên hợp âm DbMaj7",
+    "Ngẫu hứng jazz trên hợp âm B7",
+    "Ngẫu hứng jazz trên hợp âm EMaj7",
+    "Chọn gam / scale khi gặp hợp âm 7, majj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "majj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "D7 -> GMaj7",
+    "source_text": "Ứng dụng Scale #3 (D Dominant Diminished) trên tiến trình V7 - I cho các hợp âm: D7 -> GMaj7, F7 -> BbMaj7, Ab7 -> DbMaj7, B7 -> EMaj7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 39 của nguồn Jazz Scales (YouTube), mốc 20:23-26:34. Ứng dụng Scale #3 (D Dominant Diminished) trên tiến trình V7 - I cho các hợp âm: D7 -> GMaj7, F7 -> BbMaj7, Ab7 -> DbMaj7, B7 -> EMaj7. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

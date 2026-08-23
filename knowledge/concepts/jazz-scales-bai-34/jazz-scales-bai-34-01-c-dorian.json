@@ -1,0 +1,39 @@
+{
+  "id": "jazz-scales-bai-34-01-c-dorian",
+  "type": "concept",
+  "name": "The Dorian scale is the most essential scale for improvising over minor chords such as C minor.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-34",
+    "locator": "00:00-00:38",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm",
+    "Chọn gam / scale khi gặp hợp âm m trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cm",
+    "notes": [
+      "C4",
+      "Eb4",
+      "G4"
+    ],
+    "source_text": "The Dorian scale is the most essential scale for improvising over minor chords such as C minor."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 34 của nguồn Jazz Scales (YouTube), mốc 00:00-00:38. The Dorian scale is the most essential scale for improvising over minor chords such as C minor. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "jazz-scales-bai-37-04-f-m7b5",
+  "type": "voicing",
+  "name": "In other keys, such as G major, the vii° chord is F#dim.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-37",
+    "locator": "02:48-04:08",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F#dim",
+    "Ngẫu hứng jazz trên hợp âm F#m7b5",
+    "Ngẫu hứng jazz trên hợp âm F#ø7",
+    "Chọn gam / scale khi gặp hợp âm dim, m7b5 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim",
+      "m7b5"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F#m7b5",
+    "notes": [
+      "F#3",
+      "A3",
+      "C4",
+      "E4"
+    ],
+    "source_text": "In other keys, such as G major, the vii° chord is F#dim. When extending the triad to a 7th chord diatonically, it forms F#m7(b5) (half-diminished 7th: F#-A-C-E). The label m7(b5) is preferred over ø7 in modern sheet music for readability."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 37 của nguồn Jazz Scales (YouTube), mốc 02:48-04:08. In other keys, such as G major, the vii° chord is F#dim. When extending the triad to a 7th chord diatonically, it forms F#m7(b5) (half-diminished 7th: F#-A-C-E). The label m7(b5) is preferred over ø7 in modern sheet music for readability. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

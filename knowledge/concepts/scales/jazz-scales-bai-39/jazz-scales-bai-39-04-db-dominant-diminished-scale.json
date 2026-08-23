@@ -1,0 +1,82 @@
+{
+  "id": "jazz-scales-bai-39-04-db-dominant-diminished-scale",
+  "type": "scale",
+  "name": "Gam Db Dominant Diminished Scale cho hợp âm Db7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-39",
+    "locator": "03:51-05:47",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Db7",
+    "Ngẫu hứng jazz trên hợp âm E7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm Bb7",
+    "Chọn gam / scale khi gặp hợp âm 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "Db Dominant Diminished Scale",
+      "root": "Db",
+      "note_names": [
+        "Db4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "Ab4",
+        "Bb4",
+        "B4",
+        "Db5"
+      ],
+      "semitones_from_root": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "7"
+      ],
+      "use_when": [
+        "hợp âm Db7",
+        "hợp âm E7",
+        "hợp âm G7",
+        "hợp âm Bb7"
+      ]
+    },
+    "chord_symbol": "Db7",
+    "notes": [
+      "Db4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "Ab4",
+      "Bb4",
+      "B4",
+      "Db5"
+    ],
+    "source_text": "Db/C# Dominant Diminished Scale (Scale #2) gồm các nốt: Db - D - E - F - G - Ab - Bb - B - Db. Cấu trúc xen kẽ nửa cung - nguyên cung. Gam này dùng chung cho 4 hợp âm Dominant 7th cách nhau quãng 3 thứ: Db7, E7, G7, Bb7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 39 của nguồn Jazz Scales (YouTube), mốc 03:51-05:47. Db/C# Dominant Diminished Scale (Scale #2) gồm các nốt: Db - D - E - F - G - Ab - Bb - B - Db. Cấu trúc xen kẽ nửa cung - nguyên cung. Gam này dùng chung cho 4 hợp âm Dominant 7th cách nhau quãng 3 thứ: Db7, E7, G7, Bb7. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

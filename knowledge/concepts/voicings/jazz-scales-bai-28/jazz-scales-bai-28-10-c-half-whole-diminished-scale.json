@@ -16,14 +16,14 @@
     "Ngẫu hứng jazz trên hợp âm D#13b9#9#11",
     "Ngẫu hứng jazz trên hợp âm F#13b9#9#11",
     "Ngẫu hứng jazz trên hợp âm A13b9#9#11",
-    "Chọn gam / scale khi gặp hợp âm °, 13b9#9#11 trong nhạc jazz"
+    "Chọn gam / scale khi gặp hợp âm dim, 13b9#9#11 trong nhạc jazz"
   ],
   "avoid_when": [
     "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
   ],
   "input": {
     "chord_quality": [
-      "°",
+      "dim",
       "13b9#9#11"
     ],
     "style": [

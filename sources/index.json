@@ -1190,6 +1190,106 @@
       "ingested_at": "2026-08-23",
       "course_id": "jazz_scales_001",
       "lesson_id": "JazzScales_Bai_32"
+    },
+    {
+      "source_id": "jazz-scales-bai-33",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Jazz Scales - Minor Scales.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_33"
+    },
+    {
+      "source_id": "jazz-scales-bai-34",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "The BEST SCALE to improvise over Minor Chords.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_34"
+    },
+    {
+      "source_id": "jazz-scales-bai-35",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "The Modes...For Dummies.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_35"
+    },
+    {
+      "source_id": "jazz-scales-bai-36",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Selecting Scales for Improvisation.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_36"
+    },
+    {
+      "source_id": "jazz-scales-bai-37",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "The Rarest Chord In The Key.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_37"
+    },
+    {
+      "source_id": "jazz-scales-bai-38",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "B Diminished Triad (Bdim) _ Piano And Music Theory Tutorial✨.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "jazz_scales_001_lesson_038"
+    },
+    {
+      "source_id": "jazz-scales-bai-39",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "The Diminished Scale Demystified 🎹.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_39"
+    },
+    {
+      "source_id": "jazz-scales-bai-40",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "5 Pro Piano Techniques for Diminished Chords.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "jazz_scales_001_lesson_40"
+    },
+    {
+      "source_id": "jazz-scales-bai-41",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Jazz Piano Tutorial - Modal Interchange and Borrowed Chords_2.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "JazzScales_Bai_41"
+    },
+    {
+      "source_id": "jazz-scales-bai-42",
+      "teacher_id": "jazz-scales",
+      "kind": "video",
+      "title": "Selecting Scales for Improvisation.mp4",
+      "url": null,
+      "ingested_at": "2026-08-23",
+      "course_id": "jazz_scales_001",
+      "lesson_id": "jazz_scales_001_lesson_42"
     }
   ],
   "coverage": {

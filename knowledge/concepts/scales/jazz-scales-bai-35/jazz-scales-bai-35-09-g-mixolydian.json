@@ -1,0 +1,67 @@
+{
+  "id": "jazz-scales-bai-35-09-g-mixolydian",
+  "type": "scale",
+  "name": "Gam G Mixolydian",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-35",
+    "locator": "10:16-10:38",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "G Mixolydian",
+      "root": "G",
+      "note_names": [
+        "G4",
+        "A4",
+        "B4",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "dim",
+        "m7b5"
+      ],
+      "use_when": []
+    },
+    "notes": [
+      "G4",
+      "A4",
+      "B4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "source_text": "Các mode còn lại của gam C Major: Bậc 5 = G Mixolydian (G, A, B, C, D, E, F, G), Bậc 6 = A Aeolian / Natural Minor (A, B, C, D, E, F, G, A), Bậc 7 = B Locrian (B, C, D, E, F, G, A, B)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 35 của nguồn Jazz Scales (YouTube), mốc 10:16-10:38. Các mode còn lại của gam C Major: Bậc 5 = G Mixolydian (G, A, B, C, D, E, F, G), Bậc 6 = A Aeolian / Natural Minor (A, B, C, D, E, F, G, A), Bậc 7 = B Locrian (B, C, D, E, F, G, A, B). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -55,11 +55,9 @@
         10
       ],
       "for_qualities": [
-        "7alt",
-        "7b9",
-        "7#9",
-        "7#11",
-        "7b13"
+        "7b13",
+        "dim",
+        "m7b5"
       ],
       "use_when": [
         "hợp âm C7alt",

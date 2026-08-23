@@ -1,0 +1,64 @@
+{
+  "id": "jazz-scales-bai-34-06-c-dorian",
+  "type": "fingering",
+  "name": "C Dorian scale right hand fingering:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-34",
+    "locator": "02:20-03:35",
+    "supporting": []
+  },
+  "use_when": [
+    "Tìm số ngón, thế ngón tay phải để chạy C Dorian",
+    "Hỏi C Dorian bấm thế nào, đặt ngón ra sao"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "fingering": {
+      "hand": "RH",
+      "notes": [
+        "C4",
+        "D4",
+        "Eb4",
+        "F4",
+        "G4",
+        "A4",
+        "Bb4",
+        "C5"
+      ],
+      "fingers": [
+        1,
+        2,
+        3,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scale": "C Dorian"
+    },
+    "notes": [
+      "C4",
+      "D4",
+      "Eb4",
+      "F4",
+      "G4",
+      "A4",
+      "Bb4",
+      "C5"
+    ],
+    "source_text": "C Dorian scale right hand fingering: 1 on C, 2 on D, 3 on Eb, cross thumb under to 1 on F, 2 on G, 3 on A, 4 on Bb, 5 on C."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 34 của nguồn Jazz Scales (YouTube), mốc 02:20-03:35. C Dorian scale right hand fingering: 1 on C, 2 on D, 3 on Eb, cross thumb under to 1 on F, 2 on G, 3 on A, 4 on Bb, 5 on C. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

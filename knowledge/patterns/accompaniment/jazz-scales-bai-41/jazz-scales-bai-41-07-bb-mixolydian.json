@@ -1,0 +1,56 @@
+{
+  "id": "jazz-scales-bai-41-07-bb-mixolydian",
+  "type": "exercise",
+  "name": "Modal interchange in 'I Got Rhythm' (Section A) in Bb Major:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "07:58-09:23",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Bb6",
+    "Ngẫu hứng jazz trên hợp âm Bb7",
+    "Ngẫu hứng jazz trên hợp âm Eb6",
+    "Ngẫu hứng jazz trên hợp âm Ebm7",
+    "Ngẫu hứng jazz trên hợp âm Gm7",
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Ngẫu hứng jazz trên hợp âm F7",
+    "Chọn gam / scale khi gặp hợp âm 6, 7, m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "6",
+      "7",
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Bb7 - Eb6 - Ebm7",
+    "notes": [
+      "Bb2",
+      "F3",
+      "Ab3",
+      "D4",
+      "Eb3",
+      "G3",
+      "Bb3",
+      "C4",
+      "Eb3",
+      "Gb3",
+      "Bb3",
+      "Db4"
+    ],
+    "source_text": "Modal interchange in 'I Got Rhythm' (Section A) in Bb Major: Bb6 -> Bb7 (I7 borrowed from Bb Mixolydian) -> Eb6 -> Ebm7 (minor iv borrowed from Bb Aeolian) -> Bb6 -> Gm7 -> Cm7 -> F7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 07:58-09:23. Modal interchange in 'I Got Rhythm' (Section A) in Bb Major: Bb6 -> Bb7 (I7 borrowed from Bb Mixolydian) -> Eb6 -> Ebm7 (minor iv borrowed from Bb Aeolian) -> Bb6 -> Gm7 -> Cm7 -> F7. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,77 @@
+{
+  "id": "jazz-scales-bai-34-05-c-dorian",
+  "type": "scale",
+  "name": "Gam C Dorian cho hợp âm Cm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-34",
+    "locator": "02:20-03:35",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm",
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Chọn gam / scale khi gặp hợp âm m, m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m",
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Dorian",
+      "root": "C",
+      "note_names": [
+        "C4",
+        "D4",
+        "Eb4",
+        "F4",
+        "G4",
+        "A4",
+        "Bb4",
+        "C5"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "m",
+        "m7"
+      ],
+      "use_when": [
+        "hợp âm Cm",
+        "hợp âm Cm7"
+      ]
+    },
+    "chord_symbol": "Cm7",
+    "notes": [
+      "C4",
+      "D4",
+      "Eb4",
+      "F4",
+      "G4",
+      "A4",
+      "Bb4",
+      "C5"
+    ],
+    "source_text": "C Dorian scale consists of C-D-Eb-F-G-A-Bb-C. It is like C major scale with a lowered 3rd and lowered 7th, or equivalent to standard major scale played a whole step down (Bb Major scale notes starting on C)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 34 của nguồn Jazz Scales (YouTube), mốc 02:20-03:35. C Dorian scale consists of C-D-Eb-F-G-A-Bb-C. It is like C major scale with a lowered 3rd and lowered 7th, or equivalent to standard major scale played a whole step down (Bb Major scale notes starting on C). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

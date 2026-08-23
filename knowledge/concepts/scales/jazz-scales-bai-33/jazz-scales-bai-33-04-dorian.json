@@ -1,0 +1,71 @@
+{
+  "id": "jazz-scales-bai-33-04-dorian",
+  "type": "scale",
+  "name": "Gam dorian cho hợp âm Cm7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-33",
+    "locator": "02:12-02:15",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": null,
+      "root": "C4",
+      "note_names": [
+        "C4",
+        "D4",
+        "Eb4",
+        "F4",
+        "G4",
+        "A4",
+        "Bb4"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "m7"
+      ],
+      "use_when": [
+        "hợp âm Cm7"
+      ]
+    },
+    "chord_symbol": "Cm7",
+    "notes": [
+      "C4",
+      "D4",
+      "Eb4",
+      "F4",
+      "G4",
+      "A4",
+      "Bb4"
+    ],
+    "source_text": "C Dorian (II Major) scale degrees are 1 2 b3 4 5 6 b7. Notes from C: C D Eb F G A Bb. Played over Cm7 chord."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 33 của nguồn Jazz Scales (YouTube), mốc 02:12-02:15. C Dorian (II Major) scale degrees are 1 2 b3 4 5 6 b7. Notes from C: C D Eb F G A Bb. Played over Cm7 chord. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

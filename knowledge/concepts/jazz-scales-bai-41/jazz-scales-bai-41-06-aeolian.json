@@ -1,0 +1,43 @@
+{
+  "id": "jazz-scales-bai-41-06-aeolian",
+  "type": "concept",
+  "name": "Most common borrowed chords in Jazz Standards:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "07:29-07:57",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Fm7",
+    "Ngẫu hứng jazz trên hợp âm Bb7",
+    "Ngẫu hứng jazz trên hợp âm AbMaj7",
+    "Ngẫu hứng jazz trên hợp âm EbMaj7",
+    "Ngẫu hứng jazz trên hợp âm Dm7b5",
+    "Ngẫu hứng jazz trên hợp âm G7b9",
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Chọn gam / scale khi gặp hợp âm m7, 7, majj7, m7b5, 7b9 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "7",
+      "majj7",
+      "m7b5",
+      "7b9"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Most common borrowed chords in Jazz Standards: Minor iv (Fm7), bVII7 (backdoor chord, Bb7), bVIMaj (AbMaj7), bIIIMaj (EbMaj7) borrowed from Aeolian mode; Minor II-V (Dm7b5-G7b9) borrowed from Harmonic Minor; Tonic Dominant I7 (C7) borrowed from Mixolydian mode."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 07:29-07:57. Most common borrowed chords in Jazz Standards: Minor iv (Fm7), bVII7 (backdoor chord, Bb7), bVIMaj (AbMaj7), bIIIMaj (EbMaj7) borrowed from Aeolian mode; Minor II-V (Dm7b5-G7b9) borrowed from Harmonic Minor; Tonic Dominant I7 (C7) borrowed from Mixolydian mode. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

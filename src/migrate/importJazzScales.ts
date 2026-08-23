@@ -21,7 +21,7 @@ import { slug } from "./importMaster.js";
  */
 const TEACHER_ID = "jazz-scales";
 
-const LESSONS = Array.from({ length: 32 }, (_, i) => `JazzScales_Bai_${String(i + 1).padStart(2, "0")}`);
+const LESSONS = Array.from({ length: 42 }, (_, i) => `JazzScales_Bai_${String(i + 1).padStart(2, "0")}`);
 
 const PITCH: Record<string, number> = {
   C: 0, "C#": 1, Db: 1, D: 2, "D#": 3, Eb: 3, E: 4, Fb: 4, "E#": 5,
@@ -86,7 +86,14 @@ function quality(symbol: string): string | null {
     .replace(/\s+/g, "")
     // Bài 3 viết "Ami7", "GMa7", "EmiMa7" — cùng chất, khác cách viết.
     .replace(/^min?(?=[^a-z]|$)/i, "m")
-    .replace(/Ma(?=j|7)/g, "maj");
+    .replace(/Ma(?=j|7)/g, "maj")
+    .replace(/^\(add9\)$/i, "add9")
+    .replace(/^m\(add9\)$/i, "m(add9)")
+    // ° / º / o = hợp âm giảm (không phải rác). °7 = dim7; ø = m7b5.
+    .replace(/^[°ºo]7$/i, "dim7")
+    .replace(/^[°ºo]$/i, "dim")
+    .replace(/^ø7?$/i, "m7b5")
+    .replace(/^7sus$/i, "7sus4");
   return rest === "" ? "maj" : rest;
 }
 
@@ -239,7 +246,7 @@ function scaleOutput(row: Row): Record<string, unknown> | null {
     hợp âm nguồn gốc ("Half-Whole trên G7, dựng từ Bdim7"). Gom hết vào thì
     bộ chọn gam sẽ dịch bậc của gam B lên nốt gốc G — sai hẳn nốt.
   */
-  const forQualities = [
+  let forQualities = [
     ...new Set(
       (row.music_entities?.chords ?? [])
         .filter((c) => {
@@ -250,6 +257,24 @@ function scaleOutput(row: Row): Record<string, unknown> | null {
         .filter((q): q is string => q !== null),
     ),
   ];
+  const blob = `${row.raw_text} ${(row.music_entities?.chords ?? []).join(" ")} ${name ?? ""}`;
+  // Loại 3: gắn đúng chất app đang hỏi — không đợi hợp âm gốc trùng tên gam.
+  if (/m\(add9\)|madd9|minor add\s*9|add9.*minor|minor.*add9/i.test(blob)) {
+    for (const q of ["m(add9)", "madd9"]) if (!forQualities.includes(q)) forQualities.push(q);
+  }
+  if (/locrian/i.test(name ?? "") || /locrian/i.test(blob)) {
+    forQualities = forQualities.filter((q) => !/alt|b9|#9|#11/i.test(q));
+    for (const q of ["dim", "m7b5"]) if (!forQualities.includes(q)) forQualities.push(q);
+  }
+  if (/\bdim\b|diminished triad|vii dim|bậc 7.*giảm/i.test(blob) && !/dim7|half.?whole|7b9/i.test(blob)) {
+    if (!forQualities.includes("dim")) forQualities.push("dim");
+  }
+  if (/passing dim|dim lướt|chen giữa/i.test(blob)) {
+    if (!forQualities.includes("dim")) forQualities.push("dim");
+  }
+  if (/\bsus4\b/.test(blob) && !/7sus/i.test(blob)) {
+    if (!forQualities.includes("sus4")) forQualities.push("sus4");
+  }
 
   const semitones = [
     ...new Set(notes.map((n) => (((PITCH[bare(n)] - root) % 12) + 12) % 12)),

@@ -1,0 +1,74 @@
+{
+  "id": "jazz-scales-bai-41-14-c-lydian-augmented",
+  "type": "concept",
+  "name": "Modal interchange can extend beyond Major scale modes to any scale sharing the same root/tonal c",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "18:41-20:09",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm CMaj7",
+    "Ngẫu hứng jazz trên hợp âm D9#11",
+    "Ngẫu hứng jazz trên hợp âm D7b5",
+    "Chọn gam / scale khi gặp hợp âm majj7, 9#11, 7b5 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "majj7",
+      "9#11",
+      "7b5"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C Lydian Augmented",
+      "root": "C",
+      "note_names": [
+        "D3",
+        "F#3",
+        "A3",
+        "C4",
+        "E4",
+        "G#4"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "for_qualities": [
+        "majj7"
+      ],
+      "use_when": [
+        "hợp âm CMaj7",
+        "hợp âm D9#11",
+        "hợp âm D7b5"
+      ]
+    },
+    "chord_symbol": "D9#11",
+    "notes": [
+      "D3",
+      "F#3",
+      "A3",
+      "C4",
+      "E4",
+      "G#4"
+    ],
+    "source_text": "Modal interchange can extend beyond Major scale modes to any scale sharing the same root/tonal center (such as Melodic Minor modes, Whole Tone scale, Diminished scale, Augmented scale). In 'Take The A Train' (Key C Major), D9#11 is borrowed from C Lydian Augmented (A Melodic Minor) or D7b5 is borrowed from C Whole Tone scale."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 18:41-20:09. Modal interchange can extend beyond Major scale modes to any scale sharing the same root/tonal center (such as Melodic Minor modes, Whole Tone scale, Diminished scale, Augmented scale). In 'Take The A Train' (Key C Major), D9#11 is borrowed from C Lydian Augmented (A Melodic Minor) or D7b5 is borrowed from C Whole Tone scale. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

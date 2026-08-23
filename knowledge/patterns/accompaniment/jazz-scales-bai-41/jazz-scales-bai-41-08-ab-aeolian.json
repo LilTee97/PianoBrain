@@ -1,0 +1,51 @@
+{
+  "id": "jazz-scales-bai-41-08-ab-aeolian",
+  "type": "exercise",
+  "name": "Modal interchange in 'All The Things You Are' in Ab Major:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "09:24-10:52",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm DbMaj7",
+    "Ngẫu hứng jazz trên hợp âm Dbm7",
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Chọn gam / scale khi gặp hợp âm majj7, m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "majj7",
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "DbMaj7 - Dbm7 - Cm7",
+    "notes": [
+      "Db3",
+      "F3",
+      "Ab3",
+      "C4",
+      "Db3",
+      "Fb3",
+      "Ab3",
+      "Cb4",
+      "C3",
+      "Eb3",
+      "G3",
+      "Bb3"
+    ],
+    "source_text": "Modal interchange in 'All The Things You Are' in Ab Major: DbMaj7 -> Dbm7 (minor iv borrowed from Ab Aeolian) -> Cm7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 09:24-10:52. Modal interchange in 'All The Things You Are' in Ab Major: DbMaj7 -> Dbm7 (minor iv borrowed from Ab Aeolian) -> Cm7. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

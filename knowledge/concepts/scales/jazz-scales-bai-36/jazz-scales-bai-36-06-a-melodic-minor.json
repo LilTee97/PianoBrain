@@ -1,0 +1,71 @@
+{
+  "id": "jazz-scales-bai-36-06-a-melodic-minor",
+  "type": "scale",
+  "name": "Gam A Melodic Minor cho hợp âm AmMaj7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-36",
+    "locator": "05:51-07:15",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm AmMaj7",
+    "Chọn gam / scale khi gặp hợp âm mmajj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "mmajj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "A Melodic Minor",
+      "root": "A",
+      "note_names": [
+        "A3",
+        "B3",
+        "C4",
+        "D4",
+        "E4",
+        "F#4",
+        "G#4"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [
+        "mmajj7"
+      ],
+      "use_when": [
+        "hợp âm AmMaj7"
+      ]
+    },
+    "chord_symbol": "AmMaj7",
+    "notes": [
+      "A3",
+      "B3",
+      "C4",
+      "D4",
+      "E4",
+      "F#4",
+      "G#4"
+    ],
+    "source_text": "Selecting scales over AmMaj7 (A C E G#): requires 3rd (C) and 7th (G#). 1. A Melodic Minor (A B C D E F# G#) - 0 avoid notes. 2. A Harmonic Minor (A B C D E F G#) - 1 avoid note (F). 3. A Double Harmonic Minor (A Bb C D# E F G#) - 1 avoid note (F). In practice, jazz musicians primarily use A Melodic Minor over AmMaj7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 36 của nguồn Jazz Scales (YouTube), mốc 05:51-07:15. Selecting scales over AmMaj7 (A C E G#): requires 3rd (C) and 7th (G#). 1. A Melodic Minor (A B C D E F# G#) - 0 avoid notes. 2. A Harmonic Minor (A B C D E F G#) - 1 avoid note (F). 3. A Double Harmonic Minor (A Bb C D# E F G#) - 1 avoid note (F). In practice, jazz musicians primarily use A Melodic Minor over AmMaj7. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

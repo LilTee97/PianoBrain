@@ -1,0 +1,36 @@
+{
+  "id": "jazz-scales-bai-39-03-dominant-diminished-scale",
+  "type": "rule",
+  "name": "Tính đối xứng quãng 3 thứ:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-39",
+    "locator": "02:46-03:50",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Ngẫu hứng jazz trên hợp âm Eb7",
+    "Ngẫu hứng jazz trên hợp âm F#7",
+    "Ngẫu hứng jazz trên hợp âm A7",
+    "Chọn gam / scale khi gặp hợp âm 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Tính đối xứng quãng 3 thứ: Một gam Dominant Diminished có thể dùng chung cho 4 hợp âm Dominant 7th cách nhau quãng 3 thứ (Minor 3rd). Gam C Dominant Diminished (Scale #1) áp dụng đồng thời cho: C7, Eb7, F#7 (hoặc Gb7), và A7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 39 của nguồn Jazz Scales (YouTube), mốc 02:46-03:50. Tính đối xứng quãng 3 thứ: Một gam Dominant Diminished có thể dùng chung cho 4 hợp âm Dominant 7th cách nhau quãng 3 thứ (Minor 3rd). Gam C Dominant Diminished (Scale #1) áp dụng đồng thời cho: C7, Eb7, F#7 (hoặc Gb7), và A7. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

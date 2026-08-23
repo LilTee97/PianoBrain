@@ -1,0 +1,56 @@
+{
+  "id": "jazz-scales-bai-39-06-c-dominant-diminished-scale",
+  "type": "exercise",
+  "name": "Bài tập ứng dụng Scale #1 trên tiến trình V7 - I:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-39",
+    "locator": "07:12-11:17",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Ngẫu hứng jazz trên hợp âm FMaj7",
+    "Chọn gam / scale khi gặp hợp âm 7, majj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "majj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C7 -> FMaj7",
+    "notes": [
+      "C4",
+      "Db4",
+      "Eb4",
+      "E4",
+      "F#4",
+      "G4",
+      "A4",
+      "Bb4",
+      "C5",
+      "Bb4",
+      "A4",
+      "G4",
+      "F#4",
+      "E4",
+      "Eb4",
+      "Db4",
+      "C4",
+      "A3"
+    ],
+    "source_text": "Bài tập ứng dụng Scale #1 trên tiến trình V7 - I: C7 giải về FMaj7. Tay trái chơi voicings (C7 sang FMaj7), tay phải chạy gam C Dominant Diminished lên và xuống sau đó giải về nốt thuộc hợp âm FMaj7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 39 của nguồn Jazz Scales (YouTube), mốc 07:12-11:17. Bài tập ứng dụng Scale #1 trên tiến trình V7 - I: C7 giải về FMaj7. Tay trái chơi voicings (C7 sang FMaj7), tay phải chạy gam C Dominant Diminished lên và xuống sau đó giải về nốt thuộc hợp âm FMaj7. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -12,15 +12,14 @@
   "use_when": [
     "Ngẫu hứng jazz trên hợp âm Cm7b5",
     "Ngẫu hứng jazz trên hợp âm Cø7",
-    "Chọn gam / scale khi gặp hợp âm m7b5, ø7 trong nhạc jazz"
+    "Chọn gam / scale khi gặp hợp âm m7b5 trong nhạc jazz"
   ],
   "avoid_when": [
     "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
   ],
   "input": {
     "chord_quality": [
-      "m7b5",
-      "ø7"
+      "m7b5"
     ],
     "style": [
       "jazz"
@@ -50,7 +49,7 @@
       ],
       "for_qualities": [
         "m7b5",
-        "ø7"
+        "dim"
       ],
       "use_when": [
         "hợp âm Cm7b5",

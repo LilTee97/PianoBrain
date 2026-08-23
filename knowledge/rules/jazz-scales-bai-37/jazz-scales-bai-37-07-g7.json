@@ -1,0 +1,44 @@
+{
+  "id": "jazz-scales-bai-37-07-g7",
+  "type": "rule",
+  "name": "The main theoretical reason the vii° chord is so rarely used is that the V7 chord (Dominant 7th)",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-37",
+    "locator": "06:51-09:04",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Bdim",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm C",
+    "Chọn gam / scale khi gặp hợp âm dim, 7, maj trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim",
+      "7",
+      "maj"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G7",
+    "notes": [
+      "G2",
+      "B3",
+      "D4",
+      "F4"
+    ],
+    "source_text": "The main theoretical reason the vii° chord is so rarely used is that the V7 chord (Dominant 7th) contains the entire vii° diminished triad on top (e.g., G7 = G + B-D-F). Adding the root of V in the bass provides a strong root movement by descending fifth (G -> C, a perfect cadence) instead of stepwise root movement (B -> C), giving V7 superior harmonic resolution power."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 37 của nguồn Jazz Scales (YouTube), mốc 06:51-09:04. The main theoretical reason the vii° chord is so rarely used is that the V7 chord (Dominant 7th) contains the entire vii° diminished triad on top (e.g., G7 = G + B-D-F). Adding the root of V in the bass provides a strong root movement by descending fifth (G -> C, a perfect cadence) instead of stepwise root movement (B -> C), giving V7 superior harmonic resolution power. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "jazz-scales-bai-37-03-bdim",
+  "type": "rule",
+  "name": "Diminished triads on guitar are awkward to fret compared to keyboard/organ instruments.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-37",
+    "locator": "02:05-02:47",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Bdim",
+    "Ngẫu hứng jazz trên hợp âm Am",
+    "Ngẫu hứng jazz trên hợp âm Em",
+    "Ngẫu hứng jazz trên hợp âm Dm",
+    "Chọn gam / scale khi gặp hợp âm dim, m trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim",
+      "m"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Bdim",
+    "notes": [
+      "B3",
+      "D4",
+      "F4"
+    ],
+    "source_text": "Diminished triads on guitar are awkward to fret compared to keyboard/organ instruments. This physical difficulty on guitar is one reason why guitar-based songwriters rarely use the vii° chord. In Beach House's 'Lover of Mine', the organ plays Bdim - Am - Em - Dm in C major."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 37 của nguồn Jazz Scales (YouTube), mốc 02:05-02:47. Diminished triads on guitar are awkward to fret compared to keyboard/organ instruments. This physical difficulty on guitar is one reason why guitar-based songwriters rarely use the vii° chord. In Beach House's 'Lover of Mine', the organ plays Bdim - Am - Em - Dm in C major. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

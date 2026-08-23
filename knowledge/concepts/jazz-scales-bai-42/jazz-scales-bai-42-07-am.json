@@ -1,0 +1,39 @@
+{
+  "id": "jazz-scales-bai-42-07-am",
+  "type": "concept",
+  "name": "Scale selection over minor triads (e.g.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-42",
+    "locator": "07:15-07:36",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Am",
+    "Chọn gam / scale khi gặp hợp âm m trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Am",
+    "notes": [
+      "A3",
+      "C4",
+      "E4"
+    ],
+    "source_text": "Scale selection over minor triads (e.g. Am = A C E): Since there is no 7th, any minor scale containing the minor 3rd C can be used, offering great flexibility."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 42 của nguồn Jazz Scales (YouTube), mốc 07:15-07:36. Scale selection over minor triads (e.g. Am = A C E): Since there is no 7th, any minor scale containing the minor 3rd C can be used, offering great flexibility. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

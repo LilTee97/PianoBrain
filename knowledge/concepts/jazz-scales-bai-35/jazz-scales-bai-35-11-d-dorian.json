@@ -1,0 +1,42 @@
+{
+  "id": "jazz-scales-bai-35-11-d-dorian",
+  "type": "concept",
+  "name": "Ứng dụng thực tế của mode trong ứng tấu (improvisation):",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-35",
+    "locator": "11:38-13:30",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Dm",
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Chọn gam / scale khi gặp hợp âm m, m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m",
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Dm7",
+    "notes": [
+      "D3",
+      "F3",
+      "A3",
+      "C4"
+    ],
+    "source_text": "Ứng dụng thực tế của mode trong ứng tấu (improvisation): Trên hợp âm Dm / Dm7, bạn có thể ứng tấu bằng các nốt thuộc D Dorian scale để tạo giai điệu chuẩn hòa thanh, hoặc thử nghiệm D Phrygian để tạo màu sắc âm thanh khác biệt."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 35 của nguồn Jazz Scales (YouTube), mốc 11:38-13:30. Ứng dụng thực tế của mode trong ứng tấu (improvisation): Trên hợp âm Dm / Dm7, bạn có thể ứng tấu bằng các nốt thuộc D Dorian scale để tạo giai điệu chuẩn hòa thanh, hoặc thử nghiệm D Phrygian để tạo màu sắc âm thanh khác biệt. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

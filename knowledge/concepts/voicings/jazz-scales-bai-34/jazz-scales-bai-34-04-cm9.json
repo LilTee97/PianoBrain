@@ -1,0 +1,41 @@
+{
+  "id": "jazz-scales-bai-34-04-cm9",
+  "type": "voicing",
+  "name": "Advanced C Minor 9 rootless voicing:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-34",
+    "locator": "01:48-02:20",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm9",
+    "Chọn gam / scale khi gặp hợp âm m9 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m9"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cm9",
+    "notes": [
+      "C2",
+      "Eb3",
+      "G3",
+      "Bb3",
+      "D4"
+    ],
+    "source_text": "Advanced C Minor 9 rootless voicing: low C root in bass with left hand playing Eb-G-Bb-D (3rd, 5th, b7th, 9th)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 34 của nguồn Jazz Scales (YouTube), mốc 01:48-02:20. Advanced C Minor 9 rootless voicing: low C root in bass with left hand playing Eb-G-Bb-D (3rd, 5th, b7th, 9th). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

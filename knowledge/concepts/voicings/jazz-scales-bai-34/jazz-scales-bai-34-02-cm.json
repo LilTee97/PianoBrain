@@ -1,0 +1,40 @@
+{
+  "id": "jazz-scales-bai-34-02-cm",
+  "type": "voicing",
+  "name": "Beginner C Minor chord backing groove playing a simple C minor triad (C-Eb-G) with swing rhythm.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-34",
+    "locator": "00:38-01:14",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm",
+    "Chọn gam / scale khi gặp hợp âm m trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cm",
+    "notes": [
+      "C3",
+      "C4",
+      "Eb4",
+      "G4"
+    ],
+    "source_text": "Beginner C Minor chord backing groove playing a simple C minor triad (C-Eb-G) with swing rhythm."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 34 của nguồn Jazz Scales (YouTube), mốc 00:38-01:14. Beginner C Minor chord backing groove playing a simple C minor triad (C-Eb-G) with swing rhythm. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

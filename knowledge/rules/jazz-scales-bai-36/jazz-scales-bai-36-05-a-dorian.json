@@ -1,0 +1,42 @@
+{
+  "id": "jazz-scales-bai-36-05-a-dorian",
+  "type": "rule",
+  "name": "In practice, jazz musicians prefer using A Dorian and A Aeolian modes over Am7 because they have",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-36",
+    "locator": "05:06-05:51",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Am7",
+    "Ngẫu hứng jazz trên hợp âm Am7b5",
+    "Chọn gam / scale khi gặp hợp âm m7, m7b5 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "m7b5"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Am7",
+    "notes": [
+      "A3",
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "source_text": "In practice, jazz musicians prefer using A Dorian and A Aeolian modes over Am7 because they have 0 or 1 avoid note. A Locrian is reserved for half-diminished chords (m7b5), and A Phrygian is reserved for Phrygian chords."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 36 của nguồn Jazz Scales (YouTube), mốc 05:06-05:51. In practice, jazz musicians prefer using A Dorian and A Aeolian modes over Am7 because they have 0 or 1 avoid note. A Locrian is reserved for half-diminished chords (m7b5), and A Phrygian is reserved for Phrygian chords. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

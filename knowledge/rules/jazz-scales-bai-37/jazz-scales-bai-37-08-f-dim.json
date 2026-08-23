@@ -1,0 +1,45 @@
+{
+  "id": "jazz-scales-bai-37-08-f-dim",
+  "type": "rule",
+  "name": "The vii° chord is often mislabeled in commercial sheet music as a dominant 7th with the 3rd in t",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-37",
+    "locator": "09:05-11:14",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm F#dim",
+    "Ngẫu hứng jazz trên hợp âm D7/F#",
+    "Ngẫu hứng jazz trên hợp âm Em",
+    "Ngẫu hứng jazz trên hợp âm G",
+    "Chọn gam / scale khi gặp hợp âm dim, 7/F#, m, maj trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim",
+      "7/F#",
+      "m",
+      "maj"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "F#dim",
+    "notes": [
+      "F#3",
+      "A3",
+      "C4"
+    ],
+    "source_text": "The vii° chord is often mislabeled in commercial sheet music as a dominant 7th with the 3rd in the bass (e.g., F#dim mislabeled as D7/F# in Vampire Weekend's 'M79' and Paul McCartney's 'Do It Now') due to guitar playing convenience and dominant function conceptual bias."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 37 của nguồn Jazz Scales (YouTube), mốc 09:05-11:14. The vii° chord is often mislabeled in commercial sheet music as a dominant 7th with the 3rd in the bass (e.g., F#dim mislabeled as D7/F# in Vampire Weekend's 'M79' and Paul McCartney's 'Do It Now') due to guitar playing convenience and dominant function conceptual bias. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

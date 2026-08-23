@@ -13,14 +13,14 @@
     "Ngẫu hứng jazz trên hợp âm F7sus",
     "Ngẫu hứng jazz trên hợp âm Eb/F",
     "Ngẫu hứng jazz trên hợp âm Cmi7/F",
-    "Chọn gam / scale khi gặp hợp âm 7sus, /F, m7/F trong nhạc jazz"
+    "Chọn gam / scale khi gặp hợp âm 7sus4, /F, m7/F trong nhạc jazz"
   ],
   "avoid_when": [
     "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
   ],
   "input": {
     "chord_quality": [
-      "7sus",
+      "7sus4",
       "/F",
       "m7/F"
     ],

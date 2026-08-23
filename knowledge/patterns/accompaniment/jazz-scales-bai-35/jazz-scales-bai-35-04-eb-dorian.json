@@ -1,0 +1,39 @@
+{
+  "id": "jazz-scales-bai-35-04-eb-dorian",
+  "type": "exercise",
+  "name": "Xây dựng thang âm Eb Dorian bắt đầu từ nốt Eb bằng cách áp dụng cấu trúc khoảng cách Dorian (Cun",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-35",
+    "locator": "04:40-06:10",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "notes": [
+      "Eb4",
+      "F4",
+      "Gb4",
+      "Ab4",
+      "Bb4",
+      "C5",
+      "Db5",
+      "Eb5"
+    ],
+    "source_text": "Xây dựng thang âm Eb Dorian bắt đầu từ nốt Eb bằng cách áp dụng cấu trúc khoảng cách Dorian (Cung - Nửa cung - Cung...): Eb, F, Gb, Ab, Bb, C, Db, Eb."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 35 của nguồn Jazz Scales (YouTube), mốc 04:40-06:10. Xây dựng thang âm Eb Dorian bắt đầu từ nốt Eb bằng cách áp dụng cấu trúc khoảng cách Dorian (Cung - Nửa cung - Cung...): Eb, F, Gb, Ab, Bb, C, Db, Eb. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

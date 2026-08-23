@@ -1,0 +1,59 @@
+{
+  "id": "jazz-scales-bai-41-04-c-major",
+  "type": "accompaniment",
+  "name": "Modal interchange 2-5-1 variations in C Major:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "03:48-06:09",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm CMaj7",
+    "Ngẫu hứng jazz trên hợp âm Dm7b5",
+    "Ngẫu hứng jazz trên hợp âm G7b9",
+    "Ngẫu hứng jazz trên hợp âm Gm7",
+    "Ngẫu hứng jazz trên hợp âm DbMaj7",
+    "Ngẫu hứng jazz trên hợp âm Gm7b5",
+    "Chọn gam / scale khi gặp hợp âm m7, 7, majj7, m7b5, 7b9 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "7",
+      "majj7",
+      "m7b5",
+      "7b9"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Dm7b5 - G7b9 - CMaj7",
+    "notes": [
+      "D3",
+      "F3",
+      "Ab3",
+      "C4",
+      "G3",
+      "B3",
+      "F4",
+      "Ab4",
+      "C3",
+      "E3",
+      "G3",
+      "B3"
+    ],
+    "source_text": "Modal interchange 2-5-1 variations in C Major: Major 2-5-1 (Dm7-G7-CMaj7), Harmonic Minor 2-5-1 (Dm7b5-G7b9-CMaj7), Aeolian 2-5-1 (Dm7b5-Gm7-CMaj7), Phrygian 2-5-1 (DbMaj7-Gm7b5-CMaj7), and Lydian 2-5-1 (D7-GMaj7-CMaj7)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 03:48-06:09. Modal interchange 2-5-1 variations in C Major: Major 2-5-1 (Dm7-G7-CMaj7), Harmonic Minor 2-5-1 (Dm7b5-G7b9-CMaj7), Aeolian 2-5-1 (Dm7b5-Gm7-CMaj7), Phrygian 2-5-1 (DbMaj7-Gm7b5-CMaj7), and Lydian 2-5-1 (D7-GMaj7-CMaj7). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

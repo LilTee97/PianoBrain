@@ -146,6 +146,7 @@ export type Topic =
   | "intro"
   | "outro"
   | "fingering"
+  | "scale"
   | "explain"
   | "exercises";
 
@@ -159,6 +160,7 @@ const AUDIT_RE = /\bchưa\b|\bbiết chưa\b|\bcó .{0,40}không\b|\bdạy .{0,4
 /** "thế ngón" phải tách khỏi "chạy ngón", nếu không hỏi câu chạy lại ra bảng thế ngón. */
 const TOPIC_RE: [Topic, RegExp][] = [
   ["degrees", /xếp bậc|bậc sao|bậc nào|bậc mấy|bậc gì|roman|la mã/i],
+  ["scale", /chạy gam|gam gì|gam nào|thang âm|\bscale\b|locrian|aeolian|dorian|phrygian/i],
   ["run", /chạy ngón|arpeggio|\brun\b|\brải\b|\barp\b/i],
   ["fill", /câu lót|câu dẫn|fill|\blót\b/i],
   ["reharm", /phối|màu hợp âm|\bmàu\b|reharm|hòa âm|hoà âm/i],

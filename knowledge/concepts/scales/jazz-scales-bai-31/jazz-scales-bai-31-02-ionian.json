@@ -57,7 +57,9 @@
         11
       ],
       "for_qualities": [
-        "maj7"
+        "maj7",
+        "dim",
+        "m7b5"
       ],
       "use_when": [
         "hợp âm Cmaj7",

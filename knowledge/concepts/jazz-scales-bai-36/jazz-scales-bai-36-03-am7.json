@@ -1,0 +1,40 @@
+{
+  "id": "jazz-scales-bai-36-03-am7",
+  "type": "concept",
+  "name": "An Avoid Note is a scale note that creates a minor 9th (b9) interval (13 semitones) with a chord",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-36",
+    "locator": "02:29-03:54",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Am7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Am7",
+    "notes": [
+      "A3",
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "source_text": "An Avoid Note is a scale note that creates a minor 9th (b9) interval (13 semitones) with a chord tone of the underlying chord. For Am7 (A C E G): Bb creates b9 with A; Db/C# creates b9 with C; F creates b9 with E. No scale note creates a b9 with G since the next semitone up is A."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 36 của nguồn Jazz Scales (YouTube), mốc 02:29-03:54. An Avoid Note is a scale note that creates a minor 9th (b9) interval (13 semitones) with a chord tone of the underlying chord. For Am7 (A C E G): Bb creates b9 with A; Db/C# creates b9 with C; F creates b9 with E. No scale note creates a b9 with G since the next semitone up is A. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

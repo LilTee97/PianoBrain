@@ -1,0 +1,39 @@
+{
+  "id": "jazz-scales-bai-35-08-f-lydian",
+  "type": "exercise",
+  "name": "Xây dựng F# Lydian từ nốt F# dựa trên công thức khoảng của Lydian (Cung - Cung - Cung - Nửa cung",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-35",
+    "locator": "09:38-10:13",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "notes": [
+      "F#4",
+      "G#4",
+      "A#4",
+      "B#4",
+      "C#5",
+      "D#5",
+      "E#5",
+      "F#5"
+    ],
+    "source_text": "Xây dựng F# Lydian từ nốt F# dựa trên công thức khoảng của Lydian (Cung - Cung - Cung - Nửa cung - Cung - Cung - Nửa cung): F#, G#, A#, B# (C), C#, D#, E#, F#."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 35 của nguồn Jazz Scales (YouTube), mốc 09:38-10:13. Xây dựng F# Lydian từ nốt F# dựa trên công thức khoảng của Lydian (Cung - Cung - Cung - Nửa cung - Cung - Cung - Nửa cung): F#, G#, A#, B# (C), C#, D#, E#, F#. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

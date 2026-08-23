@@ -1,0 +1,40 @@
+{
+  "id": "jazz-scales-bai-39-07-dominant-diminished-scale",
+  "type": "exercise",
+  "name": "Ứng dụng Scale #1 cho các cặp V7 - I còn lại thuộc họ quãng 3 thứ:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-39",
+    "locator": "11:18-14:50",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Eb7",
+    "Ngẫu hứng jazz trên hợp âm AbMaj7",
+    "Ngẫu hứng jazz trên hợp âm F#7",
+    "Ngẫu hứng jazz trên hợp âm BMaj7",
+    "Ngẫu hứng jazz trên hợp âm A7",
+    "Ngẫu hứng jazz trên hợp âm DMaj7",
+    "Chọn gam / scale khi gặp hợp âm 7, majj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "majj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Eb7 -> AbMaj7",
+    "source_text": "Ứng dụng Scale #1 cho các cặp V7 - I còn lại thuộc họ quãng 3 thứ: Eb7 -> AbMaj7, F#7 -> BMaj7, A7 -> DMaj7. Dùng cùng dải nốt gam C Dominant Diminished bắt đầu từ gốc tương ứng của từng hợp âm."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 39 của nguồn Jazz Scales (YouTube), mốc 11:18-14:50. Ứng dụng Scale #1 cho các cặp V7 - I còn lại thuộc họ quãng 3 thứ: Eb7 -> AbMaj7, F#7 -> BMaj7, A7 -> DMaj7. Dùng cùng dải nốt gam C Dominant Diminished bắt đầu từ gốc tương ứng của từng hợp âm. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

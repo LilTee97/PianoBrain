@@ -1,0 +1,40 @@
+{
+  "id": "jazz-scales-bai-36-01-am7",
+  "type": "concept",
+  "name": "To improvise over a specific chord, you can theoretically use any scale that contains the 3rd an",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-36",
+    "locator": "00:06-01:23",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Am7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Am7",
+    "notes": [
+      "A3",
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "source_text": "To improvise over a specific chord, you can theoretically use any scale that contains the 3rd and 7th degree of that chord. For example, over an Am7 chord (A C E G), any scale containing the 3rd (C) and 7th (G) can be used."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 36 của nguồn Jazz Scales (YouTube), mốc 00:06-01:23. To improvise over a specific chord, you can theoretically use any scale that contains the 3rd and 7th degree of that chord. For example, over an Am7 chord (A C E G), any scale containing the 3rd (C) and 7th (G) can be used. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

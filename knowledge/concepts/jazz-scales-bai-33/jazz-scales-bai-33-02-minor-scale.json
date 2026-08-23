@@ -1,0 +1,29 @@
+{
+  "id": "jazz-scales-bai-33-02-minor-scale",
+  "type": "concept",
+  "name": "Out of the 7 scale degrees in a minor scale:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-33",
+    "locator": "00:38-01:55",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Out of the 7 scale degrees in a minor scale: Degree 1 cannot change (changes tonality); Degree 2 can only be flattened (b2, since #2 = b3); Degree b3 cannot change (defines minor quality); Degree 4 can only be sharpened (#4, since b4 = 3); Degree 5 can be flattened (b5) or sharpened (#5); Degree 6 can be flattened (b6) or sharpened (#6); Degree 7 can only be flattened (b7, since #7 = root)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 33 của nguồn Jazz Scales (YouTube), mốc 00:38-01:55. Out of the 7 scale degrees in a minor scale: Degree 1 cannot change (changes tonality); Degree 2 can only be flattened (b2, since #2 = b3); Degree b3 cannot change (defines minor quality); Degree 4 can only be sharpened (#4, since b4 = 3); Degree 5 can be flattened (b5) or sharpened (#5); Degree 6 can be flattened (b6) or sharpened (#6); Degree 7 can only be flattened (b7, since #7 = root). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

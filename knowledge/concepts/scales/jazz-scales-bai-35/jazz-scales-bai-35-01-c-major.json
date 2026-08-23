@@ -1,0 +1,64 @@
+{
+  "id": "jazz-scales-bai-35-01-c-major",
+  "type": "scale",
+  "name": "Gam C major",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-35",
+    "locator": "01:30-02:40",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "C major",
+      "root": "C",
+      "note_names": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "for_qualities": [],
+      "use_when": []
+    },
+    "notes": [
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "A4",
+      "B4",
+      "C5"
+    ],
+    "source_text": "Cấu trúc gam Trưởng (Major Scale) bao gồm các khoảng: Cung - Cung - Nửa cung - Cung - Cung - Cung - Nửa cung (Whole step, Whole step, Half step, Whole step, Whole step, Whole step, Half step). Ví dụ trên C Major gồm toàn bộ phím trắng: C, D, E, F, G, A, B, C."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 35 của nguồn Jazz Scales (YouTube), mốc 01:30-02:40. Cấu trúc gam Trưởng (Major Scale) bao gồm các khoảng: Cung - Cung - Nửa cung - Cung - Cung - Cung - Nửa cung (Whole step, Whole step, Half step, Whole step, Whole step, Whole step, Half step). Ví dụ trên C Major gồm toàn bộ phím trắng: C, D, E, F, G, A, B, C. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

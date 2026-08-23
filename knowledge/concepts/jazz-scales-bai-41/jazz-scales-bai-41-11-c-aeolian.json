@@ -1,0 +1,62 @@
+{
+  "id": "jazz-scales-bai-41-11-c-aeolian",
+  "type": "concept",
+  "name": "Subjective boundary between Modal Interchange and Modulation in 'On Green Dolphin Street' Sectio",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "13:17-15:43",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Fm7",
+    "Ngẫu hứng jazz trên hợp âm Bb7",
+    "Ngẫu hứng jazz trên hợp âm EbMaj7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm CMaj7",
+    "Chọn gam / scale khi gặp hợp âm m7, 7, majj7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7",
+      "7",
+      "majj7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Fm7 - Bb7 - EbMaj7 - G7 - CMaj7",
+    "notes": [
+      "F3",
+      "Ab3",
+      "C4",
+      "Eb4",
+      "Bb2",
+      "D3",
+      "F3",
+      "Ab3",
+      "Eb3",
+      "G3",
+      "Bb3",
+      "D4",
+      "G2",
+      "B2",
+      "D3",
+      "F3",
+      "C3",
+      "E3",
+      "G3",
+      "B3"
+    ],
+    "source_text": "Subjective boundary between Modal Interchange and Modulation in 'On Green Dolphin Street' Section B: Fm7 -> Bb7 -> EbMaj7 -> G7 -> CMaj7. Lasting 3.5 bars with a resolving II-V-I in Eb Major, some hear Eb as a temporary modulation while others hear C as the overarching tonal center (modal interchange). The line between modulation and modal interchange is fuzzy."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 13:17-15:43. Subjective boundary between Modal Interchange and Modulation in 'On Green Dolphin Street' Section B: Fm7 -> Bb7 -> EbMaj7 -> G7 -> CMaj7. Lasting 3.5 bars with a resolving II-V-I in Eb Major, some hear Eb as a temporary modulation while others hear C as the overarching tonal center (modal interchange). The line between modulation and modal interchange is fuzzy. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

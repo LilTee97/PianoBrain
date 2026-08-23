@@ -1,0 +1,46 @@
+{
+  "id": "jazz-scales-bai-41-03-c-ionian",
+  "type": "scale",
+  "name": "Gam C Ionian cho hợp âm CMaj7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "03:05-03:47",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm CMaj7",
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Ngẫu hứng jazz trên hợp âm Em7",
+    "Ngẫu hứng jazz trên hợp âm FMaj7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm Am7",
+    "Ngẫu hứng jazz trên hợp âm Bm7b5",
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Chọn gam / scale khi gặp hợp âm majj7, m7, 7, m7b5, mmajj7, majj7#5, 7b9 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "majj7",
+      "m7",
+      "7",
+      "m7b5",
+      "mmajj7",
+      "majj7#5",
+      "7b9"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Diatonic chords from parallel modes on C root: C Ionian, C Dorian, C Phrygian, C Lydian, C Mixolydian, C Aeolian, C Locrian, C Melodic Minor, C Harmonic Minor."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 03:05-03:47. Diatonic chords from parallel modes on C root: C Ionian, C Dorian, C Phrygian, C Lydian, C Mixolydian, C Aeolian, C Locrian, C Melodic Minor, C Harmonic Minor. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

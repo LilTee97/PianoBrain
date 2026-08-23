@@ -1,0 +1,47 @@
+{
+  "id": "jazz-scales-bai-40-06-diminished",
+  "type": "accompaniment",
+  "name": "Technique 5:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-40",
+    "locator": "09:45-11:39",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm Ab°7",
+    "Ngẫu hứng jazz trên hợp âm Bb°7",
+    "Chọn gam / scale khi gặp hợp âm 7, dim7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "dim7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G7 (diminished soloing)",
+    "notes": [
+      "Bb3",
+      "Db4",
+      "E4",
+      "G4",
+      "Ab3",
+      "B3",
+      "D4",
+      "F4"
+    ],
+    "source_text": "Technique 5: Diminished Improvisation. When improvising a solo over a dominant 7th chord (e.g., G7), play lines based on Ab°7 (gives the b9) or Bb°7 (gives the #9, b5/#11, and 13 extension/altered tones)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 40 của nguồn Jazz Scales (YouTube), mốc 09:45-11:39. Technique 5: Diminished Improvisation. When improvising a solo over a dominant 7th chord (e.g., G7), play lines based on Ab°7 (gives the b9) or Bb°7 (gives the #9, b5/#11, and 13 extension/altered tones). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

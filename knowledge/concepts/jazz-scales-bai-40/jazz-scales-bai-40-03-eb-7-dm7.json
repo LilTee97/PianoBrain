@@ -1,0 +1,46 @@
+{
+  "id": "jazz-scales-bai-40-03-eb-7-dm7",
+  "type": "concept",
+  "name": "Technique 2:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-40",
+    "locator": "03:39-05:12",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Eb°7",
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Chọn gam / scale khi gặp hợp âm dim7, m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim7",
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Eb°7 -> Dm7",
+    "notes": [
+      "Eb3",
+      "Gb3",
+      "A3",
+      "C4",
+      "D3",
+      "F3",
+      "A3",
+      "C4"
+    ],
+    "source_text": "Technique 2: Drop-In Diminished. Approach a target minor 7th chord (such as ii-7 / Dm7 in C major) from a half-step above using a diminished chord (Eb°7 dropping down into Dm7)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 40 của nguồn Jazz Scales (YouTube), mốc 03:39-05:12. Technique 2: Drop-In Diminished. Approach a target minor 7th chord (such as ii-7 / Dm7 in C major) from a half-step above using a diminished chord (Eb°7 dropping down into Dm7). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

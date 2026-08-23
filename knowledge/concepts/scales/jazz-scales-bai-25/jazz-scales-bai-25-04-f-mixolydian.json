@@ -11,14 +11,14 @@
   },
   "use_when": [
     "Ngẫu hứng jazz trên hợp âm F7sus",
-    "Chọn gam / scale khi gặp hợp âm 7sus trong nhạc jazz"
+    "Chọn gam / scale khi gặp hợp âm 7sus4 trong nhạc jazz"
   ],
   "avoid_when": [
     "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
   ],
   "input": {
     "chord_quality": [
-      "7sus"
+      "7sus4"
     ],
     "style": [
       "jazz"
@@ -47,7 +47,7 @@
         10
       ],
       "for_qualities": [
-        "7sus"
+        "7sus4"
       ],
       "use_when": [
         "hợp âm F7sus"

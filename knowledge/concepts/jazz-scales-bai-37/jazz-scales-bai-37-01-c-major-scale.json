@@ -1,0 +1,47 @@
+{
+  "id": "jazz-scales-bai-37-01-c-major-scale",
+  "type": "concept",
+  "name": "In a major key (e.g., C major), there are seven diatonic chords:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-37",
+    "locator": "00:03-01:20",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C",
+    "Ngẫu hứng jazz trên hợp âm Dm",
+    "Ngẫu hứng jazz trên hợp âm Em",
+    "Ngẫu hứng jazz trên hợp âm F",
+    "Ngẫu hứng jazz trên hợp âm G",
+    "Ngẫu hứng jazz trên hợp âm Am",
+    "Ngẫu hứng jazz trên hợp âm Bdim",
+    "Chọn gam / scale khi gặp hợp âm maj, m, dim trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "maj",
+      "m",
+      "dim"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Bdim",
+    "notes": [
+      "B3",
+      "D4",
+      "F4"
+    ],
+    "source_text": "In a major key (e.g., C major), there are seven diatonic chords: C (I), Dm (ii), Em (iii), F (IV), G (V), Am (vi), and Bdim (vii°). The 7th chord built on the leading tone (vii°) is a diminished triad. Despite being one of the seven primary diatonic chords of the key, it is extremely rare in popular music."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 37 của nguồn Jazz Scales (YouTube), mốc 00:03-01:20. In a major key (e.g., C major), there are seven diatonic chords: C (I), Dm (ii), Em (iii), F (IV), G (V), Am (vi), and Bdim (vii°). The 7th chord built on the leading tone (vii°) is a diminished triad. Despite being one of the seven primary diatonic chords of the key, it is extremely rare in popular music. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

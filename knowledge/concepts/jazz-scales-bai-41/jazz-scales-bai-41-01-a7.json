@@ -1,0 +1,45 @@
+{
+  "id": "jazz-scales-bai-41-01-a7",
+  "type": "concept",
+  "name": "Tonicisation vs Modulation:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "00:06-01:30",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm CMaj7",
+    "Ngẫu hứng jazz trên hợp âm A7",
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Chọn gam / scale khi gặp hợp âm majj7, 7, m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "majj7",
+      "7",
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "A7",
+    "notes": [
+      "A3",
+      "C#4",
+      "E4",
+      "G4"
+    ],
+    "source_text": "Tonicisation vs Modulation: Modulation is changing key for a long period of time. Tonicisation is changing key for a short period of time using a dominant chord (e.g., secondary dominant A7 tonicising Dm7 in C Major)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 00:06-01:30. Tonicisation vs Modulation: Modulation is changing key for a long period of time. Tonicisation is changing key for a short period of time using a dominant chord (e.g., secondary dominant A7 tonicising Dm7 in C Major). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

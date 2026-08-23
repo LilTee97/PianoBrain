@@ -1,0 +1,55 @@
+{
+  "id": "jazz-scales-bai-41-13-g-phrygian",
+  "type": "rule",
+  "name": "Multiple harmonic analyses can explain the same chord in a progression.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "16:59-18:40",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm GMaj7",
+    "Ngẫu hứng jazz trên hợp âm Bm7",
+    "Ngẫu hứng jazz trên hợp âm Bb7",
+    "Ngẫu hứng jazz trên hợp âm Am7",
+    "Ngẫu hứng jazz trên hợp âm D7",
+    "Ngẫu hứng jazz trên hợp âm E7",
+    "Chọn gam / scale khi gặp hợp âm majj7, m7, 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "majj7",
+      "m7",
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Bm7 - Bb7 - Am7",
+    "notes": [
+      "B2",
+      "D3",
+      "F#3",
+      "A3",
+      "Bb2",
+      "D3",
+      "F3",
+      "Ab3",
+      "A2",
+      "C3",
+      "E3",
+      "G3"
+    ],
+    "source_text": "Multiple harmonic analyses can explain the same chord in a progression. In 'How High The Moon' (Key G Major), the Bb7 chord preceding Am7 can be analyzed as: 1) a chromatic passing chord to Am7, 2) a tritone substitute for E7 (secondary dominant of Am7), or 3) a borrowed bIII7 chord from G Phrygian mode."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 16:59-18:40. Multiple harmonic analyses can explain the same chord in a progression. In 'How High The Moon' (Key G Major), the Bb7 chord preceding Am7 can be analyzed as: 1) a chromatic passing chord to Am7, 2) a tritone substitute for E7 (secondary dominant of Am7), or 3) a borrowed bIII7 chord from G Phrygian mode. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

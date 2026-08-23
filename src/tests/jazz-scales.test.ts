@@ -15,12 +15,12 @@ const say = (t: string) => reply(t, kb).join("\n");
   của nó loại đệm hát ballad Việt ra, và `input.style` của nó là `jazz`.
 */
 const KHONG_PHAI_JAZZ_SCALES = new Set([26, 27]);
-const SOURCE_IDS = Array.from({ length: 32 }, (_, i) => i + 1)
+const SOURCE_IDS = Array.from({ length: 42 }, (_, i) => i + 1)
   .filter((n) => !KHONG_PHAI_JAZZ_SCALES.has(n))
   .map((n) => `jazz-scales-bai-${String(n).padStart(2, "0")}`);
 const items = kb.items.filter((i) => i.source?.teacher_id === "jazz-scales");
 
-describe("nguồn Jazz Scales — 30 bài video", () => {
+describe("nguồn Jazz Scales — 40 bài video", () => {
   it("mọi bài đăng ký riêng, kind video, cùng teacher jazz-scales", () => {
     for (const id of SOURCE_IDS) {
       const src = kb.sources.find((s) => s.source_id === id);

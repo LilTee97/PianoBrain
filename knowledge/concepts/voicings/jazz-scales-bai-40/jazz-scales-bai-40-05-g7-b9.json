@@ -1,0 +1,47 @@
+{
+  "id": "jazz-scales-bai-40-05-g7-b9",
+  "type": "voicing",
+  "name": "Technique 4:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-40",
+    "locator": "07:38-09:45",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm G7",
+    "Ngẫu hứng jazz trên hợp âm Ab°7",
+    "Ngẫu hứng jazz trên hợp âm G7(b9)",
+    "Ngẫu hứng jazz trên hợp âm C",
+    "Chọn gam / scale khi gặp hợp âm 7, dim7, 7(b9), maj trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7",
+      "dim7",
+      "7(b9)",
+      "maj"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "G7(b9)",
+    "notes": [
+      "G2",
+      "Ab3",
+      "B3",
+      "D4",
+      "F4"
+    ],
+    "source_text": "Technique 4: Colorful Dominant. Play a diminished 7th chord starting a half-step above the root of a dominant 7th chord (e.g., playing Ab°7 over G in the bass). This creates a dominant 7th flat 9 chord (G7(b9))."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 40 của nguồn Jazz Scales (YouTube), mốc 07:38-09:45. Technique 4: Colorful Dominant. Play a diminished 7th chord starting a half-step above the root of a dominant 7th chord (e.g., playing Ab°7 over G in the bass). This creates a dominant 7th flat 9 chord (G7(b9)). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

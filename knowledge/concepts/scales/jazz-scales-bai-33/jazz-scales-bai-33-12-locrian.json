@@ -1,0 +1,76 @@
+{
+  "id": "jazz-scales-bai-33-12-locrian",
+  "type": "scale",
+  "name": "Gam locrian cho hợp âm Cm7b5",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-33",
+    "locator": "02:51-02:56",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm7b5",
+    "Ngẫu hứng jazz trên hợp âm C half-diminished",
+    "Chọn gam / scale khi gặp hợp âm m7b5, half-diminished trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7b5",
+      "half-diminished"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": null,
+      "root": "C4",
+      "note_names": [
+        "C4",
+        "Db4",
+        "Eb4",
+        "F4",
+        "Gb4",
+        "Ab4",
+        "Bb4"
+      ],
+      "semitones_from_root": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "for_qualities": [
+        "m7b5",
+        "half-diminished",
+        "dim"
+      ],
+      "use_when": [
+        "hợp âm Cm7b5",
+        "hợp âm C half-diminished"
+      ]
+    },
+    "chord_symbol": "Cm7b5",
+    "notes": [
+      "C4",
+      "Db4",
+      "Eb4",
+      "F4",
+      "Gb4",
+      "Ab4",
+      "Bb4"
+    ],
+    "source_text": "C Locrian (VII Major) scale degrees are 1 b2 b3 4 b5 b6 b7. Notes from C: C Db Eb F Gb Ab Bb. Played over C half-diminished (Cm7b5) chord."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 33 của nguồn Jazz Scales (YouTube), mốc 02:51-02:56. C Locrian (VII Major) scale degrees are 1 b2 b3 4 b5 b6 b7. Notes from C: C Db Eb F Gb Ab Bb. Played over C half-diminished (Cm7b5) chord. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

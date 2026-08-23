@@ -1,0 +1,29 @@
+{
+  "id": "jazz-scales-bai-41-02-c-major",
+  "type": "concept",
+  "name": "Modal Interchange vs Modulation & Relative vs Parallel Keys:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "01:31-02:35",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "source_text": "Modal Interchange vs Modulation & Relative vs Parallel Keys: Relative keys share notes but have different root notes (C Major & A natural minor). Parallel keys share the same root note but have different notes (C Major & C natural minor). Modal interchange borrows chords from a parallel key while maintaining the same tonal center."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 01:31-02:35. Modal Interchange vs Modulation & Relative vs Parallel Keys: Relative keys share notes but have different root notes (C Major & A natural minor). Parallel keys share the same root note but have different notes (C Major & C natural minor). Modal interchange borrows chords from a parallel key while maintaining the same tonal center. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

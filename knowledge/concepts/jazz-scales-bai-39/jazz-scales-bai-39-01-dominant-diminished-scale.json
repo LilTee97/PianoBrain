@@ -1,0 +1,34 @@
+{
+  "id": "jazz-scales-bai-39-01-dominant-diminished-scale",
+  "type": "concept",
+  "name": "Giới thiệu gam Dominant Diminished (thường gọi là gam Diminished Nửa - Nguyên / Half-Whole Dimin",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-39",
+    "locator": "00:00-00:46",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C7",
+    "Chọn gam / scale khi gặp hợp âm 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C7",
+    "source_text": "Giới thiệu gam Dominant Diminished (thường gọi là gam Diminished Nửa - Nguyên / Half-Whole Diminished Scale). Gam này được áp dụng trực tiếp lên các hợp âm Dominant 7th (hợp âm bậc V) để tạo ra các âm màu biến tấu (altered sounds/extensions)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 39 của nguồn Jazz Scales (YouTube), mốc 00:00-00:46. Giới thiệu gam Dominant Diminished (thường gọi là gam Diminished Nửa - Nguyên / Half-Whole Diminished Scale). Gam này được áp dụng trực tiếp lên các hợp âm Dominant 7th (hợp âm bậc V) để tạo ra các âm màu biến tấu (altered sounds/extensions). Item còn draft: chưa ai xem lại video để đối chiếu."
+}

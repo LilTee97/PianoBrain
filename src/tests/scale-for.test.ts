@@ -243,6 +243,34 @@ describe("scaleFor — chọn thang âm từ kho", () => {
     }
   });
 
+  it("nối bậc trong giọng: madd9 / sus4 / Bdim", () => {
+    const trongGiongC = new Set([0, 2, 4, 5, 7, 9, 11]);
+    const aeolian = scaleFor("Am(add9)", kb, { key: "C" }).best;
+    assert.ok(aeolian);
+    assert.match(aeolian.name ?? "", /thứ tự nhiên|aeolian/i);
+    assert.ok(!aeolian.pitch_classes.includes(pcOf("F#")));
+
+    const dorian = scaleFor("Dm(add9)", kb, { key: "C" }).best;
+    assert.ok(dorian);
+    assert.match(dorian.name ?? "", /dorian/i);
+
+    const csus = scaleFor("Csus4", kb, { key: "C" }).best;
+    assert.ok(csus);
+    assert.match(csus.name ?? "", /trưởng|ionian|major/i);
+
+    assert.equal(scaleFor("Fsus4", kb, { key: "C" }).best, null);
+    assert.equal(scaleFor("Am(add9)", kb).best, null);
+
+    const bdim = scaleFor("Bdim", kb, { key: "C" }).best;
+    assert.ok(bdim, "Locrian draft được trả khi không siết validated");
+    assert.deepEqual(bdim.semitones_from_root, [0, 1, 3, 5, 6, 8, 10]);
+    assert.equal(bdim.status, "draft");
+    for (const pc of bdim.pitch_classes) {
+      assert.ok(trongGiongC.has(pc), `Bdim Locrian lạc: ${pc}`);
+    }
+    assert.equal(scaleFor("Bdim", kb, { key: "C", requireValidated: true }).best, null);
+  });
+
   it("sus4 trơn, m6, madd9, dim vẫn im — và im là đúng", () => {
     /*
       Bốn chất này có tới 17-30 gam đã rà chứa đủ nốt, nên **nối được** về mặt

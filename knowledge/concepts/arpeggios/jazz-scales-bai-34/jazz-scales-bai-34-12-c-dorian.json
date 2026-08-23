@@ -1,0 +1,49 @@
+{
+  "id": "jazz-scales-bai-34-12-c-dorian",
+  "type": "arpeggio",
+  "name": "Technique 3:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-34",
+    "locator": "13:45-15:19",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Ngẫu hứng jazz trên hợp âm Dm7",
+    "Ngẫu hứng jazz trên hợp âm Gm7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cm7",
+    "notes": [
+      "Bb4",
+      "G4",
+      "Eb4",
+      "C4",
+      "A4",
+      "F4",
+      "D4",
+      "Bb3",
+      "G4",
+      "Eb4",
+      "C4"
+    ],
+    "source_text": "Technique 3: Outlining 7ths Line. Descending and ascending arpeggiated diatonic 7th chord shapes interspersed with scalar connective lines over Cm7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 34 của nguồn Jazz Scales (YouTube), mốc 13:45-15:19. Technique 3: Outlining 7ths Line. Descending and ascending arpeggiated diatonic 7th chord shapes interspersed with scalar connective lines over Cm7. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

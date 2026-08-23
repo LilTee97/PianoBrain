@@ -1,0 +1,73 @@
+{
+  "id": "jazz-scales-bai-36-02-a-dorian",
+  "type": "scale",
+  "name": "Gam A Dorian cho hợp âm Am7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-36",
+    "locator": "01:23-02:29",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Am7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "A Dorian",
+      "root": "A",
+      "note_names": [
+        "A3",
+        "B3",
+        "C4",
+        "D4",
+        "E4",
+        "F#4",
+        "G4"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "m7",
+        "dim",
+        "m7b5"
+      ],
+      "use_when": [
+        "hợp âm Am7"
+      ]
+    },
+    "chord_symbol": "Am7",
+    "notes": [
+      "A3",
+      "B3",
+      "C4",
+      "D4",
+      "E4",
+      "F#4",
+      "G4"
+    ],
+    "source_text": "Four minor modes derived from major scales starting on A, all containing C (3rd) and G (7th): A Dorian (A B C D E F# G), A Phrygian (A Bb C D E F G), A Aeolian (A B C D E F G), A Locrian (A Bb C D Eb F G)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 36 của nguồn Jazz Scales (YouTube), mốc 01:23-02:29. Four minor modes derived from major scales starting on A, all containing C (3rd) and G (7th): A Dorian (A B C D E F# G), A Phrygian (A Bb C D E F G), A Aeolian (A B C D E F G), A Locrian (A Bb C D Eb F G). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

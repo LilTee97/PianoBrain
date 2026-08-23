@@ -1,0 +1,53 @@
+{
+  "id": "jazz-scales-bai-41-10-c-aeolian",
+  "type": "exercise",
+  "name": "Unresolved borrowed 2-5 modal interchange in 'Lady Bird' in C Major:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-41",
+    "locator": "12:12-13:16",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm CMaj7",
+    "Ngẫu hứng jazz trên hợp âm Fm7",
+    "Ngẫu hứng jazz trên hợp âm Bb7",
+    "Ngẫu hứng jazz trên hợp âm EbMaj7",
+    "Chọn gam / scale khi gặp hợp âm majj7, m7, 7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "majj7",
+      "m7",
+      "7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Fm7 - Bb7 - CMaj7",
+    "notes": [
+      "F3",
+      "Ab3",
+      "C4",
+      "Eb4",
+      "Bb2",
+      "D3",
+      "F3",
+      "Ab3",
+      "C3",
+      "E3",
+      "G3",
+      "B3"
+    ],
+    "source_text": "Unresolved borrowed 2-5 modal interchange in 'Lady Bird' in C Major: CMaj7 -> Fm7 (minor iv) -> Bb7 (bVII7) -> CMaj7. Fm7 and Bb7 are borrowed from C Aeolian and form a 2-5 that would resolve to EbMajor, but instead returns to CMaj7."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 41 của nguồn Jazz Scales (YouTube), mốc 12:12-13:16. Unresolved borrowed 2-5 modal interchange in 'Lady Bird' in C Major: CMaj7 -> Fm7 (minor iv) -> Bb7 (bVII7) -> CMaj7. Fm7 and Bb7 are borrowed from C Aeolian and form a 2-5 that would resolve to EbMajor, but instead returns to CMaj7. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

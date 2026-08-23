@@ -5,6 +5,8 @@ import { auditCapability, contentTerms, termOverlap, type AuditResult } from "./
 import { generateFill, generateIntro, generateOutro, type PhrasePlan } from "./fill.js";
 import { generateRun } from "./generate.js";
 import { classify, vocalFromText, type Intent, type Progression } from "./parse.js";
+import { parseChord } from "./chords.js";
+import { scaleFor } from "./scaleFor.js";
 import { chordSymbol, qualityOfDegree } from "./theory.js";
 
 /**
@@ -27,6 +29,25 @@ function inventory(a: AuditResult): string {
 
 const namesOf = (p: Progression) => p.progression.map((d) => chordSymbol(d, qualityOfDegree(d), p.key));
 
+/** Hỏi "chạy gam gì" mà không thành vòng: vẫn gọi scaleFor, đừng để audit kéo item Hải về add9. */
+function scaleAnswerFromText(text: string, kb: KnowledgeBase): string[] | null {
+  if (!/gam|scale|thang âm|locrian|aeolian/i.test(text)) return null;
+  const tokens = text.split(/[\s,|]+/).map((t) => t.replace(/[?.!]/g, ""));
+  for (const token of tokens) {
+    if (!parseChord(token)) continue;
+    const picked = scaleFor(token, kb);
+    if (picked.best) {
+      const tag = picked.best.status === "draft" ? `${picked.best.teacher_id}, chờ rà` : picked.best.teacher_id;
+      return [
+        `  [${tag}] ${picked.best.label ?? picked.best.name} trên ${token}`,
+        `    ${picked.best.item_id} · ${picked.best.locator ?? ""}`,
+      ];
+    }
+    return [`  Kho chưa có gam gắn cho ${token}. ${picked.missing ?? ""}`.trim()];
+  }
+  return null;
+}
+
 // Kho có nhiều thầy: in đích danh teacher_id, đừng nói "của thầy" trống không.
 const kindOf = (r: ItemRef) => {
   if (r.source_kind === "teacher") return r.attribution ?? "có nguồn";
@@ -47,6 +68,17 @@ function answerPlay(prog: Progression, intent: Extract<Intent, { mode: "play" }>
 
   if (want.has("degrees")) {
     out.push(names.map((n, i) => `${n}=${prog.progression[i]}`).join(", ") + ` (tông ${prog.key})`);
+  }
+
+  if (want.has("scale")) {
+    const picked = scaleFor(names[0] ?? "", kb);
+    if (picked.best) {
+      const tag = picked.best.status === "draft" ? `${picked.best.teacher_id}, chờ rà` : picked.best.teacher_id;
+      out.push(`  [${tag}] ${picked.best.label ?? picked.best.name}`);
+      out.push(`    nốt bậc: ${picked.best.semitones_from_root.join(" ")} · ${picked.best.item_id} · ${picked.best.locator ?? ""}`);
+    } else {
+      out.push(`  Kho chưa có gam gắn cho ${names[0]}. ${picked.missing ?? ""}`.trim());
+    }
   }
 
   const needsAnswer = intent.topics.some((t) => t !== "degrees");
@@ -261,8 +293,9 @@ export function reply(text: string, kb: KnowledgeBase): string[] {
   // Kiểm kê chỉ đi kèm câu hỏi về kho, không dán vào mọi câu trả lời.
   if (intent.mode === "play") return answerPlay(intent.prog, intent, kb, text);
   if (intent.mode === "audit") {
+    const scaleBit = scaleAnswerFromText(text, kb);
     const a = auditCapability(intent.query, kb);
-    return [...answerAudit(a), inventory(a)];
+    return [...(scaleBit ?? []), ...answerAudit(a), inventory(a)];
   }
   // Không rõ: để kho quyết định đây có phải tên kỹ thuật không, chứ đừng đoán vòng hợp âm.
   const a = auditCapability(text, kb);

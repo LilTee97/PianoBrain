@@ -97,10 +97,17 @@ const SPELLING: [RegExp, string][] = [
   [/^madd2$/, "madd9"],
   [/^m6\/9$/, "m69"],
   [/^6\/9$/, "69"],
+  [/^7sus$/, "7sus4"],
+  [/^[°ºo]7$/, "dim7"],
+  [/^[°ºo]$/, "dim"],
 ];
 
 const normalize = (quality: string) => {
-  const flat = quality.toLowerCase().replace(/[()\s]/g, "").replace(/^min/, "m").replace(/^ø/, "m7b5");
+  const flat = quality
+    .toLowerCase()
+    .replace(/[()\s]/g, "")
+    .replace(/^min/, "m")
+    .replace(/^ø7?/, "m7b5");
   if (flat === "") return "maj";
   return SPELLING.find(([pattern]) => pattern.test(flat))?.[1] ?? flat;
 };

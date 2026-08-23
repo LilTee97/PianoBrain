@@ -11,14 +11,14 @@
   },
   "use_when": [
     "Ngẫu hứng jazz trên hợp âm Db°",
-    "Chọn gam / scale khi gặp hợp âm ° trong nhạc jazz"
+    "Chọn gam / scale khi gặp hợp âm dim trong nhạc jazz"
   ],
   "avoid_when": [
     "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
   ],
   "input": {
     "chord_quality": [
-      "°"
+      "dim"
     ],
     "style": [
       "jazz"
@@ -49,7 +49,7 @@
         11
       ],
       "for_qualities": [
-        "°"
+        "dim"
       ],
       "use_when": [
         "hợp âm Db°"

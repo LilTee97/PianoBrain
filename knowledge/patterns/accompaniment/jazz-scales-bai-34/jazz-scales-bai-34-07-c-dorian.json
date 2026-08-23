@@ -1,0 +1,51 @@
+{
+  "id": "jazz-scales-bai-34-07-c-dorian",
+  "type": "exercise",
+  "name": "Technique 1:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-34",
+    "locator": "03:35-04:58",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Cm7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Cm7",
+    "notes": [
+      "C4",
+      "D4",
+      "Eb4",
+      "F4",
+      "G4",
+      "A4",
+      "Bb4",
+      "C5",
+      "Bb4",
+      "A4",
+      "G4",
+      "F4",
+      "Eb4",
+      "D4",
+      "C4"
+    ],
+    "source_text": "Technique 1: 8th Notes Exercise. Play C Dorian scale up and down in continuous 8th notes over C minor backing groove, popping the chord syncopated on the 'and' of beat 2."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 34 của nguồn Jazz Scales (YouTube), mốc 03:35-04:58. Technique 1: 8th Notes Exercise. Play C Dorian scale up and down in continuous 8th notes over C minor backing groove, popping the chord syncopated on the 'and' of beat 2. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

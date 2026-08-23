@@ -1,0 +1,39 @@
+{
+  "id": "jazz-scales-bai-38-01-bdim",
+  "type": "concept",
+  "name": "Demonstration of B diminished triad (Bdim) played on keyboard.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-38",
+    "locator": "00:00-00:08",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Bdim",
+    "Chọn gam / scale khi gặp hợp âm dim trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "Bdim",
+    "notes": [
+      "B3",
+      "D4",
+      "F4"
+    ],
+    "source_text": "Demonstration of B diminished triad (Bdim) played on keyboard."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 38 của nguồn Jazz Scales (YouTube), mốc 00:00-00:08. Demonstration of B diminished triad (Bdim) played on keyboard. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

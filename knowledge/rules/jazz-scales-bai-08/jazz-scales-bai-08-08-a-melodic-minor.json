@@ -46,7 +46,10 @@
         9,
         11
       ],
-      "for_qualities": [],
+      "for_qualities": [
+        "dim",
+        "m7b5"
+      ],
       "use_when": [
         "hợp âm F#m7(b5)"
       ]

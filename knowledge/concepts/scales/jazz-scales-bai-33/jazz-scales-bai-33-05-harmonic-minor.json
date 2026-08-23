@@ -1,0 +1,71 @@
+{
+  "id": "jazz-scales-bai-33-05-harmonic-minor",
+  "type": "scale",
+  "name": "Gam harmonic minor cho hợp âm CmM7",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-33",
+    "locator": "02:16-02:21",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm CmM7",
+    "Chọn gam / scale khi gặp hợp âm mM7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "mM7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": null,
+      "root": "C4",
+      "note_names": [
+        "C4",
+        "D4",
+        "Eb4",
+        "F4",
+        "G4",
+        "Ab4",
+        "B4"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "for_qualities": [
+        "mM7"
+      ],
+      "use_when": [
+        "hợp âm CmM7"
+      ]
+    },
+    "chord_symbol": "CmM7",
+    "notes": [
+      "C4",
+      "D4",
+      "Eb4",
+      "F4",
+      "G4",
+      "Ab4",
+      "B4"
+    ],
+    "source_text": "C Harmonic Minor (I Harmonic Minor) scale degrees are 1 2 b3 4 5 b6 7. Notes from C: C D Eb F G Ab B. Played over CmM7 chord."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 33 của nguồn Jazz Scales (YouTube), mốc 02:16-02:21. C Harmonic Minor (I Harmonic Minor) scale degrees are 1 2 b3 4 5 b6 7. Notes from C: C D Eb F G Ab B. Played over CmM7 chord. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

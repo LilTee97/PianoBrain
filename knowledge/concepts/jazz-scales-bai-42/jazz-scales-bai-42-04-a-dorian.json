@@ -1,0 +1,73 @@
+{
+  "id": "jazz-scales-bai-42-04-a-dorian",
+  "type": "concept",
+  "name": "Avoid note evaluation for minor modes over Am7:",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-42",
+    "locator": "03:55-05:05",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm Am7",
+    "Chọn gam / scale khi gặp hợp âm m7 trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "m7"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "A Dorian",
+      "root": "A",
+      "note_names": [
+        "A3",
+        "B3",
+        "C4",
+        "D4",
+        "E4",
+        "F#4",
+        "G4"
+      ],
+      "semitones_from_root": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "for_qualities": [
+        "m7",
+        "dim",
+        "m7b5"
+      ],
+      "use_when": [
+        "hợp âm Am7"
+      ]
+    },
+    "chord_symbol": "Am7",
+    "notes": [
+      "A3",
+      "B3",
+      "C4",
+      "D4",
+      "E4",
+      "F#4",
+      "G4"
+    ],
+    "source_text": "Avoid note evaluation for minor modes over Am7: A Dorian has 0 avoid notes (F# creates M9/natural 9 above E, not b9); A Aeolian has 1 avoid note (F); A Phrygian has 2 avoid notes (Bb, F); A Locrian has 2 avoid notes (Bb, F) and a b5 (Eb)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 42 của nguồn Jazz Scales (YouTube), mốc 03:55-05:05. Avoid note evaluation for minor modes over Am7: A Dorian has 0 avoid notes (F# creates M9/natural 9 above E, not b9); A Aeolian has 1 avoid note (F); A Phrygian has 2 avoid notes (Bb, F); A Locrian has 2 avoid notes (Bb, F) and a b5 (Eb). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

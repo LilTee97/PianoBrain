@@ -1,0 +1,41 @@
+{
+  "id": "jazz-scales-bai-37-06-c-dim",
+  "type": "concept",
+  "name": "In Classical music, such as Mozart's Piano Sonata No.",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-37",
+    "locator": "06:32-06:50",
+    "supporting": []
+  },
+  "use_when": [
+    "Ngẫu hứng jazz trên hợp âm C#dim",
+    "Ngẫu hứng jazz trên hợp âm D",
+    "Chọn gam / scale khi gặp hợp âm dim, maj trong nhạc jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "chord_quality": [
+      "dim",
+      "maj"
+    ],
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "chord_symbol": "C#dim",
+    "notes": [
+      "C#4",
+      "E4",
+      "G4"
+    ],
+    "source_text": "In Classical music, such as Mozart's Piano Sonata No. 5 (K. 283) in D major, C#dim (vii°) is used repeatedly to resolve directly to the tonic D major (I)."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 37 của nguồn Jazz Scales (YouTube), mốc 06:32-06:50. In Classical music, such as Mozart's Piano Sonata No. 5 (K. 283) in D major, C#dim (vii°) is used repeatedly to resolve directly to the tonic D major (I). Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+}

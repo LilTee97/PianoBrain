@@ -1,0 +1,64 @@
+{
+  "id": "jazz-scales-bai-35-05-e-phrygian",
+  "type": "scale",
+  "name": "Gam E Phrygian",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "jazz-scales",
+    "source_id": "jazz-scales-bai-35",
+    "locator": "07:22-07:33",
+    "supporting": []
+  },
+  "use_when": [
+    "Chọn gam / scale để ngẫu hứng jazz"
+  ],
+  "avoid_when": [
+    "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
+  ],
+  "input": {
+    "style": [
+      "jazz"
+    ]
+  },
+  "output": {
+    "scale": {
+      "name": "E Phrygian",
+      "root": "E",
+      "note_names": [
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5",
+        "D5",
+        "E5"
+      ],
+      "semitones_from_root": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "for_qualities": [],
+      "use_when": []
+    },
+    "notes": [
+      "E4",
+      "F4",
+      "G4",
+      "A4",
+      "B4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "source_text": "Chế độ thứ 3 của gam Trưởng là Phrygian mode, bắt đầu từ bậc III. Trong C major, E Phrygian bao gồm: E, F, G, A, B, C, D, E. Cấu trúc khoảng bắt đầu bằng Nửa cung - Cung - Cung - Cung - Nửa cung - Cung - Cung."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bài 35 của nguồn Jazz Scales (YouTube), mốc 07:22-07:33. Chế độ thứ 3 của gam Trưởng là Phrygian mode, bắt đầu từ bậc III. Trong C major, E Phrygian bao gồm: E, F, G, A, B, C, D, E. Cấu trúc khoảng bắt đầu bằng Nửa cung - Cung - Cung - Cung - Nửa cung - Cung - Cung. Item còn draft: chưa ai xem lại video để đối chiếu."
+}
