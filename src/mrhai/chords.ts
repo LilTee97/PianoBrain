@@ -6,10 +6,23 @@ const QUALITY_INTERVALS: [string, number[]][] = [
   ["maj7", [0, 4, 7, 11]],
   ["m7b5", [0, 3, 6, 10]],
   ["dim7", [0, 3, 6, 9]],
+  ["13sus4", [0, 5, 7, 10, 14, 21]],
+  ["9sus4", [0, 5, 7, 10, 14]],
   ["7sus4", [0, 5, 7, 10]],
   ["7b13", [0, 4, 7, 10, 20]],
   ["7b9", [0, 4, 7, 10, 13]],
+  /*
+    `add2` và `add9` là **một hợp âm, hai cách viết**.
+
+    Bậc 2 và bậc 9 cùng một lớp cao độ, chỉ khác quãng tám; người viết chọn chữ
+    nào là tuỳ chỗ họ đặt nốt ấy trên đàn. Bảng này đọc ký hiệu trên giấy, nên
+    phải đọc được cả hai — bên KeyTrain in ra `Cadd2` trong khi mã nội bộ của nó
+    là `add9`, và bộ đọc cũ chịu thua đúng chỗ ấy.
+  */
+  ["madd9", [0, 3, 7, 14]],
+  ["madd2", [0, 3, 7, 14]],
   ["add9", [0, 4, 7, 14]],
+  ["add2", [0, 4, 7, 14]],
   ["sus4", [0, 5, 7]],
   ["sus2", [0, 2, 7]],
   ["m11", [0, 3, 7, 10, 14, 17]],
@@ -67,7 +80,15 @@ export function parseChord(symbol: string): ParsedChord | null {
   const body = bassIsNote ? head : symbol;
   const root = /^[A-G][#b]?/.exec(body)?.[0];
   if (!root) return null;
-  const quality = body.slice(root.length);
+  /*
+    Bỏ ngoặc trước khi tra bảng.
+
+    Người nhạc sĩ viết `Am(add9)`, `C(add2)`, `Cm(maj7)` — ngoặc chỉ để mắt đọc
+    cho gọn, không mang nghĩa nào khác. Bắt bảng liệt kê cả hai cách viết cho
+    từng chất là nhân đôi bảng và chắc chắn quên vài dòng; bỏ ngoặc một lần thì
+    mọi cách viết đổ về cùng một khoá.
+  */
+  const quality = body.slice(root.length).replace(/[()]/g, "");
   const found = QUALITY_INTERVALS.find(([q]) => q === quality);
   if (!found) return null;
   return {
