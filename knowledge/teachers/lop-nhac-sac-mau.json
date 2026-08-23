@@ -1,0 +1,14 @@
+{
+  "id": "lop-nhac-sac-mau",
+  "type": "teacher",
+  "name": "Lớp Nhạc Sắc Màu",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Người học hỏi về hợp âm màu add9 và cách chèn nó vào vòng hợp âm pop/ballad"],
+  "avoid_when": ["Ngẫu hứng jazz trên hợp âm bảy — đó là phần của nguồn Jazz Scales, không phải kênh này"],
+  "input": { "style": ["pop_ballad", "pop"] },
+  "output": { "declared_focus": ["hợp âm màu", "add9", "madd9", "hoà âm nhạc nhẹ"], "language": "vi", "ingested_sources": 1 },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Lớp dạy hoà âm nhạc nhẹ tiếng Việt. Tách riêng khỏi tập hợp 'jazz-scales' vì cùng lý do với KuTèo Piano: đây là đệm hát pop Việt, không phải lý thuyết jazz. Tên lớp đọc từ chính dữ liệu trích xuất — dòng đoạn đầu của bài ghi 'Giới thiệu & Logo Lớp Nhạc Sắc Màu' — chứ không đoán từ tên file. Bài này dạy cả Cadd9 lẫn Am(add9), tức chạm đúng chất madd9 mà kho đang trống."
+}

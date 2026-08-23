@@ -1,0 +1,14 @@
+{
+  "id": "ku-teo-piano",
+  "type": "teacher",
+  "name": "KuTèo Piano",
+  "difficulty": 2,
+  "source": null,
+  "use_when": ["Người học hỏi về hợp âm màu add9 trong đệm hát pop và ballad Việt"],
+  "avoid_when": ["Ngẫu hứng jazz trên hợp âm bảy — đó là phần của nguồn Jazz Scales, không phải kênh này"],
+  "input": { "style": ["pop_ballad", "pop"] },
+  "output": { "declared_focus": ["hợp âm màu", "add9", "đệm hát"], "language": "vi", "ingested_sources": 1 },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Kênh dạy đệm hát piano tiếng Việt. Tách riêng khỏi tập hợp 'jazz-scales' vì đây là đệm hát pop Việt, mà chính bản ghi jazz-scales viết trong avoid_when rằng đệm hát ballad Việt không thuộc nguồn ấy, và input.style của nó là 'jazz'. Nhét vào đó là dán nhãn style jazz lên một bài dạy hợp âm màu ballad. Tên kênh đọc từ tiêu đề trong chính dữ liệu trích xuất, không đoán. Nguồn này đứng CẠNH thầy Hải Joseph chứ không thay: thầy Hải dạy đệm hát ballad Việt ở tầm rộng hơn nhiều, còn kênh này lấp đúng một chỗ — hợp âm add9 và add9 bản thứ."
+}

@@ -382,6 +382,55 @@ function findVideo(root: unknown): { id?: string; url?: string } | undefined {
 /** Tên bài. `lesson_title` cũng tính, `pdf ... title` thì không. */
 const findTitle = (root: unknown): string | undefined => findKey(root, /^(lesson_)?title$/);
 
+/**
+ * Bài nào **không** thuộc tập hợp `jazz-scales`.
+ *
+ * `jazz-scales` tự khai trong bản ghi của nó: gom nhiều kênh dạy lý thuyết jazz
+ * tiếng Anh dưới một nguồn, `input.style` là `jazz`, và `avoid_when` viết thẳng
+ * *"Câu hỏi về đệm hát ballad Việt — đó là phần của thầy Hải Joseph, không phải
+ * nguồn này"*. Hai bài dưới đây là **đệm hát pop Việt**, nên nhét vào đó là dán
+ * nhãn `style: jazz` lên một bài dạy hợp âm màu ballad, và mâu thuẫn thẳng với
+ * dòng chữ chính nguồn ấy tự viết ra.
+ *
+ * Kho đã có lối cho việc này: mỗi kênh một bản ghi thầy, như `charlie-tran`,
+ * `pianote`, `mack-grout`, `peter-martin`. Tên kênh đọc từ chính dữ liệu trích
+ * xuất, không đoán — bài 26 ghi "KuTèo Piano" ngay trong tiêu đề, bài 27 ghi
+ * "Lớp Nhạc Sắc Màu" ở đoạn giới thiệu.
+ */
+interface OtherTeacher {
+  teacher: string;
+  source: string;
+  style: string[];
+  avoid: string;
+}
+
+const OTHER_TEACHERS: Record<number, OtherTeacher> = {
+  26: {
+    teacher: "ku-teo-piano",
+    source: "ku-teo-piano-add9",
+    style: ["pop_ballad", "pop"],
+    avoid: "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt",
+  },
+  27: {
+    teacher: "lop-nhac-sac-mau",
+    source: "lop-nhac-sac-mau-add9",
+    style: ["pop_ballad", "pop"],
+    avoid: "Ngẫu hứng jazz trên hợp âm bảy — đây là hợp âm màu cho đệm hát pop Việt",
+  },
+};
+
+/** Thầy, nguồn và style của một bài — mặc định là tập hợp `jazz-scales`. */
+function ownerOf(lessonNo: number): OtherTeacher {
+  return (
+    OTHER_TEACHERS[lessonNo] ?? {
+      teacher: TEACHER_ID,
+      source: `jazz-scales-bai-${String(lessonNo).padStart(2, "0")}`,
+      style: ["jazz"],
+      avoid: "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph",
+    }
+  );
+}
+
 function build(row: Row, sourceId: string, lessonNo: number, seq: number, vietnamese: boolean): Built | null {
   // Luật người dùng: chỉ `direct` mới được extracted. Mờ mờ thì không nhận là của nguồn.
   if (row.confidence && row.confidence !== "direct") return null;
@@ -440,19 +489,17 @@ function build(row: Row, sourceId: string, lessonNo: number, seq: number, vietna
     name: head,
     difficulty: 3,
     source: {
-      teacher_id: TEACHER_ID,
+      teacher_id: ownerOf(lessonNo).teacher,
       source_id: sourceId,
       locator,
       // PDF chống lưng trong kho master là thứ bộ trích xuất tự dựng — nguồn này chỉ có video.
       supporting: [],
     },
     use_when,
-    avoid_when: [
-      "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph",
-    ],
+    avoid_when: [ownerOf(lessonNo).avoid],
     input: {
       ...(qualities.length > 0 ? { chord_quality: qualities } : {}),
-      style: ["jazz"],
+      style: ownerOf(lessonNo).style,
     },
     output: {
       ...(scaleOutput(row) ?? {}),
@@ -574,7 +621,8 @@ function main(): void {
   LESSONS.forEach((folder, index) => {
     const dir = path.join(from, folder);
     const lessonNo = index + 1;
-    const sourceId = `jazz-scales-bai-${String(lessonNo).padStart(2, "0")}`;
+    const owner = ownerOf(lessonNo);
+    const sourceId = owner.source;
     const mapFile = path.join(dir, "lesson_source_map.yaml");
     const map = fs.existsSync(mapFile) ? readSourceMap(mapFile) : {};
     const video = findVideo(map);
@@ -590,12 +638,13 @@ function main(): void {
     const mp4 = realVideo(path.resolve(from, "..", "..", ".."), folder);
     sources.push({
       source_id: sourceId,
-      teacher_id: TEACHER_ID,
+      teacher_id: owner.teacher,
       kind: "video",
       title: mp4 ?? (videoId.endsWith(".mp4") ? videoId : title),
       url: realUrl(video?.url),
       ingested_at: today,
-      course_id: "jazz_scales_001",
+      // Hai bài pop Việt không thuộc khoá jazz nào — để trống chứ đừng gán bừa.
+      ...(owner.teacher === TEACHER_ID ? { course_id: "jazz_scales_001" } : {}),
       lesson_id: findKey(map, /^lesson_id$/) ?? folder,
       ...(mp4 ? {} : { source_map_missing_video: true }),
     });
