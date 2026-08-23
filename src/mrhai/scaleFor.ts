@@ -81,9 +81,28 @@ export interface ScaleAnswer {
  * bao giờ khớp, và đó đúng là chỗ hỏng lặng lẽ nhất: không lỗi, chỉ là không
  * bao giờ có gam.
  */
+/*
+  Cùng một hợp âm viết mấy kiểu thì phải về **một khoá tra**.
+
+  `add2` và `add9` là một hợp âm: bậc 2 và bậc 9 cùng lớp cao độ, chỉ khác quãng
+  tám, và người viết chọn chữ nào là tuỳ chỗ họ đặt nốt trên đàn. Không gộp thì
+  cùng một hợp âm trả lời khác nhau tuỳ **cách viết** — KeyTrain in ra `Cadd2`
+  nên nó im, trong khi `Cadd9` kêu, dù hai chữ ấy chỉ tay vào cùng bốn nốt.
+
+  Đây là chuyện **chính tả**, không phải chuyện nhạc: gộp ở đây thì bảng chỉ
+  đường chỉ cần ghi một tên, và bảng nào cũng khỏi phải liệt kê lại mọi cách viết.
+*/
+const SPELLING: [RegExp, string][] = [
+  [/^add2$/, "add9"],
+  [/^madd2$/, "madd9"],
+  [/^m6\/9$/, "m69"],
+  [/^6\/9$/, "69"],
+];
+
 const normalize = (quality: string) => {
   const flat = quality.toLowerCase().replace(/[()\s]/g, "").replace(/^min/, "m").replace(/^ø/, "m7b5");
-  return flat === "" ? "maj" : flat;
+  if (flat === "") return "maj";
+  return SPELLING.find(([pattern]) => pattern.test(flat))?.[1] ?? flat;
 };
 
 /** Đổi nốt gốc trong tên gam sang nốt gốc hợp âm: "G Bebop Dominant" + C -> "C Bebop Dominant". */
@@ -179,8 +198,24 @@ export interface ScaleForOptions {
  * Luật chỉ **trỏ** tới item thang âm; nốt vẫn nằm nguyên chỗ cũ, một bản duy
  * nhất. Sửa nốt thì sửa ở item của thầy, luật không giữ bản sao nào.
  *
- * Cửa phát tiếng đọc `status` của **luật**, không phải của item thang âm: nốt
- * thì thầy đã dạy thật, còn thứ chưa ai rà là cách đọc lời thầy.
+ * ## Cửa phát tiếng: cấm gam bịa, không cấm phép cộng
+ *
+ * Hai thứ khác nhau, và trước đây bị siết như một:
+ *
+ * - **Bộ nốt** — thầy đàn ra, người rà mở video đối chiếu. Chưa rà thì cấm kêu,
+ *   không nới một li. Đó đúng là thứ luật chống bịa lập ra để chặn.
+ * - **Đường đi** — nối chất hợp âm này với bộ nốt kia. Nói "add9 dùng ngũ cung
+ *   Trưởng" không phải bịa lời thầy: ngũ cung ấy thầy dạy thật, người rà đối
+ *   chiếu thật, và đường nối suy ra bằng **phép đếm nốt** chứ không bằng tưởng
+ *   tượng. Luật chống bịa cấm gán cho thầy một câu thầy không nói — chứ không
+ *   cấm cộng hai điều thầy đã nói.
+ *
+ * Nên khi siết: **luật** được phép là `derived`, còn **item thang âm** nó trỏ
+ * tới bắt buộc `extracted` + `validated`. Bịa vẫn không lọt, vì bộ nốt vẫn phải
+ * có người đứng sau; chỉ cách đọc là được suy.
+ *
+ * Riêng luật `invented` thì không: `derived` là suy từ nhạc lý, `invented` là tự
+ * nghĩ ra — ranh giới giữa hai chữ ấy chính là chỗ này.
  */
 function viaRules(
   kb: KnowledgeBase,
@@ -195,7 +230,7 @@ function viaRules(
 
   for (const rule of kb.items) {
     if (rule.type !== "rule" || rule.status === "rejected") continue;
-    if (options.requireValidated && rule.status !== "validated") continue;
+    if (options.requireValidated && rule.origin === "invented") continue;
 
     const map = (rule.output as { chord_scale_map?: ChordScaleMap[] }).chord_scale_map;
     if (!Array.isArray(map)) continue;
@@ -206,6 +241,16 @@ function viaRules(
       const item = kb.byId.get(entry.scale_item);
       const scale = item ? storedScale(item) : null;
       if (!item || !scale || item.status === "rejected") continue;
+      /*
+        Bộ nốt phải có người đứng sau. Luật được suy, nốt thì không — đây là chỗ
+        giữ đúng ranh giới ấy, và nó thay cho cửa cũ đọc `status` của luật.
+      */
+      if (
+        options.requireValidated &&
+        (item.origin !== "extracted" || item.status !== "validated")
+      ) {
+        continue;
+      }
 
       const pitch_classes = scale.semitones_from_root.map((s) => (((root + s) % 12) + 12) % 12);
       if (!covers(pitch_classes, chordPcs)) continue;

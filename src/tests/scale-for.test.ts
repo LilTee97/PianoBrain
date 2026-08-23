@@ -142,6 +142,45 @@ describe("scaleFor — chọn thang âm từ kho", () => {
     }
   });
 
+  it("luật suy ra được kêu, nhưng nốt vẫn phải có người đứng sau", () => {
+    /*
+      Hai thứ khác nhau, trước đây bị siết như một.
+
+      **Bộ nốt** thầy đàn ra, người rà mở video đối chiếu — chưa rà thì cấm kêu.
+      **Đường đi** nối chất hợp âm với bộ nốt ấy thì suy được: nói "add9 dùng
+      ngũ cung Trưởng" không phải bịa lời thầy, vì ngũ cung ấy thầy dạy thật và
+      đường nối suy ra bằng phép đếm nốt.
+
+      Siết cả hai như nhau thì `Cadd9`, `Csus2`, `C6` — quá nửa số ô của một bài
+      pop Việt — im lặng, dù kho có đủ nốt và đã có người rà nốt ấy.
+    */
+    for (const symbol of ["Cadd9", "Csus2", "C6"]) {
+      const best = scaleFor(symbol, kb, { requireValidated: true }).best;
+      assert.ok(best, `${symbol} không ra gam nào khi siết`);
+      assert.equal(best.teacher_id, "hai-joseph", symbol);
+      assert.equal(best.semitones_from_root.length, 5, `${symbol} phải là ngũ cung`);
+      // Đường đi là luật, và luật ấy được nêu tên — không giấu.
+      assert.ok(best.via_rule, `${symbol} không nói nó đi qua luật nào`);
+    }
+  });
+
+  it("gam chưa ai rà thì KHÔNG lọt, dù có luật trỏ tới", () => {
+    /*
+      Đây là nửa còn lại của cùng một luật, và là nửa quan trọng hơn. Nới cửa cho
+      luật suy ra mà quên siết bộ nốt thì một gam máy tự nghĩ ra chỉ cần một luật
+      trỏ vào là thành tiếng.
+    */
+    for (const symbol of ["Cmaj7", "C7", "Cm7", "Cadd9", "Csus2", "C6", "Cm7b5"]) {
+      const answer = scaleFor(symbol, kb, { requireValidated: true });
+      for (const choice of [answer.best, ...answer.alternatives]) {
+        if (!choice) continue;
+        const item = kb.byId.get(choice.item_id)!;
+        assert.equal(item.status, "validated", `${symbol}: ${choice.item_id} chưa ai rà`);
+        assert.equal(item.origin, "extracted", `${symbol}: ${choice.item_id} không phải extracted`);
+      }
+    }
+  });
+
   it("siết requireValidated thì chỉ item đã có người rà mới được chọn", () => {
     /*
       Đây là nút để KeyTrain siết: kiến thức chưa ai đối chiếu lại nguồn thì
