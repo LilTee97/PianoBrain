@@ -19,6 +19,15 @@ describe("scaleFor — chọn thang âm từ kho", () => {
     assert.ok(!s.pitch_classes.includes(pcOf("F")));
   });
 
+  it("11 / maj13 / m13 / 7b5 nối gam đã rà", () => {
+    assert.ok(scaleFor("C11", kb, { requireValidated: true }).best);
+    assert.ok(scaleFor("Cmaj13", kb, { requireValidated: true }).best);
+    assert.ok(scaleFor("Cm13", kb, { requireValidated: true }).best);
+    const b5 = scaleFor("C7b5", kb, { requireValidated: true }).best;
+    assert.ok(b5);
+    assert.ok(b5.pitch_classes.includes(pcOf("Gb")));
+  });
+
   it("13b9 ra gam nửa cung-cung; 7b13 ra altered hoặc whole tone", () => {
     const thirteen = scaleFor("C13b9", kb, { requireValidated: true }).best;
     assert.ok(thirteen, "C13b9 phải đọc được và có gam");
