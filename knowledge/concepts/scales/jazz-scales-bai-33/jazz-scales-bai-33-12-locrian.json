@@ -1,7 +1,7 @@
 {
   "id": "jazz-scales-bai-33-12-locrian",
   "type": "scale",
-  "name": "Gam locrian cho hợp âm Cm7b5",
+  "name": "Gam C Locrian cho hợp âm Cm7b5 / dim",
   "difficulty": 3,
   "source": {
     "teacher_id": "jazz-scales",
@@ -28,7 +28,7 @@
   },
   "output": {
     "scale": {
-      "name": null,
+      "name": "C Locrian",
       "root": "C4",
       "note_names": [
         "C4",
@@ -71,6 +71,6 @@
     "source_text": "C Locrian (VII Major) scale degrees are 1 b2 b3 4 b5 b6 b7. Notes from C: C Db Eb F Gb Ab Bb. Played over C half-diminished (Cm7b5) chord."
   },
   "origin": "extracted",
-  "status": "draft",
-  "note_vi": "Bài 33 của nguồn Jazz Scales (YouTube), mốc 02:51-02:56. C Locrian (VII Major) scale degrees are 1 b2 b3 4 b5 b6 b7. Notes from C: C Db Eb F Gb Ab Bb. Played over C half-diminished (Cm7b5) chord. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+  "status": "validated",
+  "note_vi": "Bài 33 của nguồn Jazz Scales (YouTube), mốc 02:51-02:56. C Locrian (VII Major) scale degrees are 1 b2 b3 4 b5 b6 b7. Notes from C: C Db Eb F Gb Ab Bb. Played over C half-diminished (Cm7b5) chord. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. [RÀ TAY: khớp lý thuyết Locrian 1 b2 b3 4 b5 b6 b7 = C Db Eb F Gb Ab Bb]"
 }

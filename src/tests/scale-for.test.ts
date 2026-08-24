@@ -213,10 +213,9 @@ describe("scaleFor — chọn thang âm từ kho", () => {
       Fa thăng. Hai hợp âm ấy không nằm trong giọng Đô, nên không bậc thể nào của
       giọng phục vụ được — im là đúng, không phải thiếu sót.
 
-      `Bdim` thì thiếu thật: bậc thể của nó là Locrian, mà kho chưa có bản Locrian
-      nào đã rà.
+      `Bdim` có Locrian đã rà — không còn im.
     */
-    for (const symbol of ["Em(add9)", "Am6", "Bdim"]) {
+    for (const symbol of ["Em(add9)", "Am6"]) {
       assert.equal(
         scaleFor(symbol, kb, { requireValidated: true, key: "C" }).best,
         null,
@@ -264,11 +263,13 @@ describe("scaleFor — chọn thang âm từ kho", () => {
     const bdim = scaleFor("Bdim", kb, { key: "C" }).best;
     assert.ok(bdim, "Locrian draft được trả khi không siết validated");
     assert.deepEqual(bdim.semitones_from_root, [0, 1, 3, 5, 6, 8, 10]);
-    assert.equal(bdim.status, "draft");
+    assert.equal(bdim.status, "validated");
     for (const pc of bdim.pitch_classes) {
       assert.ok(trongGiongC.has(pc), `Bdim Locrian lạc: ${pc}`);
     }
-    assert.equal(scaleFor("Bdim", kb, { key: "C", requireValidated: true }).best, null);
+    const bdimRà = scaleFor("Bdim", kb, { key: "C", requireValidated: true }).best;
+    assert.ok(bdimRà, "Locrian đã rà thì Bdim phải có gam khi biết giọng");
+    assert.deepEqual(bdimRà.semitones_from_root, [0, 1, 3, 5, 6, 8, 10]);
   });
 
   it("sus4 trơn, m6, madd9, dim vẫn im — và im là đúng", () => {

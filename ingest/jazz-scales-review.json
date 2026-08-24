@@ -224,6 +224,11 @@
       "status": "validated",
       "mark": null,
       "dau": "rule|07:09-08:10|C Db Eb E F# G A Bb"
+    },
+    "jazz-scales-bai-33-12-locrian": {
+      "status": "validated",
+      "mark": "[RÀ TAY: khớp lý thuyết Locrian 1 b2 b3 4 b5 b6 b7 = C Db Eb F Gb Ab Bb]",
+      "dau": "scale|02:51-02:56|C4 Db4 Eb4 F4 Gb4 Ab4 Bb4"
     }
   }
 }
