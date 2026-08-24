@@ -412,9 +412,19 @@ export function scaleFor(
   const trongGiong = (choice: ScaleChoice) =>
     keyPcs !== null && choice.pitch_classes.every((pc) => keyPcs.has(pc));
 
+  const chordInKey = keyPcs !== null && chordPcs.every((pc) => keyPcs.has(pc));
+  const dimLướt =
+    want === "dim" && keyPcs !== null && !chordInKey
+      ? (choice: ScaleChoice) =>
+          choice.semitones_from_root.length === 8 &&
+          /dim/i.test(`${choice.name ?? ""} ${choice.label ?? ""}`)
+      : null;
+
   const usable = isTriad
-    ? matched.filter(
-        (choice) => choice.semitones_from_root.length <= 5 || trongGiong(choice),
+    ? matched.filter((choice) =>
+        dimLướt
+          ? dimLướt(choice)
+          : choice.semitones_from_root.length <= 5 || trongGiong(choice),
       )
     : [...matched];
   matched.length = 0;

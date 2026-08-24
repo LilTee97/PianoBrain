@@ -291,6 +291,12 @@ describe("scaleFor — chọn thang âm từ kho", () => {
     const bdimRà = scaleFor("Bdim", kb, { key: "C", requireValidated: true }).best;
     assert.ok(bdimRà, "Locrian đã rà thì Bdim phải có gam khi biết giọng");
     assert.deepEqual(bdimRà.semitones_from_root, [0, 1, 3, 5, 6, 8, 10]);
+
+    const passing = scaleFor("C#dim", kb, { key: "C", requireValidated: true }).best;
+    assert.ok(passing, "dim lướt phải ra gam giảm");
+    assert.match(`${passing.name ?? ""} ${passing.label ?? ""}`, /dim/i);
+    assert.ok(passing.pitch_classes.some((pc) => !trongGiongC.has(pc)));
+    assert.equal(scaleFor("Cdim", kb).best, null);
   });
 
   it("sus4 trơn, m6, madd9, dim vẫn im — và im là đúng", () => {
