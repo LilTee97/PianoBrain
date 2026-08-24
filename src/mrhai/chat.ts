@@ -4,6 +4,7 @@ import { askMrHai, type ItemRef } from "./answer.js";
 import { auditCapability, contentTerms, termOverlap, type AuditResult } from "./audit.js";
 import { generateFill, generateIntro, generateOutro, type PhrasePlan } from "./fill.js";
 import { generateRun } from "./generate.js";
+import { analyze, buildTemplate, explainColor, simplify } from "./analyze.js";
 import { classify, vocalFromText, type Intent, type Progression } from "./parse.js";
 import { parseChord } from "./chords.js";
 import { scaleFor } from "./scaleFor.js";
@@ -71,7 +72,36 @@ function answerPlay(prog: Progression, intent: Extract<Intent, { mode: "play" }>
   const want = new Set(intent.topics);
   const names = namesOf(prog);
 
-  if (want.has("degrees")) {
+  if (want.has("template")) {
+    const made = buildTemplate(query);
+    out.push(made ?? "Kho chưa có khuôn ấy. Em thử: tông C#m kiểu ii-V màu, hoặc tông C kiểu Iadd9.");
+  }
+
+  const symbols = prog.symbols ?? names;
+  const declared = /(?:giọng|tông|key)\s+([A-G][#b]?m?)/i.exec(query)?.[1];
+  const analysis = analyze(symbols, declared ?? null);
+
+  if (want.has("analyze") || (intent.suggest && symbols.length >= 6 && analysis)) {
+    if (analysis) {
+      out.push(`Giọng ${analysis.key}:`);
+      for (const row of analysis.rows) {
+        const bass = row.bass ? ` / bass ${row.bass}` : "";
+        out.push(`  ${row.symbol}  ${row.roman}${bass}`);
+      }
+    }
+  }
+
+  if (want.has("simplify") && analysis) {
+    out.push(`Đơn giản (bỏ 9/13/alt, giữ slash): ${simplify(symbols).join(" ")}`);
+  }
+
+  if (want.has("explain") && analysis) {
+    const asked = analysis.rows.filter((row) => query.toLowerCase().includes(row.symbol.toLowerCase()));
+    const rows = asked.length > 0 ? asked : analysis.rows.slice(0, 4);
+    for (const row of rows) out.push(`  ${explainColor(row, analysis.key, analysis.minor)}`);
+  }
+
+  if (want.has("degrees") && !want.has("analyze")) {
     out.push(names.map((n, i) => `${n}=${prog.progression[i]}`).join(", ") + ` (tông ${prog.key})`);
   }
 
@@ -88,6 +118,7 @@ function answerPlay(prog: Progression, intent: Extract<Intent, { mode: "play" }>
 
   const needsAnswer = intent.topics.some((t) => t !== "degrees");
   if (!needsAnswer) {
+    if (intent.suggest && symbols.length >= 6 && analysis) return out;
     if (intent.suggest) out.push("Em muốn thầy phối, câu lót, hay chạy ngón?");
     return out;
   }
@@ -295,6 +326,10 @@ function nearestItems(text: string, kb: KnowledgeBase): KnowledgeItem[] {
 export function reply(text: string, kb: KnowledgeBase): string[] {
   const intent = classify(text);
   if (intent.mode === "greet") return ["Chào em. Em đưa vòng hợp âm, hay hỏi thầy kho có gì?"];
+  if (intent.mode !== "play") {
+    const made = buildTemplate(text);
+    if (made) return [made];
+  }
   // Kiểm kê chỉ đi kèm câu hỏi về kho, không dán vào mọi câu trả lời.
   if (intent.mode === "play") return answerPlay(intent.prog, intent, kb, text);
   if (intent.mode === "audit") {

@@ -74,9 +74,11 @@ export interface Progression {
   qualities?: string[];
   /** Ký hiệu hợp âm dựng lại từ bậc, để in cho người học đối chiếu. */
   source: "name" | "number" | "roman";
+  /** Token gốc khi người học gõ tên hợp âm (kể cả slash). */
+  symbols?: string[];
 }
 
-const KEY_RE = /(?:giọng|giong|tông|tong|key)\s+([A-G][#b]?)/i;
+const KEY_RE = /(?:giọng|giong|tông|tong|key)\s+([A-G][#b]?m?)/i;
 
 /**
  * Câu đang nói về thế bấm thì "1-5" là quãng, không phải vòng bậc I-V.
@@ -92,7 +94,8 @@ const CONNECTORS = new Set([
 
 export function parseProgression(text: string): Progression | null {
   // Bỏ cụm khai giọng trước, nếu không "giọng C" sẽ bị đọc thành hợp âm C.
-  const declaredKey = KEY_RE.exec(text)?.[1];
+  const declaredRaw = KEY_RE.exec(text)?.[1];
+  const declaredKey = declaredRaw?.replace(/m$/i, "");
   const body = text.replace(KEY_RE, " ");
   const tokens = body
     .split(/[\s,|>-]+|->/)
@@ -111,7 +114,13 @@ export function parseProgression(text: string): Progression | null {
       const roman = ROMAN_BY_SEMITONE[(((pitchOfNote(r!.root) - keyPc) % 12) + 12) % 12];
       return r!.minor ? lower(roman) : roman;
     });
-    return { key, progression, qualities: roots.map((r) => r!.quality), source: "name" };
+    return {
+      key,
+      progression,
+      qualities: roots.map((r) => r!.quality),
+      source: "name",
+      symbols: found.run,
+    };
   }
 
   if (found.kind === "number") {
@@ -147,6 +156,9 @@ export type Topic =
   | "outro"
   | "fingering"
   | "scale"
+  | "analyze"
+  | "simplify"
+  | "template"
   | "explain"
   | "exercises";
 
@@ -161,6 +173,9 @@ const AUDIT_RE = /\bchưa\b|\bbiết chưa\b|\bcó .{0,40}không\b|\bdạy .{0,4
 const TOPIC_RE: [Topic, RegExp][] = [
   ["degrees", /xếp bậc|bậc sao|bậc nào|bậc mấy|bậc gì|roman|la mã/i],
   ["scale", /chạy gam|gam gì|gam nào|thang âm|\bscale\b|locrian|aeolian|dorian|phrygian/i],
+  ["analyze", /tiến trình|phan tich|phân tích|vòng này/i],
+  ["simplify", /đơn giản|don gian|rút gọn|rut gon/i],
+  ["template", /kiểu ii|kieu ii|ii-v\s*màu|iiø|iadd9|Iadd9/i],
   ["run", /chạy ngón|arpeggio|\brun\b|\brải\b|\barp\b/i],
   ["fill", /câu lót|câu dẫn|fill|\blót\b/i],
   ["reharm", /phối|màu hợp âm|\bmàu\b|reharm|hòa âm|hoà âm/i],

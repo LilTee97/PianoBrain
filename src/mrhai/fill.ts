@@ -450,7 +450,7 @@ export function generateIntro(input: FillInput, kb: KnowledgeBase): PhrasePlan |
   generic.push("Kho chưa có thế ngón cho intro — số ngón 1-3-5 và 2-3 là quy ước chung.");
   generic.push("Hình rải, nốt dẫn và chỗ lấy hơi ở phách 3-4 là kỹ thuật soạn thêm, bám nốt hợp âm và thang âm của giọng — không phải thầy dạy.");
 
-  const wanted = progression.slice(0, 4);
+  const wanted = progression;
 
   const bars: FillBar[] = wanted.map((deg, idx) => {
     const rootPc = pitchOfNote(degreeRoot(deg, key));

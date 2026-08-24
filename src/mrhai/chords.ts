@@ -29,6 +29,8 @@ const QUALITY_INTERVALS: [string, number[]][] = [
   ["sus4", [0, 5, 7]],
   ["sus2", [0, 2, 7]],
   ["m11", [0, 3, 7, 10, 14, 17]],
+  ["m13", [0, 3, 7, 10, 14, 21]],
+  ["m713", [0, 3, 7, 10, 14, 21]],
   ["m9", [0, 3, 7, 10, 14]],
   ["m7", [0, 3, 7, 10]],
   ["m6", [0, 3, 7, 9]],
@@ -63,7 +65,6 @@ const QUALITY_INTERVALS: [string, number[]][] = [
   ["maj7#11", [0, 4, 7, 11, 18]],
   ["maj13", [0, 4, 7, 11, 14, 21]],
   ["m6/9", [0, 3, 7, 9, 14]],
-  ["m13", [0, 3, 7, 10, 14, 21]],
   ["aug", [0, 4, 8]],
 ];
 
@@ -94,7 +95,10 @@ export function parseChord(symbol: string): ParsedChord | null {
     từng chất là nhân đôi bảng và chắc chắn quên vài dòng; bỏ ngoặc một lần thì
     mọi cách viết đổ về cùng một khoá.
   */
-  const quality = body.slice(root.length).replace(/[()]/g, "");
+  const quality = body
+    .slice(root.length)
+    .replace(/[()]/g, "")
+    .replace(/^m713$/, "m13");
   const found = QUALITY_INTERVALS.find(([q]) => q === quality);
   if (!found) return null;
   return {
