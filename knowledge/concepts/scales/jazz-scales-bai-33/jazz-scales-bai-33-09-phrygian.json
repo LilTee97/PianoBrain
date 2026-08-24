@@ -26,7 +26,7 @@
   },
   "output": {
     "scale": {
-      "name": null,
+      "name": "C Phrygian",
       "root": "C4",
       "note_names": [
         "C4",
@@ -66,6 +66,6 @@
     "source_text": "C Phrygian (III Major) scale degrees are 1 b2 b3 4 5 b6 b7. Notes from C: C Db Eb F G Ab Bb. Played over Cm7 chord."
   },
   "origin": "extracted",
-  "status": "draft",
-  "note_vi": "Bài 33 của nguồn Jazz Scales (YouTube), mốc 02:36-02:40. C Phrygian (III Major) scale degrees are 1 b2 b3 4 5 b6 b7. Notes from C: C Db Eb F G Ab Bb. Played over Cm7 chord. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. Item còn draft: chưa ai xem lại video để đối chiếu."
+  "status": "validated",
+  "note_vi": "Bài 33 của nguồn Jazz Scales (YouTube), mốc 02:36-02:40. C Phrygian (III Major) scale degrees are 1 b2 b3 4 5 b6 b7. Notes from C: C Db Eb F G Ab Bb. Played over Cm7 chord. Nguồn giảng bằng tiếng Anh, câu trên giữ nguyên lời giảng. [RÀ TAY: khớp Phrygian 1 b2 b3 4 5 b6 b7. Em(add9) giọng C vẫn im — bậc 9 là F# ngoài giọng.]"
 }

@@ -209,8 +209,11 @@ export interface ScaleForOptions {
    * cung, vì ngũ cung dựng trên nốt gốc thì không lạc hợp âm nào. Có giọng thì
    * nó nhận thêm thang âm bảy nốt — **nhưng chỉ khi mọi nốt của thang âm ấy nằm
    * trong giọng**. Đó đúng là điều kiện mà bộ lọc cũ không kiểm được vì không
-   * biết giọng, nên nó phải cấm cả loại.
-   */
+     * biết giọng, nên nó phải cấm cả loại.
+     *
+     * Hợp âm mượn (nốt ngoài giọng) thì im, lùi nốt hợp âm: Em(add9) / Am6
+     * giọng C cần Fa thăng; Fsus4 giọng C có Si giáng.
+     */
   key?: string | null;
 }
 

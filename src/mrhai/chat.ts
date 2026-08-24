@@ -30,12 +30,17 @@ function inventory(a: AuditResult): string {
 const namesOf = (p: Progression) => p.progression.map((d) => chordSymbol(d, qualityOfDegree(d), p.key));
 
 /** Hỏi "chạy gam gì" mà không thành vòng: vẫn gọi scaleFor, đừng để audit kéo item Hải về add9. */
+function keyFromText(text: string): string | null {
+  return /giọng\s+([A-G][#b]?(?:m(?!aj))?)/i.exec(text)?.[1] ?? null;
+}
+
 function scaleAnswerFromText(text: string, kb: KnowledgeBase): string[] | null {
   if (!/gam|scale|thang âm|locrian|aeolian/i.test(text)) return null;
   const tokens = text.split(/[\s,|]+/).map((t) => t.replace(/[?.!]/g, ""));
+  const key = keyFromText(text);
   for (const token of tokens) {
     if (!parseChord(token)) continue;
-    const picked = scaleFor(token, kb);
+    const picked = scaleFor(token, kb, { key });
     if (picked.best) {
       const tag = picked.best.status === "draft" ? `${picked.best.teacher_id}, chờ rà` : picked.best.teacher_id;
       return [
@@ -71,7 +76,7 @@ function answerPlay(prog: Progression, intent: Extract<Intent, { mode: "play" }>
   }
 
   if (want.has("scale")) {
-    const picked = scaleFor(names[0] ?? "", kb);
+    const picked = scaleFor(names[0] ?? "", kb, { key: prog.key });
     if (picked.best) {
       const tag = picked.best.status === "draft" ? `${picked.best.teacher_id}, chờ rà` : picked.best.teacher_id;
       out.push(`  [${tag}] ${picked.best.label ?? picked.best.name}`);
@@ -294,8 +299,9 @@ export function reply(text: string, kb: KnowledgeBase): string[] {
   if (intent.mode === "play") return answerPlay(intent.prog, intent, kb, text);
   if (intent.mode === "audit") {
     const scaleBit = scaleAnswerFromText(text, kb);
+    if (scaleBit) return scaleBit;
     const a = auditCapability(intent.query, kb);
-    return [...(scaleBit ?? []), ...answerAudit(a), inventory(a)];
+    return [...answerAudit(a), inventory(a)];
   }
   // Không rõ: để kho quyết định đây có phải tên kỹ thuật không, chứ đừng đoán vòng hợp âm.
   const a = auditCapability(text, kb);

@@ -207,6 +207,20 @@ describe("nguồn Jazz Scales — 40 bài video", () => {
     assert.match(out, /jazz-scales/);
   });
 
+  it("hỏi chạy gam gì không kéo item lót của thầy Hải", () => {
+    const am = say("Am(add9) chạy gam gì");
+    assert.doesNotMatch(am, /hai-joseph/);
+    assert.match(am, /chưa có gam|aeolian|thứ tự nhiên/i);
+
+    const bdim = say("Bdim trong giọng C gam nào");
+    assert.match(bdim, /jazz-scales/);
+    assert.doesNotMatch(bdim, /hai-joseph/);
+
+    const passing = say("C#dim lướt dùng gam gì");
+    assert.doesNotMatch(passing, /hai-joseph/);
+    assert.match(passing, /chưa có gam/i);
+  });
+
   it("ba câu hỏi của bộ mới đều ra đúng nguồn, không dính thầy Hải", () => {
     const sus = say("7sus4 chơi gam gì");
     assert.match(sus, /\[jazz-scales/);
