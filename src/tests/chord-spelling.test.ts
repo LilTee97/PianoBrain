@@ -57,6 +57,13 @@ describe("đọc ký hiệu hợp âm", () => {
     assert.ok(chord.isMinor);
   });
 
+  it("13b9 đọc được; 7b13 không chứa cả quãng 5 đúng lẫn b13", () => {
+    assert.deepEqual(notes("C13b9"), [0, 4, 7, 10, 13, 21]);
+    const b13 = notes("C7b13")!;
+    assert.ok(b13.includes(8) || b13.includes(20), "7b13 phải có b13/#5");
+    assert.ok(!b13.includes(7), "7b13 không giữ quãng 5 đúng cạnh b13");
+  });
+
   it("chất không có thật thì vẫn trả null, đừng đoán bừa", () => {
     // Bỏ ngoặc không được biến ký hiệu vô nghĩa thành hợp âm.
     for (const symbol of ["Cxyz", "C(nope)", "H7"]) {

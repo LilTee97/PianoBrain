@@ -17,7 +17,7 @@
     "Ngẫu hứng jazz trên hợp âm Eb7",
     "Ngẫu hứng jazz trên hợp âm Gb7",
     "Ngẫu hứng jazz trên hợp âm A7",
-    "Chọn gam / scale khi gặp hợp âm 7, 7b9, 7#9, 7#11 trong nhạc jazz"
+    "Chọn gam / scale khi gặp hợp âm 7, 7b9, 13b9, 7#9, 7#11 trong nhạc jazz"
   ],
   "avoid_when": [
     "Đệm hát ballad Việt — đây là gam jazz, không phải bài của thầy Hải Joseph"
@@ -27,7 +27,8 @@
       "7",
       "7b9",
       "7#9",
-      "7#11"
+      "7#11",
+      "13b9"
     ],
     "style": [
       "jazz"
@@ -61,11 +62,13 @@
         "7",
         "7b9",
         "7#9",
-        "7#11"
+        "7#11",
+        "13b9"
       ],
       "use_when": [
         "hợp âm C7",
         "hợp âm C7b9",
+        "hợp âm C13b9",
         "hợp âm C7#9",
         "hợp âm C7#11",
         "hợp âm Eb7",
