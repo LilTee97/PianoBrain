@@ -1,0 +1,32 @@
+{
+  "id": "duc-thinh-not-blues-la-bac-5-giang",
+  "type": "concept",
+  "name": "Nốt Blues là bậc 5 giáng — thứ tách điệu Blues khỏi một tiết tấu giống Blues",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "duc-thinh",
+    "source_id": "duc-thinh-bai-09-slow-rock",
+    "locator": "10:07-10:28"
+  },
+  "use_when": [
+    "Dựng một điệu Blues, cần biết nốt nào làm nên chất Blues",
+    "Có sẵn một mẫu đệm nghe gần giống Blues mà chưa ra chất Blues",
+    "Hỏi vì sao Slow Rock và Blues nghe giống nhau về tiết tấu"
+  ],
+  "avoid_when": [
+    "Bài không dính gì tới blues — bậc 5 giáng ở đó chỉ là nốt lạc"
+  ],
+  "input": {
+    "style": ["blues", "slow_rock"]
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "blue_note": "bậc 5 giáng",
+    "quote_vi": "Thực ra đó là điệu Blues nhưng mà nó không đánh nốt Blues thôi. Nốt Blues là nốt bậc 5 giáng.",
+    "applies_to_pattern_id": "acc-slow-rock-duc-thinh-mau-3",
+    "todo_when_building_blues": "Mẫu đệm Slow Rock 3 đã có sẵn tiết tấu Blues. Muốn dựng điệu Blues thì thêm bậc 5 giáng vào bè giai điệu, KHÔNG đổi tiết tấu và không thêm bớt cú gõ."
+  },
+  "origin": "extracted",
+  "status": "validated",
+  "note_vi": "Thầy Đức Thịnh nói nguyên văn khi dạy mẫu đệm Slow Rock thứ 3: \"Thực ra đó là điệu Blues nhưng mà nó không đánh nốt Blues thôi. Nốt Blues là nốt bậc 5 giáng.\"\n\nCâu này chia rành mạch hai thứ hay bị gộp làm một. TIẾT TẤU của mẫu đệm ngắt 6/8 ấy đã là tiết tấu Blues rồi — không phải gần giống, mà là. Cái làm nó chưa thành Blues là thiếu một CAO ĐỘ: nốt blue, bậc 5 giáng. Chất Blues nằm ở nốt, không nằm ở nhịp.\n\nHệ quả thực hành: muốn biến mẫu Slow Rock 3 thành một điệu Blues thì đừng đụng vào tiết tấu. Giữ nguyên bốn cú gõ, giữ nguyên chỗ kéo lê ở phách 3, chỉ thêm bậc 5 giáng vào bè giai điệu. Ngược lại, muốn giữ nó là Slow Rock thì đừng cho bậc 5 giáng lọt vào — đó chính là ranh giới thầy đang chỉ.\n\nMức tin cậy: nguyên văn đã chép và đối chiếu với video, mốc 10:07-10:28. Bản chép máy trước đó hiểu câu này thành \"giống Blues nhưng bỏ bớt nốt\" — tức tưởng là thưa tiết tấu — và sai hướng hoàn toàn. Ghi lại chỗ nhầm ấy vì nó cho thấy vì sao kho đòi trích dẫn nguyên văn chứ không nhận lời kể lại.\n\nChưa rõ, cần nguồn thêm: thầy chỉ nói bậc 5 giáng. Lý thuyết blues phổ thông còn tính bậc 3 giáng và bậc 7 giáng là nốt blue. Không suy diễn thay thầy ở đây — item này chỉ ghi đúng thứ thầy nói."
+}
