@@ -1,0 +1,29 @@
+{
+  "id": "improv-bai-04-rule-voice-leading",
+  "type": "rule",
+  "name": "VOICE_LEADING_AM_TONALITY: chuyển đổi mượt giữa bậc i-iv-VII-III-VI-V7",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "tuan-luu-piano",
+    "source_id": "improv-bai-04",
+    "locator": "00:00:33-01:16",
+    "media_id": "Cach Dem Hat Bolero Tren Dan Piano (Rhumba).mp4"
+  },
+  "use_when": [
+    "Điệu / phong cách: Bolero",
+    "Điệu / phong cách: Rumba"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "bolero",
+      "rumba"
+    ]
+  },
+  "output": {
+    "raw_text": "Trên giọng Am, luân phiên Root (bậc I) và Fifth (bậc V) của từng hợp âm: Am-Dm-Em-C-F-G-E7. Tay trái bám nốt trầm giúp voice leading mượt."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Trên giọng Am, luân phiên Root (bậc I) và Fifth (bậc V) của từng hợp âm: Am-Dm-Em-C-F-G-E7. Tay trái bám nốt trầm giúp voice leading mượt."
+}

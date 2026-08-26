@@ -1,0 +1,29 @@
+{
+  "id": "improv-bai-04-harmony",
+  "type": "concept",
+  "name": "Hòa âm Bolero/Rumba: 6 hợp âm giọng La thứ (Am Dm Em C F G)",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "tuan-luu-piano",
+    "source_id": "improv-bai-04",
+    "locator": "00:00:33-01:16",
+    "media_id": "Cach Dem Hat Bolero Tren Dan Piano (Rhumba).mp4"
+  },
+  "use_when": [
+    "Điệu / phong cách: Bolero",
+    "Điệu / phong cách: Rumba"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "bolero",
+      "rumba"
+    ]
+  },
+  "output": {
+    "raw_text": "Giọng Am. Tiến trình: i (Am) - iv (Dm) - iii (Em) - III (C) - VI (F) - VII (G), về V7 (E7). Tay trái luân phiên Root và Fifth."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Giọng Am. Tiến trình: i (Am) - iv (Dm) - iii (Em) - III (C) - VI (F) - VII (G), về V7 (E7). Tay trái luân phiên Root và Fifth."
+}

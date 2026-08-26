@@ -1,0 +1,30 @@
+{
+  "id": "improv-bai-04-mau-rumba",
+  "type": "accompaniment",
+  "name": "Mẫu Rumba cơ bản: đếm 7 phách Pùng-Pắp (bass 1 & 3, dập hợp âm 1-and/2/3-and/4-and)",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "tuan-luu-piano",
+    "source_id": "improv-bai-04",
+    "locator": "00:02:37-04:18",
+    "media_id": "Cach Dem Hat Bolero Tren Dan Piano (Rhumba).mp4"
+  },
+  "use_when": [
+    "Điệu / phong cách: Bolero",
+    "Điệu / phong cách: Rumba"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "bolero",
+      "rumba"
+    ],
+    "hand": "both"
+  },
+  "output": {
+    "pattern": "LH: 1(Root) . . 3(Fifth) . . . | RH: . chord(1-and) chord(2) . . chord(3-and) . chord(4-and)"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bass trái phách 1 (Root) và 3 (Fifth). Tay phải dập hợp âm đảo phách ở 1-and, 2, 3-and, 4-and. Audio: Pùng(1-LH) Pắp(1-and-RH) Pắp(2-RH) Pùng(3-LH) Pắp(3-and-RH) Pùng/Pắp(4) Pắp(4-and-RH)."
+}

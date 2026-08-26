@@ -1290,6 +1290,16 @@
       "ingested_at": "2026-08-23",
       "course_id": "jazz_scales_001",
       "lesson_id": "jazz_scales_001_lesson_42"
+    },
+    {
+      "source_id": "improv-bai-04",
+      "teacher_id": "tuan-luu-piano",
+      "kind": "video",
+      "title": "CÁCH ĐỆM HÁT BOLERO TRÊN ĐÀN PIANO (RUMBA)",
+      "url": null,
+      "ingested_at": "2026-08-26",
+      "course_id": "improv-styles",
+      "lesson_id": "Improv_Bai_04"
     }
   ],
   "coverage": {

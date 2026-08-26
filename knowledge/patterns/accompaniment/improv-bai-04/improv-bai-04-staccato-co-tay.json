@@ -1,0 +1,30 @@
+{
+  "id": "improv-bai-04-staccato-co-tay",
+  "type": "concept",
+  "name": "Staccato cổ tay (Wrist Bounce) mô phỏng tiếng quạt chả guitar thùng",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "tuan-luu-piano",
+    "source_id": "improv-bai-04",
+    "locator": "00:06:17-07:40",
+    "media_id": "Cach Dem Hat Bolero Tren Dan Piano (Rhumba).mp4"
+  },
+  "use_when": [
+    "Điệu / phong cách: Bolero",
+    "Điệu / phong cách: Rumba"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "bolero",
+      "rumba"
+    ],
+    "hand": "RH"
+  },
+  "output": {
+    "technique": "staccato_wrist_bounce"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Tay phải dập hợp âm nẩy nhẹ từ cổ tay (staccato), nhả phím ngay sau chạm. Tạo độ giật tươi tắn đặc trưng Bolero/Rumba."
+}

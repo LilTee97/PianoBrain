@@ -1,0 +1,49 @@
+{
+  "id": "improv-bai-04-arpeggio-roll",
+  "type": "accompaniment",
+  "name": "Biến tấu rải hợp âm đón đầu ô nhịp (Arpeggio Roll) ở phách 1",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "tuan-luu-piano",
+    "source_id": "improv-bai-04",
+    "locator": "00:14:00-15:52",
+    "media_id": "Cach Dem Hat Bolero Tren Dan Piano (Rhumba).mp4"
+  },
+  "use_when": [
+    "Điệu / phong cách: Bolero",
+    "Điệu / phong cách: Rumba"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "bolero",
+      "rumba"
+    ],
+    "hand": "RH"
+  },
+  "output": {
+    "observed_example": {
+      "chord_symbol": "Am",
+      "notes": [
+        "A3",
+        "C4",
+        "E4",
+        "A4"
+      ],
+      "hands": {
+        "left": [
+          "A1"
+        ],
+        "right": [
+          "A3",
+          "C4",
+          "E4",
+          "A4"
+        ]
+      }
+    }
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Tại phách 1 của ô nhịp đổi hợp âm, tay phải không dập chùm mà rải nhanh A3→C4→E4→A4 (16th) trước khi vào tiết tấu dập."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "improv-bai-04-rule-staccato",
+  "type": "rule",
+  "name": "STACCATO_WRIST_BOUNCE_TOUCH: nẩy cổ tay thả lỏng cho bè hợp âm tay phải",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "tuan-luu-piano",
+    "source_id": "improv-bai-04",
+    "locator": "00:06:17-07:40",
+    "media_id": "Cach Dem Hat Bolero Tren Dan Piano (Rhumba).mp4"
+  },
+  "use_when": [
+    "Điệu / phong cách: Bolero",
+    "Điệu / phong cách: Rumba"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "bolero",
+      "rumba"
+    ]
+  },
+  "output": {
+    "raw_text": "Dùng lực thả lỏng cổ tay nẩy phím (Wrist Staccato) với bè hợp âm tay phải để mô phỏng tiếng quạt chả guitar thùng Bolero/Rumba."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Dùng lực thả lỏng cổ tay nẩy phím (Wrist Staccato) với bè hợp âm tay phải để mô phỏng tiếng quạt chả guitar thùng Bolero/Rumba."
+}

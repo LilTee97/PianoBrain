@@ -5,3 +5,6 @@ dist
 # Kho master nằm ngoài repo, đường dẫn qua PIANOBRAIN_MASTER — không chép vào đây.
 /master/
 /sources/raw/
+
+# Bộ nhớ đệm biên dịch của tsc, không phải mã nguồn.
+tsconfig.tsbuildinfo

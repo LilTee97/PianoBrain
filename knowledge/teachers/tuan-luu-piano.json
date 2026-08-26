@@ -1,0 +1,30 @@
+{
+  "id": "tuan-luu-piano",
+  "type": "teacher",
+  "name": "Tuấn Lưu Piano",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Người học mẫu đệm Bolero / Rumba cơ bản trên piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "bolero",
+      "rumba"
+    ]
+  },
+  "output": {
+    "declared_focus": [
+      "bolero",
+      "rumba",
+      "đệm hát 4/4",
+      "staccato cổ tay"
+    ],
+    "language": "vi",
+    "ingested_sources": 1
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Tuấn Lưu Piano, video hướng dẫn đệm hát Piano điệu Bolero / Rumba cơ bản. Đếm 7 phách Pùng-Pắp, bass trái phách 1 (Root) và 3 (Fifth), tay phải dập hợp âm đảo phách."
+}
