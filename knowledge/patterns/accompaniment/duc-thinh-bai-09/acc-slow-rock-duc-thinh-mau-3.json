@@ -7,8 +7,10 @@
     "teacher_id": "duc-thinh",
     "source_id": "duc-thinh-bai-09-slow-rock",
     "locator": "06:45-10:43",
-    "extra_locators": ["10:07-10:28"],
-    "locator_note": "10:07-10:28 là chỗ thầy liên hệ mẫu này với điệu Blues."
+    "extra_locators": [
+      "10:07-10:28"
+    ],
+    "locator_note": "10:07-10:28 là chỗ thầy nói mẫu này là điệu Blues nhưng không đánh nốt blues (bậc 5 giáng)."
   },
   "use_when": [
     "Điệu: slow rock, nhịp kép 6/8",
@@ -21,7 +23,9 @@
     "Người hát chưa vững nhịp: mẫu này bỏ trống phách 2 và 5, khó bám"
   ],
   "input": {
-    "style": ["slow_rock"],
+    "style": [
+      "slow_rock"
+    ],
     "hand": "both"
   },
   "output": {
@@ -62,16 +66,16 @@
         }
       ]
     },
-    "silent_beats": [2, 5],
-    "blues_relation": "Thầy liên hệ mẫu này với điệu Blues: đệm giống Blues nhưng bỏ bớt nốt (10:07-10:28). Nội dung ghi theo lời kể lại của người rà, chưa chép nguyên văn.",
-    "chua_kiem": [
-      "trường độ tay phải (0.8 lấy từ bản chép máy, chưa rà bằng tai)",
-      "cường độ chính xác của từng cú gõ",
-      "có đạp pedal hay không, đạp và nhả ở đâu",
-      "nhịp độ: bản chép máy ghi ô nhịp dài 2.4 giây, chưa bấm đồng hồ xác nhận"
-    ]
+    "silent_beats": [
+      2,
+      5
+    ],
+    "blues_relation": "Thầy nói (10:07-10:28): \"Thực ra đó là điệu Blues nhưng mà nó không đánh nốt Blues thôi. Nốt Blues là nốt bậc 5 giáng.\" Tiết tấu LÀ Blues; cái thiếu là một cao độ — nốt blue bậc 5 giáng — chứ không phải thưa nốt đi.",
+    "pedal": "Đạp một lần mỗi ô nhịp, đổi ở phách 1. Nhưng pedal NÔNG hoặc nhả sớm: từ phách 4 tới hết ô nhịp chỉ nghe MỘT nốt bass, không nghe quãng năm mở. Nên trường độ ghi trong cell là trường độ thật nghe được, không phải chỉ trường độ ngón.",
+    "tempo": "Ô nhịp 2.4 giây — đo 10 ô nhịp ra khoảng 24 giây. Tức 75 theo nốt đen, 50 theo nốt đen chấm.",
+    "velocity_order": "Nặng xuống nhẹ: phách 1, phách 4, phách 3, phách 6."
   },
   "origin": "extracted",
-  "status": "draft",
-  "note_vi": "Bốn cú gõ một ô nhịp, ở phách 1, 3, 4 và 6. Phách 2 và 5 không có tiếng gõ mới — nhưng KHÔNG im: bè trầm vẫn đang vang qua chúng.\n\nHai nốt bass là xương sống. Phách 1 nốt gốc, phách 4 bậc 5 NẰM TRÊN nốt gốc — bè trầm đi LÊN một quãng năm, không đi xuống một quãng bốn. Đây là thế 1-5 mở rộng, và nó là lý do dải trầm nghe mở chứ không đục. Cả hai nốt ngân legato trọn 3 móc đơn, nốt trước buông đúng lúc nốt sau vào, nên bè trầm liền mạch suốt ô nhịp.\n\nChỗ đáng học nhất là cái 'giật cục' mà tên mẫu nói tới. Nó KHÔNG phải một nốt bị đẩy sớm. Nó là hợp âm phách 3 bị KÉO LÊ rất khẽ — chừng một phần tám móc đơn — làm hai quãng nghỉ lệch hẳn nhau: từ phách 1 sang phách 3 dài 2.1 móc đơn, từ phách 3 sang phách 4 chỉ còn 0.9. Tai nghe ra tương phản dài-ngắn đó thành cảm giác dồn. Chép nó thành cú đẩy sớm là mất đúng cái chất của mẫu này.\n\nPhách 6 đánh lướt nhẹ và nảy sang phách 1 ô nhịp kế — nó là nốt dẫn qua vạch nhịp. Trong video nó xuất hiện khoảng trên ba phần tư số ô, không phải ô nào cũng có; ở đây chép thành nốt cố định vì tần suất đủ cao, nên máy sẽ chơi dày hơn video một chút.\n\nCẢNH BÁO CHO NGƯỜI DỰNG TIẾNG: engine hiện KHÔNG chơi đúng bậc 5 trên gốc. degreeTone chọn quãng tám gần nốt vừa chơi nhất, nên từ La nó ra Mi trầm hơn — sai hướng, thành quãng bốn đi xuống. Đo được A2(45) tới E2(40). Phải sửa degreeTone cho nốt bass neo trên gốc thì máy mới chơi ra đúng thứ trong video.\n\nMức tin cậy: nguồn và mốc là thật, người rà đã xem video đối chiếu từng dòng. Nhưng còn bốn chỗ chưa kiểm nằm trong output.chua_kiem — trường độ tay phải, cường độ, pedal, nhịp độ — nên item ở lại draft. Con số 2.1 ở phách 3 cũng cần dè chừng: 0.05 giây nằm dưới ngưỡng tai tách được sự lệch, ghi 2.0 cũng không sai."
+  "status": "validated",
+  "note_vi": "Bốn cú gõ một ô nhịp, ở phách 1, 3, 4 và 6. Phách 2 và 5 không có tiếng gõ mới — nhưng KHÔNG im: bè trầm vẫn đang vang qua chúng.\n\nHai nốt bass là xương sống. Phách 1 nốt gốc, phách 4 bậc 5 NẰM TRÊN nốt gốc — bè trầm đi LÊN một quãng năm, không đi xuống một quãng bốn. Đây là thế 1-5 mở rộng, và nó là lý do dải trầm nghe mở chứ không đục. Cả hai nốt ngân legato trọn 3 móc đơn, nốt trước buông đúng lúc nốt sau vào, nên bè trầm liền mạch suốt ô nhịp.\n\nChỗ đáng học nhất là cái 'giật cục' mà tên mẫu nói tới. Nó KHÔNG phải một nốt bị đẩy sớm. Nó là hợp âm phách 3 bị KÉO LÊ rất khẽ — chừng một phần tám móc đơn — làm hai quãng nghỉ lệch hẳn nhau: từ phách 1 sang phách 3 dài 2.1 móc đơn, từ phách 3 sang phách 4 chỉ còn 0.9. Tai nghe ra tương phản dài-ngắn đó thành cảm giác dồn. Chép nó thành cú đẩy sớm là mất đúng cái chất của mẫu này.\n\nPhách 6 đánh lướt nhẹ và nảy sang phách 1 ô nhịp kế — nó là nốt dẫn qua vạch nhịp. Trong video nó xuất hiện khoảng trên ba phần tư số ô, không phải ô nào cũng có; ở đây chép thành nốt cố định vì tần suất đủ cao, nên máy sẽ chơi dày hơn video một chút.\n\nVỀ CHẤT BLUES: thầy nói nguyên văn ở 10:07-10:28 rằng \"thực ra đó là điệu Blues nhưng mà nó không đánh nốt Blues thôi. Nốt Blues là nốt bậc 5 giáng\". Câu này quan trọng vì nó chỉ đúng chỗ để đi tiếp: tiết tấu đã là Blues rồi, muốn ra chất Blues thì thêm nốt bậc 5 giáng vào bè giai điệu, chứ không phải thêm bớt cú gõ. Bản chép máy hiểu nhầm thành \"bỏ bớt nốt\" tức thưa tiết tấu — sai hướng hoàn toàn.\n\nPEDAL: đạp một lần mỗi ô nhịp, đổi ở phách 1 — nhưng nông. Chỗ này từng là một mâu thuẫn: pedal giữ suốt ô nhịp thì bass phách 1 lẽ ra không tắt nổi ở phách 4, và từ phách 4 phải nghe quãng năm mở. Nghe lại thì KHÔNG có quãng năm mở, chỉ một nốt bass. Tức ngón nhấc thật và pedal nhả sớm hoặc đạp nông. Trường độ 3 móc đơn trong cell là trường độ THẬT nghe được, engine chơi đúng dù không có pedal.\n\nVỀ ENGINE: bậc 5 trên gốc trước đây máy chơi sai — degreeTone chọn quãng tám gần nốt vừa chơi nhất nên từ La ra Mi trầm hơn, đo được A2(45) tới E2(40). Đã sửa bên KeyTrain: degreeTone neo bậc trên nốt bass thật, và settleHands khi hai tay tranh chỗ thì nâng tay phải thay vì hạ tay trái. Máy nay chơi ra A2(45) tới E3(52), đúng thứ nghe trong video.\n\nMức tin cậy: nguồn và mốc là thật, và người rà đã xem video đối chiếu qua HAI vòng — vòng một cho đếm, cao độ, trường độ tay trái và chỗ giật; vòng hai cho trường độ tay phải, cường độ, pedal, nhịp độ, và nguyên văn câu nói về Blues. Chỗ vướng cuối — pedal hay ngón giữ tiếng — đã tách xong ở vòng ba. Không còn dòng nào treo, nên item chuyển validated.\n\nMột con số cần dè chừng: 2.1 ở phách 3 áng ra từ 0.05 giây, mà 0.05 giây nằm dưới ngưỡng tai tách được sự lệch, nên ghi 2.0 cũng không sai. Cái chắc chắn là HƯỚNG lệch — kéo lê, không phải đẩy sớm."
 }

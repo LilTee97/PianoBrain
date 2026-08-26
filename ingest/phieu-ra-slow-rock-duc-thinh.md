@@ -169,3 +169,132 @@ phiếu này rà xong, để không có thẻ nháp nào nằm trong kho đã ki
 
 Bản chép thô của Gemini và item nháp xuất từ tester nằm ở
 `D:\PianoBrain-sources\_tester-cho-duyet\`.
+
+---
+
+# VÒNG RÀ 2 — đã rà xong (2026-08-27)
+
+- **2.1 Trường độ tay phải** — KHỚP. Hợp âm phách 3 **đã tắt** khi bass phách 4
+  gõ xuống. Chạm ngắn, giữ `durationBeats: 0.8`.
+- **2.2 Cường độ** — KHỚP. Thứ tự nặng xuống nhẹ: phách **1 → 4 → 3 → 6**.
+- **2.3 Pedal** — **CÓ**, đạp **một lần mỗi ô nhịp, đổi ở phách 1**.
+- **2.4 Nhịp độ** — KHỚP. 10 ô nhịp ≈ 24 giây, tức ô nhịp 2.4 giây, bpm 75 theo
+  nốt đen.
+- **2.5 Nguyên văn câu Blues** — CHÉP ĐƯỢC, mốc `10:07-10:28`:
+
+  > "Thực ra đó là điệu Blues nhưng mà nó không đánh nốt Blues thôi.
+  > Nốt Blues là nốt bậc 5 giáng."
+
+  **Lật nghĩa so với bản chép máy.** Máy ghi "giống Blues nhưng bỏ bớt nốt", tức
+  hiểu thành thưa tiết tấu. Thầy nói chuyện khác: tiết tấu **là** Blues, cái
+  thiếu là **một cao độ** — nốt blue bậc 5 giáng. Chuyện hoà âm, không phải
+  chuyện tiết tấu. Muốn nó ra chất Blues thì thêm ♭5 vào, không phải thêm nốt.
+
+## Còn một chỗ hai vòng chưa tách được
+
+Vòng 1 kết luận tay trái **ngân 3 móc đơn, legato tới nốt bass kế**. Vòng 2 cho
+biết **có pedal, giữ suốt ô nhịp**. Hai điều này không cùng đứng được: pedal đạp
+từ phách 1 tới hết ô thì bass phách 1 **không thể tắt** ở phách 4 — nó phải vang
+tiếp, và từ phách 4 trở đi hai nốt bass cùng vang thành **quãng năm mở**.
+
+Vòng 1 hỏi về ngón, nên câu trả lời đúng cho ngón; tai thì nghe pedal. Cần một
+câu nữa để tách:
+
+- [x] Từ phách 4 tới hết ô nhịp, có nghe **hai nốt bass cùng vang** (quãng năm
+      mở, gốc + bậc 5) không? → **KHÔNG**, chỉ một nốt (2026-08-27).
+  - Ngón nhấc thật; pedal nông hoặc nhả sớm. Giữ 3 móc đơn.
+  - Đáng ghi: pedal có, nhưng **không phải cái quyết định trường độ**. Nghe thấy
+    pedal mà suy ra "mọi thứ ngân hết ô" là suy sai — phải nghe xem có quãng năm
+    mở hay không mới biết.
+
+**Rà xong toàn phiếu. Item chuyển `validated`, `output.chua_kiem` xoá.**
+
+# Phiếu điền vòng 2 (đã dùng xong, giữ lại làm mẫu)
+
+Vòng 1 đã chốt: đếm, cao độ bè trầm, trường độ tay trái, chỗ giật, tần suất
+phách 6, và có câu nói về Blues. Bốn dòng dưới đây **chưa ai nghe**, đang lấy
+tạm số của bản chép máy. Điền xong thì item mới rời `draft`.
+
+Cách điền: khoanh chữ cái, hoặc ghi thẳng vào chỗ `____`. Không nghe rõ thì ghi
+`KHÔNG RÕ` — nó vào item đúng như vậy, và không mất gì.
+
+## 2.1 — Trường độ tay phải
+
+Đang ghi: hợp âm tay phải ngân **0.8 móc đơn** rồi tắt (chạm ngắn).
+
+Nghe ở phách 3: lúc **bass phách 4** gõ xuống, hợp âm tay phải còn vang không?
+
+- [ ] **A.** Đã tắt — chạm ngắn, đúng như đang ghi
+- [ ] **B.** Còn vang, tắt cùng lúc bass phách 4 vào → trường độ 1.0
+- [ ] **C.** Còn vang qua cả phách 4 → trường độ ____ móc đơn
+- [ ] **D.** KHÔNG RÕ vì: ____
+
+## 2.2 — Cường độ
+
+Đang ghi bốn mức: phách 1 mạnh · phách 4 vừa · phách 3 nhẹ · phách 6 rất nhẹ.
+
+Xếp bốn cú gõ từ **nặng tay nhất** xuống **nhẹ nhất**:
+
+```
+nặng nhất  →  ____  ____  ____  ____  → nhẹ nhất
+```
+
+- [ ] Đúng thứ tự đang ghi (1, 4, 3, 6)
+- [ ] Khác — ghi ở trên
+- [ ] KHÔNG RÕ
+
+Riêng hỏi: phách 3 và phách 6 có **nhẹ ngang nhau** không, hay phách 6 nhẹ hơn hẳn?
+→ ____
+
+## 2.3 — Pedal
+
+Chưa ai trả lời. Đây là dòng ảnh hưởng ngược lại kết quả vòng 1: nếu có pedal
+thì cái tai nghe được là pedal chứ không phải ngón, và kết luận "tay trái ngân
+legato 3 móc đơn" phải đọc lại thành "pedal giữ tiếng".
+
+Dấu hiệu nhận: lúc **nhả** pedal có một tiếng hẫng rất khẽ, cả bè cùng tắt một
+lúc. Hoặc nhìn chân thầy nếu khung hình thấy.
+
+- [ ] **A.** Không đạp pedal — tiếng ngân là do ngón giữ phím
+- [ ] **B.** Có, đạp **một lần mỗi ô nhịp**, đổi ở phách 1
+- [ ] **C.** Có, đạp **hai lần mỗi ô**, đổi ở phách 1 và phách 4
+- [ ] **D.** Có, nhưng đạp/nhả kiểu khác: ____
+- [ ] **E.** KHÔNG RÕ vì: ____
+
+## 2.4 — Nhịp độ
+
+Đang ghi: ô nhịp dài **2.4 giây** (75 theo nốt đen, 50 theo nốt đen chấm).
+
+Cách đo không cần đồng hồ chính xác: chọn một vạch nhịp làm mốc, **đếm 10 ô
+nhịp**, bấm giờ. Đúng thì ra khoảng **24 giây**.
+
+- [ ] **A.** Khoảng 24 giây — đúng
+- [ ] **B.** Đo được ____ giây cho 10 ô nhịp
+- [ ] **C.** KHÔNG RÕ
+
+## 2.5 — Nguyên văn câu nói về Blues
+
+Mốc `10:07-10:28` đã xác nhận là có. Nhưng nội dung đang ghi theo **lời kể lại**,
+không phải trích dẫn — nên trong item nó không nằm trong ngoặc kép và không được
+dùng như lời thầy.
+
+Chép đúng câu thầy nói, càng sát càng tốt:
+
+```
+mm:ss  ____:____
+
+"____________________________________________________________"
+```
+
+- [ ] Đã chép nguyên văn ở trên
+- [ ] Nghe được ý nhưng không chép được đủ chữ — ý là: ____
+- [ ] KHÔNG RÕ
+
+---
+
+## Sau vòng 2
+
+- Cả bốn dòng đều có câu trả lời (kể cả `KHÔNG RÕ` có lý do) → item chuyển
+  `status: "validated"`, xoá `output.chua_kiem`.
+- Còn dòng nào bỏ trống → item ở lại `draft`.
+
