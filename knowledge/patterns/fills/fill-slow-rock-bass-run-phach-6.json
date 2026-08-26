@@ -1,0 +1,32 @@
+{
+  "id": "fill-slow-rock-bass-run-phach-6",
+  "type": "fill",
+  "name": "Câu lót chạy bass ở phách 6 slow rock",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Slow rock nhịp 6/8, chỗ nối hai ô nhịp",
+    "Cuối ô nhịp, ngay trước khi hợp âm mới vào phách 1",
+    "Tay phải đang giữ hợp âm ngân, tay trái rảnh"
+  ],
+  "avoid_when": [
+    "Người hát đang giữ nốt dài ở cuối câu — câu chạy sẽ tranh chỗ",
+    "Ô nhịp cuối bài, chỗ cần buông cho hợp âm kết đọng xuống"
+  ],
+  "input": {
+    "style": [
+      "slow_rock"
+    ],
+    "hand": "LH"
+  },
+  "output": {
+    "placement": "phách 6 của ô nhịp 6/8, tức móc đơn cuối cùng",
+    "function": "bắc cầu sang phách 1 của ô nhịp sau",
+    "material": "chạy bass — tay trái đi một chuỗi nốt trầm dẫn tới nốt gốc của hợp âm mới",
+    "meter": "6/8",
+    "beat_index": 6
+  },
+  "origin": "derived",
+  "status": "rejected",
+  "note_vi": "SAI CHỖ ĐẶT — giữ lại để không lặp. Item này ghi câu fill rơi vào phách 6; người dùng đính chính là **phách 5**. Bản đúng: fill-slow-rock-bass-run-phach-5. Không xoá, theo luật kho: item cũ đã sai thì để rejected.\n\nTrong slow rock 6/8, phách 6 là móc đơn cuối cùng của ô nhịp — chỗ yếu nhất về trọng âm nhưng mạnh nhất về sức đẩy, vì ngay sau nó là phách 1 của ô mới. Câu lót đặt vào đó không phá trọng âm nào mà lại kéo người nghe sang ô sau. Chất liệu thường là chạy bass ở tay trái, vì lúc ấy tay phải còn đang giữ hợp âm ngân từ phách 4, và bè trầm là bè duy nhất còn chỗ trống. Muốn câu chạy nghe ra là câu dẫn thì hợp âm ở phách 4 phải nhả đúng lúc phách 6 vào — còn vang đè lên thì câu bass chìm mất.\n\nMức tin cậy: item này SUY RA từ lý thuyết và từ cách người dùng mô tả khi soạn nhịp, CHƯA đối chiếu video của thầy nào. Không được gán cho thầy Hải hay bất kỳ thầy nào cho tới khi có nguồn đăng ký trong sources/index.json và một mốc thời gian thật. Chưa rõ: bậc âm cụ thể của chuỗi bass, số nốt, và tiết tấu của nó — cần nguồn thật mới ghi được."
+}

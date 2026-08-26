@@ -1,0 +1,77 @@
+{
+  "id": "acc-slow-rock-duc-thinh-mau-3",
+  "type": "accompaniment",
+  "name": "Slow Rock mẫu đệm 3 — đệm ngắt, âm hưởng Blues",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "duc-thinh",
+    "source_id": "duc-thinh-bai-09-slow-rock",
+    "locator": "06:45-10:43",
+    "extra_locators": ["10:07-10:28"],
+    "locator_note": "10:07-10:28 là chỗ thầy liên hệ mẫu này với điệu Blues."
+  },
+  "use_when": [
+    "Điệu: slow rock, nhịp kép 6/8",
+    "Đoạn A2 hoặc verse 2, khi cần thoáng hơn đoạn mở đầu",
+    "Bài slow rock mang hơi hướng blues hoặc ballad tự sự",
+    "Cần chừa khoảng trống để tôn giọng hát"
+  ],
+  "avoid_when": [
+    "Đoạn mở bài cần khung nhịp vững — dùng mẫu rải đều tay trái",
+    "Người hát chưa vững nhịp: mẫu này bỏ trống phách 2 và 5, khó bám"
+  ],
+  "input": {
+    "style": ["slow_rock"],
+    "hand": "both"
+  },
+  "output": {
+    "meter": "6/8",
+    "grid": "một ô nhịp = 6 móc đơn, đánh số ô lưới từ 0",
+    "attacks_per_bar": 4,
+    "cell": {
+      "left": [
+        {
+          "beat": 0,
+          "degree": "gốc",
+          "durationBeats": 3,
+          "velocity": "mạnh",
+          "note": "ngân legato tới đúng nốt bass kế ở phách 4"
+        },
+        {
+          "beat": 3,
+          "degree": "bậc 5, NẰM TRÊN nốt gốc",
+          "durationBeats": 3,
+          "velocity": "vừa",
+          "note": "ngân legato tới vạch nhịp"
+        }
+      ],
+      "right": [
+        {
+          "beat": 2.1,
+          "chord": "cả hợp âm",
+          "durationBeats": 0.8,
+          "velocity": "nhẹ",
+          "note": "vào MUỘN khoảng 1/8 móc đơn — chưa đo bằng máy"
+        },
+        {
+          "beat": 5,
+          "chord": "cả hợp âm",
+          "durationBeats": 0.8,
+          "velocity": "rất nhẹ",
+          "note": "đánh lướt, dẫn sang phách 1 ô nhịp kế; trong video không phải ô nào cũng có, khoảng trên 3/4 số ô"
+        }
+      ]
+    },
+    "silent_beats": [2, 5],
+    "blues_relation": "Thầy liên hệ mẫu này với điệu Blues: đệm giống Blues nhưng bỏ bớt nốt (10:07-10:28). Nội dung ghi theo lời kể lại của người rà, chưa chép nguyên văn.",
+    "chua_kiem": [
+      "trường độ tay phải (0.8 lấy từ bản chép máy, chưa rà bằng tai)",
+      "cường độ chính xác của từng cú gõ",
+      "có đạp pedal hay không, đạp và nhả ở đâu",
+      "nhịp độ: bản chép máy ghi ô nhịp dài 2.4 giây, chưa bấm đồng hồ xác nhận"
+    ]
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bốn cú gõ một ô nhịp, ở phách 1, 3, 4 và 6. Phách 2 và 5 không có tiếng gõ mới — nhưng KHÔNG im: bè trầm vẫn đang vang qua chúng.\n\nHai nốt bass là xương sống. Phách 1 nốt gốc, phách 4 bậc 5 NẰM TRÊN nốt gốc — bè trầm đi LÊN một quãng năm, không đi xuống một quãng bốn. Đây là thế 1-5 mở rộng, và nó là lý do dải trầm nghe mở chứ không đục. Cả hai nốt ngân legato trọn 3 móc đơn, nốt trước buông đúng lúc nốt sau vào, nên bè trầm liền mạch suốt ô nhịp.\n\nChỗ đáng học nhất là cái 'giật cục' mà tên mẫu nói tới. Nó KHÔNG phải một nốt bị đẩy sớm. Nó là hợp âm phách 3 bị KÉO LÊ rất khẽ — chừng một phần tám móc đơn — làm hai quãng nghỉ lệch hẳn nhau: từ phách 1 sang phách 3 dài 2.1 móc đơn, từ phách 3 sang phách 4 chỉ còn 0.9. Tai nghe ra tương phản dài-ngắn đó thành cảm giác dồn. Chép nó thành cú đẩy sớm là mất đúng cái chất của mẫu này.\n\nPhách 6 đánh lướt nhẹ và nảy sang phách 1 ô nhịp kế — nó là nốt dẫn qua vạch nhịp. Trong video nó xuất hiện khoảng trên ba phần tư số ô, không phải ô nào cũng có; ở đây chép thành nốt cố định vì tần suất đủ cao, nên máy sẽ chơi dày hơn video một chút.\n\nCẢNH BÁO CHO NGƯỜI DỰNG TIẾNG: engine hiện KHÔNG chơi đúng bậc 5 trên gốc. degreeTone chọn quãng tám gần nốt vừa chơi nhất, nên từ La nó ra Mi trầm hơn — sai hướng, thành quãng bốn đi xuống. Đo được A2(45) tới E2(40). Phải sửa degreeTone cho nốt bass neo trên gốc thì máy mới chơi ra đúng thứ trong video.\n\nMức tin cậy: nguồn và mốc là thật, người rà đã xem video đối chiếu từng dòng. Nhưng còn bốn chỗ chưa kiểm nằm trong output.chua_kiem — trường độ tay phải, cường độ, pedal, nhịp độ — nên item ở lại draft. Con số 2.1 ở phách 3 cũng cần dè chừng: 0.05 giây nằm dưới ngưỡng tai tách được sự lệch, ghi 2.0 cũng không sai."
+}

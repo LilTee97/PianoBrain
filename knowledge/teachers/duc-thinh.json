@@ -1,0 +1,29 @@
+{
+  "id": "duc-thinh",
+  "type": "teacher",
+  "name": "Đức Thịnh",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Người học mẫu đệm Slow Rock nhịp kép 6/8 trên piano"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "slow_rock"
+    ]
+  },
+  "output": {
+    "declared_focus": [
+      "slow_rock",
+      "đệm hát 6/8",
+      "rải tay trái 1-5-8-10",
+      "đệm ngắt âm hưởng blues"
+    ],
+    "language": "vi",
+    "ingested_sources": 1
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Nhạc sĩ Đức Thịnh, loạt video PIANO ĐỆM HÁT. Bài 9 dạy Slow Rock với ba mẫu đệm: rải toàn phần tay trái, phối hợp luân phiên hai tay, và đệm ngắt phóng khoáng âm hưởng Blues.\n\nBản ghi thầy này là derived: nó mô tả phạm vi dạy để định tuyến câu hỏi, chưa phải một khẳng định trích từ mốc thời gian nào. Item kiến thức trích từ video của thầy mới cần locator thật."
+}

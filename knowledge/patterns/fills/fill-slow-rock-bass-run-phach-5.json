@@ -1,0 +1,31 @@
+{
+  "id": "fill-slow-rock-bass-run-phach-5",
+  "type": "fill",
+  "name": "Câu lót chạy bass từ phách 5 slow rock",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Slow rock nhịp 6/8, chỗ nối hai ô nhịp",
+    "Hai móc đơn cuối ô nhịp, dẫn tới hợp âm mới ở phách 1",
+    "Tay phải đang giữ hợp âm ngân, tay trái rảnh"
+  ],
+  "avoid_when": [
+    "Người hát đang giữ nốt dài ở cuối câu — câu chạy sẽ tranh chỗ",
+    "Ô nhịp cuối bài, chỗ cần buông cho hợp âm kết đọng xuống"
+  ],
+  "input": {
+    "style": ["slow_rock"],
+    "hand": "LH"
+  },
+  "output": {
+    "placement": "bắt đầu ở phách 5, chạy qua phách 6, hạ cánh ở phách 1 ô nhịp sau",
+    "function": "bắc cầu sang hợp âm mới",
+    "material": "chạy bass — tay trái đi một chuỗi nốt trầm dẫn tới nốt gốc của hợp âm mới",
+    "meter": "6/8",
+    "beat_index": 5,
+    "runway_beats": 2
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Câu lót vào ở **phách 5**, không phải phách 6. Chỗ này quan trọng: phách 5 cho câu chạy hai móc đơn để đi — phách 5 và phách 6 — trước khi hạ cánh xuống phách 1 của ô nhịp sau. Đặt ở phách 6 thì chỉ còn một nốt, không đủ chỗ cho một câu chạy, nó thành nốt lót đơn lẻ chứ không thành câu.\n\nVì sao là bè trầm: ở nửa sau ô nhịp 6/8, tay phải còn đang giữ hợp âm ngân từ phách 4, nên tay trái là bè duy nhất còn chỗ trống. Muốn câu chạy nghe ra là câu dẫn thì các tiếng trước nó phải nhả đúng lúc nó vào — còn vang đè lên thì chuỗi bass chìm mất.\n\nMức tin cậy: item này SUY RA từ lý thuyết và từ lời người dùng khi soạn nhịp, CHƯA đối chiếu video của thầy nào. Không được gán cho thầy Hải hay bất kỳ thầy nào cho tới khi có nguồn đăng ký trong sources/index.json kèm mốc thời gian thật. Chưa rõ: bậc âm cụ thể của chuỗi bass, số nốt, và tiết tấu — cần nguồn thật mới ghi được. Bản ghi sai chỗ đặt trước đó nằm ở fill-slow-rock-bass-run-phach-6, để rejected."
+}

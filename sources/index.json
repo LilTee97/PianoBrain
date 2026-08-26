@@ -1300,6 +1300,16 @@
       "ingested_at": "2026-08-26",
       "course_id": "improv-styles",
       "lesson_id": "Improv_Bai_04"
+    },
+    {
+      "source_id": "duc-thinh-bai-09-slow-rock",
+      "teacher_id": "duc-thinh",
+      "kind": "video",
+      "title": "PIANO ĐỆM HÁT - BÀI 9 | SLOW ROCK",
+      "url": "https://www.youtube.com/watch?v=kOwriZhpo6Y",
+      "ingested_at": null,
+      "course_id": "duc-thinh-piano-dem-hat",
+      "lesson_id": "Bai_09_Slow_Rock"
     }
   ],
   "coverage": {
