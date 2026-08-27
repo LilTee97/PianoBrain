@@ -24,9 +24,11 @@
     "function": "bắc cầu sang phách 1 của ô nhịp sau",
     "material": "chạy bass — tay trái đi một chuỗi nốt trầm dẫn tới nốt gốc của hợp âm mới",
     "meter": "6/8",
-    "beat_index": 6
+    "beat_index": 6,
+    "max_notes": 4,
+    "engine": "KeyTrain: điệu khai fillBeats 0.5 (một ô lưới = phách 6), fillMaxNotes 4, fillBass true. Không khai thì câu lót ăn tới 1.5 nốt đen, tức ba ô cuối, bắt đầu từ phách 4."
   },
   "origin": "derived",
-  "status": "rejected",
-  "note_vi": "SAI CHỖ ĐẶT — giữ lại để không lặp. Item này ghi câu fill rơi vào phách 6; người dùng đính chính là **phách 5**. Bản đúng: fill-slow-rock-bass-run-phach-5. Không xoá, theo luật kho: item cũ đã sai thì để rejected.\n\nTrong slow rock 6/8, phách 6 là móc đơn cuối cùng của ô nhịp — chỗ yếu nhất về trọng âm nhưng mạnh nhất về sức đẩy, vì ngay sau nó là phách 1 của ô mới. Câu lót đặt vào đó không phá trọng âm nào mà lại kéo người nghe sang ô sau. Chất liệu thường là chạy bass ở tay trái, vì lúc ấy tay phải còn đang giữ hợp âm ngân từ phách 4, và bè trầm là bè duy nhất còn chỗ trống. Muốn câu chạy nghe ra là câu dẫn thì hợp âm ở phách 4 phải nhả đúng lúc phách 6 vào — còn vang đè lên thì câu bass chìm mất.\n\nMức tin cậy: item này SUY RA từ lý thuyết và từ cách người dùng mô tả khi soạn nhịp, CHƯA đối chiếu video của thầy nào. Không được gán cho thầy Hải hay bất kỳ thầy nào cho tới khi có nguồn đăng ký trong sources/index.json và một mốc thời gian thật. Chưa rõ: bậc âm cụ thể của chuỗi bass, số nốt, và tiết tấu của nó — cần nguồn thật mới ghi được."
+  "status": "draft",
+  "note_vi": "Câu lót chạy bass đặt ở **phách 6** — móc đơn cuối cùng của ô nhịp 6/8.\n\nPhách 6 là chỗ yếu nhất về trọng âm nhưng mạnh nhất về sức đẩy: ngay sau nó là phách 1 của ô mới. Câu lót đặt vào đó không phá trọng âm nào mà lại kéo người nghe sang ô sau. Chất liệu là chạy bass ở tay trái, vì lúc ấy tay phải còn giữ hợp âm ngân từ phách 4 — bè trầm là bè duy nhất còn chỗ trống.\n\nNhiều nhất **bốn nốt**. Nhịp kép chia nhỏ dày, nhồi năm sáu nốt vào một móc đơn là câu chạy nghe gấp gáp và tranh chỗ với giọng hát, thay vì dẫn êm vào ô nhịp sau.\n\nLỊCH SỬ ĐÍNH CHÍNH — ghi lại để không ai lật lần thứ ba mà không có bằng chứng mới. Ghi lần đầu là phách 6. Người dùng đính chính sang phách 5, item này bị để rejected và dựng bản fill-slow-rock-bass-run-phach-5. Sau đó nghe lại khi dựng điệu trong engine, người dùng xác nhận **phách 6 mới đúng**; bản phách 5 nay để rejected, bản này sống lại.\n\nMức tin cậy: SUY RA từ lý thuyết và từ tai người dùng lúc soạn nhịp, CHƯA có mốc thời gian nào trong video nói riêng về chỗ đặt câu lót. Không gán cho thầy nào. Chưa rõ: bậc âm cụ thể của chuỗi bass và tiết tấu của nó — cần nguồn thật mới ghi được."
 }

@@ -14,7 +14,9 @@
     "Ô nhịp cuối bài, chỗ cần buông cho hợp âm kết đọng xuống"
   ],
   "input": {
-    "style": ["slow_rock"],
+    "style": [
+      "slow_rock"
+    ],
     "hand": "LH"
   },
   "output": {
@@ -26,6 +28,6 @@
     "runway_beats": 2
   },
   "origin": "derived",
-  "status": "draft",
-  "note_vi": "Câu lót vào ở **phách 5**, không phải phách 6. Chỗ này quan trọng: phách 5 cho câu chạy hai móc đơn để đi — phách 5 và phách 6 — trước khi hạ cánh xuống phách 1 của ô nhịp sau. Đặt ở phách 6 thì chỉ còn một nốt, không đủ chỗ cho một câu chạy, nó thành nốt lót đơn lẻ chứ không thành câu.\n\nVì sao là bè trầm: ở nửa sau ô nhịp 6/8, tay phải còn đang giữ hợp âm ngân từ phách 4, nên tay trái là bè duy nhất còn chỗ trống. Muốn câu chạy nghe ra là câu dẫn thì các tiếng trước nó phải nhả đúng lúc nó vào — còn vang đè lên thì chuỗi bass chìm mất.\n\nMức tin cậy: item này SUY RA từ lý thuyết và từ lời người dùng khi soạn nhịp, CHƯA đối chiếu video của thầy nào. Không được gán cho thầy Hải hay bất kỳ thầy nào cho tới khi có nguồn đăng ký trong sources/index.json kèm mốc thời gian thật. Chưa rõ: bậc âm cụ thể của chuỗi bass, số nốt, và tiết tấu — cần nguồn thật mới ghi được. Bản ghi sai chỗ đặt trước đó nằm ở fill-slow-rock-bass-run-phach-6, để rejected."
+  "status": "rejected",
+  "note_vi": "SAI CHỖ ĐẶT — giữ lại để không lặp. Item này ghi câu lót bắt đầu ở phách 5 với lý do \"cần hai móc đơn để chạy\". Nghe lại khi dựng điệu trong engine, người dùng xác nhận câu lót thuộc **phách 6**. Bản đúng: fill-slow-rock-bass-run-phach-6.\n\nĐáng ghi vì chỗ này đã lật hai lần: ghi 6, đính chính sang 5, rồi đính chính về 6. Lần cuối có thêm căn cứ — nghe thật trong engine với điệu đã dựng, chứ không phải hình dung.\n\nCâu lót vào ở **phách 5**, không phải phách 6. Chỗ này quan trọng: phách 5 cho câu chạy hai móc đơn để đi — phách 5 và phách 6 — trước khi hạ cánh xuống phách 1 của ô nhịp sau. Đặt ở phách 6 thì chỉ còn một nốt, không đủ chỗ cho một câu chạy, nó thành nốt lót đơn lẻ chứ không thành câu.\n\nVì sao là bè trầm: ở nửa sau ô nhịp 6/8, tay phải còn đang giữ hợp âm ngân từ phách 4, nên tay trái là bè duy nhất còn chỗ trống. Muốn câu chạy nghe ra là câu dẫn thì các tiếng trước nó phải nhả đúng lúc nó vào — còn vang đè lên thì chuỗi bass chìm mất.\n\nMức tin cậy: item này SUY RA từ lý thuyết và từ lời người dùng khi soạn nhịp, CHƯA đối chiếu video của thầy nào. Không được gán cho thầy Hải hay bất kỳ thầy nào cho tới khi có nguồn đăng ký trong sources/index.json kèm mốc thời gian thật. Chưa rõ: bậc âm cụ thể của chuỗi bass, số nốt, và tiết tấu — cần nguồn thật mới ghi được."
 }
