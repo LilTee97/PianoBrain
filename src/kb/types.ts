@@ -78,7 +78,12 @@ export interface KnowledgeItem {
 export interface SourceRecord {
   source_id: string;
   teacher_id: string;
-  kind: "video" | "pdf" | "lesson" | "book";
+  /**
+   * `sheet` là **bản ký âm máy đọc được** (MusicXML / MIDI), khác `pdf` ở chỗ
+   * cao độ và trường độ nằm sẵn dưới dạng số chứ không phải hình vẽ — nên số
+   * liệu rút từ nó là đo được, không phải đọc bằng mắt rồi đoán.
+   */
+  kind: "video" | "pdf" | "lesson" | "book" | "sheet";
   title: string;
   url: string | null;
   ingested_at: string | null;

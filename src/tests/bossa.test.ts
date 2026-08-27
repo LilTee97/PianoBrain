@@ -76,6 +76,24 @@ describe("bossa nova — tách extracted và invented", () => {
     assert.equal(styleFromText("lick ii-V-I jazz"), "jazz");
   });
 
+  /*
+    Hỏi đích danh MỘT TAY thì item khai tay kia bị loại.
+
+    Bộ chọn quét `name + note_vi + use_when`, nên một item viết ghi chú tử tế dễ
+    vô tình khớp. Ca gặp thật: item đo câu solo TAY PHẢI của Cà Pháo có nhắc
+    "bossa nova" ở chỗ nói bài nào thuộc dòng nào, và nhắc "tay trái" ở chỗ nói
+    tay trái không đổi gì — thế là nó khớp trọn câu hỏi này và chiếm mất chỗ của
+    Peter Martin, người có luật thật về tay trái bossa.
+
+    `both` hay bỏ trống thì vẫn qua: thà để lọt còn hơn cắt nhầm item đúng ý.
+  */
+  it("hỏi tay trái thì không lôi item khai tay phải vào", () => {
+    const out = say("bossa nova tay trái làm gì");
+    const rh = kb.items.filter((i) => i.input?.hand === "RH").map((i) => i.id);
+    assert.ok(rh.length > 0, "kho phải có ít nhất một item khai tay phải");
+    for (const id of rh) assert.ok(!out.includes(id), `${id} lọt vào câu hỏi tay trái`);
+  });
+
   it("hỏi tay trái bossa thì có rule phách 1 và 3 của peter-martin", () => {
     const out = say("bossa nova tay trái làm gì");
     assert.match(out, /peter-martin/);

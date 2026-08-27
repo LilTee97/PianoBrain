@@ -191,8 +191,33 @@ export function auditCapability(query: string, kb: KnowledgeBase): AuditResult {
   const words = needle.split(/[^a-z0-9#]+/).filter((t) => t.length >= 2);
   const content = words.filter((t) => !STOPWORDS.has(t) && !teacherWords.has(t));
   const terms = content.length > 0 ? content : words.filter((t) => !teacherWords.has(t));
+  /*
+    Hỏi đích danh MỘT TAY thì item của tay kia bị loại.
+
+    Bộ chọn quét `name + note_vi + use_when`, nên một item viết ghi chú tử tế
+    dễ vô tình khớp: item đo câu solo TAY PHẢI của Cà Pháo có nhắc "bossa nova"
+    ở chỗ nói bài nào thuộc dòng nào, và nhắc "tay trái" ở chỗ nói tay trái
+    không đổi gì — thế là nó khớp trọn câu hỏi "bossa nova tay trái làm gì" và
+    chiếm một chỗ của Peter Martin, người có luật thật về chỗ ấy.
+
+    Item khai `input.hand` chính là để nói nó thuộc về tay nào. Trước đây không
+    ai đọc trường đó. Chỉ loại khi item khai **rõ tay kia** — `both` hay bỏ
+    trống thì vẫn qua, vì thà để lọt còn hơn cắt nhầm một item đúng ý.
+  */
+  const askedHand = needle.includes("tay trai")
+    ? "LH"
+    : needle.includes("tay phai")
+      ? "RH"
+      : null;
+
   const matched = kb.items.filter((i) => {
     if (i.status === "rejected") return false;
+    if (askedHand) {
+      const hand = i.input?.hand;
+      if (hand === "LH" || hand === "RH") {
+        if (hand !== askedHand) return false;
+      }
+    }
     const hay = haystack(i);
     return terms.length > 0 && terms.every((t) => hay.has(t));
   });

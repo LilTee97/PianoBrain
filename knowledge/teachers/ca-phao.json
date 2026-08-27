@@ -1,0 +1,36 @@
+{
+  "id": "ca-phao",
+  "type": "teacher",
+  "name": "Cà Pháo",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Soạn câu solo cho đoạn dạo đầu, kết bài hay giang tấu",
+    "Chọn giữa chạy gam và rải hợp âm khi soạn câu solo",
+    "Hỏi tỉ lệ nốt hợp âm trong một câu solo của người thật"
+  ],
+  "avoid_when": [
+    "Hỏi phần ĐỆM chơi thế nào — item này chỉ đo câu solo tay phải",
+    "Hỏi tay trái làm gì trong một điệu: số đo tay trái ở đây chỉ có một bài ballad, và nó nói về chỗ giang tấu chứ không nói về mẫu đệm",
+    "Cần lời dạy có căn cứ: đây là thống kê trên nốt, không phải lời ai nói"
+  ],
+  "input": {
+    "style": [
+      "ballad",
+      "pop"
+    ]
+  },
+  "output": {
+    "declared_focus": [
+      "piano cover ballad Việt",
+      "câu solo trên vòng hợp âm",
+      "đoạn không lời giữa bài"
+    ],
+    "language": "vi",
+    "ingested_sources": 1,
+    "corpus": "4 bản ký âm, 373 ô nhịp, 5992 nốt"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Cà Pháo (ghi trong file là 'C Pho'), người ký âm và chơi lại các bài ballad Việt trên piano. Bản ghi thầy này là derived: nó mô tả phạm vi để định tuyến câu hỏi, chưa phải một khẳng định trích từ mốc nào.\n\nLưu ý về tư cách nguồn: đây là bản CHƠI LẠI của một người cover, không phải bài giảng và không phải bản của tác giả. Nó đứng cạnh thầy Hải Joseph và thầy Đức Thịnh, không thay ai. Thứ rút được từ nó là **thói quen soạn câu**, đo bằng thống kê trên nốt, chứ không phải lời dạy."
+}

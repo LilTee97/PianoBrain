@@ -1,0 +1,214 @@
+{
+  "id": "ca-phao-cau-solo-tren-vong-hop-am",
+  "type": "concept",
+  "name": "Cách Cà Pháo soạn câu solo trên vòng hợp âm — ba số đo",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "ca-phao",
+    "source_id": "ca-phao-piano-covers",
+    "locator": "toàn bộ 4 bản: hongkong-1 ô 1-108, nguoi-hay-quen ô 1-101, yeu-la-tha-thu ô 1-85, mo ô 1-79"
+  },
+  "use_when": [
+    "Soạn câu solo cho đoạn dạo đầu, kết bài hay giang tấu",
+    "Chọn giữa chạy gam và rải hợp âm khi soạn câu solo",
+    "Hỏi tỉ lệ nốt hợp âm trong một câu solo của người thật"
+  ],
+  "avoid_when": [
+    "Hỏi phần ĐỆM chơi thế nào — item này chỉ đo câu solo tay phải",
+    "Hỏi tay trái làm gì trong một điệu: số đo tay trái ở đây chỉ có một bài ballad, và nó nói về chỗ giang tấu chứ không nói về mẫu đệm",
+    "Cần lời dạy có căn cứ: đây là thống kê trên nốt, không phải lời ai nói"
+  ],
+  "input": {
+    "style": [
+      "ballad",
+      "pop",
+      "bossa_nova"
+    ],
+    "hand": "RH"
+  },
+  "output": {
+    "stage": "source_knowledge",
+    "do_1_not_hop_am_theo_phach": {
+      "tung_bai": {
+        "hongkong-1 (bossa nova)": "67% / 57%",
+        "nguoi-hay-quen (bossa nova)": "56% / 52%",
+        "yeu-la-tha-thu (ballad)": "69% / 59%",
+        "mo (slow rock 4/4)": "59% / 49%",
+        "beo-dat-may-troi (ballad)": "62% / 53%",
+        "kem-duyen (ballad)": "54% / 62% ← ĐẢO NGƯỢC",
+        "yeu-xa (ballad)": "41% / 51% ← ĐẢO NGƯỢC, và thấp hơn hẳn"
+      },
+      "chung": "5 trên 7 bài có phách mạnh nhiều nốt hợp âm hơn phách yếu (chênh 4-10 điểm). HAI bài ngược lại.",
+      "khong_co_tin_hieu_the_loai": "Hai bài bossa ra 56% và 67% — tức khoảng của riêng bossa đã trùm gần trọn khoảng của cả corpus. Khác biệt ở đây là khác biệt giữa bài với bài.",
+      "y_nghia": "Có xu hướng đặt nốt hợp âm vào phách mạnh, nhưng KHÔNG phải luật cứng: khoảng một nửa số nốt vẫn nằm ngoài hợp âm. Đường nhạc là một câu hát, không phải bài tập rải hợp âm.",
+      "cach_do": "Hợp âm suy CHỈ TỪ TAY TRÁI rồi mới đối chiếu tay phải; nhóm theo SỐ Ô NHỊP thật, không tính ngược từ phách.",
+      "canh_bao": "Hai bài đảo ngược đều là ballad, và một trong hai (yeu-xa) có tỉ lệ thấp hẳn (41%). Chưa rõ đây là thói quen thật hay là bộ suy hợp âm của tôi đọc sai hoà âm hai bài ấy — suy hợp âm chỉ từ tay trái thì bài nào tay trái thưa sẽ đoán kém. Cần rà tay trước khi tin."
+    },
+    "do_2_gam_hay_rai_hop_am": {
+      "mau": "305 câu chạy trên 5 bài",
+      "tung_bai": {
+        "hongkong-1 (bossa nova)": "gam 16% · rải 7% · trộn 75%",
+        "nguoi-hay-quen (bossa nova)": "gam 19% · rải 3% · trộn 76%",
+        "yeu-la-tha-thu (ballad)": "gam 22% · rải 2% · trộn 75%",
+        "mo (slow rock 4/4)": "gam 21% · rải 9% · trộn 68%",
+        "beo-dat-may-troi (ballad)": "gam 20% · rải 6% · trộn 72%",
+        "kem-duyen (ballad)": "gam 20% · rải 6% · trộn 73%",
+        "yeu-xa (ballad)": "gam 6% · rải 11% · trộn 82%  ← NGOẠI LỆ"
+      },
+      "chung": "gam 6-22% · rải hợp âm thuần 2-11% · pha trộn 68-82%, trên 7 bài",
+      "y_nghia": "Sáu trên bảy bài nằm sát nhau (gam 16-22%, rải 2-9%, trộn 68-76%). Bài yeu-xa lệch ra: gam chỉ 6%, rải 11%. Khoảng phải nới ra.\n\nDÙ VẬY căn cứ cho thay đổi bên KeyTrain vẫn đứng, và đứng thoải mái: app với nguồn nốt mặc định ra 35-60% câu rải hợp âm thuần. Bài lệch nhất của người thật là 11%. Khoảng cách vẫn gấp ba tới sáu lần."
+    },
+    "do_3_tay_trai_o_doan_khong_loi": {
+      "do_lai_tren_bien_doan_that": true,
+      "hongkong-1": {
+        "doan_hat": "tay trái 5,5 mốc/ô, tầm 36-64; tay phải 6,4 nốt/ô, liền bậc 20%, nốt lặp 34%",
+        "giang_tau": "tay trái 5,8 mốc/ô, tầm 36-67; tay phải 9,2 nốt/ô, liền bậc 36%, nốt lặp 20%, nhảy xa tụt 9% xuống 3%",
+        "ket_luan": "TAY TRÁI GẦN NHƯ KHÔNG ĐỔI — cùng mật độ, cùng tầm. Thứ đổi là tay phải: bỏ đường hát nhiều nốt lặp, chuyển sang đường chạy liền bậc dày thêm 44%."
+      },
+      "nguoi-hay-quen": {
+        "giang_tau": "6,9 nốt/ô — ĐÚNG BẰNG đoạn hát (6,5 và 6,9). Hình câu cũng như nhau.",
+        "ket_luan": "Giang tấu bài này KHÔNG đổi kết cấu. Nó không phải một đoạn chạy ngón."
+      },
+      "mo": {
+        "giang_tau": "6,1 nốt/ô so với 5,7 ở đoạn hát; nhảy xa 30%, nốt lặp 31%",
+        "ket_luan": "Cũng không đổi kết cấu."
+      },
+      "canh_bao": "Hai trên bốn bài có giang tấu là đoạn chạy ngón thật (hongkong-1, beo-dat-may-troi); hai bài kia giữ nguyên kết cấu đoạn hát. Nên 'giang tấu thì tay phải lên chạy' là MỘT TRONG HAI lựa chọn của người này, không phải luật.",
+      "beo-dat-may-troi": {
+        "doan_hat": "tay phải 4,6 nốt/ô; tay trái 5,8 mốc/ô, đáy 36",
+        "giang_tau": "tay phải 8,2 nốt/ô (+78%), liền bậc 28→36%, quãng ba 15→24%, nhảy xa 27→11%; tay trái 5,1 mốc/ô, đáy 35",
+        "ket_luan": "Giang tấu ĐÚNG LÀ đoạn chạy ngón, và tay trái gần như đứng yên — xác nhận thứ hai cho hongkong-1."
+      }
+    },
+    "doi_chieu_voi_keytrain": {
+      "chordTone": "100% nốt hợp âm ở phách mạnh VÀ 99-100% ở phách yếu; 35-60% câu rải hợp âm thuần",
+      "nguon_theo_gam": "53-55% / 49-50%; 4-16% rải thuần",
+      "ket_luan": "Nguồn theo gam khớp gần như chính xác, kể cả chỗ chênh lệch nhỏ giữa phách mạnh và phách yếu. Nguồn chordTone lệch hẳn."
+    },
+    "chua_ro": [
+      "Chưa có điểm dữ liệu nào cho giang tấu dài 12-17 ô — đúng chỗ ranh giới của số đo 6.",
+      "Hai bài mỗi thể loại là nhiều nhất, và chưa có bài bolero nào. Chưa đủ cho phát biểu riêng theo thể loại — xem the_loai_va_co_mau.khong_tim_thay_tin_hieu_the_loai.",
+      "Số đo 5 (outro) chỉ có hai bài. Hai bài ấy khớp nhau rất sát, nhưng hai vẫn là hai.",
+      "Hai bài mỗi thể loại là nhiều nhất; ballad và slow rock chỉ có MỘT bài. Không đủ để ra luật riêng cho dòng nào.",
+      "Chưa có bài bolero nào. Số của bolero bên KeyTrain đang mượn của corpus này.",
+      "Corpus KHÔNG có bài slow rock nhịp kép 6/8 nào — bài slow rock duy nhất là nhịp 4/4. Số của slow rock 6/8 bên KeyTrain không có bằng chứng nào từ nguồn này.",
+      "Vòng hợp âm là SUY RA từ nốt: sheet không có một ký hiệu hợp âm nào. Vài ô suy sai thấy rõ (Cm6, Bb6 giữa bài Đô trưởng).",
+      "Tay trái chỉ chơi gốc và quãng năm thì bậc ba vắng mặt, nên nốt bậc ba của tay phải bị đếm nhầm là 'ngoài hợp âm'.",
+      "Số đo 3 (tay trái ở đoạn giang tấu) mới chỉ chạy trên hongkong-1."
+    ],
+    "do_4_doan_dao_dau": {
+      "trang_thai": "ĐÃ RÚT LẠI phần phát biểu về thể loại; chỉ giữ phần mô tả",
+      "tung_bai": {
+        "hongkong-1 (bossa)": "4,5 nốt/ô, quãng ba 31%",
+        "nguoi-hay-quen (bossa)": "8,4 nốt/ô, liền bậc 43%",
+        "yeu-la-tha-thu (ballad)": "5,1 nốt/ô, liền bậc 35%",
+        "mo (slow rock 4/4)": "3,9 nốt/ô, quãng ba 30%",
+        "beo-dat-may-troi (ballad)": "10,2 nốt/ô, liền bậc 29% + quãng ba 32%, RUBATO"
+      },
+      "vi_sao_rut_lai": "Hai bài CÙNG là bossa nova mà ra ngược nhau: 4,5 nốt/ô đi quãng ba, và 8,4 nốt/ô chạy liền bậc. Thể loại không giải thích được chỗ khác nhau này.",
+      "con_lai_gi": "Mật độ đoạn dạo qua 5 bài: 3,9 · 4,5 · 5,1 · 8,4 · 10,2 nốt/ô. Trải rộng gấp gần ba lần, và hai bài CÙNG là bossa nova nằm ở hai đầu (4,5 và 8,4). Thể loại không giải thích được. Riêng beo-dat-may-troi có đoạn dạo dày nhất cả bài — dày hơn cả giang tấu — và được ghi rubato."
+    },
+    "the_loai_va_co_mau": {
+      "bossa_nova": "2 bài — hongkong-1, nguoi-hay-quen",
+      "ballad": "4 bài — yeu-la-tha-thu, beo-dat-may-troi, kem-duyen, yeu-xa",
+      "bolero": "0 bài",
+      "he_qua": "Corpus 7 bài: 2 bossa nova, 4 ballad, 1 slow rock 4/4, 0 bolero. Thể loại do NGƯỜI DÙNG xác nhận từng bài.",
+      "slow_rock": "1 bài — mo, NHỊP 4/4 (người dùng xác nhận)",
+      "ghi_chu_mo": "'Mơ' là slow rock nhịp 4/4, không phải nhịp kép 6/8 — người dùng xác nhận, và phép đo khớp: 98% nốt rơi theo chùm hai, 0% chùm ba. Nghĩa là corpus này KHÔNG có bài slow rock 6/8 nào; muốn số liệu cho nhịp kép thì phải có nguồn khác.",
+      "khong_tim_thay_tin_hieu_the_loai": {
+        "not_hop_am_phach_manh": "bossa 56% và 67% · ballad 62% và 69% · slow rock 59% — ba khoảng chồng lên nhau",
+        "hinh_cau_chay": "cả 5 bài đều 16-22% gam, 2-9% rải, 68-76% trộn — không tách được theo thể loại",
+        "mat_do_doan_dao": "bossa 4,5 và 8,4 · ballad 5,1 và 10,2 — HAI bài cùng thể loại nằm hai đầu, ở CẢ HAI thể loại",
+        "giang_tau_co_chay_ngon_khong": "bossa: một có một không · ballad: một có một không · slow rock: không",
+        "ket_luan": "Mọi khác biệt đo được đều CẮT NGANG thể loại, không đi theo thể loại. Với hai bài mỗi nhóm, chênh lệch giữa hai bài cùng thể loại lớn hơn chênh lệch giữa hai thể loại. Đây là lý do item này cố ý không đưa ra con số riêng cho dòng nào."
+      }
+    },
+    "bien_doan_da_xac_nhan": {
+      "nguon_moc": "Người dùng cung cấp link YouTube và mốc thời gian từng đoạn cho ba bài. Đây là NHÃN THẬT, thay cho cách dò bằng mật độ nốt của bản trước.",
+      "cach_quy_ra_o_nhip": "Neo ô 1 vào lúc nhạc bắt đầu, neo ô cuối vào lúc outro kết, rồi chia đều theo tổng số phách của bản ký âm.",
+      "hongkong-1": {
+        "video": "youtube 2ih8r0Inx3M",
+        "nhip_do_suy_ra": "khoảng 110-113/phút",
+        "dao_dau": "00:02-00:35 → ô 1-16",
+        "giang_tau": "01:36-02:17 → ô 45-64",
+        "outro": "03:30-03:41 → ô 99-108",
+        "do_tin": "CAO. Hai cách độc lập gặp nhau: neo theo thời lượng cho 113/phút, khớp vùng dày cho 110/phút. Và bản ký âm ĐỔI SỐ CHỈ NHỊP sang 2/4 đúng ở ô 100 — ngay chỗ outro bắt đầu."
+      },
+      "nguoi-hay-quen": {
+        "video": "youtube ygF7hJlTEl0",
+        "nhip_do_suy_ra": "khoảng 106/phút",
+        "dao_dau": "00:00-00:18 → ô 1-8",
+        "giang_tau": "01:32-01:49 → ô 41-49",
+        "outro": "03:35-03:48 → ô 96-101",
+        "do_tin": "VỪA. Neo theo thời lượng; vùng dày đo được (ô 46-48) nằm trong khoảng giang tấu, nhưng không có mốc thứ hai độc lập."
+      },
+      "mo": {
+        "video": "youtube 0w-M67gPlfA",
+        "nhip_do_suy_ra": "chưa chắc, quãng 72 hoặc 144/phút — nhập nhằng nửa nhịp",
+        "dao_dau": "00:07-00:23 → ô 1-10 (ước)",
+        "giang_tau": "01:57-02:14 → ô 67-77 (ước)",
+        "outro": "KHÔNG CÓ",
+        "do_tin": "THẤP. Bài này không có outro nên không có mốc cuối để neo; vùng giang tấu suy ra bằng cách khớp chỗ dày, chưa có bằng chứng thứ hai."
+      },
+      "beo-dat-may-troi": {
+        "video": "youtube fb_Su9o4W3g",
+        "nhip_do_suy_ra": "khoảng 110/phút ở thân bài",
+        "dao_dau": "00:04-00:25 → ô 1-8",
+        "giang_tau": "01:47-02:24 → ô 46-63",
+        "outro": "03:20-03:35 → ô 89-95",
+        "do_tin": "CAO. Ba dấu hiệu độc lập cùng khớp: bản ký âm ghi 'rubato' ở ô 1 và 'rit.' ở ô 8 — đóng đúng đoạn dạo đầu; ghi 'rit.' ở ô 92, nằm trong khoảng outro suy ra. Đoạn dạo phải neo RIÊNG vì rubato là chơi tự do, quy mốc đều nhau ở đó sẽ sai.",
+        "ghi_chu": "Bản này đổi số chỉ nhịp bốn lần trong tám ô đầu (4/4 ↔ 3/4 ở ô 5 và ô 8) — dấu hiệu người ký âm chép lại một đoạn chơi co giãn."
+      },
+      "kem-duyen": {
+        "video": "youtube TdLfapWX-pE",
+        "the_loai": "ballad",
+        "nhip_do_suy_ra": "~101/phút",
+        "dao_dau": "KHÔNG CÓ",
+        "giang_tau": "01:03-01:23 (20s) → ô 27-36 (10 ô)",
+        "outro": "02:44-03:07 → ô 70-79"
+      },
+      "yeu-xa": {
+        "video": "youtube 5YQ7zLMq7PY",
+        "the_loai": "ballad",
+        "nhip_do_suy_ra": "~90/phút",
+        "dao_dau": "00:01-00:24 → ô 1-9",
+        "giang_tau": "01:49-02:14 (25s) → ô 41-50 (10 ô)",
+        "outro": "04:42-05:00 → ô 106-112"
+      }
+    },
+    "do_5_outro": {
+      "trang_thai": "ĐÃ RÚT LẠI — 3 trên 5, không phải luật",
+      "bang": {
+        "hongkong-1": "tay trái 5,8→3,4 ✓ · bass 36→24 ✓ · lặp 27%→2% ✓",
+        "nguoi-hay-quen": "4,9→3,8 ✓ · 35→26 ✓ · 26%→2% ✓",
+        "beo-dat": "5,6→3,6 ✓ · 37→31 ✓ · 7%→2% ✓",
+        "kem-duyen": "5,1→5,2 ✗ · 36→34 ✗ · 17%→8% ✗  — KHÔNG khớp chỉ số nào",
+        "yeu-xa": "5,2→3,3 ✓ · 35→37 ✗ (bass đi LÊN) · 3%→5% ✗"
+      },
+      "con_lai_gi": "Chỉ một chỉ số còn đứng được: TAY TRÁI THƯA ĐI ở đoạn kết — 4 trên 5 bài, và bài phản ví dụ (kem-duyen) thì không thưa chút nào. Hai chỉ số kia (bass tụt xuống, nốt lặp biến mất) chỉ đúng 3 trên 5.",
+      "bai_hoc": "Lượt trước item này ghi 'BA TRÊN BA bài đều làm y hệt' và đề nghị dựng thẳng vào KeyTrain. Thêm hai bài là còn 3/5. Đây là lần thứ ba trong cùng một corpus mà một phát hiện trông sạch ở n=2-3 tan ra khi n tăng. May là chưa dựng vào app."
+    },
+    "do_6_giang_tau_dai_hay_ngan": {
+      "trang_thai": "GIẢ THUYẾT ĐÃ QUA MỘT PHÉP THỬ TRƯỚC (prospective), 6/6 tách hoàn hảo",
+      "bang": {
+        "9 ô (17s) nguoi-hay-quen (bossa)": "+6% — giữ nguyên kết cấu",
+        "10 ô (20s) kem-duyen (ballad)": "+4% — giữ nguyên  ← DỰ ĐOÁN TRƯỚC KHI ĐO",
+        "10 ô (25s) yeu-xa (ballad)": "+4% — giữ nguyên  ← DỰ ĐOÁN TRƯỚC KHI ĐO",
+        "11 ô (17s) mo (slow rock)": "+10% — giữ nguyên",
+        "18 ô (37s) beo-dat (ballad)": "+71% — CHẠY NGÓN",
+        "20 ô (41s) hongkong-1 (bossa)": "+36% — CHẠY NGÓN"
+      },
+      "phat_bieu": "Độ dài đoạn quyết định, THỂ LOẠI KHÔNG. Từ 18 ô trở lên anh ấy viết một bản độc tấu: tay phải bỏ đường hát, lên chạy dày thêm 36-71%, tay trái giữ nguyên mẫu đệm. Từ 11 ô trở xuống anh ấy coi đó là cầu nối và đi qua bằng chính kết cấu đoạn hát. Ranh giới nằm đâu đó giữa 11 và 18 ô — chưa có điểm dữ liệu nào ở giữa.",
+      "vi_sao_dang_tin_hon_cac_phat_hien_khac": "Hai bài kem-duyen và yeu-xa được người dùng gửi SAU KHI giả thuyết đã phát biểu, và được chọn đúng vì chúng rơi vào khoảng chưa có dữ liệu. Cả hai rơi đúng phía đã dự đoán. Đây là phép thử trước, khác hẳn mấy phát hiện trước của item này vốn tìm ra sau khi đã nhìn hết dữ liệu.",
+      "cach_giet_no": [
+        "Một giang tấu từ 18 ô trở lên mà KHÔNG chạy ngón",
+        "Một giang tấu từ 11 ô trở xuống mà CÓ chạy ngón",
+        "Điểm dữ liệu ở khoảng 12-17 ô, chỗ hiện chưa có gì"
+      ],
+      "xac_suat_may_rui": "6 đoạn, hai đoạn dài nhất đúng là hai đoạn chạy ngón: nếu không có luật thì xác suất là 1/15."
+    }
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "CHƯA RÀ — item ở draft. Số liệu đo bằng máy trên chính file MusicXML.\n\nĐÃ SỬA BA LẦN về thể loại. Bản đầu đoán cả bốn bài là ballad Việt. Người dùng đính chính ba lượt: 'Người hãy quên em đi' là bossa nova, rồi 'Hồng Kông 1' cũng bossa nova, rồi 'Yêu là tha thứ' là ballad và 'Mơ' là slow rock nhịp 4/4. Nhãn cuối (5 bài): 2 bossa nova, 2 ballad, 1 slow rock 4/4, 0 bolero — người dùng xác nhận từng bài.\n\nHai lần đính chính đầu đã làm sụp hai phát biểu riêng cho bossa mà bản trước ghi — chúng dựng trên nhóm chỉ có một bài. Bài học: với một hai bài mỗi nhóm, cái nhìn như khác biệt thể loại không phân biệt được với khác biệt giữa bài với bài. Và thể loại là thứ phải HỎI, không phải thứ suy từ file.\n\nLần đính chính thứ ba lại LÀM MẠNH THÊM số đo 2. Trước đây nó là 'bốn bài cùng một dòng ra giống nhau'; giờ nó là 'BA thể loại khác nhau ra giống nhau' — bossa nova, ballad và slow rock đều cho gam 16-22%, rải hợp âm thuần 2-9%, trộn 68-76%. Đó là căn cứ đã dùng để sửa KeyTrain, và nó vững hơn lúc đầu.\n\nRiêng 'Mơ': slow rock NHỊP 4/4, người dùng xác nhận, và phép đo khớp (98% chùm hai, 0% chùm ba). Nên corpus này không có bài slow rock nhịp kép 6/8 nào — chỗ ấy vẫn trống.\n\nĐây là thống kê về thói quen soạn câu, không phải lời dạy. Cà Pháo không giảng gì trong bốn file này — anh chỉ chơi. Không bao giờ viết 'Cà Pháo dạy rằng...'.\n\nCòn một lỗi bộ đọc đã sửa: hongkong-1 đổi số chỉ nhịp sang 2/4 ở ô 100, mà bộ đọc lấy độ dài ô nhịp cuối áp cho cả bài. Số bám hợp âm của bài ấy trong bản đầu (52%/46%) là sai; số đúng là 67%/57%.\n\nBỔ SUNG: người dùng cung cấp link video và MỐC THỜI GIAN từng đoạn cho ba bài. Nhờ đó biên đoạn không còn phải dò bằng mật độ nốt nữa — xem output.bien_doan_da_xac_nhan, kèm độ tin từng bài. Riêng hongkong-1 độ tin cao vì hai cách quy đổi độc lập gặp nhau, và bản ký âm đổi số chỉ nhịp sang 2/4 đúng ở ô 100, ngay chỗ outro bắt đầu.\n\nHai điều chỉ lộ ra nhờ có mốc thật: (1) chỉ MỘT trên ba bài có giang tấu là đoạn chạy ngón — hai bài kia giữ nguyên kết cấu đoạn hát, nên 'giang tấu thì tay phải lên chạy' không phải luật của người này; (2) số đo 5 về outro, thứ tôi không thể tìm ra nếu không biết outro nằm ở đâu.\n\nLƯU Ý VỀ PHƯƠNG PHÁP: tôi KHÔNG xem được video. Mọi con số ở đây đo trên file MusicXML; mốc thời gian chỉ dùng để quy ra số ô nhịp. Chưa ai đối chiếu bản ký âm với tiếng đàn thật trong video.\n\nBỔ SUNG (7 bài): thêm kem-duyen và yeu-xa, cả hai ballad, cả hai có giang tấu 10 ô. Người dùng gửi chúng SAU KHI tôi phát biểu giả thuyết về độ dài giang tấu và nói rõ cần loại nào — nên đây là phép thử trước, và cả hai rơi đúng phía đã dự đoán. Xem do_6.\n\nCùng lúc, phát hiện về outro RÚT LẠI: từ 3/3 xuống 3/5. Lần thứ ba trong corpus này một phát hiện trông sạch ở n nhỏ tan ra khi n tăng.\n\nVà một lỗi bộ đọc đã sửa: kem-duyen được ký âm thành HAI BÈ riêng thay vì một bè hai khuông, nên bộ đọc gộp cả hai vào tay phải và mất sạch phần tách tay. Nếu không bắt được thì mọi số của bài ấy đều sai. Đã sửa: nhiều bè thì lấy số thứ tự bè làm tay."
+}
