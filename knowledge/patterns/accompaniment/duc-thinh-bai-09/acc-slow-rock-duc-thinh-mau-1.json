@@ -1,0 +1,112 @@
+{
+  "id": "acc-slow-rock-duc-thinh-mau-1",
+  "type": "accompaniment",
+  "name": "Slow Rock mẫu đệm 1 — tay trái rải đều 1-5-8-10-8-5",
+  "difficulty": 1,
+  "source": {
+    "teacher_id": "duc-thinh",
+    "source_id": "duc-thinh-bai-09-slow-rock",
+    "locator": "01:25-04:24"
+  },
+  "use_when": [
+    "Điệu: slow rock, nhịp kép 6/8",
+    "Đoạn mở bài hoặc verse 1, cần khung nhịp vững và nền liền mạch",
+    "Người hát chưa vững nhịp — sáu móc đơn đều đặn giữ nhịp hộ",
+    "Mẫu vào nghề: học mẫu này trước rồi mới rút bớt thành mẫu 3"
+  ],
+  "avoid_when": [
+    "Đoạn cần thoáng để tôn giọng hát — dùng mẫu 3 đệm ngắt",
+    "Chỗ định chèn câu lót: sáu móc đơn tay trái đã kín, câu chạy bass không còn chỗ đứng",
+    "Tempo nhanh — rải đủ sáu móc đơn mỗi ô nhịp thành lụp bụp"
+  ],
+  "input": {
+    "style": [
+      "slow_rock"
+    ],
+    "hand": "both"
+  },
+  "output": {
+    "meter": "6/8",
+    "grid": "một ô nhịp = 6 móc đơn, đánh số ô lưới từ 0",
+    "attacks_per_bar": 8,
+    "cell": {
+      "left": [
+        {
+          "beat": 0,
+          "degree": "gốc",
+          "durationBeats": 1,
+          "velocity": "mạnh",
+          "note": "phách mạnh, mở hợp âm"
+        },
+        {
+          "beat": 1,
+          "degree": "bậc 5 trên gốc",
+          "durationBeats": 1,
+          "velocity": "vừa",
+          "note": ""
+        },
+        {
+          "beat": 2,
+          "degree": "gốc, quãng tám trên",
+          "durationBeats": 1,
+          "velocity": "vừa",
+          "note": "bậc 8 — máy chép rơi mất tầng quãng tám, xem mau_thuan_ban_chep"
+        },
+        {
+          "beat": 3,
+          "degree": "bậc 3, quãng tám trên",
+          "durationBeats": 1,
+          "velocity": "hơi nhấn",
+          "note": "bậc 10 — đỉnh câu rải, phách mạnh phụ của nhịp kép"
+        },
+        {
+          "beat": 4,
+          "degree": "gốc, quãng tám trên",
+          "durationBeats": 1,
+          "velocity": "vừa",
+          "note": "đi xuống"
+        },
+        {
+          "beat": 5,
+          "degree": "bậc 5 trên gốc",
+          "durationBeats": 1,
+          "velocity": "vừa",
+          "note": "về chỗ cũ, dẫn sang phách 1 ô sau"
+        }
+      ],
+      "right": [
+        {
+          "beat": 0,
+          "chord": "cả hợp âm",
+          "durationBeats": 3,
+          "velocity": "vừa",
+          "note": "dậm giữ, ngân nửa ô nhịp"
+        },
+        {
+          "beat": 3,
+          "chord": "cả hợp âm",
+          "durationBeats": 3,
+          "velocity": "nhẹ hơn",
+          "note": "dậm lại ở phách mạnh phụ, ngân tới vạch nhịp"
+        }
+      ]
+    },
+    "silent_beats": [],
+    "contour": "Bè trầm đi LÊN rồi về: gốc, bậc 5, bậc 8, bậc 10, bậc 8, bậc 5. Đỉnh rơi đúng phách 4 — phách mạnh phụ của nhịp 6/8 — nên câu rải tự nó vạch ra hai nửa ô nhịp mà không cần tay phải nhấn.",
+    "tempo": "CHƯA ĐO. Bản chép máy ghi bpm 75 tính theo nốt đen. Con số ấy đáng ngờ: cùng file đó máy cũng ghi 75 cho mẫu 3, mà đo thật ra ô nhịp 1,507 giây (nốt đen chấm khoảng 80). 75 nhiều khả năng là số mặc định của máy chứ không phải số đo.",
+    "velocity_order": "CHƯA RÀ. Suy từ nhịp kép thì nặng xuống nhẹ là: phách 1, phách 4, còn lại đều. Chưa đối chiếu video.",
+    "pedal": "CHƯA CHÉP. Bản chép máy không nói gì về pedal.",
+    "mau_thuan_ban_chep": "Bản chép máy tự mâu thuẫn ở tầng quãng tám. Tên mẫu nó đặt là rải \"1-5-8-10-8-5\" — có bậc 8 và bậc 10, tức câu rải trải rộng hơn một quãng tám. Nhưng cell nó viết chỉ có toneIndex 0,2,0,1,0,2 và không kèm dịch quãng tám nào, nên chơi ra là gốc-5-gốc-3-gốc-5 bò quanh một quãng năm. BẬC thì máy chép đúng, chỉ rơi mất tầng. Item này ghi cell theo tên mẫu (có bậc 8 và bậc 10) vì đó là thế rải chuẩn của đệm hát và khớp với chính tên máy đặt — nhưng chỗ này CHƯA nghe lại, nên item còn draft.",
+    "can_ra_bang_tai": [
+      "Bậc 8 và bậc 10 có thật không, hay câu rải nằm gọn trong một quãng năm",
+      "Nhịp độ thật — đếm 10 ô nhịp hết bao nhiêu giây, như đã làm với mẫu 3",
+      "Sáu móc đơn có đều tăm tắp không, hay có chỗ kéo lê như phách 3 của mẫu 3",
+      "Tay phải dậm ở phách 1 và 4 có ngân đủ 3 móc đơn không, hay ngắt gọn rồi nhả",
+      "Có pedal không, đổi ở đâu"
+    ],
+    "khac_voi_dieu_trong_keytrain": "Item này là BẢN CHÉP. Điệu slow-rock-duc-thinh-1 bên KeyTrain là BẢN DỰNG. Chỗ đã biết là khác: điệu đặt bpm 101 mượn của mẫu 3 (số đã đo) chứ không lấy 75 của máy, và điệu khai fillBassChance 0 để tắt câu chạy bass — vì sáu móc đơn tay trái đã kín, không còn chỗ, khác hẳn mẫu 3. Cả hai là lựa chọn khi dựng, không phải điều thầy dạy."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "CHƯA RÀ BẰNG TAI — item để ở draft, đừng trích như lời thầy đã xác nhận.\n\nNguồn: người dùng đưa file slow_rock_duc_thinh_engine.json, do Gemini đọc video bài 9 của thầy Đức Thịnh mà ra. Máy tự gắn cờ \"verified\": true cho cả hai mẫu trong file. Cờ ấy KHÔNG tính. Cùng đúng file đó, bản chép mẫu 3 của máy đã sai hai chỗ mà tai bắt được: nhịp độ ghi 75 trong khi đo thật ra khoảng 80 nốt đen chấm, và câu thầy nói về Blues máy hiểu thành \"giống Blues nhưng bỏ bớt nốt\" trong khi nguyên văn là thiếu nốt bậc 5 giáng — sai hẳn hướng, xem item duc-thinh-not-blues-la-bac-5-giang. Máy đọc video sai được thì lần này cũng sai được.\n\nQuy trình rà đã dùng cho mẫu 3 nằm ở ingest/phieu-ra-slow-rock-duc-thinh.md: đem từng dòng ra hỏi, người dùng nghe lại video rồi trả lời, khớp thì mới lên validated. Phiếu cho mẫu 1 ở ingest/phieu-ra-slow-rock-duc-thinh-mau-1.md.\n\nChỗ đáng ngờ nhất là tầng quãng tám của câu rải, ghi ở output.mau_thuan_ban_chep. Bậc thì hai bên khớp; chỉ có chuyện câu rải trải hơn một quãng tám hay bò trong một quãng năm là chưa chắc. Nghe một lần là xong.\n\nMẫu này đứng cạnh mẫu 3 chứ không thay: mẫu 1 là nền kín cho đoạn cần nhịp vững, mẫu 3 là nền thưa cho đoạn cần tôn giọng. Thầy dạy mẫu 1 trước trong cùng bài 9."
+}
