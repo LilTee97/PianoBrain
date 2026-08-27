@@ -8,3 +8,6 @@ dist
 
 # Bộ nhớ đệm biên dịch của tsc, không phải mã nguồn.
 tsconfig.tsbuildinfo
+
+# Bộ đọc bản ký âm ở tools/sheet là Python.
+__pycache__/

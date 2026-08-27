@@ -206,7 +206,8 @@
         "Điểm dữ liệu ở khoảng 12-17 ô, chỗ hiện chưa có gì"
       ],
       "xac_suat_may_rui": "6 đoạn, hai đoạn dài nhất đúng là hai đoạn chạy ngón: nếu không có luật thì xác suất là 1/15."
-    }
+    },
+    "cach_do_lai": "Bộ đo nằm ở tools/sheet/ trong kho này. Đặt PIANOBRAIN_SHEETS trỏ tới thư mục chứa file .mxl rồi chạy `python tools/sheet/profile.py`. Danh sách bài, thể loại và biên đoạn ở tools/sheet/corpus.json; bốn cái bẫy đã làm sai số ghi ở tools/sheet/README.md. Mọi con số trong item này phải dựng lại được từ đó — corpus lớn thêm thì chạy lại và cập nhật khoảng."
   },
   "origin": "extracted",
   "status": "draft",
