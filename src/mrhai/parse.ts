@@ -232,7 +232,7 @@ const SOCIAL_RE = /^\s*(xin\s+)?chào|^\s*(hi|hello|alo)(?![a-zà-ỹ])|cảm ơ
  * Không thấy gì thì trả undefined để Mr Hai vẫn nói là chưa biết.
  */
 export function vocalFromText(text: string, bars: number): "full" | boolean[] | undefined {
-  if (/hát kín|hat kin|full/i.test(text)) return "full";
+  if (/hát kín|hat kin|\bfull\b/i.test(text)) return "full";
 
   const list = /((?:hát|hat|nghỉ|nghi|rest)\s*[,;|]\s*)+(?:hát|hat|nghỉ|nghi|rest)/i.exec(text);
   if (list) {
