@@ -86,7 +86,7 @@
       "ket_luan": "Nguồn theo gam khớp gần như chính xác, kể cả chỗ chênh lệch nhỏ giữa phách mạnh và phách yếu. Nguồn chordTone lệch hẳn."
     },
     "chua_ro": [
-      "Chưa đo: anh ấy có lặp lại hình NHỊP của câu trước cho câu sau không, và khi lặp thì đổi gì.",
+      "Chưa đo: hình lặp nằm Ở ĐÂU — câu đáp có lặp hình của đúng câu ngay trước nó không, hay lặp rải rác cả bài.",
       "Chưa đo: nốt ngoài hợp âm ở phách mạnh giải quyết thế nào — liền bậc hay nhảy, lên hay xuống.",
       "Chưa có điểm dữ liệu nào cho giang tấu dài 12-17 ô — đúng chỗ ranh giới của số đo 6.",
       "Hai bài mỗi thể loại là nhiều nhất, và chưa có bài bolero nào. Chưa đủ cho phát biểu riêng theo thể loại — xem the_loai_va_co_mau.khong_tim_thay_tin_hieu_the_loai.",
@@ -243,6 +243,20 @@
       "so_cau_moi_bai": "19 tới 64",
       "dai_trung_binh": "8,9 tới 39,2 nốt mỗi câu",
       "phan_biet_hai_muc": "CÂU cắt ở khe từ 1,5 nốt đen trở lên, dài trung bình 9-39 nốt. HƠI cắt ở khe từ 0,5 trở lên, dài trung vị 6 nốt. Trong một câu có nhiều hơi, ngăn nhau bằng những khe nhỏ 0,75-1,5. Bộ sinh của app thở đúng sáu nốt một lần nhưng KHÔNG BAO GIỜ nghỉ hẳn — đo ra 0% im lặng."
+    },
+    "do_9_lap_hinh": {
+      "khoang": "14% tới 66% số cửa sổ bốn nốt là hình đã xuất hiện ở chỗ khác",
+      "tung_bai": {
+        "Yêu xa": "14%",
+        "Bèo dạt mây trôi": "27%",
+        "Mơ": "27%",
+        "Hồng Kông 1": "28%",
+        "Người hãy quên em đi": "39%",
+        "Kém duyên": "48%",
+        "Yêu là tha thứ": "66%"
+      },
+      "cach_do": "Khoá hình theo CẢ cao độ lẫn nhịp — ba bước liền nhau, mỗi bước ghi kèm khoảng cách thời gian. Khoá chỉ theo cao độ thì con số nói dối: một đường chỉ có ba cỡ nhịp sẽ trùng hình rất nhiều mà chẳng có motif nào, vì trùng là đương nhiên chứ không phải cố ý.",
+      "doc_the_nao": "Khoảng này rộng gấp bốn lần rưỡi từ đầu này sang đầu kia, nên nó gần như không ràng buộc gì. Một bộ sinh rơi vào giữa khoảng chưa chứng minh được là nó có motif — chỉ chứng minh là nó không ở ngoài rìa."
     }
   },
   "origin": "extracted",
