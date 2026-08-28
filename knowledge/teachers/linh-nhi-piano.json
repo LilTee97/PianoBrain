@@ -1,0 +1,30 @@
+{
+  "id": "linh-nhi-piano",
+  "type": "teacher",
+  "name": "Linh Nhi Piano",
+  "difficulty": 3,
+  "source": null,
+  "use_when": [
+    "Người học lối Bolero / Rumba trữ tình rải tay trái, bản độc tấu"
+  ],
+  "avoid_when": [],
+  "input": {
+    "style": [
+      "bolero",
+      "rumba"
+    ]
+  },
+  "output": {
+    "declared_focus": [
+      "bolero trữ tình",
+      "rumba",
+      "độc tấu piano",
+      "rải tay trái 1-5-8-10"
+    ],
+    "language": "vi",
+    "ingested_sources": 1
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Linh Nhi Piano, bản độc tấu *Đừng Xa Em Đêm Nay*. Đứng CẠNH Tuấn Lưu chứ không thay: hai lối bolero khác hẳn nhau — Tuấn Lưu dập bảy điểm Pùng-Pắp, Linh Nhi rải tay trái 1-5-8-10 và không dập hợp âm. Kho giữ cả hai, chỗ khác nhau đó là thứ đáng học.\n\nCHƯA AI Ở ĐÂY XEM VIDEO. Mốc thời gian và bậc rải do Gemini xem rồi ghi lại theo yêu cầu người dùng."
+}

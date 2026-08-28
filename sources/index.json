@@ -1336,6 +1336,15 @@
         "kem-duyen": "https://www.youtube.com/watch?v=TdLfapWX-pE",
         "yeu-xa": "https://www.youtube.com/watch?v=5YQ7zLMq7PY"
       }
+    },
+    {
+      "source_id": "linh-nhi-dung-xa-em-dem-nay",
+      "teacher_id": "linh-nhi-piano",
+      "kind": "video",
+      "title": "Đừng Xa Em Đêm Nay — Linh Nhi Piano Solo",
+      "url": "https://www.youtube.com/watch?v=uAWjGj9bHyE",
+      "ingested_at": "2026-08-29",
+      "note": "Bolero / Rumba trữ tình, 68-76 BPM. Người dùng cung cấp link và đặc tả; đặc tả do Gemini xem video rồi soạn. KHÔNG AI Ở ĐÂY XEM VIDEO — mốc thời gian (verse 00:23-01:03, cao trào 02:02-02:24, outro 03:28-03:48) và bậc rải đều là lời của Gemini, chưa ai rà bằng tai. Vì vậy item chép từ nguồn này để status draft."
     }
   ],
   "coverage": {

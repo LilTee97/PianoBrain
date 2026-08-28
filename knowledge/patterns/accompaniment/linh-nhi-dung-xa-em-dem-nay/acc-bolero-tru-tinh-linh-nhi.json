@@ -1,0 +1,64 @@
+{
+  "id": "acc-bolero-tru-tinh-linh-nhi",
+  "type": "accompaniment",
+  "name": "Bolero trữ tình — tay trái rải 1-5-8-10, hai kết cấu",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "linh-nhi-piano",
+    "source_id": "linh-nhi-dung-xa-em-dem-nay",
+    "locator": "00:23-01:03",
+    "extra_locators": [
+      "02:02-02:24",
+      "03:28-03:48"
+    ],
+    "locator_note": "Mốc do Gemini xem video ghi lại; chưa ai ở đây đối chiếu bằng tai."
+  },
+  "use_when": [
+    "đệm bolero / rumba trữ tình chậm, 68-76 nhịp mỗi phút",
+    "muốn tay trái rải thay vì dập hợp âm"
+  ],
+  "avoid_when": [
+    "cần lối Pùng-Pắp dập hợp âm — dùng Tuấn Lưu (acc bolero-1) thay",
+    "bài nhanh hơn 80 nhịp mỗi phút"
+  ],
+  "input": {
+    "style": [
+      "bolero",
+      "rumba"
+    ],
+    "hand": "LH",
+    "section": [
+      "verse",
+      "chorus",
+      "interlude",
+      "outro"
+    ]
+  },
+  "output": {
+    "phien_khuc": {
+      "phách 1": "nốt gốc, nốt đen",
+      "phách 2": "bậc 5 rồi bậc 8, hai móc đơn",
+      "phách 3": "bậc 10 (bậc ba nâng quãng tám), nốt đen",
+      "phách 4": "bậc 9 hoặc bậc 5, móc đơn dẫn sang ô sau",
+      "cấm": "không dập chát chát liên tục — đục dải tần"
+    },
+    "cao_trao_va_giang_tau": {
+      "phách 1 và 3": "dậm quãng tám bass trầm sâu",
+      "phách 2 và 4": "rải chuỗi móc đơn liên tục 1-5-8-9, hoặc chập bè quãng trung, Forte",
+      "ghi_chu": "Đặc tả gộp điệp khúc và giang tấu làm MỘT kết cấu. Giang tấu ở đây không phải chỗ nghỉ."
+    },
+    "outro": {
+      "cách": "ngừng hẳn chuỗi rải; một nốt bass chủ đầu ô ngân dài, chậm dần"
+    },
+    "phoi_hop_hai_tay": {
+      "pha_1": "đầu câu / phách 1 — hai tay chạm phím cùng lúc, bass gốc với nốt đầu giai điệu",
+      "pha_2": "thân câu nhiều từ — tay phải giai điệu kèm chập quãng 3/6, tay trái rải thưa làm nền",
+      "pha_3": "cuối câu ngân từ 2 phách hoặc lặng — tay trái rải lấp hướng lên cao",
+      "bu_tru": "tay phải chạy móc kép thì tay trái rút về một nốt bass đơn"
+    },
+    "khac_gi_tuan_luu": "Tuấn Lưu (bolero-1): tay trái hai cú bass phách 1 và 3, tay phải dập hợp âm đảo phách bảy điểm. Linh Nhi: tay trái rải năm nốt mỗi ô, tay phải không dập gì. Hai lối khác loài, kho giữ cả hai."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bolero trữ tình lối rải: tay trái đi 1-5-8-10 lên rồi trả về, tay phải để trống cho giọng hát hoặc cho giai điệu. Khác hẳn lối Pùng-Pắp — chỗ khác nhau ấy là thứ đáng học, không phải mâu thuẫn.\n\nĐiểm đáng chú ý nhất là ĐOẠN GIANG TẤU ĐỔI KẾT CẤU chứ không chỉ đổi to nhỏ: bỏ đường rải mảnh, chuyển sang quãng tám nện ở phách 1 và 3 xen rải dồn ở phách 2 và 4.\n\nSTATUS DRAFT vì chưa ai ở đây xem video. Mốc thời gian và bậc rải là lời của Gemini theo yêu cầu người dùng, chưa rà bằng tai. Bản dựng bên KeyTrain là hai điệu bolero-linh-nhi và bolero-linh-nhi-chorus."
+}
