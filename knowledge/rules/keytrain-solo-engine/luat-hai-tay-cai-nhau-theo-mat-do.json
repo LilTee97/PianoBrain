@@ -1,0 +1,50 @@
+{
+  "id": "luat-hai-tay-cai-nhau-theo-mat-do",
+  "type": "rule",
+  "name": "Hai tay cài vào nhau theo mật độ trong đoạn solo",
+  "difficulty": 3,
+  "source": null,
+  "use_when": [
+    "dựng đoạn dạo đầu, giang tấu hoặc kết bài có câu solo tay phải",
+    "cần quyết định tay trái chơi bao nhiêu phần của mẫu đệm"
+  ],
+  "avoid_when": [
+    "đoạn có lời — ở đó hai tay chia mẫu đệm theo cách khác",
+    "đoạn không có câu solo nào, mẫu đệm phải kêu nguyên vẹn"
+  ],
+  "input": {
+    "section": [
+      "intro",
+      "interlude",
+      "outro"
+    ],
+    "hand": "both"
+  },
+  "output": {
+    "xuat_xu": "Người dùng soạn, sau khi nghe bản mà tay trái gánh trọn mẫu đệm và bác nó. Bộ luật do Gemini viết theo yêu cầu của người dùng — KHÔNG phải trích từ thầy nào, không có mốc thời gian, không có bản ký âm chống lưng. Vì vậy item này là 'derived', không gán cho ai.",
+    "luat_1_tay_phai_day": {
+      "dieu_kien": "tay phải từ 4 nốt mỗi phách trở lên (móc kép)",
+      "hanh_dong": "tay trái giữ MỘT nốt bass, bỏ các cú gõ còn lại trong khe ấy",
+      "vi_sao": "hai bè cùng dày thì đục dải tần"
+    },
+    "luat_2_tay_phai_thua": {
+      "dieu_kien": "tay phải ngân từ 2 phách trở lên, hoặc đang nghỉ",
+      "hanh_dong": "tay trái chèn nốt rải lấp chỗ trống",
+      "vi_sao": "chỗ trống của bè này là chỗ của bè kia"
+    },
+    "luat_3_vach_nhip": {
+      "dieu_kien": "phách 1 của ô nhịp",
+      "hanh_dong": "bass gốc tay trái và nốt giai điệu tay phải gõ CÙNG LÚC",
+      "vi_sao": "đây là chỗ neo nhịp, không nhường được"
+    },
+    "he_qua_cho_tay_trai": "Tay trái chơi đúng phần tay trái của mẫu đệm, không ôm luôn phần tay phải. Chỗ thưa ra được lấp bằng luật 2 — lấp theo tay phải thì hai bè nhường nhau, lấp bằng cách gõ luôn phần tay phải thì hai bè cùng nói một lúc.",
+    "cho_khong_khop_voi_so_do": [
+      "Ngưỡng 4 nốt mỗi phách giả định tay phải chạy móc kép. Bộ sinh câu hiện tại chạy 1,3-2 nốt mỗi phách, nên luật 1 chỉ kích hoạt ở 3-5% số cú gõ.",
+      "Ngưỡng 'ngân từ 2 phách' không bao giờ đạt: bộ sinh câu chặn trường độ nốt tay phải ở 1,2 phách để chỗ nghỉ không bị ngân trùm. Nhánh còn sống của luật 2 là 'tay phải không có cú gõ mới nào trong khe này' — nó bao luôn cả trường hợp đang ngân qua.",
+      "Bộ luật ghi giang tấu 'tăng mật độ nốt móc kép'. Đo trên bảy bản ký âm của Cà Pháo thì móc kép chỉ chiếm 12% số nốt, móc đơn 53% — đoạn giang tấu của anh ấy không phải đoạn móc kép."
+    ]
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Đoạn solo không phải đoạn đệm bị úp thêm một giai điệu lên trên. Hai tay phải nhường nhau: tay nào đang bận thì tay kia lùi lại, và chỗ trống của bè này là chỗ của bè kia. Chỉ có phách 1 là không nhường — đó là chỗ neo nhịp.\n\nItem này là 'derived' chứ không phải 'extracted': bộ luật do người dùng đưa vào, Gemini soạn, không có nguồn nào trong sources/index.json chống lưng. Các con số tempo và bậc rải trong đó là kiến thức chung nghe hợp lý, chưa ai đối chiếu với bản ghi thật. Ba chỗ đã đo và KHÔNG khớp được ghi ở output.cho_khong_khop_voi_so_do — giữ lại để sau này khỏi tưởng chúng đã được kiểm."
+}
