@@ -19,6 +19,7 @@ HAI CÁI BẪY của tầng này, cả hai đã làm sai số một lần:
 import collections
 import json
 import os
+import random
 import statistics
 import sys
 
@@ -219,6 +220,86 @@ def silence(line, total_beats):
     return max(0.0, 1 - sounding / total_beats)
 
 
+def answers(line, seed=7):
+    """Câu sau có lặp hình nhịp câu trước không — KÈM NỀN SO SÁNH.
+
+    Trả về (liền nhau, ngẫu nhiên). Con số thứ hai mới là thứ quyết định: vốn ô
+    nhịp hẹp nên hai câu BẤT KỲ cũng đã giống nhau sẵn. Đo bảy bản của Cà Pháo
+    ra 42% so với nền 44% — tức không có luật hỏi-đáp nào ở đây.
+
+    Không có nền thì phát biểu kiểu này lúc nào cũng "đúng".
+    """
+    rng = random.Random(seed)
+    shapes = [
+        [round(round((b[0] - a[0]) * 12) / 12, 3) for a, b in zip(ph, ph[1:])]
+        for ph in phrases(line)
+    ]
+
+    def overlap(x, y, cap=8):
+        n = min(len(x), len(y), cap)
+        if n < 3:
+            return None
+        return sum(1 for a, b in zip(x[:n], y[:n]) if abs(a - b) < 1e-6) / n
+
+    near = [s for a, b in zip(shapes, shapes[1:]) if (s := overlap(a, b)) is not None]
+    far = []
+    for _ in range(400):
+        if len(shapes) < 3:
+            break
+        a, b = rng.sample(range(len(shapes)), 2)
+        if (s := overlap(shapes[a], shapes[b])) is not None:
+            far.append(s)
+    return (
+        statistics.mean(near) if near else 0.0,
+        statistics.mean(far) if far else 0.0,
+    )
+
+
+def suspensions(bars, chords, barlens, nbars):
+    """Nốt ngoài hợp âm rơi ĐÚNG PHÁCH thì đi tiếp thế nào.
+
+    Luật cổ điển đòi giải quyết liền bậc và đi xuống. Bảy bản của Cà Pháo: 40%
+    liền bậc, 32% đi xuống, 44% tới nốt hợp âm — cả ba đều quanh mức ngẫu
+    nhiên. Đây là đệm hát pop, không phải đối vị.
+    """
+    start, at = {}, 0.0
+    for bar in range(1, nbars + 1):
+        start[bar] = at
+        at += barlens.get(bar, 4.0)
+
+    line = []
+    for bar in range(1, nbars + 1):
+        line += [(t, m, bar) for t, m in melody(bars[bar]['rh'])]
+    line.sort()
+
+    count = collections.Counter()
+    for (t, note, bar), (_, nxt, _) in zip(line, line[1:]):
+        chord = chords.get(bar)
+        if not chord:
+            continue
+        rel = t - start[bar]
+        if abs(rel - round(rel)) > 0.05:
+            continue
+        count['dung_phach'] += 1
+        if note % 12 in chord['tones']:
+            continue
+        count['treo'] += 1
+        if abs(nxt - note) <= 2:
+            count['lien_bac'] += 1
+        if nxt < note:
+            count['xuong'] += 1
+        if nxt % 12 in chord['tones']:
+            count['toi_hop_am'] += 1
+
+    treo = count['treo'] or 1
+    return {
+        'treo_o_phach_manh': count['treo'] / (count['dung_phach'] or 1),
+        'giai_lien_bac': count['lien_bac'] / treo,
+        'di_xuong': count['xuong'] / treo,
+        'toi_not_hop_am': count['toi_hop_am'] / treo,
+    }
+
+
 def measure(path, sections=None):
     notes, meta = mxl.notes(mxl.load(path))
     bars = by_bar(notes)
@@ -255,7 +336,11 @@ def measure(path, sections=None):
         'dai_trung_vi': statistics.median([len(r) for r in runs]) if runs else 0,
         'hop_am_manh': strong['trong'] / (sum(strong.values()) or 1),
         'hop_am_yeu': weak['trong'] / (sum(weak.values()) or 1),
+        'not_treo': suspensions(bars, chords, barlens, nbars),
     }
+    lien, nen = answers(line)
+    result['cau_sau_lap_cau_truoc'] = lien
+    result['cau_sau_lap_cau_truoc_NEN'] = nen
     if sections:
         result['doan'] = {
             tag: section_stats(bars, span['bars']) for tag, span in sections.items()

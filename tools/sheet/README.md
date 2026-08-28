@@ -66,6 +66,18 @@ Không suy từ file. Đã đoán sai ba lần liên tiếp trên đúng bốn b
 lần đoán sai đều làm sụp một phát biểu đã ghi vào kho — vì thể loại không phải
 một cái nhãn, nó là **khoá gom nhóm**, và mọi con số theo thể loại thừa hưởng nó.
 
+## Giả thuyết quen tai phải có NỀN SO SÁNH
+
+Bộ đo trả về `cau_sau_lap_cau_truoc` kèm `cau_sau_lap_cau_truoc_NEN`. Con số
+thứ hai là mức giống nhau của hai câu **bất kỳ** trong cùng bài. Chỉ đọc con số
+thứ nhất thì luật hỏi-đáp nào cũng "đúng": vốn ô nhịp hẹp — móc đơn chiếm 53% —
+nên hai câu bất kỳ đã giống nhau sẵn 44%, đúng bằng mức hai câu liền nhau.
+
+Hai luật nghe rất có lý đã chết ở đây, sau khi suýt được cài vào bộ sinh như thể
+học được từ anh ấy: *câu đáp lặp hình nhịp câu hỏi*, và *nốt treo giải quyết
+liền bậc đi xuống* (`not_treo`: 40% liền bậc, 32% đi xuống — hai phần ba số lần
+anh ấy đi LÊN).
+
 ## Đọc số thế nào
 
 Với một hai bài mỗi nhóm, chênh lệch giữa hai bài cùng thể loại lớn hơn chênh
