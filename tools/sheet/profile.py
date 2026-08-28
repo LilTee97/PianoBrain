@@ -165,6 +165,60 @@ def section_stats(bars, span):
     }
 
 
+# Khe từ ngần này trở lên là chỗ NGHỈ — ranh giới giữa hai câu.
+BREATH_GAP = 1.5
+
+
+def rhythm(line):
+    """Chuỗi khoảng cách giữa hai nốt liền nhau, làm tròn về lưới quen thuộc."""
+    out = []
+    for (t1, _), (t2, _) in zip(line, line[1:]):
+        gap = t2 - t1
+        if gap <= 0:
+            continue
+        # Lam tron ve 1/12 not den: du min cho ca chum ba lan moc kep.
+        out.append(round(round(gap * 12) / 12, 3))
+    return out
+
+
+def phrases(line):
+    """Cắt đường giai điệu thành từng CÂU, ranh giới là chỗ nghỉ."""
+    out, current = [], []
+    for point in line:
+        if current and point[0] - current[-1][0] >= BREATH_GAP:
+            if len(current) >= 3:
+                out.append(current)
+            current = []
+        current.append(point)
+    if len(current) >= 3:
+        out.append(current)
+    return out
+
+
+def cells(line, size=3):
+    """Đếm hình nhịp: mọi dãy `size` khoảng cách liền nhau, TRONG một câu.
+
+    Không cho hình vắt qua chỗ nghỉ: hai bên chỗ nghỉ là hai câu khác nhau, ghép
+    lại thì đếm ra một hình chẳng ai chơi.
+    """
+    found = collections.Counter()
+    for phrase in phrases(line):
+        gaps = rhythm(phrase)
+        for at in range(len(gaps) - size + 1):
+            found[tuple(gaps[at:at + size])] += 1
+    return found
+
+
+def silence(line, total_beats):
+    """Bao nhiêu phần thời gian KHÔNG có nốt nào vào."""
+    if total_beats <= 0 or not line:
+        return 0.0
+    sounding = 0.0
+    for (t1, _), (t2, _) in zip(line, line[1:]):
+        sounding += min(t2 - t1, BREATH_GAP)
+    return max(0.0, 1 - sounding / total_beats)
+
+
 def measure(path, sections=None):
     notes, meta = mxl.notes(mxl.load(path))
     bars = by_bar(notes)

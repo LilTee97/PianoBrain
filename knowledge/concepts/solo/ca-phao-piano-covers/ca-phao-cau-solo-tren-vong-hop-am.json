@@ -86,6 +86,8 @@
       "ket_luan": "Nguồn theo gam khớp gần như chính xác, kể cả chỗ chênh lệch nhỏ giữa phách mạnh và phách yếu. Nguồn chordTone lệch hẳn."
     },
     "chua_ro": [
+      "Chưa đo: anh ấy có lặp lại hình NHỊP của câu trước cho câu sau không, và khi lặp thì đổi gì.",
+      "Chưa đo: nốt ngoài hợp âm ở phách mạnh giải quyết thế nào — liền bậc hay nhảy, lên hay xuống.",
       "Chưa có điểm dữ liệu nào cho giang tấu dài 12-17 ô — đúng chỗ ranh giới của số đo 6.",
       "Hai bài mỗi thể loại là nhiều nhất, và chưa có bài bolero nào. Chưa đủ cho phát biểu riêng theo thể loại — xem the_loai_va_co_mau.khong_tim_thay_tin_hieu_the_loai.",
       "Số đo 5 (outro) chỉ có hai bài. Hai bài ấy khớp nhau rất sát, nhưng hai vẫn là hai.",
@@ -207,9 +209,43 @@
       ],
       "xac_suat_may_rui": "6 đoạn, hai đoạn dài nhất đúng là hai đoạn chạy ngón: nếu không có luật thì xác suất là 1/15."
     },
-    "cach_do_lai": "Bộ đo nằm ở tools/sheet/ trong kho này. Đặt PIANOBRAIN_SHEETS trỏ tới thư mục chứa file .mxl rồi chạy `python tools/sheet/profile.py`. Danh sách bài, thể loại và biên đoạn ở tools/sheet/corpus.json; bốn cái bẫy đã làm sai số ghi ở tools/sheet/README.md. Mọi con số trong item này phải dựng lại được từ đó — corpus lớn thêm thì chạy lại và cập nhật khoảng."
+    "cach_do_lai": "Bộ đo nằm ở tools/sheet/ trong kho này. Đặt PIANOBRAIN_SHEETS trỏ tới thư mục chứa file .mxl rồi chạy `python tools/sheet/profile.py`. Danh sách bài, thể loại và biên đoạn ở tools/sheet/corpus.json; bốn cái bẫy đã làm sai số ghi ở tools/sheet/README.md. Mọi con số trong item này phải dựng lại được từ đó — corpus lớn thêm thì chạy lại và cập nhật khoảng.",
+    "do_7_von_o_nhip_dieu": {
+      "vi_sao_do": "Bộ sinh câu dựng theo sáu số đo trước đạt 16 trên 24 chỉ số rồi bị người dùng bác thẳng: 'các đoạn solo nghe loạn quá'. Sáu số đo ấy đều đo CHẤT LIỆU — cỡ bước, tỉ lệ nốt hợp âm, độ dài hơi — không có cái nào đo NHỊP. Thước không đo nhịp thì nhịp tự do hỏng.",
+      "co_not_hay_dung": {
+        "móc đơn (0,5)": "53%",
+        "nốt đen (1,0)": "16%",
+        "móc kép (0,25)": "12%",
+        "chùm sáu (0,167)": "6%",
+        "nốt đen chấm (1,5)": "3%",
+        "trắng (2,0)": "3%",
+        "0,75": "2%",
+        "chùm ba (0,333)": "1%"
+      },
+      "hinh_nhip_hay_lap": {
+        "[0,5 · 0,5 · 0,5]": "32% — móc đơn đều, xương sống",
+        "[1,0 · 0,5 · 0,5]": "8,4%",
+        "[0,5 · 0,5 · 1,0]": "8,3%",
+        "[0,5 · 1,0 · 0,5]": "6,4%",
+        "[0,25 · 0,25 · 0,25]": "5,7% — chuỗi móc kép",
+        "[0,167 ×3]": "4,9% — chùm sáu",
+        "[0,5 · 1,0 · 1,0]": "3,1%",
+        "[1,0 · 1,0 · 0,5]": "2,7%",
+        "[0,25 · 0,25 · 0,5]": "2,2%",
+        "[0,5 · 0,25 · 0,25]": "2,2%",
+        "[0,25 · 0,5 · 0,5]": "1,8%",
+        "[1,0 · 1,0 · 1,0]": "1,6%"
+      },
+      "y_nghia": "Móc đơn là xương sống, nốt đen để chấm câu, móc kép và chùm sáu để bùng lên từng đoạn ngắn. Một phần ba số hình là móc đơn đều — nhưng hai phần ba còn lại KHÔNG, và đó mới là chỗ câu nhạc có hình dáng. Bộ sinh của app chỉ dùng 3-4 cỡ nhịp, tức nó sống trọn trong một phần ba ấy.",
+      "cach_do": "Cắt đường giai điệu thành CÂU ở những khe từ 1,5 nốt đen trở lên, rồi đếm mọi dãy ba khoảng liền nhau TRONG một câu. Không cho hình vắt qua chỗ nghỉ: hai bên chỗ nghỉ là hai câu khác nhau."
+    },
+    "do_8_do_dai_cau": {
+      "so_cau_moi_bai": "19 tới 64",
+      "dai_trung_binh": "8,9 tới 39,2 nốt mỗi câu",
+      "phan_biet_hai_muc": "CÂU cắt ở khe từ 1,5 nốt đen trở lên, dài trung bình 9-39 nốt. HƠI cắt ở khe từ 0,5 trở lên, dài trung vị 6 nốt. Trong một câu có nhiều hơi, ngăn nhau bằng những khe nhỏ 0,75-1,5. Bộ sinh của app thở đúng sáu nốt một lần nhưng KHÔNG BAO GIỜ nghỉ hẳn — đo ra 0% im lặng."
+    }
   },
   "origin": "extracted",
   "status": "draft",
-  "note_vi": "CHƯA RÀ — item ở draft. Số liệu đo bằng máy trên chính file MusicXML.\n\nĐÃ SỬA BA LẦN về thể loại. Bản đầu đoán cả bốn bài là ballad Việt. Người dùng đính chính ba lượt: 'Người hãy quên em đi' là bossa nova, rồi 'Hồng Kông 1' cũng bossa nova, rồi 'Yêu là tha thứ' là ballad và 'Mơ' là slow rock nhịp 4/4. Nhãn cuối (5 bài): 2 bossa nova, 2 ballad, 1 slow rock 4/4, 0 bolero — người dùng xác nhận từng bài.\n\nHai lần đính chính đầu đã làm sụp hai phát biểu riêng cho bossa mà bản trước ghi — chúng dựng trên nhóm chỉ có một bài. Bài học: với một hai bài mỗi nhóm, cái nhìn như khác biệt thể loại không phân biệt được với khác biệt giữa bài với bài. Và thể loại là thứ phải HỎI, không phải thứ suy từ file.\n\nLần đính chính thứ ba lại LÀM MẠNH THÊM số đo 2. Trước đây nó là 'bốn bài cùng một dòng ra giống nhau'; giờ nó là 'BA thể loại khác nhau ra giống nhau' — bossa nova, ballad và slow rock đều cho gam 16-22%, rải hợp âm thuần 2-9%, trộn 68-76%. Đó là căn cứ đã dùng để sửa KeyTrain, và nó vững hơn lúc đầu.\n\nRiêng 'Mơ': slow rock NHỊP 4/4, người dùng xác nhận, và phép đo khớp (98% chùm hai, 0% chùm ba). Nên corpus này không có bài slow rock nhịp kép 6/8 nào — chỗ ấy vẫn trống.\n\nĐây là thống kê về thói quen soạn câu, không phải lời dạy. Cà Pháo không giảng gì trong bốn file này — anh chỉ chơi. Không bao giờ viết 'Cà Pháo dạy rằng...'.\n\nCòn một lỗi bộ đọc đã sửa: hongkong-1 đổi số chỉ nhịp sang 2/4 ở ô 100, mà bộ đọc lấy độ dài ô nhịp cuối áp cho cả bài. Số bám hợp âm của bài ấy trong bản đầu (52%/46%) là sai; số đúng là 67%/57%.\n\nBỔ SUNG: người dùng cung cấp link video và MỐC THỜI GIAN từng đoạn cho ba bài. Nhờ đó biên đoạn không còn phải dò bằng mật độ nốt nữa — xem output.bien_doan_da_xac_nhan, kèm độ tin từng bài. Riêng hongkong-1 độ tin cao vì hai cách quy đổi độc lập gặp nhau, và bản ký âm đổi số chỉ nhịp sang 2/4 đúng ở ô 100, ngay chỗ outro bắt đầu.\n\nHai điều chỉ lộ ra nhờ có mốc thật: (1) chỉ MỘT trên ba bài có giang tấu là đoạn chạy ngón — hai bài kia giữ nguyên kết cấu đoạn hát, nên 'giang tấu thì tay phải lên chạy' không phải luật của người này; (2) số đo 5 về outro, thứ tôi không thể tìm ra nếu không biết outro nằm ở đâu.\n\nLƯU Ý VỀ PHƯƠNG PHÁP: tôi KHÔNG xem được video. Mọi con số ở đây đo trên file MusicXML; mốc thời gian chỉ dùng để quy ra số ô nhịp. Chưa ai đối chiếu bản ký âm với tiếng đàn thật trong video.\n\nBỔ SUNG (7 bài): thêm kem-duyen và yeu-xa, cả hai ballad, cả hai có giang tấu 10 ô. Người dùng gửi chúng SAU KHI tôi phát biểu giả thuyết về độ dài giang tấu và nói rõ cần loại nào — nên đây là phép thử trước, và cả hai rơi đúng phía đã dự đoán. Xem do_6.\n\nCùng lúc, phát hiện về outro RÚT LẠI: từ 3/3 xuống 3/5. Lần thứ ba trong corpus này một phát hiện trông sạch ở n nhỏ tan ra khi n tăng.\n\nVà một lỗi bộ đọc đã sửa: kem-duyen được ký âm thành HAI BÈ riêng thay vì một bè hai khuông, nên bộ đọc gộp cả hai vào tay phải và mất sạch phần tách tay. Nếu không bắt được thì mọi số của bài ấy đều sai. Đã sửa: nhiều bè thì lấy số thứ tự bè làm tay."
+  "note_vi": "CHƯA RÀ — item ở draft. Số liệu đo bằng máy trên chính file MusicXML.\n\nĐÃ SỬA BA LẦN về thể loại. Bản đầu đoán cả bốn bài là ballad Việt. Người dùng đính chính ba lượt: 'Người hãy quên em đi' là bossa nova, rồi 'Hồng Kông 1' cũng bossa nova, rồi 'Yêu là tha thứ' là ballad và 'Mơ' là slow rock nhịp 4/4. Nhãn cuối (5 bài): 2 bossa nova, 2 ballad, 1 slow rock 4/4, 0 bolero — người dùng xác nhận từng bài.\n\nHai lần đính chính đầu đã làm sụp hai phát biểu riêng cho bossa mà bản trước ghi — chúng dựng trên nhóm chỉ có một bài. Bài học: với một hai bài mỗi nhóm, cái nhìn như khác biệt thể loại không phân biệt được với khác biệt giữa bài với bài. Và thể loại là thứ phải HỎI, không phải thứ suy từ file.\n\nLần đính chính thứ ba lại LÀM MẠNH THÊM số đo 2. Trước đây nó là 'bốn bài cùng một dòng ra giống nhau'; giờ nó là 'BA thể loại khác nhau ra giống nhau' — bossa nova, ballad và slow rock đều cho gam 16-22%, rải hợp âm thuần 2-9%, trộn 68-76%. Đó là căn cứ đã dùng để sửa KeyTrain, và nó vững hơn lúc đầu.\n\nRiêng 'Mơ': slow rock NHỊP 4/4, người dùng xác nhận, và phép đo khớp (98% chùm hai, 0% chùm ba). Nên corpus này không có bài slow rock nhịp kép 6/8 nào — chỗ ấy vẫn trống.\n\nĐây là thống kê về thói quen soạn câu, không phải lời dạy. Cà Pháo không giảng gì trong bốn file này — anh chỉ chơi. Không bao giờ viết 'Cà Pháo dạy rằng...'.\n\nCòn một lỗi bộ đọc đã sửa: hongkong-1 đổi số chỉ nhịp sang 2/4 ở ô 100, mà bộ đọc lấy độ dài ô nhịp cuối áp cho cả bài. Số bám hợp âm của bài ấy trong bản đầu (52%/46%) là sai; số đúng là 67%/57%.\n\nBỔ SUNG: người dùng cung cấp link video và MỐC THỜI GIAN từng đoạn cho ba bài. Nhờ đó biên đoạn không còn phải dò bằng mật độ nốt nữa — xem output.bien_doan_da_xac_nhan, kèm độ tin từng bài. Riêng hongkong-1 độ tin cao vì hai cách quy đổi độc lập gặp nhau, và bản ký âm đổi số chỉ nhịp sang 2/4 đúng ở ô 100, ngay chỗ outro bắt đầu.\n\nHai điều chỉ lộ ra nhờ có mốc thật: (1) chỉ MỘT trên ba bài có giang tấu là đoạn chạy ngón — hai bài kia giữ nguyên kết cấu đoạn hát, nên 'giang tấu thì tay phải lên chạy' không phải luật của người này; (2) số đo 5 về outro, thứ tôi không thể tìm ra nếu không biết outro nằm ở đâu.\n\nLƯU Ý VỀ PHƯƠNG PHÁP: tôi KHÔNG xem được video. Mọi con số ở đây đo trên file MusicXML; mốc thời gian chỉ dùng để quy ra số ô nhịp. Chưa ai đối chiếu bản ký âm với tiếng đàn thật trong video.\n\nBỔ SUNG (7 bài): thêm kem-duyen và yeu-xa, cả hai ballad, cả hai có giang tấu 10 ô. Người dùng gửi chúng SAU KHI tôi phát biểu giả thuyết về độ dài giang tấu và nói rõ cần loại nào — nên đây là phép thử trước, và cả hai rơi đúng phía đã dự đoán. Xem do_6.\n\nCùng lúc, phát hiện về outro RÚT LẠI: từ 3/3 xuống 3/5. Lần thứ ba trong corpus này một phát hiện trông sạch ở n nhỏ tan ra khi n tăng.\n\nVà một lỗi bộ đọc đã sửa: kem-duyen được ký âm thành HAI BÈ riêng thay vì một bè hai khuông, nên bộ đọc gộp cả hai vào tay phải và mất sạch phần tách tay. Nếu không bắt được thì mọi số của bài ấy đều sai. Đã sửa: nhiều bè thì lấy số thứ tự bè làm tay.\n\nBỔ SUNG (số đo 7 và 8): rút vốn ô nhịp điệu, sau khi bản dựng theo sáu số đo đầu bị tai người dùng bác là 'loạn'. Sáu số đo ấy đo chất liệu chứ không đo nhịp, nên một bản dựng chỉ có ba cỡ nhịp vẫn đạt 16 trên 24 chỉ số. Bài học chung: cái gì không đo được thì cái đó tự do hỏng."
 }
