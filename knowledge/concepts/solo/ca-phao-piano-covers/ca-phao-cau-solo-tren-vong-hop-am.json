@@ -291,11 +291,14 @@
       "bang_chung": {
         "quét nhịp độ 50-120": "mọi nhịp độ đều cho 27-28% số nốt rơi khít phách; rơi ngẫu nhiên đã 24%",
         "pha từng đoạn 30 giây": "0,74 · 0,33 · 0,90 · 0,55 · 0,93 · 0,00 · 0,11 · 0,26 — lang thang khắp một phách",
-        "bốn lựa chọn phách 1": "chênh nhau 4 điểm (23-27%), tức nhiễu chứ không phải chỗ để chọn"
+        "bốn lựa chọn phách 1": "chênh nhau 4 điểm (23-27%), tức nhiễu chứ không phải chỗ để chọn",
+        "nhịp độ người dùng cung cấp": "Người dùng cho biết bài chạy 88. Thử đích danh: 88 ra 27%, đúng bằng mọi nhịp độ khác, và 176 (gấp đôi) ra 28%. Pha từng đoạn ở 88 vẫn trôi: 0,69 · 0,34 · 0,63 · 0,94 · 0,47 · 0,65 · 0,89 · 0,06."
       },
       "he_qua": "Không có độ lệch nào cứu được, và tai người chốt cũng không: một cặp (nhịp độ, độ lệch) cố định không bám được một mạch đang trôi. Muốn số đo theo ô nhịp thì phải có bản ký âm người chép, hoặc bản thu chơi đều nhịp.",
       "cai_gi_van_do_duoc": "Mọi số đo KHÔNG neo vào vạch nhịp thì không dính: cỡ bước, độ dài câu, chỗ nghỉ, vốn ô nhịp điệu (đo khoảng cách giữa hai nốt liền nhau, là số tương đối), bậc hay dùng, tầm tay. Chỉ những gì hỏi 'nốt này rơi vào phách mấy' mới hỏng.",
-      "cach_do": "Quét nhịp độ rồi so với mức ngẫu nhiên, và đo pha từng đoạn xem có đứng yên không. Hai phép này rẻ và phải chạy TRƯỚC mọi số đo theo ô nhịp — không thì ra biểu đồ phẳng lì rồi tưởng là 'bài này không có mẫu'."
+      "cach_do": "Quét nhịp độ rồi so với mức ngẫu nhiên, và đo pha từng đoạn xem có đứng yên không. Hai phép này rẻ và phải chạy TRƯỚC mọi số đo theo ô nhịp — không thì ra biểu đồ phẳng lì rồi tưởng là 'bài này không có mẫu'.",
+      "khong_phai_do_nhip_do_sai": "Pha trôi KHÔNG theo một chiều. Nhịp độ đặt sai thì sai số dồn lại và pha trượt đều một hướng — ở đây nó lang thang. Nên loại được giả thuyết 'chỉ tại đặt sai nhịp độ'.",
+      "con_lai_hai_kha_nang": "Một là bản thu chơi rubato thật. Hai là chỗ gõ mà mô hình dò ra quá nhiễu. Hai phép đo hiện có không tách được hai khả năng này, và chưa cần tách: hệ quả thực hành giống nhau."
     }
   },
   "origin": "extracted",
