@@ -318,7 +318,9 @@ def measure_midi(path, bpm=None, beats_per_bar=4, sections=None):
     con số mặc định. Nhịp độ là thứ HỎI, không suy — cùng một luật với thể loại.
     """
     notes, meta = midi.notes(path, bpm=bpm, beats_per_bar=beats_per_bar)
-    result = measure_notes(notes, meta, sections=sections)
+    # 0,15 nốt đen — ở 72 nhịp mỗi phút là một phần tám giây, đúng cỡ xê dịch
+    # của tay người. Xem chú thích `dung_phach` trong `measure_notes`.
+    result = measure_notes(notes, meta, sections=sections, dung_phach=0.15)
     result['nguon_tach_tay'] = meta['hand_source']
     result['ti_le_doan_mo'] = meta['hand_unsure']
     if meta.get('canh_bao'):
@@ -326,7 +328,22 @@ def measure_midi(path, bpm=None, beats_per_bar=4, sections=None):
     return result
 
 
-def measure_notes(notes, meta, sections=None):
+def measure_notes(notes, meta, sections=None, dung_phach=1e-6):
+    """Đo một danh sách nốt, dù nó đến từ bản ký âm hay từ MIDI.
+
+    `dung_phach` là sai số cho phép khi hỏi "nốt này có rơi vào phách mạnh
+    không", tính bằng nốt đen. Mặc định gần như bằng không, tức đòi khít tuyệt
+    đối — đúng cho bản ký âm, nơi phách là số hữu tỉ.
+
+    MIDI dò từ tiếng đàn thì phách là số thực liên tục, và **không nốt nào khít
+    tuyệt đối**. Để nguyên mặc định thì ô "phách mạnh" rỗng và tỉ lệ nốt hợp âm
+    ở phách mạnh ra 0% — con số bất khả về mặt nhạc, mà nhìn thì vẫn giống một
+    phát hiện. `measure_midi` nới tham số này ra.
+
+    Không nới chung cho cả hai đường: khoảng 41-69% đã ghi vào kho là đo với
+    phép khít tuyệt đối. Đổi phép đo thì con số ấy đổi theo, và mọi thứ dựa vào
+    nó thành sai — chữa một chỗ hỏng bằng cách làm hỏng một chỗ khác.
+    """
     bars = by_bar(notes)
     barlens = meta['barlens']
     nbars = max(barlens)
@@ -348,7 +365,9 @@ def measure_notes(notes, meta, sections=None):
             continue
         length = barlens.get(bar, 4.0)
         for t, note in melody(bars[bar]['rh']):
-            box = strong if abs((t % length) % 2.0) < 1e-6 else weak
+            # Xem chú thích `dung_phach`: khít tuyệt đối chỉ đúng với bản ký âm.
+            tu_phach = (t % length) % 2.0
+            box = strong if min(tu_phach, 2.0 - tu_phach) <= dung_phach else weak
             box['trong' if note % 12 in chord['tones'] else 'ngoai'] += 1
 
     result = {

@@ -51,6 +51,13 @@ bằng trường độ và độ nhấn — mẫu Slow Rock 3 của thầy Đứ
 nó nhờ bốn trường độ khác nhau. Đo trường độ trên MIDI dò từ tiếng đàn là đo một
 thứ không có thật. Chỉ tin **chỗ gõ**.
 
+**Chưa có phách 1.** Bộ đọc lấy giây 0 của file làm phách 1, mà đầu file thường
+có phần dạo — nên vạch nhịp bị xoay đi một lượng chưa biết. Mọi số đo theo *vị
+trí trong ô nhịp* chưa dùng được chừng nào chưa tìm được phách 1 thật. Đã thấy
+tận mắt: đo tay trái một bản bolero ra biểu đồ chỗ gõ phẳng lì 9-17% rải đều tám
+vị trí móc đơn, trong khi mẫu thật phải có đỉnh nhọn ở bốn phách. Số đo KHÔNG
+theo vị trí trong ô — bậc hay dùng, cỡ bước, độ dài câu — thì không dính.
+
 **Nhịp độ là thứ HỎI, không suy.** Cùng một luật với thể loại ở dưới: đoán hộ
 thì mọi con số theo ô nhịp thừa hưởng cái đoán ấy.
 
