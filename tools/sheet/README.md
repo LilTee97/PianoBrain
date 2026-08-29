@@ -15,6 +15,45 @@ python tools/sheet/profile.py --json    # JSON đầy đủ, có số liệu t�
 
 Danh sách bài, thể loại và biên đoạn nằm ở `corpus.json`.
 
+## Đo file MIDI
+
+```bash
+# MIDI soạn sẵn (từ bản ký âm, từ Synthesia) — phách quy từ tích, chính xác
+python tools/sheet/profile.py --midi duong/dan/bai.mid
+
+# MIDI dò từ tiếng đàn — phải nói nhịp độ, vì nhịp độ trong file là số mặc định
+python tools/sheet/profile.py --midi bai.mid --bpm 72 --bar 4
+
+python tools/sheet/midi.py     # tự kiểm bộ đọc
+```
+
+Có bộ đọc này thì mọi phép đo chạy được trên video bất kỳ, không riêng những bài
+may mắn có bản ký âm. Nhưng **MIDI và bản ký âm không cùng độ tin cậy**, và chỗ
+khác nhau phải nói ra chứ không để người đọc tự đoán.
+
+### Ba thứ MIDI dò từ tiếng đàn KHÔNG có
+
+| | bản ký âm | MIDI dò từ tiếng đàn |
+|---|---|---|
+| cao độ, chỗ gõ | có | có |
+| **tay trái / phải** | có | **không** — phải đoán |
+| **trường độ** | có | **không tin được** |
+| **phách, ô nhịp** | có | phải nhập nhịp độ |
+
+**Tay.** File có hai bè cùng có nốt thì lấy bè làm tay — tin được, cùng lối xử
+bẫy 2 dưới đây. Không có thì phải đoán, và kết quả in ra kèm `nguon_tach_tay`
+với `ti_le_doan_mo`. Đọc hai con số ấy trước khi đọc mọi con số khác: chúng nói
+bao nhiêu phần kết quả là phỏng đoán chứ không phải số đo.
+
+**Trường độ.** Ballad đạp pedal liên tục nên chỗ nốt tắt bị nhoè, và mô hình dò
+nốt đoán offset kém hơn hẳn onset. Điều này quan trọng với kho: mẫu đệm sống
+bằng trường độ và độ nhấn — mẫu Slow Rock 3 của thầy Đức Thịnh nghe ra là chính
+nó nhờ bốn trường độ khác nhau. Đo trường độ trên MIDI dò từ tiếng đàn là đo một
+thứ không có thật. Chỉ tin **chỗ gõ**.
+
+**Nhịp độ là thứ HỎI, không suy.** Cùng một luật với thể loại ở dưới: đoán hộ
+thì mọi con số theo ô nhịp thừa hưởng cái đoán ấy.
+
 ## Vì sao có thư mục này
 
 Số liệu đã được ghi vào kho (item `ca-phao-cau-solo-tren-vong-hop-am`), nhưng

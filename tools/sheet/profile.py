@@ -24,6 +24,7 @@ import statistics
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import midi  # noqa: E402
 import mxl  # noqa: E402
 
 NAMES = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
@@ -301,7 +302,31 @@ def suspensions(bars, chords, barlens, nbars):
 
 
 def measure(path, sections=None):
-    notes, meta = mxl.notes(mxl.load(path))
+    """Đo một bản ký âm `.mxl`."""
+    return measure_notes(*mxl.notes(mxl.load(path)), sections=sections)
+
+
+def measure_midi(path, bpm=None, beats_per_bar=4, sections=None):
+    """Đo một file MIDI.
+
+    Kết quả KHÔNG cùng hạng với bản ký âm, và chỗ khác nhau nằm ở `meta` trả về:
+    `hand_source` nói phần tách tay là bè thật hay là phỏng đoán, `hand_unsure`
+    nói bao nhiêu phần trăm phải đoán mò, và `canh_bao` nhắc rằng trường độ từ
+    MIDI dò bằng tiếng đàn không tin được. Xem `midi.py`.
+
+    Phải truyền `bpm` cho MIDI dò từ tiếng đàn: nhịp độ ghi trong file ấy chỉ là
+    con số mặc định. Nhịp độ là thứ HỎI, không suy — cùng một luật với thể loại.
+    """
+    notes, meta = midi.notes(path, bpm=bpm, beats_per_bar=beats_per_bar)
+    result = measure_notes(notes, meta, sections=sections)
+    result['nguon_tach_tay'] = meta['hand_source']
+    result['ti_le_doan_mo'] = meta['hand_unsure']
+    if meta.get('canh_bao'):
+        result['canh_bao'] = meta['canh_bao']
+    return result
+
+
+def measure_notes(notes, meta, sections=None):
     bars = by_bar(notes)
     barlens = meta['barlens']
     nbars = max(barlens)
@@ -369,6 +394,21 @@ def load_corpus():
 
 
 def main():
+    """Đo một file MIDI nếu được chỉ định, không thì đo cả corpus bản ký âm."""
+    if '--midi' in sys.argv:
+        path = sys.argv[sys.argv.index('--midi') + 1]
+        bpm = float(sys.argv[sys.argv.index('--bpm') + 1]) if '--bpm' in sys.argv else None
+        bar = float(sys.argv[sys.argv.index('--bar') + 1]) if '--bar' in sys.argv else 4
+        result = measure_midi(path, bpm=bpm, beats_per_bar=bar)
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        if result.get('canh_bao'):
+            print('', file=sys.stderr)
+            print(f"  CANH BAO: {result['canh_bao']}", file=sys.stderr)
+        if result['nguon_tach_tay'] == 'doan':
+            print(f"  Tach tay la PHONG DOAN, {result['ti_le_doan_mo']:.0%} so not "
+                  f"phai doan mo. Ra lai bang tai truoc khi tin.", file=sys.stderr)
+        return
+
     folder = os.environ.get('PIANOBRAIN_SHEETS')
     if not folder:
         sys.exit('Chua dat PIANOBRAIN_SHEETS - tro no toi thu muc chua file .mxl.')
