@@ -11,3 +11,6 @@ tsconfig.tsbuildinfo
 
 # Bộ đọc bản ký âm ở tools/sheet là Python.
 __pycache__/
+
+# Tiếng đàn và file nốt tải từ video — dữ liệu, không phải mã nguồn.
+video/
