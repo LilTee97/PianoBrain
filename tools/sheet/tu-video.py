@@ -19,6 +19,7 @@ thừa hưởng cái đoán ấy — cùng một luật với thể loại, xem 
 
 import argparse
 import os
+import shutil
 import subprocess
 import sys
 
@@ -43,6 +44,25 @@ def thieu(ten, cai_dat, loi=None):
     sys.exit(1)
 
 
+def bo_ffmpeg():
+    """Thư mục có ĐỦ CẶP ffmpeg và ffprobe, cùng một bản dựng.
+
+    yt-dlp tìm hai công cụ này riêng lẻ theo thứ tự PATH, nên nó ghép nhầm được:
+    trên máy đã gặp `ffmpeg` của winget đi cùng `ffprobe` của conda. Bản conda
+    ấy đòi `intl-8.dll` — file không có trên máy — nên Windows bật hộp thoại đỏ
+    "The code execution cannot proceed" giữa chừng, và không cứu được bằng cách
+    khôi phục DLL vì DLL ấy không tồn tại ở đâu cả.
+
+    Chỉ đích danh MỘT thư mục có cả hai thì hết ghép nhầm, và không phụ thuộc
+    thứ tự PATH nữa. Không tìm được cặp nào thì để yt-dlp tự lo như cũ.
+    """
+    duong = shutil.which('ffmpeg')
+    if not duong:
+        return None
+    thu_muc = os.path.dirname(duong)
+    return thu_muc if shutil.which('ffprobe', path=thu_muc) else None
+
+
 def tai_tieng(link, dich):
     """Bước 1 — tải tiếng đàn ra .wav."""
     if os.path.exists(dich):
@@ -51,7 +71,11 @@ def tai_tieng(link, dich):
     print('  [1/3] dang tai tieng dan tu video...')
 
     goc = os.path.splitext(dich)[0]
-    lenh = ['yt-dlp', '-x', '--audio-format', 'wav', '-o', goc + '.%(ext)s', link]
+    lenh = ['yt-dlp', '-x', '--audio-format', 'wav', '-o', goc + '.%(ext)s']
+    cap = bo_ffmpeg()
+    if cap:
+        lenh += ['--ffmpeg-location', cap]
+    lenh.append(link)
     try:
         subprocess.run(lenh, check=True)
     except FileNotFoundError:
