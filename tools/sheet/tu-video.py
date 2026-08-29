@@ -302,11 +302,17 @@ def main():
     """
     sach = os.path.join(thu_muc, y.ten + '-sach.mid')
     import don_midi
-    don_midi.don(mid, sach, y.bpm, y.bar, luoi=0.5)
+    # Luoi 0,25 chu khong 0,5. Do tren ban that o 88 nhip/phut:
+    #   luoi 0,5  = 341 ms -> 84% not go trung cho, day trung binh 87 ms
+    #   luoi 0,25 = 170 ms -> 63%,                  day trung binh 42 ms
+    # Ban tho co 10% not go trung cho. Luoi tho don not noi tiep nhau thanh
+    # tung cuc, va do la ly do ban nan luoi NGHE khong giong ban goc.
+    don_midi.don(mid, sach, y.bpm, y.bar, luoi=0.25)
     print()
     print(f'  Ban de NHIN (da nan ve luoi, hai be rieng): {sach}')
-    print('  Ban nay de nhin va sua tay, KHONG de do: nan ve luoi la vut bot')
-    print('  su that ve cho vao som, cho day tre.')
+    print('  Ban nay de NHIN va sua tay. Muon NGHE thi nghe ban tho o tren:')
+    print('  nan ve luoi don not noi tiep nhau lai gan nhau, nen ban nan nghe')
+    print('  khong giong ban goc du khong mat not nao.')
 
     if not y.khong_mo:
         cho = tim_musescore()
