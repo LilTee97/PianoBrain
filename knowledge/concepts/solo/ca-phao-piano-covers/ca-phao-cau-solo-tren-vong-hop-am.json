@@ -86,6 +86,7 @@
       "ket_luan": "Nguồn theo gam khớp gần như chính xác, kể cả chỗ chênh lệch nhỏ giữa phách mạnh và phách yếu. Nguồn chordTone lệch hẳn."
     },
     "chua_ro": [
+      "Chưa rõ bao nhiêu phần bản thu cover piano là rubato — mới thử đúng một bản.",
       "Chưa rõ cái gì làm đoạn của anh ấy nghe có chủ ý, nếu không phải lặp hình nhịp: hai giả thuyết dễ nhất đều đã đo và đều âm.",
       "Chưa đo: hình lặp nằm Ở ĐÂU — câu đáp có lặp hình của đúng câu ngay trước nó không, hay lặp rải rác cả bài.",
       "Chưa đo: nốt ngoài hợp âm ở phách mạnh giải quyết thế nào — liền bậc hay nhảy, lên hay xuống.",
@@ -284,6 +285,17 @@
       },
       "doc_the_nao": "Luật cổ điển đòi nốt treo giải quyết liền bậc và đi xuống. Đo ra 40% liền bậc và 32% đi xuống — tức hai phần ba số lần anh ấy đi LÊN, và quá nửa số lần bước rộng hơn liền bậc. Ba con số đều quanh mức ngẫu nhiên. Đây là đệm hát pop, không phải đối vị: đường giai điệu cứ chạy tiếp, chỗ nghịch tai được giải bằng việc đi qua nhanh chứ không bằng một bước bắt buộc.",
       "he_qua": "Đừng cài luật giải quyết nốt treo vào bộ sinh. Cài vào là làm ra thứ anh ấy không chơi."
+    },
+    "do_12_ban_rubato_khong_do_duoc_theo_o_nhip": {
+      "ket_qua": "Bản độc tấu ballad chơi rubato thì mọi số đo theo VỊ TRÍ TRONG Ô NHỊP đều vô nghĩa.",
+      "bang_chung": {
+        "quét nhịp độ 50-120": "mọi nhịp độ đều cho 27-28% số nốt rơi khít phách; rơi ngẫu nhiên đã 24%",
+        "pha từng đoạn 30 giây": "0,74 · 0,33 · 0,90 · 0,55 · 0,93 · 0,00 · 0,11 · 0,26 — lang thang khắp một phách",
+        "bốn lựa chọn phách 1": "chênh nhau 4 điểm (23-27%), tức nhiễu chứ không phải chỗ để chọn"
+      },
+      "he_qua": "Không có độ lệch nào cứu được, và tai người chốt cũng không: một cặp (nhịp độ, độ lệch) cố định không bám được một mạch đang trôi. Muốn số đo theo ô nhịp thì phải có bản ký âm người chép, hoặc bản thu chơi đều nhịp.",
+      "cai_gi_van_do_duoc": "Mọi số đo KHÔNG neo vào vạch nhịp thì không dính: cỡ bước, độ dài câu, chỗ nghỉ, vốn ô nhịp điệu (đo khoảng cách giữa hai nốt liền nhau, là số tương đối), bậc hay dùng, tầm tay. Chỉ những gì hỏi 'nốt này rơi vào phách mấy' mới hỏng.",
+      "cach_do": "Quét nhịp độ rồi so với mức ngẫu nhiên, và đo pha từng đoạn xem có đứng yên không. Hai phép này rẻ và phải chạy TRƯỚC mọi số đo theo ô nhịp — không thì ra biểu đồ phẳng lì rồi tưởng là 'bài này không có mẫu'."
     }
   },
   "origin": "extracted",

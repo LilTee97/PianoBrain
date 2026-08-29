@@ -301,6 +301,64 @@ def suspensions(bars, chords, barlens, nbars):
     }
 
 
+def tim_lech(path, bpm, phach_moi_o=4, cua_so=0.12):
+    """Dò xem PHÁCH 1 nằm ở giây thứ mấy. Trả về đề xuất kèm các lựa chọn khác.
+
+    Chia làm hai phần, vì máy và tai giỏi hai thứ khác nhau:
+
+    1. **Pha của mạch** — nốt rơi khít phách nhất khi dịch đi bao nhiêu. Máy làm
+       phần này tốt: quét hết một phách, chấm bằng tỉ lệ nốt rơi trong `cua_so`
+       quanh phách nguyên, lấy chỗ cao nhất.
+
+    2. **Phách nào là "một"** — pha mới nói nốt rơi đúng phách, chưa nói phách
+       ấy là phách mấy. Chấm bằng sức nặng tay TRÁI: bè trầm hay rơi vào phách
+       1. Nhưng phách 1 và phách 3 nhìn gần như nhau trên số liệu, và máy lẫn
+       hai chỗ ấy là chuyện thường — nên hàm trả về CẢ BỐN lựa chọn để tai
+       người chốt, chứ không im lặng chọn hộ.
+
+    Không có phách 1 thì mọi số đo theo vị trí trong ô nhịp đều vô nghĩa: đã đo
+    ra biểu đồ chỗ gõ phẳng lì 9-17% rải đều tám vị trí móc đơn, trong khi mẫu
+    thật phải có đỉnh nhọn ở bốn phách.
+    """
+    notes, _ = midi.notes(path, bpm=bpm, beats_per_bar=phach_moi_o)
+    if not notes:
+        return None
+    dau = [n['beat'] for n in notes]
+
+    # 1. Pha của mạch: quét trọn một phách.
+    def khit(doi):
+        gan = 0
+        for beat in dau:
+            le = (beat - doi) % 1.0
+            if min(le, 1.0 - le) <= cua_so:
+                gan += 1
+        return gan / len(dau)
+
+    buoc = 0.01
+    pha, diem = max(((i * buoc, khit(i * buoc)) for i in range(int(1 / buoc))),
+                    key=lambda x: x[1])
+
+    # 2. Phách nào là "một": chấm bằng sức nặng tay trái.
+    nang = collections.Counter()
+    for note in notes:
+        if note['hand'] != 2:
+            continue
+        o = round(note['beat'] - pha) % int(phach_moi_o)
+        nang[o] += note.get('velocity', 80)
+    tong = sum(nang.values()) or 1
+
+    mot_phach = 60.0 / bpm
+    lua_chon = [
+        dict(phach=o + 1,
+             lech=round((pha + o) * mot_phach, 3),
+             suc_nang=round(nang.get(o, 0) / tong, 3))
+        for o in range(int(phach_moi_o))
+    ]
+    lua_chon.sort(key=lambda x: -x['suc_nang'])
+    return dict(pha_mach=round(pha, 3), do_khit=round(diem, 3),
+                de_xuat=lua_chon[0], lua_chon=lua_chon)
+
+
 def measure(path, sections=None):
     """Đo một bản ký âm `.mxl`."""
     return measure_notes(*mxl.notes(mxl.load(path)), sections=sections)
@@ -414,6 +472,23 @@ def load_corpus():
 
 def main():
     """Đo một file MIDI nếu được chỉ định, không thì đo cả corpus bản ký âm."""
+    if '--tim-lech' in sys.argv:
+        path = sys.argv[sys.argv.index('--tim-lech') + 1]
+        bpm = float(sys.argv[sys.argv.index('--bpm') + 1])
+        bar = float(sys.argv[sys.argv.index('--bar') + 1]) if '--bar' in sys.argv else 4
+        ket = tim_lech(path, bpm, bar)
+        print(f"  Pha cua mach: {ket['pha_mach']} phach"
+              f"  ({ket['do_khit']:.0%} so not roi khit phach)")
+        print('  Bon lua chon, xep theo suc nang tay trai:')
+        print()
+        for i, one in enumerate(ket['lua_chon']):
+            dau = '->' if i == 0 else '  '
+            print(f"   {dau} coi phach {one['phach']} la MOT"
+                  f"   --lech {one['lech']:<6}   suc nang tay trai {one['suc_nang']:.0%}")
+        print()
+        print('  May hay lan phach 1 voi phach 3. Nghe roi chot bang tai.')
+        return
+
     if '--midi' in sys.argv:
         path = sys.argv[sys.argv.index('--midi') + 1]
         bpm = float(sys.argv[sys.argv.index('--bpm') + 1]) if '--bpm' in sys.argv else None
