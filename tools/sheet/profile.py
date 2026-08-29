@@ -306,7 +306,7 @@ def measure(path, sections=None):
     return measure_notes(*mxl.notes(mxl.load(path)), sections=sections)
 
 
-def measure_midi(path, bpm=None, beats_per_bar=4, sections=None):
+def measure_midi(path, bpm=None, beats_per_bar=4, sections=None, lech=0.0):
     """Đo một file MIDI.
 
     Kết quả KHÔNG cùng hạng với bản ký âm, và chỗ khác nhau nằm ở `meta` trả về:
@@ -317,7 +317,7 @@ def measure_midi(path, bpm=None, beats_per_bar=4, sections=None):
     Phải truyền `bpm` cho MIDI dò từ tiếng đàn: nhịp độ ghi trong file ấy chỉ là
     con số mặc định. Nhịp độ là thứ HỎI, không suy — cùng một luật với thể loại.
     """
-    notes, meta = midi.notes(path, bpm=bpm, beats_per_bar=beats_per_bar)
+    notes, meta = midi.notes(path, bpm=bpm, beats_per_bar=beats_per_bar, lech=lech)
     # 0,15 nốt đen — ở 72 nhịp mỗi phút là một phần tám giây, đúng cỡ xê dịch
     # của tay người. Xem chú thích `dung_phach` trong `measure_notes`.
     result = measure_notes(notes, meta, sections=sections, dung_phach=0.15)
@@ -418,7 +418,8 @@ def main():
         path = sys.argv[sys.argv.index('--midi') + 1]
         bpm = float(sys.argv[sys.argv.index('--bpm') + 1]) if '--bpm' in sys.argv else None
         bar = float(sys.argv[sys.argv.index('--bar') + 1]) if '--bar' in sys.argv else 4
-        result = measure_midi(path, bpm=bpm, beats_per_bar=bar)
+        lech = float(sys.argv[sys.argv.index('--lech') + 1]) if '--lech' in sys.argv else 0.0
+        result = measure_midi(path, bpm=bpm, beats_per_bar=bar, lech=lech)
         print(json.dumps(result, ensure_ascii=False, indent=2))
         if result.get('canh_bao'):
             print('', file=sys.stderr)

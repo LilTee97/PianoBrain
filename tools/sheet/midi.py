@@ -207,12 +207,21 @@ def assign_hands(notes):
     return out, unsure
 
 
-def notes(path, bpm=None, beats_per_bar=4):
+def notes(path, bpm=None, beats_per_bar=4, lech=0.0):
     """Đọc file MIDI thành danh sách nốt, cùng dạng với `mxl.notes`.
 
     `bpm` bỏ trống thì quy phách từ tích — đúng cho MIDI soạn sẵn. Truyền vào
     thì bỏ qua nhịp độ ghi trong file và quy từ giây — đúng cho MIDI dò từ tiếng
     đàn, nơi nhịp độ trong file chỉ là con số mặc định vô nghĩa.
+
+    `lech` là chỗ PHÁCH 1 THẬT nằm, tính bằng giây. Không có nó thì hàm lấy
+    giây 0 của file làm phách 1, mà đầu file thường có phần dạo — vạch nhịp bị
+    xoay đi một lượng chưa biết, và **mọi số đo theo vị trí trong ô nhịp thành
+    vô nghĩa**. Đã thấy tận mắt: đo tay trái một bản bolero ra biểu đồ chỗ gõ
+    phẳng lì 9-17% rải đều tám vị trí móc đơn, trong khi mẫu thật phải có đỉnh
+    nhọn ở bốn phách.
+
+    Nốt nằm trước phách 1 bị bỏ — đó là phần dạo, không thuộc ô nhịp nào.
     """
     with open(path, 'rb') as fh:
         data = fh.read()
@@ -226,10 +235,13 @@ def notes(path, bpm=None, beats_per_bar=4):
     def to_beats(tick):
         if bpm is None:
             return tick / division
-        return seconds_at(tick) * bpm / 60.0
+        return (seconds_at(tick) - lech) * bpm / 60.0
 
     played = [(to_beats(start), pitch, to_beats(end), track, velocity)
               for track, start, end, pitch, velocity in raw]
+    played = [note for note in played if note[0] >= -1e-6]
+    if not played:
+        return [], dict(barlens={}, bpm=bpm, hand_source='trong', hand_unsure=0.0)
 
     """
     File có từ hai bè cùng có nốt thì LẤY BÈ LÀM TAY.
@@ -265,6 +277,7 @@ def notes(path, bpm=None, beats_per_bar=4):
         barlens={bar: float(beats_per_bar) for bar in range(1, nbars + 1)},
         beats=beats_per_bar, beat_type=4, divisions=division, fifths=0, words=[],
         bpm=bpm,
+        lech=lech,
         hand_source=source,
         hand_unsure=unsure / len(out),
         # Chỗ này để bên gọi in ra, không phải để bên gọi tự nhớ.
