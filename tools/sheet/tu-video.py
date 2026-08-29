@@ -44,6 +44,28 @@ def thieu(ten, cai_dat, loi=None):
     sys.exit(1)
 
 
+def tim_musescore():
+    """Tìm MuseScore để mở thẳng bản đã dọn.
+
+    Không dùng `os.startfile`: trên máy này đuôi `.mid` đang gắn với Windows
+    Media Player, mà nó chỉ PHÁT chứ không hiện nốt. Phải gọi đích danh.
+    """
+    ten = ('MuseScore4.exe', 'MuseScore3.exe', 'MuseScore.exe', 'mscore')
+    goc = [os.environ.get('ProgramFiles'), os.environ.get('ProgramFiles(x86)'),
+           os.path.join(os.environ.get('LOCALAPPDATA', ''), 'Programs')]
+    for thu_muc in filter(None, goc):
+        if not os.path.isdir(thu_muc):
+            continue
+        for muc in os.listdir(thu_muc):
+            if not muc.lower().startswith('musescore'):
+                continue
+            for goc_con, _, files in os.walk(os.path.join(thu_muc, muc)):
+                for f in files:
+                    if f in ten:
+                        return os.path.join(goc_con, f)
+    return shutil.which('musescore') or shutil.which('mscore')
+
+
 def bo_ffmpeg():
     """Thư mục có ĐỦ CẶP ffmpeg và ffprobe, cùng một bản dựng.
 
@@ -190,6 +212,8 @@ def main():
                      help='so phach moi o nhip (mac dinh 4; nhip 3/4 thi de 3)')
     doc.add_argument('--ten', default='bai', help='ten dat cho file (mac dinh "bai")')
     doc.add_argument('--thu-muc', default=None, help='cho de file (mac dinh video/ canh kho)')
+    doc.add_argument('--khong-mo', action='store_true', dest='khong_mo',
+                     help='xong thi dung tu mo MuseScore')
     y = doc.parse_args()
 
     kho = os.path.dirname(os.path.dirname(HERE))
@@ -281,8 +305,16 @@ def main():
     don_midi.don(mid, sach, y.bpm, y.bar, luoi=0.5)
     print()
     print(f'  Ban de NHIN (da nan ve luoi, hai be rieng): {sach}')
-    print('  Mo bang MuseScore. Ban nay de nhin va sua tay, KHONG de do:')
-    print('  nan ve luoi la vut bot su that ve cho vao som, cho day tre.')
+    print('  Ban nay de nhin va sua tay, KHONG de do: nan ve luoi la vut bot')
+    print('  su that ve cho vao som, cho day tre.')
+
+    if not y.khong_mo:
+        cho = tim_musescore()
+        if cho:
+            print(f'  Dang mo bang MuseScore...')
+            subprocess.Popen([cho, sach])
+        else:
+            print('  Khong thay MuseScore. Cai o musescore.org roi mo file tren.')
 
     ra = os.path.join(thu_muc, y.ten + '.json')
     with open(ra, 'w', encoding='utf-8') as fh:
