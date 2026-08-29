@@ -86,6 +86,15 @@ def tai_tieng(link, dich):
         sys.exit(f'  Tai xong nhung khong thay {dich}. Xem lai thu muc.')
 
 
+"""Từ tỉ lệ nốt rơi khít phách này trở lên thì coi là bản thu có mạch đều.
+
+Rơi ngẫu nhiên đã được khoảng 24% (cửa sổ ±0,12 phách trên 1,0), nên ngưỡng
+phải cao hơn hẳn mức ấy mới nói lên điều gì. 40% là con số KINH NGHIỆM, chưa
+phải số đo: mới thử trên một bản, và bản ấy ra 27% ở *mọi* nhịp độ từ 50 tới
+120. Có thêm bản chơi đều nhịp để đối chiếu thì nên chỉnh lại cho đúng.
+"""
+MACH_DEU = 0.40
+
 """Mô hình đã huấn luyện: chỗ gói chờ nó, và chỗ tải nó về."""
 MO_HINH = 'note_F1=0.9677_pedal_F1=0.9186.pth'
 MO_HINH_URL = ('https://zenodo.org/record/4034264/files/'
@@ -201,14 +210,49 @@ def main():
     def phan_tram(x):
         return f'{round(x * 100)}%'
 
+    """
+    KIEM MACH ngay tai day, khong bat nguoi dung go them mot lenh nua.
+
+    Day la buoc re nhanh cua ca quy trinh: ban thu co mach deu thi so do theo vi
+    tri trong o nhip dung duoc, khong deu thi chung vo nghia. Bat nguoi dung tu
+    nho chay `--tim-lech` roi tu doc nguong la dat mot cai bay — vi con so vo
+    nghia trong ay van giong het mot phat hien.
+    """
+    mach = bo_do.tim_lech(mid, y.bpm, y.bar)
+    deu = mach is not None and mach['do_khit'] >= MACH_DEU
+
     print(f"  So o nhip           {ket_qua['so_o']}")
     print(f"  So not              {ket_qua['so_not']}")
     print(f"  Cau gam thuan       {phan_tram(ket_qua['gam'])}")
     print(f"  Cau rai thuan       {phan_tram(ket_qua['rai'])}")
     print(f"  Cau pha tron        {phan_tram(ket_qua['tron'])}")
     print(f"  Cau dai trung vi    {ket_qua['dai_trung_vi']} not")
-    print(f"  Not hop am o phach manh / yeu   "
-          f"{phan_tram(ket_qua['hop_am_manh'])} / {phan_tram(ket_qua['hop_am_yeu'])}")
+    if deu:
+        print(f"  Not hop am o phach manh / yeu   "
+              f"{phan_tram(ket_qua['hop_am_manh'])} / {phan_tram(ket_qua['hop_am_yeu'])}")
+    else:
+        print("  Not hop am o phach manh / yeu   -- BO QUA, xem phan MACH duoi day")
+
+    print()
+    print('  MACH')
+    if mach is None:
+        print('  - Khong doc duoc not nao de kiem mach.')
+    elif deu:
+        print(f"  - Mach DEU: {phan_tram(mach['do_khit'])} so not roi khit phach"
+              f"  (roi ngau nhien ~24%).")
+        print('  - Bon lua chon cho phach 1, xep theo suc nang tay trai:')
+        for one in mach['lua_chon']:
+            print(f"      coi phach {one['phach']} la MOT   --lech {one['lech']:<7}"
+                  f" suc nang {phan_tram(one['suc_nang'])}")
+        print('  - May hay lan phach 1 voi phach 3. Nghe roi chot bang tai.')
+    else:
+        print(f"  - Mach KHONG DEU: chi {phan_tram(mach['do_khit'])} so not roi khit"
+              f" phach, ma roi ngau nhien da ~24%.")
+        print('  - Ban thu choi rubato, hoac cho go do ra qua nhieu. Hai dang nay')
+        print('    cho cung mot he qua: MOI SO DO THEO VI TRI TRONG O NHIP deu vo')
+        print('    nghia, va khong co --lech nao cuu duoc.')
+        print('  - Van dung duoc: co buoc, do dai cau, cho nghi, von o nhip dieu,')
+        print('    bac hay dung, tam tay. Chung khong neo vao vach nhip.')
 
     print('\n  DOC KY HAI DONG NAY TRUOC MOI CON SO TREN:')
     if ket_qua['nguon_tach_tay'] == 'be rieng':
@@ -219,10 +263,26 @@ def main():
         print('    Moi file .mid trong MuseScore de nhin lai truoc khi tin.')
     if ket_qua.get('canh_bao'):
         print(f"  - {ket_qua['canh_bao']}")
-    print('  - Vach nhip lay giay 0 CUA FILE lam phach 1. Dau file thuong co')
-    print('    phan dao, nen so o nhip va vi tri trong o deu bi xoay di. Moi so')
-    print('    do theo VI TRI TRONG O NHIP chua dung duoc chung nao chua tim')
-    print('    duoc phach 1 that.')
+    # Chi nhac chuyen phach 1 khi mach DEU. Mach khong deu thi phan MACH o tren
+    # da noi ro hon: khong co --lech nao cuu duoc, nhac them chi lam roi.
+    if deu:
+        print('  - Vach nhip dang lay giay 0 CUA FILE lam phach 1, ma dau file')
+        print('    thuong co phan dao. Chon mot --lech o tren roi chay lai thi')
+        print('    so do theo vi tri trong o nhip moi dung.')
+
+    """
+    Don luon ban de NHIN, khong bat chay them mot lenh nua.
+
+    Ban .mid goc gan nhu khong doc noi tren khuong: nhip do mac dinh vo nghia,
+    truong do so le, khong phan tay. Ai cung se can ban da don, nen lam san.
+    """
+    sach = os.path.join(thu_muc, y.ten + '-sach.mid')
+    import don_midi
+    don_midi.don(mid, sach, y.bpm, y.bar, luoi=0.5)
+    print()
+    print(f'  Ban de NHIN (da nan ve luoi, hai be rieng): {sach}')
+    print('  Mo bang MuseScore. Ban nay de nhin va sua tay, KHONG de do:')
+    print('  nan ve luoi la vut bot su that ve cho vao som, cho day tre.')
 
     ra = os.path.join(thu_muc, y.ten + '.json')
     with open(ra, 'w', encoding='utf-8') as fh:

@@ -1,6 +1,9 @@
 """Dọn một file MIDI dò từ tiếng đàn thành bản đọc được trên khuông nhạc.
 
-    python tools/sheet/don-midi.py video/bai.mid --bpm 72
+Tên file dùng gạch DƯỚI chứ không gạch ngang: `tu-video.py` nhập module này,
+mà tên có gạch ngang thì Python không nhập được.
+
+    python tools/sheet/don_midi.py video/bai.mid --bpm 72
 
 Mở thẳng file máy dò ra trong MuseScore thì gần như không đọc nổi. Ba lý do,
 và cả ba đều sửa được ở đây chứ không phải sửa tay trong MuseScore:
