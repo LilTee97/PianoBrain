@@ -3,42 +3,66 @@
   "_bien_doan": "Số ô nhịp ở đây là kết quả quy đổi từ mốc thời gian video, ĐÃ ĐỐI CHIẾU BẰNG TAY. Việc quy đổi cần phán đoán (đoạn rubato phải neo riêng, bài không có outro thì thiếu mốc cuối, nhịp độ có chỗ nhập nhằng nửa nhịp), nên chốt kết quả ở đây thay vì để máy tính lại mỗi lần.",
   "songs": [
     {
-      "file": "hongkong-1-chuyen-tinh-luot-qua-nguyen-trong-tai-hong-kong-1-advanced (1).mxl",
+      "file": "hongkong-1-chuyen-tinh-luot-qua-nguyen-trong-tai-hong-kong-1-advanced.mxl",
       "name": "Hồng Kông 1",
       "genre": "bossa nova",
       "video": "2ih8r0Inx3M",
-      "bars": 108,
+      "bars": 107,
       "sections": {
         "intro": {
           "time": "00:02-00:35",
           "bars": [
             1,
-            16
+            15
           ]
         },
         "interlude": {
           "time": "01:36-02:17",
           "bars": [
-            45,
-            64
+            47,
+            65
           ]
         },
         "outro": {
           "time": "03:30-03:41",
           "bars": [
-            99,
-            108
+            100,
+            107
+          ]
+        },
+        "verse": {
+          "bars": [
+            16,
+            31
+          ]
+        },
+        "chorus": {
+          "bars": [
+            32,
+            46
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            66,
+            72
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            73,
+            99
           ]
         }
       },
-      "confidence": "cao — hai cách quy đổi độc lập cho 110 và 113 nhịp/phút, và bản ký âm đổi số chỉ nhịp sang 2/4 đúng ở ô 100, ngay chỗ outro bắt đầu"
+      "confidence": "rat cao - nguoi dung doc thang so o nhip tren ban ky am, thay cho ban quy doi tu moc thoi gian video."
     },
     {
-      "file": "nguoi-hay-quen-em-di-ca-phao-cover.mxl",
+      "file": "nguoihayquenemdi.mxl",
       "name": "Người hãy quên em đi",
       "genre": "bossa nova",
       "video": "ygF7hJlTEl0",
-      "bars": 101,
+      "bars": 104,
       "sections": {
         "intro": {
           "time": "00:00-00:18",
@@ -51,18 +75,42 @@
           "time": "01:32-01:49",
           "bars": [
             41,
-            49
+            48
           ]
         },
         "outro": {
           "time": "03:35-03:48",
           "bars": [
             96,
-            101
+            104
+          ]
+        },
+        "verse": {
+          "bars": [
+            9,
+            24
+          ]
+        },
+        "chorus": {
+          "bars": [
+            25,
+            40
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            49,
+            65
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            66,
+            95
           ]
         }
       },
-      "confidence": "vừa — neo theo thời lượng; vùng dày đo được (ô 46-48) nằm trong khoảng giang tấu"
+      "confidence": "rat cao - nguoi dung doc thang so o nhip tren ban ky am, thay cho ban quy doi tu moc thoi gian video."
     },
     {
       "file": "beo-dat-may-troi-ca-phao.mxl",

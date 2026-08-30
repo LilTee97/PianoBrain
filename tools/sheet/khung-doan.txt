@@ -1,0 +1,91 @@
+# KHUNG BIEN SOAN DOAN
+#
+# Moi bai mot khoi. Dien so o nhip cua tung doan theo dang  bat-het , vi du 16-31.
+# Doan nao bai KHONG CO thi go chu  x .
+# Doan nao chua biet thi de trong, lan sau dien tiep.
+#
+# Dien xong chay:  python tools/sheet/khung.py doc
+# No se kiem giup: o nam ngoai bai, hai doan chong nhau, doan di lui.
+#
+# Dong bat dau bang dau # la ghi chu, khong doc.
+
+
+== Hồng Kông 1
+#    the loai: bossa nova | bai dai 107 o nhip
+dao dau         : 1-15
+phien khuc      : 16-31
+diep khuc       : 32-46
+giang tau       : 47-65
+phien khuc lap  : 66-72
+diep khuc lap   : 73-99
+ket bai         : 100-107
+
+== Người hãy quên em đi
+#    the loai: bossa nova | bai dai 104 o nhip
+dao dau         : 1-8
+phien khuc      : 9-24
+diep khuc       : 25-40
+giang tau       : 41-48
+phien khuc lap  : 49-65
+diep khuc lap   : 66-95
+ket bai         : 96-104
+
+== Bèo dạt mây trôi
+#    the loai: ballad | bai dai 95 o nhip
+dao dau         : 1-8
+phien khuc      : 
+diep khuc       : 
+giang tau       : 46-63
+phien khuc lap  : 
+diep khuc lap   : 
+ket bai         : 89-95
+
+== Yêu là tha thứ
+#    the loai: ballad | bai dai 85 o nhip
+dao dau         : 
+phien khuc      : 
+diep khuc       : 
+giang tau       : 
+phien khuc lap  : 
+diep khuc lap   : 
+ket bai         : 
+
+== Kém duyên
+#    the loai: ballad | bai dai 79 o nhip
+dao dau         : 
+phien khuc      : 
+diep khuc       : 
+giang tau       : 27-36
+phien khuc lap  : 
+diep khuc lap   : 
+ket bai         : 70-79
+
+== Yêu xa
+#    the loai: ballad | bai dai 112 o nhip
+dao dau         : 1-9
+phien khuc      : 
+diep khuc       : 
+giang tau       : 41-50
+phien khuc lap  : 
+diep khuc lap   : 
+ket bai         : 106-112
+
+== Mơ
+#    the loai: slow rock 4/4 | bai dai 79 o nhip
+dao dau         : 1-10
+phien khuc      : 
+diep khuc       : 
+giang tau       : 67-77
+phien khuc lap  : 
+diep khuc lap   : 
+ket bai         : 
+
+== Biển Tình
+#    the loai: bolero | bai dai 72 o nhip
+dao dau         : 1-9
+phien khuc      : 10-25
+diep khuc       : 26-43
+giang tau       : 52-61
+phien khuc lap  : 44-51
+diep khuc lap   : 
+ket bai         : 68-72

@@ -1,0 +1,60 @@
+{
+  "id": "ca-phao-solo-tu-do-tren-nen-nhip",
+  "type": "concept",
+  "name": "Cà Pháo solo: bỏ mẫu đệm, biến hoá tay phải tự do trên nền nhịp",
+  "difficulty": 4,
+  "source": {
+    "teacher_id": "ca-phao",
+    "source_id": "ca-phao-piano-covers",
+    "locator": "Hồng Kông 1 ô 47-65; Người hãy quên em đi ô 41-48; Bèo dạt mây trôi ô 46-63; Yêu xa ô 41-50; Kém duyên ô 27-36; Mơ ô 67-77",
+    "locator_note": "Số ô nhịp do người dùng đọc thẳng trên bản ký âm."
+  },
+  "use_when": [
+    "chơi đoạn giang tấu, dạo đầu, kết bài theo lối Cà Pháo",
+    "muốn solo tự do mà không rời nền nhịp của bài"
+  ],
+  "avoid_when": [
+    "đoạn có lời — đo được 0 câu chạy ở cả phiên khúc lẫn điệp khúc của Hồng Kông 1",
+    "muốn hai tay khoá chặt kiểu Linh Nhi: lối này ngược lại"
+  ],
+  "input": {
+    "style": [
+      "bossa nova"
+    ],
+    "hand": "both",
+    "section": [
+      "intro",
+      "interlude",
+      "outro"
+    ]
+  },
+  "output": {
+    "luat_lon": "Vào đoạn solo thì BỎ HẲN mẫu đệm. Tự do nằm ở tay phải, không ở nhịp.",
+    "cau_chay_o_dau": "Đếm chuỗi nốt tay phải chạy liên tiếp trong Hồng Kông 1: phiên khúc 0 câu, điệp khúc 0 câu, giang tấu 8 câu trên 19 ô. Câu chạy là dấu hiệu của đoạn solo, không phải thói quen chung.",
+    "hai_thu_phap": {
+      "chay_ngon_Hong_Kong_1": "Bè đơn: 132 mốc một nốt trên 45 mốc nhiều nốt. Tay trái xen khe 23%.",
+      "chum_not_Nguoi_hay_quen_em_di": "Chùm hợp âm dặm dồn dập: 26 mốc một nốt trên 31 mốc nhiều nốt, trong đó 19 chùm ĐÚNG BA nốt. Tay trái xen khe 43%."
+    },
+    "giai_phau_cau_chay": {
+      "do_dai": "4 · 4 · 4 · 5 · 10 · 10 · 10 · 11 nốt — hai cụm tách bạch, ngắn 4-5 và dài 10-11, không có gì ở giữa.",
+      "truong_do": "47 nốt móc kép và 11 nốt móc ba.",
+      "huong": "3 câu đi lên, 5 đi xuống — hai chiều, khác lối Linh Nhi vốn luôn trèo lên.",
+      "cho_vao": "0,5 · 1,5 · 1,5 · 1,5 · 1,625 · 2,75 · 3 · 3,5 — sáu trên tám vào LỆCH phách.",
+      "buoc": "+2 gặp 12 lần, -2 (8), -1 (6), +3 (5), +5 (5), -5 (5).",
+      "cau_mau_o_51": "D4 G4 A4 B4 D5 G5 A5 B5 D6 G6 A6 B6 — thang NGŨ CUNG ba quãng tám bằng nốt móc ba, bước [+5 +2 +2 +3] lặp, vào ở offset 1,625, đáp xuống phách 4 bằng một nốt dài."
+    },
+    "mat_do": "Tay phải giang tấu 12,5 nốt mỗi ô (Hồng Kông 1) và 14,6 (Người hãy quên em đi) — dày nhất bài. Ngoài tám câu chạy vẫn còn một đường giai điệu chạy liên tục khoảng 7 nốt mỗi ô; câu chạy là chỗ DỒN LÊN trên nền ấy, không phải chỗ tay phải bắt đầu chơi.",
+    "tay_trai_khi_solo": "KHÔNG mỏng đi và KHÔNG ngừng. Ô 51 câu chạy chiếm từ offset 1,625 tới 3 mà tay trái vẫn gõ ở 2 và 3 xuyên qua nó — ngược hẳn ô 71 của Linh Nhi, nơi tay trái im hẳn suốt câu chạy.",
+    "nen_nhip": "Hồng Kông 1 có 99 ô nhịp 4/4 và 9 ô nhịp 2/4; Người hãy quên em đi 101 ô toàn 4/4. KHÔNG một ô 3/4 hay 6/8 nào trong cả hai bài. Tự do chỉ chia nhỏ TRONG ô.",
+    "pham_vi_the_loai": {
+      "do_tren_toan_bo_kho": "Đếm câu chạy ngón ở giang tấu cả bảy bản ký âm của Cà Pháo: Hồng Kông 1 (bossa) 8 câu, tay phải 12,5 nốt/ô; Bèo dạt mây trôi (ballad) 4 câu, 10,5/ô; Yêu xa (ballad) 2 câu, 9,4/ô; Người hãy quên em đi (bossa) 1 câu, 14,6/ô; Kém duyên (ballad) 0 câu, 14,9/ô; Mơ (slow rock) 0 câu, 9,5/ô.",
+      "ket_luan": "KHÔNG phải luật chung của người soạn. Lối chạy ngón có ở bossa và ballad, vắng hẳn ở slow rock và ở một bài ballad.",
+      "ballad_con_manh_hon_bossa": "Bèo dạt mây trôi có câu 48 nốt trải 6 phách ở đoạn dạo và câu 27 nốt ở giang tấu, trường độ xuống tới chùm năm và chùm sáu — tự do hơn cả hai bài bossa.",
+      "ca_nguoc_sang": "Kém duyên không câu chạy nào nhưng tay phải DÀY NHẤT cả kho (14,9 nốt/ô) và mốc gõ hai tay chung 54% — gấp đôi mấy bài kia. Bài ấy solo bằng cách hai tay khoá chặt vào nhau, gần lối Linh Nhi hơn lối tự do. Không có câu chạy KHÔNG có nghĩa là solo nhạt.",
+      "chum_not_co_ca_o_dao_dau": "Chùm nốt không riêng của giang tấu: đoạn dạo Bèo dạt 0,6 chùm ba mỗi ô, Yêu xa 0,6, Mơ 0,7 — ngang với giang tấu của chính chúng."
+    }
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Đo bằng tools/sheet/chay_not.py trên chính hai file .mxl. Người dùng nêu nhận định trước, số đo đối chiếu sau và khớp từng ý. LƯU Ý VỀ THƯỚC: 6% số nốt bị gán lệch đúng một ô do cách bộ đọc gán số ô, đã chỉnh trước khi lấy số; phần quạt tách khỏi giai điệu bằng NỐT CHỒNG vì bản ký âm không tách bè. Giữ status draft vì chưa ai nghe video đối chiếu. Cỡ mẫu: hai bài, một người soạn. MỞ RỘNG 2026-08-30: đo thêm năm bản ký âm còn lại của Cà Pháo (bốn ballad, một slow rock) để trả lời câu 'lối này là thói quen chung hay chỉ là cách anh chơi bossa'. Kết quả ở pham_vi_the_loai. KeyTrain bật lối này cho họ ballad và họ bossa Cà Pháo, KHÔNG bật cho slow rock."
+}

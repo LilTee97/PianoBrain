@@ -266,9 +266,25 @@ function answerAudit(a: AuditResult): string[] {
     ...a.draft.map((i): [KnowledgeItem, string] => [i, ", chờ rà"]),
   ];
 
-  // Hỏi chung mà kho có nhiều thầy thì mỗi thầy được một chỗ trước khi ai đó được chỗ thứ hai.
-  // Không làm vậy thì thầy nào nhiều item sẽ chiếm hết, trường phái còn lại biến mất.
-  const picked = a.asked_teacher ? pool.slice(0, 4) : roundRobinByTeacher(pool, 4);
+  /*
+    Hỏi chung mà kho có nhiều thầy thì mỗi thầy được một chỗ trước khi ai đó
+    được chỗ thứ hai. Không làm vậy thì thầy nào nhiều item sẽ chiếm hết,
+    trường phái còn lại biến mất.
+
+    CHỖ CẮT PHẢI LỚN THEO SỐ TRƯỜNG PHÁI, không đứng yên ở 4.
+
+    Cắt cứng 4 thì mỗi lần ingest một thầy mới, CHIỀU SÂU của các thầy cũ bị
+    bóp lại. Đã xảy ra thật: ingest bossa của Cà Pháo làm Peter Martin từ hai
+    luật tụt còn một, và luật mất đi lại là luật cụ thể hơn — "tay trái đánh
+    nốt trắng ở phách 1 và phách 3" — chỉ còn "tay trái chơi thưa". Kho lớn lên
+    mà người học biết ÍT đi là hỏng đúng cái luật cộng thêm.
+
+    Hai chỗ mỗi thầy, nhưng không quá tám dòng: câu trả lời vẫn phải là một
+    LỰA CHỌN chứ không phải bản kê cả kho.
+  */
+  const soTruongPhai = new Set(pool.map(([i]) => i.source?.teacher_id).filter(Boolean)).size;
+  const cat = Math.min(8, Math.max(4, soTruongPhai * 2));
+  const picked = a.asked_teacher ? pool.slice(0, 4) : roundRobinByTeacher(pool, cat);
   const schools = [...new Set(picked.map(([i]) => i.source?.teacher_id).filter(Boolean))];
   if (!a.asked_teacher && schools.length > 1) {
     out.push(`  Kho có ${schools.length} trường phái về chỗ này: ${schools.join(", ")}.`);

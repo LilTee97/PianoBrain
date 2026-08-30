@@ -100,9 +100,25 @@ describe("bossa nova — tách extracted và invented", () => {
     assert.match(out, /phách 1 và phách 3/);
   });
 
-  it("hỏi chung thì liệt kê cả hai trường phái, mỗi dòng có teacher_id", () => {
+  /*
+    Số trường phái KHÔNG khoá cứng nữa.
+
+    Bản trước ghi thẳng "2 trường phái". Kho lớn lên bằng cách CỘNG THÊM, nên
+    con số ấy tăng mỗi lần ingest một thầy mới — Cà Pháo vào làm nó thành 3 và
+    test đỏ, trong khi kho đang chạy đúng luật. Thứ đáng khoá là: mọi trường
+    phái kho có đều được nêu, mỗi dòng có teacher_id, và không thầy nào chiếm
+    hai chỗ trước khi thầy khác có chỗ đầu.
+  */
+  it("hỏi chung thì liệt kê MỌI trường phái, mỗi dòng có teacher_id", () => {
     const out = say("bossa nova tay trái làm gì");
-    assert.match(out, /Kho có 2 trường phái về chỗ này: .*hai-joseph.*peter-martin|Kho có 2 trường phái về chỗ này: .*peter-martin.*hai-joseph/);
+    const dem = out.match(/Kho có (\d+) trường phái về chỗ này: (.+)/);
+    assert.ok(dem, "phải nói rõ kho có mấy trường phái");
+    const ten = dem![2]!;
+    assert.ok(Number(dem![1]) >= 2, "ít nhất hai trường phái");
+    for (const thay of ["hai-joseph", "peter-martin"]) {
+      assert.ok(ten.includes(thay), `${thay} phải có tên trong danh sách`);
+    }
+    assert.strictEqual(Number(dem![1]), ten.split(",").length, "số đếm phải khớp số tên");
     assert.match(out, /\[hai-joseph\]/);
     assert.match(out, /\[peter-martin, chờ rà\]/);
     // Mỗi thầy phải có chỗ trước khi thầy nào được chỗ thứ hai.

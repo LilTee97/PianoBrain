@@ -1319,15 +1319,15 @@
       "url": null,
       "ingested_at": "2026-08-27",
       "files": [
-        "hongkong-1-...-hong-kong-1-advanced.mxl — BOSSA NOVA, 108 ô nhịp, giọng Đô, đổi sang 2/4 ở ô 100",
-        "nguoi-hay-quen-em-di-ca-phao-cover.mxl — BOSSA NOVA, 101 ô nhịp, 1 dấu giáng",
+        "hongkong-1-chuyen-tinh-luot-qua-nguyen-trong-tai-hong-kong-1-advanced.mxl — BOSSA NOVA, 107 ô nhịp, giọng Đô, đổi sang 2/4 ở ô 100",
+        "nguoihayquenemdi.mxl — BOSSA NOVA, 104 ô nhịp, 1 dấu giáng",
         "yeu-la-tha-thu.mxl — BALLAD, 85 ô nhịp, giọng Đô",
         "mo.mxl — SLOW ROCK NHỊP 4/4, 79 ô nhịp, 3 dấu thăng",
         "beo-dat-may-troi-ca-phao.mxl — BALLAD, 95 ô nhịp, 1 dấu thăng, đổi 4/4↔3/4 ở ô 5 và 8, ghi rubato ô 1 và rit. ô 8, 92",
         "kem-duyen.mxl — BALLAD, 79 ô nhịp, 2 dấu giáng, ký âm thành HAI BÈ riêng (không phải một bè hai khuông)",
         "yeu-xa-ca-phao-cove.mxl — BALLAD, 112 ô nhịp, giọng Đô"
       ],
-      "note": "MusicXML nén (.mxl), người dùng cung cấp. Thể loại do NGƯỜI DÙNG xác nhận, không suy từ file: 2 bossa nova, 4 ballad, 1 slow rock nhịp 4/4, không có bolero. Corpus không có bài slow rock nhịp kép 6/8 nào. Không có ký hiệu hợp âm nào trên khuông, nên mọi phát biểu về hoà âm là SUY RA. Bản ký âm ghi 'Pino cover by C Pho': bản chép của người chơi cover, không phải bản của tác giả và không phải bài giảng. Người dùng cung cấp link video và mốc thời gian từng đoạn cho ba trên bốn bài; biên đoạn quy ra số ô nhịp ghi ở item ca-phao-cau-solo-tren-vong-hop-am. Chưa ai nghe video đối chiếu với bản ký âm.",
+      "note": "MusicXML nén (.mxl), người dùng cung cấp. Thể loại do NGƯỜI DÙNG xác nhận, không suy từ file: 2 bossa nova, 4 ballad, 1 slow rock nhịp 4/4, không có bolero. Corpus không có bài slow rock nhịp kép 6/8 nào. Không có ký hiệu hợp âm nào trên khuông, nên mọi phát biểu về hoà âm là SUY RA. Bản ký âm ghi 'Pino cover by C Pho': bản chép của người chơi cover, không phải bản của tác giả và không phải bài giảng. Người dùng cung cấp link video và mốc thời gian từng đoạn cho ba trên bốn bài; biên đoạn quy ra số ô nhịp ghi ở item ca-phao-cau-solo-tren-vong-hop-am. Chưa ai nghe video đối chiếu với bản ký âm. CẬP NHẬT 2026-08-30: người dùng đọc thẳng số ô nhịp của TỪNG đoạn trên bản ký âm cho hai bài bossa, thay cho bản quy đổi từ mốc thời gian video — Hồng Kông 1 (dạo đầu 1-15, phiên khúc 16-31, điệp khúc 32-46, giang tấu 47-65, phiên khúc lặp 66-72, điệp khúc lặp 73-99, kết bài 100-107) và Người hãy quên em đi (1-8, 9-24, 25-40, 41-48, 49-65, 66-95, 96-104). Số ô toàn bài cũng sửa theo: 108->107 và 101->104.",
       "videos": {
         "hongkong-1": "https://www.youtube.com/watch?v=2ih8r0Inx3M",
         "nguoi-hay-quen": "https://www.youtube.com/watch?v=ygF7hJlTEl0",

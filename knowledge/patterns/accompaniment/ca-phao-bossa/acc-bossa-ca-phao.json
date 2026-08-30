@@ -1,0 +1,67 @@
+{
+  "id": "acc-bossa-ca-phao",
+  "type": "accompaniment",
+  "name": "Bossa nova Cà Pháo — bass 1·2&·3·4 và hợp âm vào sớm ở 4&",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "ca-phao",
+    "source_id": "ca-phao-piano-covers",
+    "locator": "Hồng Kông 1 ô 16-99; Người hãy quên em đi ô 9-95",
+    "locator_note": "Số ô nhịp từng đoạn do người dùng đọc thẳng trên bản ký âm, không quy đổi từ mốc thời gian video."
+  },
+  "use_when": [
+    "đệm bossa nova 4/4",
+    "muốn bass đảo phách thay vì bass đều từng phách"
+  ],
+  "avoid_when": [
+    "cần lối rải liên tục kiểu bolero — bossa của người soạn này chỉ 4-6 mốc gõ mỗi ô",
+    "đoạn solo cần hai tay khoá chặt vào nhau: đo ra ngược lại, xem phần hai_tay",
+    "trộn trung bình hai bài trong nguồn này: tay trái chúng khác hẳn nhau, trộn ra mẫu không phải của bài nào"
+  ],
+  "input": {
+    "style": [
+      "bossa nova"
+    ],
+    "hand": "LH",
+    "section": [
+      "verse",
+      "chorus",
+      "interlude",
+      "intro",
+      "outro"
+    ]
+  },
+  "output": {
+    "vi_tri_tay_trai": {
+      "phách 1": "nốt gốc — 100% số ô ở CẢ HAI bài",
+      "phách 2&": "bậc 5 — Hồng Kông 1 0,50 lần/ô; Người hãy quên em đi 0,94",
+      "phách 3": "quãng tám — 0,62 và 1,38",
+      "phách 4": "0,50 và 0,88"
+    },
+    "chu_ky": "Bốn vị trí 1 · 2& · 3 · 4 mạnh ở cả hai bài. Nốt vào SỚM nửa phách trước phách 3 là chỗ làm nên chất bossa; bỏ nó thì mẫu thành bass đều tầm thường.",
+    "net_rieng_tung_bai": "Phách 1& và 3& chỉ mạnh ở Hồng Kông 1 (0,75 mỗi ô) chứ không có ở Người hãy quên em đi (<0,31) — nên chúng là nét của BÀI, không phải của điệu.",
+    "mat_do": {
+      "Hồng Kông 1": "phiên khúc 4,9 mốc/ô · điệp khúc 6,0 · giang tấu 5,7",
+      "Người hãy quên em đi": "phiên khúc 4,7 · điệp khúc 4,5 · giang tấu 5,5"
+    },
+    "be_rong_tay_trai": "12 tới 22 nửa cung. Quãng so với nốt trầm nhất trong ô: phách 1 là gốc, phách 2& là bậc 5, phách 3 là quãng tám.",
+    "hai_tay": {
+      "so_moc_go_trung_nhau": "Hồng Kông 1: phiên khúc 40% → giang tấu 39%. Người hãy quên em đi: 40% → 30%.",
+      "y_nghia": "Vào đoạn solo thì hai tay RỜI RA chứ không xích lại. Đây là chỗ khác hẳn bolero rải của Linh Nhi, nơi cùng phép đo cho 45% lên 55%. Không được đem lối bám tay trái của Linh Nhi sang bossa.",
+      "tay_phai_o_giang_tau": "dày nhất bài — 12,4 và 14,6 nốt mỗi ô, so với 8,6 và 13,7 ở phiên khúc; trần cao độ Hồng Kông 1 nhảy từ 76 lên 98.",
+      "tay_trai_o_giang_tau": "KHÔNG mỏng đi: 4,9 → 5,7 và 4,7 → 5,5 mốc mỗi ô. Phách 1 luôn có tay trái, 100% số ô."
+    },
+    "ket_bai": "Cả hai bài thưa hẳn ở outro — tay trái còn 3,2 và 2,6 mốc mỗi ô, mốc gõ chung tụt xuống 21% và 25%.",
+    "not_vao_som": {
+      "do_duoc": "Đếm số lần một tiếng tay phải ngân VƯỢT HẲN vạch nhịp, theo từng vị trí: mốc 3,5 được 12/13 ở phiên khúc Người hãy quên em đi và 5/11 ở điệp khúc; mốc 3 được 0/3 và 0/5; mốc 2,5 được 0/9 và 0/10; mốc 0 được 0/12 và 0/12.",
+      "ket_luan": "Phách 4& là vị trí DUY NHẤT có hoà âm tới sớm, và nó tới sớm ở gần như mọi ô. Đây là cử chỉ làm nên chất bossa của người soạn này.",
+      "the_bam": "Tiếng vào sớm MỎNG hơn cú quạt ở phách 1 — 20 cặp đo được, cặp hay gặp nhất là (2 nốt vào sớm, 3 nốt ở phách 1), cùng tầm (lệch cao độ trung vị 0), và 0/10 lần ở phiên khúc trùng đúng thế bấm. Người soạn đổi thế chứ không gõ lại y hệt.",
+      "sau_do": "Phách 1 của ô kế tiếp VẪN được quạt, 12/12 lần — nốt vào sớm không thay chỗ cho nó."
+    },
+    "tach_quat_khoi_giai_dieu": "Bản ký âm không tách bè (một voice mỗi tay), nhưng có nốt chồng: mốc gõ từ HAI nốt trở lên là quạt hợp âm, mốc một nốt là giai điệu. Tách theo cách ấy thì phần quạt phiên khúc hiện rõ: 0 · 1 · 1,5 · 2 · 2,5 · 3,5, khoảng 4,4 cú mỗi ô, mạnh nhất ở 3,5.",
+    "hai_bai_khac_nhau": "Tay trái Hồng Kông 1 gõ gần như móc đơn đều (0 · 0,5 · 1 · 1,5 · 2 · 2,5 · 3, đều trên 0,5 lần mỗi ô); Người hãy quên em đi mới có đảo phách thật (0 · 1,5 · 2 · 3). KHÔNG trộn trung bình hai bài — làm vậy ra một mẫu không phải của bài nào, và đó chính là lỗi của bản dựng đầu."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Đo bằng tool tools/sheet/hai_tay.py và trai_hinh.py trên chính hai file .mxl. LƯU Ý VỀ THƯỚC ĐO: 6% số nốt bị gán lệch đúng một ô (offset bằng đúng độ dài ô) do cách bộ đọc gán số ô; đã chỉnh trước khi lấy số. TAY PHẢI KHÔNG TÁCH ĐƯỢC phần quạt hợp âm khỏi phần giai điệu vì bản ký âm viết chung một khuông, nên mọi số về tay phải ở đây là TỔNG của hai việc. Bản ký âm không có ký hiệu hợp âm, nên quãng đều tính so với nốt trầm nhất trong ô chứ không so với gốc hợp âm thật. Để status draft vì chưa ai nghe video đối chiếu. PHÁN QUYẾT CỦA NGƯỜI DÙNG 2026-08-30: điệu KeyTrain dựng từ item này nghe KHÔNG RA CHẤT BOSSA NOVA, người dùng đã bỏ. Item giữ nguyên vì SỐ ĐO vẫn đúng — nó đo Cà Pháo chơi gì, và điều đó không đổi. Cái hỏng là bước dựng điệu từ số đo. Nghi can rõ nhất chính là chỗ đã ghi sẵn ở trên: TAY PHẢI KHÔNG ĐO ĐƯỢC RIÊNG. Chất bossa nằm ở phần quạt hợp âm đảo phách của tay phải chỏi lại bass, mà phần ấy tôi phải tự đặt vì bản ký âm viết chung khuông với giai điệu — điệu hỏng đúng ở chỗ duy nhất không có số đo đỡ. DỰNG LẠI 2026-08-30 và đã tìm ra ba chỗ sai của bản đầu: (1) trộn trung bình hai bài có tay trái khác hẳn nhau; (2) tưởng không tách được phần quạt, thật ra tách được bằng NỐT CHỒNG; (3) bỏ mất cử chỉ chính — nốt vào sớm ở phách 4& phải mang hoà âm của hợp âm KẾ TIẾP và không bị cắt ở vạch hợp âm, còn bản đầu để nó dứt đúng vạch nên nó chỉ là một cú dặm thêm. Item này giữ status draft vì vẫn chưa ai nghe video đối chiếu."
+}
