@@ -1,0 +1,62 @@
+{
+  "id": "acc-bolero-rai-linh-nhi",
+  "type": "accompaniment",
+  "name": "Bolero rải — tay trái 1-5-8-10, hai vòm",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "linh-nhi-piano",
+    "source_id": "linh-nhi-bien-tinh-sheet",
+    "locator": "ô nhịp 9-61",
+    "locator_note": "Số ô nhịp đọc thẳng trên bản ký âm, không quy đổi từ mốc thời gian."
+  },
+  "use_when": [
+    "đệm bolero / rumba 4/4 lối rải",
+    "muốn tay trái đi lên rồi về thay vì dập hợp âm"
+  ],
+  "avoid_when": [
+    "cần lối Pùng-Pắp dập hợp âm — dùng Tuấn Lưu (bolero-1)",
+    "bài nhanh hơn 80 nhịp mỗi phút"
+  ],
+  "input": {
+    "style": [
+      "bolero",
+      "rumba"
+    ],
+    "hand": "LH",
+    "section": [
+      "verse",
+      "chorus",
+      "interlude",
+      "outro"
+    ]
+  },
+  "output": {
+    "o_nhip": {
+      "phách 1": "bậc 1, móc đơn",
+      "phách 1&": "bậc 5, MÓC KÉP",
+      "phách 1&½": "bậc 8, MÓC KÉP",
+      "phách 2": "bậc 10, móc đơn",
+      "phần đuôi ô": "móc đơn, đi theo vòm"
+    },
+    "chu_ky": "Cặp móc kép ở phách 1& — bậc 5 rồi bậc 8. Bỏ nó đi thì mẫu này thành một mẫu rải móc đơn đều bất kỳ. Đo được ở 49 trên 70 ô.",
+    "hai_vom": {
+      "thấp": "0 · +7 · +12 · +15/16 · +12 · +7 · +12 · +0 · +7 — lên bậc 10 rồi về gốc. 21/70 ô.",
+      "cao": "0 · +7 · +12 · +15/16 · +19 · +24 · +19 · +15/16 · +12 — trèo tới bậc 15. 13/70 ô.",
+      "ba_nốt_đầu": "giống hệt nhau ở cả hai vòm; chỗ rẽ nằm ở phách 2."
+    },
+    "cai_gi_goi_vom_cao_ra": "HOÀ ÂM, không phải đoạn. 12 trên 19 ô vòm cao rơi vào hợp âm Rê — chủ âm của bài; vòm thấp dồn vào Fa thăng thứ (13 ô) và Si thứ (11 ô). Không phải chuyện tầm tay: nốt gốc trung bình của hai vòm gần như nhau, 39,4 so với 42,1. Người soạn mở rộng tay trái đúng chỗ hoà âm vững nhất.",
+    "khong_phai_dau_hieu_doan": "Đếm theo đoạn thì vòm thấp thắng ở MỌI đoạn: dạo đầu 5/2, phiên khúc 10/5, điệp khúc 12/6, phiên khúc lặp 4/3, giang tấu 8/1, kết bài 4/1. Ai định ghép vòm cao với điệp khúc thì đó là lựa chọn phối khí của mình, không phải thói quen của người soạn.",
+    "dem_cho_go": {
+      "phách 1": "70/70 ô",
+      "phách 1&": "69",
+      "cặp móc kép": "49",
+      "phách 2": "70",
+      "phần đuôi": "55-66"
+    },
+    "tay_phai": "Ô nhịp không có phần tay phải — bản độc tấu, tay phải giữ giai điệu suốt bài.",
+    "nhip_do": "Bản ký âm KHÔNG ghi nhịp độ. Con số 69 dùng trong bản dựng KeyTrain là lựa chọn khi dựng, không phải số đo — cần người có tai chốt lại."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Bolero rải: tay trái đi lên 1-5-8-10 rồi về, và cái làm nên mẫu là cặp móc kép ở phách 1&. Người soạn có hai vòm — thấp và cao — dùng chung ba nốt đầu rồi rẽ ở phách 2.\n\nPhát hiện đáng học nhất: vòm cao mở ra theo HOÀ ÂM chứ không theo đoạn. Nó rơi vào chủ âm. Đây là thứ chỉ thấy được khi đo, vì nghe thì rất dễ tưởng là 'vào điệp khúc thì chơi to hơn'.\n\nSTATUS DRAFT dù đây là nguồn tin cậy nhất kho từng có. Phép đo lấy thẳng từ bản ký âm và chạy lại được bất cứ lúc nào; thứ chưa ai làm là NGHE bản dựng trong KeyTrain rồi xác nhận nó giống bản gốc. Nhịp độ cũng chưa ai chốt — bản ký âm không ghi."
+}

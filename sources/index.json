@@ -1345,6 +1345,18 @@
       "url": "https://www.youtube.com/watch?v=uAWjGj9bHyE",
       "ingested_at": "2026-08-29",
       "note": "Bolero / Rumba trữ tình, 68-76 BPM. Người dùng cung cấp link và đặc tả; đặc tả do Gemini xem video rồi soạn. KHÔNG AI Ở ĐÂY XEM VIDEO — mốc thời gian (verse 00:23-01:03, cao trào 02:02-02:24, outro 03:28-03:48) và bậc rải đều là lời của Gemini, chưa ai rà bằng tai. Vì vậy item chép từ nguồn này để status draft."
+    },
+    {
+      "source_id": "linh-nhi-bien-tinh-sheet",
+      "teacher_id": "linh-nhi-piano",
+      "kind": "sheet",
+      "title": "Bản ký âm piano do Linh Nhi soạn — Biển Tình",
+      "url": null,
+      "ingested_at": "2026-08-30",
+      "files": [
+        "bien-tinh-linh-nhi-piano.mxl — BOLERO 4/4 rải, 72 ô nhịp, giọng Rê trưởng / Si thứ, 2 dấu thăng"
+      ],
+      "note": "MusicXML người dùng cung cấp. Thể loại do NGƯỜI DÙNG xác nhận: bolero 4/4 rải. Đây là nguồn TIN CẬY NHẤT kho từng có: hai tay tách sẵn trên hai khuông, phách là số hữu tỉ chính xác, và có sẵn 80 KÝ HIỆU HỢP ÂM — nên hoà âm là cho trước chứ không phải suy ngược từ tay trái như bảy bản Cà Pháo (xem bẫy 3 ở tools/sheet/README.md). Bản ký âm không ghi nhịp độ. Biên đoạn do người dùng đọc thẳng số ô nhịp trên bản nhạc, không qua bước quy đổi từ mốc thời gian."
     }
   ],
   "coverage": {
