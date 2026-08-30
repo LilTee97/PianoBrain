@@ -45,7 +45,7 @@
       "ba_nốt_đầu": "giống hệt nhau ở cả hai vòm; chỗ rẽ nằm ở phách 2."
     },
     "cai_gi_goi_vom_cao_ra": "HOÀ ÂM, không phải đoạn. 12 trên 19 ô vòm cao rơi vào hợp âm Rê — chủ âm của bài; vòm thấp dồn vào Fa thăng thứ (13 ô) và Si thứ (11 ô). Không phải chuyện tầm tay: nốt gốc trung bình của hai vòm gần như nhau, 39,4 so với 42,1. Người soạn mở rộng tay trái đúng chỗ hoà âm vững nhất.",
-    "khong_phai_dau_hieu_doan": "Đếm theo đoạn thì vòm thấp thắng ở MỌI đoạn: dạo đầu 5/2, phiên khúc 10/5, điệp khúc 12/6, phiên khúc lặp 4/3, giang tấu 8/1, kết bài 4/1. Ai định ghép vòm cao với điệp khúc thì đó là lựa chọn phối khí của mình, không phải thói quen của người soạn.",
+    "khong_phai_dau_hieu_doan": "Đo lại với biên đoạn đúng: vòm thấp vẫn thắng ở MỌI đoạn — dạo đầu 5/3, phiên khúc 10/4, điệp khúc 12/6, phiên khúc lặp 4/3, giang tấu 8/1, khung 2 3/2, kết bài 4/0. Còn theo hoà âm thì 12 trên 19 ô vòm cao rơi vào hợp âm Rê, chủ âm của bài.",
     "dem_cho_go": {
       "phách 1": "70/70 ô",
       "phách 1&": "69",
@@ -54,7 +54,23 @@
       "phần đuôi": "55-66"
     },
     "tay_phai": "Ô nhịp không có phần tay phải — bản độc tấu, tay phải giữ giai điệu suốt bài.",
-    "nhip_do": "Bản ký âm KHÔNG ghi nhịp độ. Con số 69 dùng trong bản dựng KeyTrain là lựa chọn khi dựng, không phải số đo — cần người có tai chốt lại."
+    "nhip_do": "Bản ký âm KHÔNG ghi nhịp độ. Con số 69 dùng trong bản dựng KeyTrain là lựa chọn khi dựng, không phải số đo — cần người có tai chốt lại.",
+    "bien_doan": {
+      "dạo đầu": "ô 1-9",
+      "phiên khúc": "ô 10-25",
+      "điệp khúc": "ô 26-43",
+      "phiên khúc lặp": "ô 44-51",
+      "giang tấu": "ô 52-61",
+      "khung 2 / câu thêm": "ô 62-67",
+      "kết bài": "ô 68-72",
+      "nguon": "Người dùng đọc thẳng số ô nhịp trên bản ký âm.",
+      "doi_chieu": "Khớp với mốc kết cấu của chính bản nhạc: dấu lặp lại quay đầu ở ô 27, khung 1 mở ở ô 51, dấu lặp lại đóng ở ô 61, khung 2 ở ô 62. Biên 'giang tấu hết ở ô 61' trùng chính xác chỗ dấu lặp lại đóng."
+    },
+    "do_dong_theo_doan": {
+      "day_bass": "Đáy bè trầm lún xuống dần tới điệp khúc rồi nâng lên ở cuối: dạo đầu 39, phiên khúc 36, ĐIỆP KHÚC 33 (sâu nhất), phiên khúc lặp 38, giang tấu 34, khung 2 43, kết bài 42. Người soạn đào sâu nhất ở cao trào và nhấc lên khi kết.",
+      "mat_do": "Nốt mỗi ô — tay trái / tay phải: dạo đầu 7,6/6,7 · phiên khúc 8,2/6,8 · điệp khúc 8,8/7,8 · GIANG TẤU 8,0/9,3 · kết bài 6,0/7,6.",
+      "giang_tau_tay_trai_KHONG_thua_di": "Ở giang tấu, tay phải vọt từ 6,8 lên 9,3 nốt mỗi ô — dày nhất bài — còn tay trái GIỮ NGUYÊN 8,0, đúng bằng phiên khúc. Nghĩa là người soạn không rút tay trái lại để nhường chỗ: tay trái chơi trọn mẫu đệm, tay phải chồng thêm lên. Đây là số đo đầu tiên trong kho nói về chuyện ấy trên một bản ký âm thật, và nó chống lại cách hiểu 'vào solo thì tay trái phải mỏng đi'."
+    }
   },
   "origin": "extracted",
   "status": "draft",

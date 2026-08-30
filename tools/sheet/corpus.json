@@ -4,67 +4,236 @@
   "songs": [
     {
       "file": "hongkong-1-chuyen-tinh-luot-qua-nguyen-trong-tai-hong-kong-1-advanced (1).mxl",
-      "name": "Hồng Kông 1", "genre": "bossa nova", "video": "2ih8r0Inx3M", "bars": 108,
+      "name": "Hồng Kông 1",
+      "genre": "bossa nova",
+      "video": "2ih8r0Inx3M",
+      "bars": 108,
       "sections": {
-        "intro":     { "time": "00:02-00:35", "bars": [1, 16] },
-        "interlude": { "time": "01:36-02:17", "bars": [45, 64] },
-        "outro":     { "time": "03:30-03:41", "bars": [99, 108] }
+        "intro": {
+          "time": "00:02-00:35",
+          "bars": [
+            1,
+            16
+          ]
+        },
+        "interlude": {
+          "time": "01:36-02:17",
+          "bars": [
+            45,
+            64
+          ]
+        },
+        "outro": {
+          "time": "03:30-03:41",
+          "bars": [
+            99,
+            108
+          ]
+        }
       },
       "confidence": "cao — hai cách quy đổi độc lập cho 110 và 113 nhịp/phút, và bản ký âm đổi số chỉ nhịp sang 2/4 đúng ở ô 100, ngay chỗ outro bắt đầu"
     },
     {
       "file": "nguoi-hay-quen-em-di-ca-phao-cover.mxl",
-      "name": "Người hãy quên em đi", "genre": "bossa nova", "video": "ygF7hJlTEl0", "bars": 101,
+      "name": "Người hãy quên em đi",
+      "genre": "bossa nova",
+      "video": "ygF7hJlTEl0",
+      "bars": 101,
       "sections": {
-        "intro":     { "time": "00:00-00:18", "bars": [1, 8] },
-        "interlude": { "time": "01:32-01:49", "bars": [41, 49] },
-        "outro":     { "time": "03:35-03:48", "bars": [96, 101] }
+        "intro": {
+          "time": "00:00-00:18",
+          "bars": [
+            1,
+            8
+          ]
+        },
+        "interlude": {
+          "time": "01:32-01:49",
+          "bars": [
+            41,
+            49
+          ]
+        },
+        "outro": {
+          "time": "03:35-03:48",
+          "bars": [
+            96,
+            101
+          ]
+        }
       },
       "confidence": "vừa — neo theo thời lượng; vùng dày đo được (ô 46-48) nằm trong khoảng giang tấu"
     },
     {
       "file": "beo-dat-may-troi-ca-phao.mxl",
-      "name": "Bèo dạt mây trôi", "genre": "ballad", "video": "fb_Su9o4W3g", "bars": 95,
+      "name": "Bèo dạt mây trôi",
+      "genre": "ballad",
+      "video": "fb_Su9o4W3g",
+      "bars": 95,
       "sections": {
-        "intro":     { "time": "00:04-00:25", "bars": [1, 8] },
-        "interlude": { "time": "01:47-02:24", "bars": [46, 63] },
-        "outro":     { "time": "03:20-03:35", "bars": [89, 95] }
+        "intro": {
+          "time": "00:04-00:25",
+          "bars": [
+            1,
+            8
+          ]
+        },
+        "interlude": {
+          "time": "01:47-02:24",
+          "bars": [
+            46,
+            63
+          ]
+        },
+        "outro": {
+          "time": "03:20-03:35",
+          "bars": [
+            89,
+            95
+          ]
+        }
       },
       "confidence": "cao — bản ký âm ghi rubato ô 1 và rit. ô 8, tự đóng đúng đoạn dạo; rit. ô 92 nằm trong outro. Đoạn dạo phải neo RIÊNG vì rubato là chơi tự do"
     },
     {
       "file": "yeu-la-tha-thu.mxl",
-      "name": "Yêu là tha thứ", "genre": "ballad", "video": null, "bars": 85,
+      "name": "Yêu là tha thứ",
+      "genre": "ballad",
+      "video": null,
+      "bars": 85,
       "sections": {},
       "confidence": "chưa có mốc thời gian — chỉ dùng được cho số đo toàn bài"
     },
     {
       "file": "kem-duyen.mxl",
-      "name": "Kém duyên", "genre": "ballad", "video": "TdLfapWX-pE", "bars": 79,
+      "name": "Kém duyên",
+      "genre": "ballad",
+      "video": "TdLfapWX-pE",
+      "bars": 79,
       "sections": {
-        "interlude": { "time": "01:03-01:23", "bars": [27, 36] },
-        "outro":     { "time": "02:44-03:07", "bars": [70, 79] }
+        "interlude": {
+          "time": "01:03-01:23",
+          "bars": [
+            27,
+            36
+          ]
+        },
+        "outro": {
+          "time": "02:44-03:07",
+          "bars": [
+            70,
+            79
+          ]
+        }
       },
       "confidence": "vừa — bài không có đoạn dạo đầu. LƯU Ý: bản này ký âm thành HAI BÈ riêng, không phải một bè hai khuông"
     },
     {
       "file": "yeu-xa-ca-phao-cove.mxl",
-      "name": "Yêu xa", "genre": "ballad", "video": "5YQ7zLMq7PY", "bars": 112,
+      "name": "Yêu xa",
+      "genre": "ballad",
+      "video": "5YQ7zLMq7PY",
+      "bars": 112,
       "sections": {
-        "intro":     { "time": "00:01-00:24", "bars": [1, 9] },
-        "interlude": { "time": "01:49-02:14", "bars": [41, 50] },
-        "outro":     { "time": "04:42-05:00", "bars": [106, 112] }
+        "intro": {
+          "time": "00:01-00:24",
+          "bars": [
+            1,
+            9
+          ]
+        },
+        "interlude": {
+          "time": "01:49-02:14",
+          "bars": [
+            41,
+            50
+          ]
+        },
+        "outro": {
+          "time": "04:42-05:00",
+          "bars": [
+            106,
+            112
+          ]
+        }
       },
       "confidence": "vừa — neo theo thời lượng"
     },
     {
       "file": "mo.mxl",
-      "name": "Mơ", "genre": "slow rock 4/4", "video": "0w-M67gPlfA", "bars": 79,
+      "name": "Mơ",
+      "genre": "slow rock 4/4",
+      "video": "0w-M67gPlfA",
+      "bars": 79,
       "sections": {
-        "intro":     { "time": "00:07-00:23", "bars": [1, 10] },
-        "interlude": { "time": "01:57-02:14", "bars": [67, 77] }
+        "intro": {
+          "time": "00:07-00:23",
+          "bars": [
+            1,
+            10
+          ]
+        },
+        "interlude": {
+          "time": "01:57-02:14",
+          "bars": [
+            67,
+            77
+          ]
+        }
       },
       "confidence": "thấp — không có outro nên thiếu mốc cuối để neo, và nhịp độ nhập nhằng nửa nhịp (72 hay 144). Bài này là slow rock nhịp 4/4, không phải nhịp kép 6/8: đo ra 98% nốt chùm hai, 0% chùm ba"
+    },
+    {
+      "file": "bien-tinh-linh-nhi-piano.mxl",
+      "name": "Biển Tình",
+      "genre": "bolero",
+      "video": null,
+      "bars": 72,
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            9
+          ]
+        },
+        "verse": {
+          "bars": [
+            10,
+            25
+          ]
+        },
+        "chorus": {
+          "bars": [
+            26,
+            43
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            44,
+            51
+          ]
+        },
+        "interlude": {
+          "bars": [
+            52,
+            61
+          ]
+        },
+        "ending_2": {
+          "bars": [
+            62,
+            67
+          ]
+        },
+        "outro": {
+          "bars": [
+            68,
+            72
+          ]
+        }
+      },
+      "confidence": "rat cao — nguoi dung doc thang so o nhip tren ban ky am, khong qua buoc quy doi tu moc thoi gian. Doi chieu duoc voi moc ket cau cua chinh ban nhac: dau lap lai quay dau o o 27, khung 1 mo o o 51, dau lap lai dong o o 61, khung 2 o o 62. Bien 'giang tau het o o 61' khop chinh xac voi cho dau lap lai dong."
     }
   ]
 }
