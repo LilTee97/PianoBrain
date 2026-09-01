@@ -1,0 +1,32 @@
+{
+  "id": "ton-hung",
+  "type": "teacher",
+  "name": "Tôn Hùng",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Đệm ballad piano cover tiếng Việt",
+    "Chọn vòng hợp âm cho giang tấu / dạo / kết",
+    "Hỏi tay trái ballad có rải móc đơn không"
+  ],
+  "avoid_when": [
+    "Hỏi bolero, bossa, slow rock — chưa đo thể loại khác của người này",
+    "Cần lời dạy có timestamp: đây là bản CHƠI LẠI trên ký âm, không phải bài giảng"
+  ],
+  "input": {
+    "style": ["ballad"]
+  },
+  "output": {
+    "declared_focus": [
+      "piano cover ballad Việt",
+      "đệm tay trái móc đơn",
+      "giang tấu vòng riêng"
+    ],
+    "language": "vi",
+    "ingested_sources": 1,
+    "corpus": "2 bản ký âm ballad, 212 ô nhịp"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Tôn Hùng, người ký âm / chơi lại ballad Việt trên piano. Đứng cạnh Cà Pháo và Linh Nhi, không thay ai. n=2 bài (Chiếc Lá Mùa Đông, Tình Em Là Đại Dương). Thể loại do người dùng xác nhận. Không có ký hiệu hợp âm trên khuông — hòa âm đọc từ tay trái rồi rà lớp cao độ."
+}

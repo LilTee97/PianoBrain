@@ -1,5 +1,5 @@
 {
-  "_doc": "Bảy bản ký âm của Cà Pháo. File nằm NGOÀI kho — trỏ tới bằng biến môi trường PIANOBRAIN_SHEETS, giống cách PIANOBRAIN_MASTER trỏ tới kho master. Thể loại do NGƯỜI DÙNG xác nhận từng bài, không suy từ file: đã đoán sai ba lần trước khi hỏi.",
+  "_doc": "Ban ky am trong video/{thay}/. The loai do NGUOI DUNG xac nhan, khong suy tu file.",
   "_bien_doan": "Số ô nhịp ở đây là kết quả quy đổi từ mốc thời gian video, ĐÃ ĐỐI CHIẾU BẰNG TAY. Việc quy đổi cần phán đoán (đoạn rubato phải neo riêng, bài không có outro thì thiếu mốc cuối, nhịp độ có chỗ nhập nhằng nửa nhịp), nên chốt kết quả ở đây thay vì để máy tính lại mỗi lần.",
   "songs": [
     {
@@ -55,7 +55,8 @@
           ]
         }
       },
-      "confidence": "rat cao - nguoi dung doc thang so o nhip tren ban ky am, thay cho ban quy doi tu moc thoi gian video."
+      "confidence": "rat cao - nguoi dung doc thang so o nhip tren ban ky am, thay cho ban quy doi tu moc thoi gian video.",
+      "teacher": "ca-phao"
     },
     {
       "file": "nguoihayquenemdi.mxl",
@@ -110,38 +111,8 @@
           ]
         }
       },
-      "confidence": "rat cao - nguoi dung doc thang so o nhip tren ban ky am, thay cho ban quy doi tu moc thoi gian video."
-    },
-    {
-      "file": "beo-dat-may-troi-ca-phao.mxl",
-      "name": "Bèo dạt mây trôi",
-      "genre": "ballad",
-      "video": "fb_Su9o4W3g",
-      "bars": 95,
-      "sections": {
-        "intro": {
-          "time": "00:04-00:25",
-          "bars": [
-            1,
-            8
-          ]
-        },
-        "interlude": {
-          "time": "01:47-02:24",
-          "bars": [
-            46,
-            63
-          ]
-        },
-        "outro": {
-          "time": "03:20-03:35",
-          "bars": [
-            89,
-            95
-          ]
-        }
-      },
-      "confidence": "cao — bản ký âm ghi rubato ô 1 và rit. ô 8, tự đóng đúng đoạn dạo; rit. ô 92 nằm trong outro. Đoạn dạo phải neo RIÊNG vì rubato là chơi tự do"
+      "confidence": "rat cao - nguoi dung doc thang so o nhip tren ban ky am, thay cho ban quy doi tu moc thoi gian video.",
+      "teacher": "ca-phao"
     },
     {
       "file": "yeu-la-tha-thu.mxl",
@@ -149,63 +120,52 @@
       "genre": "ballad",
       "video": null,
       "bars": 85,
-      "sections": {},
-      "confidence": "chưa có mốc thời gian — chỉ dùng được cho số đo toàn bài"
-    },
-    {
-      "file": "kem-duyen.mxl",
-      "name": "Kém duyên",
-      "genre": "ballad",
-      "video": "TdLfapWX-pE",
-      "bars": 79,
-      "sections": {
-        "interlude": {
-          "time": "01:03-01:23",
-          "bars": [
-            27,
-            36
-          ]
-        },
-        "outro": {
-          "time": "02:44-03:07",
-          "bars": [
-            70,
-            79
-          ]
-        }
-      },
-      "confidence": "vừa — bài không có đoạn dạo đầu. LƯU Ý: bản này ký âm thành HAI BÈ riêng, không phải một bè hai khuông"
-    },
-    {
-      "file": "yeu-xa-ca-phao-cove.mxl",
-      "name": "Yêu xa",
-      "genre": "ballad",
-      "video": "5YQ7zLMq7PY",
-      "bars": 112,
       "sections": {
         "intro": {
-          "time": "00:01-00:24",
           "bars": [
             1,
             9
           ]
         },
-        "interlude": {
-          "time": "01:49-02:14",
+        "verse": {
           "bars": [
-            41,
-            50
+            10,
+            25
+          ]
+        },
+        "prechorus": {
+          "bars": [
+            26,
+            33
+          ]
+        },
+        "chorus": {
+          "bars": [
+            34,
+            51
+          ]
+        },
+        "prechorus_2": {
+          "bars": [
+            52,
+            59
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            60,
+            78
           ]
         },
         "outro": {
-          "time": "04:42-05:00",
           "bars": [
-            106,
-            112
+            79,
+            84
           ]
         }
       },
-      "confidence": "vừa — neo theo thời lượng"
+      "confidence": "chưa có mốc thời gian — chỉ dùng được cho số đo toàn bài",
+      "teacher": "ca-phao"
     },
     {
       "file": "mo.mxl",
@@ -229,7 +189,8 @@
           ]
         }
       },
-      "confidence": "thấp — không có outro nên thiếu mốc cuối để neo, và nhịp độ nhập nhằng nửa nhịp (72 hay 144). Bài này là slow rock nhịp 4/4, không phải nhịp kép 6/8: đo ra 98% nốt chùm hai, 0% chùm ba"
+      "confidence": "thấp — không có outro nên thiếu mốc cuối để neo, và nhịp độ nhập nhằng nửa nhịp (72 hay 144). Bài này là slow rock nhịp 4/4, không phải nhịp kép 6/8: đo ra 98% nốt chùm hai, 0% chùm ba",
+      "teacher": "ca-phao"
     },
     {
       "file": "bien-tinh-linh-nhi-piano.mxl",
@@ -281,7 +242,415 @@
           ]
         }
       },
-      "confidence": "rat cao — nguoi dung doc thang so o nhip tren ban ky am, khong qua buoc quy doi tu moc thoi gian. Doi chieu duoc voi moc ket cau cua chinh ban nhac: dau lap lai quay dau o o 27, khung 1 mo o o 51, dau lap lai dong o o 61, khung 2 o o 62. Bien 'giang tau het o o 61' khop chinh xac voi cho dau lap lai dong."
+      "confidence": "rat cao — nguoi dung doc thang so o nhip tren ban ky am, khong qua buoc quy doi tu moc thoi gian. Doi chieu duoc voi moc ket cau cua chinh ban nhac: dau lap lai quay dau o o 27, khung 1 mo o o 51, dau lap lai dong o o 61, khung 2 o o 62. Bien 'giang tau het o o 61' khop chinh xac voi cho dau lap lai dong.",
+      "teacher": "linh-nhi"
+    },
+    {
+      "file": "Co Em Cho-Ca Phao.mxl",
+      "name": "Co Em Cho",
+      "teacher": "ca-phao",
+      "genre": "ballad",
+      "video": null,
+      "bars": 72,
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            8
+          ]
+        },
+        "verse": {
+          "bars": [
+            9,
+            24
+          ]
+        },
+        "chorus": {
+          "bars": [
+            25,
+            33
+          ]
+        },
+        "interlude": {
+          "bars": [
+            48,
+            55
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            34,
+            40
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            41,
+            47
+          ]
+        },
+        "chorus_mod": {
+          "bars": [
+            56,
+            65
+          ]
+        },
+        "outro": {
+          "bars": [
+            66,
+            72
+          ]
+        }
+      },
+      "confidence": "chua danh dau"
+    },
+    {
+      "file": "Ngay mai em di-Ca Phao.mxl",
+      "name": "Ngay mai em di",
+      "teacher": "ca-phao",
+      "genre": "ballad",
+      "video": null,
+      "bars": 91,
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            18
+          ]
+        },
+        "verse": {
+          "bars": [
+            19,
+            34
+          ]
+        },
+        "chorus": {
+          "bars": [
+            35,
+            50
+          ]
+        },
+        "interlude": {
+          "bars": [
+            51,
+            54
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            55,
+            70
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            71,
+            86
+          ]
+        },
+        "outro": {
+          "bars": [
+            87,
+            91
+          ]
+        }
+      },
+      "confidence": "chua danh dau"
+    },
+    {
+      "file": "Dung Xa Em Dem Nay-Linh Nhi.mxl",
+      "name": "Dung Xa Em Dem Nay",
+      "teacher": "linh-nhi",
+      "genre": "bolero",
+      "video": null,
+      "bars": 86,
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            9
+          ]
+        },
+        "verse": {
+          "bars": [
+            10,
+            28
+          ]
+        },
+        "chorus": {
+          "bars": [
+            29,
+            47
+          ]
+        },
+        "interlude": {
+          "bars": [
+            48,
+            57
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            58,
+            79
+          ]
+        },
+        "outro": {
+          "bars": [
+            80,
+            86
+          ]
+        }
+      },
+      "confidence": "chua danh dau"
+    },
+    {
+      "file": "La Thư Tran The-Linh Nhi.mxl",
+      "name": "La Thư Tran The",
+      "teacher": "linh-nhi",
+      "genre": "slow rock",
+      "video": null,
+      "bars": 122,
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            6
+          ]
+        },
+        "verse": {
+          "bars": [
+            7,
+            30
+          ]
+        },
+        "chorus": {
+          "bars": [
+            31,
+            43
+          ]
+        },
+        "interlude": {
+          "bars": [
+            56,
+            61
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            44,
+            55
+          ]
+        },
+        "verse_3": {
+          "bars": [
+            62,
+            80
+          ]
+        },
+        "chorus_climax": {
+          "bars": [
+            81,
+            90
+          ]
+        },
+        "verse_4": {
+          "bars": [
+            91,
+            105
+          ]
+        },
+        "outro": {
+          "bars": [
+            106,
+            108
+          ]
+        }
+      },
+      "confidence": "chua danh dau"
+    },
+    {
+      "file": "Mot Coi Di Ve-Linh Nhi.mxl",
+      "name": "Mot Coi Di Ve",
+      "teacher": "linh-nhi",
+      "genre": "slow rock",
+      "video": null,
+      "bars": 129,
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            10
+          ]
+        },
+        "verse": {
+          "bars": [
+            11,
+            25
+          ]
+        },
+        "chorus": {
+          "bars": [
+            26,
+            37
+          ]
+        },
+        "interlude": {
+          "bars": [
+            54,
+            63
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            38,
+            53
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            79,
+            90
+          ]
+        },
+        "verse_3": {
+          "bars": [
+            64,
+            78
+          ]
+        },
+        "verse_4": {
+          "bars": [
+            91,
+            112
+          ]
+        },
+        "outro": {
+          "bars": [
+            113,
+            123
+          ]
+        }
+      },
+      "confidence": "chua danh dau"
+    },
+    {
+      "file": "Chiec La Mua Dong-Ton Hung.mxl",
+      "name": "Chiec La Mua Dong",
+      "teacher": "ton-hung",
+      "genre": "ballad",
+      "video": null,
+      "bars": 130,
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            9
+          ]
+        },
+        "verse": {
+          "bars": [
+            10,
+            41
+          ]
+        },
+        "chorus": {
+          "bars": [
+            42,
+            57
+          ]
+        },
+        "interlude": {
+          "bars": [
+            58,
+            67
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            68,
+            82
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            83,
+            98
+          ]
+        },
+        "chorus_3": {
+          "bars": [
+            99,
+            117
+          ]
+        },
+        "outro": {
+          "bars": [
+            118,
+            128
+          ]
+        }
+      },
+      "confidence": "chua danh dau"
+    },
+    {
+      "file": "Tinh Em La Dai Duong-Ton Hung.mxl",
+      "name": "Tinh Em La Dai Duong",
+      "teacher": "ton-hung",
+      "genre": "ballad",
+      "video": null,
+      "bars": 82,
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            8
+          ]
+        },
+        "verse": {
+          "bars": [
+            9,
+            24
+          ]
+        },
+        "chorus": {
+          "bars": [
+            25,
+            32
+          ]
+        },
+        "interlude": {
+          "bars": [
+            33,
+            40
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            41,
+            48
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            49,
+            57
+          ]
+        },
+        "chorus_mod": {
+          "bars": [
+            58,
+            76
+          ]
+        },
+        "outro": {
+          "bars": [
+            77,
+            81
+          ]
+        }
+      },
+      "confidence": "chua danh dau"
     }
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "id": "ton-hung-solo-khong-chay-gam",
+  "type": "solo_idea",
+  "name": "Solo ballad Tôn Hùng — giai điệu, không chạy móc kép",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "ton-hung",
+    "source_id": "ton-hung-ballad-sheets",
+    "locator": "Chiếc Lá intro 1-9 giang 58-67 outro 118-128; Tình Em intro 1-8 giang 33-40 outro 77-81"
+  },
+  "use_when": [
+    "Soạn câu solo intro / giang tấu / outro ballad Tôn Hùng"
+  ],
+  "avoid_when": [
+    "Bịa pentatonic run / blues run",
+    "Tắt tay trái cho RH chạy",
+    "Lấy số đo solo Cà Pháo (có câu chạy) sang đây"
+  ],
+  "input": {
+    "style": ["ballad"],
+    "section": ["intro", "interlude", "outro"],
+    "hand": "both"
+  },
+  "output": {
+    "cau_chay_moc_kep": {
+      "chiec_la": "0 câu trên 30 ô solo",
+      "tinh_em": "giang tấu 2 câu (dài 7 và 4); outro 1 câu dài 7 — trên 21 ô"
+    },
+    "mat_do_rh": "Chiếc Lá solo 5–6 nốt/ô ≈ hát 5–7. Tình Em solo 10–11 ≈ hát 11–13. Solo không phải chỗ RH đột ngột dày.",
+    "gam": "Lớp RH khớp giọng bài (Bb/Gm 97%, C/Am 99%), không phải pentatonic chữ ký. Ngũ cung Tình Em đúng 80% — sát ngưỡng, bỏ.",
+    "hop_am_rh": "intro/outro ~44–64% nốt trong hợp âm tay trái; giang tấu Chiếc Lá 73%. Outro thấp — đừng kết gam từ outro (tên hợp âm có thể sai).",
+    "hai_tay": "phách 1 hai tay cùng vào; LH giữ groove"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Câu chạy = móc kép trở xuống, ≥4 nốt (tools/sheet/chay_not.py). Giai điệu móc đơn không tính là chạy. n=2."
+}

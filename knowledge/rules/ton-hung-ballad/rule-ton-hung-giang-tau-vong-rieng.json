@@ -1,0 +1,39 @@
+{
+  "id": "rule-ton-hung-giang-tau-vong-rieng",
+  "type": "rule",
+  "name": "Giang tấu Tôn Hùng dùng vòng riêng, có át phụ",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "ton-hung",
+    "source_id": "ton-hung-ballad-sheets",
+    "locator": "Chiếc Lá Mùa Đông ô 58-67; Tình Em Là Đại Dương ô 33-40"
+  },
+  "use_when": [
+    "Chọn vòng hợp âm cho giang tấu ballad Tôn Hùng",
+    "Dạo đầu / kết Chiếc Lá"
+  ],
+  "avoid_when": [
+    "Copy nguyên điệp khúc vào giang tấu",
+    "Gán cho thầy khác",
+    "Coi tên hợp âm là ký hiệu trên bản — đây là đọc bass + lớp cao độ"
+  ],
+  "input": {
+    "style": ["ballad"],
+    "section": ["interlude", "intro", "outro"]
+  },
+  "output": {
+    "if": "đoạn không lời (giang tấu / dạo / kết) ballad Tôn Hùng",
+    "then": "không lấy vòng điệp; dùng vòng riêng có hợp âm chức năng (V7, đảo, dim lướt). Intro Chiếc Lá ≈ outro.",
+    "do_duoc": {
+      "chiec_la_giang_tau": "Gm | D7/F# | Cm | Gm/D | Fm | Cm | Gm | D7 | C | G  (ô 58-67). Bass+lớp: 59 = C D Gb / bass Gb; 65 = A C D Gb / bass D.",
+      "chiec_la_intro": "G | Bb/A | Eb | Bb/F | G | C | Eb | F | F6  xấp xỉ; outro ô 118-123 trùng xương intro 1-6.",
+      "tinh_em_giang_tau": "Am | F | Bdim/C (B C D F) | C/G | D7 | E7 | Em | Am  (ô 33-40).",
+      "tinh_em_intro": "C6 | Fmaj7 | G | C | Dm7 | Em | F | Am — khác 8 ô phiên."
+    },
+    "khong_do_duoc": "ô hút chẵn/lẻ; tên thầy nghĩ vs lớp nốt (chưa rà MuseScore ký hiệu).",
+    "n": 2
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Hai bài, hai giọng, cùng cử chỉ: giang tấu không copy điệp, có V7/dim. Intro Chiếc Lá gần outro. Chưa đủ gọi luật cứng mọi bài Tôn Hùng. Không đụng số đo thầy khác."
+}

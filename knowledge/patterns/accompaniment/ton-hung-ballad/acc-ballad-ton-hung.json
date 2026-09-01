@@ -1,0 +1,49 @@
+{
+  "id": "acc-ballad-ton-hung",
+  "type": "accompaniment",
+  "name": "Ballad Tôn Hùng — rải móc đơn nửa đầu ô, phách 1 luôn có",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "ton-hung",
+    "source_id": "ton-hung-ballad-sheets",
+    "locator": "Chiếc Lá Mùa Đông ô 10-41 (phiên), 42-57 (điệp), 1-9 và 118-128 (dạo/kết); Tình Em Là Đại Dương đối chiếu — KHÔNG trộn",
+    "locator_note": "Biên đoạn do người dùng điền. Số đo sau khi chỉnh lệch ô 6%."
+  },
+  "use_when": [
+    "đệm ballad 4/4 theo Tôn Hùng",
+    "cần khuôn tay trái clone được"
+  ],
+  "avoid_when": [
+    "trộn trung bình với Tình Em Là Đại Dương — bài đó 6–9 mốc/ô có móc 16, không phải cùng cell",
+    "bossa đảo phách hay bolero rải 1-5-8-10",
+    "tắt tay trái lúc solo — trên mẫu này LH không tắt"
+  ],
+  "input": {
+    "style": ["ballad"],
+    "hand": "LH",
+    "section": ["verse", "chorus", "intro", "outro", "interlude"]
+  },
+  "output": {
+    "meter": "4/4",
+    "bai_clone": "Chiếc Lá Mùa Đông",
+    "vi_tri_tay_trai_phien": {
+      "phách 1": "nốt gốc — 100% số ô",
+      "phách 1&": "0,84 lần/ô",
+      "phách 2": "0,78",
+      "phách 2&": "0,56"
+    },
+    "chu_ky_phien": "(0, 0.5, 1.0) 8 ô; (0, 0.5, 1.0, 1.5) 5 ô — rải móc đơn nửa đầu ô, khoảng 4 mốc/ô",
+    "chu_ky_diep": "dày hơn phiên, ~5 mốc/ô, hay gặp đủ 0…3 (móc đơn cả ô)",
+    "intro_outro": "~2,2–2,7 mốc/ô; nhiều ô chỉ phách 1 (0,). Thưa hơn hát.",
+    "giang_tau": "KHÔNG thưa: 5,4 mốc/ô — dày hơn phiên. Phách 1 vẫn 100%.",
+    "chong_not": "hát 3–13% mốc có chồng; intro/outro 35–50% (có quãng tám / hợp âm)",
+    "hai_tay": {
+      "phach_1": "hai tay cùng vào, ~100% ô solo và hát",
+      "lh_khi_solo": "không tắt, không nhường khi RH có câu chạy (Tình Em giang tấu 7,33 vs 7,6 mốc/ô)"
+    },
+    "bai_khac_mat_do": "Tình Em Là Đại Dương: phiên 8,3 mốc/ô, có lưới 0,25. Cùng nhãn ballad, không phải cùng điệu. Clone điệu này thì lấy Chiếc Lá, đừng trung bình."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Đo tools/sheet/clone_do.py trên đúng hai file Tôn Hùng, không đụng thầy khác. Điệu clone được là cell Chiếc Lá. Tình Em ghi để khỏi gộp. Chưa nghe video đối chiếu."
+}

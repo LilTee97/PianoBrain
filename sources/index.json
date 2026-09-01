@@ -1357,6 +1357,19 @@
         "bien-tinh-linh-nhi-piano.mxl — BOLERO 4/4 rải, 72 ô nhịp, giọng Rê trưởng / Si thứ, 2 dấu thăng"
       ],
       "note": "MusicXML người dùng cung cấp. Thể loại do NGƯỜI DÙNG xác nhận: bolero 4/4 rải. Đây là nguồn TIN CẬY NHẤT kho từng có: hai tay tách sẵn trên hai khuông, phách là số hữu tỉ chính xác, và có sẵn 80 KÝ HIỆU HỢP ÂM — nên hoà âm là cho trước chứ không phải suy ngược từ tay trái như bảy bản Cà Pháo (xem bẫy 3 ở tools/sheet/README.md). Bản ký âm không ghi nhịp độ. Biên đoạn do người dùng đọc thẳng số ô nhịp trên bản nhạc, không qua bước quy đổi từ mốc thời gian."
+    },
+    {
+      "source_id": "ton-hung-ballad-sheets",
+      "teacher_id": "ton-hung",
+      "kind": "sheet",
+      "title": "Hai bản ký âm piano cover ballad — Tôn Hùng",
+      "url": null,
+      "ingested_at": "2026-08-31",
+      "files": [
+        "Chiec La Mua Dong-Ton Hung.mxl — BALLAD, 130 ô, 2 giáng",
+        "Tinh Em La Dai Duong-Ton Hung.mxl — BALLAD, 82 ô, 0 dấu hóa"
+      ],
+      "note": "MusicXML nén, người dùng cung cấp trong video/Ton_Hung. Thể loại ballad do người dùng xác nhận. Không có ký hiệu hợp âm trên khuông. Biên đoạn do người dùng điền. Đo bằng tools/sheet/clone_do.py. n=2. Không trộn thầy khác."
     }
   ],
   "coverage": {

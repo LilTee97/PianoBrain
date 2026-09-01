@@ -1,0 +1,39 @@
+{
+  "id": "style-ballad-ton-hung",
+  "type": "style",
+  "name": "Ballad Tôn Hùng — mật độ theo đoạn (Chiếc Lá)",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "ton-hung",
+    "source_id": "ton-hung-ballad-sheets",
+    "locator": "Chiếc Lá Mùa Đông toàn bài 130 ô; Tình Em chỉ để cảnh báo mật độ khác"
+  },
+  "use_when": [
+    "Dựng đệm ballad theo Tôn Hùng",
+    "Cần biết chỗ nào thưa / chỗ nào dày"
+  ],
+  "avoid_when": [
+    "Lấy mật độ Tình Em Là Đại Dương làm chuẩn chung",
+    "Thể loại khác ballad"
+  ],
+  "input": {
+    "style": ["ballad"],
+    "section": ["intro", "verse", "chorus", "interlude", "outro"]
+  },
+  "output": {
+    "meter": "4/4",
+    "bai_chuan": "Chiếc Lá Mùa Đông",
+    "sections": {
+      "intro": { "density": 1, "lh_moc_moi_o": 2.2, "note_vi": "nhiều ô chỉ phách 1, đặt tông" },
+      "verse": { "density": 2, "lh_moc_moi_o": 4.0, "note_vi": "rải 0 · 0.5 · 1, thưa nhất trong phần hát" },
+      "chorus": { "density": 3, "lh_moc_moi_o": 4.9, "note_vi": "dày hơn phiên, móc đơn trải ô" },
+      "interlude": { "density": 4, "lh_moc_moi_o": 5.4, "note_vi": "dày hơn hát — không thưa như dạo/kết" },
+      "outro": { "density": 1, "lh_moc_moi_o": 2.7, "note_vi": "thưa lại, nhiều ô một tiếng" }
+    },
+    "khac_khung_chung": "Khung pop-ballad generic để giang tấu thưa. Ở đây giang tấu DÀY hơn phiên. Đừng lấy style-pop-ballad đè lên.",
+    "accompaniment_id": "acc-ballad-ton-hung"
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Mật độ = mốc gõ tay trái / ô, Chiếc Lá. Tình Em phiên 8,3 — không đưa vào bảng này."
+}

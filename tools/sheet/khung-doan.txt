@@ -1,91 +1,71 @@
 # KHUNG BIEN SOAN DOAN
 #
-# Moi bai mot khoi. Dien so o nhip cua tung doan theo dang  bat-het , vi du 16-31.
-# Doan nao bai KHONG CO thi go chu  x .
-# Doan nao chua biet thi de trong, lan sau dien tiep.
+# Moi bai mot khoi. Dien HET o roi moi sang bai ke.
+# the loai: do NGUOI dien, khong suy tu file.
+# Doan: dang  bat-het  (16-31). Khong co thi  x . Chua biet thi de trong.
 #
+# Dong  da co / con trong  la goi y, khong doc.
 # Dien xong chay:  python tools/sheet/khung.py doc
-# No se kiem giup: o nam ngoai bai, hai doan chong nhau, doan di lui.
 #
 # Dong bat dau bang dau # la ghi chu, khong doc.
 
 
-== Hồng Kông 1
-#    the loai: bossa nova | bai dai 107 o nhip
-dao dau         : 1-15
-phien khuc      : 16-31
-diep khuc       : 32-46
-giang tau       : 47-65
-phien khuc lap  : 66-72
-diep khuc lap   : 73-99
-ket bai         : 100-107
+== Chiec La Mua Dong
+#    thay: ton-hung | bai dai 130 o nhip
+#    da co: 1-9, 10-41, 42-57, 58-67, 68-82, 83-98, 99-117, 118-128
+#    con trong: 129-130
+the loai        : ballad
+dao dau         : 1-9
+phien khuc      : 10-41
+tien diep khuc  : 
+diep khuc       : 42-57
+giang tau       : 58-67
+phien khuc lap  : 68-82
+tien diep khuc lap: 
+diep khuc lap   : 83-98
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 99-117
+ket bai         : 118-128
 
-== Người hãy quên em đi
-#    the loai: bossa nova | bai dai 104 o nhip
+== Tinh Em La Dai Duong
+#    thay: ton-hung | bai dai 82 o nhip
+#    da co: 1-8, 9-24, 25-32, 33-40, 41-48, 49-57, 58-76, 77-81
+#    con trong: 82-82
+the loai        : ballad
 dao dau         : 1-8
 phien khuc      : 9-24
-diep khuc       : 25-40
-giang tau       : 41-48
-phien khuc lap  : 49-65
-diep khuc lap   : 66-95
-ket bai         : 96-104
+tien diep khuc  : 
+diep khuc       : 25-32
+giang tau       : 33-40
+phien khuc lap  : 41-48
+tien diep khuc lap: 
+diep khuc lap   : 49-57
+diep khuc nang tone: 58-76
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 77-81
 
-== Bèo dạt mây trôi
-#    the loai: ballad | bai dai 95 o nhip
-dao dau         : 1-8
-phien khuc      : 
-diep khuc       : 
-giang tau       : 46-63
-phien khuc lap  : 
-diep khuc lap   : 
-ket bai         : 89-95
-
-== Yêu là tha thứ
-#    the loai: ballad | bai dai 85 o nhip
+== Vet Nang Cuoi Troi
+#    thay: ton-hung | bai dai 140 o nhip
+#    da co: (chua)
+#    con trong: 1-140
+the loai        : 
 dao dau         : 
 phien khuc      : 
+tien diep khuc  : 
 diep khuc       : 
 giang tau       : 
 phien khuc lap  : 
+tien diep khuc lap: 
 diep khuc lap   : 
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
 ket bai         : 
-
-== Kém duyên
-#    the loai: ballad | bai dai 79 o nhip
-dao dau         : 
-phien khuc      : 
-diep khuc       : 
-giang tau       : 27-36
-phien khuc lap  : 
-diep khuc lap   : 
-ket bai         : 70-79
-
-== Yêu xa
-#    the loai: ballad | bai dai 112 o nhip
-dao dau         : 1-9
-phien khuc      : 
-diep khuc       : 
-giang tau       : 41-50
-phien khuc lap  : 
-diep khuc lap   : 
-ket bai         : 106-112
-
-== Mơ
-#    the loai: slow rock 4/4 | bai dai 79 o nhip
-dao dau         : 1-10
-phien khuc      : 
-diep khuc       : 
-giang tau       : 67-77
-phien khuc lap  : 
-diep khuc lap   : 
-ket bai         : 
-
-== Biển Tình
-#    the loai: bolero | bai dai 72 o nhip
-dao dau         : 1-9
-phien khuc      : 10-25
-diep khuc       : 26-43
-giang tau       : 52-61
-phien khuc lap  : 44-51
-diep khuc lap   : 
-ket bai         : 68-72
