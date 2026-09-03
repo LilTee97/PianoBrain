@@ -653,54 +653,158 @@
       "confidence": "chua danh dau"
     },
     {
-      "file": "Di Vang Nhat Nhoa-Linh Nhi.mxl",
-      "name": "Di Vang Nhat Nhoa",
-      "teacher": "linh-nhi",
-      "genre": null,
-      "video": null,
-      "bars": 130,
-      "sections": {},
-      "confidence": "chua danh dau"
-    },
-    {
       "file": "Duong Xua Loi Cu-Linh Nhi.mxl",
       "name": "Duong Xua Loi Cu",
       "teacher": "linh-nhi",
-      "genre": null,
+      "genre": "bolero",
       "video": null,
       "bars": 112,
-      "sections": {},
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            8
+          ]
+        },
+        "verse": {
+          "bars": [
+            9,
+            40
+          ]
+        },
+        "chorus": {
+          "bars": [
+            41,
+            58
+          ]
+        },
+        "interlude": {
+          "bars": [
+            75,
+            82
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            59,
+            74
+          ]
+        },
+        "verse_3": {
+          "bars": [
+            83,
+            106
+          ]
+        },
+        "outro": {
+          "bars": [
+            107,
+            112
+          ]
+        }
+      },
       "confidence": "chua danh dau"
     },
     {
       "file": "Mua xuan dau tien-Linh Nhi.mxl",
       "name": "Mua xuan dau tien",
       "teacher": "linh-nhi",
-      "genre": null,
+      "genre": "bolero",
       "video": null,
       "bars": 114,
-      "sections": {},
-      "confidence": "chua danh dau"
-    },
-    {
-      "file": "Papa- Linh Nhi.mxl",
-      "name": "Papa",
-      "teacher": "linh-nhi",
-      "genre": null,
-      "video": null,
-      "bars": 117,
-      "sections": {},
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            8
+          ]
+        },
+        "verse": {
+          "bars": [
+            9,
+            27
+          ]
+        },
+        "chorus": {
+          "bars": [
+            28,
+            45
+          ]
+        },
+        "interlude": {
+          "bars": [
+            63,
+            71
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            46,
+            62
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            72,
+            78
+          ]
+        },
+        "verse_3": {
+          "bars": [
+            79,
+            102
+          ]
+        },
+        "outro": {
+          "bars": [
+            103,
+            113
+          ]
+        }
+      },
       "confidence": "chua danh dau"
     },
     {
       "file": "Rung La Thap-Linh Nhi.mxl",
       "name": "Rung La Thap",
       "teacher": "linh-nhi",
-      "genre": null,
+      "genre": "bolero",
       "video": null,
-      "bars": 91,
-      "sections": {},
-      "confidence": "chua danh dau"
+      "bars": 79,
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            9
+          ]
+        },
+        "verse": {
+          "bars": [
+            10,
+            25
+          ]
+        },
+        "chorus": {
+          "bars": [
+            26,
+            43
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            44,
+            66
+          ]
+        },
+        "outro": {
+          "bars": [
+            67,
+            79
+          ]
+        }
+      },
+      "confidence": "chua danh dau",
+      "note": "Sheet co 91 o nhip; bai ket o o 79, o 80-91 la phan du khong tinh vao bai (nguoi dung xac nhan)."
     }
   ]
 }

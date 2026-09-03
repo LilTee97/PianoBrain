@@ -1,0 +1,448 @@
+{
+  "phrases": [
+    {
+      "id": "ca-phao-co-em-cho-ca-phao-interlude",
+      "teacher": "ca-phao",
+      "song": "Co Em Cho",
+      "section": "interlude",
+      "bars": [
+        48,
+        55
+      ],
+      "notes": 189,
+      "kb": 7.3
+    },
+    {
+      "id": "ca-phao-co-em-cho-ca-phao-intro",
+      "teacher": "ca-phao",
+      "song": "Co Em Cho",
+      "section": "intro",
+      "bars": [
+        1,
+        8
+      ],
+      "notes": 167,
+      "kb": 6.5
+    },
+    {
+      "id": "ca-phao-co-em-cho-ca-phao-outro",
+      "teacher": "ca-phao",
+      "song": "Co Em Cho",
+      "section": "outro",
+      "bars": [
+        66,
+        72
+      ],
+      "notes": 118,
+      "kb": 4.6
+    },
+    {
+      "id": "ca-phao-ngay-mai-em-di-ca-phao-interlude",
+      "teacher": "ca-phao",
+      "song": "Ngay mai em di",
+      "section": "interlude",
+      "bars": [
+        51,
+        54
+      ],
+      "notes": 75,
+      "kb": 3.0
+    },
+    {
+      "id": "ca-phao-ngay-mai-em-di-ca-phao-intro",
+      "teacher": "ca-phao",
+      "song": "Ngay mai em di",
+      "section": "intro",
+      "bars": [
+        1,
+        18
+      ],
+      "notes": 272,
+      "kb": 10.5
+    },
+    {
+      "id": "ca-phao-ngay-mai-em-di-ca-phao-outro",
+      "teacher": "ca-phao",
+      "song": "Ngay mai em di",
+      "section": "outro",
+      "bars": [
+        87,
+        91
+      ],
+      "notes": 78,
+      "kb": 3.1
+    },
+    {
+      "id": "ca-phao-nguoihayquenemdi-interlude",
+      "teacher": "ca-phao",
+      "song": "Người hãy quên em đi",
+      "section": "interlude",
+      "bars": [
+        41,
+        48
+      ],
+      "notes": 165,
+      "kb": 6.4
+    },
+    {
+      "id": "ca-phao-nguoihayquenemdi-intro",
+      "teacher": "ca-phao",
+      "song": "Người hãy quên em đi",
+      "section": "intro",
+      "bars": [
+        1,
+        8
+      ],
+      "notes": 148,
+      "kb": 5.7
+    },
+    {
+      "id": "ca-phao-nguoihayquenemdi-outro",
+      "teacher": "ca-phao",
+      "song": "Người hãy quên em đi",
+      "section": "outro",
+      "bars": [
+        96,
+        104
+      ],
+      "notes": 89,
+      "kb": 3.5
+    },
+    {
+      "id": "ca-phao-yeu-la-tha-thu-intro",
+      "teacher": "ca-phao",
+      "song": "Yêu là tha thứ",
+      "section": "intro",
+      "bars": [
+        1,
+        9
+      ],
+      "notes": 104,
+      "kb": 4.0
+    },
+    {
+      "id": "ca-phao-yeu-la-tha-thu-outro",
+      "teacher": "ca-phao",
+      "song": "Yêu là tha thứ",
+      "section": "outro",
+      "bars": [
+        79,
+        84
+      ],
+      "notes": 66,
+      "kb": 2.6
+    },
+    {
+      "id": "linh-nhi-bien-tinh-linh-nhi-piano-interlude",
+      "teacher": "linh-nhi",
+      "song": "Biển Tình",
+      "section": "interlude",
+      "bars": [
+        52,
+        61
+      ],
+      "notes": 174,
+      "kb": 6.6
+    },
+    {
+      "id": "linh-nhi-bien-tinh-linh-nhi-piano-intro",
+      "teacher": "linh-nhi",
+      "song": "Biển Tình",
+      "section": "intro",
+      "bars": [
+        1,
+        9
+      ],
+      "notes": 128,
+      "kb": 4.9
+    },
+    {
+      "id": "linh-nhi-bien-tinh-linh-nhi-piano-outro",
+      "teacher": "linh-nhi",
+      "song": "Biển Tình",
+      "section": "outro",
+      "bars": [
+        68,
+        72
+      ],
+      "notes": 68,
+      "kb": 2.7
+    },
+    {
+      "id": "linh-nhi-dung-xa-em-dem-nay-linh-nhi-interlude",
+      "teacher": "linh-nhi",
+      "song": "Dung Xa Em Dem Nay",
+      "section": "interlude",
+      "bars": [
+        48,
+        57
+      ],
+      "notes": 152,
+      "kb": 5.9
+    },
+    {
+      "id": "linh-nhi-dung-xa-em-dem-nay-linh-nhi-intro",
+      "teacher": "linh-nhi",
+      "song": "Dung Xa Em Dem Nay",
+      "section": "intro",
+      "bars": [
+        1,
+        9
+      ],
+      "notes": 156,
+      "kb": 6.0
+    },
+    {
+      "id": "linh-nhi-dung-xa-em-dem-nay-linh-nhi-outro",
+      "teacher": "linh-nhi",
+      "song": "Dung Xa Em Dem Nay",
+      "section": "outro",
+      "bars": [
+        80,
+        86
+      ],
+      "notes": 105,
+      "kb": 4.2
+    },
+    {
+      "id": "linh-nhi-duong-xua-loi-cu-linh-nhi-interlude",
+      "teacher": "linh-nhi",
+      "song": "Duong Xua Loi Cu",
+      "section": "interlude",
+      "bars": [
+        75,
+        82
+      ],
+      "notes": 135,
+      "kb": 5.3
+    },
+    {
+      "id": "linh-nhi-duong-xua-loi-cu-linh-nhi-intro",
+      "teacher": "linh-nhi",
+      "song": "Duong Xua Loi Cu",
+      "section": "intro",
+      "bars": [
+        1,
+        8
+      ],
+      "notes": 110,
+      "kb": 4.3
+    },
+    {
+      "id": "linh-nhi-duong-xua-loi-cu-linh-nhi-outro",
+      "teacher": "linh-nhi",
+      "song": "Duong Xua Loi Cu",
+      "section": "outro",
+      "bars": [
+        107,
+        112
+      ],
+      "notes": 47,
+      "kb": 2.0
+    },
+    {
+      "id": "linh-nhi-la-th-tran-the-linh-nhi-interlude",
+      "teacher": "linh-nhi",
+      "song": "La Thư Tran The",
+      "section": "interlude",
+      "bars": [
+        56,
+        61
+      ],
+      "notes": 93,
+      "kb": 3.6
+    },
+    {
+      "id": "linh-nhi-la-th-tran-the-linh-nhi-intro",
+      "teacher": "linh-nhi",
+      "song": "La Thư Tran The",
+      "section": "intro",
+      "bars": [
+        1,
+        6
+      ],
+      "notes": 85,
+      "kb": 3.3
+    },
+    {
+      "id": "linh-nhi-la-th-tran-the-linh-nhi-outro",
+      "teacher": "linh-nhi",
+      "song": "La Thư Tran The",
+      "section": "outro",
+      "bars": [
+        106,
+        108
+      ],
+      "notes": 49,
+      "kb": 2.0
+    },
+    {
+      "id": "linh-nhi-mot-coi-di-ve-linh-nhi-interlude",
+      "teacher": "linh-nhi",
+      "song": "Mot Coi Di Ve",
+      "section": "interlude",
+      "bars": [
+        54,
+        63
+      ],
+      "notes": 117,
+      "kb": 4.6
+    },
+    {
+      "id": "linh-nhi-mot-coi-di-ve-linh-nhi-intro",
+      "teacher": "linh-nhi",
+      "song": "Mot Coi Di Ve",
+      "section": "intro",
+      "bars": [
+        1,
+        10
+      ],
+      "notes": 112,
+      "kb": 4.4
+    },
+    {
+      "id": "linh-nhi-mot-coi-di-ve-linh-nhi-outro",
+      "teacher": "linh-nhi",
+      "song": "Mot Coi Di Ve",
+      "section": "outro",
+      "bars": [
+        113,
+        123
+      ],
+      "notes": 103,
+      "kb": 4.1
+    },
+    {
+      "id": "linh-nhi-mua-xuan-dau-tien-linh-nhi-interlude",
+      "teacher": "linh-nhi",
+      "song": "Mua xuan dau tien",
+      "section": "interlude",
+      "bars": [
+        63,
+        71
+      ],
+      "notes": 136,
+      "kb": 5.3
+    },
+    {
+      "id": "linh-nhi-mua-xuan-dau-tien-linh-nhi-intro",
+      "teacher": "linh-nhi",
+      "song": "Mua xuan dau tien",
+      "section": "intro",
+      "bars": [
+        1,
+        8
+      ],
+      "notes": 116,
+      "kb": 4.5
+    },
+    {
+      "id": "linh-nhi-mua-xuan-dau-tien-linh-nhi-outro",
+      "teacher": "linh-nhi",
+      "song": "Mua xuan dau tien",
+      "section": "outro",
+      "bars": [
+        103,
+        113
+      ],
+      "notes": 101,
+      "kb": 4.0
+    },
+    {
+      "id": "linh-nhi-rung-la-thap-linh-nhi-intro",
+      "teacher": "linh-nhi",
+      "song": "Rung La Thap",
+      "section": "intro",
+      "bars": [
+        1,
+        9
+      ],
+      "notes": 173,
+      "kb": 6.7
+    },
+    {
+      "id": "linh-nhi-rung-la-thap-linh-nhi-outro",
+      "teacher": "linh-nhi",
+      "song": "Rung La Thap",
+      "section": "outro",
+      "bars": [
+        67,
+        79
+      ],
+      "notes": 186,
+      "kb": 7.2
+    },
+    {
+      "id": "ton-hung-chiec-la-mua-dong-ton-hung-interlude",
+      "teacher": "ton-hung",
+      "song": "Chiec La Mua Dong",
+      "section": "interlude",
+      "bars": [
+        58,
+        67
+      ],
+      "notes": 106,
+      "kb": 4.1
+    },
+    {
+      "id": "ton-hung-chiec-la-mua-dong-ton-hung-intro",
+      "teacher": "ton-hung",
+      "song": "Chiec La Mua Dong",
+      "section": "intro",
+      "bars": [
+        1,
+        9
+      ],
+      "notes": 84,
+      "kb": 3.3
+    },
+    {
+      "id": "ton-hung-chiec-la-mua-dong-ton-hung-outro",
+      "teacher": "ton-hung",
+      "song": "Chiec La Mua Dong",
+      "section": "outro",
+      "bars": [
+        118,
+        128
+      ],
+      "notes": 119,
+      "kb": 4.6
+    },
+    {
+      "id": "ton-hung-tinh-em-la-dai-duong-ton-hung-interlude",
+      "teacher": "ton-hung",
+      "song": "Tinh Em La Dai Duong",
+      "section": "interlude",
+      "bars": [
+        33,
+        40
+      ],
+      "notes": 157,
+      "kb": 6.1
+    },
+    {
+      "id": "ton-hung-tinh-em-la-dai-duong-ton-hung-intro",
+      "teacher": "ton-hung",
+      "song": "Tinh Em La Dai Duong",
+      "section": "intro",
+      "bars": [
+        1,
+        8
+      ],
+      "notes": 142,
+      "kb": 5.6
+    },
+    {
+      "id": "ton-hung-tinh-em-la-dai-duong-ton-hung-outro",
+      "teacher": "ton-hung",
+      "song": "Tinh Em La Dai Duong",
+      "section": "outro",
+      "bars": [
+        77,
+        81
+      ],
+      "notes": 76,
+      "kb": 3.1
+    }
+  ]
+}
