@@ -10,6 +10,106 @@
 # Dong bat dau bang dau # la ghi chu, khong doc.
 
 
+== Yêu là tha thứ
+#    thay: ca-phao | bai dai 85 o nhip
+#    da co: 1-9, 10-25, 26-33, 34-51, 52-59, 60-78, 79-84
+#    con trong: 85-85
+the loai        : ballad
+dao dau         : 1-9
+phien khuc      : 10-25
+tien diep khuc  : 26-33
+diep khuc       : 34-51
+giang tau       : 
+phien khuc lap  : 
+tien diep khuc lap: 52-59
+diep khuc lap   : 60-78
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 79-84
+
+== Mơ
+#    thay: ca-phao | bai dai 79 o nhip
+#    da co: 1-10, 67-77
+#    con trong: 11-66, 78-79
+the loai        : slow rock 4/4
+dao dau         : 1-10
+phien khuc      : 
+tien diep khuc  : 
+diep khuc       : 
+giang tau       : 67-77
+phien khuc lap  : 
+tien diep khuc lap: 
+diep khuc lap   : 
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 
+
+== Biển Tình
+#    thay: linh-nhi | bai dai 72 o nhip
+#    da co: 1-9, 10-25, 26-43, 52-61, 44-51, 68-72
+#    con trong: 62-67
+the loai        : bolero
+dao dau         : 1-9
+phien khuc      : 10-25
+tien diep khuc  : 
+diep khuc       : 26-43
+giang tau       : 52-61
+phien khuc lap  : 44-51
+tien diep khuc lap: 
+diep khuc lap   : 
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 68-72
+
+== La Thư Tran The
+#    thay: linh-nhi | bai dai 122 o nhip
+#    da co: 1-6, 7-30, 31-43, 56-61, 44-55, 62-80, 81-90, 91-105, 106-108
+#    con trong: 109-122
+the loai        : slow rock
+dao dau         : 1-6
+phien khuc      : 7-30
+tien diep khuc  : 
+diep khuc       : 31-43
+giang tau       : 56-61
+phien khuc lap  : 44-55
+tien diep khuc lap: 
+diep khuc lap   : 
+diep khuc nang tone: 
+phien khuc lap 2: 62-80
+diep khuc lap cao trao: 81-90
+phien khuc lap 3: 91-105
+diep khuc lap 2 : 
+ket bai         : 106-108
+
+== Mot Coi Di Ve
+#    thay: linh-nhi | bai dai 129 o nhip
+#    da co: 1-10, 11-25, 26-37, 54-63, 38-53, 79-90, 64-78, 91-112, 113-123
+#    con trong: 124-129
+the loai        : slow rock
+dao dau         : 1-10
+phien khuc      : 11-25
+tien diep khuc  : 
+diep khuc       : 26-37
+giang tau       : 54-63
+phien khuc lap  : 38-53
+tien diep khuc lap: 
+diep khuc lap   : 79-90
+diep khuc nang tone: 
+phien khuc lap 2: 64-78
+diep khuc lap cao trao: 
+phien khuc lap 3: 91-112
+diep khuc lap 2 : 
+ket bai         : 113-123
+
 == Chiec La Mua Dong
 #    thay: ton-hung | bai dai 130 o nhip
 #    da co: 1-9, 10-41, 42-57, 58-67, 68-82, 83-98, 99-117, 118-128
@@ -50,10 +150,10 @@ phien khuc lap 3:
 diep khuc lap 2 : 
 ket bai         : 77-81
 
-== Vet Nang Cuoi Troi
-#    thay: ton-hung | bai dai 140 o nhip
+== Di Vang Nhat Nhoa
+#    thay: linh-nhi | bai dai 130 o nhip
 #    da co: (chua)
-#    con trong: 1-140
+#    con trong: 1-130
 the loai        : 
 dao dau         : 
 phien khuc      : 
@@ -69,3 +169,183 @@ diep khuc lap cao trao:
 phien khuc lap 3: 
 diep khuc lap 2 : 
 ket bai         : 
+
+== Duong Xua Loi Cu
+#    thay: linh-nhi | bai dai 112 o nhip
+#    da co: (chua)
+#    con trong: 1-112
+the loai        : 
+dao dau         : 
+phien khuc      : 
+tien diep khuc  : 
+diep khuc       : 
+giang tau       : 
+phien khuc lap  : 
+tien diep khuc lap: 
+diep khuc lap   : 
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 
+
+== Mua xuan dau tien
+#    thay: linh-nhi | bai dai 114 o nhip
+#    da co: (chua)
+#    con trong: 1-114
+the loai        : 
+dao dau         : 
+phien khuc      : 
+tien diep khuc  : 
+diep khuc       : 
+giang tau       : 
+phien khuc lap  : 
+tien diep khuc lap: 
+diep khuc lap   : 
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 
+
+== Papa
+#    thay: linh-nhi | bai dai 117 o nhip
+#    da co: (chua)
+#    con trong: 1-117
+the loai        : 
+dao dau         : 
+phien khuc      : 
+tien diep khuc  : 
+diep khuc       : 
+giang tau       : 
+phien khuc lap  : 
+tien diep khuc lap: 
+diep khuc lap   : 
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 
+
+== Rung La Thap
+#    thay: linh-nhi | bai dai 91 o nhip
+#    da co: (chua)
+#    con trong: 1-91
+the loai        : 
+dao dau         : 
+phien khuc      : 
+tien diep khuc  : 
+diep khuc       : 
+giang tau       : 
+phien khuc lap  : 
+tien diep khuc lap: 
+diep khuc lap   : 
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 
+
+== Hồng Kông 1
+#    thay: ca-phao | bai dai 107 o nhip
+#    da co: 1-15, 16-31, 32-46, 47-65, 66-72, 73-99, 100-107
+#    kin 107 o
+the loai        : bossa nova
+dao dau         : 1-15
+phien khuc      : 16-31
+tien diep khuc  : 
+diep khuc       : 32-46
+giang tau       : 47-65
+phien khuc lap  : 66-72
+tien diep khuc lap: 
+diep khuc lap   : 73-99
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 100-107
+
+== Người hãy quên em đi
+#    thay: ca-phao | bai dai 104 o nhip
+#    da co: 1-8, 9-24, 25-40, 41-48, 49-65, 66-95, 96-104
+#    kin 104 o
+the loai        : bossa nova
+dao dau         : 1-8
+phien khuc      : 9-24
+tien diep khuc  : 
+diep khuc       : 25-40
+giang tau       : 41-48
+phien khuc lap  : 49-65
+tien diep khuc lap: 
+diep khuc lap   : 66-95
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 96-104
+
+== Co Em Cho
+#    thay: ca-phao | bai dai 72 o nhip
+#    da co: 1-8, 9-24, 25-33, 48-55, 34-40, 41-47, 56-65, 66-72
+#    kin 72 o
+the loai        : ballad
+dao dau         : 1-8
+phien khuc      : 9-24
+tien diep khuc  : 
+diep khuc       : 25-33
+giang tau       : 48-55
+phien khuc lap  : 34-40
+tien diep khuc lap: 
+diep khuc lap   : 41-47
+diep khuc nang tone: 56-65
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 66-72
+
+== Ngay mai em di
+#    thay: ca-phao | bai dai 91 o nhip
+#    da co: 1-18, 19-34, 35-50, 51-54, 55-70, 71-86, 87-91
+#    kin 91 o
+the loai        : ballad
+dao dau         : 1-18
+phien khuc      : 19-34
+tien diep khuc  : 
+diep khuc       : 35-50
+giang tau       : 51-54
+phien khuc lap  : 55-70
+tien diep khuc lap: 
+diep khuc lap   : 71-86
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 87-91
+
+== Dung Xa Em Dem Nay
+#    thay: linh-nhi | bai dai 86 o nhip
+#    da co: 1-9, 10-28, 29-47, 48-57, 58-79, 80-86
+#    kin 86 o
+the loai        : bolero
+dao dau         : 1-9
+phien khuc      : 10-28
+tien diep khuc  : 
+diep khuc       : 29-47
+giang tau       : 48-57
+phien khuc lap  : 
+tien diep khuc lap: 
+diep khuc lap   : 58-79
+diep khuc nang tone: 
+phien khuc lap 2: 
+diep khuc lap cao trao: 
+phien khuc lap 3: 
+diep khuc lap 2 : 
+ket bai         : 80-86

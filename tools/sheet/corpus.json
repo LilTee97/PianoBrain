@@ -651,6 +651,56 @@
         }
       },
       "confidence": "chua danh dau"
+    },
+    {
+      "file": "Di Vang Nhat Nhoa-Linh Nhi.mxl",
+      "name": "Di Vang Nhat Nhoa",
+      "teacher": "linh-nhi",
+      "genre": null,
+      "video": null,
+      "bars": 130,
+      "sections": {},
+      "confidence": "chua danh dau"
+    },
+    {
+      "file": "Duong Xua Loi Cu-Linh Nhi.mxl",
+      "name": "Duong Xua Loi Cu",
+      "teacher": "linh-nhi",
+      "genre": null,
+      "video": null,
+      "bars": 112,
+      "sections": {},
+      "confidence": "chua danh dau"
+    },
+    {
+      "file": "Mua xuan dau tien-Linh Nhi.mxl",
+      "name": "Mua xuan dau tien",
+      "teacher": "linh-nhi",
+      "genre": null,
+      "video": null,
+      "bars": 114,
+      "sections": {},
+      "confidence": "chua danh dau"
+    },
+    {
+      "file": "Papa- Linh Nhi.mxl",
+      "name": "Papa",
+      "teacher": "linh-nhi",
+      "genre": null,
+      "video": null,
+      "bars": 117,
+      "sections": {},
+      "confidence": "chua danh dau"
+    },
+    {
+      "file": "Rung La Thap-Linh Nhi.mxl",
+      "name": "Rung La Thap",
+      "teacher": "linh-nhi",
+      "genre": null,
+      "video": null,
+      "bars": 91,
+      "sections": {},
+      "confidence": "chua danh dau"
     }
   ]
 }
