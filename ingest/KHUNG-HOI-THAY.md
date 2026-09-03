@@ -6,6 +6,16 @@
 
 Cách ghi: sửa thẳng dòng, hoặc thêm `- Ý BẠN:`. Đánh `[x]` khi **đồng ý**. Lệch: để trống, ghi số / ý ngay dưới.
 
+**VIẾT ĐỂ TICK, KHÔNG VIẾT CÂU HỎI MỞ.** Máy đo trước, điền sẵn đáp án kèm cỡ mẫu; người
+dùng chỉ gật hoặc lắc. Câu hỏi mở đẩy việc suy nghĩ sang họ và không tick được.
+
+```
+Đừng:  | Mở bằng i / I / V / khác? |                       |
+Nên:   [ ] Dạo mở bằng bậc vi — 4/5 bài
+       [ ] Ô cuối dạo là bậc V, làm cửa vào hát — 3/3 bài đo được
+       [ ] Giang dùng LẠI vòng của dạo — 3/4 bài
+```
+
 **Luật 3 thầy (đã chốt, mọi phiếu):**
 - Đoạn **hát** (phiên / điệp / tiền điệp): RH = **giọng ca**.
 - Dạo / giang / kết: RH = đàn.
@@ -20,6 +30,41 @@ Ví dụ: Đừng Xa = Dm, *Để nhớ một thời ta đã yêu* = Am. `i` she
 pc_bài = (pc_sheet − tonic_sheet + tonic_bài) % 12
 hợp âm = chordAtDegree(tonic_bài, scale, bậc)
 ```
+
+---
+
+# 0-A. HAI BƯỚC BẮT BUỘC TRƯỚC KHI ĐIỀN BẤT CỨ Ô NÀO
+
+Bỏ hai bước này là hỏng cả phiếu, và hỏng âm thầm. Cả hai đã gây lỗi thật ở phiếu
+Linh Nhi bolero — xem `phieu-linh-nhi-bolero.md` mục 0 và A.1.
+
+## 0-A.1 Rút ký hiệu hợp âm THẬT ra trước
+
+Sheet có `<harmony>` thì **sheet thắng máy, không bàn thêm**. `clone_do.py` đoán hợp âm
+từ thế bấm tay trái và **thổi phồng chất hợp âm** một cách có hệ thống:
+
+| máy đoán | ký hiệu thật |
+| --- | --- |
+| `D` | `Dm` |
+| `Cmaj7` | `C` |
+| `G7` | `G` |
+| `Fmaj7` | `F` |
+
+Sai chất thì bậc thứ hoá bậc trưởng, và tay phải sẽ chọn nốt sai. Chưa rút `<harmony>`
+thì **chưa được điền dòng vòng hợp âm nào**.
+
+## 0-A.2 Chốt giọng bằng BỐN chứng cứ, không bằng tai một lần
+
+Lỗi hay gặp nhất là **lấy bậc V làm chủ âm** — phiếu Linh Nhi từng sai đúng kiểu ấy ở
+hai bài liền. Bốn cái dưới phải chụm về một chủ âm; lệch thì dừng, đừng điền tiếp.
+
+1. `fifths` trong bộ khoá của file
+2. **Hợp âm cuối bài** (ký hiệu cuối cùng, không phải ô cuối cùng)
+3. Hợp âm **hay gặp nhất** trong cả bài
+4. Hợp âm được **giữ dài nhất** — thường là bậc V, nên nó là mồi nhử; nếu bạn định lấy
+   chính nó làm chủ âm thì gần như chắc là sai
+
+Dấu hiệu đã sai: bảng hợp âm của bài đầy một gốc khác với nhãn giọng bạn vừa ghi.
 
 ---
 
@@ -38,6 +83,18 @@ hợp âm = chordAtDegree(tonic_bài, scale, bậc)
 
 Solo train **chỉ** intro / interlude / outro. Phiên–điệp không train từ sổ này.
 
+**n bao nhiêu là đủ** — ghi thẳng, đừng để mỗi phiếu tự đoán:
+
+| n | đọc được gì |
+| --- | --- |
+| 1 bài | **cử chỉ**. Ghi lại, cấm thành mặc định cho mọi bài |
+| 2 bài | thấy có khác nhau, **không** tách được "phong cách thầy" khỏi "bài này thầy chơi vậy" |
+| 3 bài | biết **bài nào là ngoại lệ** |
+| 5 bài | đọc được **hình phân bố** — chụm thì chốt trung vị, tản thì nó vốn là thứ đổi theo bài, phải thành lựa chọn cho người dùng |
+
+Cân giọng cũng phải đếm: mỗi giọng (trưởng / thứ) cần **≥ 2 bài**, không thì "khác vì
+giọng" và "khác vì bài" chồng khít lên nhau, không phép đo nào tách ra được.
+
 ---
 
 # 1. Máy vs sheet (làm trước khi tin vòng)
@@ -48,6 +105,35 @@ Máy hay sai. Phiếu Cà Pháo: `Ebsus4` thật ra **Eb/Ab**; `Gmaj7` thật ra
 2. Sheet có ký hiệu hợp âm trên khuông không? Có thì **sheet thắng máy**.
 3. Chordify / vòng app đoán lệch ô nào?
 4. Giọng máy vs tai (trưởng / thứ / nâng tone giữa bài)?
+
+`- Ý BẠN:`
+
+---
+
+# 1-B. CỬA LỜI — ô nào hát, ô nào đàn
+
+**Làm trước mọi phép đo khác.** Mọi số ở các mục sau đều đứng trên mục này: đo nhầm một
+ô hát thành ô đàn thì tay phải bị coi là câu đàn trong khi nó là **giọng ca**, và cả bảng
+"chọn nốt solo" thành vô nghĩa.
+
+Máy **không** đo được chỗ này — phải nhìn lời trên bản ký âm. Nên đây là mục người dùng
+làm, máy chỉ dọn sẵn bàn.
+
+Lập bảng **theo từng biên đoạn**, không phải mỗi bài một dòng:
+
+| ô | hợp âm | RH tóm | nghi | tick |
+| --- | --- | --- | --- | --- |
+| **8→9** | `Am7→Gmaj7` | ô 8 chỉ C5 + LH dày; ô 9 G3 B3 C4 E4 | chữ hát từ ô 9? | |
+| **74→75** | `Dm7→C` | ô 75 A4 E4 G4 E5 C5 E5 G5 | **giang đàn** từ 75 hay còn hát? | |
+
+Máy điền ba cột đầu, người dùng tick cột cuối.
+
+Ba dấu hiệu để máy đặt phán đoán sẵn:
+
+- **Ô trước biên chỉ có 1–2 nốt tay phải** → nhiều khả năng là chữ cuối câu hát, hoặc
+  nốt nhấc vào đoạn sau
+- **Nốt tay phải nhảy vọt lên quãng cao rồi rải xuống** → đàn vào, không phải giọng
+- **Tay trái dày lên trong khi tay phải mỏng đi** → đang hát; ngược lại là đàn
 
 `- Ý BẠN:`
 
@@ -64,6 +150,19 @@ Nhìn đoạn **có lời**. RH = giọng (đã chốt).
 5. RH chùm: trong chùm **có nốt lời** không?
 
 **Đã chốt 3 thầy (Cà Pháo):** LH vào đầu ô, không im khi hát dày. Nốt cuối ô không bắt buộc chủ.
+
+**6. TAY PHẢI CÓ GÁNH CELL ĐỆM LÚC HÁT KHÔNG?** — chiều ngược lại, dễ bỏ sót.
+
+Năm câu trên chỉ hỏi tay trái. Nhưng đo Linh Nhi thấy ở **điệp khúc** của Rừng lá thấp
+(ô 35–36) và Đường xưa lối cũ, **tay phải chồng hợp âm theo lưới đệm trong khi tay trái
+thưa hoặc nghỉ** — hai tay đổi vai *ngay trong đoạn có lời*.
+
+Phân biệt với fill: **đệm thì bám lưới của điệu và lặp**; **fill thì rơi vào khe, không
+lặp**. Chùm hợp âm đúng phách của cell = đệm, không phải fill, và **không được** đưa vào
+sổ fill.
+
+Nếu có hiện tượng này: cell điệp của bài ấy **không gộp** được với bài mà tay trái giữ
+nguyên 9 mốc.
 
 `- Ý BẠN:`
 
@@ -145,6 +244,55 @@ Vòng bậc: ` `
 | RH cửa đóng (rải lên) cùng họ intro? | |
 | Nốt lời cuối rồi mới show? | |
 
+**ĐOẠN KẾT PHẢI ĐO BẰNG SỐ, KHÔNG CHỈ TẢ.** Đo Linh Nhi bolero cho thấy đoạn kết là một
+con vật khác hẳn — ba số cùng lệch một hướng, và lệch mạnh:
+
+| | dạo | giang | **kết** |
+| --- | --- | --- | --- |
+| LH mốc/ô | 5.9–7.7 | 6.1–7.7 | **2.1–6.7** (hai bài xuống 2.1 và 3.3) |
+| liền bậc | 31% | 36% | **21%** |
+| RH nhân bản lớp LH | 0.37 | 0.34 | **0.42** |
+
+Đọc theo tai nhạc: đoạn kết **buông bass ra**, tay phải rải quãng rộng, hai tay chồng lớp
+để tiếng dày lên trong khi số nốt ít đi. Đó là cách đóng bài, không phải cách mở bài.
+
+Nên **đừng dùng chung bộ hằng số với đoạn dạo**, và điền ba số ấy vào bảng ở mục 4-B.
+
+`- Ý BẠN:`
+
+## 3.d QUAN HỆ GIỮA BA ĐOẠN KHÔNG LỜI
+
+Mục 3.b chỉ hỏi giang có copy **phiên / điệp** không. Thiếu câu quan trọng hơn: **giang có
+copy DẠO không.**
+
+**BẪY ĐÃ SẬP MỘT LẦN — đọc trước khi trả lời câu này.**
+
+Đo Linh Nhi bolero lần đầu tôi kết luận "3/4 bài giang dùng lại vòng của dạo". **Sai.**
+Nguyên nhân: tôi so hai dãy KÝ HIỆU, mà ô không có ký hiệu thì rơi khỏi phép so — trong
+khi ở những ô ấy hợp âm trước **vẫn đang vang**, và chúng thuộc về vòng. Tệ hơn: những ô
+trống ấy hay nằm **ngay đầu đoạn**, đúng chỗ quyết định hai vòng giống hay khác.
+
+| bài | ô bị bỏ sót | sự thật |
+| --- | --- | --- |
+| Biển Tình | ô 52 đầu giang, không ký hiệu, đang vang `D` | giang mở `D`, dạo mở `Bm` |
+| Mùa xuân | ô 63–64, không ký hiệu, đang vang `G` | giang **thêm** `G` ở đầu |
+
+Kết luận đúng sau khi sửa: **cả bốn bài giang ≠ dạo.**
+
+**Cách làm đúng:** trải ký hiệu ra **từng ô** trước khi so, điền ô trống bằng hợp âm của ô
+liền trước, rồi mới đặt hai dãy cạnh nhau.
+
+Tick:
+
+- [ ] Giang = dạo y nguyên
+- [ ] Giang = dạo bỏ hợp âm đầu (hoặc vài hợp âm đầu)
+- [ ] Giang là vòng riêng, không liên quan dạo
+- [ ] **Ô cuối dạo và ô cuối giang đều là bậc V** — cửa vào hát
+- [ ] Kết dùng lại vòng dạo hay vòng riêng?
+
+Trả lời sai chỗ này thì app dựng **hai vòng khác nhau** cho dạo và giang trong khi thầy
+dùng một — sai từ gốc, không phải lệch vài phần trăm.
+
 `- Ý BẠN:`
 
 ---
@@ -164,6 +312,47 @@ Vòng bậc: ` `
 
 ---
 
+# 4-B. BẢNG SỐ CHUẨN — cột cố định, mọi phiếu giống nhau
+
+Khung cũ toàn câu hỏi, không có chỗ ghi số theo cột. Hậu quả thật: hằng số `CUNG_GO`
+trong KeyTrain được đặt bằng **0.64** — lấy từ **một đoạn của một bài**, và là bài cao
+nhất trong năm. Không ai thấy, vì không có bảng để so.
+
+Một dòng cho mỗi **bài × đoạn**:
+
+| bài | đoạn | ô | LH mốc/ô | RH nốt/mốc | RH chồng ≥2 | RH bám mốc LH | RH nhân bản lớp LH | liền bậc | khe hai tay | tầm RH |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | dạo | | | | | | | | | |
+| | giang | | | | | | | | | |
+| | kết | | | | | | | | | |
+
+Rồi **gộp theo đoạn** — đó mới là con số đem vào code:
+
+| | RH bám mốc LH | RH nhân bản | liền bậc |
+| --- | --- | --- | --- |
+| dạo | | | |
+| giang | | | |
+| kết | | | |
+
+## 4-C. HẰNG SỐ APP ĐANG ĐẶT — bắt buộc có cột này
+
+Giá trị của phiếu là khép khoảng cách giữa **hằng số trong app** và **bản ký âm**. Không
+có cột "bài nào cấp số này" thì một số đo lẻ sẽ hoá thành mặc định vĩnh viễn.
+
+| hằng số | app đang đặt | số đo n bài | **lấy từ đâu ban đầu** | chốt |
+| --- | --- | --- | --- | --- |
+| | | | | |
+
+Ví dụ đã gặp:
+
+| hằng số | app | 5 bài | lấy từ đâu | vấn đề |
+| --- | --- | --- | --- | --- |
+| `NHAN_BAN` | 0.36 | 0.34–0.42 | *giang tấu Biển Tình, 49 mốc* | đã sửa, nay khớp |
+| `CUNG_GO` | 0.64 | **0.54** | *Biển Tình — bài cao nhất* | còn lệch |
+| liền bậc | 46–54% | **31–36%** | *chỉnh theo 2 bài* | còn lệch |
+
+---
+
 # 5. Chọn nốt solo (chỉ dạo / giang / kết)
 
 Đo **1 nốt trên cùng** (quạt 2+ tạo nhảy giả).
@@ -179,6 +368,36 @@ Vòng bậc: ` `
 18. Quãng âm solo vs hát. Có nhảy 8ve trên?
 19. Nghỉ ≥ 1 đen giữa câu, hay chạy liền?
 19b. Hình quãng (midi − nốt đầu) — clone như Licky, rồi **dịch tonic bài**.
+
+`- Ý BẠN:`
+
+---
+
+# 5-B. FILL / CHẠY NGÓN **LÚC HÁT** — không phải solo
+
+Mục 5 đo câu solo ở ba đoạn không lời. Fill là chuyện khác: nó nằm **trong đoạn có lời**,
+rơi vào khe cuối ô hoặc giữa hai câu hát, và nó là thứ đi vào nút Fill chứ không vào bộ
+sinh solo.
+
+Ba loại, phải tách bạch trước khi ghi vào sổ:
+
+| loại | dấu hiệu | dùng làm gì |
+| --- | --- | --- |
+| **fill** | rơi vào khe, RH dày hơn lời, **không lặp** | vào sổ fill |
+| **đệm** | bám đúng lưới của điệu, **có lặp** | vào cell đệm — xem mục 2 câu 6 |
+| **lời** | là chính giọng ca | **bỏ**, không lấy |
+
+Bảng ứng viên:
+
+| # | bài | ô | hợp âm | hình | loại |
+| --- | --- | --- | --- | --- | --- |
+| | | | | | |
+
+Chú ý loại **bắt chéo ô** — mấy nốt cuối ô này nối vào đầu ô sau. Đo Linh Nhi thấy đây là
+dạng hay gặp, và nếu cắt theo vạch nhịp thì mất luôn hình câu.
+
+**Không thay sổ fill đang có (Licky) cho tới khi người dùng nghe và gật.** Dựng nút mới
+đứng cạnh, nghe ổn rồi mới thay và xoá nút.
 
 `- Ý BẠN:`
 
@@ -246,6 +465,11 @@ Motif lặp (ostinato) là **tick phụ**, không ngang hàng thầy. (Chiếc L
     - không dán tonic sheet sang bài khác
     - không trộn điệu của cùng thầy
     - không train phiên–điệp từ sổ solo
+    - **không dùng hợp âm máy đoán khi sheet có ký hiệu** (mục 0-A.1)
+    - **không lấy bậc V làm chủ âm** — kiểm bằng bốn chứng cứ ở mục 0-A.2
+    - **không đặt hằng số từ một đoạn của một bài** — ghi nguồn vào bảng 4-C
+    - **không dùng chung bộ số của đoạn dạo cho đoạn kết** (mục 3.c)
+    - không đưa chùm hợp âm bám lưới điệu vào sổ fill — đó là đệm (mục 5-B)
 
 ---
 

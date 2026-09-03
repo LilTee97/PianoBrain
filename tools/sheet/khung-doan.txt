@@ -150,46 +150,6 @@ phien khuc lap 3:
 diep khuc lap 2 : 
 ket bai         : 77-81
 
-== Mua xuan dau tien
-#    thay: linh-nhi | bai dai 114 o nhip
-#    da co: 1-8, 9-27, 28-45, 63-71, 46-62, 72-78, 79-102, 103-113
-#    con trong: 114-114
-the loai        : bolero
-dao dau         : 1-8
-phien khuc      : 9-27
-tien diep khuc  : x
-diep khuc       : 28-45
-giang tau       : 63-71
-phien khuc lap  : 46-62
-tien diep khuc lap: x
-diep khuc lap   : 72-78
-diep khuc nang tone: x
-phien khuc lap 2: 79-102
-diep khuc lap cao trao: x
-phien khuc lap 3: x
-diep khuc lap 2 : x
-ket bai         : 103-113
-
-== Rung La Thap
-#    thay: linh-nhi | bai dai 91 o nhip
-#    da co: (chua)
-#    con trong: 1-91
-the loai        : bolero
-dao dau         : 1-9
-phien khuc      : 10-25
-tien diep khuc  : x
-diep khuc       : 26-43
-giang tau       : x
-phien khuc lap  : 44-66
-tien diep khuc lap: x
-diep khuc lap   : x
-diep khuc nang tone: x
-phien khuc lap 2: x
-diep khuc lap cao trao: x
-phien khuc lap 3: x
-diep khuc lap 2 : x
-ket bai         : 67-79
-
 == Hồng Kông 1
 #    thay: ca-phao | bai dai 107 o nhip
 #    da co: 1-15, 16-31, 32-46, 47-65, 66-72, 73-99, 100-107
@@ -309,3 +269,43 @@ diep khuc lap cao trao:
 phien khuc lap 3: 
 diep khuc lap 2 : 
 ket bai         : 107-112
+
+== Mua xuan dau tien
+#    thay: linh-nhi | bai dai 113 o nhip
+#    da co: 1-8, 9-27, 28-45, 63-71, 46-62, 72-78, 79-102, 103-113
+#    kin 113 o
+the loai        : bolero
+dao dau         : 1-8
+phien khuc      : 9-27
+tien diep khuc  : x
+diep khuc       : 28-45
+giang tau       : 63-71
+phien khuc lap  : 46-62
+tien diep khuc lap: x
+diep khuc lap   : 72-78
+diep khuc nang tone: x
+phien khuc lap 2: 79-102
+diep khuc lap cao trao: x
+phien khuc lap 3: x
+diep khuc lap 2 : x
+ket bai         : 103-113
+
+== Rung La Thap
+#    thay: linh-nhi | bai dai 78 o nhip
+#    da co: 1-9, 10-25, 26-43, 44-66, 67-78
+#    kin 78 o
+the loai        : bolero
+dao dau         : 1-9
+phien khuc      : 10-25
+tien diep khuc  : x
+diep khuc       : 26-43
+giang tau       : x
+phien khuc lap  : 44-66
+tien diep khuc lap: x
+diep khuc lap   : x
+diep khuc nang tone: x
+phien khuc lap 2: x
+diep khuc lap cao trao: x
+phien khuc lap 3: x
+diep khuc lap 2 : x
+ket bai         : 67-78

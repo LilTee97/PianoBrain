@@ -12,6 +12,96 @@ Hợp âm = máy đoán từ LH. Tin sheet + tai. Bậc ghi theo **giọng sheet
 
 ---
 
+# ✅ BẢN TICK — đọc số, gật hoặc lắc
+
+Máy đã đo xong. Bạn **không phải nghĩ ra đáp án**, chỉ đánh `[x]` nếu tai đồng ý, hoặc để
+trống và ghi ý ngay dưới dòng. Cỡ mẫu ghi sau mỗi dòng.
+
+Chứng cứ đầy đủ nằm ở các mục bên dưới; ai muốn kiểm thì đọc xuống.
+
+---
+
+## T1. Vòng hợp âm — bốn phát hiện
+
+- [ ] **Giang tấu dùng LẠI vòng của đoạn dạo** — 3/4 bài có giang
+      *(Biển Tình y nguyên · Đừng Xa và Mùa xuân bỏ hợp âm đầu)*
+- [ ] **Đường xưa lối cũ là ngoại lệ duy nhất** — giang `I vi IV V`, không liên quan dạo — 1/4
+- [ ] **Ô cuối dạo và ô cuối giang đều là bậc V**, làm cửa vào hát — 3/3 bài đo được
+- [ ] **Hai bài giọng trưởng kết bằng bậc iv THỨ mượn** — `Fm` (Đường xưa ô 108),
+      `Cm6` (Mùa xuân ô 97) — 2/3 bài trưởng
+
+> **Nếu T1 dòng 1 đúng:** `interludeChordsForTeacher` của Linh Nhi trong KeyTrain đang
+> dựng **sai từ gốc** — app đóng cứng hai vòng khác nhau cho dạo và giang.
+
+`- Ý BẠN:`
+
+## T2. Bốn hằng số app đang lệch bản ký âm
+
+| | app đang đặt | 5 bài nói | lấy từ đâu ban đầu |
+| --- | --- | --- | --- |
+| `CUNG_GO` — RH bám mốc LH | **0.64** | **0.54** | Biển Tình, bài cao nhất trong năm |
+| liền bậc — dạo | **46%** | **31%** | chỉnh theo 2 bài |
+| liền bậc — giang | **54%** | **36%** | chỉnh theo 2 bài |
+| `NHAN_BAN` — RH nhân bản lớp LH | 0.36 | 0.34–0.42 | ✅ **đã khớp** |
+| chồng nốt ở ô thưa | **62%** | 20–34% | ô 1–2 Đừng Xa |
+
+- [ ] Hạ `CUNG_GO` 0.64 → **0.54**
+- [ ] Kéo liền bậc về **31% / 36%** *(núm: `CHUOI_MOI_O`, `CHUOI_NGAN`–`CHUOI_DAI`)*
+- [ ] Hạ chồng nốt ô thưa 62% → **~30%**
+- [ ] Giữ `NHAN_BAN = 0.36` — 5 bài xác nhận
+
+**Hoặc** giữ nguyên vì bạn *thích* nghe dày và bám hơn bản gốc — đó là lựa chọn phối khí
+hợp lệ, chỉ cần nói ra để ghi vào code là "ý người dùng", không phải "số đo".
+
+`- Ý BẠN:`
+
+## T3. Đoạn kết là một con vật khác
+
+| | dạo | giang | **kết** |
+| --- | --- | --- | --- |
+| LH mốc/ô | 5.9–7.7 | 6.1–7.7 | **2.1–6.7** (Mùa xuân 2.1 · Đường xưa 3.3) |
+| liền bậc | 31% | 36% | **21%** |
+| RH nhân bản lớp LH | 0.37 | 0.34 | **0.42** |
+
+Đoạn kết **buông bass ra**, tay phải rải quãng rộng, hai tay chồng lớp — tiếng dày lên
+trong khi nốt ít đi. Cách đóng bài, không phải cách mở bài.
+
+- [ ] Tách bộ số riêng cho đoạn kết, không dùng chung với đoạn dạo
+
+`- Ý BẠN:`
+
+## T4. Cỡ mẫu — đã đủ chưa
+
+- [ ] **3 trưởng / 2 thứ** (D, C, G / Dm, Am) — đủ cân để tách "khác vì giọng" khỏi
+      "khác vì bài". **Không cần thêm sheet cho việc này.**
+- [ ] Bài app *Để nhớ một thời ta đã yêu* là **giọng thứ (Am)**, nên chỉ mượn được vòng
+      của hai bài thứ: **Đừng Xa (Dm)** và **Rừng lá thấp (Am)**. Ba bài trưởng để dành
+      cho bài app giọng trưởng.
+
+`- Ý BẠN:`
+
+## T5. Rừng lá thấp — hai chuyện riêng
+
+- [ ] **Không có giang tấu** — bài duy nhất. Mà chọn Linh Nhi thì app **tự chèn** giang
+      vào mọi bài. Có cần lối "bỏ giang tấu" không?
+- [ ] Cắt ở ô 79 thì bài **kết trên `D` = bậc IV**, không đậu chủ âm. Chỗ đậu thật có
+      nằm trong đuôi 80–91 mà bạn bảo là dư không?
+
+`- Ý BẠN:`
+
+## T6. Còn treo
+
+- [ ] **Mùa xuân ô 114** vẫn hở. Kéo `kết` thành `103-114`, hay là phần dư?
+- [ ] **Mùa xuân ô 50 và 94** máy đọc hụt thành `Gb?`. Ô 85 và 98 nó đọc được là
+      `Gbdim`. Nếu cả bốn đều là `Gbdim` thì đó là bậc vii° dùng **bốn lần một bài** —
+      đủ thành một nét. Mở MuseScore xác nhận giúp.
+- [ ] **Cửa lời** — mục G bên dưới còn hơn 30 dòng trống. Chỉ bạn làm được (phải nhìn
+      lời trên sheet), và mọi phép đo khác đứng trên nó.
+
+`- Ý BẠN:`
+
+---
+
 # 0. Phạm vi
 
 | bài | file | ô | giọng | bằng chứng |
@@ -95,17 +185,25 @@ Mọi bảng dưới đây đọc thẳng từ `<harmony>` trong file, kèm bậ
 
 ## A.3 Ba nét lộ ra khi đọc ký hiệu thật
 
-**1 · Dạo và giang DÙNG CHUNG một vòng — 3 trên 4 bài có giang.**
+**1 · Dạo và giang KHÔNG dùng chung vòng. ĐÃ SỬA — kết luận cũ sai.**
 
-| bài | quan hệ |
-| --- | --- |
-| Biển Tình | giang = dạo **y nguyên**, chỉ thêm `A` (V) ở ô cuối làm cửa vào hát |
-| Đừng Xa | giang = dạo **bỏ hợp âm đầu**, bắt từ ♭VII |
-| Mùa xuân | giang = dạo **bỏ hợp âm đầu**, bắt từ vi |
-| Đường xưa | giang **khác hẳn**: `I vi IV V` — bài duy nhất |
+Bản trước ghi "3/4 bài giang dùng lại vòng của dạo". **Sai**, và sai vì một lỗi phương
+pháp: tôi so hai dãy KÝ HIỆU, mà ô không có ký hiệu thì bị bỏ khỏi phép so — trong khi ở
+những ô ấy **hợp âm trước vẫn đang vang**, và chúng thuộc về vòng.
 
-Đây là nét mạnh nhất phiếu này tìm được, và nó **ngược với thứ KeyTrain đang làm** — app
-đang đóng cứng hai vòng KHÁC NHAU cho dạo và giang.
+| bài | thứ bị bỏ sót | hệ quả |
+| --- | --- | --- |
+| Biển Tình | ô 52 (đầu giang) không có ký hiệu, đang vang **`D`** | giang mở bằng `D`, dạo mở bằng `Bm` — khác ngay ô đầu |
+| Mùa xuân | ô 63–64 không có ký hiệu, đang vang **`G`** | giang **THÊM** `G` ở đầu, không phải "bỏ hợp âm đầu" |
+| Đừng Xa | cùng xương, nhưng giang mở `Bbmaj7`, kết `D A` | dạo mở `Dm`, kết `Amaj7` — hai đầu đều khác |
+| Đường xưa | giang `I vi IV V` | khác hẳn dạo của chính nó |
+
+**Cả bốn bài: giang ≠ dạo.** Người dùng chốt: KeyTrain **giữ hai vòng riêng**.
+`interludeChordsForTeacher` không gộp với vòng dạo. Chỉ đổi phần **xử lý** (mật độ, tay
+phải), **không đổi xương vòng**.
+
+Bài học phương pháp: khi so vòng hợp âm giữa hai đoạn, **phải trải ký hiệu ra từng ô
+trước** — ô trống mang hợp âm của ô liền trước, và chính những ô ấy hay nằm ở đầu đoạn.
 
 **2 · Ô cuối đoạn dạo và đoạn giang đều là bậc V** — Biển Tình `A`, Đừng Xa `A`, Mùa xuân
 `D`. Cửa vào hát. Rừng lá thấp không có giang nên không kiểm được.

@@ -711,7 +711,7 @@
       "teacher": "linh-nhi",
       "genre": "bolero",
       "video": null,
-      "bars": 114,
+      "bars": 113,
       "sections": {
         "intro": {
           "bars": [
@@ -762,7 +762,8 @@
           ]
         }
       },
-      "confidence": "chua danh dau"
+      "confidence": "chua danh dau",
+      "note": "Sheet co 114 o nhip; o 114 trong, la phan du. Ket giu 103-113."
     },
     {
       "file": "Rung La Thap-Linh Nhi.mxl",
@@ -770,7 +771,7 @@
       "teacher": "linh-nhi",
       "genre": "bolero",
       "video": null,
-      "bars": 79,
+      "bars": 78,
       "sections": {
         "intro": {
           "bars": [
@@ -799,12 +800,12 @@
         "outro": {
           "bars": [
             67,
-            79
+            78
           ]
         }
       },
       "confidence": "chua danh dau",
-      "note": "Sheet co 91 o nhip; bai ket o o 79, o 80-91 la phan du khong tinh vao bai (nguoi dung xac nhan)."
+      "note": "Sheet co 91 o nhip; nguoi dung cat bai o o 78, o 79-91 la phan du."
     }
   ]
 }
