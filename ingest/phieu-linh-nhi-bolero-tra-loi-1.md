@@ -84,6 +84,11 @@ Cột **ghi chú** là chữ của người dùng, giữ nguyên. Đây là th�
 **Ghi chú kèm theo**
 
 - T5: cắt ở ô 78
+- **T5.1 — cách hiểu đúng:** *"Nếu Rừng Lá Thấp không có giang thì không học giang tấu từ
+  Rừng Lá Thấp thôi, chứ không có lối bỏ giang tấu."* Dòng tick ấy gộp hai chuyện: một
+  **sự thật về nguồn** (bài không có giang) và một **đề nghị tính năng** (app cần lối bỏ
+  giang). Người dùng gật cái đầu, không gật cái sau. **Không có việc gì phải làm trong
+  code** — bài không có dữ liệu giang thì tự nó không góp vào phép đo giang
 - T6: ô 114 Mùa Xuân trống — phần dư, giữ kết 103–113, không kéo 114
 - Ô 50/85/94/99 = `F#ø7` (`Gbm7b5`) → `G`, **không phải `Gbdim`**; ô 98 = `G`. Nét viiø/IV → IV
 - Cửa lời (Phần 1) làm trước
@@ -208,3 +213,67 @@ khác. Biển Tình ô 52 và Mùa xuân ô 63–64 đều thế.
 liền trước, rồi mới đặt hai dãy cạnh nhau.
 
 Đã sửa vào `phieu-linh-nhi-bolero.md` mục A.3 và `KHUNG-HOI-THAY.md` mục 3.d.
+
+---
+
+# 8. Vòng 2 — mô phỏng giang tấu, đệm hát, nút Solo
+
+Người dùng giao năm việc. Hai việc **đã có phiên khác làm xong**, không dựng lại:
+
+- *(4) mô phỏng lick và run* và *(5) nút Fill/Run Linh Nhi* — `src/reharm/licky/linhNhiPhrases.ts`
+  chứa 8 câu rút từ mục D; `licky/types.ts` thêm `fromRoot`/`book`/`lockShape`;
+  `soloGenerator.ts` nhận cờ `linhNhiFills` / `linhNhiRuns`; `ReharmHome.tsx` có state.
+
+## 8.1 Tiết tấu đệm phần hát — ĐO XONG
+
+Con số là **tỉ lệ mốc gõ có từ 2 nốt tay trái trở lên**.
+
+| bài | verse | điệp | LH mốc/ô verse → điệp |
+| --- | --- | --- | --- |
+| **Đường xưa lối cũ** | 18% | **76%** | 8.3 → 8.3 |
+| **Rừng lá thấp** | 24% | **67%** | 7.4 → 8.7 |
+| Mùa xuân đầu tiên | 22% | 32% | 7.4 → 6.8 |
+| Đừng Xa | 14% | 16% | 5.7 → 5.2 |
+| Biển Tình | 2% | 5% | 8.0 → 8.3 |
+
+**Hai bài đổi tiết tấu ở điệp khúc, ba bài không.** Và chỗ quan trọng: **số mốc gõ gần
+như không đổi** — điệp khúc không dày thêm theo THỜI GIAN mà dày theo CHIỀU DỌC. Tay trái
+đổi từ nốt đơn sang **bấm hợp âm** trên đúng những mốc cũ.
+
+Khớp với mục B.4 của phiếu (tay phải xen đệm ở điệp khúc) — **đúng hai bài ấy**. Một hiện
+tượng, không phải hai.
+
+**Ba cell tay trái, không phải một:**
+
+| nhóm | mốc gõ | bài |
+| --- | --- | --- |
+| chín cú gõ | `0 · .5 · .75 · 1 · 1.5 · 2 · 2.5 · 3 · 3.5` | Biển Tình, Đường xưa, Mùa xuân |
+| thưa | ~5,7 mốc, **không có .75** | Đừng Xa |
+| lệch | có **2.75** thay cho .75 | Rừng lá thấp |
+
+Cỡ mẫu cho "điệp dày theo chiều dọc" là **n = 2**. Theo ngưỡng ở mục 0 của khung, n = 2
+chưa tách được "phong cách thầy" khỏi "bài này thầy chơi vậy" — nên nó phải là **lựa chọn
+bật/tắt**, chưa được thành mặc định.
+
+## 8.2 LUẬT GỐC — đổi mật độ theo CHIỀU DỌC
+
+Ba chỗ độc lập, cùng một cách làm:
+
+1. Ô thưa của câu dạo: tay phải **chồng nốt** (2,25 nốt/mốc so với 1,1), số mốc giữ nguyên
+2. Điệp khúc hai bài trên: tay trái **bấm hợp âm** thay nốt đơn, số mốc giữ nguyên
+3. Ô dồn áp chót câu dạo: tay trái chồng bè ở nửa sau ô, tay phải rút còn 4 nốt
+
+**Muốn dày thì chồng nốt, không thêm cú gõ.** Đây là thứ đáng đưa lên hàng luật của thầy.
+
+## 8.3 Giang tấu — TẠM DỪNG, chờ thêm sheet giọng thứ
+
+| giọng | vòng giang có được |
+| --- | --- |
+| trưởng | **ba** — Biển Tình `I ǀ vi iii ii I · vi ii iii II · I · V` · Đường xưa `I vi IV V · I ii V vi` · Mùa xuân `I vi iii V ii I iii V I V` |
+| thứ | **một** — Đừng Xa `♭VII ♭VI ♭III iv · i V · V7 · ♭VI vi` |
+
+Rừng lá thấp là bài thứ thứ hai nhưng không có giang tấu. Bài app giọng thứ sẽ luôn nhận
+đúng một vòng, không luân phiên được.
+
+**Người dùng chọn: đi kiếm thêm sheet bolero giọng thứ trước.** Không mượn vòng trưởng đổi
+sang thể thứ — làm vậy là phá luật §7 của khung ("không đắp vòng trưởng lên bài thứ").

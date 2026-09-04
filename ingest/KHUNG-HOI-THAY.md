@@ -13,8 +13,21 @@ dùng chỉ gật hoặc lắc. Câu hỏi mở đẩy việc suy nghĩ sang h�
 Đừng:  | Mở bằng i / I / V / khác? |                       |
 Nên:   [ ] Dạo mở bằng bậc vi — 4/5 bài
        [ ] Ô cuối dạo là bậc V, làm cửa vào hát — 3/3 bài đo được
-       [ ] Giang dùng LẠI vòng của dạo — 3/4 bài
 ```
+
+**MỘT DÒNG TICK = MỘT KHẲNG ĐỊNH.** Đừng gộp một **sự thật về bản ký âm** với một **đề
+nghị làm gì trong app** vào cùng một dòng — người dùng gật thì không biết họ gật vế nào.
+
+```
+Đừng:  [ ] Rừng lá thấp không có giang tấu — bài duy nhất.
+           Mà app tự chèn giang vào mọi bài. Cần thêm lối "bỏ giang tấu".
+
+Nên:   [ ] Rừng lá thấp không có giang tấu — 1/5 bài          ← sự thật
+       [ ] Vậy app cần thêm lối "bỏ giang tấu"                 ← đề nghị
+```
+
+Đã sập một lần: người dùng tick dòng gộp ấy, tôi hiểu thành "duyệt làm tính năng", còn ý
+họ chỉ là "đúng, bài ấy không có giang — nên đừng học giang từ nó".
 
 **Luật 3 thầy (đã chốt, mọi phiếu):**
 - Đoạn **hát** (phiên / điệp / tiền điệp): RH = **giọng ca**.

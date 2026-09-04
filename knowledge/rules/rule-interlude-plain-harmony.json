@@ -57,6 +57,6 @@
     "enforced_by": "KeyTrain src/reharm/style/interludeChords.ts"
   },
   "origin": "derived",
-  "status": "draft",
-  "note_vi": "Giang tấu là chỗ ngẫu hứng, tai người nghe bám vào đường giai điệu chứ không bám vào màu hợp âm. Chồng add9, 6/9, 13 hay hợp âm giảm lên nền solo thì nốt ngoài giọng nhiều tới mức câu chạy nghe lạc, và người đệm mất chỗ tựa. Lấy đúng vòng gốc, để màu cho phần có lời. Suy từ nguyên lý chung, chưa có bài giảng nào trong kho nói thẳng điều này — chưa được gán cho thầy nào."
+  "status": "rejected",
+  "note_vi": "BỊ SỐ ĐO LẬT — 4/9/2026. Luật này suy từ nguyên lý chung, đặt lúc kho chưa có bản ký âm của thầy nào. Đo bảy bản ký âm Linh Nhi (3 trưởng, 4 thứ), đếm chất hợp âm và tách theo đoạn: đoạn KHÔNG LỜI giữ 105 hợp âm trơn / 30 có màu = 78% trơn; đoạn CÓ LỜI giữ 417 / 125 = 77% trơn. Tỉ lệ y hệt nhau — thầy KHÔNG rút hợp âm đoạn không lời về chất cơ bản. Sai chi tiết hơn nữa: luật này CHẶN dim, 6, m6 và 9, mà đoạn solo của thầy có diminished 5 lần, m6 2 lần, dominant-9th 1 lần; ngược lại nó CHO PHÉP maj7, đúng cái duy nhất thầy tránh — maj7 gặp 20 lần ở đoạn hát và 0 lần trong 30 hợp âm màu của đoạn solo. Chỗ thi hành trong KeyTrain (cờ plain / plainChords) đã bị xoá; xem rule-linh-nhi-solo-giu-mau. Nguyên văn cũ: Giang tấu là chỗ ngẫu hứng, tai người nghe bám vào đường giai điệu chứ không bám vào màu hợp âm. Chồng add9, 6/9, 13 hay hợp âm giảm lên nền solo thì nốt ngoài giọng nhiều tới mức câu chạy nghe lạc, và người đệm mất chỗ tựa. Lấy đúng vòng gốc, để màu cho phần có lời. Suy từ nguyên lý chung, chưa có bài giảng nào trong kho nói thẳng điều này — chưa được gán cho thầy nào."
 }

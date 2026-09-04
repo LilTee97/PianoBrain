@@ -1,0 +1,48 @@
+{
+  "id": "rule-linh-nhi-solo-giu-mau",
+  "type": "rule",
+  "name": "Đoạn không lời giữ nguyên bảng màu hợp âm của bài, chỉ tránh maj7",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Chọn hợp âm cho đoạn dạo đầu, giang tấu hoặc kết bài",
+    "Đang cân nhắc có nên rút hợp âm về chất cơ bản cho đoạn không lời không"
+  ],
+  "avoid_when": [
+    "Thầy khác chưa đo — số này rút từ bảy bản ký âm Linh Nhi, chưa kiểm ở Cà Pháo hay Tôn Hùng",
+    "Người dùng cố ý muốn đoạn solo mộc hơn bài"
+  ],
+  "input": {
+    "do_tren": "7 ban ky am Linh Nhi (3 truong, 4 thu), 135 hop am doan khong loi va 542 hop am doan hat",
+    "ti_le_hop_am_tron": {
+      "doan_khong_loi": "105/135 = 78%",
+      "doan_hat": "417/542 = 77%"
+    },
+    "chat_mau_o_doan_solo": {
+      "m7": 12,
+      "dim": 5,
+      "sus4": 4,
+      "dom7": 4,
+      "m6": 2,
+      "dom9": 1,
+      "maj7": 0
+    },
+    "chat_mau_o_doan_hat": {
+      "m7": 43,
+      "dom7": 37,
+      "maj7": 20,
+      "dim": 8,
+      "sus4": 5,
+      "m6": 5
+    }
+  },
+  "output": {
+    "if": "dang chon hop am cho doan dao / giang / ket",
+    "then": "giu nguyen bang mau hop am cua bai, KHONG rut ve chat co ban",
+    "note": "Ngoai le duy nhat do duoc: bo maj7 ve hop am ba truong. Neu ti le maj7 hai doan bang nhau thi xac suat ra 0 tren 30 hop am mau la duoi 1%.",
+    "enforced_by": "KeyTrain src/reharm/style/vonHopAmLinhNhi.ts"
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Thay the rule-interlude-plain-harmony, item ay da bi danh dau rejected vi so do lat. Do tu not tren ban ky am, KHONG phai loi thay noi — nen origin la derived va status la draft, cho nguoi dung ra. Chua gan cho thay nao trong truong source."
+}
