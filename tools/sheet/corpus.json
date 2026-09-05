@@ -1,5 +1,30 @@
 {
   "_doc": "Ban ky am trong video/{thay}/. The loai do NGUOI DUNG xac nhan, khong suy tu file.",
+  "_de_sau": {
+    "_doc": "Co file trong video/ nhung CO Y chua nap vao corpus. Nguoi dung se hoc ca nhom nay sau. Dung bao la \"bo quen\".",
+    "sheets": [
+      {
+        "file": "Tuyet roi-Linh Nhi.mxl",
+        "ly_do": "nguoi dung xep rieng, khong dua vao md de hoc",
+        "teacher": "linh-nhi"
+      },
+      {
+        "file": "Sao anh chua ve-Ca Phao.mxl",
+        "ly_do": "chua chia doan; xep rieng, hoc sau cung Tuyet Roi",
+        "teacher": "ca-phao"
+      },
+      {
+        "file": "Papa- Linh Nhi.mxl",
+        "ly_do": "de sau, hoc chung voi Tuyet Roi",
+        "teacher": "linh-nhi"
+      },
+      {
+        "file": "yeu-la-tha-thu.mxl",
+        "ly_do": "KHONG co mot ky hieu hop am nao trong ca 85 o nen khong suy duoc giong; nguoi dung chot de sau, hoc chung voi Tuyet Roi",
+        "teacher": "ca-phao"
+      }
+    ]
+  },
   "_bien_doan": "Số ô nhịp ở đây là kết quả quy đổi từ mốc thời gian video, ĐÃ ĐỐI CHIẾU BẰNG TAY. Việc quy đổi cần phán đoán (đoạn rubato phải neo riêng, bài không có outro thì thiếu mốc cuối, nhịp độ có chỗ nhập nhằng nửa nhịp), nên chốt kết quả ở đây thay vì để máy tính lại mỗi lần.",
   "songs": [
     {
@@ -56,7 +81,10 @@
         }
       },
       "confidence": "rat cao - nguoi dung doc thang so o nhip tren ban ky am, thay cho ban quy doi tu moc thoi gian video.",
-      "teacher": "ca-phao"
+      "teacher": "ca-phao",
+      "giong": "Do truong",
+      "giong_nguon": "nguoi-dung-xac-nhan",
+      "giong_ghi_chu": "moi doan ket ve C; D7 o cuoi bai la vong quay lai, khong phai chu am."
     },
     {
       "file": "nguoihayquenemdi.mxl",
@@ -112,85 +140,11 @@
         }
       },
       "confidence": "rat cao - nguoi dung doc thang so o nhip tren ban ky am, thay cho ban quy doi tu moc thoi gian video.",
-      "teacher": "ca-phao"
-    },
-    {
-      "file": "yeu-la-tha-thu.mxl",
-      "name": "Yêu là tha thứ",
-      "genre": "ballad",
-      "video": null,
-      "bars": 85,
-      "sections": {
-        "intro": {
-          "bars": [
-            1,
-            9
-          ]
-        },
-        "verse": {
-          "bars": [
-            10,
-            25
-          ]
-        },
-        "prechorus": {
-          "bars": [
-            26,
-            33
-          ]
-        },
-        "chorus": {
-          "bars": [
-            34,
-            51
-          ]
-        },
-        "prechorus_2": {
-          "bars": [
-            52,
-            59
-          ]
-        },
-        "chorus_2": {
-          "bars": [
-            60,
-            78
-          ]
-        },
-        "outro": {
-          "bars": [
-            79,
-            84
-          ]
-        }
-      },
-      "confidence": "chưa có mốc thời gian — chỉ dùng được cho số đo toàn bài",
-      "teacher": "ca-phao"
-    },
-    {
-      "file": "mo.mxl",
-      "name": "Mơ",
-      "genre": "slow rock 4/4",
-      "video": "0w-M67gPlfA",
-      "bars": 79,
-      "sections": {
-        "intro": {
-          "time": "00:07-00:23",
-          "bars": [
-            1,
-            10
-          ]
-        },
-        "interlude": {
-          "time": "01:57-02:14",
-          "bars": [
-            67,
-            77
-          ]
-        }
-      },
-      "confidence": "thấp — không có outro nên thiếu mốc cuối để neo, và nhịp độ nhập nhằng nửa nhịp (72 hay 144). Bài này là slow rock nhịp 4/4, không phải nhịp kép 6/8: đo ra 98% nốt chùm hai, 0% chùm ba",
-      "teacher": "ca-phao"
+      "teacher": "ca-phao",
+      "giong": "Re thu",
+      "giong_nguon": "sheet-ro-rang",
+      "giong_ban_thu": "Si giang thu (Chordify doc tu audio YouTube)",
+      "giong_ghi_chu": "SHEET va BAN THU LECH NHAU DUNG 4 NUA CUNG (mot quang 3 truong). Sheet: Dm11 Gm9 A11 Em7b5 FM7 BbM7, ket DM9 — 114 ky hieu, khong cho nao mo ho. Chordify doc audio ra: F7 Bbm Ebm F. Anh xa Bbm->Dm, Ebm->Gm, F->A deu +4. KHONG phai Chordify doan sai kieu ngau nhien — lech co he thong. Bang chung nghieng ve phia SHEET la ban choi duoc: dich xuong 4 nua cung thi not thap nhat tay trai thanh midi 22 (Bb0, phim thu hai tu duoi cua dan 88 phim) — khong ai dem bolero o day. Nen kha nang cao AUDIO tren YouTube da bi ha cao do, hoac sheet la ban soan lai o giong khac. CHUA XAC DINH DUOC ben nao da doi. Moi phep do hien tai chay tren SHEET nen dung giong sheet."
     },
     {
       "file": "bien-tinh-linh-nhi-piano.mxl",
@@ -243,7 +197,9 @@
         }
       },
       "confidence": "rat cao — nguoi dung doc thang so o nhip tren ban ky am, khong qua buoc quy doi tu moc thoi gian. Doi chieu duoc voi moc ket cau cua chinh ban nhac: dau lap lai quay dau o o 27, khung 1 mo o o 51, dau lap lai dong o o 61, khung 2 o o 62. Bien 'giang tau het o o 61' khop chinh xac voi cho dau lap lai dong.",
-      "teacher": "linh-nhi"
+      "teacher": "linh-nhi",
+      "giong": "Re truong",
+      "giong_nguon": "md-linh-nhi"
     },
     {
       "file": "Co Em Cho-Ca Phao.mxl",
@@ -299,10 +255,15 @@
           "bars": [
             66,
             72
-          ]
+          ],
+          "giong": "Do thang thu",
+          "giong_ghi_chu": "DOAN NAY CHUYEN GIONG. Ca bai o Mi giang truong nhung outro sang Do thang thu (= Re giang thu): hop am Dbm7 B13 Gbm7 Abm7 E. Do bang gam Mi giang thi ra 63% not ngoai gam (32/51) — mot minh doan nay chiem hon 1/3 so not ngoai gam CUA CA KHO. Do bang Do thang thu thi con 2%."
         }
       },
-      "confidence": "chua danh dau"
+      "confidence": "chua danh dau",
+      "giong": "Mi giang truong",
+      "giong_nguon": "nguoi-dung-xac-nhan",
+      "giong_ghi_chu": "phan chinh Mi giang truong. CHUYEN GIONG o chorus_mod va outro sang vung Mi truong (C#m F#m B E) — doan outro KHONG con o Eb."
     },
     {
       "file": "Ngay mai em di-Ca Phao.mxl",
@@ -355,7 +316,10 @@
           ]
         }
       },
-      "confidence": "chua danh dau"
+      "confidence": "chua danh dau",
+      "giong": "Mi giang truong",
+      "giong_nguon": "nguoi-dung-xac-nhan",
+      "giong_ghi_chu": "DAU HOA TRONG FILE SAI: ghi 2 giang (Bb) nhung toan bo hop am dieu thuoc Eb truong (Eb Fm Gm Ab Bb Cm). Moi doan mo bang Eb ket bang Bb, ca bai ket Eb."
     },
     {
       "file": "Dung Xa Em Dem Nay-Linh Nhi.mxl",
@@ -402,7 +366,9 @@
           ]
         }
       },
-      "confidence": "chua danh dau"
+      "confidence": "chua danh dau",
+      "giong": "Re thu",
+      "giong_nguon": "md-linh-nhi"
     },
     {
       "file": "La Thư Tran The-Linh Nhi.mxl",
@@ -467,7 +433,9 @@
           ]
         }
       },
-      "confidence": "chua danh dau"
+      "confidence": "chua danh dau",
+      "giong": "Re thu",
+      "giong_nguon": "md-linh-nhi"
     },
     {
       "file": "Mot Coi Di Ve-Linh Nhi.mxl",
@@ -532,7 +500,9 @@
           ]
         }
       },
-      "confidence": "chua danh dau"
+      "confidence": "chua danh dau",
+      "giong": "Sol thu",
+      "giong_nguon": "md-linh-nhi"
     },
     {
       "file": "Chiec La Mua Dong-Ton Hung.mxl",
@@ -591,7 +561,10 @@
           ]
         }
       },
-      "confidence": "chua danh dau"
+      "confidence": "chua danh dau",
+      "giong": "Sol thu",
+      "giong_nguon": "nguoi-dung-xac-nhan",
+      "giong_ghi_chu": "Chordify bao Bb TRUONG — nham giong SONG SONG, khong phai dich giong (Chordify liet Gm Ebmaj7 F Bb, dung cung cao do voi sheet). Nguoi dung chot giu Sol thu sau khi 2 sheet Linh Nhi (Mua Xuan Dau Tien, Rung La Thap) kiem ra khong bi dich giong. Bang chung: Am7b5->D7->Gm x6 (ii-V-i), D7 x8 luon giai ve Gm/Cm ma D7 chua F# khong thuoc Bb truong, ket bai Gm, mo bai Eb-F-Gm, Gm x23 so Bb x11."
     },
     {
       "file": "Tinh Em La Dai Duong-Ton Hung.mxl",
@@ -650,7 +623,10 @@
           ]
         }
       },
-      "confidence": "chua danh dau"
+      "confidence": "chua danh dau",
+      "giong": "La thu",
+      "giong_nguon": "nguoi-dung-xac-nhan",
+      "giong_ghi_chu": "moi doan deu ket ve Am; khong co mot hop am E truong nao -> thu TU NHIEN (Aeolian)."
     },
     {
       "file": "Duong Xua Loi Cu-Linh Nhi.mxl",
@@ -703,7 +679,9 @@
           ]
         }
       },
-      "confidence": "chua danh dau"
+      "confidence": "chua danh dau",
+      "giong": "Do truong",
+      "giong_nguon": "md-linh-nhi"
     },
     {
       "file": "Mua xuan dau tien-Linh Nhi.mxl",
@@ -763,7 +741,9 @@
         }
       },
       "confidence": "chua danh dau",
-      "note": "Sheet co 114 o nhip; o 114 trong, la phan du. Ket giu 103-113."
+      "note": "Sheet co 114 o nhip; o 114 trong, la phan du. Ket giu 103-113.",
+      "giong": "Sol truong",
+      "giong_nguon": "md-linh-nhi"
     },
     {
       "file": "Rung La Thap-Linh Nhi.mxl",
@@ -805,7 +785,10 @@
         }
       },
       "confidence": "chua danh dau",
-      "note": "Sheet co 91 o nhip; nguoi dung cat bai o o 78, o 79-91 la phan du."
+      "note": "Sheet co 91 o nhip; nguoi dung cat bai o o 78, o 79-91 la phan du.",
+      "giong": "La thu",
+      "giong_nguon": "md-linh-nhi"
     }
-  ]
+  ],
+  "_doc_giong": "Truong/thu KHONG co trong file MusicXML (khong file nao ghi <mode>). giong_nguon = md-linh-nhi (chep tu bang trong knowledge/teachers/linh-nhi-piano.md, nguoi dung da xac nhan) hoac nguoi-dung-xac-nhan (nguoi dung doi chieu voi Chordify) hoac suy-tu-ket-doan (suy tu hop am ket cua tung doan + hop am hay dung; CHUA duoc nguoi dung xac nhan). KHONG suy bang dau hoa cua not: cac ban nay ky am tu dong tu MIDI, cach viet thang/giang chay theo bo dau hoa chu khong theo chuc nang — thu nghiem tren 7 bai da biet thi sai 5. Mot so DOAN co truong \"giong\" rieng de bao doan ay chuyen giong — khi do phai lay giong cua doan, khong lay giong cua bai."
 }

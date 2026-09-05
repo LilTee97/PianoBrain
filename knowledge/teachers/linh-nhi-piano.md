@@ -13,6 +13,215 @@ Mỗi mục ghi rõ **cỡ mẫu**. Chỗ nào là số đo, chỗ nào là suy 
 
 ---
 
+## NGUYÊN TẮC — câu solo là thứ được SOẠN
+
+Người dùng chốt, áp cho **KeyTrain, PianoBrain, file này và mọi thầy sau này**:
+
+> *"Các câu solo giờ là phải soạn ra để chơi chứ không sinh ngẫu nhiên nữa, bộ sinh hãy
+> sửa thành bộ soạn."*
+
+### Soạn dựa trên cái gì
+
+Không soạn tuỳ ý. Soạn theo **tư duy của thầy, rút từ bản ký âm của chính thầy ấy** —
+bốn trục, và cả bốn đều đã có số đo trong file này:
+
+| trục | mục |
+|---|---|
+| cách chọn **vòng hợp âm** | mục 2 · mục 8 |
+| cách **hoà hợp hai tay** | mục 3 · mục 4 |
+| cách chọn **tuyến giai điệu** | mục 5 · mục 7 · mục 9 |
+| các **tiết tấu** | mục 10 · mục 11 |
+
+Thầy nào có sheet thì học từ sheet của thầy ấy. **Không có số đo thì không đặt luật.**
+
+### "Ngẫu hứng" cũng là soạn
+
+Người dùng đính chính một chữ chính họ từng dùng:
+
+> *"Các câu giang tấu lúc trước tôi nói ngẫu hứng là do tôi chưa đưa khái niệm ngẫu hứng
+> là phải làm thế nào. Ngẫu hứng trong giang tấu thực ra là cũng phải soạn."*
+
+Nên đừng đọc chữ **"ngẫu hứng"** trong các ghi chép cũ của file này là "được phép bốc
+thăm". Nó chỉ có nghĩa là câu không lặp y hệt câu dạo — mà vẫn phải soạn.
+
+Chỗ nào trong file còn viết "ngẫu hứng" theo nghĩa cũ thì đọc lại theo nghĩa này.
+
+### Ba bước, đi đúng thứ tự
+
+1. **Học** tư duy của thầy từ sheet
+2. **Mô phỏng** cho ra đúng lối của thầy ấy
+3. **Sáng tạo** trên nền tảng đã mô phỏng được
+
+Không nhảy cóc sang bước 3 khi bước 2 chưa đạt.
+
+Đích cho **đoạn dạo**: soạn sáng tạo được **những câu khác nhau trên những bài khác
+nhau** — không dán lại một câu có sẵn, cũng không bốc thăm. **Giang tấu làm sau**, sau
+khi đoạn dạo đạt.
+
+### Tất định KHÔNG có nghĩa là đã soạn
+
+Hai chuyện khác nhau, rất dễ nhầm.
+
+Trong KeyTrain **không có `Math.random` ở đâu cả** — mọi thứ tất định theo lượt phát,
+cùng một lượt thì ra cùng một câu. Nhưng nhiều chỗ vẫn dùng **hàm băm thay cho xúc xắc**:
+gieo một số rồi so với ngưỡng để quyết có chồng nốt không, có nhân bản không, lấy cao độ
+nào. Đó vẫn là **sinh bằng xúc xắc**, chỉ là con xúc xắc cố định.
+
+Chỗ đã đúng tinh thần soạn: bộ ghép câu dạo chọn **ô nhịp có thật** từ bản ký âm theo bậc
+hợp âm và phép nối giọng — hàm băm ở đó chỉ phá thế hoà giữa các ứng viên ngang điểm,
+không dùng để bịa nốt.
+
+**Phép thử một dòng:** *nốt này đến từ đâu?* Trả lời được bằng **"ô số mấy của bản ký âm
+nào"** thì là soạn. Trả lời **"một số ngẫu nhiên nhỏ hơn ngưỡng"** thì chưa.
+
+### Chữ dùng trong mã đã đổi theo
+
+KeyTrain đã đổi **91 chỗ trong 29 file**: `bộ sinh` → **`bộ soạn`**, `sinh nốt` → **`soạn
+nốt`**, `sinh câu` → **`soạn câu`**.
+
+Giữ nguyên `sinh ra` — đó là tiếng Việt thường ("làm nảy ra"), không phải tên của bộ máy.
+
+---
+
+## LUẬT SOẠN NỐT — số của riêng Linh Nhi
+
+Luật đầy đủ, gộp ba thầy, nằm ở **`knowledge/LUAT-SOAN-NOT.md`**. Luật ấy **không thuộc
+riêng thầy nào**: người dùng chốt rằng luật chống chói tai thì ai cũng phải theo, nên
+riêng chỗ đó **được phép gộp số đo mọi thầy**. Mục này chỉ giữ **số của riêng chị**, để
+đối chiếu.
+
+Đo **7 câu dạo · 354 nốt · 347 bước**, lấy nốt cao nhất mỗi mốc gõ ở khuông tay phải.
+
+### Chị ấy KHÔNG bao giờ rải nốt bừa
+
+| | Linh Nhi · cả solo | Linh Nhi · chỉ câu dạo | gộp 3 thầy |
+|---|---|---|---|
+| số nốt giai điệu | 1045 | 390 | 2169 |
+| nốt của chính hợp âm đang vang | **63,6%** | **67,7%** | 67,7% |
+| **ngoài gam** | **1,8%** | **1,0%** | 2,8% |
+
+**98,2% nốt nằm trong gam của bài**, riêng câu dạo là **99,0%** — chặt hơn hẳn mức gộp
+(97,2%).
+
+> **Số cũ 67,8% / 2,0% đã sửa** sau khi vá bảng chất hợp âm và ghi giọng từng bài vào
+> `corpus.json`. Cột "cả solo" là con số mới; cột "chỉ câu dạo" mới là chỗ so được với số
+> cũ.
+>
+> **Và một chỗ chị ấy KHÁC hai thầy kia.** Luật chung từng ghi tỉ lệ nốt hợp âm "giống
+> nhau ở cả ba thầy" — sai. Linh Nhi **63,6%**, Cà Pháo 70,8%, Tôn Hưng 73,0%. Chị bám hợp
+> âm **lỏng nhất trong ba người**: gần **bốn trên mười** nốt của chị nằm ngoài hợp âm đang
+> vang mà vẫn trong gam. Soạn theo chị thì đừng siết về phía nốt hợp âm như hai thầy kia.
+
+Con số này **vững trước cách đo**: đổi phép rút nốt ở mốc có hai nốt sát nhau thì nó chỉ
+xê dịch 2,0% ↔ 2,2%. Xem mục "Cụm nghiến" trong `knowledge/LUAT-SOAN-NOT.md`.
+
+### Bước đi
+
+| bước | Linh Nhi | gộp |
+|---|---|---|
+| lặp lại nốt cũ | 10,7% | 11,5% |
+| liền bậc (1–2 nửa cung) | **33,7%** | 34,0% |
+| quãng ba (3–4) | 24,5% | 21,0% |
+| quãng 4–5 | 12,1% | 16,1% |
+| nhảy xa (8+) | 19,0% | 17,4% |
+
+**44% đứng yên hoặc bước liền bậc; 69% không quá quãng ba.** Nhóm 8+ phần lớn là đổi
+quãng tám chứ không phải nhảy trong câu.
+
+### Cặp bậc hay đứng cạnh nhau
+
+`1→1` 6,0% · `♭3→♭3` 4,0% · `1→♭3` 3,3% · `5→1` 3,3% · `9→1` 3,3% · `5→♭7` 3,3% ·
+`♭7→5` 3,3% · `1→♭7` 3,0% · `♭7→1` 3,0% · `♭3→1` 3,0%
+
+Đọc ra: chị đi quanh **`1 · ♭3 · 5 · ♭7 · 9`**, và cặp `5 ↔ ♭7` đi lại cả hai chiều. Phân
+bố rất **phẳng** — không cặp nào chiếm ưu thế, nghĩa là **không có bảng "bậc nào sau bậc
+nào" cứng**. Luật thật nằm ở chỗ khác: mọi nốt phải trong gam, hai phần ba là nốt hợp âm,
+và bước phần lớn nhỏ.
+
+### Một chỗ luật chung KHÔNG áp được cho chị
+
+Luật chung nói *"nhảy thì ưu tiên đáp vào nốt hợp âm"* — gộp ba thầy ra 66% sau cú nhảy
+so với 56% sau bước liền bậc.
+
+Ở riêng Linh Nhi thì **hai con số gần bằng nhau: 67% và 69%**. Nghĩa là với chị, luật ấy
+**không phân biệt được gì** — cả đường câu vốn đã nặng nốt hợp âm, không riêng chỗ đáp
+sau cú nhảy.
+
+Nên đừng dựng luật "nhảy thì đáp" cho chị. Dựng luật **"cả câu luôn sống trong khung hợp
+âm cộng gam"** thì đúng hơn, và nó đã là luật 1 và luật 2.
+
+### Bẫy đo đã sập ở đây
+
+Lần đầu tôi lấy **gam thứ tự nhiên làm gam duy nhất** của giọng thứ, và ra 4,3% ngoài gam
+với 38% trong số đó "nhảy cả hai bên" — nghe như các thầy rải bừa.
+
+Sai: **nốt cảm** (bậc 7 thăng) là chuẩn mực của giọng thứ chứ không phải nốt ngoài gam.
+Tính cả nốt cảm và bậc 6 thăng thì còn **3,1%** gộp và **2,0%** riêng chị. Xem luật 6
+trong file luật chung.
+
+**Bẫy thứ hai, cùng dạng.** Ký hiệu `¹` `²` trong bản xuất MusicXML là **thể đảo**, không
+phải chất hợp âm — `C¹/E` chính là `C/E`. Bộ đọc từng để nó rơi về hợp âm ba trưởng mặc
+định, may là chất thật đúng bằng cái mặc định ấy nên **số đo không đổi**. Chỉ có 14 chỗ,
+toàn trong sheet **Hồng Kông 1 của Cà Pháo**, không sheet Linh Nhi nào dùng lối ghi này —
+nên chỗ này không đụng tới con số của chị. Chi tiết trong file luật chung.
+
+**Bẫy thứ ba, vẫn cùng dạng — và nó chạm vào sheet của chị.** `<degree>` (phần cộng thêm:
+`add9`, số 7 của `7sus4`, `b5`) bị bộ đọc bỏ qua, và `<kind>` không có thuộc tính `text`
+thì chất bị mất luôn. Trong sheet Linh Nhi có **11 chỗ**: Papa 6, Đừng Xa 5, Đường Xưa Lối
+Cũ 3, Lá Thư Trần Thế 3, Một Cõi 2. Số đo gần như không đổi (2 nốt trên 2081 toàn kho),
+nhưng **tên hợp âm thì sai** — Đừng Xa ô 57 đọc ra `Bb → Bm → Bb` trong khi thật là
+`Bbmaj7 → Bm7b5 → Bbmaj7`, và Một Cõi ô 60 đọc ra `D` trong khi thật là `Dsus4` treo trên
+`Cm6`.
+
+Cả ba bẫy cùng một hình dạng: **một nhãn máy không hiểu bị lặng lẽ quy về mặc định**, rồi
+tôi tưởng mình đã đọc xong. Gặp nhãn lạ thì phải mở ra xem, đừng để nó rơi.
+
+---
+
+## Từ dùng — đọc trước, kẻo hiểu lệch
+
+Người dùng nói bằng những chữ này. Chúng được dùng khắp file nhưng không định nghĩa ở
+đâu, nên ghi lại đây.
+
+| chữ | nghĩa | tên đoạn trong corpus |
+|---|---|---|
+| **câu solo** · **đoạn không lời** | chỗ ca sĩ không hát, piano nói một mình | `intro` · `interlude` · `outro` |
+| **dạo** | câu mở đầu bài | `intro` |
+| **giang tấu** | đoạn không lời giữa bài | `interlude` |
+| **kết** | đoạn không lời cuối bài | `outro` |
+| **phần hát** · **đoạn có lời** | ca sĩ hát, piano đệm | `verse` · `chorus` và các lượt lặp |
+| **phiên khúc** | | `verse`, `verse_2`, `verse_3`… |
+| **điệp khúc** | | `chorus`, `chorus_2`, `chorus_climax` |
+
+Bảy sheet có **20 đoạn không lời** và các đoạn có lời còn lại.
+
+### Ba chỗ dễ lẫn
+
+**Câu fill KHÔNG phải câu solo.** Fill là cụm nốt ngắn tay phải chen vào **trong phần
+hát**, ở khe giữa các câu ca sĩ — 354 cụm đo được, 61% chỉ ba hoặc bốn nốt (mục 12). Câu
+solo là cả một đoạn không lời. Người dùng nói "câu solo" là nói đoạn; nói "fill" là nói
+cụm chen.
+
+**"Ô cửa" KHÔNG phải "đoạn kết".** Ô cửa là **ô cuối của đoạn dạo**, thưa hẳn ra để ca sĩ
+vào hát, và đứng trên bậc V. Đoạn kết là cả một đoạn không lời ở cuối bài.
+
+**"Đoạn không lời" KHÔNG đồng nghĩa "đoạn solo tự do".** Câu dạo là thứ được **soạn** —
+người dùng nói thẳng điều này. Chỗ ngẫu hứng thật sự là giang tấu.
+
+### Vì sao hai nhóm đoạn phải tách bạch
+
+Gần như mọi số đo trong file này đều **tách theo hai nhóm ấy**, vì hai tay đổi vai giữa
+chúng:
+
+| | tay trái | tay phải |
+|---|---|---|
+| phần hát, giọng thứ | **6,5** mốc/ô | 5,0 |
+| phần solo, giọng thứ | 4,6 | **6,5** |
+
+Trộn hai nhóm lại là mất đúng cái khác biệt lớn nhất đo được về chị ấy.
+
+---
+
 ## 1. Kho bản ký âm — 7 bài
 
 Ở `video/Linh_Nhi/`, đã chia đoạn đủ trong `tools/sheet/corpus.json`.
@@ -28,6 +237,16 @@ Mỗi mục ghi rõ **cỡ mẫu**. Chỗ nào là số đo, chỗ nào là suy 
 | Một Cõi Đi Về | slow rock | Sol thứ | **3** | 10 |
 
 **5 bolero · 2 slow rock** — và **3 trưởng · 4 thứ**. Một Cõi là bản 3 phách duy nhất.
+
+**Trên đĩa có 9 bản, cỡ mẫu dùng 7.** Hai bản còn lại là **Tuyết Rơi** (người dùng xếp
+riêng, không đưa vào đây để học) và **Papa** (người dùng chốt: để sau, học chung với Tuyết
+Rơi). Cả hai nằm ở khoá `_de_sau` trong `tools/sheet/corpus.json` — lần quét sau đừng báo
+chúng là "bỏ quên".
+
+> **Bảng giọng ở trên là nguồn duy nhất ghi trưởng/thứ của 7 bài này.** File MusicXML
+> không ghi `<mode>`, `corpus.json` cũng không. Một phép đo chạy từ đầu mà không đọc bảng
+> này sẽ mặc định mọi bài là trưởng và cho ra con số ngoài gam sai gấp đôi. Đã kiểm: phép
+> suy giọng từ hợp âm kết khớp **7/7** với bảng này.
 
 Tổng cộng **20 đoạn không lời** (dạo · giang · kết), trong đó 14 của bolero và 6 của
 slow rock.
@@ -778,6 +997,10 @@ Có sheet trong `video/Linh_Nhi/` mà **cố ý không nạp vào corpus**. Đ�
 | `Tuyet roi-Linh Nhi.mxl` | **xếp riêng** — người dùng chốt không đưa vào md để học |
 | `Papa- Linh Nhi.mxl` | đã bỏ khỏi danh sách từ trước |
 
+Bên Cà Pháo cũng có sheet xếp riêng: **Sao anh chưa về** — người dùng chốt học sau, cùng
+lượt với Tuyết Rơi. Và bài **Mơ** đã bị xoá khỏi corpus vì khai có đoạn solo mà không có
+file.
+
 **Tuyết Rơi.** Máy đọc được: bộ khoá 0, nhịp **4/4**, **123 ô**, tần suất
 `Am=41 · Dm=18 · E=17 · B7=4 · F=1`, mở trên `Am` và đóng trên `Am/E` — **La thứ**.
 
@@ -821,13 +1044,45 @@ Cả bốn trong sai số 0,2 mốc/ô. Đoạn dạo giọng trưởng **cố �
 Trần đặt cao hơn đích một chút vì còn một bước cài hai tay bớt tiếp phía sau: đoạn dạo
 giọng thứ để trần 5 thì ra 3,9, để 6 mới ra 4,4.
 
-### Chưa đưa vào code
+### Tay phải ở đoạn KẾT — đã hãm
 
-- **Tay phải ở đoạn dạo giọng thứ** vẫn mỏng: app 5,6 mốc/ô so với bản ký âm 6,9. Tay
-  trái đã mỏng đúng nhưng tay phải chưa dày lên bù lại, nên chưa thật sự "đảo vai".
-- **Tay phải ở đoạn kết** ngược lại, quá dày: app 6,1–7,0 so với bản ký âm 5,0–5,7.
+Bản ký âm: **5,7 mốc/ô giọng thứ · 5,0 giọng trưởng**. App ra **6,8 và 6,1**, dày hơn
+khoảng một phần năm. Nay **6,0 và 5,4**.
 
----
+Cần gạt `density` không dùng được: đo `'medium'` và `'dense'` ra **số y hệt nhau**, đúng
+như chú thích sẵn có trong code. Nên hãm thẳng sau khi đã dựng: mỗi lượt lấy ô đang dày
+nhất rồi bỏ **nốt chen nhất** trong ô ấy — nốt có khoảng cách tới hai nốt kề nhỏ nhất.
+
+Không đụng **ô cuối** (câu chạy kết là chủ ý) và không bỏ **nốt đầu ô**. Vì thế con số
+không xuống hẳn tới đích; sai số còn 0,3–0,4 là mức làm được.
+
+### Tay phải ở đoạn DẠO giọng thứ — ĐÃ THỬ, KHÔNG SỬA ĐƯỢC
+
+Bản ký âm **6,9 nốt/ô**, app ra **5,6** — thiếu gần một phần năm. Giọng trưởng thì đúng
+sẵn (5,4 so với 5,5), nên chỉ hụt ở giọng thứ.
+
+Vốn ô trong bảng **thừa sức đạt**: trung bình 7,1 nốt/ô ở giọng thứ, phân bố
+`1 3 5 5 6 6 7 7 7 7 7 7 7 8 8 8 8 8 8 8 9 9 10 11`.
+
+Đã thêm một số hạng phạt theo khoảng cách mật độ vào phép chọn ô, quét trọng số
+**0,5 · 0,6 · 1,2 · 1,5 · 2 · 3**:
+
+| trọng số | thứ | trưởng |
+|---|---|---|
+| nền (không phạt) | 5,6 | 5,4 |
+| 0,6 · 1,2 (hai chiều) | **5,6** | 5,4 |
+| 2 (hai chiều) | **5,6** | 5,0 |
+| 3 (một chiều) | 6,2 | **6,4** ← hỏng chỗ đang đúng |
+
+**Giọng thứ đứng yên ở 5,6 với mọi trọng số dùng được.** Lý do: vòng hợp âm đoạn dạo do
+`vonHopAmLinhNhi` rút ra, và bộ lọc **cùng bậc** thường chỉ còn **một ô ứng cử** mỗi chỗ.
+Không còn gì để chọn thì cho điểm kiểu nào cũng vô nghĩa.
+
+Đã **bỏ hẳn** số hạng ấy khỏi code — giữ lại một đoạn chú thích ghi chuyện này, để phiên
+sau không dựng lại.
+
+Muốn nâng thì phải **nới bộ lọc bậc**, tức đổi hoà thanh lấy mật độ. Chưa làm: hoà thanh
+là thứ đã đo chắc (16/20 đoạn không mượn bậc ngoài bài), còn mật độ mới lệch một phần năm.
 
 ## 18. Bẫy đo đã sập — đọc trước khi đo lại
 
@@ -836,10 +1091,21 @@ dạo mở trên `Bm`. Đếm cả bài thì `D=19` nhiều nhất, `Bm=13`, `F#
 trên `D`, và vòng `D–Bm–F#m–Em–A–D` là **I–vi–iii–ii–V–I**. **Rê trưởng**; đoạn dạo chỉ
 mở trên bậc vi. Giọng phải đọc bằng **đếm cả bài và xem bài đóng ở đâu**.
 
-**So hai tỉ lệ khác mẫu số.** Đã mắc hai lần. Một lần so "86% / 52%" (mốc tay phải rơi
-trên mốc tay trái) với hằng số bám mốc (mốc tay trái được tay phải chạm) — hai mẫu số
-khác nhau. Một lần so `0,62` (chỉ tính ô thưa) với `20–34%` (trung bình cả đoạn). Trước
-khi so hai con số, **nói rõ mẫu số của từng con**.
+**So hai tỉ lệ khác mẫu số.** Đã mắc **ba lần** — đây là cái bẫy hay sập nhất.
+
+1. So `86% / 52%` (mốc tay phải rơi trên mốc tay trái) với hằng số bám mốc (mốc tay trái
+   được tay phải chạm) — hai mẫu số khác nhau.
+2. So `0,62` (chỉ tính ô thưa) với `20–34%` (trung bình cả đoạn).
+3. So **62 nốt** (bộ ghép tuyến trả về) với **50 nốt** (đoạn dạo ráp xong), kết luận "mất
+   12 nốt", rồi đi lùng chỗ cắt — soi vòng cung mật độ, phép cài hai tay, các bộ lọc.
+   Không chỗ nào cắt cả. Hai con số ấy chạy trên **đầu vào khác nhau**: trong app bộ ghép
+   nhận **vòng hợp âm đoạn dạo đã rút ra**, còn phép đo rời nhận **vòng hợp âm của bài**.
+
+Ca thứ ba khác hai ca đầu ở chỗ nó không phải hai *tỉ lệ* mà hai *số đếm* — nhưng cùng
+một lỗi: **hai vế không được đo trên cùng một thứ**.
+
+Trước khi so hai con số, nói rõ **mẫu số của từng con**, và với số đếm thì nói rõ **đầu
+vào của từng con**.
 
 **Đếm cụm fill mà gộp nốt cùng mốc.** Nắm hợp âm bị đếm thành bước nhảy giai điệu: ra
 146 cụm / 8% liền bậc. Đếm đúng (lấy nốt trên cùng mỗi mốc, thời gian tăng nghiêm ngặt)
