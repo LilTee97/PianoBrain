@@ -20,7 +20,7 @@ kết), chỉ lấy nốt cao nhất mỗi mốc gõ ở khuông tay phải, **b
 |---|---|
 | Linh Nhi | 7 |
 | Cà Pháo | 4 |
-| Tôn Hưng | 2 |
+| Tôn Hùng | 2 |
 
 **1671 nốt** trong số đó có ký hiệu hợp âm phía trên — đó mới là mẫu số của luật 2, nhỏ
 hơn mẫu số của luật 1. Đừng so hai con số này với nhau.
@@ -73,12 +73,12 @@ lại nằm trong gam nhưng ngoài hợp âm.
 > |---|---|---|---|
 > | Linh Nhi | 1045 | **63,6%** | 1,8% |
 > | Cà Pháo | 828 | **70,8%** | 4,7% |
-> | Tôn Hưng | 296 | **73,0%** | 1,0% |
+> | Tôn Hùng | 296 | **73,0%** | 1,0% |
 >
 > Nên đây **không** phải một hằng số chung. Cái chung là **khoảng dao động**: không thầy
 > nào xuống dưới 60% (câu sẽ trôi) và không thầy nào lên quá 75% (câu sẽ cứng như bài tập
 > rải hợp âm). Chỗ đứng **trong** khoảng ấy là **nét riêng của từng thầy** — Linh Nhi bám
-> hợp âm lỏng nhất, Tôn Hưng chặt nhất.
+> hợp âm lỏng nhất, Tôn Hùng chặt nhất.
 >
 > Đúng theo luật người dùng đã đặt: **luật đo trên sheet thầy A không tự động áp cho thầy
 > B**. Muốn soạn theo thầy nào thì lấy con số của thầy ấy, đừng lấy con số gộp.
@@ -505,10 +505,10 @@ giọng trong md Linh Nhi** làm phép thử:
 **7/7 khớp.** Phép suy đủ tin để dùng; chỗ nó do dự (`Đường Xưa` kết bằng iv mượn, `Lá
 Thư` kết bằng át) thì md giải quyết được.
 
-### Tôn Hưng — và một phép thử tôi suýt tin nhầm
+### Tôn Hùng — và một phép thử tôi suýt tin nhầm
 
-Tôi từng viết hai bài Tôn Hưng *"ra rõ, không cần hỏi"*. **Nói ẩu** — phép suy mới chỉ
-kiểm trên 7 bài Linh Nhi, mà Tôn Hưng thì không có md để đối chiếu.
+Tôi từng viết hai bài Tôn Hùng *"ra rõ, không cần hỏi"*. **Nói ẩu** — phép suy mới chỉ
+kiểm trên 7 bài Linh Nhi, mà Tôn Hùng thì không có md để đối chiếu.
 
 Nên dựng thêm hai phép thử. Một cái **hỏng hẳn**, một cái **thiên vị**:
 
@@ -633,7 +633,7 @@ không ai biết.
 
 ## Máy dò hợp âm tự động hay nhầm giọng SONG SONG — và cách bác nó
 
-Người dùng tra Chordify bài **Chiếc Lá Mùa Đông** (Tôn Hưng) và ra **Si giáng trưởng**,
+Người dùng tra Chordify bài **Chiếc Lá Mùa Đông** (Tôn Hùng) và ra **Si giáng trưởng**,
 trong khi tôi đọc ra **Sol thứ**.
 
 **Đây KHÔNG phải chuyện dịch giọng** như bài "Người hãy quên em đi". Chordify liệt

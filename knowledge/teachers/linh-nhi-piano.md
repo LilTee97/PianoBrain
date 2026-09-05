@@ -108,7 +108,7 @@ riêng chỗ đó **được phép gộp số đo mọi thầy**. Mục này ch�
 > cũ.
 >
 > **Và một chỗ chị ấy KHÁC hai thầy kia.** Luật chung từng ghi tỉ lệ nốt hợp âm "giống
-> nhau ở cả ba thầy" — sai. Linh Nhi **63,6%**, Cà Pháo 70,8%, Tôn Hưng 73,0%. Chị bám hợp
+> nhau ở cả ba thầy" — sai. Linh Nhi **63,6%**, Cà Pháo 70,8%, Tôn Hùng 73,0%. Chị bám hợp
 > âm **lỏng nhất trong ba người**: gần **bốn trên mười** nốt của chị nằm ngoài hợp âm đang
 > vang mà vẫn trong gam. Soạn theo chị thì đừng siết về phía nốt hợp âm như hai thầy kia.
 
