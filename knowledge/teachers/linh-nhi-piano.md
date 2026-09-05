@@ -371,14 +371,111 @@ không phải ♭7 của gam thứ tự nhiên. **n=2.**
 Ô 1·3·5 **giữ** nốt neo bốn lần rồi mới bước ra ở cuối ô. Ô 2·4·6·7 **đi** xuống liền
 bậc rồi vòng lên. Ô cuối thưa hẳn ra — cửa cho ca sĩ vào hát.
 
-### Bảy tuyến đã chép nguyên
+### Bảy tuyến, chép nguyên từng nốt
 
-Mỗi đoạn dạo của bảy bài đã được chép thành một "tuyến": từng ô ghi mốc thời gian, cao
-độ so với chủ âm, độ ngân, và bậc hợp âm ô ấy đứng trên. Đây là vật liệu để ghép lên bài
-mới. *(Bảng nằm trong KeyTrain; ở đây chỉ ghi rằng nó tồn tại và được sinh bằng script
-từ chính các sheet trong `video/Linh_Nhi/`.)*
+Mỗi dòng là một ô: **số ô · hợp âm · các mốc gõ** dạng `phách:nốt`. Lấy nốt cao nhất mỗi
+mốc ở khuông tay phải — đó là giai điệu; phần dưới cùng mốc là nắm hợp âm tay phải, không
+phải câu (xem mục "Giai điệu là nốt trên cùng mỗi mốc gõ").
 
----
+Đây là **vật liệu để ghép lên bài mới**: chọn ô theo bậc hợp âm, dịch giọng, nối giọng.
+
+**Biển Tình** — Rê trưởng · bolero · 9 ô
+
+```
+  ô1  ·         2.5:D5 3:F#5 3.5:A5
+  ô2  Bm        0:B5 1:A5 1.5:B5 2.5:D5 3:F#5 3.5:B5
+  ô3  F#m       0:A5 1:F#5 1.5:A5 2.5:B4 3:D5 3.5:F#5
+  ô4  Em        0:E5 1.5:D5 2:E5 2.5:B5 3:A5 3.25:F#5 3.5:E5
+  ô5  D         0:F#5 2.5:A4 3:B4 3.5:D5
+  ô6  Bm        0:F#5 1:A5 1.5:F#5 2.5:A4 3:B4 3.5:F#5
+  ô7  Em        0:E5 1:D5 1.5:E5 2.5:F#5 3:E5 3.25:D5 3.5:B4
+  ô8  F#m E     0:A4 0.5:F#4 1:A4 1.5:B4 2:E5 2.5:F#5 3:E5 3.25:D5 3.5:B4
+  ô9  D         0:D5 3:D5 3.5:E5
+```
+
+**Đừng Xa Em Đêm Nay** — Rê thứ · bolero · 9 ô
+
+```
+  ô1  Dm        0:F5 0.75:F5 1:F4 1.5:F5 2:F5 2.5:D4 2.75:G5 3.5:A5
+  ô2  C         0:E5 0.75:C5 1:E4 1.5:D5 1.75:Eb5 2:E5 3.75:Bb4
+  ô3  Bb        0:D5 0.75:D5 1:D4 1.5:D5 2:D5 2.75:E5 3.5:F5
+  ô4  F         0:C5 0.75:Bb4 1.5:A4 1.75:Bb4 2:C5 3.5:G4 3.75:A4
+  ô5  Gm        0:Bb4 0.75:Bb4 1.5:Bb4 2:Bb4 2.75:A4 3.5:Bb4 3.75:A4
+  ô6  Dm        0:F5 0.75:E5 1.5:D5 2:A4 3.5:E5 3.75:F5
+  ô7  E A       0:E5 0.75:E5 1:D4 1.5:D5 2:C#5 2.75:B4 3.5:C#5 3.75:F4
+  ô8  Dm        0:D5 1:D4 2.5:D4
+  ô9  A         0:C#4
+```
+
+**Lá Thư Trần Thế** — Rê thứ · slow rock · 6 ô
+
+```
+  ô1  Dm        0.5:A5 0.75:F5 1:D6 1.5:A4 2:E5 2.5:A5 3:A5 3.5:D6
+  ô2  C Dm      0:E6 0.5:G4 0.75:G4 1:D5 1.5:E5 2:C6 2.5:E6 3:D6 3.5:A4
+  ô3  F         0:E5 0.5:F5 1:A5 1.5:G5 2:A5 3:F4 3.5:G4
+  ô4  Gm        0:F5 0.5:A5 1:G5 2:A4 2.5:Bb4 3:D5 3.5:G5
+  ô5  Bb E      0:F5 1:F4 1.5:Bb4 2:D5 2.5:F5 3:E5
+  ô6  A7        0:E5 0.5:E5 1:F5 1.5:G5 2:A5 2.5:A5 2.75:A5 3:A5 3.5:A5
+```
+
+**Một Cõi Đi Về** — Sol thứ · slow rock · 10 ô
+
+```
+  ô1  ·         0:Bb5 0.375:Bb4 0.625:Bb5 1:D5 1.375:D4 1.625:G4 2:Bb4 2.375:Bb4 2.625:Bb4
+  ô2  Gm        0:C5 0.375:Bb4 1.5:G5 2:G5 2.5:G5
+  ô3  ·         0:Bb5 1:Eb4 1.5:A4 1.75:Bb4 2:A4 2.25:G4 2.5:F#4 2.75:Eb4
+  ô4  Cm        0:Eb4 0.5:D4 0.625:D4 0.75:F#5 1:A5 1.25:C5 1.5:D5 1.75:F#5 2:A5 2.25:F#5 2.5:C6 2.625:A5
+  ô5  ·         0:Bb5 0.5:F#5 1:Bb4 1.5:A5 2:D5 2.5:Bb4
+  ô6  ·         0:G5 0.5:Bb4 1:G4 1.5:F5 2:Bb4 2.5:G5
+  ô7  ·         0:Eb5 0.5:G4 1:Eb4 1.5:D5 2:G4 2.5:Eb4
+  ô8  D7        0:C5 0.5:G5 1.5:C#5 2:G4 2.5:Eb4
+  ô9  ·         0:D5 1:D4 1.375:F#4 2:A4 2.5:C5
+  ô10 ·         0:D5 0.125:F#5 0.25:D7
+```
+
+**Đường Xưa Lối Cũ** — Đô trưởng · bolero · 8 ô
+
+```
+  ô1  ·         0:G5 1.5:C6 3.25:B5
+  ô2  F         0:B5 0.75:F4 1:A4 1.25:B5 1.5:C6 2.5:A5
+  ô3  Dm        0.75:F5 1:F4 1.5:E5 2:D5 3:D5 3.25:E5 3.5:F5 3.75:E5
+  ô4  C         0:A5 1:E4 1.5:G5 2:G5
+  ô5  Am        0.75:E5 1.5:D5 2:C5 2.75:D5 3.25:E5 3.5:A4 3.75:D5
+  ô6  Dm        0:G5 1:F4 1.5:F5 2:F5
+  ô7  G         0:F#4 0.75:D5 1.5:C5 2:B4 2.75:C5 3.25:C#5 3.5:D5
+  ô8  Am        0:C5
+```
+
+**Mùa Xuân Đầu Tiên** — Sol trưởng · bolero · 8 ô
+
+```
+  ô1  G         0:B5 0.75:G4 1:B4 1.5:B5 2:B4 2.5:G4 2.75:D5 3.25:Ab5 3.5:A5
+  ô2  Em        0:G5 0.75:E4 1:G4 1.5:F#5 2:G4 2.5:E4 2.75:B4 3.25:Eb5 3.5:E5
+  ô3  Bm        0:D5 1:D4 1.5:F#4 2:B4 2.5:D5 3:E5 3.5:G5 3.75:E5
+  ô4  D Am      0:A5 0.75:G5 1.5:E5 2:A5 2.75:C6 3.25:Eb6 3.5:E6
+  ô5  G         0:D6 1.5:B5 2:B5 2.75:D6 3.5:G6
+  ô6  Bm Bm     0:F#6 0.75:E6 1.5:D6 2:C6 3:A5
+  ô7  G         0:G5 1:G5
+  ô8  D         0:D4 3.25:G4
+```
+
+**Rừng Lá Thấp** — La thứ · bolero · 9 ô
+
+```
+  ô1  E         0:A4 0.5:D5 1:E5 1.5:A5 2:F#5 2.75:F#5 3:F#4 3.5:E5
+  ô2  Am        0:D5 0.5:C5 1:D5 1.5:E5 2:A4
+  ô3  G Dm      0.5:F#4 1:A4 1.5:C5 1.75:A4 2:D5 2.75:D5 3:F4 3.5:C5
+  ô4  C         0:D5 0.5:E5 1:G5 1.25:E5 1.5:D5 2:E5 3:E4 3.5:G4
+  ô5  Am        0:C5 0.5:D5 1:E5 1.5:G5 1.75:E5 2:A5 2.5:A5 2.75:A5 3:G5 3.5:A5
+  ô6  Em        1:C6 1.5:A5 2:G5 3:E5 3.5:G5
+  ô7  Em        0:G5 0.5:E5 1:G5 1.5:A5 1.75:G5 2:B5 3.5:B5 3.75:D6
+  ô8  Am        0:B5 0.5:A5 1:G5 1.5:E5 1.75:G5 2:A5 3.75:E4
+  ô9  ·         0:E4 0.5:E4 0.75:G4 1.25:E4 1.5:G4 1.75:B4 2:A4 2.5:A4 2.75:A4 3:G4 3.5:A4
+```
+
+Bảng này cũng nằm trong KeyTrain dưới dạng dữ liệu máy đọc được, sinh bằng script từ
+chính các sheet trong `video/Linh_Nhi/`. Bản ở đây chép lại để **kho tri thức tự đủ** —
+mở PianoBrain là thấy nốt, không phải sang repo ứng dụng mới thấy.
 
 ## 10. Hai tay ở điệu bolero
 
@@ -390,7 +487,7 @@ Xa · Rừng Lá) — thuần bolero, không lẫn slow rock. Người dùng đ�
 | tay phải bám mốc tay trái | **0,54** | 0,64 | bao nhiêu phần mốc tay trái được tay phải chạm |
 | chuỗi mới mỗi ô | **0,45** | 1 | bao nhiêu phần ô mở một chuỗi nốt mới |
 | nhân bản | **0,36** | 0,47 | |
-| chồng nốt ở ô thưa | **0,62** | *giữ nguyên* | đã bác đề nghị hạ — xem mục 17 |
+| chồng nốt ở ô thưa | **0,62** | *giữ nguyên* | đã bác đề nghị hạ — xem mục 18 |
 
 **Triệu chứng để lùi:** nghe thấy tay phải bám tay trái quá sát hoặc quá thưa thì kiểm
 bốn cái này trước, và đem giá trị cũ ra so.
@@ -414,14 +511,43 @@ bình 22%**.
 
 ## 12. Câu fill
 
-- **54 cụm fill**, trong đó **18% đi liền bậc**. *(Con số 8% từng đo trước đó là sai —
-  xem mục 17.)*
-- Bốn câu fill 3 nốt đã chép nguyên từ sheet, đều dài `0,75` phách, giãn cách móc kép.
+Đếm cụm fill trong **đoạn hát** cả bảy bài: nốt tay phải liên tiếp cách nhau ≤ 0,5 phách,
+cụm từ ba nốt trở lên. Ra **354 cụm**.
 
-Chưa đo: fill đặt ở **vị trí nào** trong ô và trong câu hát. Đây là lỗ còn lại của việc
-"tìm ra tư duy tạo câu fill" người dùng đặt ra.
+### Fill vào ở CHỖ HỞ, không vào phách mạnh
 
----
+Phách mà cụm fill bắt đầu:
+
+| phách | 0 | 0,75 | 1 | 1,5 | 2 | 2,5 | 2,75 | 3 | **3,5** |
+|---|---|---|---|---|---|---|---|---|---|
+| tỉ lệ | 6% | 9% | 10% | 13% | 6% | 4% | 12% | 8% | **22%** |
+
+**Phách 3,5 chiếm 22%** — gấp đôi mọi mốc khác, và gấp gần bốn lần phách 1. Đó là móc
+đơn cuối ô, chỗ bắc sang ô sau.
+
+Hai phách **mạnh nhất lại thưa nhất**: phách 0 và phách 2 mỗi chỗ chỉ **6%**. Chị ấy
+không chen fill vào chỗ bass đang trụ và ca sĩ đang giữ tiếng — chị chen vào **khe**.
+
+### Ba hoặc bốn nốt là chính
+
+| số nốt | 3 | 4 | 5 | 6 | 7 | 8+ |
+|---|---|---|---|---|---|---|
+| tỉ lệ | **39%** | **22%** | 11% | 7% | 9% | 12% |
+
+**61% cụm chỉ có ba hoặc bốn nốt.** Cụm dài từ tám nốt trở lên chỉ 12%.
+
+### Vị trí trong đoạn thì KHÔNG có luật
+
+Chia đoạn hát thành năm phần đều nhau, đếm cụm rơi vào từng phần: 16% · 23% · 26% · 23%
+· 13%. Rải khá đều, hơi trũng ở cuối đoạn. **Không đủ chênh để thành luật** — đừng dựng
+luật "fill dồn về cuối câu" từ số này.
+
+### Hình câu fill
+
+Đo 54 cụm ở lượt trước (định nghĩa chặt hơn): **18% đi liền bậc**. *(Con số 8% từng đo
+trước đó là sai — xem mục bẫy đo.)*
+
+Bốn câu fill ba nốt đã chép nguyên từ sheet, đều dài `0,75` phách, giãn cách móc kép.
 
 ## 13. Điệu: bolero và slow rock hiện dùng chung
 
@@ -448,11 +574,31 @@ nó. Thay bằng `rule-linh-nhi-solo-giu-mau` (derived · draft · source null).
 tiên những luật trong sheet của thầy đó, và xoá bỏ những luật mình tự đặt trước khi học
 từ sheet nếu chúng có xung đột."* Bỏ hẳn, **không dung hoà**.
 
-### "Đoạn giang dùng lại vòng dạo" → **sai**
+### "Đoạn giang dùng lại vòng dạo" → **CÁCH ĐO sai, kết luận thì đúng**
 
-Kết luận này rút ra bằng cách so **danh sách ký hiệu hợp âm** giữa hai đoạn. Sai: cách ấy
-bỏ mất những ô không có ký hiệu, mà ở đó hợp âm trước vẫn còn vang — và đúng những ô ấy
-lại nằm ở đầu đoạn (Biển Tình ô 52 = D, Mùa Xuân ô 63–64 = G). Người dùng đã bác.
+Kết luận này lúc đầu rút ra bằng cách so **danh sách ký hiệu hợp âm** giữa hai đoạn. Cách
+ấy sai: nó bỏ mất những ô không có ký hiệu, mà ở đó hợp âm trước vẫn còn vang — và đúng
+những ô ấy lại nằm ở đầu đoạn (Biển Tình ô 52 = D, Mùa Xuân ô 63–64 = G). Người dùng đã
+bác, đúng.
+
+**Đo lại đúng cách** — trải ra từng ô, điền ô trống bằng hợp âm đang vang — thì kết luận
+đứng, chỉ không tuyệt đối:
+
+| bài | vòng hợp âm giang trùng dạo |
+|---|---|
+| Biển Tình | **100%** |
+| Mùa Xuân | 88% |
+| Lá Thư | 83% |
+| Đừng Xa | 78% |
+| Đường Xưa | 71% |
+| Một Cõi | 44% |
+| | **trung bình 77%** (n=6) |
+
+Biển Tình trùng khít: vòng dạo `VI III II I VI II II I`, vòng giang là `I` + đúng dãy ấy
++ `V`. Ăn khớp với tuyến giai điệu cũng trùng 78% (mục 5) — giai điệu theo hợp âm.
+
+Nên nói cho đúng: **giang tấu dùng lại vòng dạo khoảng ba phần tư, không phải y hệt.**
+Cái từng bị bác là con số 100% và cách đo, không phải bản thân ý ấy.
 
 ---
 
@@ -468,29 +614,222 @@ Ghi riêng để đừng lẫn với thứ đo được:
 
 ---
 
-## 16. Chưa đo — lỗ còn lại
+## 16. Ý kiến khi nghe — chuyển từ `Nguon.json`
 
-- **Vị trí ô chia đôi** trong đoạn dạo: n=6, chưa thành luật.
-- **Vị trí câu fill**: chưa đo fill nằm ở đâu trong ô và trong câu hát.
-- **Vốn giọng trưởng mỏng**: chỉ 3 bài (Biển Tình, Đường Xưa, Mùa Xuân).
-- **Bolero giọng thứ mỏng**: chỉ 2 bài. Đây là chỗ đáng nạp sheet nhất.
-- **Tuyết Rơi** (tone Am) đã nạp vào thư mục nhưng chưa chia đoạn, chưa xác nhận điệu và
-  giọng, chưa xử `AmMaj7` nghi vấn.
-- **Đoạn kết** chưa có bộ hằng số riêng, đang dùng chung với đoạn dạo. Nay đã có số đo
-  riêng cho nó (mục 5 và 9) nên làm được.
+**Đây là Ý NGƯỜI DÙNG, không phải số đo.** Đừng lẫn với các mục trên: mỗi dòng ở đây là
+**n=1** — một lần nghe, một câu, một ý.
 
-### Đã đo nhưng CHƯA đưa vào code
+Người dùng nghe câu dạo trong KeyTrain rồi tick **Đã ổn** / **Chưa ổn** và viết ý kiến.
+Sổ thô nằm ở `KeyTrain/Nguon.json`; skill `y-kien-intro` chuyển sang đây sau mỗi lần có ý
+kiến mới. Số `#` là số câu trong sổ thô — người dùng nói "câu #7" là chỉ vào đó.
 
-- **Giang tấu dùng lại 78% tuyến của đoạn dạo** (mục 5). Bộ ghép hiện chọn ô độc lập cho
-  giang tấu, không lấy lại câu dạo — nên hai đoạn ra hai câu khác nhau, ngược bản ký âm.
-- **Điệp khúc dày lên bằng nắm dày hơn** (mục 3), n=7. Điệu `bolero-linh-nhi-3-chorus`
-  trong code dựng từ n=1 (Đường Xưa ô 41–58) và làm dày bằng cách khác.
-- **Hai tay đảo vai khi vào solo** (mục 4). Chưa có chỗ nào trong code hạ tay trái xuống
-  và nâng tay phải lên theo đúng mức đo được, riêng giọng thứ.
+| # | lúc nghe | bài | giọng | chấm | ý kiến |
+|---|---|---|---|---|---|
+| **3** | 2026-09-04 16:32 | *(chưa đặt tên)* | La thứ | **Chưa ổn** | — *(tick, chưa viết lời)* |
+| **7** | 2026-09-04 16:37 | *(chưa đặt tên)* | La thứ | **Chưa ổn** | *"sao các câu intro giờ lại mất hẳn kết hợp giữa hai tay trái phải rồi. Hãy đọc lại intro các sheet và học mức độ phối hợp 2 tay khi Linh Nhi đánh intro. Và bài đang đánh là ở giọng thứ, intro đã tạo vòng hợp âm trên giọng thứ chưa"* |
+
+Cả hai: điệu `bolero-linh-nhi-2`, đoạn dạo 9 ô.
+
+> **Chỉ câu CÓ LỜI BÌNH mới được chép đủ bộ ba** (lời · vòng hợp âm · nốt). Người dùng
+> chốt: *"bây giờ chỉ những phần intro có bình luận thì mới đưa cả bộ 3 qua md Linh Nhi
+> để sửa."* Câu chỉ được tick thì giữ một dòng trong bảng làm dấu vết — một chữ "Chưa ổn"
+> trơ trọi không nói được chỗ nào chưa ổn, chép cả trăm nốt sang thì sổ phình vô ích.
+>
+> Nên câu **#3** chỉ còn dòng bảng; câu **#7** có lời nên đủ bộ ba.
+
+#### Câu #7 — bộ ba
+
+**Vòng hợp âm** *(sổ thô chưa có cột `hopAm` lúc câu này được lưu; dựng lại từ vốn hợp âm
+của bài — xem chú thích cuối mục)*
+
+```
+Am  Dm   G     C     F    E7  Am  Dm   E7
+Im  IVm  ♭VII  ♭III  ♭VI  V   Im  IVm  V
+```
+
+Toàn bậc của giọng thứ, rút từ vốn hợp âm của chính bài, đóng trên bậc **V** — đúng luật
+cửa vào hát. **Vòng không phải chỗ hỏng.**
+
+**Nốt giai điệu**
+
+```
+ô1 P( 6): E4 A4 E4 A4 E4 A4                                        T: 2 mốc
+ô2 P( 9): A4 C5 C5 C4 F4 A4 C5 A4 B4                               T: 3 mốc
+ô3 P( 8): F4 F4 F4 E4 F4 E4 F4 E4                                  T: 5 mốc
+ô4 P(10): B4 D4 D4 A4 B4 D4 G5 B4 A4 E4                            T: 5 mốc
+ô5 P(12): E4 G4 E4 F4 E4 E4 F4 E4 G4 C4 D4 E4                      T: 2 mốc
+ô6 P(10): B4 B4 C5 D5 E4 E5 E5 E5 E5 E5                            T: 5 mốc
+ô7 P(11): C5 D4 E4 G4 E4 E4 A4 A4 A4 G4 A4                         T: 5 mốc
+ô8 P( 6): G4 E4 G4 A4 E4 B4                                        T: 5 mốc
+ô9 P( 2): E3 Ab3                                                   T: 1 mốc
+```
+
+**Ba số đối chiếu**
+
+| | câu #7 | bản ký âm |
+|---|---|---|
+| tay phải | 8,2 nốt/ô | 6,9 |
+| tay trái | 3,7 mốc/ô | 4,6 |
+| tay trái gõ **một mình** | **21%** | **41%** |
+| cao độ trung bình | G4 (67) | **D5 (73,6)** |
+
+### Rút ra được gì
+
+Hai câu, cùng bị chê, cùng giọng La thứ. **n=2** — chưa thành luật, nhưng cả hai lệch
+cùng một chiều ở cả ba trục:
+
+| | câu #3 | câu #7 | bản ký âm |
+|---|---|---|---|
+| tay phải | 9,1 nốt/ô | 8,2 | **6,9** |
+| tay trái | 3,8 mốc/ô | 3,7 | **4,6** |
+| cao độ trung bình | F#4 | G4 | **C#5** *(Rừng Lá, cùng La thứ)* |
+| cao nhất | G5 | G5 | **D6** |
+
+Tay phải dày hơn, tay trái mỏng hơn, và **cả câu nằm thấp hơn 6–7 nửa cung** so với chỗ
+chị ấy thật sự đánh. Trần thấp hơn hẳn **một quãng sáu**.
+
+*Suy đoán của Claude:* tầm cao độ là chỗ đáng ngờ nhất trong ba. Câu nằm ngay giữa bàn
+phím, đúng vùng tay trái đang chạy, thay vì bay lên trên như bản ký âm — tai nghe ra là
+câu bị chìm chứ không phải sai nốt.
+
+### Ý kiến câu #7 — đo lại hai điều người dùng nêu
+
+#### "Mất hẳn kết hợp giữa hai tay"
+
+Đếm mốc gõ có **cả hai tay cùng lúc**, tính trên số mốc tay trái:
+
+| | mốc trái | mốc có cả hai | tỉ lệ |
+|---|---|---|---|
+| câu #3 | 34 | 26 | **76%** |
+| câu #7 | 33 | 26 | **79%** |
+| Đừng Xa | 64 | 31 | 48% |
+| Rừng Lá | 50 | 30 | 60% |
+| Lá Thư | 18 | 13 | 72% |
+| Một Cõi | 25 | 19 | 76% |
+| **gộp 4 bài giọng thứ** | | | **59%** |
+
+**Số đo nói NGƯỢC cảm nhận, nhưng người dùng vẫn đúng.** Hai tay không hề rời nhau — trái
+lại, chúng **dính vào nhau quá chặt**: 76–79% so với 59% của bản ký âm.
+
+Chỗ mất là **tiếng nói riêng của tay trái**. Bản ký âm để **41%** số mốc tay trái gõ MỘT
+MÌNH, xen vào giữa các nốt tay phải; app chỉ còn **21–24%**. Cộng thêm tay trái mỏng đi
+**một phần ba** (34 mốc trên 9 ô, so với 50 của Rừng Lá cùng 9 ô).
+
+Nên "mất kết hợp" ở đây nghĩa là **mất phép cài vào nhau**: hai tay gõ chồng lên nhau
+thay vì đối đáp. Ít mốc hơn, mà mốc nào cũng gõ cùng tay phải.
+
+*Claude nhận lỗi:* trần `mocToiDa` thêm vào ở món 3 chính là thứ làm tay trái mỏng đi.
+Trần ấy chỉnh trên điệu `bolero-linh-nhi-3` và ra đúng 4,4 mốc/ô; áp sang
+`bolero-linh-nhi-2` thì ra **3,7**, thấp hơn đích 4,6. Trần đặt theo số mốc tuyệt đối
+nên nó ăn khác nhau ở hai mẫu đệm khác nhau.
+
+#### "Intro đã tạo vòng hợp âm trên giọng thứ chưa"
+
+**Rồi.** Chạy `vonHopAmLinhNhi` trên bài La thứ:
+
+```
+Am Dm G  C    F   E7 Am Dm E7
+Im IVm ♭VII ♭III ♭VI V  Im IVm V
+```
+
+Toàn bậc của giọng thứ, rút từ vốn hợp âm của chính bài, đóng trên bậc **V** đúng luật
+cửa vào hát. Chỗ này không phải nguyên nhân.
+
+### Chỗ ý kiến CHỎI với số đo
+
+**Một chỗ chỏi, và số đo thắng:** người dùng nghe ra "mất kết hợp hai tay", nhưng đo thì
+hai tay dính nhau **chặt hơn** bản ký âm (76–79% so với 59%). Cái tai nghe ra là đúng —
+chỉ là nó nằm ở **tay trái không còn nói một mình**, chứ không phải hai tay rời nhau.
+
+Ghi lại đây vì nó dạy một điều: *"hai tay không ăn nhau"* có thể là **quá dính**, không
+chỉ là quá rời. Lần sau đo cả hai chiều trước khi kết luận.
+
+### Còn thiếu trong sổ thô
+
+`Nguon.json` **không lưu vòng hợp âm** của câu dạo, nên muốn trả lời câu hỏi thứ hai phải
+chạy lại code để dựng lại vòng. Thêm một cột `hopAm` vào bảng `cau` thì lần sau đọc thẳng
+được. *(Chưa làm.)*
+
+**Chưa sửa gì.** Một ý kiến là n=1; sửa bộ sinh phải hỏi người dùng trước.
+
+**Một ý kiến KHÔNG tự động sửa được bộ sinh.** Nó là n=1, có thể chỏi với số đo trên bảy
+bản ký âm. Muốn đổi thì hỏi người dùng trước.
 
 ---
 
-## 17. Bẫy đo đã sập — đọc trước khi đo lại
+## 17. Chưa đo — lỗ còn lại
+
+- **Vị trí ô chia đôi** trong đoạn dạo: n=6, chưa thành luật.
+- ~~Vị trí câu fill~~ — **đã đo**, xem mục 12.
+- **Vốn giọng trưởng mỏng**: chỉ 3 bài (Biển Tình, Đường Xưa, Mùa Xuân).
+- **Bolero giọng thứ mỏng**: chỉ 2 bài. Đây là chỗ đáng nạp sheet nhất.
+- **Bolero giọng thứ mỏng nhất**: chỉ **2 bài** (Đừng Xa, Rừng Lá). Đây là chỗ đáng nạp
+  sheet nhất, nhưng phải là sheet người dùng CHỌN đưa vào — xem mục xếp riêng bên dưới.
+
+- **Đoạn kết** chưa có bộ hằng số riêng, đang dùng chung với đoạn dạo. Nay đã có số đo
+  riêng cho nó (mục 5 và 9) nên làm được.
+
+### Sheet XẾP RIÊNG — không đưa vào học
+
+Có sheet trong `video/Linh_Nhi/` mà **cố ý không nạp vào corpus**. Đừng đề nghị nạp lại.
+
+| sheet | trạng thái |
+|---|---|
+| `Tuyet roi-Linh Nhi.mxl` | **xếp riêng** — người dùng chốt không đưa vào md để học |
+| `Papa- Linh Nhi.mxl` | đã bỏ khỏi danh sách từ trước |
+
+**Tuyết Rơi.** Máy đọc được: bộ khoá 0, nhịp **4/4**, **123 ô**, tần suất
+`Am=41 · Dm=18 · E=17 · B7=4 · F=1`, mở trên `Am` và đóng trên `Am/E` — **La thứ**.
+
+Tôi từng đề nghị nạp nó vì nó đưa bolero giọng thứ từ 2 lên 3 bài, tức lấp đúng chỗ mỏng
+nhất. Người dùng bác: *"xếp bài Tuyết Rơi ra riêng vì tôi thấy không cần đưa bài đó vào
+md để học."*
+
+Ghi lại đây để phiên sau không đề nghị lại. Vốn bolero thứ vẫn mỏng, nhưng lấp bằng sheet
+KHÁC — người dùng chọn sheet nào thì nạp sheet ấy.
+
+### Ba món trước đây thiếu — ĐÃ LÀM
+
+Ba mục dưới từng nằm ở đây dưới nhãn "đã đo nhưng code chưa có". Nay đã dựng xong, mỗi
+món có bài kiểm riêng khoá lại (`baMonLinhNhi.test.ts`).
+
+**1 · Giang tấu lấy lại câu dạo.** Trước đó giang tấu dùng lối bám tay trái và sinh nốt
+riêng, nên hai đoạn ra hai câu khác nhau. Nay giang tấu đi qua cùng bộ ghép tuyến và
+cùng lượt với đoạn dạo, ra đúng cùng một câu.
+
+*Đã thử rồi bỏ:* thêm phép lệch một ô cho khớp chỗ Biển Tình thêm ô mở ở đầu giang tấu.
+Lệch ô làm hợp âm và vị trí ô không còn khớp nhau, bộ lọc bậc phá mất phép căn và tỉ lệ
+trùng **tụt xuống 50%**. Vì hai vòng hợp âm vốn đã trùng 77% nên không cần lệch gì.
+
+**2 · Điệp khúc dày bằng nắm dày hơn.** Số cũ trong code: phiên khúc **1,00** nốt/mốc và
+điệp khúc **2,33** — một cái quá mỏng, một cái quá dày, cả hai đo trên n=1. Nay phiên
+**1,22** (đúng bằng số đo) và điệp **1,67** (số đo 1,60), số mốc gõ giữ nguyên bằng nhau.
+Mốc yếu chồng **đôi** chứ không phải bộ ba; phách mạnh vẫn một nốt.
+
+**3 · Tay trái mỏng đi ở đoạn không lời.** Trước đó app ra 6,8 mốc/ô ở đoạn dạo và
+**9,0 ở cả hai đoạn kết** — gấp đôi tới gấp ba bản ký âm. Nay:
+
+| | app trước | app sau | bản ký âm |
+|---|---|---|---|
+| thứ · dạo | 6,8 | **4,4** | 4,6 |
+| thứ · kết | 9,0 | **5,0** | 4,9 |
+| trưởng · dạo | 6,8 | **6,8** | 6,8 |
+| trưởng · kết | 9,0 | **3,0** | 3,2 |
+
+Cả bốn trong sai số 0,2 mốc/ô. Đoạn dạo giọng trưởng **cố ý không hãm** — nó vốn đã đúng.
+
+Trần đặt cao hơn đích một chút vì còn một bước cài hai tay bớt tiếp phía sau: đoạn dạo
+giọng thứ để trần 5 thì ra 3,9, để 6 mới ra 4,4.
+
+### Chưa đưa vào code
+
+- **Tay phải ở đoạn dạo giọng thứ** vẫn mỏng: app 5,6 mốc/ô so với bản ký âm 6,9. Tay
+  trái đã mỏng đúng nhưng tay phải chưa dày lên bù lại, nên chưa thật sự "đảo vai".
+- **Tay phải ở đoạn kết** ngược lại, quá dày: app 6,1–7,0 so với bản ký âm 5,0–5,7.
+
+---
+
+## 18. Bẫy đo đã sập — đọc trước khi đo lại
 
 **Đọc giọng bằng hợp âm mở đầu đoạn dạo.** Biển Tình từng bị đọc là **Si thứ** vì đoạn
 dạo mở trên `Bm`. Đếm cả bài thì `D=19` nhiều nhất, `Bm=13`, `F#m=13`, `A=12`, bài đóng
