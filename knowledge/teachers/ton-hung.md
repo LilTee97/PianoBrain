@@ -314,6 +314,26 @@ về hình dáng câu.
 
 ---
 
+## 5b. BỘI SỐ bám hợp âm — chỉ đo được giọng thứ
+
+Đo ngày **6/9/2026** bằng `python tools/sheet/boi_so.py ton-hung`. Định nghĩa bội số xem
+`linh-nhi-piano.md` mục 16b.
+
+| đoạn | giọng | số bài | n nốt | **BỘI SỐ** | bước nhỏ | độ dày hợp âm |
+|---|---|---|---|---|---|---|
+| dạo | thứ | 2 | 97 | **1,346** | 46,9% | 3,72 nốt |
+| giang | thứ | 2 | 102 | **1,463** | 47,1% | 3,67 nốt |
+| kết | thứ | 2 | 93 | **1,233** | 49,3% | 3,45 nốt |
+
+**Cột giọng trưởng trống, và sẽ còn trống** cho tới khi có sheet mới: cả hai bản ký âm của
+thầy đều giọng thứ. Nên không so được trưởng/thứ ở thầy này, và **đừng mượn số của thầy
+khác điền vào**.
+
+Ba đoạn của thầy khá đều nhau — 1,23 đến 1,46, chênh 0,23 giữa cao nhất và thấp nhất. So
+với Linh Nhi thì chị tách các đoạn ra xa hơn hẳn (1,13 tới 1,81 khi gộp cả hai giọng).
+Nhưng **n chỉ 2 bài mỗi ô**, sai số chuẩn lớn, nên đây là dấu hiệu chứ chưa phải luật.
+
+
 ## 6. Chưa đo — đừng suy bừa vào chỗ này
 
 - **Giọng trưởng.** Cả hai bài đều giọng thứ. Không biết gì về Tôn Hùng ở giọng trưởng.

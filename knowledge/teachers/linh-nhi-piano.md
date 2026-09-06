@@ -1515,6 +1515,73 @@ bản ký âm. Muốn đổi thì hỏi người dùng trước.
 
 ---
 
+## 16b. BỘI SỐ bám hợp âm — thước so được với app
+
+Đo ngày **6/9/2026** bằng `python tools/sheet/boi_so.py linh-nhi`. Bộ đo có `--kiem` tái
+lập đúng ba con số mốc dưới đây.
+
+**Vì sao không dùng tỉ lệ thô.** Tỉ lệ nốt trúng hợp âm THÔ không so được giữa hai vốn hợp
+âm khác nhau: một bộ soạn dùng `Cadd2 · Dm11 · G9sus4` có sẵn nhiều nốt hơn một bản ký âm
+dùng hợp âm ba trơn, nên nó "trúng hợp âm" nhiều hơn mà chưa chắc bám chặt hơn. Thước phải là
+
+    bội số = (tỉ lệ trúng hợp âm) / (tỉ lệ trúng nếu rải bừa trong gam)
+
+Mẫu số tính cho **từng nốt**: đếm trong bảy bậc của gam có bao nhiêu bậc nằm trong hợp âm
+đang vang, chia bảy. Hợp âm càng dày thì mẫu số càng lớn, nên bội số tự cân bằng lại.
+Bội số 1 = không khác gì rải bừa trong gam.
+
+### Bảng của chị, cả bảy bản ký âm
+
+| đoạn | giọng | số bài | n nốt | **BỘI SỐ** | bước nhỏ | độ dày hợp âm |
+|---|---|---|---|---|---|---|
+| dạo | trưởng | 3 | 135 | **1,561** | 56,1% | 3,03 nốt |
+| dạo | thứ | 4 | 226 | **1,549** | 39,6% | 3,31 nốt |
+| giang | trưởng | 3 | 152 | **1,609** | 57,0% | 3,01 nốt |
+| giang | thứ | 3 | 184 | **1,367** | 38,2% | 3,22 nốt |
+| kết | trưởng | 3 | 113 | **1,807** | 49,2% | 3,24 nốt |
+| kết | thứ | 4 | 178 | **1,131** | 29,8% | 4,37 nốt |
+
+Ba đoạn dạo giọng trưởng, từng bài: **Đường Xưa 1,364 · Biển Tình 1,604 · Mùa Xuân 1,714**.
+Trung bình 1,561, độ lệch chuẩn 0,179, **sai số chuẩn 0,103** — với ba bài thì đây là sàn,
+không giảm được. Hệ quả: **chênh lệch nhỏ nhất phát hiện được là 0,20 bội số.**
+
+### Hai điều bảng này nói ra
+
+**1. Đoạn KẾT là chỗ hai giọng tách nhau xa nhất: 1,807 so với 1,131.** Chênh **0,68** —
+gấp hơn ba lần ngưỡng phát hiện, nên đây là kết luận chắc chứ không phải nhiễu. Giọng
+trưởng càng về cuối càng siết vào hợp âm; giọng thứ càng về cuối càng rời ra, tới mức
+1,131 gần chạm mức rải bừa.
+
+Con số này **xác nhận độc lập** hằng `DICH_HOP` bên KeyTrain (trưởng kết .75, thứ kết .50)
+— hai phép đo khác nhau, cùng một chiều.
+
+**2. Đoạn DẠO thì hai giọng gần như y hệt: 1,561 và 1,549.** Chênh 0,012, nằm sâu trong
+nhiễu. Nên đừng đặt luật "đoạn dạo giọng trưởng bám chặt hơn" — số đo không đỡ.
+`DICH_HOP` cũng đặt dạo trưởng .68 / thứ .69, nhất quán với chỗ này.
+
+### So với hai thầy kia — chị bám chặt nhất
+
+| đoạn dạo | bội số | độ dày hợp âm |
+|---|---|---|
+| **Linh Nhi** (trưởng, n=135) | **1,561** | 3,03 |
+| Cà Pháo (trưởng, n=263) | 1,299 | 3,51 |
+| Tôn Hùng (thứ, n=97) | 1,346 | 3,72 |
+
+Chênh Linh Nhi – Cà Pháo là 0,26, **vượt ngưỡng phát hiện 0,20** nên đọc được. Chênh
+Linh Nhi – Tôn Hùng là 0,22, vừa qua ngưỡng, và hai vế **khác giọng** (chị trưởng, thầy
+thứ) nên chỉ đọc như một dấu hiệu, không phải kết luận.
+
+### Ba ô đáng soi lại, chưa xử
+
+- **Một Cõi Đi Về · kết** bội số **0,656** — *kém hơn rải bừa*. Đoạn kết ấy chọn nốt ngoài
+  hợp âm nhiều hơn cả ngẫu nhiên.
+- **Rừng Lá Thấp · kết** bội số **0,875**, cũng dưới 1.
+- **Lá Thư Trần Thế · kết** báo độ dày hợp âm **7,00 nốt** và trúng 100% trên n=22. Hợp âm
+  bảy nốt là bất thường — nghi ký hiệu hợp âm đọc sai chứ không phải chị chơi thế. **Chưa
+  soi.** Ba ô này đều là đoạn kết giọng thứ, và chúng kéo con số 1,131 ở bảng trên xuống.
+
+---
+
 ## 17. Chưa đo — lỗ còn lại
 
 - **Vị trí ô chia đôi** trong đoạn dạo: n=6, chưa thành luật.

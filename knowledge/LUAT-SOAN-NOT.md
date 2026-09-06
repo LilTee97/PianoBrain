@@ -1213,3 +1213,39 @@ phải nét thường trực như tôi tưởng lúc dựng phiếu 20 chỗ.
 > **Bài học chung.** Ba lần vá liên tiếp đều do **dữ liệu bác lại**, không do tôi nghĩ ra.
 > Cả ba lần cái sai đều là **xét một cặp hợp âm biệt lập** thay vì xét hành vi của hợp âm
 > ấy **trong cả bài**. Chức năng hoà thanh là thứ chỉ hiện ra ở quy mô cả bài.
+
+## Luật 13 — Chấm "bám hợp âm" bằng BỘI SỐ, đừng bằng tỉ lệ thô
+
+Đo ngày **6/9/2026**, bộ đo `tools/sheet/boi_so.py` (có `--kiem`). Áp cho cả ba thầy.
+
+**Cái bẫy.** Tỉ lệ nốt trúng hợp âm THÔ không so được giữa hai vốn hợp âm khác nhau. Hợp âm
+càng dày thì rải bừa càng dễ trúng, nên một người dùng hợp âm màu sẽ có tỉ lệ thô cao hơn
+mà chưa chắc bám chặt hơn.
+
+**Thước đúng:**
+
+    bội số = (tỉ lệ trúng hợp âm) / (tỉ lệ trúng nếu rải bừa trong gam)
+
+Mẫu số tính cho **từng nốt**: trong bảy bậc của gam có bao nhiêu bậc nằm trong hợp âm đang
+vang, chia bảy. Bội số 1 = không khác gì rải bừa.
+
+**Cỡ mẫu bằng chứng, đoạn dạo:**
+
+| thầy | giọng | số bài | n nốt | **bội số** | độ dày hợp âm |
+|---|---|---|---|---|---|
+| Linh Nhi | trưởng | 3 | 135 | **1,561** | 3,03 |
+| Cà Pháo | trưởng | 3 | 263 | **1,299** | 3,51 |
+| Tôn Hùng | thứ | 2 | 97 | **1,346** | 3,72 |
+
+Đọc theo tỉ lệ thô thì Cà Pháo bám chặt nhất (mục 3 của `ca-phao.md`: 70,8% so với 63,6%).
+Đọc theo bội số thì **ngược lại** — Linh Nhi chặt nhất, khoảng cách 0,26 đủ lớn để đọc
+được. Cột cuối giải thích vì sao: hợp âm của Cà Pháo dày hơn nửa nốt.
+
+**Ngưỡng phát hiện.** Ba bài giọng trưởng của Linh Nhi cho bội số 1,364 · 1,604 · 1,714 →
+sai số chuẩn **0,103**. Chênh lệch nhỏ hơn **0,20 bội số** thì không kết luận được gì, dù
+đo bao nhiêu lượt bên phía app cũng vậy — sàn nằm ở phía bản ký âm, chỉ thêm sheet mới hạ được.
+
+**Chỗ dùng.** `KeyTrain/src/reharm/style/__tests__/boiSoTuoiSang.test.ts` chấm câu dạo giọng
+trưởng của app bằng đúng công thức này. Trước ngày 6/9/2026 ba con số mốc ấy chỉ nằm trong
+chính bài kiểm, agent gõ tay, **không tra ngược được về bản ký âm** — `boi_so.py --kiem`
+sinh ra để đóng lỗ ấy.

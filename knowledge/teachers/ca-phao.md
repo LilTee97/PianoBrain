@@ -402,6 +402,37 @@ khuông tay phải; đã bỏ nốt láy và đuôi nốt nối.
 
 ---
 
+## 5b. BỘI SỐ bám hợp âm — và vì sao tỉ lệ thô của thầy gây hiểu nhầm
+
+Đo ngày **6/9/2026** bằng `python tools/sheet/boi_so.py ca-phao`. Định nghĩa bội số xem
+`linh-nhi-piano.md` mục 16b.
+
+| đoạn | giọng | số bài | n nốt | **BỘI SỐ** | bước nhỏ | độ dày hợp âm |
+|---|---|---|---|---|---|---|
+| dạo | trưởng | 3 | 263 | **1,299** | 46,7% | 3,51 nốt |
+| dạo | thứ | 1 | 62 | 1,180 | 73,8% | 5,71 nốt |
+| giang | trưởng | 3 | 279 | **1,196** | 57,8% | 3,50 nốt |
+| giang | thứ | 1 | 55 | 1,122 | 35,2% | 4,60 nốt |
+| kết | trưởng | 2 | 73 | **1,277** | 38,3% | 3,35 nốt |
+| kết | thứ | 2 | 85 | 1,416 | 30,6% | 4,74 nốt |
+
+**Chỗ phải đọc kỹ, và đây là ví dụ sống cho việc tại sao phải dùng bội số.**
+
+Ở mục 3 sổ này có ghi thầy **bám hợp âm chặt hơn Linh Nhi — 70,8% so với 63,6%**. Con số ấy
+đúng, nhưng nó là **tỉ lệ thô**. Đo lại bằng bội số thì **ngược lại**: đoạn dạo của thầy
+1,299, của Linh Nhi 1,561.
+
+Lý do nằm ở cột cuối: hợp âm của thầy **dày hơn hẳn** — 3,51 nốt ở đoạn dạo giọng trưởng,
+lên tới **5,71** ở đoạn dạo giọng thứ, trong khi Linh Nhi ở 3,0–3,3. Hợp âm càng dày thì
+rải bừa trong gam càng dễ trúng, nên tỉ lệ thô cao lên mà mức bám thực không tăng.
+
+**Không phải mục 3 sai.** Hai câu hỏi khác nhau: *"nốt có nằm trong hợp âm không"* thì thầy
+trúng nhiều hơn; *"thầy có chọn nốt hợp âm nhiều hơn mức tình cờ không"* thì Linh Nhi hơn.
+Chênh 0,26 giữa hai người vượt ngưỡng phát hiện 0,20 nên đọc được.
+
+Cỡ mẫu giọng thứ chỉ **một bài** ở đoạn dạo và giang — đừng dùng hai dòng ấy để đặt luật.
+
+
 ## 6. Chưa đo — đừng suy bừa vào chỗ này
 
 - **Sheet có cùng cao độ với bản thu không.** Đã bắt được **một** bài lệch: *Người hãy quên

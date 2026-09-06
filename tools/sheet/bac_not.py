@@ -207,6 +207,9 @@ def do_bai(song):
         for i, (beat, bar, midi) in enumerate(line):
             el, cung_o = hop_tai(hops, beat, bar)
             muc = dict(bai=song['name'], doan=ten_doan, midi=midi, cung_o=cung_o,
+                       # Chu am va the CUA DOAN, khong phai cua bai — boi_so.py
+                       # can chung de dung mau so "rai bua trong gam".
+                       chu_am=chu_am, the=the,
                        bac_bai=(midi - chu_am) % 12,
                        trong_gam=((midi - chu_am) % 12) in gam,
                        trong_gam_hep=((midi - chu_am) % 12) in gam_hep,
