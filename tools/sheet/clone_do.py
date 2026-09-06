@@ -264,6 +264,10 @@ def main():
         d = do_bai(s)
         if d:
             bao_bai(d)
+            import luu_solo
+            da = luu_solo.luu_bai(d)
+            if da:
+                print('  luu %s cau solo -> data/sheet-solos/' % da)
 
 
 if __name__ == '__main__':

@@ -11,6 +11,13 @@ export PIANOBRAIN_SHEETS="/duong/dan/toi/thu/muc/sheet"
 
 python tools/sheet/profile.py           # bảng tóm tắt
 python tools/sheet/profile.py --json    # JSON đầy đủ, có số liệu từng đoạn
+
+# Lưu / xóa câu dạo, giang tấu, outro (không vào knowledge/)
+python tools/sheet/luu_solo.py          # lưu mọi bài có file
+python tools/sheet/luu_solo.py lietke
+python tools/sheet/luu_solo.py xoa <id>
+python tools/sheet/luu_solo.py xoa-thay ca-phao
+python tools/sheet/luu_solo.py xoa-het
 ```
 
 Danh sách bài, thể loại và biên đoạn nằm ở `corpus.json`.
