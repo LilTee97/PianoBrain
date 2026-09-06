@@ -500,6 +500,14 @@ không cần giữ hơi liền mạch.
 
 ## 6. Trưởng và thứ chọn nốt khác nhau
 
+> **ĐỌC BẢNG NÀY CÓ ĐIỀU KIỆN.** Nó ghi bậc **so với chủ âm bài**, mà gam trưởng vốn có
+> sẵn `3` và `13` còn gam thứ vốn có sẵn `♭3` và `♭7`. Nên bốn con số lớn nhất trong bảng
+> chỉ đang nói lại định nghĩa của hai cái gam — **chúng không chứng minh một lựa chọn
+> nào**. Phần không bị gam ép nằm ở mục 6b ngay dưới.
+>
+> Ba nhận xét bên dưới bảng thì **vẫn đứng**: bậc `11` có mặt trong CẢ HAI gam, nên chênh
+> lệch 4% so với 10% là lựa chọn thật; tỉ lệ lặp nốt cũng vậy.
+
 | | sáu bậc hay dùng nhất |
 |---|---|
 | **thứ** · dạo | `5` 20% · `1` 20% · `♭3` 14% · `9` 12% · `11` 10% · `♭7` 9% |
@@ -523,6 +531,66 @@ cả ba đoạn. Đây là chỗ làm nên tiếng ngân nga của câu thứ �
 
 **Cả hai giọng đều co về chủ âm ở đoạn kết.** `1` + `5` gộp: đoạn dạo thứ 40% / trưởng
 36%; **đoạn kết thứ 51% / trưởng 47%**.
+
+---
+
+## 6b. Giọng trưởng chị BÁM HỢP ÂM, giọng thứ chị RỜI ra
+
+Đây là phép so **giữ nguyên chất hợp âm rồi mới so**, nên gam không ép được — khác với
+bảng ở mục 6.
+
+| | trưởng | thứ |
+|---|---|---|
+| **nốt của hợp âm đang vang** | **70,2%** | **59,9%** |
+| ngoài gam | 2,7% | 1,0% |
+| tâm cao độ | 76,0 | 74,6 |
+| n (nốt giai điệu) | 406 | 601 |
+
+Chênh **10 điểm** — lớn hơn cả chênh lệch giữa chị và Cà Pháo (63,6% so với 70,8%).
+
+**Đứng trên cùng một hợp âm:**
+
+| chất | bài trưởng | bài thứ |
+|---|---|---|
+| **maj** | `1`28 `3`26 `5`21 — **ba bậc trụ 75%** (n=155) | `3`23 `5`17 `9`15 `1`13 `13`7 — **trụ 53%** (n=150) |
+| **min** | `1`26 `♭3`24 `5`17 — **trụ 67%** (n=207) | `5`21 `1`19 `♭3`14 `9`13 `♭7`11 — **trụ 54%** (n=355) |
+
+Ở bài trưởng chị gần như chỉ đánh ba bậc trụ; ở bài thứ chị rải sang `9`, `♭7`, `13`.
+
+### Bước đi ngược trực giác
+
+| | liền bậc | quãng ba | nhảy 8+ | quãng 4–5 | lặp |
+|---|---|---|---|---|---|
+| **trưởng** | **29%** | **26%** | 26% | 13% | 6% |
+| **thứ** | 20% | 18% | **34%** | 18% | **10%** |
+
+Câu giọng **trưởng đi mượt hơn** — liền bậc cộng quãng ba là 55% so với 38%. Câu giọng
+**thứ nhảy nhiều hơn và đứng lại nhiều hơn**.
+
+### Hai giọng đi NGƯỢC CHIỀU về phía đoạn kết
+
+Tỉ lệ nốt hợp âm theo đoạn:
+
+| | dạo | giang | kết |
+|---|---|---|---|
+| **trưởng** | 68% | 68% | **75%** |
+| **thứ** | 69% | 59% | **50%** |
+
+Ở giọng trưởng chị **siết dần về hợp âm** khi tới đoạn kết. Ở giọng thứ thì **ngược lại**,
+càng về cuối càng rời — tới đoạn kết chỉ còn một nửa số nốt nằm trên hợp âm. n từ 113 tới
+226 mỗi ô.
+
+> **CÁCH ĐỌC — người dùng đã xác nhận.** Người dùng đặt vấn đề rằng ở bài giọng trưởng các
+> thầy *"chọn nốt có xu hướng tươi sáng"*. Đo ra thì **không phải chọn nốt nào trong gam**:
+> giữ nguyên chất hợp âm thì nốt chị chọn gần như không đổi giữa hai giọng.
+>
+> Thứ đổi là **mức bám hợp âm, độ lớn bước, và hướng đi về phía kết**. Tôi đọc ra rằng cái
+> tai nghe thành "tươi sáng" chính là **sự chắc chắn** — nốt nằm trên hợp âm, bước đi nhỏ,
+> càng về kết càng chắc; còn câu thứ mơ hồ hơn vì nó rời hợp âm và nhảy nhiều. **Người dùng
+> đã xác nhận cách đọc này đúng.**
+>
+> Nên khi soạn câu dạo giọng trưởng cho chị: **siết về nốt hợp âm (~70%), giữ bước nhỏ, và
+> siết thêm ở đoạn kết** — đừng rắc nốt màu như ở bài giọng thứ.
 
 ---
 

@@ -146,6 +146,17 @@ Trên hợp âm trưởng, bậc `7` chiếm 24% — anh chơi thẳng lên `maj
 > Bẫy này cùng hình dạng với bẫy "đếm hợp âm át" ở mục 1: một hiện tượng sinh ra **tự động
 > từ chức năng hoà thanh** bị đọc thành **lựa chọn phong cách**.
 
+### "Giọng trưởng tươi sáng hơn" — KHÔNG ĐO ĐƯỢC ở anh
+
+Người dùng nêu rằng ở bài giọng trưởng các thầy chọn nốt tươi sáng hơn. Đo được ở Linh Nhi
+(bám hợp âm 70,2% so với 59,9%) và ở Cà Pháo (tầm âm cao hơn 3,7 nửa cung, tránh hợp âm át).
+
+**Ở Tôn Hùng thì không đo được: cả hai bài đều giọng thứ.** Đây là **chưa đo**, không phải
+"không có". Có bài giọng trưởng thứ ba thì đo lại bằng `tools/sheet/sang_toi.py`.
+
+Cũng vì vậy mà KeyTrain **khoá nút chọn Tôn Hùng ở bài giọng trưởng** — không có ô nào để
+ghép, và cũng không có số nào để soạn theo.
+
 ### Nốt ngoài hợp âm anh xử lý thế nào — chặt nhất trong ba thầy
 
 n=92 nốt ngoài hợp âm ở các đoạn solo:

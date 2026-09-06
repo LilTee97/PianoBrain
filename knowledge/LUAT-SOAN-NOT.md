@@ -397,6 +397,67 @@ tách được là ba luật về **hình dáng cử chỉ**: đều trường �
 (`|tổng bước| / tổng |bước| ≥ 0,45`), và ít nhảy giai điệu (bước 5–8 nửa cung < 30%). Ba luật
 ấy đưa 61 chuỗi xuống **15 trên 167 ô = 0,09 mỗi ô** — lúc ấy mới là thủ pháp.
 
+## Bẫy đo — SO BẬC GIỮA HAI GIỌNG thì phần lớn chênh lệch là do GAM ÉP
+
+Người dùng nêu: ở bài giọng trưởng các thầy *"chọn nốt có xu hướng tươi sáng"*. Đo bậc so
+với chủ âm, cả hai tay, các đoạn solo, chênh lệch trưởng − thứ (điểm phần trăm):
+
+| tay | các bậc |
+|---|---|
+| phải | `3` **+15** · `13` **+13** · `1` +3 · `7` +2 · `11` −5 · `♭13` −5 · `♭7` −8 · `♭3` **−16** |
+| trái | `3` **+13** · `13` **+13** · `7` +5 · `9` +4 · `♭13` −7 · `♭7` −11 · `♭3` **−14** |
+
+Nhìn thì rất thuyết phục. **Nhưng bốn con số lớn nhất chỉ nói lại định nghĩa của hai cái
+gam** — gam trưởng có sẵn `3` và `13`, gam thứ có sẵn `♭3` và `♭7`. Chúng không chứng minh
+một lựa chọn nào.
+
+**PHÉP SO ĐÚNG: giữ nguyên chất hợp âm rồi mới so.** Bậc so với gốc hợp âm, cùng một chất:
+
+| chất | bài trưởng | bài thứ |
+|---|---|---|
+| maj | `5`22 `3`21 `1`15 `9`13 `7`9 `13`8 `11`6 (n=724) | `3`20 `5`20 `1`12 `7`12 `9`12 `13`7 (n=360) |
+| min | `♭3`19 `1`19 `5`18 `♭7`13 `11`12 `9`6 (n=481) | `5`19 `♭3`19 `1`15 `9`14 `♭7`13 `11`8 (n=921) |
+
+**Gần như trùng khít.** Đứng trên một hợp âm, các thầy chọn nốt y như nhau dù bài là trưởng
+hay thứ.
+
+Bậc nào **có mặt trong cả hai gam** thì so được: `11` là bậc 4, có trong cả hai — Linh Nhi
+dùng 4% ở bài trưởng và 10% ở bài thứ, đó là lựa chọn thật.
+
+## "Tươi sáng" nằm ở đâu — ba chỗ, và mỗi thầy một kiểu
+
+Đo bằng `tools/sheet/sang_toi.py`. **Không** nằm ở việc nhặt nốt nào trong gam.
+
+**1. Vốn hợp âm.** Cả hai thầy có bài trưởng đều **tránh hợp âm át** ở bài trưởng:
+
+| | dom ở bài trưởng | dom ở bài thứ |
+|---|---|---|
+| Linh Nhi | **2%** | 11% |
+| Cà Pháo | **7%** | 24% |
+
+Đây là chỗ hai thầy giống nhau nhất. Hai thầy — chưa đủ chốt thành luật chung, nhưng đủ để
+thử.
+
+**2. Tầm âm — chỉ Cà Pháo.** Bài trưởng của anh cao hơn bài thứ **3,7 nửa cung ở tâm** và
+**9 ở trần**. Linh Nhi gần như không đổi. Đừng áp nét này cho chị.
+
+**3. Mức BÁM HỢP ÂM — chỉ Linh Nhi, và đây là chỗ mạnh nhất.**
+
+| | nốt hợp âm | liền bậc + quãng ba | nốt hợp âm ở đoạn KẾT |
+|---|---|---|---|
+| bài trưởng | **70,2%** | **55%** | **75%** |
+| bài thứ | **59,9%** | 38% | **50%** |
+
+Ở giọng trưởng chị bám hợp âm chặt, bước nhỏ, và **siết dần về phía đoạn kết**; ở giọng thứ
+thì rời hợp âm, nhảy nhiều, và **càng về cuối càng rời**.
+
+> **CÁCH ĐỌC — người dùng đã xác nhận.** Thứ tai nghe thành "tươi sáng" là **sự chắc chắn**:
+> nốt nằm trên hợp âm, bước đi nhỏ, càng về kết càng chắc. Câu giọng thứ mơ hồ hơn vì nó rời
+> hợp âm và nhảy nhiều.
+>
+> Nên khi soạn câu giọng trưởng: **siết về nốt hợp âm, giữ bước nhỏ, siết thêm ở đoạn kết**
+> — không phải đi tìm bậc `3` hay bậc `13`.
+
 ## Tóm tắt để soạn
 
 Khi đặt một nốt, hỏi theo thứ tự này:

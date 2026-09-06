@@ -211,6 +211,36 @@ So với Linh Nhi (75,3 trưởng · 73,2 thứ): Cà Pháo thấp hơn **4,5 n�
 > **71,0** chứ không phải 68,0 — sai số tối đa của phép dời quãng tám là nửa quãng tám.
 > Muốn sát hơn thì phải nắn từng nốt, mà nắn nốt là thứ đã bị bác bốn lần.
 
+### Bài trưởng của anh SÁNG BẰNG TẦM ÂM — khác hẳn Linh Nhi
+
+Đo các đoạn solo, tách theo giọng của bài:
+
+| | tâm tay phải | trần trung bình |
+|---|---|---|
+| **bài giọng trưởng** | **70,0** | **94,0** |
+| bài giọng thứ | 66,3 | 85,0 |
+
+Bài trưởng cao hơn bài thứ **3,7 nửa cung ở tâm** và **9 nửa cung ở trần**. Linh Nhi thì
+gần như không đổi (75,4 so với 74,0, trần còn thấp hơn một chút) — nên **đây là nét riêng
+của Cà Pháo**, không phải luật chung.
+
+### Vốn hợp âm ở đoạn solo đổi hẳn theo giọng bài
+
+| | các chất |
+|---|---|
+| **bài giọng trưởng** | maj **54%** · min 26% · **sus 14%** · dom 7% (n=138) |
+| bài giọng thứ | min 61% · **dom 24%** · maj 15% (n=54) |
+
+Hai chỗ đáng chú ý: **hợp âm treo chỉ xuất hiện ở bài trưởng** (14% so với 0), và **hợp âm
+át gấp hơn ba lần ở bài thứ** (24% so với 7%).
+
+Linh Nhi cũng tránh hợp âm át ở bài trưởng, còn mạnh hơn: **2% so với 11%**. Đây là chỗ
+**hai thầy giống nhau** — có lẽ là luật chung, nhưng mới hai thầy nên chưa chốt.
+
+> **NHƯNG NỐT THÌ KHÔNG ĐỔI.** Giữ nguyên chất hợp âm rồi so, bậc tay phải chọn ở bài
+> trưởng gần như trùng khít bài thứ. Cái đổi là **hợp âm nào được dùng** và **ngồi ở tầm
+> nào**, không phải nhặt nốt nào trong gam. Xem mục bẫy đo trong `LUAT-SOAN-NOT.md`.
+
 ### Đoạn kết luôn thưa nhất và thấp nhất
 
 **4/4 bài** có tay trái ở đoạn kết thưa hơn hoặc bằng đoạn dạo: `3,4 < 4,1` · `2,4 < 4,4` ·
