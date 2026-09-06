@@ -873,6 +873,38 @@ Dùng số gộp thì bài giọng trưởng ra thấp hơn chị khoảng **1,8
 So với hai thầy kia, cùng phép đo (chỉ đoạn dạo): **Cà Pháo 70,8 / 68,0** — thấp hơn chị
 4,5 và 5,2 nửa cung; **Tôn Hùng 75,8** ở giọng thứ, không có bài giọng trưởng.
 
+### Phân vị cao độ tay phải, ba đoạn dạo giọng trưởng — để chọn TRẦN tầm âm
+
+Đo 6/9/2026, tuyến giai điệu tay phải, ba bài giọng trưởng, chỉ đoạn dạo. **n = 141 nốt.**
+
+| bài | n | tâm | thấp nhất | cao nhất | trên 79 | trên 81 | trên 84 |
+|---|---|---|---|---|---|---|---|
+| Biển Tình | 51 | 75,2 | 64 | **83** | 17,6% | 7,8% | 0% |
+| Đường Xưa Lối Cũ | 42 | 74,5 | 62 | **84** | 16,7% | 11,9% | 0% |
+| Mùa Xuân Đầu Tiên | 48 | 76,0 | 57 | **91** | 33,3% | 27,1% | 16,7% |
+| **gộp** | **141** | **75,3** | **57** | **91** | **22,7%** | 15,6% | 5,7% |
+
+Phân vị gộp: **p50 = 76 · p75 = 79 · p90 = 83 · p95 = 86 · p99 = 88**.
+
+**Con số phải nhớ: 22,7% nốt của chị nằm TRÊN 79**, và **p75 đúng bằng 79**. Trần
+`SOLO_RANGE` của KeyTrain cũng là 79 — nghĩa là trần ấy cắt đi gần **một phần tư** vốn nốt
+của chị, và cắt đúng phần trên. Đó là lời giải thích cho việc app ra tâm **72,1** trong khi
+chị **75,3**.
+
+Đếm từng nốt riêng lẻ ở vùng cao, để biết chỗ nào là ngoại lệ chỗ nào là vốn thật:
+
+    80: 1 · 81: 9 · 83: 10 · 84: 4 · 86: 3 · 87: 1 · 88: 2 · 90: 1 · 91: 1
+
+Nên **81 và 83 là vốn thật** (19 nốt), còn **90 và 91 mỗi cao độ đúng một nốt**, cả hai đều
+ở Mùa Xuân — đó là ngoại lệ, đừng lấy làm trần.
+
+**Trần 84 phủ 94,3% vốn nốt của chị** và phủ trọn hai bài Biển Tình (max 83) với Đường Xưa
+(max 84). Trần 79 chỉ phủ 77,3%.
+
+> **Trần là điều kiện CẦN, không phải điều kiện ĐỦ.** Nâng trần không tự đưa tâm lên 75,3 —
+> tâm còn do bộ ghép chọn ô nào và dời quãng tám thế nào. Nâng xong **phải đo lại tâm**, và
+> nếu vẫn thấp thì chỗ hỏng nằm ở phép dời quãng tám chứ không ở trần.
+
 ---
 
 ## 10b. Hai tay khớp nhau thế nào — số đo cứu từ bộ soạn đã bỏ
