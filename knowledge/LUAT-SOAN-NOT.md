@@ -199,7 +199,203 @@ Riêng câu dạo Linh Nhi thì nặng về `1 · ♭3 · 5 · ♭7 · 9`:
 nhất.** Không có cặp nào chiếm ưu thế áp đảo — phân bố rất phẳng, nghĩa là **không có
 bảng "bậc nào sau bậc nào" cứng**; luật thật nằm ở luật 1–4.
 
+## Luật 9 — BẬC `11` LÀ NỐT TRÁNH TRÊN HỢP ÂM TRƯỞNG, NHƯNG KHÔNG PHẢI TRÊN HỢP ÂM THỨ
+
+Đo bằng `tools/sheet/bac_not.py` — bậc của từng nốt so với **gốc hợp âm đang vang**, tách
+theo chất hợp âm. Đây là phép đo trả lời câu người dùng hỏi: *"khi các thầy đánh đến hợp âm
+C thì họ chọn nốt trong bảy bậc của C, hay lấy cả nốt ngoài?"*
+
+| | hợp âm TRƯỞNG | hợp âm THỨ | hợp âm ÁT |
+|---|---|---|---|
+| **Linh Nhi** | n=305 · `3`25 `1`21 `5`19 `9`11 `13`6 **`11`6** | n=562 · `1`22 `5`20 `♭3`18 `9`11 `♭7`10 **`11`9** | n=93 · `1`27 **`11`27** `5`13 `3`10 `♭7`9 `♭13`5 |
+| **Cà Pháo** | n=422 · `3`20 `5`19 `9`15 `7`12 `1`12 `13`10 **`11`5** | n=282 · `♭3`20 `5`19 `♭7`19 **`11`13** `1`8 `9`8 | n=66 · `5`21 `3`17 `11`12 `♭7`11 **`♭13`9** `9`9 `13`8 |
+| **Tôn Hùng** | n=100 · `5`27 `7`24 `3`15 `♭5`11 `13`9 `1`9 | n=180 · `♭3`22 **`9`21** `5`20 `1`13 `♭7`11 **`11`7** | n<20 |
+
+**Bậc `11` rơi xuống 5–6% trên hợp âm trưởng ở cả ba thầy, nhưng giữ 7–13% trên hợp âm
+thứ.** Đây là luật avoid-note cổ điển, và số đo xác nhận cả ba thầy đều theo — nên nó thuộc
+nhóm **luật chống chói tai**, gộp được mọi thầy đúng như người dùng đã chốt.
+
+Bảng ba cột nằm ở đây **vì bản thân phép so sánh mới là luật** — phải đủ ba thầy mới chứng
+minh được bậc `11` bị tránh ở cả ba. Còn các nét **riêng** đọc ra từ chính bảng này (Cà Pháo
+nặng `9` và `13` trên hợp âm trưởng, Tôn Hùng nặng `9` trên hợp âm thứ) thì **nằm ở md của
+từng thầy**, không chép lại vào đây.
+
+> **`11` 27% TRÊN HỢP ÂM ÁT CỦA LINH NHI KHÔNG PHẢI `sus4`.** Tôi đã đọc con số ấy thành
+> "chị treo bậc 4 rồi giải xuống bậc 3" và ghi vào ba file trước khi kiểm. Kiểm ra:
+> **25/25 nốt ấy là CHỦ ÂM của bài.** Cà Pháo cũng vậy, 7/8.
+>
+> Cơ chế thật: hợp âm át đứng ở bậc V, nên **chủ âm của bài đọc ra là bậc 11 của hợp âm
+> ấy** — tự động, không phải lựa chọn. Điều số đo nói là *"khi hợp âm át đang vang, các
+> thầy đánh chủ âm của bài"*, chứ không phải *"các thầy thích bậc 11"*. Hai câu ấy dẫn tới
+> hai cách soạn khác hẳn nhau.
+
+## Luật 10 — NỐT MÀU CỦA HỌ ĐỀU NẰM SẴN TRONG GAM CỦA BÀI
+
+**ĐÍNH CHÍNH.** Chỗ này thoạt đầu tôi viết *"bậc `♭9` không lọt ngưỡng 2% ở bất kỳ nhóm nào
+của bất kỳ thầy nào"* — **sai, và trái với chính bảng ở luật 9**. Số thật:
+
+| | `♭9` trên hợp âm | trong đó **nằm trong gam bài** |
+|---|---|---|
+| Linh Nhi | 22 nốt (maj 3,0% · át 4,3% · thứ 1,6%) | **20/22** |
+| Cà Pháo | 9 nốt (thứ 2,1% · treo 2,1%) | 5/9 |
+| Tôn Hùng | **0 nốt** | — |
+
+Nên phát biểu đúng **không** phải "họ không đánh `♭9`", mà là: **nốt `♭9` họ đánh gần như
+luôn là một nốt có sẵn trong gam bài, rơi trên một hợp âm khiến nó đọc ra thành `♭9`.**
+Của Linh Nhi, 11 nốt là bậc `♭13` của gam và 8 nốt là bậc `♭3` — hai bậc **diatonic của
+giọng thứ**. Rơi trên hợp âm át thì thành `V7♭9`, đúng chuẩn mực giọng thứ, không phải mượn
+mode.
+
+Nói theo ví dụ người dùng đưa: **họ không lấy `Db` từ ngoài gam để đánh trên hợp âm `C`**;
+`Db` chỉ xuất hiện khi nó vốn đã là một bậc của gam bài.
+
+Trên hợp âm **thứ**, bậc 6 (`13`) và `♭13` đều chỉ 2–3% ở cả ba thầy — tức họ **gần như
+không đánh bậc 6 trên hợp âm thứ**, nên **không phân biệt được Dorian với Aeolian**. Đừng
+khai một thầy nào là Dorian; số đo không đủ để nói.
+
+### PHÉP KIỂM CHÉO BẮT BUỘC — bậc hợp âm phải soi lại bằng bậc gam
+
+Ba lần trong cùng một lượt đo, một con số **bậc so với hợp âm** hoá ra là hệ quả tự động
+của **bậc so với gam bài**: `♭5` của Tôn Hùng, `11` trên hợp âm át của Linh Nhi, `♭9` của
+cả hai thầy. Cùng một hình dạng sai.
+
+Nên từ nay, trước khi gọi tên một nét phong cách từ bảng bậc hợp âm, **luôn chạy thêm một
+lượt hỏi các nốt ấy là bậc mấy của GAM BÀI**. Nếu chúng dồn vào một bậc gam duy nhất thì
+đó là chức năng hoà thanh, không phải lựa chọn của thầy.
+
+Ba con số **sống sót** qua phép kiểm này:
+
+- **Cà Pháo, bậc `9` và `13` trên hợp âm trưởng** (15% và 10%): trải đều trên nhiều bậc gam
+  — `9` rơi vào bậc gam `5`×26 và `9`×29; `13` rơi vào `9`×28, `13`×10, `3`×6. Không dồn về
+  một chỗ, nên đây là **lựa chọn màu thật**.
+- **Bậc `11` trên hợp âm thứ** (Linh Nhi 9%, Cà Pháo 13%): cũng trải rộng.
+- **Bậc `11` bị tránh trên hợp âm trưởng** ở cả ba thầy — luật 9.
+
+> **MỘT KẾT LUẬN ĐÃ SUÝT SAI.** Tôn Hùng có `♭5` 11% trên hợp âm trưởng, đọc thoáng thì
+> giống **Lydian**. Soi ra 11 nốt ấy: **8 nốt là nốt `A` trên `Ebmaj7`** trong Chiếc Lá
+> Mùa Đông (bài Sol thứ) và **1 nốt `B` trên `Fmaj7`** trong Tình Em (bài La thứ). Cả hai
+> chỗ, hợp âm là **bậc `♭VI` của một bài giọng thứ**, và nốt ấy chính là **bậc 2 của gam
+> bài** — nằm sẵn trong gam, không mượn ở đâu cả.
+>
+> Tám nốt `A` kia còn là **cùng một mô-típ lặp lại**: `Bb → A → D` mở đầu Chiếc Lá, lặp
+> tám lần trong đoạn dạo. Nên n thật ở đây là **2 sự kiện**, không phải 11 nốt.
+>
+> Bẫy cùng hình dạng với những bẫy trước: một hiện tượng sinh ra **tự động từ chức năng
+> hoà thanh** bị đọc thành **lựa chọn phong cách**. Trước khi gọi tên một mode, hỏi: bậc
+> ấy có sẵn trong gam bài không, và mấy sự kiện độc lập đứng sau con số?
+
+## Luật 11 — NỐT NGOÀI HỢP ÂM: KHÔNG CÓ LUẬT CHUNG
+
+Đo cách nốt ngoài hợp âm đi ra, và tỉ lệ nốt kế tiếp là nốt hợp âm. **Ba thầy chênh nhau
+quá xa để rút thành một luật**: giải về nốt hợp âm 55% (Linh Nhi) · 58% (Cà Pháo) · 76%
+(Tôn Hùng).
+
+Nên đây là **nét riêng**, không phải luật chống chói tai. **Số của từng thầy nằm trong md
+của thầy ấy** — đừng lấy con số gộp mà soạn.
+
+Điều duy nhất chung cho cả ba: **bước liền bậc và bước nhỏ vẫn chiếm phần lớn**, đúng như
+luật 3 đã nói; nốt ngoài hợp âm không phải cái cớ để nhảy.
+
+> **CHỖ LỎNG CỦA PHÉP ĐO, PHẢI NÓI RA.** Khi hợp âm đổi ngay sau nốt ấy thì nốt kế thuộc
+> hợp âm **mới**, mà phép đo vẫn xét bằng hợp âm **cũ**. Nên mọi con số "giải về nốt hợp
+> âm" là **chặn dưới**, không phải số đúng.
+
+Nốt **ngoài gam** cũng không có luật chung: tỉ lệ được bọc bằng bước liền bậc cả hai bên
+chạy từ 11,8% (Linh Nhi) tới 66,7% (Tôn Hùng, n=3). Chi tiết ở md từng thầy.
+
+## Hai lỗi kho đã bắt được khi dựng `bac_not.py`
+
+**1. Bản ký âm lớn nhất của Cà Pháo bị bỏ lặng lẽ.** `corpus.json` ghi Hồng Kông 1 dưới tên
+`...advanced.mxl`, còn file trong kho tên `...advanced-da-don.musicxml`. `khung.duong_file`
+không khớp thì trả `None` và bài **biến mất không báo gì** — n của Cà Pháo tụt từ 828 xuống
+**525** mà bảng vẫn in ra bình thường. `bac_not.tim_file` thêm đường lui khớp theo phần đầu
+tên file.
+
+**2. Giọng của ĐOẠN phải thắng giọng của bài.** Quên đọc `sections.outro.giong` thì đoạn kết
+Có Em Chờ (chuyển sang Đô thăng thứ) ra 39/200 nốt ngoài gam, kéo Cà Pháo lên **10,9%** thay
+vì 4,7%.
+
+Cả hai lỗi đều thuộc dạng **hỏng mà không kêu**. Nên `bac_not.py --kiem` in lại các con số
+đã chốt để mỗi lần chạy đều tự soi.
+
 ---
+
+## Luật 12 — TÂM CAO ĐỘ phải đo riêng TỪNG ĐOẠN và riêng TỪNG THẦY
+
+Cao độ trung bình tay phải là một hằng số ổn định của mỗi thầy — nhưng chỉ khi **mẫu số
+đúng**. Hai chỗ đã sập:
+
+**Gộp ba đoạn solo thành một con số.** `ca-phao.md` từng ghi tâm của Cà Pháo là **67**, đo
+trên 828 nốt của cả dạo · giang · kết. Riêng **đoạn dạo** thì là **70,8** — lệch gần bốn nửa
+cung. Lấy 67 làm neo cho bộ soạn câu dạo là lấy nhầm mẫu số.
+
+**Gộp hai giọng thành một con số.** Linh Nhi từng dùng chung **73,6**. Tách ra: trưởng
+**75,3**, thứ **73,2** — và nhóm trưởng chụm hơn hẳn (75,2 · 74,5 · 76,0) trong khi nhóm thứ
+tản rộng (70,8 · 76,1 · 72,7 · 73,6).
+
+Bảng đã chốt, **chỉ đoạn dạo**:
+
+| thầy | trưởng | thứ |
+|---|---|---|
+| Linh Nhi | **75,3** (n=141) | **73,2** (n=239) |
+| Cà Pháo | **70,8** (n=263) | **68,0** (n=62, **một bài**) |
+| Tôn Hùng | *không có bài giọng trưởng* | **75,8** (n=97) |
+
+**Cà Pháo thấp hơn Linh Nhi 4,5–5,2 nửa cung.** Dùng chung một neo cho ba thầy thì câu của
+anh cao hơn thầy thật gần nửa quãng tám.
+
+> **Sai số không tránh được của phép dời quãng tám.** Bộ soạn dời cả câu đi **bội số của
+> 12**, nên tâm dựng ra lệch neo tới **nửa quãng tám**. Cà Pháo giọng thứ: neo 68,0 mà dựng
+> ra 71,0. Đó là trần của phép dời, không phải lỗi. Muốn sát hơn thì phải nắn từng nốt — thứ
+> đã bị người dùng bác bốn lần.
+
+## Bẫy đo — MỘT BẢN KÝ ÂM CÓ HAI CÁCH RÚT TUYẾN, và chúng không bằng nhau
+
+Cùng một khuông tay phải, hai phép rút ra hai tuyến khác nhau ở ô nhiều bè:
+
+| | lấy gì | dùng cho việc gì |
+|---|---|---|
+| **nốt trên cùng mỗi mốc gõ** | nốt cao nhất | dựng lại **tiếng phát ra** — đúng mật độ, đúng thứ nghe được |
+| **một bè** | mỗi mốc lấy nốt gần nốt trước, bỏ nốt đáp trầm dưới trung vị − 12 | **đọc hiểu cử chỉ** — không đọc ra bước nhảy giả |
+
+Ca lộ chỗ lệch: **Rừng Lá Thấp ô 4**. Phép một bè ra `A4 C5 E5 E5 D5`; phép nốt trên cùng ra
+`C5 D5 E5 G5 D5 E5 E4 G4` — và `A4` **không có mặt** trong tuyến kia, tức hình ấy nằm ở **bè
+trong**.
+
+**Người dùng đã chốt: giữ cả hai, không hợp nhất.** Mỗi phép đúng cho việc của nó. Hai đường
+hợp nhất đều đã cân nhắc rồi bỏ:
+
+- Hợp về **phép một bè** thì **đổi thứ phát ra** — phép ấy cố ý bỏ nốt đáp trầm, mà chúng có
+  thật và có kêu.
+- Hợp về **phép nốt trên cùng** thì dựng lại đúng cái bẫy đã gỡ: chính nó đọc ra `D7 → A4`
+  (**−29 nửa cung**) ở Lá Thư ô 106 và `D7 → E5` (**−22**) ở Đừng Xa ô 84 — hai "chuỗi" mà
+  không ai soạn ra.
+
+Nên khi đọc một con số về tuyến giai điệu, **hỏi trước: nó rút bằng phép nào.** Hai phép ra
+hai con số, và cả hai đều không sai.
+
+## Bẫy đo — ĐỊNH NGHĨA "dãy nốt" quyết định con số gấp mười hai lần
+
+Đếm các đoạn tay phải chơi một dãy nốt trên 7 bài × 3 đoạn không lời của Linh Nhi:
+
+| ngưỡng | số chuỗi |
+|---|---|
+| nốt ≤ 0,26 phách (móc kép trở lên), ≥ 4 nốt | **10** |
+| nốt ≤ 0,5 phách (móc đơn trở lên), ≥ 4 nốt | **64** |
+| nốt ≤ 0,5 phách, ≥ 3 nốt | **119** |
+
+Ba con số nói ba chuyện khác hẳn: 10 là *thủ pháp hiếm*, 119 là *cách viết giai điệu*.
+
+**Ngưỡng của thầy này không dùng được cho thầy kia.** `chay_not.py` đặt `NHANH = 0,26` cho Cà
+Pháo — bossa nova, câu chạy móc kép rất rõ. Linh Nhi chơi bolero 60–70 BPM, ở đó móc **đơn**
+đã là mặt chạy. Bộ đo riêng cho từng thầy nằm ở `tools/sheet/day_not.py`, ngưỡng để trong
+hằng `NGUONG`, mỗi thầy một dòng.
+
+**Và sàn độ dài KHÔNG phải cách tách "đoạn ngắn" khỏi "cả tuyến".** Đặt sàn ≥6 nốt ra 23
+chuỗi, ≥7 ra 15 — nhưng đó chỉ là *lấy những ô giai điệu dài nhất*, vẫn cùng một tuyến. Thứ
+tách được là ba luật về **hình dáng cử chỉ**: đều trường độ (`max/min ≤ 2`), có hướng
+(`|tổng bước| / tổng |bước| ≥ 0,45`), và ít nhảy giai điệu (bước 5–8 nửa cung < 30%). Ba luật
+ấy đưa 61 chuỗi xuống **15 trên 167 ô = 0,09 mỗi ô** — lúc ấy mới là thủ pháp.
 
 ## Tóm tắt để soạn
 
@@ -212,6 +408,8 @@ Khi đặt một nốt, hỏi theo thứ tự này:
 5. Giọng thứ: **nâng bậc 7 khi hợp âm là bậc V**.
 6. Nốt ngoài gam chỉ dùng ở `♭7` và `♭5`, và **phải có ít nhất một bên nối liền bậc** (69%
    số nốt ngoài gam làm đúng thế).
+7. **Bậc `11` chỉ dùng trên hợp âm thứ và hợp âm át; trên hợp âm trưởng thì tránh** (luật 9).
+8. **Không mượn mode ngoài gam bài** — nốt màu là `9` và `13`, không phải `♭9` (luật 10).
 
 Không có bước nào cho phép **bốc thăm**. Xem `cau-solo-la-soan-khong-phai-sinh` — nốt nào
 cũng phải trả lời được câu *"nó đến từ đâu"*.

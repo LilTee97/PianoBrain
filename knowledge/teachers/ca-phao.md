@@ -85,6 +85,54 @@ thuẫn: nốt của anh ấy nằm trên hợp âm nhiều hơn, mà khi rời 
 > Đừng lấy con số gộp ba thầy (67,7%) mà soạn cho một thầy. Luật chung chỉ là **khoảng
 > 60–75%**; chỗ đứng trong khoảng ấy mới là nét riêng.
 
+### Bậc so với GỐC HỢP ÂM — anh chọn nốt nào khi hợp âm nào đang vang
+
+Đo bằng `tools/sheet/bac_not.py`.
+
+| chất hợp âm | n | các bậc anh dùng |
+|---|---|---|
+| trưởng | 422 | `3`20% `5`19% **`9`15%** `7`12% `1`12% **`13`10%** `11`5% |
+| thứ | 282 | `♭3`20% `5`19% **`♭7`19%** **`11`13%** `1`8% `9`8% |
+| át | 66 | `5`21% `3`17% `11`12% `♭7`11% **`♭13`9%** `9`9% `13`8% |
+| treo (`sus`) | 47 | `1`19% `5`19% `11`17% `13`13% `♭7`13% `9`11% |
+
+Ba nét riêng:
+
+1. **Trên hợp âm trưởng anh dùng `9` và `13` nhiều nhất trong ba thầy** — 15% và 10%, cộng
+   lại một phần tư số nốt. Linh Nhi 11% và 6%. Đây là chỗ nghe ra tiếng bossa.
+2. **Trên hợp âm thứ, bậc `11` chiếm 13%** — cao nhất trong ba thầy, và khớp với vốn hợp âm
+   `Dm11 · Gm11 · A11` ở mục 3 bên dưới. Bậc `♭7` cũng 19%, tức anh chơi thẳng lên hợp âm
+   bảy chứ không dừng ở ba nốt.
+3. **Trên hợp âm át anh dùng `♭13` 9%** — màu altered. Linh Nhi chỉ 5%. n=66, mỏng.
+
+Điểm 1 và 2 đã qua **phép kiểm chéo bậc gam**: nốt `9` trên hợp âm trưởng rơi vào bậc gam
+`5`×26 và `9`×29, nốt `13` rơi vào `9`×28 · `13`×10 · `3`×6 — trải rộng, nên là **lựa chọn
+màu thật** chứ không phải hệ quả tự động của chức năng hoà thanh.
+
+> **CHỖ KHÔNG ĐƯỢC DÙNG ĐỂ TÁCH ANH VỚI LINH NHI.** Bậc `11` trên hợp âm át: anh 12%, chị
+> 27%. Nhìn thì như hai lối khác nhau, nhưng **7/8 nốt của anh và 25/25 nốt của chị đều là
+> CHỦ ÂM của bài** — hợp âm át đứng ở bậc V nên chủ âm tự động đọc ra thành bậc 11. Cả hai
+> thầy đang làm cùng một việc; chênh lệch chỉ nói ai đánh chủ âm nhiều hơn.
+
+Trên hợp âm **trưởng** thì bậc `11` chỉ 5% — anh cũng tránh, đúng luật avoid-note chung
+(luật 9 trong `LUAT-SOAN-NOT.md`).
+
+**Nốt `♭9`: 9 nốt, 5 trong số đó nằm trong gam bài.** Ít nhưng có thật (2,1% trên hợp âm
+thứ và trên hợp âm treo) — đừng viết là anh không đánh `♭9`. Bốn nốt còn lại nằm ngoài gam,
+đúng với việc anh là thầy đi xa gam nhất.
+
+### Nốt ngoài hợp âm anh xử lý thế nào
+
+n=276 nốt ngoài hợp âm ở các đoạn solo:
+
+| liền bậc | quãng ba | nhảy ≥5 | đổi quãng tám | lặp | nốt kế là nốt hợp âm |
+|---|---|---|---|---|---|
+| 37,7% | 14,9% | 35,9% | 6,5% | 3,3% | **58,3%** |
+
+38 nốt ngoài gam của anh dồn vào `♭7`×10 `♭5`×9 `♭9`×7 `♭3`×7 — **nốt xanh**, và chỉ
+**36,8%** có bước liền bậc cả hai bên. Tức anh **không** dùng chúng chủ yếu như nốt lướt;
+gần hai phần ba số nốt ngoài gam được vào hoặc ra bằng một bước không liền bậc.
+
 ---
 
 ## 3. Vốn hợp âm — jazz hơn hai thầy kia
@@ -137,6 +185,31 @@ Pháo chơi câu solo **thấp hơn hai thầy kia khoảng một quãng năm**.
 > **Hệ quả cho KeyTrain.** Hằng số `TAM_TAY_PHAI = 73.6` đo trên 7 sheet Linh Nhi. Soạn
 > câu theo Cà Pháo mà vẫn dùng neo ấy thì câu **cao hơn thầy thật một quãng năm**. Cần một
 > neo riêng cho anh ấy — 828 nốt, 4 bài.
+>
+> **ĐÃ LÀM.** KeyTrain nay có neo riêng cho từng thầy — xem mục ngay dưới.
+
+#### Neo cho ĐOẠN DẠO là 70,8 và 68,0 — KHÔNG phải 67
+
+**Đừng lấy con số 67 ở trên làm neo cho đoạn dạo.** Nó là tâm gộp **cả ba đoạn solo** (dạo ·
+giang · kết) trên 828 nốt. Bộ soạn câu dạo cần tâm của **riêng đoạn dạo**, và hai con số ấy
+lệch nhau gần bốn nửa cung. Hai mẫu số khác nhau — đây đúng dạng bẫy *"so hai con số khác
+mẫu số"*.
+
+Đo riêng đoạn dạo, tách trưởng/thứ:
+
+| | tâm | các bài |
+|---|---|---|
+| **giọng trưởng** | **70,8** | Hồng Kông 1 70,7 · Có Em Chờ 71,5 · Ngày Mai 70,4 — n=263, rất chụm |
+| **giọng thứ** | **68,0** | *Người hãy quên em đi* — **n=62, MỘT bài** |
+
+So với Linh Nhi (75,3 trưởng · 73,2 thứ): Cà Pháo thấp hơn **4,5 nửa cung ở giọng trưởng** và
+**5,2 ở giọng thứ**.
+
+> **Cỡ mẫu mỏng ở giọng thứ.** Chỉ một bài. Nghe thấy sai thì kiểm con số này trước.
+>
+> Và một chỗ phải nói trước: KeyTrain dời cả câu đi **bội số của 12**, nên tâm dựng ra là
+> **71,0** chứ không phải 68,0 — sai số tối đa của phép dời quãng tám là nửa quãng tám.
+> Muốn sát hơn thì phải nắn từng nốt, mà nắn nốt là thứ đã bị bác bốn lần.
 
 ### Đoạn kết luôn thưa nhất và thấp nhất
 

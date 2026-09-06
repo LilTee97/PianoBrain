@@ -138,6 +138,52 @@ bố rất **phẳng** — không cặp nào chiếm ưu thế, nghĩa là **kh�
 nào" cứng**. Luật thật nằm ở chỗ khác: mọi nốt phải trong gam, hai phần ba là nốt hợp âm,
 và bước phần lớn nhỏ.
 
+### Bậc so với GỐC HỢP ÂM — chị chọn nốt nào khi hợp âm nào đang vang
+
+Đây là phép đo khác hẳn mục trên: mục trên đếm **cặp hai nốt liền nhau**, mục này đếm **một
+nốt so với hợp âm đang vang**. Đo bằng `tools/sheet/bac_not.py`.
+
+| chất hợp âm | n | các bậc chị dùng |
+|---|---|---|
+| trưởng | 305 | `3`25% `1`21% `5`19% `9`11% `13`6% `11`6% |
+| thứ | 562 | `1`22% `5`20% `♭3`18% `9`11% `♭7`10% `11`9% |
+| **át** | 93 | `1`27% **`11`27%** `5`13% `3`10% `♭7`9% `♭13`5% |
+
+> **BẬC `11` 27% TRÊN HỢP ÂM ÁT KHÔNG PHẢI `sus4` — tôi đã đọc sai một lần.** Con số ấy
+> thoạt nhìn giống thủ pháp treo bậc 4 rồi giải xuống bậc 3. Kiểm lại: **25/25 nốt ấy là
+> CHỦ ÂM của bài.**
+>
+> Hợp âm át đứng ở bậc V, nên chủ âm của bài **tự động** đọc ra là bậc 11 của nó. Điều số
+> đo nói là: *"khi hợp âm át đang vang, chị đánh chủ âm của bài"* — và điều ấy khớp với
+> mục 7 trong file này (**neo vào giọng bài**). Nó **không** nói chị thích bậc 11.
+>
+> Cà Pháo cũng vậy: 7/8 nốt `11` trên hợp âm át của anh là chủ âm bài. Đây **không** phải
+> chỗ để tách hai thầy.
+
+Trên hợp âm **trưởng** thì bậc `11` chỉ 6% — chị tránh, đúng luật avoid-note chung của cả
+ba thầy (luật 9 trong `LUAT-SOAN-NOT.md`). Trên hợp âm **thứ** thì 9%, và các nốt ấy trải
+rộng trên nhiều bậc gam nên **đây mới là lựa chọn thật**, không phải hệ quả chức năng.
+
+**Nốt `♭9` của chị: 22 nốt, và 20 trong số đó nằm sẵn trong gam bài** — 11 nốt là bậc `♭13`
+của gam, 8 nốt là bậc `♭3`, hai bậc diatonic của giọng thứ. Rơi trên hợp âm át thì đọc ra
+`V7♭9`, đúng chuẩn mực giọng thứ. Nên chị **không mượn mode ngoài gam**; nhưng đừng viết là
+"chị không đánh `♭9`" — chị có đánh, 3,0% trên hợp âm trưởng và 4,3% trên hợp âm át.
+
+### Nốt ngoài hợp âm chị xử lý thế nào
+
+n=355 nốt ngoài hợp âm ở các đoạn solo:
+
+| liền bậc | quãng ba | nhảy ≥5 | đổi quãng tám | lặp | nốt kế là nốt hợp âm |
+|---|---|---|---|---|---|
+| 31,0% | 20,6% | 31,0% | 8,5% | 6,5% | **55,2%** |
+
+Chị giải về nốt hợp âm **55%** — lỏng nhất trong ba thầy (Cà Pháo 58%, Tôn Hùng 76%). Đúng
+chiều với con số nốt hợp âm 63,6% của chị: **chị bám hợp âm lỏng nhất ở mọi phép đo**.
+
+Và một chỗ ngược trực giác: **17 nốt ngoài gam của chị hầu như không phải nốt lướt** — chỉ
+**11,8%** có bước liền bậc cả hai bên (Tôn Hùng 66,7%). Các bậc ấy là `♭9`×7 `♭13`×4 `3`×3.
+**n=17, quá mỏng để thành luật** — ghi lại để phiên sau có thêm sheet thì so.
+
 ### Một chỗ luật chung KHÔNG áp được cho chị
 
 Luật chung nói *"nhảy thì ưu tiên đáp vào nốt hợp âm"* — gộp ba thầy ra 66% sau cú nhảy
@@ -728,6 +774,251 @@ bình 22%**.
 
 ---
 
+## 9b. Đoạn dạo giọng TRƯỞNG — mốc để chấm bộ soạn
+
+Đo riêng **ba bài giọng trưởng** (Biển Tình · Đường Xưa Lối Cũ · Mùa Xuân Đầu Tiên), chỉ
+đoạn dạo, chỉ tay phải: **141 nốt**.
+
+| | bản ký âm |
+|---|---|
+| nốt của hợp âm đang vang | **68,1%** |
+| nốt **lạc** — ngoài gam VÀ ngoài hợp âm | **1,4%** |
+| **cao độ trung bình** | **75,3** |
+| quãng ba tăng với gốc (`♭5`) | **2,2%** |
+| bước: liền bậc · quãng ba · nhảy 8+ · quãng 4–5 · lặp | **32 · 25 · 25 · 13 · 6** |
+
+Chữ **lạc** là phép đếm riêng, đừng lẫn với "ngoài gam": nốt ngoài gam mà **thuộc hợp âm
+đang vang** thì đúng, không tính là lạc — vòng có `Bb` hay `A7` chẳng hạn.
+
+### TÂM CAO ĐỘ tách theo giọng — 75,3 và 73,2
+
+Số cũ dùng chung **73,6** cho cả hai giọng, lấy trung bình bảy đoạn dạo. Tách ra thì hai
+nhóm không giống nhau, và nhóm trưởng còn chụm hơn hẳn:
+
+| | các bài | trung bình |
+|---|---|---|
+| **trưởng** | Biển Tình 75,2 · Đường Xưa 74,5 · Mùa Xuân 76,0 | **75,3** (n=141) |
+| **thứ** | Đừng Xa 70,8 · Lá Thư 76,1 · Một Cõi 72,7 · Rừng Lá 73,6 | **73,2** (n=239) |
+
+Dùng số gộp thì bài giọng trưởng ra thấp hơn chị khoảng **1,8 nửa cung**.
+
+So với hai thầy kia, cùng phép đo (chỉ đoạn dạo): **Cà Pháo 70,8 / 68,0** — thấp hơn chị
+4,5 và 5,2 nửa cung; **Tôn Hùng 75,8** ở giọng thứ, không có bài giọng trưởng.
+
+---
+
+## 10b. Hai tay khớp nhau thế nào — số đo cứu từ bộ soạn đã bỏ
+
+KeyTrain từng có một bộ soạn riêng, `raiLinhNhi.ts`, dựng tay phải **bám theo mốc gõ tay
+trái**. Nay bộ ghép ô thật đã phủ kín cả ba đoạn nên bộ ấy không còn chạy và **đã xoá**.
+Nhưng các hằng số của nó là **số đo thật trên bản ký âm**, nên chép sang đây trước khi xoá —
+mã mất thì số đo vẫn còn.
+
+**Đây là số đo, không phải luật đang chạy.** Không đường nào trong app hiện dùng chúng.
+
+### Hai tay gõ CÙNG NHAU bao nhiêu
+
+**54%** cú gõ tay trái có tay phải gõ cùng. Đo năm bài:
+
+| bài | tỉ lệ |
+|---|---|
+| Đường Xưa | 0,40–0,45 |
+| Mùa Xuân | 0,48–0,52 |
+| Đừng Xa | 0,51–0,61 |
+| Rừng Lá | 0,58–0,59 |
+| Biển Tình | **0,63–0,64** — cao nhất, đừng lấy làm đại diện |
+
+Số cũ từng là 0,64 (bằng đúng Biển Tình) rồi hạ xuống 0,54 theo số đo năm bài.
+
+> **Đây là chỗ Linh Nhi NGƯỢC Cà Pháo.** Ở Cà Pháo chỉ 32–73% nốt tay phải trùng cú gõ tay
+> trái, tức tay phải **cài vào khe**. Linh Nhi thì tay phải **tựa lên** tay trái. Trộn hai
+> lối là hỏng cả hai.
+
+### Phách 1 luôn có nốt tay phải — luật cứng, không phải xác suất
+
+**16/16 ô** ở phiên khúc và **10/10 ô** ở giang tấu đều có nốt tay phải rơi đúng phách 1.
+Không sót ô nào.
+
+### Móc đơn XEN ở nửa đầu ô thì thưa — nhưng các PHÁCH thì không
+
+Đếm mười ô giang tấu:
+
+| | phách 1 | 1& | phách 2 | 2& | phách 3 | 3& | phách 4 | 4& |
+|---|---|---|---|---|---|---|---|---|
+| số lần | 10 | **5** | 10 | **5** | 15 | 15 | 13 | 14 |
+
+Đọc kỹ mới thấy: **không phải "nửa đầu ô thưa"**. Bốn phách đều đầy 100%; chỉ **móc đơn xen**
+ở nửa đầu mới rơi xuống 50%. Nửa sau thì cả phách lẫn móc xen đều đầy và còn chồng thêm nốt.
+
+*(Bẫy đã sập: bóp cả nửa đầu ô kể cả phách 2 thì mật độ tụt từ 8,9 xuống 6,3 nốt mỗi ô.)*
+
+### Trong những mốc gõ chung, tay phải lấy lại lớp cao độ tay trái bao nhiêu
+
+**36%** — gộp hai bài, 75/207 mốc chung.
+
+| | dạo | giang | kết | cả bài |
+|---|---|---|---|---|
+| Biển Tình | 40% | 47% | 26% | 45/111 = **0,41** |
+| Đừng Xa | 26% | 22% | 54% | 30/96 = **0,31** |
+
+**Đừng rút luật theo đoạn từ bảng này.** Đoạn kết chỉ có 19 và 24 mốc chung — ở cỡ ấy đổi
+một nốt là đổi bốn năm điểm, và hai bài còn ngược chiều nhau. Cột "cả bài" mới đọc được.
+Hai bài cũng chưa đủ biết đây là hằng số phong cách hay thay đổi theo bài.
+
+Số cũ 0,47 lấy từ **đúng một đoạn** (giang tấu Biển Tình, 49 mốc) — đó là ngoại lệ cao nhất.
+
+### Ba số nữa về hai tay
+
+- **36%** cú gõ tay phải có **từ hai nốt trở lên**.
+- **20%** số mốc là tay phải gõ **một mình**, chen giữa hai cú gõ tay trái.
+- **Khe giữa hai tay: trung vị 24 nửa cung, hẹp nhất 9.**
+- Chỉ **10%** nốt tay phải nằm trong 12 nửa cung của trần tay trái — tức xuống sát tay trái
+  để **đệm chung** là *màu điểm xuyết*, không phải kết cấu thường trực.
+
+### Tay phải GIỮ nốt dài, tay trái đi tiếp
+
+Người dùng đề nghị "đảo vai" — đo ra **nửa đúng**:
+
+| | có không |
+|---|---|
+| tay phải giữ nốt dài, tay trái đi tiếp | **có** — 5/10 ô giang tấu, 23/72 cả bài |
+| tay trái **chạy** trong lúc ấy | gần như không — 3 ô, và đó là cặp móc kép sẵn có của mẫu |
+
+Đo kỹ chỗ giữ: **trường độ đúng 2,0 phách** (nửa ô, không hơn) · vào ở **phách 1** (5 lần)
+hoặc **phách 3** (4 lần) · tay trái vẫn gõ **3,6 nốt** trong lúc giữ.
+
+### Bước đi tay phải, và các chuỗi liền bậc
+
+Đo đường trên cùng, **bỏ các cặp cùng chỗ gõ**:
+
+> liền bậc **39%** · quãng ba 19% · quãng 4–5 9% · nhảy xa 33%
+
+*(Số đầu tiên từng báo là 57% nhảy / 16% liền bậc — sai, vì nốt **chồng** cùng một chỗ gõ bị
+đếm thành một bước.)*
+
+Mười ô giang tấu có **5 chuỗi liền bậc từ 3 nốt trở lên**, dài `[3, 3, 4, 7, 3]` — cứ hai ô
+một câu chạy, bốn trên năm chuỗi là ngắn, chuỗi bảy nốt là ngoại lệ.
+
+Tỉ lệ **bước liền bậc** trên năm bài: **dạo 31% · giang 36%**.
+
+### Cửa ra cuối giang tấu là CHỒNG HỢP ÂM, không phải chạy ngón
+
+Hai cử chỉ ấy nằm ở **hai ô khác nhau**:
+
+- **ô 61** — ô cuối giang tấu, hợp âm `A` (bậc V): **16 nốt tay phải, dày nhất bài**, chồng
+  4 · 4 · 5 nốt ở phách 1&, 2, 3, trải 17 nửa cung, tay trái vẫn gõ 11 nốt.
+- **ô 71** — áp chót đoạn kết, hợp âm `D7`: ngân 1,5 phách → chồng 3 nốt → **6 móc kép chạy
+  lên** → hạ cánh.
+
+Câu chạy gốc ấy: 6 nốt móc kép, vào đúng **nửa sau ô** (offset 1,5), kết ở 2,75, bước
+`[2, 2, 3, 5, 2]` — 60% liền bậc, đi lên, trèo 14 nửa cung. Và **tay trái buông hẳn: 0 nốt**
+trong suốt lúc chạy.
+
+Cả hai ô đều đứng trên **hợp âm hút** (bậc V và V7) — chỗ ấy là của vòng hợp âm, bộ đệm chỉ
+dày lên đúng chỗ vòng đã hút sẵn.
+
+---
+
+## 11b. Dãy nốt ngắn của tay phải — **15 chuỗi trên 167 ô**
+
+Người dùng bảo *"trong các sheet của Linh Nhi có các đoạn ngắn tay phải chơi một dãy nốt"*.
+Đo được, và con số chốt là **15 chuỗi trên 167 ô nhịp** của 7 bài × 3 đoạn không lời —
+**0,09 chuỗi mỗi ô**. Đây là **thủ pháp**, không phải mặt bằng của giai điệu.
+
+Bộ đo: `tools/sheet/day_not.py linh-nhi --v2`. **Tách riêng khỏi `chay_not.py`** vì bộ ấy
+viết cho Cà Pháo với ngưỡng `NHANH = 0,26`; Linh Nhi chơi bolero 60–70 BPM, ở đó móc **đơn**
+(0,5) đã là mặt chạy. Ngưỡng để trong hằng `NGUONG`, mỗi thầy một dòng.
+
+### Vì sao phải hai vòng lọc
+
+Vòng một (định nghĩa D) ra **61 chuỗi = 0,37/ô** — gần bằng mức "móc đơn ≥ 4 nốt" (64) đã bị
+bác vì *nó mô tả cả tuyến giai điệu chứ không phải một cử chỉ*. Độ dài hiệu dụng trung vị
+chỉ **5 nốt**: cắt ở vạch ô và ở chỗ nghỉ chỉ **chia giai điệu thành từng ô**.
+
+**Sàn độ dài KHÔNG phải cách chữa** — ≥6 nốt ra 23, ≥7 ra 15, nhưng đó chỉ là *lấy những ô
+giai điệu dài nhất*, vẫn cùng một tuyến. Ba luật vòng hai mới tách được cử chỉ:
+
+| luật | ngưỡng |
+|---|---|
+| đều trường độ | `max(dur) / min(dur) ≤ 2` |
+| có hướng | `|tổng bước| / tổng |bước| ≥ 0,45` (bỏ lặp và ±12) |
+| ít nhảy giai điệu | bước 5–8 nửa cung **< 30%** |
+
+Luật thứ ba đắt nhất: ở vòng một, **24% số bước** nằm trong khoảng 5–8 nửa cung — một phần
+tư số bước bên trong thứ đang gọi là "dãy" là nhảy quãng bốn tới quãng sáu.
+
+### Mười lăm chuỗi
+
+| bài | đoạn | ô | loại | nốt |
+|---|---|---|---|---|
+| Biển Tình | dạo | 7 | liền bậc | `F#5 E5 D5 B4` |
+| Biển Tình | giang | 55 | liền bậc | `D6 E6 F#6 A6` |
+| Biển Tình | giang | 58 | liền bậc | `F#5 E5 D5 B4` |
+| **Biển Tình** | **kết** | **71** | **liền bậc** | `E5 F#5 A5 D6 E6 F#6 A6` |
+| **Đừng Xa** | **giang** | **56** | **liền bậc** | `E6 D6 A5 F5 E5 D5 F#4 F4 E4 D4` |
+| Đừng Xa | kết | 80 | liền bậc | `D5 E5 F5 A5` |
+| Lá Thư | giang | 58 | liền bậc | `F4 G4 A4 C5` |
+| Một Cõi | dạo | 9 | rải | `D4 F#4 A4 C5` |
+| Một Cõi | giang | 57 | rải | `Eb4 D4 F#4 A4 C5 A4 C5` |
+| Một Cõi | kết | 120 | liền bậc | `A4 Bb4 D5 G5 A5` |
+| Mùa Xuân | dạo | 3 | rải | `F#4 B4 D5 E5 E5 G5` |
+| Mùa Xuân | giang | 66 | rải | `F#4 B4 D5 E5 E5 G5` |
+| Mùa Xuân | kết | 105 | rải | `G4 E4 G4 G4 C5 E5 G5` |
+| Rừng Lá | dạo | 4 | rải | `A4 C5 E5 E5 D5` |
+| Rừng Lá | dạo | 8 | trộn | `B5 A5 G5 E5 C5` |
+
+Chia theo đoạn **dạo 5 · giang 6 · kết 4**; theo loại **liền bậc 8 · rải 6 · trộn 1**.
+**Đường Xưa Lối Cũ không có chuỗi nào.**
+
+### HAI LOẠI, đừng nhét một túi
+
+Trên vòng một (n=61) thì **rải hợp âm 36 so với liền bậc 17** — tức thứ tay phải chị hay
+chơi **không phải chạy ngón theo gam mà là rải hợp âm**, gấp hơn hai lần. Tính theo bước:
+rải (3–4 nửa cung) **42%** so với liền bậc **23%**.
+
+Sau vòng hai thì hai túi gần bằng nhau (8 và 6) — vì luật "có hướng" loại bớt các hình rải
+đi về. **Vẫn giữ cả hai túi**, và nếu chỉ làm được một việc thì làm **rải** trước.
+
+### Việc cho KeyTrain: KHÔNG dựng bộ sinh "dãy" riêng
+
+15/167 ô là thủ pháp, nên đường đúng là **chép khi ô được chọn** — bộ ghép ô thật vốn đã
+làm thế. Kiểm 5 chuỗi ở đoạn dạo xem chúng có nằm sẵn trong bảng `tuyenSolo.ts` không:
+
+| chuỗi | ô ấy trong bảng KeyTrain | có mang dãy không |
+|---|---|---|
+| Biển Tình ô7 | `E5 D5 E5 F#5 E5 D5 B4` | **có** — dãy là phần đuôi ô |
+| Một Cõi ô9 | `D5 D4 F#4 A4 C5` | **có** — dãy là phần đuôi ô |
+| Mùa Xuân ô3 | `F#4 D5 F#4 B4 D5 E5 E5 G5` | **có** |
+| Rừng Lá ô8 | `B5 A5 G5 E5 C5 G5 A5 E4` | **có** — dãy là phần đầu ô |
+| Rừng Lá ô4 | `C5 D5 E5 G5 D5 E5 E4 G4` | **không** |
+
+**4/5 nằm sẵn trong vốn ô.** Nên bộ ghép tự mang dãy theo khi ô ấy được chọn, không cần
+thêm gì.
+
+> **CHỖ LỆCH PHẢI GHI RA: hai phép rút tuyến khác nhau đang cùng tồn tại.**
+>
+> Bảng `tuyenSolo.ts` lấy **nốt cao nhất mỗi mốc gõ**; bộ đo dãy đi theo **một bè** (mỗi mốc
+> chọn nốt gần nốt trước nhất, và bỏ nốt đáp trầm dưới trung vị − 12). Hai phép cho hai
+> tuyến khác nhau ở những ô có nhiều bè — Rừng Lá ô4 là ca ấy: đo dãy ra `A4 C5 E5 E5 D5`,
+> bảng ghi `C5 D5 E5 G5 D5 E5 E4 G4`.
+>
+> **NGƯỜI DÙNG ĐÃ CHỐT: GIỮ NGUYÊN HAI PHÉP.** Không hợp nhất. Mỗi phép đúng cho việc của
+> nó — bảng cần nốt trên cùng để phát ra tiếng đúng mật độ, phép đo dãy cần một bè để không
+> đọc ra bước nhảy 29 nửa cung.
+>
+> Ca Rừng Lá ô4 nói rõ chuyện gì đang xảy ra: chuỗi đo được mở bằng `A4`, mà **`A4` không có
+> mặt trong tuyến của bảng**. Cái "dãy" ấy là một **bè trong**, không phải tuyến trên cùng.
+> Bảng không sai — nó chép đúng thứ vang lên; bộ đo cũng không sai — nó tìm thấy một hình ở
+> bè dưới.
+>
+> **Hai đường hợp nhất đều đã cân nhắc rồi bỏ.** Hợp về phép một bè là **đổi thứ app phát
+> ra**: phép ấy cố ý bỏ nốt đáp trầm, mà chúng có thật và có kêu — mật độ tay phải đang 5,2
+> nốt/ô so với bản ký âm 5,5, bỏ thêm là tụt dưới, và phá luôn con số **285/285** vốn là
+> bằng chứng để bỏ bảng cũ. Hợp về phép nốt trên cùng là **dựng lại đúng cái bẫy vừa gỡ** —
+> chính nó đọc ra `D7 → A4` (−29) ở Lá Thư ô 106 và `D7 → E5` (−22) ở Đừng Xa ô 84.
+
+---
+
 ## 12. Câu fill
 
 Đếm cụm fill trong **đoạn hát** cả bảy bài: nốt tay phải liên tiếp cách nhau ≤ 0,5 phách,
@@ -846,8 +1137,14 @@ kiến mới. Số `#` là số câu trong sổ thô — người dùng nói "c�
 |---|---|---|---|---|---|
 | **3** | 2026-09-04 16:32 | *(chưa đặt tên)* | La thứ | **Chưa ổn** | — *(tick, chưa viết lời)* |
 | **7** | 2026-09-04 16:37 | *(chưa đặt tên)* | La thứ | **Chưa ổn** | *"sao các câu intro giờ lại mất hẳn kết hợp giữa hai tay trái phải rồi. Hãy đọc lại intro các sheet và học mức độ phối hợp 2 tay khi Linh Nhi đánh intro. Và bài đang đánh là ở giọng thứ, intro đã tạo vòng hợp âm trên giọng thứ chưa"* |
+| **29** | 2026-09-06 02:54 | *(chưa đặt tên)* | **Đô trưởng** | **Chưa ổn** | *"câu intro có đoạn chạy nốt từ Dm11 qua Fadd2 nhưng nốt cuối câu chạy (đồng thời là nốt đầu của Fadd2) nghe vẫn lệch về cao độ, ko được hay như trong các intro giọng trưởng của Linh Nhi, chỗ Em7 qua G9sus4 cũng vậy. Chỗ G9sus4 gần cuối câu thì nốt lệch rất nhiều. Hãy đối chiếu với các intro Linh Nhi để sửa"* |
 
-Cả hai: điệu `bolero-linh-nhi-2`, đoạn dạo 9 ô.
+| **40** | 2026-09-06 03:15 | *(chưa đặt tên)* | **Đô trưởng** | **Chưa ổn** | *"câu này thì Gsus4 ở kế bên C nghe có nốt lệch. Hãy đối chiếu với luật sinh nốt và các intro trưởng Linh Nhi để sửa"* |
+
+| **43** | 2026-09-06 03:32 | *(chưa đặt tên)* | **Đô trưởng** | **Chưa ổn** | *"chỗ Fadd2 nghe nhiều nốt lệch quá, đối chiếu luật soạn để điều chỉnh lại"* — kèm một nhận xét chung: *"chỗ Fadd2 trong vòng hợp âm là chỗ hay có nhiều nốt nghe lệch tai nhất dù chuyển qua bao nhiêu câu"* |
+
+Cả năm: điệu `bolero-linh-nhi-2`, đoạn dạo 9 ô. Câu **#29, #40 và #43 là bài giọng TRƯỞNG**,
+hai câu đầu đều La thứ — đừng gộp năm câu thành một xu hướng.
 
 > **Chỉ câu CÓ LỜI BÌNH mới được chép đủ bộ ba** (lời · vòng hợp âm · nốt). Người dùng
 > chốt: *"bây giờ chỉ những phần intro có bình luận thì mới đưa cả bộ 3 qua md Linh Nhi
@@ -891,6 +1188,180 @@ cửa vào hát. **Vòng không phải chỗ hỏng.**
 | tay trái | 3,7 mốc/ô | 4,6 |
 | tay trái gõ **một mình** | **21%** | **41%** |
 | cao độ trung bình | G4 (67) | **D5 (73,6)** |
+
+#### Câu #29 — bộ ba
+
+**Vòng hợp âm** — Đô trưởng, 9 ô:
+
+```
+Cadd2  Am9  Dm11  Fadd2  Em7  G9sus4  Cadd2  G9sus4  G (hút)
+I      vi   ii    IV     iii  V       I      V       V
+```
+
+Vòng đúng giọng, không có bậc mượn nào. **Chỗ người dùng chê không nằm ở hoà thanh mà ở
+nốt giai điệu.**
+
+**Nốt** — `P` tay phải là câu, `T` tay trái là nền:
+
+```
+ô1 Cadd2   P(5): E5 E4 G4 A4 C5                    T: 4 mốc
+ô2 Am9     P(7): E5 D5 E4 C5 D5 E5 A4 D5           T: 4 mốc
+ô3 Dm11    P(7): D5 C5 E4 D5 A4 G5 E5 D5           T: 8 mốc
+ô4 Fadd2   P(6): B4 F4 A4 B4 C5 A4                 T: 9 mốc
+ô5 Em7     P(7): G5 E5 G5 E4 A4 C5 E5              T: 4 mốc
+ô6 G9sus4  P(3): G4 D4 C5                          T: 8 mốc
+ô7 Cadd2   P(4): C5 E4 C5 D5                       T: 8 mốc
+ô8 G9sus4  P(7): F#4 D5 C5 D4 A4 B4 C5 C#5 D5      T: 8 mốc
+ô9 G (hút) P(1): G3 B3                             T: 1 mốc
+```
+
+**Ba số đối chiếu**
+
+| | câu #29 | bản ký âm |
+|---|---|---|
+| tay phải | 5,2 nốt/ô | **5,5** *(giọng trưởng)* |
+| tay trái | 6,0 mốc/ô | 6,8 |
+| tay trái gõ **một mình** | 52% | 41% |
+| cao độ trung bình | **70,6** (Bb4) | **73,6** (D5) |
+
+Khác hẳn hai câu La thứ trước: mật độ tay phải **đã đúng** (5,2 so với 5,5), tay trái
+không còn mỏng, và tỉ lệ gõ một mình còn **cao hơn** bản ký âm. Ba lỗi cũ đã hết. Cao độ
+trung bình vẫn thấp hơn 3 nửa cung — chỗ này chưa xử.
+
+**Ba chỗ người dùng chỉ đích danh — đo lại từng chỗ**
+
+*(Đây là số đo trên chính câu #29, không phải suy đoán.)*
+
+| chỗ | người dùng nói | đo được |
+|---|---|---|
+| Dm11 → Fadd2 (ô3→ô4) | nốt đầu Fadd2 lệch | ô3 đóng ở `D5`, ô4 **mở bằng `B4`** — `B` không thuộc `Fadd2` (F A C G) và cách gốc `F` đúng một **quãng ba tăng** |
+| Em7 → G9sus4 (ô5→ô6) | cũng vậy | ô5 đóng `E5`, ô6 mở `G4` — `G` **có** trong hợp âm; chỗ lệch là **bước nhảy xuống 9 nửa cung**, không phải sai nốt |
+| G9sus4 gần cuối (ô8) | lệch rất nhiều | ô8 mở bằng **`F#4`** và có **`C#5`** — **hai nốt duy nhất ngoài gam Đô trưởng trong cả câu**; trên `G9sus4` (G C D A F) thì `F#` chọi với `F` của chính hợp âm, `C#` là quãng ba tăng với `G` |
+
+**Tai người dùng chỉ đúng chỗ nặng nhất.** Cả câu 52 nốt tay phải chỉ có **2 nốt ngoài
+gam (3,8%)**, và **cả hai dồn vào đúng ô 8** — ô mà họ nói *"lệch rất nhiều"*.
+
+> **CHỖ NÀY CHỎI VỚI SỐ ĐO, PHẢI GHI RA.** Luật 1 trong `LUAT-SOAN-NOT.md`: Linh Nhi để
+> **1,8% nốt ngoài gam** trên 1045 nốt, và riêng câu dạo là **1,0%**. Câu #29 ra **3,8%**,
+> gấp đôi tới gấp bốn — và tệ hơn con số: hai nốt ấy không rải ra mà **dồn cả vào một ô**,
+> đúng cái ô người dùng nghe thấy hỏng.
+>
+> **Chưa xử.** Chưa truy ra F#4 và C#5 từ đâu ra — bảng tuyến chỉ chứa ô có thật của bài
+> giọng trưởng, nên hoặc phép dịch giọng sai, hoặc ô ấy đến từ một chỗ khác. Sổ thô
+> **không ghi lúc phát có bật ô tick "Bảng tuyến mới" hay không**, nên chưa biết lỗi thuộc
+> bảng cũ hay bảng mới. Đó là chỗ phải soi trước tiên.
+
+#### Câu #40 — và chỗ này TRUY RA ĐƯỢC NGUỒN
+
+**Vòng hợp âm** — Đô trưởng, 9 ô, giống hệt câu #29 trừ ô 7:
+
+```
+Cadd2  Am9  Dm11  Fadd2  Em7  G9sus4  C   G9sus4  G (hút)
+I      vi   ii    IV     iii  V       I   V       V
+```
+
+**Nốt**:
+
+```
+ô1 Cadd2   P(5):  A4 E4 G5 E4 G5                    T: 4 mốc
+ô2 Am9     P(10): C5 A4 C5 B4 E4 C5 A4 E4 Ab4 A4    T: 4 mốc
+ô3 Dm11    P(8):  D5 C5 D5 E4 E5 D5 C5 A4           T: 8 mốc
+ô4 Fadd2   P(6):  B4 F4 A4 B4 C5 A4                 T: 9 mốc
+ô5 Em7     P(6):  B4 A4 G5 E4 F5 D5                 T: 4 mốc
+ô6 G9sus4  P(8):  F#4 D5 C5 D4 B4 C5 C#5 D5         T: 8 mốc
+ô7 C       P(5):  A4 E4 G5 E4 G5                    T: 8 mốc
+ô8 G9sus4  P(9):  D5 C5 A4 D4 A4 D5 F5 Ab4 A4       T: 8 mốc
+ô9 G (hút) P(2):  G3 B3                             T: 1 mốc
+```
+
+| | câu #40 | bản ký âm |
+|---|---|---|
+| tay phải | 6,6 nốt/ô | 5,5 *(giọng trưởng)* |
+| tay trái | 6,0 mốc/ô | 6,8 |
+| tay trái gõ **một mình** | 48% | 41% |
+| cao độ trung bình | 70,1 (Bb4) | **73,6** (D5) |
+| **ngoài gam** | **6,8%** (4/59) | **1,0%** |
+
+**Bốn nốt ngoài gam — và cả bốn truy ra được nguồn.**
+
+Người dùng chỉ đích danh *"Gsus4 ở kế bên C"* — đó là ô 6. Ô ấy mở bằng `F#4` và có
+`C#5`, hai nốt chọi thẳng với `G9sus4` (G C D A F): `F#` chọi với chính `F` của hợp âm,
+`C#` là quãng ba tăng với `G`.
+
+Truy ngược ra bảng tuyến thì thấy **chúng đến từ bảng CŨ `tuyenDaoLinhNhi.ts`**, và bảng
+mới `tuyenSolo.ts` — sinh lại từ bản ký âm — **không có nốt nào trong số đó**:
+
+| ô nguồn | phách | **bảng cũ** | **bảng mới** | nghe ra ở câu #40 |
+|---|---|---|---|---|
+| `duong-xua` ô7 *(bậc V)* | 0,00 | **6** = `F#` | **17** = `F` | ô6 `F#4` |
+| `duong-xua` ô7 | 3,25 | **13** = `C#` | **12** = `C` | ô6 `C#5` |
+| `mua-xuan` ô2 *(bậc vi)* | 3,25 | **8** = `Ab` | **4** = `E` | ô2 và ô8 `Ab4` |
+
+Bảng mới đặt `F` và `C` ở đúng hai chỗ ấy — **cả hai đều là nốt của chính `G9sus4`**.
+
+> **KẾT LUẬN.** Nốt mà người dùng nghe ra là lệch **không phải do bộ ghép chọn sai ô**, mà
+> do **ô trong bảng cũ ghi sai nốt**. Điều này khớp với số đo đã có: bảng cũ chỉ khớp
+> `data/sheet-solos` **118/276 nốt**, bảng mới **285/285** — xem đầu file `tuyenSolo.ts`.
+>
+> **Chưa xử, và cách xử đã có sẵn:** bật ô tick *"Bảng tuyến mới — sinh lại từ sheet"*
+> rồi nghe lại đúng chỗ ô 6. Sổ thô `Nguon.json` **không ghi lúc phát ô tick bật hay
+> tắt**, nên chưa chứng minh được bằng sổ; phải nghe rồi mới chốt.
+
+#### Câu #43 — *"dù chuyển qua bao nhiêu câu"* là chỗ đắt nhất trong cả bốn ý kiến
+
+Vòng hợp âm giống hệt câu #40. Nốt ô 4:
+
+```
+ô4 Fadd2  P(6): B4 F4 A4 B4 F4 C5
+```
+
+Hai nốt `B4` trên `Fadd2` — **quãng ba tăng với gốc**. Và ô ấy **mở đầu bằng `B4`**, đúng
+chỗ người dùng đã chỉ ở câu #29 (*"nốt đầu của Fadd2"*).
+
+**Đo trên cả 44 câu đã lưu** — đây là chỗ ý kiến người dùng dẫn tới một số đo lớn hơn
+chính nó:
+
+| hợp âm | số câu | số nốt | ngoài hợp âm | **nốt cách gốc nửa cung** |
+|---|---|---|---|---|
+| **Fadd2** | 16 | 101 | 33% | **33%** |
+| **Gadd2** | 14 | 98 | 29% | **29%** |
+| Cadd2 | 16 | 164 | 12% | 5% |
+| Dadd2 | 19 | 208 | 10% | 2% |
+
+Tách theo bậc so với gốc hợp âm thì lộ ra thủ phạm:
+
+| | bậc hay dùng nhất |
+|---|---|
+| **app · `Fadd2`** (n=101) | **`♭5` 31%** · `3` 24% · `1` 22% · `5` 21% |
+| **app · `Gadd2`** (n=98) | **`♭5` 29%** · `3` 29% · `5` 29% · `1` 14% |
+| **bản ký âm · hợp âm trưởng** (n=305) | `3` 25% · `1` 21% · `5` 19% · `9` 11% · `13` 6% · `11` 6% · … · **`♭5` 2%** |
+
+**App đặt quãng ba tăng nhiều gấp mười lăm lần chị ấy.** Đếm tuyệt đối: app **59 nốt**
+trên 44 câu; bản ký âm **7 nốt** trên cả bảy bài — và 3 trong 7 nốt ấy đi vào và ra đều
+bằng bước liền bậc, tức là nốt lướt chứ không phải nốt đậu.
+
+Vì sao rơi vào `Fadd2` và `Gadd2` chứ không phải `Cadd2`: cả hai đều là **bậc IV** của bài
+mình (Fadd2 trong Đô trưởng, Gadd2 trong Rê trưởng). Quãng ba tăng trên bậc IV chính là
+**bậc 7 của gam** — một nốt diatonic, nên bộ ghép không thấy gì sai khi lấy nó. Trên bậc I
+thì quãng ba tăng lại là `#4`, không có trong gam, nên không bao giờ được chọn.
+
+> **HAI NGUYÊN NHÂN, ĐÃ VÁ CẢ HAI.** Xem `KeyTrain/reference/SO-TAY.md`.
+>
+> 1. **Vốn ô cạn.** Giọng trưởng bậc IV chỉ có **ĐÚNG MỘT** ô trong vốn đoạn dạo, và ô ấy
+>    mang sẵn quãng ba tăng. Đó chính là chữ *"dù chuyển qua bao nhiêu câu"* — không có ô
+>    thứ hai để chuyển sang. Đã mở vốn sang ô của **giang tấu và đoạn kết**: bậc IV thành
+>    **8 ô, 6 trong đó sạch**.
+> 2. **Phép lui về cùng chức năng.** Không có ô cùng bậc thì bộ ghép lui xuống cùng chức
+>    năng, mà bậc ii và bậc IV cùng là "hạ át". Ô của bậc ii mang nốt bậc 7 của gam — trên
+>    ii nó là `♭13`, nghe xuôi — đặt sang bậc IV thì thành quãng ba tăng. Nay ô được chấm
+>    bằng **hợp âm thật nó sắp đứng lên**, không chỉ bằng bậc.
+>
+> Đo lại sau khi vá: `♭5` trên hợp âm `add2` **31% → 4%** (bản ký âm 2%), **không còn nốt
+> nào mở đầu ô** (trước 47%), và ô `Fadd2` ra **6 câu khác nhau trên 12 lượt**.
+
+**Ba số của câu #43** — cả ba đã đạt, chỉ còn tầm âm: tay phải 5,3 nốt/ô (bản ký âm 5,5) ·
+tay trái 6,1 mốc/ô · gõ một mình **51%** (bản ký âm 41%) · cao độ trung bình **70,0** so
+với **73,6**.
 
 ### Rút ra được gì
 

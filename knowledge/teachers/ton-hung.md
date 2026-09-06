@@ -106,6 +106,64 @@ Pháo (4,7%), không phải lối này.
 > Đừng lấy con số gộp ba thầy (67,7%) mà soạn cho một thầy. Luật chung chỉ là **khoảng
 > 60–75%**, và Tôn Hùng nằm ở **mép trên** của khoảng ấy.
 
+### Bậc so với GỐC HỢP ÂM — anh chọn nốt nào khi hợp âm nào đang vang
+
+Đo bằng `tools/sheet/bac_not.py`. **Cỡ mẫu chỉ 2 bài** — đọc mục 0 trước.
+
+| chất hợp âm | n | các bậc anh dùng |
+|---|---|---|
+| trưởng | 100 | `5`27% `7`24% `3`15% `♭5`11% `13`9% `1`9% |
+| thứ | 180 | `♭3`22% **`9`21%** `5`20% `1`13% `♭7`11% `11`7% |
+| át | <20 | không đủ để nói |
+
+**Nét riêng: bậc `9` chiếm 21% trên hợp âm thứ, gần bằng `♭3`.** Tiếng m9. Hai thầy kia chỉ
+8–11%. Khi soạn theo anh thì cho bậc `9` đứng ngang hàng với các bậc trụ trên hợp âm thứ,
+đừng coi nó là nốt màu thỉnh thoảng mới rắc.
+
+> **Nhưng phải trừ hao.** Phép kiểm chéo bậc gam: **29 trên 38 nốt ấy là bậc 2 của gam
+> bài**, tức phần lớn rơi trên hợp âm chủ `i`, chỗ mà bậc 9 của hợp âm **chính là** bậc 2
+> của gam — không phải một lựa chọn màu độc lập. Phần thật sự là lựa chọn chỉ còn 9 nốt.
+> So với Linh Nhi thì chị trải rộng hơn (22/62 ở bậc gam `9`, 26 ở bậc `5`).
+>
+> Nên phát biểu an toàn là: *anh ở lại quanh bậc 2 của gam bài nhiều hơn hai thầy kia*, chứ
+> chưa đủ để nói *anh thích tiếng m9*.
+
+**Anh không đánh nốt `♭9` một lần nào** — 0 nốt trên 292, sạch tuyệt đối, trên cả hợp âm
+trưởng lẫn hợp âm thứ. Linh Nhi có 22 nốt, Cà Pháo 9. Đây là chỗ anh chặt hơn hai thầy kia
+một lần nữa.
+
+Trên hợp âm trưởng, bậc `7` chiếm 24% — anh chơi thẳng lên `maj7` chứ không dừng ở ba nốt.
+
+> **`♭5` 11% KHÔNG PHẢI LYDIAN.** Đọc thoáng thì 11% bậc `♭5` (tức `#11`) trên hợp âm trưởng
+> giống một lựa chọn mode. Soi ra 11 nốt ấy: **8 nốt là `A` trên `Ebmaj7`** trong Chiếc Lá
+> Mùa Đông (Sol thứ) và **1 nốt `B` trên `Fmaj7`** trong Tình Em (La thứ). Cả hai chỗ hợp âm
+> đều là **bậc `♭VI` của bài giọng thứ**, và nốt ấy đúng là **bậc 2 của gam bài** — nằm sẵn
+> trong gam, không mượn mode nào.
+>
+> Tám nốt `A` kia còn là **một mô-típ lặp**: `Bb → A → D` mở đầu Chiếc Lá, lặp tám lần
+> trong đoạn dạo. **n thật là 2 sự kiện, không phải 11 nốt.**
+>
+> Bẫy này cùng hình dạng với bẫy "đếm hợp âm át" ở mục 1: một hiện tượng sinh ra **tự động
+> từ chức năng hoà thanh** bị đọc thành **lựa chọn phong cách**.
+
+### Nốt ngoài hợp âm anh xử lý thế nào — chặt nhất trong ba thầy
+
+n=92 nốt ngoài hợp âm ở các đoạn solo:
+
+| liền bậc | quãng ba | nhảy ≥5 | đổi quãng tám | lặp | nốt kế là nốt hợp âm |
+|---|---|---|---|---|---|
+| 39,1% | 8,7% | 46,7% | 2,2% | 3,3% | **76,1%** |
+
+**Anh giải nốt ngoài hợp âm về nốt hợp âm 76%, trong khi Linh Nhi 55% và Cà Pháo 58%.** Đây
+là nét riêng rõ nhất đo được về anh trong bộ này, và nó cùng chiều với mọi con số khác: anh
+là thầy chặt nhất.
+
+Nhưng **n=92 trên 2 bài**, và phép đo có chỗ lỏng: khi hợp âm đổi ngay sau nốt ấy thì nốt kế
+thuộc hợp âm **mới** mà phép đo vẫn xét bằng hợp âm **cũ** — nên 76% là **chặn dưới**.
+
+Cả ba nốt ngoài gam của anh đều là bậc `♭9` so với chủ âm, và 2/3 có bước liền bậc cả hai
+bên. n=3 — không nói được gì, ghi để đủ.
+
 ---
 
 ## 3. Vốn hợp âm
@@ -152,6 +210,15 @@ Chiếc Lá chơi **4,2–5,4 nốt tay phải mỗi ô**; Tình Em chơi **7,0�
 So với neo Linh Nhi trong KeyTrain là **73,6** — gần như trùng. Còn Cà Pháo là **67**, thấp
 hơn một quãng năm. Nên nếu KeyTrain phải chọn một neo chung, Tôn Hùng đứng cùng phía với
 Linh Nhi.
+
+#### Neo cho ĐOẠN DẠO là 75,8
+
+Con số 74 ở trên gộp cả ba đoạn solo. Riêng **đoạn dạo** thì cao hơn: **75,8** — Chiếc Lá
+74,4 · Tình Em 76,9, n=97. KeyTrain nay dùng số này làm neo riêng cho anh.
+
+**Không có cột giọng trưởng.** Cả hai bài đều giọng thứ, nên KeyTrain lấy tạm số của giọng
+thứ cho cả hai ô, và **nút chọn Tôn Hùng bị khoá ở bài giọng trưởng** — không có ô nào để
+ghép. Xem mục 0 về cỡ mẫu hai bài.
 
 ### Đoạn kết buông xuống
 
