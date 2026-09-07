@@ -788,6 +788,105 @@
       "note": "Sheet co 91 o nhip; nguoi dung cat bai o o 78, o 79-91 la phan du.",
       "giong": "La thu",
       "giong_nguon": "md-linh-nhi"
+    },
+    {
+      "file": "Noi buon hoa phuong-Linh Nhi.mxl",
+      "name": "Noi buon hoa phuong",
+      "teacher": "linh-nhi",
+      "genre": "bolero",
+      "video": null,
+      "bars": 78,
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            5
+          ]
+        },
+        "verse": {
+          "bars": [
+            6,
+            20
+          ]
+        },
+        "chorus": {
+          "bars": [
+            21,
+            28
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            29,
+            36
+          ]
+        },
+        "interlude": {
+          "bars": [
+            37,
+            41
+          ]
+        },
+        "verse_3": {
+          "bars": [
+            42,
+            49
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            50,
+            56
+          ]
+        },
+        "verse_4": {
+          "bars": [
+            57,
+            70
+          ]
+        },
+        "outro": {
+          "bars": [
+            71,
+            78
+          ]
+        }
+      },
+      "confidence": "chua danh dau",
+      "giong": "Re thu",
+      "giong_nguon": "nguoi-dung-xac-nhan",
+      "giong_ghi_chu": "Nguoi dung tick Dm 8/9/2026. fifths -1 · ket Dm · Dm x21/88.",
+      "moc": [
+        {
+          "o": 5,
+          "phach": 5.0,
+          "tu": "intro",
+          "sang": "verse",
+          "ghi": "Loi hat vao tu not A4 phach 5.0 (not dau trong ba not den cuoi o). Ba not truoc la moc don, van la cau dao."
+        },
+        {
+          "o": 6,
+          "phach": 6.0,
+          "tu": "giai-dieu-hat",
+          "sang": "tiet-tau-dem",
+          "ghi": "Cau hat het o cuoi not TRANG (A3, phach 4.0, dai 2 phach). Tu phach 6.0 tay phai chuyen sang tiet tau dem bolero xen ke."
+        },
+        {
+          "o": 42,
+          "phach": 1.0,
+          "tu": "interlude",
+          "sang": "verse_3",
+          "ghi": "Loi hat vao tu not tay phai dau tien cua o (G#5, phach 1.0). O 41 van la dan tron ven."
+        },
+        {
+          "o": 71,
+          "phach": 4.0,
+          "tu": "dan-mo-phong-hat",
+          "sang": "outro",
+          "ghi": "Nam not dau (phach 0-4) la dan MO PHONG giai dieu loi hat. Tu not thu 6 (G4, phach 4.0) moi la cau nhac rieng."
+        }
+      ],
+      "moc_nguon": "nguoi-dung-tra-loi-phieu 7/9/2026"
     }
   ],
   "_doc_giong": "Truong/thu KHONG co trong file MusicXML (khong file nao ghi <mode>). giong_nguon = md-linh-nhi (chep tu bang trong knowledge/teachers/linh-nhi-piano.md, nguoi dung da xac nhan) hoac nguoi-dung-xac-nhan (nguoi dung doi chieu voi Chordify) hoac suy-tu-ket-doan (suy tu hop am ket cua tung doan + hop am hay dung; CHUA duoc nguoi dung xac nhan). KHONG suy bang dau hoa cua not: cac ban nay ky am tu dong tu MIDI, cach viet thang/giang chay theo bo dau hoa chu khong theo chuc nang — thu nghiem tren 7 bai da biet thi sai 5. Mot so DOAN co truong \"giong\" rieng de bao doan ay chuyen giong — khi do phai lay giong cua doan, khong lay giong cua bai."

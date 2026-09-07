@@ -309,3 +309,22 @@ diep khuc lap cao trao: x
 phien khuc lap 3: x
 diep khuc lap 2 : x
 ket bai         : 67-78
+
+== Noi buon hoa phuong
+#    thay: linh-nhi | bai dai 78 o nhip
+#    giọng máy đo: Re thu (fifths -1 · ket Dm · Dm x21) — chưa tick
+the loai        : bolero
+dao dau         : 1-5
+phien khuc      : 6-20
+tien diep khuc  : x
+diep khuc       : 21-28
+giang tau       : 37-41
+phien khuc lap  : 29-36
+tien diep khuc lap: x
+diep khuc lap   : 50-56
+diep khuc nang tone: x
+phien khuc lap 2: 42-49
+diep khuc lap cao trao: x
+phien khuc lap 3: 57-70
+diep khuc lap 2 : x
+ket bai         : 71-78

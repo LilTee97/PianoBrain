@@ -591,6 +591,12 @@ càng về cuối càng rời — tới đoạn kết chỉ còn một nửa s�
 >
 > Nên khi soạn câu dạo giọng trưởng cho chị: **siết về nốt hợp âm (~70%), giữ bước nhỏ, và
 > siết thêm ở đoạn kết** — đừng rắc nốt màu như ở bài giọng thứ.
+>
+> **Man mác buồn — người dùng chốt 7/9/2026.** Chiều ngược của chắc chắn: **không chắc + chỗ
+> kéo**. Ở chị (n=4 bài): rời hợp âm 59,9%, nhảy+8va 52%, kết 50%; vốn i 26% · V 24% · iv 14% ·
+> át 6% (trưởng 2%). Không phải chọn `♭3`. Đủ số ở `LUAT-SOAN-NOT.md`.
+>
+> Soạn dạo thứ cho chị: **đừng siết như trưởng** — rời, nhảy, lặp được; vòng i · iv · V · ♭VI · ♭VII.
 
 ---
 
@@ -1242,16 +1248,24 @@ kiến mới. Số `#` là số câu trong sổ thô — người dùng nói "c�
 | **40** | 2026-09-06 03:15 | *(chưa đặt tên)* | **Đô trưởng** | **Chưa ổn** | *"câu này thì Gsus4 ở kế bên C nghe có nốt lệch. Hãy đối chiếu với luật sinh nốt và các intro trưởng Linh Nhi để sửa"* |
 
 | **43** | 2026-09-06 03:32 | *(chưa đặt tên)* | **Đô trưởng** | **Chưa ổn** | *"chỗ Fadd2 nghe nhiều nốt lệch quá, đối chiếu luật soạn để điều chỉnh lại"* — kèm một nhận xét chung: *"chỗ Fadd2 trong vòng hợp âm là chỗ hay có nhiều nốt nghe lệch tai nhất dù chuyển qua bao nhiêu câu"* |
+| **157** | 2026-09-06 17:59 | *Hoa Trinh Nữ* | **Đô trưởng** | **Đã ổn** | *(mẫu — không lời bình)* |
+| **160** | 2026-09-06 18:01 | *Hoa Trinh Nữ* | **Đô trưởng** | **Đã ổn** | *(mẫu — không lời bình)* |
+| **163** | 2026-09-06 18:13 | *Hoa Trinh Nữ* | **Đô trưởng** | **Đã ổn** | *(mẫu — không lời bình)* |
+| **182** | 2026-09-06 19:53 | *(chưa đặt tên)* | **La thứ** | **Đã ổn** | *(mẫu — không lời bình)* · `bolero-linh-nhi-2` |
+| **191** | 2026-09-07 01:41 | *(chưa đặt tên)* | **La thứ** | **Chưa ổn** | *"Nghe màu giai điệu còn tươi sáng quá"* · *"hãy đối chiếu và so sánh khắt khe câu này với các câu solo trong tất cả các sheet giọng thứ xem giai điệu có đủ tính chất man mác của giọng thứ chưa"* · khung **Bolero Tuấn** |
+| **262** | 2026-09-07 03:32 | *(chưa đặt tên)* | **La thứ** | **Chưa ổn** | *"để đó"* · **giang** Bolero Tuấn · 13 ô |
+| **272** | 2026-09-07 03:38 | *(chưa đặt tên)* | **La thứ** | **Chưa ổn** | *"có nốt gãy và phô"* · **giang** |
+| **278** | 2026-09-07 03:39 | *(chưa đặt tên)* | **La thứ** | **Chưa ổn** | *"Có nốt gãy và phô"* · **giang** |
+| **290** | 2026-09-07 03:50 | *(chưa đặt tên)* | **La thứ** | **Chưa ổn** | *"Có mấy chỗ bị gãy nốt (vd như ở Fadd2) hãy so sánh khắt khe với luật soạn nốt và các giang tấu sheet thứ để điều chỉnh"* · **giang** |
 
-Cả năm: điệu `bolero-linh-nhi-2`, đoạn dạo 9 ô. Câu **#29, #40 và #43 là bài giọng TRƯỞNG**,
-hai câu đầu đều La thứ — đừng gộp năm câu thành một xu hướng.
+**Mẫu Đã ổn — tách giọng, học theo đúng cột. Đừng trộn trưởng vào thứ.**
 
-> **Chỉ câu CÓ LỜI BÌNH mới được chép đủ bộ ba** (lời · vòng hợp âm · nốt). Người dùng
-> chốt: *"bây giờ chỉ những phần intro có bình luận thì mới đưa cả bộ 3 qua md Linh Nhi
-> để sửa."* Câu chỉ được tick thì giữ một dòng trong bảng làm dấu vết — một chữ "Chưa ổn"
-> trơ trọi không nói được chỗ nào chưa ổn, chép cả trăm nốt sang thì sổ phình vô ích.
->
-> Nên câu **#3** chỉ còn dòng bảng; câu **#7** có lời nên đủ bộ ba.
+| giọng | # | bài | n |
+|---|---|---|---|
+| **trưởng** | **#157 · #160 · #163** | *Hoa Trinh Nữ* | 3 |
+| **thứ** | **#182** | *(chưa đặt tên)* | 1 |
+
+> **Đã ổn** → bộ ba làm mẫu, xếp vào **16a trưởng** hoặc **16b thứ**. **Chưa ổn** → bộ ba chỉ khi có lời. Câu **#3** chỉ dòng bảng.
 
 #### Câu #7 — bộ ba
 
@@ -1463,6 +1477,261 @@ thì quãng ba tăng lại là `#4`, không có trong gam, nên không bao giờ
 tay trái 6,1 mốc/ô · gõ một mình **51%** (bản ký âm 41%) · cao độ trung bình **70,0** so
 với **73,6**.
 
+### 16a. Mẫu Đã ổn — giọng trưởng
+
+Học câu trưởng mới thì đối chiếu đây. **Không** lấy #182.
+
+#### Câu #157 — bộ ba *(mẫu Đã ổn)*
+
+**Vòng** — Đô trưởng, 9 ô, tick trơn chất + hút:
+
+```
+C   Am  Em  G   C   Em  C   G   G (hút)
+I   vi  iii V   I   iii I   V   V
+```
+
+**Nốt**
+
+```
+ô1 P(12): C4 E4 G4 C4 E4 G4 C4 E4 G4 C4 E4 G4     T: 3
+ô2 P(13): A4 C5 C5 A4 E4 G4 A4 G4 F4 A4 E4 A4 B4  T: 2
+ô3 P(10): G4 E4 G4 A4 D4 E4 E5 D5 C5 A4           T: 6
+ô4 P(12): D4 G4 B4 D4 G4 B4 D4 G4 B4 D4 G4 B4     T: 3
+ô5 P( 2): E5 E4                                   T: 6
+ô6 P(10): G4 E4 G4 A4 D4 E4 E5 D5 C5 A4           T: 6
+ô7 P(12): C4 E4 G4 C4 E4 G4 C4 E4 G4 C4 E4 G4     T: 3
+ô8 P( 8): F5 D5 C5 D4 B4 C5 C5 D5                 T: 6
+ô9 P( 2): G3 B3                                   T: 1
+```
+
+| | #157 | bản ký âm dạo trưởng |
+|---|---|---|
+| tay phải | 9,0 nốt/ô | 5,6 tuyến / 6,8 mọi nốt |
+| tay trái | 4,0 mốc/ô | 6,8 |
+| tay trái một mình | **50%** | **49%** |
+| tâm RH | 66,8 | **75,3** |
+
+#### Câu #160 — bộ ba *(mẫu Đã ổn)*
+
+Cùng vòng với #157.
+
+```
+ô1 P(12): C4 E4 G4 C4 E4 G4 C4 E4 G4 C4 E4 G4     T: 3
+ô2 P(11): E4 G5 E5 E4 D5 C5 G4 B4 A4 A4 E5        T: 2
+ô3 P( 7): G5 E5 G5 E4 A4 C5 E5                    T: 6
+ô4 P(12): D4 G4 B4 D4 G4 B4 D4 G4 B4 D4 G4 B4     T: 3
+ô5 P( 2): E5 E4                                   T: 6
+ô6 P(10): G4 E4 G4 A4 D4 E4 E5 D5 C5 A4           T: 6
+ô7 P(12): C4 E4 G4 C4 E4 G4 C4 E4 G4 C4 E4 G4     T: 3
+ô8 P( 8): D5 A4 C5 D4 A4 F5 Ab4 A4                T: 6
+ô9 P( 2): G3 B3                                   T: 1
+```
+
+| | #160 | bản ký âm dạo trưởng |
+|---|---|---|
+| tay phải | 8,4 nốt/ô | 5,6 / 6,8 |
+| tay trái | 4,0 mốc/ô | 6,8 |
+| tay trái một mình | **50%** | **49%** |
+| tâm RH | 67,4 | **75,3** |
+
+Tai chấp nhận hai câu này (**ý người dùng**). Số đo: LH một mình khớp 49%; tâm thấp hơn chị ~8 nửa cung; ô 1·4·7 là rải 1-3-5 (Pùng-Pắp A), không phải tuyến giai điệu. **Chưa xử** — mẫu, không phải luật mới.
+
+#### Câu #163 — bộ ba *(mẫu Đã ổn)*
+
+Cùng vòng với #157.
+
+```
+ô1 P(12): C4 E4 G4 C4 E4 G4 C4 E4 G4 C4 E4 G4     T: 3
+ô2 P(11): E4 G5 E5 E4 D5 C5 G4 B4 A4 A4 E5        T: 2
+ô3 P(10): G4 E4 G4 A4 D4 E4 E5 D5 C5 A4           T: 6
+ô4 P(12): D4 G4 B4 D4 G4 B4 D4 G4 B4 D4 G4 B4     T: 3
+ô5 P( 6): G5 C5 E4 E5 G5 C5                       T: 6
+ô6 P( 8): B4 G4 B4 E4 G4 A4 A4 C5                 T: 7
+ô7 P(12): C4 E4 G4 C4 E4 G4 C4 E4 G4 C4 E4 G4     T: 3
+ô8 P( 7): E5 C5 D5 A4 D4 G4 G4                    T: 6
+ô9 P( 2): G3 B3                                   T: 1
+```
+
+| | #163 | bản ký âm dạo trưởng |
+|---|---|---|
+| tay phải | 8,9 nốt/ô | 5,6 / 6,8 |
+| tay trái | 4,1 mốc/ô | 6,8 |
+| tay trái một mình | **41%** | **49%** |
+| tâm RH | 67,3 | **75,3** |
+
+Tai chấp nhận (**ý người dùng**, n=3 cùng bài). LH một mình 41% — dưới sheet 49% và dưới #157/#160 (50%). Tâm vẫn thấp ~8 nửa cung. Ô 1·4·7 vẫn rải 1-3-5. **Chưa xử.**
+
+### 16b. Mẫu Đã ổn — giọng thứ
+
+Học câu thứ mới thì đối chiếu đây. **Không** lấy #157/#160/#163.
+
+#### Câu #182 — bộ ba *(mẫu Đã ổn, giọng thứ)*
+
+**Vòng** — La thứ, 9 ô, `bolero-linh-nhi-2`:
+
+```
+Am(add9)  Fadd2  Dm9  G9    Cadd2  E9sus4  Am(add9)  E9sus4  E (hút)
+i         ♭VI    iv   ♭VII  ♭III   V       i         V       V
+```
+
+Toàn bậc giọng thứ, đóng V. Khác mẫu Đừng Xa (i–♭VII–♭VI). **Ý người dùng:** tai ổn.
+
+**Nốt**
+
+```
+ô1 P(13): E4 C5 C5 B4 A4 G4 F4 E4 D4 E4 F4 G4 A4  T: 1
+ô2 P( 6): E5 C5 E4 E5 D4 A4                       T: 2
+ô3 P(12): F4 A4 C5 F4 A4 C5 F4 A4 C5 F4 A4 C5     T: 3
+ô4 P(12): B4 D5 D4 G4 C5 E4 B4 D5 E5 F#5 E5 D5    T: 5
+ô5 P(12): E4 D4 C5 B4 D4 E4 D4 C5 D4 B4 D4 E4     T: 2
+ô6 P(12): C4 E4 A4 C4 E4 A4 C4 E4 A4 C4 E4 A4     T: 3
+ô7 P( 9): Ab4 Ab4 Ab4 A4 D4 E4 B4 B4 D5           T: 6
+ô8 P( 8): F5 F5 F5 E4 F5 E5 F5 D4                 T: 6
+ô9 P( 2): E3 Ab3                                  T: 1
+```
+
+| | #182 | bản ký âm dạo thứ |
+|---|---|---|
+| tay phải | 9,6 nốt/ô | **6,9** |
+| tay trái | 3,2 mốc/ô | **4,6** |
+| tay trái một mình | **48%** | **41%** |
+| tâm RH | 67,9 | **73,2** (n=4 bài / 239 nốt) |
+
+Tai chấp nhận (**ý người dùng**, n=1 thứ). RH dày hơn sheet; LH mỏng; tâm thấp ~5 nửa cung. Ô 3 rải F–A–C; ô 6 rải C–E–A. F#5 ô 4 trên G9 = bậc 7 gam (nốt cảm / 9 của G) — trong GAM_THU. **Chưa xử** — mẫu, n=1.
+
+#### Câu #191 — bộ ba *(Chưa ổn, Bolero Tuấn, giọng thứ)* — **không phải mẫu**
+
+**Vòng**
+
+```
+Am  G     F     C     Dm  Am  E  E
+i   ♭VII  ♭VI   ♭III  iv  i   V  V
+```
+
+Đúng mẫu buồn i–♭VII–♭VI (Đừng Xa). Cửa V.
+
+**Nốt**
+
+```
+ô1 P(11): C5 D5 E5 F5 G5 F5 E5 D5 C5 B4 A4        T: 1
+ô2 P(12): D4 G4 B4 D4 G4 B4 D4 G4 B4 D4 G4 B4     T: 3
+ô3 P(11): C5 E4 C5 C5 A4 C5 A4 G4 F4 E4 D4        T: 5
+ô4 P( 8): G5 F5 E5 F5 E4 C5 G5 E5                 T: 6
+ô5 P(12): F4 A4 D5 F4 A4 D5 F4 A4 D5 F4 A4 D5     T: 3
+ô6 P( 9): B4 A4 G4 E4 C5 E4 G4 A4 E4              T: 6
+ô7 P( 6): B4 E4 C5 E4 Ab4 B4                      T: 6
+ô8 P( 0):                                         T: 3
+ô9 P( 2): E3 Ab3                                  T: 1
+```
+
+| | #191 | bản ký âm dạo thứ |
+|---|---|---|
+| tay phải | 7,9 nốt/ô | **6,9** |
+| tay trái | 3,8 mốc/ô | **4,6** |
+| tay trái một mình | **47%** | **41%** |
+| tâm RH | 69,3 | **73,2** |
+| bậc 3 trưởng / 6 trưởng | **0 / 71** | — |
+
+**Ý người dùng:** giai điệu còn tươi, chưa man mác so với sheet thứ.
+
+**Số đo so sheet intro thứ (n=7 bài, 3 thầy):** sheet **0** chuỗi lên ≥5 nốt; #191 có **1** (C–D–E–F–G). Lặp sheet 4–16%; #191 **1%**. 0/71 bậc 3 trưởng. Tai chê tươi vì chuỗi lên + rải 1-3-5 G/F.
+
+**Đã train 7/9/2026 (sau khi người dùng hỏi):** phạt ô chuỗi lên ≥5 và ô rải trưởng lặp; intro/giang thứ Tuấn chỉ câu chạy **4 nốt xuống** (không 10 nốt lên). n=1 tai → hỏi rồi mới sửa.
+
+### 16c. Giang tấu giọng thứ — Chưa ổn (Bolero Tuấn)
+
+Cùng vòng 12 ô + hút, **không** phải mẫu Đã ổn. Học giang thì so **ô giang** 3 thầy, đừng so intro.
+
+```
+Am  G     F     C     Dm  Am  E   Am  G     F     C     E
+i   ♭VII  ♭VI   ♭III  iv  i   V   i   ♭VII  ♭VI   ♭III  V
+```
+
+Lưới GIANG TẤU **có Fadd2** (`Am(add9) Fadd2 Dm9 G9 Cadd2 E9sus4…`). `hopAm` lưu Am G F vì giang thứ Tuấn bị ép vòng mẫu (`daoTruong`) — **sai**, đã bỏ. So nốt theo lưới, không theo `hopAm` cũ.
+
+#290 ô2 Fadd2: `Bb4 G4 A4 Bb4 A4` — Bb không thuộc Fadd2 (F G A C). #272 ô2 còn **B = ♭5** của F. Gốc: giai điệu soạn trên G (ô 2 vòng mẫu) trong khi lưới ghi Fadd2.
+
+| | #262 | #272 | #278 | #290 | dạo thứ sheet |
+|---|---|---|---|---|---|
+| RH nốt/ô | 7,8 | 7,3 | 7,1 | 7,8 | **6,9** |
+| LH mốc/ô | 3,8 | 4,0 | 4,0 | 4,0 | **4,6** |
+| LH một mình | 51% | 58% | 54% | 46% | **41%** |
+| tâm RH | 69,1 | 69,2 | 69,5 | 69,6 | **73,2** |
+
+**Ý người dùng:** gãy + phô; #290 xin so luật + giang sheet thứ. **Chưa xử** (skill không tự sửa).
+
+#### #262 — để đó
+
+```
+ô1 P( 4): A4 A4 A4 A4                              T: 3
+ô2 P(12): G4 E4 D4 E4 G4 A4 C5 D5 E5 G5 E5 E5      T: 2
+ô3 P( 7): A4 A4 A4 A4 A4 B4 C5                     T: 7
+ô4 P( 4): C5 C5 C5 C5                              T: 3
+ô5 P(12): E4 D4 D4 C5 E4 D4 E4 D4 D4 E4 F4 G4      T: 1
+ô6 P(15): D5 C5 B4 A4 G4 E4 D4 E4 G4 A4 C5 D5 E5 E5 C5  T: 5
+ô7 P( 4): B4 B4 B4 B4                              T: 3
+ô8 P( 8): C5 B4 E4 C5 E4 B4 E4 C5                  T: 6
+ô9 P( 7): B4 D4 A4 G4 F4 E4 B4                     T: 4
+ô10 P( 4): C5 C5 C5 C5                             T: 3
+ô11 P(17): C5 D5 E5 G5 D5 C5 A4 G4 E4 D4 E4 G4 A4 C5 D5 E4 G4  T: 5
+ô12 P( 6): F5 F5 F5 E4 F5 E5                       T: 6
+ô13 P( 2): E3 Ab3                                  T: 1
+```
+
+#### #272 — gãy và phô
+
+```
+ô1 P(13): D5 D5 C5 A4 G4 E4 D4 E4 G4 A4 C5 D5 D5   T: 2
+ô2 P( 9): F4 E5 E5 C5 Bb4 B4 A4 B4 D5              T: 3
+ô3 P( 4): C5 C5 C5 C5                              T: 3
+ô4 P(12): E5 D5 G4 G5 G4 Bb4 B4 A4 G4 F4 E4 C5     T: 5
+ô5 P( 4): G4 F4 E4 F4                              T: 7
+ô6 P( 4): A4 A4 A4 A4                              T: 3
+ô7 P(17): E4 C5 B4 A4 Ab4 E4 D4 E4 Ab4 A4 C5 D5 E5 D5 E4 B4 A4  T: 5
+ô8 P( 7): E5 C5 B4 A4 G4 F4 B4                     T: 5
+ô9 P( 4): B4 B4 B4 B4                              T: 3
+ô10 P( 2): D4 B4                                   T: 7
+ô11 P(14): G4 B4 E5 D5 C5 A4 G4 E4 D4 E4 G4 A4 C5 G4  T: 5
+ô12 P( 3): B4 B4 B4                                T: 3
+ô13 P( 2): E3 Ab3                                  T: 1
+```
+
+#### #278 — gãy và phô
+
+```
+ô1 P(15): C5 F5 E5 D5 C5 A4 G4 E4 D4 E4 G4 A4 C5 G5 E5  T: 2
+ô2 P( 5): Bb4 G4 A4 Bb4 A4                             T: 3
+ô3 P( 4): C5 C5 C5 C5                                  T: 3
+ô4 P( 8): G4 B4 E5 B4 A4 G4 F4 E4                      T: 5
+ô5 P( 4): G5 F5 E5 F5                                  T: 7
+ô6 P( 4): A4 A4 A4 A4                                  T: 3
+ô7 P(16): B4 B4 A4 A4 Ab4 E4 D4 E4 Ab4 A4 C5 D5 E5 D5 Ab4 C5  T: 5
+ô8 P(10): D4 B4 G5 B4 A4 E4 D4 E4 F4 G4                T: 5
+ô9 P( 4): B4 B4 B4 B4                                  T: 3
+ô10 P( 2): D4 B4                                       T: 7
+ô11 P(15): E5 D5 E5 D5 C5 A4 G4 E4 D4 E4 G4 A4 C5 E4 C5  T: 5
+ô12 P( 3): B4 B4 B4                                    T: 3
+ô13 P( 2): E3 Ab3                                      T: 1
+```
+
+#### #290 — gãy (vd Fadd2); xin so luật + giang sheet thứ
+
+```
+ô1 P(15): C5 F5 E5 D5 C5 A4 G4 E4 D4 E4 G4 A4 C5 G5 E5  T: 2
+ô2 P( 5): Bb4 G4 A4 Bb4 A4                             T: 3
+ô3 P( 4): C5 C5 C5 C5                                  T: 3
+ô4 P(12): E5 D5 G4 G5 G4 Bb4 B4 A4 G4 F4 E4 C5         T: 5
+ô5 P( 6): E5 E4 F4 A4 D5 C5                            T: 7
+ô6 P( 4): A4 A4 A4 A4                                  T: 3
+ô7 P(12): D5 C5 A4 Ab4 E4 D4 E4 Ab4 A4 C5 D5 E5        T: 5
+ô8 P(10): A4 C#5 B4 E4 C5 A4 G4 F4 E4 D4               T: 5
+ô9 P( 4): B4 B4 B4 B4                                  T: 3
+ô10 P(10): B4 C5 A4 E5 A4 D5 G5 E4 E5 A4                T: 7
+ô11 P(15): E5 D5 E5 D5 C5 A4 G4 E4 D4 E4 G4 A4 C5 E4 C5  T: 5
+ô12 P( 3): B4 B4 B4                                    T: 3
+ô13 P( 2): E3 Ab3                                      T: 1
+```
+
 ### Rút ra được gì
 
 Hai câu, cùng bị chê, cùng giọng La thứ. **n=2** — chưa thành luật, nhưng cả hai lệch
@@ -1611,6 +1880,83 @@ thứ) nên chỉ đọc như một dấu hiệu, không phải kết luận.
 - **Lá Thư Trần Thế · kết** báo độ dày hợp âm **7,00 nốt** và trúng 100% trên n=22. Hợp âm
   bảy nốt là bất thường — nghi ký hiệu hợp âm đọc sai chứ không phải chị chơi thế. **Chưa
   soi.** Ba ô này đều là đoạn kết giọng thứ, và chúng kéo con số 1,131 ở bảng trên xuống.
+
+### RANH GIỚI ĐOẠN KHÔNG TRÙNG VẠCH NHỊP — đo theo ô là trộn hai thứ
+
+Đo 7/9/2026 trên *Nỗi Buồn Hoa Phượng* (Rê thứ, bolero, 78 ô). Bốn mốc dưới đây do **người
+dùng chỉ tận nốt** khi trả lời phiếu, không phải suy đoán; đã ghi vào `corpus.json` ở trường
+`moc` của bài.
+
+| ô | phách | từ | sang |
+|---|---|---|---|
+| **5** | 5,0 | câu dạo | lời hát |
+| **6** | 6,0 | giai điệu lời hát | tiết tấu đệm bolero |
+| **42** | 1,0 | giang tấu | lời hát |
+| **71** | 4,0 | đàn mô phỏng giai điệu hát | câu kết riêng |
+
+Kiểm lại trên bản ký âm, cả bốn đều rơi đúng vào một mốc nhìn thấy được:
+
+- **ô 5** — ba nốt đầu là móc đơn chạy (`A3 D4 G#4`), ba nốt sau là **nốt đen** (`A4 G4 A4`).
+  Lời hát vào ở nốt đen đầu tiên, phách 5,0. Nửa đầu ô là dạo, nửa sau đã là hát.
+- **ô 6** — câu hát chạy từ phách 0 tới hết **nốt trắng** `A3` (phách 4,0, dài 2 phách). Từ
+  phách 6,0 nốt dồn lại, ba nốt cùng rơi vào phách 6,5 — đó là **đệm bolero**, không phải câu hát.
+- **ô 42** — tay phải vào muộn, nốt đầu `G#5` ở phách 1,0. Ô 41 là đàn trọn vẹn.
+- **ô 71** — năm nốt đầu (phách 0→4) là đàn **mô phỏng** giai điệu lời hát; từ `G4` phách 4,0
+  mới tách ra thành câu kết. Đúng nửa ô.
+
+#### Hệ quả phải nhớ khi đo
+
+**Mọi con số tính "đoạn hát" theo ô đều trộn hai thứ khác nhau**: giai điệu lời ca và tiết
+tấu đệm. Ô 6 là bằng chứng — nửa đầu ô là câu hát, nửa sau là đệm bolero, mà phép đo theo ô
+gộp cả 15 nốt thành một.
+
+Và ngược lại ở phía solo: **ô cuối của đoạn dạo hay giang tấu có thể đã chứa lời hát** (ô 5),
+còn **ô đầu của đoạn kết có thể còn đang mô phỏng giai điệu hát** (ô 71).
+
+#### Một khái niệm mới người dùng đưa ra: ĐÀN MÔ PHỎNG GIAI ĐIỆU LỜI HÁT
+
+Chép nguyên văn: *"ở ô 71 là phần đàn nhưng mô phỏng giai điệu lời hát, đến nốt tay phải thứ
+6 đếm từ đầu ô thì đó là câu nhạc riêng không mô phỏng lời hát nữa."*
+
+Đây là **tầng thứ ba**, trước nay sổ này chỉ có hai: *đàn* và *hát*. Tầng giữa là đàn nhắc
+lại đường giai điệu của lời ca trước khi rẽ sang câu của riêng nó. Chưa đo được nó xuất hiện
+ở đâu nữa — mới có một chỗ, **n=1**.
+
+#### Bốn ô mang cùng một câu — 13 · 29 · 42 · 57
+
+Từ phách 1,0 tới 7,0, bốn ô trùng nhau **từng nốt từng phách**:
+
+    G#5@1,0 · A5@2,0 · G5@2,0 · A5@3,0 · D5@4,0 · D5@5,0 · E5@6,0 · D5@6,5 · E5@7,0
+
+Khác nhau chỉ ở nốt đuôi phách 7,5 (`D5 · F5 · F5 · E5`) và nốt dẫn ở phách 0. Người dùng đã
+xác nhận ô 42 là lời hát, nên cả bốn là **câu mở của phiên khúc**, hát lại ở mỗi lời — ba
+trong bốn ô ấy (29 · 42 · 57) đúng là ô đầu một phiên khúc.
+
+Ô 13 thì nằm giữa `verse` 6–20. **Suy luận của Claude, người dùng chưa xác nhận:** phiên khúc
+đầu gồm hai câu — câu A ô 6–12, câu B từ ô 13; các phiên sau chỉ hát câu B. Độ dài khớp:
+13–20, 29–36, 42–49 đều **8 ô**.
+
+Công phát hiện ô 29 và 57 là của OpenCode, trong phiếu
+`ingest/phieu-cua-loi-noi-buon-hoa-phuong.md`; Claude kiểm lại từng nốt rồi mới chép sang đây.
+
+#### Chỗ tôi suy sai, để phiên sau đừng lặp
+
+Tôi thấy mô-típ `G#5 A5 G5 A5 D5 D5 E5 D5 E5` xuất hiện ở **cả ô 13 lẫn ô 42** với tay trái
+chỉ 2 nốt, và kết luận đó là **câu đàn lặp lại**. Sai. Người dùng chỉ ra ô 42 là **lời hát**.
+Đối chiếu lại: ô 13 cũng vào ở phách 1,0 với đúng mô-típ ấy, chỉ thêm ba nốt móc đơn dẫn vào.
+
+Nên đó là **cùng một câu hát của lời 1 và lời 3** — chuyện hiển nhiên của một ca khúc. Bài
+học: *một mô-típ lặp lại ở hai đoạn hát khác nhau thì trước hết hãy nghĩ đó là cùng một câu
+ca*, đừng vội đọc thành câu đàn chỉ vì tay trái thưa.
+
+#### Còn trống
+
+Bốn mốc trên chỉ phủ bốn ô. **Các đoạn còn lại chưa có mốc** — điệp (21–28), lời 2 (29–36),
+điệp 2 (50–56), lời 4 (57–70) vẫn đang chia theo vạch nhịp. Muốn tách giai điệu ca khỏi đệm
+trên cả bài thì phải hỏi thêm.
+
+Người dùng cũng đã chốt **giữ nguyên đoạn kết 71–78** dù ô 75 và 76 trống hoàn toàn và ô 74·77·78
+dài 4 phách thay vì 8 — nên đừng cắt bài ở ô 73.
 
 ---
 
