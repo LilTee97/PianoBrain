@@ -919,10 +919,45 @@
           "tu": "cau-run",
           "sang": "giai-dieu-hat",
           "ghi": "Cau run ket o dau lang phach 8.5-10.0, roi hat lai NGAY TRONG O nay tu not den D5 phach 10.0 — nen o 50 ngay not dau da la hat."
+        },
+        {
+          "o": 28,
+          "phach": 2.0,
+          "tu": "giai-dieu-hat",
+          "sang": "tiet-tau-dem",
+          "ghi": "Chi hat o NOT DAU O (E5@0.0, dai 2 phach). Sau do tay trai dan tiet tau bolero."
+        },
+        {
+          "o": 28,
+          "phach": 6.0,
+          "tu": "tiet-tau-dem",
+          "sang": "cau-fill",
+          "ghi": "Sau dau lang tay phai 3.5-5.0. Cau fill nam o TAY TRAI phach 6->8, di len E-F-G-A#, de tao cam giac don ve phan ke tiep."
+        },
+        {
+          "o": 56,
+          "phach": 1.0,
+          "tu": "giai-dieu-hat",
+          "sang": "tiet-tau-dem",
+          "ghi": "Chi hat o not dau o (E5@0.0, dai 1 phach). O nay nhieu dau lang tay phai."
+        },
+        {
+          "o": 56,
+          "phach": 6.0,
+          "tu": "tiet-tau-dem",
+          "sang": "cau-fill",
+          "ghi": "Cau fill tay trai phach 6->8, di len E-F-G-A# — TRUNG KHIT voi o 28."
+        },
+        {
+          "o": 36,
+          "phach": 0.0,
+          "tu": "giai-dieu-hat",
+          "sang": "dan-mo-phong-hat",
+          "ghi": "Not dau o la loi hat. Sau do tay phai la cau dan LAP LAI giai dieu hat cua o 35, dich xuong mot quang tam (khop 50% theo lop cao do, 0% theo cao do tuyet doi). Tay trai co mot cau chay ngan. Cuoi o la cau run noi vao giang tau."
         }
       ],
       "moc_nguon": "nguoi-dung-tra-loi-phieu 7/9/2026",
-      "moc_ghi_chu": "O 65 va 66 nguoi dung chot CA HAI DEU HAT — khong co giang tau thu hai. Con trong: chua hoi moc trong cac o 22, 50, 51 va cac doan diep khuc con lai."
+      "moc_ghi_chu": "O 65-70 nguoi dung chot LA HAT: 'cau cuoi diep khuc, vi la ket bai nen chi Nhi muon keo dai cau hat ra giong nhu cac ca si van hay lam khi bieu dien'. So do KHONG tim duoc cho khop giua o 67-70 va hai diep khuc (cao nhat 17%) — nhung khong khop khong co nghia la khong phai, vi cau da bi bien tau keo dai. CHO NAY CO THE PHAI SUA CHIA DOAN: verse_4 57-70 co the gom ca phien lan diep. Chua hoi."
     }
   ],
   "_doc_giong": "Truong/thu KHONG co trong file MusicXML (khong file nao ghi <mode>). giong_nguon = md-linh-nhi (chep tu bang trong knowledge/teachers/linh-nhi-piano.md, nguoi dung da xac nhan) hoac nguoi-dung-xac-nhan (nguoi dung doi chieu voi Chordify) hoac suy-tu-ket-doan (suy tu hop am ket cua tung doan + hop am hay dung; CHUA duoc nguoi dung xac nhan). KHONG suy bang dau hoa cua not: cac ban nay ky am tu dong tu MIDI, cach viet thang/giang chay theo bo dau hoa chu khong theo chuc nang — thu nghiem tren 7 bai da biet thi sai 5. Mot so DOAN co truong \"giong\" rieng de bao doan ay chuyen giong — khi do phai lay giong cua doan, khong lay giong cua bai."

@@ -2010,12 +2010,77 @@ mở phiên khúc, khớp với chỗ này.
 
 Thứ dò được là **chuỗi móc đơn liên tục**, và chỉ có 9 chuỗi trong cả bài.
 
+#### Vòng 3 — "câu run" ĐƯỢC XÁC NHẬN, và ba lời hát cùng lời khác tiết tấu
+
+Người dùng viết **"câu chạy nốt (run)"** trong câu trả lời vòng 3 — nên cách đọc *câu chạy
+ngón* ở mục trên là **đúng**, không còn là phỏng đoán.
+
+**Ba khúc lời 2 · lời 3 · lời 4 là cùng một lời hát, nhưng KHÁC TIẾT TẤU.** Nguyên văn:
+
+> *"ô 30 và 43 nốt đầu đều là cùng một lời hát, cùng cao độ nhưng khác về ý đồ của tác giả
+> (ô 30 là nốt đen và có móc thêm một nốt, ô 43 thì là nốt trắng). Tiết tấu ở 2 ô cũng khác
+> dù cùng lời hát."* · *"ô 32 và 45 giống nhau ở nốt hát đầu tiên đều là nốt trắng nhưng cũng
+> lại khác về ý đồ tác giả khi có 2 kiểu tiết tấu khác nhau."*
+
+Nên **đừng chép tiết tấu của một lời sang lời khác** dù chúng cùng câu ca — chị đổi tiết tấu
+có chủ ý ở từng lời.
+
+#### Ô 36 và ô 49 — hai lối nối khác nhau vào hai đoạn khác nhau
+
+> *"ô 36 là một câu chạy nốt ngắn ở tay trái kết hợp với một câu đàn lặp lại giai điệu hát ở
+> ô 35 nhưng nốt hát cuối câu lặp lại thì có thấp hơn nốt đầu ô 36, sau đó là câu chạy nốt
+> (run) và nối vào giang tấu. ô 49 thì là một câu chạy tương tự ô 20 rồi sau đó nối vào điệp
+> khúc lặp."*
+
+Kiểm lại: ô 36 tay phải là `G5 D5 · D4 E4 E4 A4 G4 E5`, ô 35 là `A4 A4 D#5 E5 E5 A5 G5 F5` —
+hình `E5 E5 A5 G5` của ô 35 lặp thành `E4 E4 A4 G4` ở ô 36, **thấp hơn đúng một quãng tám**.
+
+> **Bẫy đo, ghi để đừng sập lại:** phép so khớp **cao độ tuyệt đối** cho ô 35 với ô 36 ra
+> **0%**. Đổi sang khớp **lớp cao độ** (bỏ quãng tám) thì ra **50%**. Câu lặp dịch quãng tám là
+> lối thường gặp của chị, nên phép so nào cũng phải chạy **cả hai thước**.
+
+Một chỗ **số đo bác phỏng đoán của người dùng**: họ đoán nốt hát đầu ô 49 có *"chồng thêm nốt
+nữa"*. Đo ra phách 0,0 của ô 49 chỉ có **hai** nốt — `D5` tay phải và `D2` tay trái, không có
+nốt chồng nào.
+
+#### Ô 28 và ô 56 — hát một nốt rồi nhường chỗ cho đệm, cuối ô là câu fill dồn
+
+> *"cả hai ô chỉ hát ở nốt đầu ô, sau đó tay trái đàn tiết tấu bolero và nửa cuối ô (sau dấu
+> lặng) thì cả 2 ô là câu fill … cả 2 câu fill để tạo cảm giác dồn về phần kế tiếp."*
+
+Đo xác nhận, và chỉ ra **câu fill ấy nằm ở TAY TRÁI**: phách 6→8 cả hai ô đều đi lên
+`E–F–G–A#`, **trùng khít nhau từng nốt**. Đây là hai ô tay trái dày nhất bài (28 và 26 nốt).
+
+| | hát tới | đệm | câu fill |
+|---|---|---|---|
+| ô 28 | phách 2,0 (`E5` nốt trắng) | 2,0 → 3,5 | từ phách 6,0, tay trái |
+| ô 56 | phách 1,0 (`E5` nốt đen) | 1,0 → 3,5 | từ phách 6,0, tay trái |
+
+#### Ô 65–70 là HÁT, và chỗ này có thể phải sửa chia đoạn
+
+> *"Đó là phần hát, là câu cuối điệp khúc. Vì đó là kết bài nên chị Nhi muốn kéo dài câu hát
+> ra giống như các ca sĩ vẫn hay làm khi biểu diễn."*
+
+**Số đo không tìm được chỗ khớp** giữa ô 67–70 và hai điệp khúc — cao nhất 17%, kể cả khi so
+theo lớp cao độ. Nhưng *không khớp không có nghĩa là không phải*: câu đã bị **biến tấu kéo
+dài**, nên hết khớp nốt là chuyện bình thường. Người dùng nghe ra lời; phép đo chỉ khớp ký âm.
+
+> **Hệ quả chưa xử:** bảng chia đoạn đang ghi `verse_4` = 57–70. Nếu ô 67–70 là câu cuối
+> **điệp khúc** thì đoạn ấy gồm cả phiên lẫn điệp, và cần tách. **Chưa hỏi người dùng.**
+
+Hai điệp khúc thì người dùng chốt **cùng cấu trúc, chỉ khác điểm vào** — khớp với số đo
+(ô 27↔55 trùng bốn nốt đầu `A5 A5 F5 E5`; ô 25↔53 cùng mở `A4@2,0`).
+
 #### Còn trống
 
-Nay đã có **chín mốc** sau hai vòng phiếu. **Vẫn còn trống**: các ô bên trong điệp khúc
-(22–28) và điệp khúc 2 (51–56), và phần lớn lời 2 (30–36) với lời 4 (57–64, 67–70) — chúng vẫn
-đang chia theo vạch nhịp. Muốn tách giai điệu ca khỏi đệm trên cả bài thì phải hỏi thêm, và
-hỏi theo lối đã dùng: *"trong ô này, lời hát bắt đầu hoặc kết thúc ở nốt nào"*.
+Sau ba vòng phiếu đã có **14 mốc**, và bài coi như chia xong ở mức đoạn. **Còn hai chỗ
+chưa xử:**
+
+1. **`verse_4` 57–70 có thể phải tách** — người dùng nói ô 67–70 là *câu cuối điệp khúc*, mà
+   đoạn ấy đang được ghi là phiên khúc. Chưa hỏi.
+2. **Chưa hỏi mốc bên trong** các ô 22–27, 30–35, 51–55, 57–66. Chúng đã biết là hát, nhưng
+   chỗ nào chuyển sang tiết tấu đệm trong từng ô thì chưa. Hỏi theo lối đã dùng: *"trong ô
+   này, lời hát bắt đầu hoặc kết thúc ở nốt nào"*.
 
 Người dùng cũng đã chốt **giữ nguyên đoạn kết 71–78** dù ô 75 và 76 trống hoàn toàn và ô 74·77·78
 dài 4 phách thay vì 8 — nên đừng cắt bài ở ô 73.
