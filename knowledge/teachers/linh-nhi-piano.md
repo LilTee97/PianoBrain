@@ -1949,11 +1949,73 @@ Nên đó là **cùng một câu hát của lời 1 và lời 3** — chuyện h
 học: *một mô-típ lặp lại ở hai đoạn hát khác nhau thì trước hết hãy nghĩ đó là cùng một câu
 ca*, đừng vội đọc thành câu đàn chỉ vì tay trái thưa.
 
+#### CÂU RUN — khái niệm của người dùng, và nó đo được
+
+Trả lời phiếu vòng 2 (7/9/2026), người dùng dùng một chữ sổ này chưa có:
+
+> *"ô 20 hát tới nốt trắng đầu tiên (dưới Dm) còn lại là **câu run** kéo dài qua tới hết dấu
+> lặng bên ô 21"* · *"ô 49 cũng hát tới nốt trắng đầu ô rồi sau đó câu run nhưng nó kết run ở
+> dấu lặng trong ô và sau dấu lặng là hát ở ngay nốt đen cùng ô"*
+
+**Đọc là câu chạy ngón (*run*).** Đó là cách Claude hiểu, *người dùng chưa xác nhận lại chữ* —
+nhưng số liệu đỡ: cả hai chỗ họ chỉ đều là **chuỗi móc đơn liên tục**, và một bộ dò chỉ hỏi
+đúng câu ấy bắt trúng **cả điểm đầu lẫn điểm cuối** của chúng.
+
+Bộ dò: `tools/sheet/cau_run.py` (có `--kiem` tái lập hai chỗ trên). Định nghĩa: trên tuyến
+giai điệu tay phải, một dãy nốt có `dur ≤ 0,5` cách nhau **đúng 0,5 phách**, dài ≥ **6** nốt.
+
+Chín chuỗi trong *Nỗi Buồn Hoa Phượng*:
+
+| ô | dài | đoạn |
+|---|---|---|
+| 1 → 3 | **41 nốt** | dạo |
+| **20 → 21** | **14 nốt** | ← người dùng gọi là câu run |
+| 29 → 30 | 6 | lời 2 |
+| 30 | 6 | lời 2 |
+| 37 → 40 | **40 nốt** | giang tấu |
+| 48 → 49 | 7 | lời 3 |
+| **49** | **13 nốt** | ← người dùng gọi là câu run |
+| 58 | 6 | lời 4 |
+| 73 | 8 | kết |
+
+Hai chuỗi dài nhất (41 và 40 nốt) nằm gọn trong **đoạn dạo và giang tấu** — nói cách khác,
+đoạn solo của bài này về bản chất *là* một câu run dài. Còn trong đoạn hát, câu run là câu
+đàn chen vào giữa hai câu ca.
+
+Trên cả kho Linh Nhi bộ dò ra **46 chuỗi** (7 bài).
+
+#### Bốn mốc mới, và hai thứ KHÔNG dò tự động được
+
+| ô | phách | từ → sang |
+|---|---|---|
+| **8** | 6,0 | giai điệu hát → **fill** (hát tới hết nốt trắng `D4`@4,0, nốt nằm dưới chữ `Dm`) |
+| **20** | 2,0 | giai điệu hát → câu run |
+| **21** | 2,0 | câu run → giai điệu hát (run kết ở **dấu lặng** 0,5–2,0) |
+| **49** | 2,0 | giai điệu hát → câu run |
+| **49** | 10,0 | câu run → giai điệu hát (dấu lặng 8,5–10,0, rồi nốt đen `D5`) |
+
+Người dùng cũng chốt **ô 65 và 66 đều là hát** — nên **không có giang tấu thứ hai**, dù ô 65
+tay phải dâng lên `F5 G5 G#5 A5` với tay trái chỉ 5 mốc. Ô 66 từ phách 4,0 mang đúng đuôi câu
+mở phiên khúc, khớp với chỗ này.
+
+> **Ô 49 và ô 52 dài 12 phách**, không phải 8; ô 74–78 dài 4 phách. Số ô thì không lệch —
+> 78 cả trước lẫn sau `clone_do.sua_o()`. Nên khi người dùng nói "ô 49" là đúng ô ấy.
+
+**Hai phép dò đã thử và KHÔNG dùng được**, ghi để phiên sau đừng thử lại:
+
+- **Nốt trắng** — quy tắc ô 6 (*"hát tới nốt trắng rồi đệm"*) không áp được cho cả bài: nốt
+  trắng có ở **hơn 30 ô**, kể cả trong câu dạo (ô 4) và giang tấu (ô 37, 41).
+- **Dấu lặng** — cũng không: **84 dấu lặng** ở tay phải, rải khắp bài. Nó chỉ là mốc *kết* của
+  một câu run đã biết, không phải dấu hiệu nhận ra câu run.
+
+Thứ dò được là **chuỗi móc đơn liên tục**, và chỉ có 9 chuỗi trong cả bài.
+
 #### Còn trống
 
-Bốn mốc trên chỉ phủ bốn ô. **Các đoạn còn lại chưa có mốc** — điệp (21–28), lời 2 (29–36),
-điệp 2 (50–56), lời 4 (57–70) vẫn đang chia theo vạch nhịp. Muốn tách giai điệu ca khỏi đệm
-trên cả bài thì phải hỏi thêm.
+Nay đã có **chín mốc** sau hai vòng phiếu. **Vẫn còn trống**: các ô bên trong điệp khúc
+(22–28) và điệp khúc 2 (51–56), và phần lớn lời 2 (30–36) với lời 4 (57–64, 67–70) — chúng vẫn
+đang chia theo vạch nhịp. Muốn tách giai điệu ca khỏi đệm trên cả bài thì phải hỏi thêm, và
+hỏi theo lối đã dùng: *"trong ô này, lời hát bắt đầu hoặc kết thúc ở nốt nào"*.
 
 Người dùng cũng đã chốt **giữ nguyên đoạn kết 71–78** dù ô 75 và 76 trống hoàn toàn và ô 74·77·78
 dài 4 phách thay vì 8 — nên đừng cắt bài ở ô 73.

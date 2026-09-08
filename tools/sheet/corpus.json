@@ -884,9 +884,45 @@
           "tu": "dan-mo-phong-hat",
           "sang": "outro",
           "ghi": "Nam not dau (phach 0-4) la dan MO PHONG giai dieu loi hat. Tu not thu 6 (G4, phach 4.0) moi la cau nhac rieng."
+        },
+        {
+          "o": 8,
+          "phach": 6.0,
+          "tu": "giai-dieu-hat",
+          "sang": "fill",
+          "ghi": "Hat toi het NOT TRANG D4 phach 4.0 — not nam duoi chu Dm. Tu phach 6.0 la fill. Cung dang voi o 6."
+        },
+        {
+          "o": 20,
+          "phach": 2.0,
+          "tu": "giai-dieu-hat",
+          "sang": "cau-run",
+          "ghi": "Hat toi het NOT TRANG D5 phach 0.0 (duoi Dm). Tu do la cau run, keo dai QUA VACH NHIP sang o 21. Bo do bat chuoi tu phach 2.0."
+        },
+        {
+          "o": 21,
+          "phach": 2.0,
+          "tu": "cau-run",
+          "sang": "giai-dieu-hat",
+          "ghi": "Cau run tu o 20 ket o dau lang phach 0.5-2.0. Loi hat (diep khuc) vao tu not den D5 phach 2.0."
+        },
+        {
+          "o": 49,
+          "phach": 2.0,
+          "tu": "giai-dieu-hat",
+          "sang": "cau-run",
+          "ghi": "Hat toi het NOT TRANG D5 phach 0.0. O nay dai 12 phach chu khong phai 8. Bo do bat chuoi moc don tu phach 2.5."
+        },
+        {
+          "o": 49,
+          "phach": 10.0,
+          "tu": "cau-run",
+          "sang": "giai-dieu-hat",
+          "ghi": "Cau run ket o dau lang phach 8.5-10.0, roi hat lai NGAY TRONG O nay tu not den D5 phach 10.0 — nen o 50 ngay not dau da la hat."
         }
       ],
-      "moc_nguon": "nguoi-dung-tra-loi-phieu 7/9/2026"
+      "moc_nguon": "nguoi-dung-tra-loi-phieu 7/9/2026",
+      "moc_ghi_chu": "O 65 va 66 nguoi dung chot CA HAI DEU HAT — khong co giang tau thu hai. Con trong: chua hoi moc trong cac o 22, 50, 51 va cac doan diep khuc con lai."
     }
   ],
   "_doc_giong": "Truong/thu KHONG co trong file MusicXML (khong file nao ghi <mode>). giong_nguon = md-linh-nhi (chep tu bang trong knowledge/teachers/linh-nhi-piano.md, nguoi dung da xac nhan) hoac nguoi-dung-xac-nhan (nguoi dung doi chieu voi Chordify) hoac suy-tu-ket-doan (suy tu hop am ket cua tung doan + hop am hay dung; CHUA duoc nguoi dung xac nhan). KHONG suy bang dau hoa cua not: cac ban nay ky am tu dong tu MIDI, cach viet thang/giang chay theo bo dau hoa chu khong theo chuc nang — thu nghiem tren 7 bai da biet thi sai 5. Mot so DOAN co truong \"giong\" rieng de bao doan ay chuyen giong — khi do phai lay giong cua doan, khong lay giong cua bai."
