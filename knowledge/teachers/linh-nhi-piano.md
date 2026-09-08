@@ -2056,17 +2056,17 @@ nốt chồng nào.
 | ô 28 | phách 2,0 (`E5` nốt trắng) | 2,0 → 3,5 | từ phách 6,0, tay trái |
 | ô 56 | phách 1,0 (`E5` nốt đen) | 1,0 → 3,5 | từ phách 6,0, tay trái |
 
-#### Ô 65–70 là HÁT, và chỗ này có thể phải sửa chia đoạn
+#### Ô 65–70 là HÁT — câu cuối **phiên**, không tách `verse_4`
 
 > *"Đó là phần hát, là câu cuối điệp khúc. Vì đó là kết bài nên chị Nhi muốn kéo dài câu hát
 > ra giống như các ca sĩ vẫn hay làm khi biểu diễn."*
 
-**Số đo không tìm được chỗ khớp** giữa ô 67–70 và hai điệp khúc — cao nhất 17%, kể cả khi so
-theo lớp cao độ. Nhưng *không khớp không có nghĩa là không phải*: câu đã bị **biến tấu kéo
-dài**, nên hết khớp nốt là chuyện bình thường. Người dùng nghe ra lời; phép đo chỉ khớp ký âm.
+**8/9/2026 người dùng sửa:** chỗ 67–70 là câu cuối **phiên khúc**, lúc nãy gõ nhầm. `verse_4`
+giữ **57–70**, không tách.
 
-> **Hệ quả chưa xử:** bảng chia đoạn đang ghi `verse_4` = 57–70. Nếu ô 67–70 là câu cuối
-> **điệp khúc** thì đoạn ấy gồm cả phiên lẫn điệp, và cần tách. **Chưa hỏi người dùng.**
+**Số đo không khớp** ô 67–70 với hai điệp — cao nhất **17%**, cả thước chặt lẫn lớp cao độ.
+Lần trước đọc thành "biến tấu điệp". Nay khớp với lời sửa: đó là **phiên kéo dài**, nên không
+phải điệp — số đo chối điệp là đúng.
 
 Hai điệp khúc thì người dùng chốt **cùng cấu trúc, chỉ khác điểm vào** — khớp với số đo
 (ô 27↔55 trùng bốn nốt đầu `A5 A5 F5 E5`; ô 25↔53 cùng mở `A4@2,0`).
@@ -2076,11 +2076,11 @@ Hai điệp khúc thì người dùng chốt **cùng cấu trúc, chỉ khác đ
 Sau ba vòng phiếu đã có **14 mốc**, và bài coi như chia xong ở mức đoạn. **Còn hai chỗ
 chưa xử:**
 
-1. **`verse_4` 57–70 có thể phải tách** — người dùng nói ô 67–70 là *câu cuối điệp khúc*, mà
-   đoạn ấy đang được ghi là phiên khúc. Chưa hỏi.
+1. ~~**`verse_4` 57–70 có thể phải tách**~~ — **không tách.** Người dùng sửa: 67–70 là câu cuối
+    **phiên**, gõ nhầm "điệp".
 2. **Chưa hỏi mốc bên trong** các ô 22–27, 30–35, 51–55, 57–66. Chúng đã biết là hát, nhưng
-   chỗ nào chuyển sang tiết tấu đệm trong từng ô thì chưa. Hỏi theo lối đã dùng: *"trong ô
-   này, lời hát bắt đầu hoặc kết thúc ở nốt nào"*.
+    chỗ nào chuyển sang tiết tấu đệm trong từng ô thì chưa. Phiếu:
+    `ingest/phieu-moc-trong-o-noi-buon-hoa-phuong.md`.
 
 Người dùng cũng đã chốt **giữ nguyên đoạn kết 71–78** dù ô 75 và 76 trống hoàn toàn và ô 74·77·78
 dài 4 phách thay vì 8 — nên đừng cắt bài ở ô 73.

@@ -66,6 +66,5 @@ dạng; dấu lặng chỉ là mốc *kết* của một câu run đã biết.
 
 ## Còn trống
 
-Bốn dòng của phiếu này đã trả lời hết. Còn chưa hỏi: các ô **bên trong** điệp khúc (22–28) và
-điệp khúc 2 (51–56), phần lớn lời 2 (30–36) và lời 4 (57–64, 67–70). Hỏi tiếp thì hỏi theo lối
-người dùng đã dùng: *"trong ô này, lời hát bắt đầu (hoặc kết thúc) ở nốt nào"*.
+Bốn dòng của phiếu này đã trả lời hết. Ô **67–70** người dùng sửa (8/9/2026): câu cuối
+**phiên**, không tách `verse_4`. Mốc trong ô: `phieu-moc-trong-o-noi-buon-hoa-phuong.md`.

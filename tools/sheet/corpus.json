@@ -957,7 +957,7 @@
         }
       ],
       "moc_nguon": "nguoi-dung-tra-loi-phieu 7/9/2026",
-      "moc_ghi_chu": "O 65-70 nguoi dung chot LA HAT: 'cau cuoi diep khuc, vi la ket bai nen chi Nhi muon keo dai cau hat ra giong nhu cac ca si van hay lam khi bieu dien'. So do KHONG tim duoc cho khop giua o 67-70 va hai diep khuc (cao nhat 17%) — nhung khong khop khong co nghia la khong phai, vi cau da bi bien tau keo dai. CHO NAY CO THE PHAI SUA CHIA DOAN: verse_4 57-70 co the gom ca phien lan diep. Chua hoi."
+      "moc_ghi_chu": "O 65-70 nguoi dung chot LA HAT. Ban dau viet 'cau cuoi diep khuc'; 8/9/2026 sua: 'cau cuoi PHIEN KHUC, luc nay go nham'. verse_4 giu 57-70, KHONG tach. So do van khong khop 67-70 voi hai diep (cao nhat 17%) — dung, vi do la phien keo dai chu khong phai diep."
     }
   ],
   "_doc_giong": "Truong/thu KHONG co trong file MusicXML (khong file nao ghi <mode>). giong_nguon = md-linh-nhi (chep tu bang trong knowledge/teachers/linh-nhi-piano.md, nguoi dung da xac nhan) hoac nguoi-dung-xac-nhan (nguoi dung doi chieu voi Chordify) hoac suy-tu-ket-doan (suy tu hop am ket cua tung doan + hop am hay dung; CHUA duoc nguoi dung xac nhan). KHONG suy bang dau hoa cua not: cac ban nay ky am tu dong tu MIDI, cach viet thang/giang chay theo bo dau hoa chu khong theo chuc nang — thu nghiem tren 7 bai da biet thi sai 5. Mot so DOAN co truong \"giong\" rieng de bao doan ay chuyen giong — khi do phai lay giong cua doan, khong lay giong cua bai."
