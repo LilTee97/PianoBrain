@@ -22,6 +22,16 @@
         "file": "yeu-la-tha-thu.mxl",
         "ly_do": "KHONG co mot ky hieu hop am nao trong ca 85 o nen khong suy duoc giong; nguoi dung chot de sau, hoc chung voi Tuyet Roi",
         "teacher": "ca-phao"
+      },
+      {
+        "file": "beo-dat-may-troi-ca-phao.mxl",
+        "teacher": "ca-phao",
+        "ly_do": "NGUOI DUNG BO 10/9/2026 (sau khi xem phieu do giong). File con o Downloads/Documents/Ca_Phao. Dung khoi phuc lai neu nguoi dung khong goi ten."
+      },
+      {
+        "file": "mo.mxl",
+        "teacher": "ca-phao",
+        "ly_do": "NGUOI DUNG BO 10/9/2026. File con o Downloads/Documents/Ca_Phao. Dung khoi phuc lai neu nguoi dung khong goi ten."
       }
     ]
   },
@@ -960,39 +970,6 @@
       "moc_ghi_chu": "O 65-70 nguoi dung chot LA HAT. Ban dau viet 'cau cuoi diep khuc'; 8/9/2026 sua: 'cau cuoi PHIEN KHUC, luc nay go nham'. verse_4 giu 57-70, KHONG tach. So do van khong khop 67-70 voi hai diep (cao nhat 17%) — dung, vi do la phien keo dai chu khong phai diep. O 30-35 (va 43-48, 58-63) HAT HET O — nguoi dung: 'toan la hat', may hoi thua. Diep 22-27 va 51-55 hat; cat dem/fill chi o 28 va 56 (da co moc)."
     },
     {
-      "file": "beo-dat-may-troi-ca-phao.mxl",
-      "name": "Bèo dạt mây trôi",
-      "teacher": "ca-phao",
-      "genre": "ballad",
-      "video": "fb_Su9o4W3g",
-      "bars": 95,
-      "sections": {
-        "intro": {
-          "time": "00:04-00:25",
-          "bars": [
-            1,
-            8
-          ]
-        },
-        "interlude": {
-          "time": "01:47-02:24",
-          "bars": [
-            46,
-            63
-          ]
-        },
-        "outro": {
-          "time": "03:20-03:35",
-          "bars": [
-            89,
-            95
-          ]
-        }
-      },
-      "confidence": "cao — bản ký âm ghi rubato ô 1 và rit. ô 8, tự đóng đúng đoạn dạo; rit. ô 92 nằm trong outro. Đoạn dạo phải neo RIÊNG vì rubato là chơi tự do",
-      "ghi_chu_khoi_phuc": "Bi go khoi corpus o commit 55c3ec0 (1/9/2026); khoi phuc 10/9/2026 theo yeu cau nguoi dung de chia doan. Moc dao/giang/ket lay tu corpus cu (258e602), phien/diep chua chia."
-    },
-    {
       "file": "kem-duyen.mxl",
       "name": "Kém duyên",
       "teacher": "ca-phao",
@@ -1016,7 +993,7 @@
         }
       },
       "confidence": "vừa — bài không có đoạn dạo đầu. LƯU Ý: bản này ký âm thành HAI BÈ riêng, không phải một bè hai khuông",
-      "ghi_chu_khoi_phuc": "Bi go khoi corpus o commit 55c3ec0 (1/9/2026); khoi phuc 10/9/2026 theo yeu cau nguoi dung de chia doan. Moc dao/giang/ket lay tu corpus cu (258e602), phien/diep chua chia."
+      "ghi_chu_khoi_phuc": "Bi go khoi corpus o 55c3ec0 (1/9/2026); nguoi dung chon lay lai 10/9/2026. Moc dao/giang/ket tu corpus cu (258e602); phien/diep cho phieu ingest/phieu-cua-loi-yeu-xa-kem-duyen.md."
     },
     {
       "file": "yeu-xa-ca-phao-cove.mxl",
@@ -1049,33 +1026,7 @@
         }
       },
       "confidence": "vừa — neo theo thời lượng",
-      "ghi_chu_khoi_phuc": "Bi go khoi corpus o commit 55c3ec0 (1/9/2026); khoi phuc 10/9/2026 theo yeu cau nguoi dung de chia doan. Moc dao/giang/ket lay tu corpus cu (258e602), phien/diep chua chia."
-    },
-    {
-      "file": "mo.mxl",
-      "name": "Mơ",
-      "teacher": "ca-phao",
-      "genre": "slow rock 4/4",
-      "video": "0w-M67gPlfA",
-      "bars": 79,
-      "sections": {
-        "intro": {
-          "time": "00:07-00:23",
-          "bars": [
-            1,
-            10
-          ]
-        },
-        "interlude": {
-          "time": "01:57-02:14",
-          "bars": [
-            67,
-            77
-          ]
-        }
-      },
-      "confidence": "thấp — không có outro nên thiếu mốc cuối để neo, và nhịp độ nhập nhằng nửa nhịp (72 hay 144). Bài này là slow rock nhịp 4/4, không phải nhịp kép 6/8: đo ra 98% nốt chùm hai, 0% chùm ba",
-      "ghi_chu_khoi_phuc": "Bi go khoi corpus o commit 55c3ec0 (1/9/2026); khoi phuc 10/9/2026 theo yeu cau nguoi dung de chia doan. Moc dao/giang/ket lay tu corpus cu (258e602), phien/diep chua chia."
+      "ghi_chu_khoi_phuc": "Bi go khoi corpus o 55c3ec0 (1/9/2026); nguoi dung chon lay lai 10/9/2026. Moc dao/giang/ket tu corpus cu (258e602); phien/diep cho phieu ingest/phieu-cua-loi-yeu-xa-kem-duyen.md."
     }
   ],
   "_doc_giong": "Truong/thu KHONG co trong file MusicXML (khong file nao ghi <mode>). giong_nguon = md-linh-nhi (chep tu bang trong knowledge/teachers/linh-nhi-piano.md, nguoi dung da xac nhan) hoac nguoi-dung-xac-nhan (nguoi dung doi chieu voi Chordify) hoac suy-tu-ket-doan (suy tu hop am ket cua tung doan + hop am hay dung; CHUA duoc nguoi dung xac nhan). KHONG suy bang dau hoa cua not: cac ban nay ky am tu dong tu MIDI, cach viet thang/giang chay theo bo dau hoa chu khong theo chuc nang — thu nghiem tren 7 bai da biet thi sai 5. Mot so DOAN co truong \"giong\" rieng de bao doan ay chuyen giong — khi do phai lay giong cua doan, khong lay giong cua bai."
