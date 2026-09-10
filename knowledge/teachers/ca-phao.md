@@ -30,13 +30,19 @@ của Cà Pháo**, và ghi rõ chỗ nào anh ấy khác hai thầy kia.
 
 | bài | thể loại | giọng | ô | đoạn dạo | giang tấu | đoạn kết |
 |---|---|---|---|---|---|---|
-| Hồng Kông 1 | bossa nova | Đô trưởng | 107 | 1–15 | 47–65 | 100–107 |
+| Hồng Kông 1 | **ballad** *(người dùng sửa 10/9/2026, trước ghi bossa nova)* | Đô trưởng | 107 | 1–15 | 47–65 | 100–107 |
 | Người hãy quên em đi | bossa nova | Rê thứ | 104 | 1–8 | 41–48 | 96–104 |
 | Có Em Chờ | ballad | Mi giáng trưởng | 72 | 1–8 | 48–55 | 66–72 |
 | Ngày mai em đi | ballad | Mi giáng trưởng | 91 | 1–18 | 51–54 | 87–91 |
 
-**2 bossa nova · 2 ballad** — và **3 trưởng · 1 thứ**. Cà Pháo là thầy duy nhất trong ba
-người có bài bossa nova.
+**1 bossa nova · 3 ballad** — và **3 trưởng · 1 thứ**. Cà Pháo là thầy duy nhất trong ba
+người có bài bossa nova — đúng **một** bài, *Người hãy quên em đi*.
+
+> **Hồng Kông 1 là ballad, không phải bossa nova** — người dùng sửa 10/9/2026. Nhãn bossa nova
+> ghi từ lúc nạp kho (`1891a73`) và không có căn cứ đo. Số đo nghiêng về ballad: tay trái
+> *"gõ gần như móc đơn đều"* (KeyTrain `bossaCaPhao.test.ts` đã loại bài này khỏi mẫu đệm bossa
+> từ trước), hợp âm `major`×14 · `sus4`×9 chứ không phải vốn mở rộng. Mọi câu trong file này
+> từng gộp Hồng Kông 1 vào "bossa" phải đọc lại với nhãn mới; các chỗ đã sửa được đánh dấu.
 
 ### Ba bản KHÔNG nằm trong cỡ mẫu
 
@@ -99,7 +105,8 @@ thuẫn: nốt của anh ấy nằm trên hợp âm nhiều hơn, mà khi rời 
 Ba nét riêng:
 
 1. **Trên hợp âm trưởng anh dùng `9` và `13` nhiều nhất trong ba thầy** — 15% và 10%, cộng
-   lại một phần tư số nốt. Linh Nhi 11% và 6%. Đây là chỗ nghe ra tiếng bossa.
+   lại một phần tư số nốt. Linh Nhi 11% và 6%. Từng gọi đây là "tiếng bossa" — nay chỉ còn
+   một bài bossa nên câu ấy chưa đứng; số đo gộp cả bốn bài, chưa tách theo điệu.
 2. **Trên hợp âm thứ, bậc `11` chiếm 13%** — cao nhất trong ba thầy, và khớp với vốn hợp âm
    `Dm11 · Gm11 · A11` ở mục 3 bên dưới. Bậc `♭7` cũng 19%, tức anh chơi thẳng lên hợp âm
    bảy chứ không dừng ở ba nốt.
@@ -146,7 +153,8 @@ Chất hợp âm ở các đoạn solo, đếm theo từng bài:
 | Có Em Chờ | **`minor-seventh`×13** · `major-seventh`×8 · `dominant-13th`×2 |
 | Ngày mai em đi | `major`×15 · `minor-seventh`×6 · `major-seventh`×2 |
 
-**Hai bài bossa nova dùng hợp âm mở rộng dày đặc**, hai bài ballad thì trơn hơn. Người hãy
+**Bài bossa nova duy nhất dùng hợp âm mở rộng dày đặc**, ba bài ballad trơn hơn — Hồng Kông
+1 với `major`×14 · `sus4`×9 nằm hẳn về phía ballad, thêm một bằng chứng cho nhãn mới. Người hãy
 quên em đi đi hẳn vào vốn jazz: `Dm11 · Gm11 · A11 · Em7(b5)`, và kết bài bằng `DM9` — tức
 bậc ba Picardy trên một bài giọng thứ.
 
@@ -207,9 +215,19 @@ So với Linh Nhi (75,3 trưởng · 73,2 thứ): Cà Pháo thấp hơn **4,5 n�
 
 > **Cỡ mẫu mỏng ở giọng thứ.** Chỉ một bài. Nghe thấy sai thì kiểm con số này trước.
 >
+> Đo 6/9/2026 (giong BÀI): solo thứ n=1 bài, 27 ký hiệu — min 56% · **dom 26%** (trưởng 9%) ·
+> nốt hợp âm RH **83,6%** (trưởng 62,3%). Anh **không** rời hợp âm như Linh Nhi. Chiều buồn
+> đo được: át nhiều + tầm thấp.
+>
+> **Người dùng chốt 7/9/2026:** man mác buồn = không chắc + chỗ kéo. Ở anh, **kéo** đo được
+> (át, tầm thấp); **không chắc** thì n=1 làm ngược chị — đừng lấy luật rời.
+>
 > Và một chỗ phải nói trước: KeyTrain dời cả câu đi **bội số của 12**, nên tâm dựng ra là
 > **71,0** chứ không phải 68,0 — sai số tối đa của phép dời quãng tám là nửa quãng tám.
-> Muốn sát hơn thì phải nắn từng nốt, mà nắn nốt là thứ đã bị bác bốn lần.
+> Muốn sát hơn thì phải nắn từng nốt. **Đính chính 9/9/2026:** câu "nắn nốt đã bị bác bốn
+> lần" là ghi chép của agent, **không có trích dẫn nguyên văn nào** của người dùng đứng sau.
+> Thứ họ thật sự bác là *rút luật ra rồi sinh nốt*. Khi được hỏi thẳng, họ nói: *"thấy cần
+> nắn nốt thì nắn đi."* Nên nắn một nốt có bằng chứng thì được — đừng viện câu ấy để từ chối.
 
 ### Bài trưởng của anh SÁNG BẰNG TẦM ÂM — khác hẳn Linh Nhi
 

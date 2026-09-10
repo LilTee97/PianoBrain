@@ -40,7 +40,7 @@
     {
       "file": "hongkong-1-chuyen-tinh-luot-qua-nguyen-trong-tai-hong-kong-1-advanced.mxl",
       "name": "Hồng Kông 1",
-      "genre": "bossa nova",
+      "genre": "ballad",
       "video": "2ih8r0Inx3M",
       "bars": 107,
       "sections": {
@@ -94,7 +94,8 @@
       "teacher": "ca-phao",
       "giong": "Do truong",
       "giong_nguon": "nguoi-dung-xac-nhan",
-      "giong_ghi_chu": "moi doan ket ve C; D7 o cuoi bai la vong quay lai, khong phai chu am."
+      "giong_ghi_chu": "moi doan ket ve C; D7 o cuoi bai la vong quay lai, khong phai chu am.",
+      "genre_ghi_chu": "NGUOI DUNG SUA 10/9/2026: ballad, KHONG phai bossa nova (nhan bossa nova ghi tu 1891a73). Khop so do: tay trai go moc don deu, hop am major x14 / sus4 x9 — khong phai loi bossa."
     },
     {
       "file": "nguoihayquenemdi.mxl",
