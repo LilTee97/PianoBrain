@@ -49,21 +49,24 @@
           "bars": [
             1,
             15
-          ]
+          ],
+          "cua_loi": "o 15 KHONG lay da; loi bat dau o 16 phach 2+1/2 not C5 moc don (sau chum Bb3/D4/E4/G4 + Bb3)"
         },
         "interlude": {
           "time": "01:36-02:17",
           "bars": [
             47,
             65
-          ]
+          ],
+          "cua_loi": "giang bat dau o 47 tu not D4 tay trai phach 3; giua do (RH E4/G4 phach 2, LH C4-C3-G3) la dan noi. Cau dan ket o chum A4/C5/G5 dau o 65; loi phien 2 tro lai o 65 phach 2+1/2 cap C5/C6 (truoc moc 66)"
         },
         "outro": {
           "time": "03:30-03:41",
           "bars": [
             100,
             107
-          ]
+          ],
+          "cua_loi": "loi cuoi bai = chum C4/G4/C5 phach 1 o 100; outro bat dau o chum ba rai C4→G4→C5 nua sau phach 1 o 100"
         },
         "verse": {
           "bars": [
@@ -75,13 +78,15 @@
           "bars": [
             32,
             46
-          ]
+          ],
+          "cua_loi": "loi cuoi diep = chum E4/G4/C5 danh o 46 phach 4+1/2, NOI sang phach 1 o 47 va ngan"
         },
         "verse_2": {
           "bars": [
             66,
             72
-          ]
+          ],
+          "cua_loi": "loi vao som tu o 65 phach 2+1/2 (C5/C6 → D5/D6 → E5/E6 noi sang 66)"
         },
         "chorus_2": {
           "bars": [
@@ -90,7 +95,7 @@
           ]
         }
       },
-      "confidence": "rat cao - nguoi dung doc thang so o nhip tren ban ky am, thay cho ban quy doi tu moc thoi gian video.",
+      "confidence": "rat cao - nguoi dung doc thang so o nhip tren ban ky am, thay cho ban quy doi tu moc thoi gian video. | Cua loi 4 ranh: nguoi dung chot 11/9/2026 (phieu bo sung).",
       "teacher": "ca-phao",
       "giong": "Do truong",
       "giong_nguon": "nguoi-dung-xac-nhan",
@@ -224,7 +229,8 @@
           "bars": [
             1,
             8
-          ]
+          ],
+          "cua_loi": "C5 (4+1/2) va D5 (4+3/4) cuoi o 8 da la LOI (lay da), khong coi ca o 8 la dao"
         },
         "verse": {
           "bars": [
@@ -235,46 +241,52 @@
         "chorus": {
           "bars": [
             25,
-            33
-          ]
+            32
+          ],
+          "cua_loi": "diep 25-32 (truoc ghi 25-33, sai). Loi phien lap lay da tu cap C5/C6 o 32 phach 4+1/2, tran qua o 33"
         },
         "interlude": {
           "bars": [
             48,
             55
-          ]
+          ],
+          "cua_loi": "giang lan hai not dau o 56 (Bb3/F4 phach 1, Bb3/Eb4 phach 2) truoc khi diep nang giong vao. Cau o 53 nhac lai cau o 5"
         },
         "verse_2": {
           "bars": [
-            34,
+            33,
             40
-          ]
+          ],
+          "cua_loi": "o 33 la cau dau phien lap (lay da tu 32/4+1/2)"
         },
         "chorus_2": {
           "bars": [
             41,
             47
-          ]
+          ],
+          "cua_loi": "con not hat Eb4/Eb5 dau o 48 (noi tu 47); cau dan giang bat dau sau not do (1+1/4)"
         },
         "chorus_mod": {
           "bars": [
             56,
             65
-          ]
+          ],
+          "cua_loi": "nang nua cung Eb → E (nguoi dung xac nhan)"
         },
         "outro": {
           "bars": [
             66,
             72
           ],
-          "giong": "Do thang thu",
-          "giong_ghi_chu": "DOAN NAY CHUYEN GIONG. Ca bai o Mi giang truong nhung outro sang Do thang thu (= Re giang thu): hop am Dbm7 B13 Gbm7 Abm7 E. Do bang gam Mi giang thi ra 63% not ngoai gam (32/51) — mot minh doan nay chiem hon 1/3 so not ngoai gam CUA CA KHO. Do bang Do thang thu thi con 2%."
+          "giong": "Mi truong",
+          "giong_ghi_chu": "DOAN NAY CHUYEN GIONG. Ca bai o Mi giang truong nhung outro sang Do thang thu (= Re giang thu): hop am Dbm7 B13 Gbm7 Abm7 E. Do bang gam Mi giang thi ra 63% not ngoai gam (32/51) — mot minh doan nay chiem hon 1/3 so not ngoai gam CUA CA KHO. Do bang Do thang thu thi con 2%.",
+          "cua_loi": "tu o 66 la dan, khong hat. Bai ket o MI TRUONG (nguoi dung xac nhan) — hoa am C#m7 F#m B E = vi ii V I cua Mi truong; nhan \"Do thang thu\" cu la doc tu bass, bo"
         }
       },
       "confidence": "chua danh dau",
       "giong": "Mi giang truong",
       "giong_nguon": "nguoi-dung-xac-nhan",
-      "giong_ghi_chu": "phan chinh Mi giang truong. CHUYEN GIONG o chorus_mod va outro sang vung Mi truong (C#m F#m B E) — doan outro KHONG con o Eb."
+      "giong_ghi_chu": "phan chinh Mi giang truong. CHUYEN GIONG o chorus_mod va outro sang vung Mi truong (C#m F#m B E) — doan outro KHONG con o Eb. | 11/9/2026: tay trai diep dau KHONG day hon phien (nguoi dung xac nhan)."
     },
     {
       "file": "Ngay mai em di-Ca Phao.mxl",
@@ -288,7 +300,8 @@
           "bars": [
             1,
             18
-          ]
+          ],
+          "cua_loi": "o 1-18 hoan toan dao; loi bat dau o not da danh dau trong o 19, KHONG lay da cuoi o 18"
         },
         "verse": {
           "bars": [
@@ -306,7 +319,8 @@
           "bars": [
             51,
             54
-          ]
+          ],
+          "cua_loi": "chum G4/Bb4/Eb5 dau o 51 con MOT chu hat; 51-54 sau do khong loi; phien 2 tro lai o 55. Day la doan dan ngan giua hai phan hat, khong phai giang dai nhu Co Em Cho"
         },
         "verse_2": {
           "bars": [
@@ -318,13 +332,15 @@
           "bars": [
             71,
             86
-          ]
+          ],
+          "cua_loi": "diep 2 KHONG nang giong; nguoi dung nghe tay trai diep day hon phien (chua do)"
         },
         "outro": {
           "bars": [
             87,
             91
-          ]
+          ],
+          "cua_loi": "not loi dau o 87 (Bb4/Eb5 tren Eb/G) xong moi sang dan ket; bai ket ve Eb. LUU Y: cau \"lan hai not o 56, o 53 = o 5\" trong phieu cu la chep nham tu Co Em Cho, khong dung cho bai nay"
         }
       },
       "confidence": "chua danh dau",

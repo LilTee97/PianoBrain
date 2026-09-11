@@ -520,6 +520,52 @@ nghi vấn máy dựng từ số đầu nốt. Số ghi ở `tools/sheet/corpus.
 - Suy "giọng nghỉ" từ ô thưa: *Chưa Bao Giờ* ô 26 chỉ một Eb4 mới nhưng lời vẫn ở đó.
 - Suy vai từ hình nốt (mục 4).
 
+### 5d. Cửa lời ba bài cũ (Hồng Kông 1 · Có Em Chờ · Ngày mai em đi) — phiếu bổ sung 11/9/2026
+
+Người dùng trả lời phiếu của Codex (`ingest/phieu-bo-sung-ca-phao-3-bai-cu-2026-09-11.md`). Mốc đã
+đối chiếu file, ghi vào `corpus.json`. Sửa một ranh: **điệp *Có Em Chờ* là 25–32, phiên lặp
+33–40** (trước ghi 25–33). Giọng kết *Có Em Chờ* là **Mi trưởng** (nhãn "Đô thăng thứ" cũ đọc
+từ bass C#m7 — bỏ).
+
+| bài | ô · phách | là gì |
+|---|---|---|
+| Hồng Kông 1 | 16 · 2+1/2 | **lời vào ở C5 móc đơn**, không lấy đà ở 15 |
+| | 46 · 4+1/2 → 47 · 1 | chùm E4/G4/C5 = **lời cuối điệp**, nối qua vạch, ngân ở 47 |
+| | 47 · phách 3 | **giang bắt đầu ở D4 tay trái**; giữa 47/1 và 47/3 là đàn nối |
+| | 65 · 1 | chùm A4/C5/G5 = **câu đàn kết giang**, trước khi lời vào |
+| | 65 · 2+1/2 | **lời phiên 2 trở lại ở C5/C6** — sớm hơn mốc ô 66 |
+| | 100 · 1 | chùm C4/G4/C5 = **lời cuối bài**; outro từ chùm ba rải ngay sau (1+1/2) |
+| Có Em Chờ | 8 · 4+1/2, 4+3/4 | C5, D5 = **lời lấy đà** vào phiên |
+| | 32 · 4+1/2 | C5/C6 = **lời lấy đà** vào phiên lặp (ô 33) |
+| | 48 · 1 | Eb4/Eb5 = nốt hát cuối điệp 2; **giang từ 1+1/4** |
+| | 56 · 1, 2 | **giang lấn** hai nốt Bb3/F4, Bb3/Eb4 rồi điệp nâng giọng vào |
+| | 66 → 72 | đàn, không hát; kết Mi trưởng |
+| Ngày mai em đi | 18 → 19 | **không lấy đà**; lời vào trong ô 19 |
+| | 51 · 1 | chùm G4/Bb4/Eb5 còn **một chữ hát**; 51–54 đàn ngắn; phiên 2 ở 55 |
+| | 87 · 1 | Bb4/Eb5 = **nốt lời cuối**; đàn kết từ 1+3/4 |
+
+### Điều rút được — gộp sáu bài (cập nhật mục 5c)
+
+1. **Nốt hát cuối rơi đúng phách 1 của ô đầu đoạn đàn, rồi đàn mới vào.** Hồng Kông 1 ô 47 và
+   ô 100; Có Em Chờ ô 48; Ngày mai em đi ô 51 và ô 87 — **n=5, 3 bài, không ngoại lệ trong
+   số đã hỏi**. Hệ quả cho ranh đoạn: ô đầu của giang/kết **không phải toàn đàn**; câu đàn
+   bắt đầu từ ¼ tới 2 phách sau (Hồng Kông 1 ô 47: tới phách 3). Bộ soạn giang/kết muốn
+   chép đúng thầy thì ô đầu phải chừa chỗ cho nốt hát ngân.
+2. **Lấy đà vào đoạn hát: có ở 8/11 ranh đã hỏi**, thêm Có Em Chờ ô 8 và ô 32. Ba ranh
+   **không** lấy đà: Để Em Rời Xa 3→4, Hồng Kông 1 15→16, Ngày mai em đi 18→19 — cả ba đều là
+   **dạo → phiên đầu**. Ngược lại mọi ranh *vào phiên/điệp lặp* đều có lấy đà. n=11.
+3. **Lời có thể vào sớm hơn mốc ô**: Hồng Kông 1 phiên 2 vào ở ô 65 phách 2+1/2 (mốc ghi 66);
+   Có Em Chờ phiên lặp vào ở 32/4+1/2 (mốc 33). Đây là dạng khác của mục 2 — lấy đà dài hơn
+   nửa phách. n=2.
+4. **Đàn lấn vào đoạn hát cũng có**: Có Em Chờ ô 56 (hai nốt đầu còn là giang). n=1 — đừng
+   coi là luật.
+5. **Chuỗi quãng tám đôi leo lên để đẩy vào đoạn kế**: Hồng Kông 1 cuối 65 (C→D→E) và Có Em
+   Chờ cuối 32 (C→D→Eb) — cùng hình, và ở cả hai chỗ chuỗi ấy **là lời**, không phải đàn.
+   n=2, 2 bài.
+
+**Chưa đo**: "tay trái điệp dày hơn phiên" ở *Ngày mai em đi* (ý người dùng khi nghe) — đo
+được bằng lần gõ mới theo đoạn, chưa làm; ở *Có Em Chờ* người dùng xác nhận là **không**.
+
 ## 6. Chưa đo — đừng suy bừa vào chỗ này
 
 - **Sheet có cùng cao độ với bản thu không.** Đã bắt được **một** bài lệch: *Người hãy quên
