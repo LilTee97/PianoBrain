@@ -36,10 +36,22 @@ def notes(root):
     """Trả về (danh sách nốt, thông tin chung).
 
     Mỗi nốt: bar, beat (nốt đen tính từ đầu bài), dur, midi, hand (1 phải / 2
-    trái), voice, chord (có phải nốt chồng lên nốt trước không).
+    trái), voice, chord (có phải nốt chồng lên nốt trước không), tie_stop (nốt
+    này chỉ là phần ngân nối từ nốt trước — KHÔNG phải một lần gõ mới), tie_start.
+
+    BẪY 3 (Codex chỉ ra 11/9/2026, đã xác nhận bằng mã): nốt `<chord>` từng nhận
+    `beat = at` SAU KHI `at` đã cộng trường độ nốt trước, nên các nốt cùng một thế
+    bấm bị tách sang thời điểm khác. Theo chuẩn MusicXML, nốt chord dùng onset của
+    nốt đứng trước nó. Sửa ngày 11/9/2026 — mọi số đo về "số lần gõ", "mốc gõ
+    chung hai tay", tiết tấu theo phách đo TRƯỚC ngày này đều có thể lệch ở các ô
+    có hợp âm bấm; đo lại trước khi dùng.
+
+    `meta['bar_start']`: phách đầu THẬT của từng ô (từ cursor), để neo vị trí
+    trong ô — không lấy nốt sớm nhất làm đầu ô, vì ô mở bằng dấu nghỉ sẽ bị dời.
     """
     out = []
     barlens = {}
+    bar_start = {}
     div = 1
     beats, beattype, fifths = 4, 4, 0
     barlen = 4.0
@@ -51,6 +63,8 @@ def notes(root):
         for measure in part.findall('measure'):
             bar = int(measure.get('number') or 0)
             at = cursor
+            bar_start[bar] = cursor
+            last_onset = cursor
 
             for el in measure:
                 if el.tag == 'attributes':
@@ -80,22 +94,28 @@ def notes(root):
                     is_chord = el.find('chord') is not None
                     staff = int(el.findtext('staff') or 1)
                     pitch = el.find('pitch')
+                    # Bẫy 3: nốt chord đứng ở onset của nốt trước, không phải ở `at`.
+                    onset = last_onset if is_chord else at
                     if pitch is not None:
                         midi = ((int(pitch.findtext('octave')) + 1) * 12
                                 + STEP[pitch.findtext('step')]
                                 + int(pitch.findtext('alter') or 0))
                         # Bẫy 2: nhiều bè thì tay nằm ở số thứ tự bè, không ở staff.
                         hand = staff if len(parts) == 1 else part_index + 1
+                        ties = {tie.get('type') for tie in el.findall('tie')}
                         out.append(dict(
-                            bar=bar, beat=round(at, 6), dur=dur, midi=midi,
+                            bar=bar, beat=round(onset, 6), dur=dur, midi=midi,
                             hand=hand, voice=int(el.findtext('voice') or 1),
                             chord=is_chord,
+                            tie_stop='stop' in ties, tie_start='start' in ties,
                         ))
                     if not is_chord and el.find('grace') is None:
+                        last_onset = at
                         at += dur
 
             barlens[bar] = barlen
             cursor += barlen
 
     return out, dict(divisions=div, beats=beats, beat_type=beattype,
-                     fifths=fifths, words=words, barlens=barlens)
+                     fifths=fifths, words=words, barlens=barlens,
+                     bar_start=bar_start)

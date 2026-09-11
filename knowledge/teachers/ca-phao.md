@@ -54,6 +54,12 @@ người có bài bossa nova — đúng **một** bài, *Người hãy quên em 
 
 ### Hai cái bẫy trong chính kho này
 
+> **Bẫy thứ ba, 11/9/2026 (Codex phát hiện, xem `tools/sheet/README.md` mục 5):** bộ đọc
+> từng gán sai thời điểm nốt chồng và đếm nốt nối như nốt mới. Các con số "nốt/ô", "mốc gõ
+> chung hai tay" trong file này đo trước ngày ấy **chưa đo lại**; đếm theo **lần gõ mới**
+> có thể thấp hơn nhiều (ô 16 *Để Em Rời Xa*: 23 đầu nốt → 7 lần gõ).
+
+
 **Bộ dấu hoá của "Ngày mai em đi" GHI SAI trong file.** File ghi 2 giáng (Si giáng trưởng)
 trong khi toàn bộ hợp âm điệu thuộc **Mi giáng trưởng** (`Eb Fm Gm Ab Bb Cm`), mọi đoạn mở
 bằng `Eb` kết bằng `Bb`, cả bài kết `Eb`. Suy giọng bằng `<fifths>` là hỏng ở bài này.

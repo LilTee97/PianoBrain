@@ -1,71 +1,76 @@
-"""Do lai sheet theo MOC DOAN NGUOI DUNG CHOT: tai moi ranh gioi va trong tung doan, tach
-pickup / fill / run / cho lan hat-dan bang so not tay phai theo phach.
+"""Do lai sheet theo MOC DOAN NGUOI DUNG CHOT — dem LAN GO MOI, khong dem dau not.
+
+Viet lai 11/9/2026 theo ban doi chieu cua Codex (Reference/TRA-LOI-PHIEU-CA-PHAO-3-SHEET-
+CODEX-2026-09-11.md). Ban truoc dem dau not nen "23 not" hoa ra chi 7 lan go; gan nhan
+run/fill tu so dau not la sai.
+
+Dinh nghia:
+- go moi  : mot thoi diem co it nhat mot not tay phai duoc danh moi (bo tie_stop; cac not
+            cung onset = mot lan go). KHONG phai so not giai dieu.
+- don     : lan go chi co MOT not (khong chord) — moi duoc xet vao chuoi run.
+- run     : >= 5 lan go don lien tiep, moi khoang cach <= 1/2 phach, buoc 1–2 nua cung
+            (buoc 0 khong tinh), khong co tie va khong co nghi giua hai lan go.
+- phach   : neo tu meta['bar_start'] (dau o that), khong lay not som nhat.
+Cac dau hieu khac (o day, vot cao, nghi) chi in ra de nguoi doc; KHONG tu gan HAT/DAN/FILL.
 
 Chay: python tools/sheet/do_ranh_doan.py <thu_muc> <file.mxl> '<json doan>'
-  json doan: {"dao":[0,3],"phien":[4,19],...}  (ten doan tu do, thu tu theo bai)
-In JSON: {bars:[{bar, harm, lh, rh, beats:[n phach1..], top, lo, run, spike}], flags:[...]}
-
-Dinh nghia (may do, khong phai luat):
-- run    : chuoi >= 5 not tay phai lien tiep, moi not <= 0,5 phach, buoc <= 2 nua cung
-- fill   : o trong doan HAT co so not tay phai >= 1,7x trung vi cua doan
-- pickup : o cuoi mot doan ma tay phai co not o phach cuoi va o ay thua o 3 phach dau
-- spike  : not cao nhat cua o cao hon trung vi doan >= 12 nua cung
 """
-import sys, os, json, collections, statistics
+import sys, os, json, collections
 sys.stdout.reconfigure(encoding='utf-8')
 sys.path.insert(0, os.path.dirname(__file__)); import mxl, phieu_cua_loi as P
 N = P.N
 
+def ph(x):
+    """Offset trong ô → chữ phách đếm 1,2,3,4 (3.25 → '4+1/4')."""
+    b = int(x) + 1; f = x - int(x)
+    return f"{b}" + ({0.25: '+1/4', 0.5: '+1/2', 0.75: '+3/4'}.get(round(f, 2), f"+{f:g}" if f else ''))
+
+def go_moi(ns, b, hand):
+    nb = [n for n in ns if n['bar'] == b and n['hand'] == hand and not n['tie_stop']]
+    g = collections.defaultdict(list)
+    for n in nb: g[round(n['beat'], 4)].append(n)
+    return [(t, sorted(v, key=lambda n: n['midi'])) for t, v in sorted(g.items())]
+
+def run_max(hits):
+    """Chuỗi dài nhất các lần gõ ĐƠN liền nhau bước 1–2 nửa cung, cách ≤ ½ phách."""
+    best = cur = 0; prev = None
+    for t, notes in hits:
+        if len(notes) != 1 or notes[0]['tie_start']:
+            cur = 0; prev = None; continue
+        n = notes[0]
+        ok = prev is not None and 0 < abs(n['midi'] - prev['midi']) <= 2 and t - prev['beat'] <= 0.5 + 1e-6 and abs((prev['beat'] + prev['dur']) - t) < 1e-6
+        cur = cur + 1 if ok else 1
+        best = max(best, cur); prev = n
+    return best
+
 def do(path, doan):
     root = mxl.load(path); ns, meta = mxl.notes(root); H = P.harmonies(root)
-    barlens = meta['barlens']; bars = sorted(barlens)
-    # doan cua tung o
+    bars = sorted(meta['barlens']); bs = meta['bar_start']
     cua_o = {}
     for ten, (a, b) in doan.items():
         for o in range(a, b + 1): cua_o[o] = ten
-    rows = {}
+    rows = []
     for b in bars:
-        nb = [n for n in ns if n['bar'] == b]
-        rh = sorted([n for n in nb if n['hand'] == 1], key=lambda n: (n['beat'], n['midi']))
-        lh = [n for n in nb if n['hand'] == 2]
-        L = int(barlens[b]); start = min((n['beat'] for n in nb), default=0)
-        # phach cua not = beat - dau o. Dau o = beat nho nhat trong o (ke ca LH) lam moc gan dung
-        base = min((n['beat'] for n in nb), default=0.0)
-        beats = [0] * max(L, 1)
-        for n in rh:
-            i = int(n['beat'] - base)
+        rh = go_moi(ns, b, 1); lh = go_moi(ns, b, 2)
+        heads = [n for n in ns if n['bar'] == b and n['hand'] == 1]
+        L = meta['barlens'][b]
+        # phach nao co go moi RH
+        beats = [0] * int(L)
+        for t, _ in rh:
+            i = int(t - bs[b])
             if 0 <= i < len(beats): beats[i] += 1
-        # run: chuoi not don (khong chord) ngan, buoc nho
-        singles = [n for n in rh if not n['chord']]
-        best = cur = 1
-        for x, y in zip(singles, singles[1:]):
-            if x['dur'] <= 0.5 and y['dur'] <= 0.5 and abs(y['midi'] - x['midi']) <= 2: cur += 1
-            else: cur = 1
-            best = max(best, cur)
-        rows[b] = dict(bar=b, doan=cua_o.get(b, '?'), harm=' '.join(H.get(b, [])) or P.guess(ns, b), lh=len(lh), rh=len(rh), beats=beats,
-                       top=max((n['midi'] for n in rh), default=None), lo=min((n['midi'] for n in rh), default=None), run=best, len=L)
-    # trung vi theo doan
-    med = {}
-    for ten, (a, b) in doan.items():
-        xs = [rows[o]['rh'] for o in range(a, b + 1) if o in rows]
-        tops = [rows[o]['top'] for o in range(a, b + 1) if o in rows and rows[o]['top'] is not None]
-        med[ten] = (statistics.median(xs) if xs else 0, statistics.median(tops) if tops else 0)
-    flags = []
-    hat = {t for t in doan if not any(k in t for k in ('dao', 'giang', 'ket'))}
-    for b in bars:
-        r = rows[b]; t = r['doan']
-        if t not in med: continue
-        m_rh, m_top = med[t]
-        f = []
-        if r['run'] >= 5: f.append(f"run {r['run']} nốt")
-        if t in hat and m_rh and r['rh'] >= 1.7 * m_rh: f.append(f"fill? RH {r['rh']} vs trung vị đoạn {m_rh:g}")
-        if r['top'] is not None and m_top and r['top'] >= m_top + 12: f.append(f"vọt {N[r['top']%12]}{r['top']//12-1}")
-        # pickup: o cuoi doan
-        cuoi = any(b == v[1] for v in doan.values())
-        if cuoi and len(r['beats']) >= 2 and r['beats'][-1] >= 2 and sum(r['beats'][:-1]) <= 2: f.append('pickup? nốt dồn phách cuối')
-        if f: flags.append(dict(bar=b, doan=t, note='; '.join(f)))
-    return dict(bars=list(rows.values()), flags=flags, med={k: v for k, v in med.items()})
+        tops = [max(n['midi'] for n in v) for _, v in rh]
+        first_rh = ph(rh[0][0] - bs[b]) if rh else '-'
+        last_rh = ph(rh[-1][0] - bs[b]) if rh else '-'
+        rows.append(dict(bar=b, doan=cua_o.get(b, '?'), len=L, harm=' '.join(H.get(b, [])) or P.guess(ns, b),
+                         rh_go=len(rh), rh_dau=len(heads), lh_go=len(lh), phach=beats,
+                         top=(N[max(tops) % 12] + str(max(tops) // 12 - 1)) if tops else '-',
+                         run=run_max(rh), rh_first=first_rh, rh_last=last_rh,
+                         tie_in=any(n['tie_stop'] and n['hand'] == 1 and abs(n['beat'] - bs[b]) < 1e-6 for n in ns if n['bar'] == b)))
+    return dict(bars=rows)
 
 if __name__ == '__main__':
     d, f, j = sys.argv[1], sys.argv[2], sys.argv[3]
-    print(json.dumps(do(os.path.join(d, f), json.loads(j)), ensure_ascii=False))
+    r = do(os.path.join(d, f), json.loads(j))
+    for x in r['bars']:
+        print(f"{x['bar']:>3} {x['doan']:<9} {x['len']:g}/4 {x['harm']:<14} RH gõ{x['rh_go']:>2} (đầu nốt{x['rh_dau']:>3}) LH gõ{x['lh_go']:>2} phách{x['phach']} top {x['top']:<4} run{x['run']} gõ đầu {x['rh_first']} cuối {x['rh_last']}{' nối-từ-ô-trước' if x['tie_in'] else ''}")

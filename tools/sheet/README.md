@@ -79,9 +79,9 @@ sai số một lần rồi.
 Đây cũng là thứ bước tiếp theo cần: mỗi khi có bài mới thì phải đo lại toàn bộ,
 vì corpus lớn thêm là khoảng đo đổi.
 
-## Bốn cái bẫy
+## Năm cái bẫy
 
-Cả bốn đều **không báo lỗi** — chúng chỉ cho ra con số sai.
+Cả năm đều **không báo lỗi** — chúng chỉ cho ra con số sai.
 
 **1. Đổi số chỉ nhịp giữa bài.** Lấy độ dài ô nhịp cuối áp cho cả bài thì mọi
 nốt lệch ô. *Hồng Kông 1* chuyển sang 2/4 ở ô 100; chỉ vì chỗ này mà tỉ lệ bám
@@ -99,6 +99,24 @@ vậy; không xử thì cả hai tay bị gộp vào tay phải và mất sạch
 **4. So giang tấu với đoạn dạo hay outro.** Cả hai đoạn ấy cũng là đoạn không
 lời và cũng có kết cấu riêng, nên so với chúng thì ra số vô nghĩa. Nền so sánh
 phải là **đoạn hát** — những ô không thuộc đoạn nào đã đặt tên.
+
+**5. Nốt chồng (`<chord>`) từng bị gán sai thời điểm, và nốt nối (`tie`) từng bị
+đếm như nốt mới.** Codex chỉ ra 11/9/2026, đã xác nhận bằng mã: `mxl.notes` gán
+`beat = at` cho nốt `<chord>` SAU KHI `at` đã cộng trường độ nốt trước, nên các
+nốt cùng một thế bấm tách sang thời điểm khác; và không đọc `<tie>`, nên phần
+ngân nối thành "nốt mới". Hậu quả: đếm đầu nốt thay cho **lần gõ mới** — *Để Em
+Rời Xa* ô 16 ra "23 nốt" trong khi chỉ **7 lần gõ**; *Chúng Ta Không Thuộc Về
+Nhau* ô 74 "32 nốt, run 6" thực ra là lặp thế B3–E4–G4–B4, 6 lần gõ. Đã sửa
+`mxl.py` (nốt chord lấy onset nốt trước; thêm `tie_stop`/`tie_start`; thêm
+`meta['bar_start']` để neo đầu ô thật thay vì nốt sớm nhất). **Mọi số đo về số
+lần gõ, mốc gõ chung hai tay, tiết tấu theo phách đo TRƯỚC 11/9/2026 ở các ô có
+hợp âm bấm đều có thể lệch — đo lại trước khi dùng làm luật.** Cách đếm đúng
+nằm ở `do_ranh_doan.py`.
+
+Cùng lượt Codex nhắc: số đầu nốt không phải số tiếng gõ; nốt đầu hợp âm không
+tự thành giai điệu; RUN/FILL/PICKUP là chức năng và cách chơi, HÁT/ĐÀN là vai
+trò — một câu có thể mang nhiều nhãn, và giai điệu lời có thể cùng tồn tại với
+phần trang trí. Cửa lời chưa xác định thì ghi *unknown*, không đưa vào tập fill.
 
 ## Biên đoạn
 
