@@ -1035,14 +1035,15 @@
       "teacher": "ca-phao",
       "genre": "ballad",
       "bars": 74,
-      "confidence": "NGUOI DUNG chot moc doan tren phieu trinh duyet 11/9/2026 (ban 1); hat/dan tung o dang hoi o ban 2.",
+      "confidence": "NGUOI DUNG chot moc doan (phieu ban 1) va CUA LOI tung cho (phieu ban 3, 11/9/2026 — sau doi chieu Codex). Xem cua_loi trong tung section.",
       "giong_ghi_chu": "Re thu o 0-55, nang nua cung sang Mi giang thu tu o 56 (nguoi dung dong y 11/9/2026)",
       "sections": {
         "intro": {
           "bars": [
             0,
             3
-          ]
+          ],
+          "cua_loi": "o 3 phach 3-4 chuoi C4/F4->G6/C7 la DAN, khong lay da loi"
         },
         "verse": {
           "bars": [
@@ -1054,7 +1055,8 @@
           "bars": [
             20,
             27
-          ]
+          ],
+          "cua_loi": "o 27 C4 phach 4+3/4 la DAN (not dan vao giang)"
         },
         "interlude": {
           "bars": [
@@ -1067,19 +1069,21 @@
             32,
             47
           ],
-          "cua_loi": "loi vao o 32 phach 2 (D4); C5-G4-F4-E4 phach 1 la dan, duoi run giang 30-31 — nguoi dung chot 11/9/2026"
+          "cua_loi": "loi vao o 32 phach 2 (D4); C5-G4-F4-E4 phach 1 la dan (duoi run 30-31). O 40: A5->D6/F#6/A6->D7 la FILL luc loi nghi. O 47 phach 4+1/2 cum A3/Ab4/A4 la LOI lay da vao diep lap"
         },
         "chorus_2": {
           "bars": [
             48,
             55
-          ]
+          ],
+          "cua_loi": "o 55 phach 4+1/2 Bb3/Bb4 la LOI lay da vao diep nang tone"
         },
         "chorus_mod": {
           "bars": [
             56,
             63
-          ]
+          ],
+          "cua_loi": "o 59 ba cum phach 3 / 3+1/4 / 3+1/2 (C#4..A#4 chuyen len 2 quang tam) la FILL luc loi nghi"
         },
         "outro": {
           "bars": [
@@ -1093,10 +1097,10 @@
       "file": "Chua Bao Gio Trung Quan-Ca Phao.mxl",
       "name": "Chưa Bao Giờ (Trung Quân)",
       "teacher": "ca-phao",
-      "genre": "chua xac nhan",
+      "genre": "ballad",
       "bars": 81,
-      "confidence": "NGUOI DUNG chot moc doan tren phieu trinh duyet 11/9/2026 (ban 1); hat/dan tung o dang hoi o ban 2. Coda 68-75 hat SAU not dau o 68 toi chum LH thu hai o 75; tag 76-78 vao tu ky hieu Bbm7.",
-      "giong_ghi_chu": "Fa thu (may do, nguoi dung chua ghi)",
+      "confidence": "NGUOI DUNG chot moc doan (phieu ban 1) va CUA LOI tung cho (phieu ban 3, 11/9/2026 — sau doi chieu Codex). Xem cua_loi trong tung section.",
+      "giong_ghi_chu": "Fa thu (nguoi dung xac nhan 11/9/2026)",
       "sections": {
         "intro": {
           "bars": [
@@ -1108,31 +1112,36 @@
           "bars": [
             9,
             17
-          ]
+          ],
+          "cua_loi": "tieng mo loi = ba C5 o o 9 phach 4, 4+1/2, 4+3/4"
         },
         "prechorus": {
           "bars": [
             18,
             25
-          ]
+          ],
+          "cua_loi": "o 22 cum len Ab6/C7/F7 roi xuong la FILL luc loi nghi"
         },
         "chorus": {
           "bars": [
             26,
             34
-          ]
+          ],
+          "cua_loi": "the F4/Ab4/C5 o 34 phach 4+3/4 KHONG thuoc loi (dan noi vao giang)"
         },
         "interlude": {
           "bars": [
             35,
             43
-          ]
+          ],
+          "cua_loi": "the C5/Ab5/C6 cuoi o 43 la LOI (lay da vao phien lap)"
         },
         "verse_2": {
           "bars": [
             44,
             50
-          ]
+          ],
+          "cua_loi": "o 50-51 LAN HAT-FILL-HAT: am tiet cuoi = chum F4/Bb4/C5/F5 o 50 phach 3+3/4 (noi toi 4+1/4); fill tu C4/Bb4/C5 o 50 phach 4+1/4 len Bb6/C7/F7 dau o 51; loi lai o o 51 PHACH 4 not F5 don (khong phai chum F4/Ab4/C5 o 3+3/4)"
         },
         "prechorus_2": {
           "bars": [
@@ -1150,13 +1159,15 @@
           "bars": [
             68,
             75
-          ]
+          ],
+          "cua_loi": "tieng mo loi o 68 = C5 phach 2+1/4 (cum Ab6/C7/F7 phach 1 va Eb4/F4 phach 2 la dan); loi dut o 75 phach 3 chum Ab4/F5; fill tu 75 phach 4+1/4 (Eb4, G4) sang dau 76"
         },
         "tag": {
           "bars": [
             76,
             78
-          ]
+          ],
+          "cua_loi": "loi lai o 76 phach 3+1/4 not G5"
         },
         "outro": {
           "bars": [
@@ -1172,14 +1183,15 @@
       "teacher": "ca-phao",
       "genre": "ballad",
       "bars": 77,
-      "confidence": "NGUOI DUNG chot moc doan tren phieu trinh duyet 11/9/2026 (ban 1); hat/dan tung o dang hoi o ban 2.",
+      "confidence": "NGUOI DUNG chot moc doan (phieu ban 1) va CUA LOI tung cho (phieu ban 3, 11/9/2026 — sau doi chieu Codex). Xem cua_loi trong tung section.",
       "giong_ghi_chu": "La thu (nguoi dung dong y 11/9/2026)",
       "sections": {
         "intro": {
           "bars": [
             1,
             8
-          ]
+          ],
+          "cua_loi": "loi lay da tu o 8 phach 3+1/2 (D4/G4)"
         },
         "verse": {
           "bars": [
@@ -1191,19 +1203,22 @@
           "bars": [
             17,
             24
-          ]
+          ],
+          "cua_loi": "o 24 LAN: loi tu o 23 chay qua vach, dut o B3 trong chum B3/D4 phach 1 (dai 1 phach); chum B3/D4 phach 2 la RH pickup; nghi 1/4 phach o 2+1/2; loi tiep tuc trong o 24. LH van chuyen dong khi RH giu/nghi"
         },
         "chorus": {
           "bars": [
             25,
             32
-          ]
+          ],
+          "cua_loi": "loi dut o o 32 phach 2 (D4/G4); D4-B3-C4/G4 phach 3-4 la dan noi sang giang"
         },
         "interlude": {
           "bars": [
             33,
             48
-          ]
+          ],
+          "cua_loi": "loi lay da o o 48 phach 3+1/2 (C4/G4/C5) vao tien diep lap"
         },
         "prechorus_2": {
           "bars": [
@@ -1215,13 +1230,15 @@
           "bars": [
             56,
             64
-          ]
+          ],
+          "cua_loi": "loi diep lap bat dau o o 56 phach 3, chum D5/G5 (chuoi D5/G5->E4/A4 la LOI, khong phai dan dan)"
         },
         "outro": {
           "bars": [
             65,
             77
-          ]
+          ],
+          "cua_loi": "o 77 bass Eb2 la DUNG Y cua Ca Phao, khong phai loi ky am"
         }
       }
     }

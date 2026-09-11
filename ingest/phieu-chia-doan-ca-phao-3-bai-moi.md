@@ -1,4 +1,4 @@
-# Phiếu bản 3 — Cà Pháo ba bài mới, sau đối chiếu của Codex (11/9/2026)
+# Phiếu bản 3 (ĐÃ TRẢ LỜI 11/9/2026) — Cà Pháo ba bài mới, sau đối chiếu của Codex (11/9/2026)
 
 Nguồn: `ingest/TRA-LOI-PHIEU-CA-PHAO-3-SHEET-CODEX-2026-09-11.md`. Bộ đọc `mxl.py` đã sửa (onset nốt chord, tie, đầu ô thật); `do_ranh_doan.py` đếm **lần gõ mới** — 13/13 số Codex nêu khớp. Mốc đoạn giữ nguyên theo bạn.
 
@@ -49,13 +49,13 @@ Ba loại dòng: **Chốt** (đọc được từ sheet, không hỏi) · **Bỏ
 
 | ô | câu hỏi | bạn |
 |---|---|---|
-| **2→3→4** | Ô 3 từ phách 3: C4/F4 → G4/C5 → F5/G5 → C6/F6 → G6/C7 ở phách 4 — cử chỉ đàn đi lên kết dạo. Còn mở: cuối ô 3 có lấy đà của LỜI không? | |
-| **27** | C4 đơn ở 4+3/4 thuộc lời hay đàn? | |
+| **2→3→4** | Ô 3 từ phách 3: C4/F4 → G4/C5 → F5/G5 → C6/F6 → G6/C7 ở phách 4 — cử chỉ đàn đi lên kết dạo. Còn mở: cuối ô 3 có lấy đà của LỜI không? |**Không** — đàn, không lấy đà lời. |
+| **27** | C4 đơn ở 4+3/4 thuộc lời hay đàn? |**Đàn.** |
 | **32** | Cửa lời đi qua chuỗi C5–G4–F4–E4–D4 đầu ô hay vào sau? | **Đã chốt (tai người dùng):** lời vào ở **D4 phách 2**; C5–G4–F4–E4 phách 1 là đàn — đuôi run 30–31 rơi xuống đúng nốt mở lời. |
-| **40** | Cụm D6…D7 rơi lúc lời nghỉ hay phối trên lời? | |
-| **47→48** | Cuối 47 cụm nửa cung, 48 mở F–E–D quãng tám: lấy đà của lời hay chỉ đàn nối? | |
-| **55→56** | Đôi Bb3/Bb4 ở 4+1/2 là lời lấy đà hay đàn? | |
-| **59** | Ba cụm phách 3 là fill lúc lời nghỉ? | |
+| **40** | Cụm D6…D7 rơi lúc lời nghỉ hay phối trên lời? |**Lúc lời nghỉ** → fill. |
+| **47→48** | Cuối 47 cụm nửa cung, 48 mở F–E–D quãng tám: lấy đà của lời hay chỉ đàn nối? |**Lấy đà của lời** — ô 47 có lời ngay cụm A3/Ab4/A4 (4+1/2). |
+| **55→56** | Đôi Bb3/Bb4 ở 4+1/2 là lời lấy đà hay đàn? |**Lời lấy đà** vào ô 56. |
+| **59** | Ba cụm phách 3 là fill lúc lời nghỉ? |**Đúng** — fill lúc lời nghỉ. |
 
 ---
 # Chúng Ta Không Thuộc Về Nhau — 77 ô
@@ -101,17 +101,17 @@ Ba loại dòng: **Chốt** (đọc được từ sheet, không hỏi) · **Bỏ
 
 | ô | câu hỏi | bạn |
 |---|---|---|
-| **8→9** | Lời có lấy đà trong ô 8 không? | |
-| **24** | Lời dứt ở đâu trong ô 24 (trước cụm 2+3/4)? | |
-| **32** | Lời dứt ở phách nào trong ô 32? (chỉ cần nếu muốn cắt fill riêng ô 32) | |
-| **48→49** | Lời đã lấy đà ở cuối 48 hay vào ở 49? | |
+| **8→9** | Lời có lấy đà trong ô 8 không? |**Có** — lời bắt đầu từ chùm D4/G4 ở phách 3+1/2. |
+| **24** | Lời dứt ở đâu trong ô 24 (trước cụm 2+3/4)? |**LẪN**: lời từ ô 23 chảy qua vạch, dứt ở B3 trong chùm B3/D4 phách 1 (dài 1 phách); chùm B3/D4 phách 2 là RH pickup; nghỉ 1/4 phách ở 2+1/2; lời tiếp tục trong ô 24. LH vẫn chuyển động khi RH giữ/nghỉ. |
+| **32** | Lời dứt ở phách nào trong ô 32? (chỉ cần nếu muốn cắt fill riêng ô 32) |Dứt ở chùm **D4/G4 phách 2**. |
+| **48→49** | Lời đã lấy đà ở cuối 48 hay vào ở 49? |**Lấy đà ở ô 48**, chùm C4/G4/C5 (3+1/2). |
 
 ## Câu hỏi cụ thể
 
 - **diep2_bat_dau**: Điệp lặp: giai điệu LỜI bắt đầu trong ô 56 hay tới 57? (56 giống đuôi dẫn ở 24: D5/G5 → C5/E5 → A4/D5 → G4/C5 → E4/A4)
-  - Ý BẠN:
+  - Ý BẠN: **ô 56, ở chùm D5/G5** (phách 3) — chuỗi đi xuống là lời, không phải đàn dẫn.
 - **o77**: Ô 77: bass Eb2, RH C5 rồi C4/F4/G4 ngân, không có ký hiệu hợp âm. Bass Eb là dụng ý hay lỗi ký âm? (đối chiếu bản đàn — không sửa vì lạ)
-  - Ý BẠN:
+  - Ý BẠN: **dụng ý của Cà Pháo**, không phải lỗi.
 
 ---
 # Chưa Bao Giờ (Trung Quân) — 81 ô
@@ -160,30 +160,30 @@ Ba loại dòng: **Chốt** (đọc được từ sheet, không hỏi) · **Bỏ
 
 | ô | câu hỏi | bạn |
 |---|---|---|
-| **9** | Ba C5 ở phách 4 (4, 4+1/2, 4+3/4) có phải tiếng mở lời không? | |
-| **22** | Cụm lên–xuống đè lên lời hay fill lúc lời nghỉ? | |
-| **34→35** | Thế F4/Ab4/C5 ở 4+3/4 có nằm trong lời không? | |
-| **43→44** | Thế C5/Ab5/C6 cuối 43 — lời hay đàn? | |
-| **50→51** | Cụm F6 → Bb6/C7/F7: lời ở đâu quanh mốc này? | |
+| **9** | Ba C5 ở phách 4 (4, 4+1/2, 4+3/4) có phải tiếng mở lời không? |**Đúng cả ba.** |
+| **22** | Cụm lên–xuống đè lên lời hay fill lúc lời nghỉ? |**Fill lúc lời nghỉ.** |
+| **34→35** | Thế F4/Ab4/C5 ở 4+3/4 có nằm trong lời không? |**Không.** |
+| **43→44** | Thế C5/Ab5/C6 cuối 43 — lời hay đàn? |**Lời.** |
+| **50→51** | Cụm F6 → Bb6/C7/F7: lời ở đâu quanh mốc này? |**LẪN hát–fill–hát**: âm tiết cuối = chùm F4/Bb4/C5/F5 ô 50 phách 3+3/4 (nối tới 4+1/4); fill từ C4/Bb4/C5 ô 50 phách 4+1/4 lên Bb6/C7/F7 đầu 51; lời lại ở ô 51 **phách 4, F5 đơn** (không phải chùm F4/Ab4/C5 ở 3+3/4). |
 
 ## Câu hỏi cụ thể
 
 - **o68**: Ô 68: bạn ghi hát SAU tiếng đầu. Cụm Ab6/C7/F7 đầu ô dài 1 phách là đàn. Tiếng mở lời là cụm Eb4/F4 ở phách 2, hay C5 ở 2+1/4?
-  - Ý BẠN:
+  - Ý BẠN: **C5** (phách 2+1/4).
 - **o75**: Ô 75: LH có F2 ở phách 3 và cụm C3/F3 ở 3+1/2. "Chùm LH thứ hai" = cụm C3/F3 ở 3+1/2? Lời dứt ở Eb4 (4+1/4) hay G4 (4+1/2) hay trước đó?
-  - Ý BẠN:
+  - Ý BẠN: lời dứt ở **chùm Ab4/F5** (phách 3).
 - **o76**: Ô 76: Bbm7 đặt ở phách 3, RH nghỉ 1/4 phách; G5 đơn vào 3+1/4, cụm Db5/Ab5 vào 3+3/4. Hát lại từ G5 (3+1/4) hay từ cụm 3+3/4?
-  - Ý BẠN:
+  - Ý BẠN: **G5 (3+1/4)**.
 - **giong**: Giọng Fa thứ — bạn xác nhận?
-  - Ý BẠN:
+  - Ý BẠN: **đúng** (Fa thứ).
 - **dieu**: Thể loại?
-  - Ý BẠN:
+  - Ý BẠN: **ballad**.
 
 ---
 ## Chung
 
 - **nguon**: Nguồn đối chiếu tuyến lời cho ba bài: link bản thu/video, hoặc mốc âm tiết. Một nguồn giải quyết cả nhóm cửa lời; không cần trả lời từng hàng.
-  - Ý BẠN:
+  - Ý BẠN: (chưa ghi)
 
 ## Tên đoạn cuối *Chưa Bao Giờ*
 

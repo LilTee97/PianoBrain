@@ -457,6 +457,69 @@ Chênh 0,26 giữa hai người vượt ngưỡng phát hiện 0,20 nên đọc 
 Cỡ mẫu giọng thứ chỉ **một bài** ở đoạn dạo và giang — đừng dùng hai dòng ấy để đặt luật.
 
 
+## 5c. Cửa lời — ba bài mới, người dùng chốt bằng mắt trên sheet (11/9/2026)
+
+Ba bản ballad mới (*Để Em Rời Xa* · *Chúng Ta Không Thuộc Về Nhau* · *Chưa Bao Giờ*) không có
+thẻ lời, nên chỗ nào là **lời**, chỗ nào là **đàn** không đo được — người dùng chốt từng chỗ
+trên phiếu (`ingest/phieu-chia-doan-ca-phao-3-bai-moi.md`, đã điền), sau khi Codex loại các
+nghi vấn máy dựng từ số đầu nốt. Số ghi ở `tools/sheet/corpus.json` → `sections.*.cua_loi`.
+
+### Bảng cửa lời đã chốt (ý người dùng, không phải số đo)
+
+| bài | ô · phách | là gì |
+|---|---|---|
+| Để Em Rời Xa | 3 · phách 3–4 | đàn, **không** lấy đà lời (chuỗi C4/F4 → G6/C7 kết dạo) |
+| | 27 · 4+3/4 | C4 đơn = **đàn** (nốt dẫn vào giang) |
+| | 32 · phách 2 | **lời vào ở D4**; C5–G4–F4–E4 phách 1 là đuôi run của giang |
+| | 40 · phách 1–1½ | A5 → D6/F#6/A6 → D7 = **fill lúc lời nghỉ** |
+| | 47 · 4+1/2 | cụm A3/Ab4/A4 = **lời lấy đà** vào điệp lặp |
+| | 55 · 4+1/2 | Bb3/Bb4 = **lời lấy đà** vào điệp nâng tone |
+| | 59 · 3, 3+1/4, 3+1/2 | thế C#4…A#4 chuyển lên hai quãng tám = **fill lúc lời nghỉ** |
+| Chúng Ta Không Thuộc Về Nhau | 8 · 3+1/2 | D4/G4 = **lời lấy đà** vào phiên (từ cuối dạo) |
+| | 24 | **lẫn**: lời từ 23 dứt ở B3 (chùm B3/D4 phách 1); B3/D4 phách 2 = RH pickup; nghỉ ¼ ở 2+1/2; lời tiếp |
+| | 32 · phách 2 | lời dứt ở D4/G4; D4–B3–C4/G4 sau đó = đàn nối sang giang |
+| | 48 · 3+1/2 | C4/G4/C5 = **lời lấy đà** vào tiền điệp lặp (từ cuối giang) |
+| | 56 · phách 3 | điệp lặp **vào lời ở D5/G5** — chuỗi D5/G5 → E4/A4 là lời, không phải đàn dẫn dù giống ô 24 |
+| | 77 | bass Eb2 là **dụng ý**, không phải lỗi ký âm |
+| Chưa Bao Giờ | 9 · 4, 4+1/2, 4+3/4 | ba C5 = **tiếng mở lời** |
+| | 22 | cụm lên Ab6/C7/F7 rồi xuống = **fill lúc lời nghỉ** |
+| | 34 · 4+3/4 | thế F4/Ab4/C5 **không** thuộc lời (đàn nối vào giang) |
+| | 43 · phách 4 | thế C5/Ab5/C6 = **lời** (lấy đà vào phiên lặp) |
+| | 50 → 51 | **lẫn hát–fill–hát**: âm tiết cuối = F4/Bb4/C5/F5 ô 50 phách 3+3/4; fill từ 4+1/4 lên Bb6/C7/F7 đầu 51; lời lại ở 51 **phách 4 (F5)** |
+| | 68 · 2+1/4 | tiếng mở lời coda = **C5**; Ab6/C7/F7 phách 1 và Eb4/F4 phách 2 là đàn |
+| | 75 · phách 3 | lời dứt ở **Ab4/F5**; fill từ 4+1/4 (Eb4, G4) sang đầu 76 |
+| | 76 · 3+1/4 | tag vào lời ở **G5** |
+
+### Điều rút được — kèm cỡ mẫu
+
+1. **Câu hát của Cà Pháo hay vào bằng lấy đà ở cuối ô trước.** 6/8 ranh đoạn hát đã hỏi có
+   lời lấy đà từ nửa phách tới một phách cuối ô trước (Chúng Ta 8→9, 48→49; Để Em 47→48,
+   55→56; Chưa Bao Giờ 43→44, và 9 tự lấy đà trong ô đầu). Hai ngoại lệ: Để Em 3→4 (không
+   lấy đà) và 31→32 (lời vào **muộn**, phách 2, sau đuôi run của giang). n=8 ranh, 3 bài.
+2. **Fill rơi vào chỗ lời nghỉ, và hình fill là cụm/thế bấm chuyển quãng tám**, không phải
+   chuỗi đơn liền bậc: Để Em 40 và 59, Chưa Bao Giờ 22 và 50→51 — cả 4 chỗ đều là thế bấm
+   nhảy lên 1–2 quãng tám rồi xuống, 3–11 lần gõ. n=4. Phiếu cũ gọi chúng là "run" vì đếm
+   đầu nốt; sai.
+3. **Nốt dẫn đơn cuối ô trước giang tấu là đàn** (Để Em 27 C4; Chưa Bao Giờ 34 thế
+   F4/Ab4/C5; Chúng Ta 32 D4–B3–C4/G4). n=3, cả ba đều "đàn". Ngược lại ở ranh **vào đoạn
+   hát** thì cùng hình dạng ấy lại là lời (mục 1). Nên hướng đi quyết định: ra khỏi lời →
+   đàn; vào lời → lời.
+4. **Chuỗi giống nhau chưa chắc cùng vai**: Chúng Ta ô 56 và ô 24 cùng chuỗi D5/G5 → C5/E5
+   → A4/D5 → G4/C5 → E4/A4, nhưng 24 là đàn dẫn cuối tiền điệp còn 56 là lời mở điệp lặp
+   (người dùng chốt). Không suy vai từ hình nốt.
+5. **"RH giữ, LH lấp, RH pickup trả về lời"** (ô 24 Chúng Ta) — người dùng đề nghị dò trước
+   khi nâng thành luật. Đã dò: khe *RH không gõ ≥1 phách trong khi LH gõ ≥2 lần* xuất hiện
+   **66/157 ô hát** (Để Em 37/56 · Chưa Bao Giờ 23/61 · Chúng Ta 6/40). Tức đó là **kết cấu
+   đệm mặc định** của thầy, không phải thủ pháp riêng ở chỗ nối câu; phần đặc trưng là cú
+   pickup tay phải trả về lời — máy không tách được khi không có lời. Chưa thành luật.
+
+### Bẫy đã sập ở đây
+
+- Đếm **đầu nốt** thay cho **lần gõ**: ra "31 nốt/ô" trong khi chỉ 8–9 lần gõ (xem
+  `tools/sheet/README.md` bẫy 5). Mọi nhãn run/fill máy gán trước 11/9 đều bỏ.
+- Suy "giọng nghỉ" từ ô thưa: *Chưa Bao Giờ* ô 26 chỉ một Eb4 mới nhưng lời vẫn ở đó.
+- Suy vai từ hình nốt (mục 4).
+
 ## 6. Chưa đo — đừng suy bừa vào chỗ này
 
 - **Sheet có cùng cao độ với bản thu không.** Đã bắt được **một** bài lệch: *Người hãy quên
