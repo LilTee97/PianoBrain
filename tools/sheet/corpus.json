@@ -1028,6 +1028,33 @@
       },
       "confidence": "vừa — neo theo thời lượng",
       "ghi_chu_khoi_phuc": "Bi go khoi corpus o 55c3ec0 (1/9/2026); nguoi dung chon lay lai 10/9/2026. Moc dao/giang/ket tu corpus cu (258e602); phien/diep cho phieu ingest/phieu-cua-loi-yeu-xa-kem-duyen.md."
+    },
+    {
+      "file": "De Em Roi Xa-Ca Phao.mxl",
+      "name": "Để Em Rời Xa",
+      "teacher": "ca-phao",
+      "genre": "chua xac nhan",
+      "bars": 74,
+      "confidence": "chua chia doan — phieu ingest/phieu-chia-doan-ca-phao-3-bai-moi.md (11/9/2026)",
+      "giong_ghi_chu": "MAY DO, chua chot: Rê thứ ô 0–55 (vòng Bb C Dm7 · Gm7 A7 Dm7); nâng NỬA CUNG sang Mi giáng thứ từ ô 56 (Bmaj7 C# Ebm · B C# Ebm7); bộ dấu hoá file 6 dấu chỉ đúng phần cuối"
+    },
+    {
+      "file": "Chua Bao Gio Trung Quan-Ca Phao.mxl",
+      "name": "Chưa Bao Giờ (Trung Quân)",
+      "teacher": "ca-phao",
+      "genre": "chua xac nhan",
+      "bars": 81,
+      "confidence": "chua chia doan — phieu ingest/phieu-chia-doan-ca-phao-3-bai-moi.md (11/9/2026)",
+      "giong_ghi_chu": "MAY DO, chua chot: Fa thứ suốt bài (Fm7 Cm Eb Db · Abmaj7 Dbmaj7 Cm7 Bbm7); bộ dấu hoá 4 giáng khớp; kết Fm7, ô 80 nốt G6"
+    },
+    {
+      "file": "Chung Ta Khong Thuoc Ve Nhau-Ca Phao.mxl",
+      "name": "Chúng Ta Không Thuộc Về Nhau",
+      "teacher": "ca-phao",
+      "genre": "chua xac nhan",
+      "bars": 77,
+      "confidence": "chua chia doan — phieu ingest/phieu-chia-doan-ca-phao-3-bai-moi.md (11/9/2026)",
+      "giong_ghi_chu": "MAY DO, chua chot: La thứ (vòng F G Am Em7 xuyên suốt, hút về Am; A7 ở ô 64/76). Krumhansl ra Đô trưởng 0,87 vì cùng bộ nốt — bạn chốt. Ô 77 kết trên bass Eb (C Eb F G) — lạ, kiểm"
     }
   ],
   "_doc_giong": "Truong/thu KHONG co trong file MusicXML (khong file nao ghi <mode>). giong_nguon = md-linh-nhi (chep tu bang trong knowledge/teachers/linh-nhi-piano.md, nguoi dung da xac nhan) hoac nguoi-dung-xac-nhan (nguoi dung doi chieu voi Chordify) hoac suy-tu-ket-doan (suy tu hop am ket cua tung doan + hop am hay dung; CHUA duoc nguoi dung xac nhan). KHONG suy bang dau hoa cua not: cac ban nay ky am tu dong tu MIDI, cach viet thang/giang chay theo bo dau hoa chu khong theo chuc nang — thu nghiem tren 7 bai da biet thi sai 5. Mot so DOAN co truong \"giong\" rieng de bao doan ay chuyen giong — khi do phai lay giong cua doan, khong lay giong cua bai."
