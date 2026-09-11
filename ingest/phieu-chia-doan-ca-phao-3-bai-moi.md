@@ -51,7 +51,7 @@ Ba loại dòng: **Chốt** (đọc được từ sheet, không hỏi) · **Bỏ
 |---|---|---|
 | **2→3→4** | Ô 3 từ phách 3: C4/F4 → G4/C5 → F5/G5 → C6/F6 → G6/C7 ở phách 4 — cử chỉ đàn đi lên kết dạo. Còn mở: cuối ô 3 có lấy đà của LỜI không? | |
 | **27** | C4 đơn ở 4+3/4 thuộc lời hay đàn? | |
-| **32** | Cửa lời đi qua chuỗi C5–G4–F4–E4–D4 đầu ô hay vào sau? | |
+| **32** | Cửa lời đi qua chuỗi C5–G4–F4–E4–D4 đầu ô hay vào sau? | **Đã chốt (tai người dùng):** lời vào ở **D4 phách 2**; C5–G4–F4–E4 phách 1 là đàn — đuôi run 30–31 rơi xuống đúng nốt mở lời. |
 | **40** | Cụm D6…D7 rơi lúc lời nghỉ hay phối trên lời? | |
 | **47→48** | Cuối 47 cụm nửa cung, 48 mở F–E–D quãng tám: lấy đà của lời hay chỉ đàn nối? | |
 | **55→56** | Đôi Bb3/Bb4 ở 4+1/2 là lời lấy đà hay đàn? | |
