@@ -1033,10 +1033,60 @@
       "file": "De Em Roi Xa-Ca Phao.mxl",
       "name": "Để Em Rời Xa",
       "teacher": "ca-phao",
-      "genre": "chua xac nhan",
+      "genre": "ballad",
       "bars": 74,
-      "confidence": "chua chia doan — phieu ingest/phieu-chia-doan-ca-phao-3-bai-moi.md (11/9/2026)",
-      "giong_ghi_chu": "MAY DO, chua chot: Rê thứ ô 0–55 (vòng Bb C Dm7 · Gm7 A7 Dm7); nâng NỬA CUNG sang Mi giáng thứ từ ô 56 (Bmaj7 C# Ebm · B C# Ebm7); bộ dấu hoá file 6 dấu chỉ đúng phần cuối"
+      "confidence": "NGUOI DUNG chot moc doan tren phieu trinh duyet 11/9/2026 (ban 1); hat/dan tung o dang hoi o ban 2.",
+      "giong_ghi_chu": "Re thu o 0-55, nang nua cung sang Mi giang thu tu o 56 (nguoi dung dong y 11/9/2026)",
+      "sections": {
+        "intro": {
+          "bars": [
+            0,
+            3
+          ]
+        },
+        "verse": {
+          "bars": [
+            4,
+            19
+          ]
+        },
+        "chorus": {
+          "bars": [
+            20,
+            27
+          ]
+        },
+        "interlude": {
+          "bars": [
+            28,
+            31
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            32,
+            47
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            48,
+            55
+          ]
+        },
+        "chorus_mod": {
+          "bars": [
+            56,
+            63
+          ]
+        },
+        "outro": {
+          "bars": [
+            64,
+            73
+          ]
+        }
+      }
     },
     {
       "file": "Chua Bao Gio Trung Quan-Ca Phao.mxl",
@@ -1044,17 +1094,135 @@
       "teacher": "ca-phao",
       "genre": "chua xac nhan",
       "bars": 81,
-      "confidence": "chua chia doan — phieu ingest/phieu-chia-doan-ca-phao-3-bai-moi.md (11/9/2026)",
-      "giong_ghi_chu": "MAY DO, chua chot: Fa thứ suốt bài (Fm7 Cm Eb Db · Abmaj7 Dbmaj7 Cm7 Bbm7); bộ dấu hoá 4 giáng khớp; kết Fm7, ô 80 nốt G6"
+      "confidence": "NGUOI DUNG chot moc doan tren phieu trinh duyet 11/9/2026 (ban 1); hat/dan tung o dang hoi o ban 2. Coda 68-75 hat SAU not dau o 68 toi chum LH thu hai o 75; tag 76-78 vao tu ky hieu Bbm7.",
+      "giong_ghi_chu": "Fa thu (may do, nguoi dung chua ghi)",
+      "sections": {
+        "intro": {
+          "bars": [
+            0,
+            8
+          ]
+        },
+        "verse": {
+          "bars": [
+            9,
+            17
+          ]
+        },
+        "prechorus": {
+          "bars": [
+            18,
+            25
+          ]
+        },
+        "chorus": {
+          "bars": [
+            26,
+            34
+          ]
+        },
+        "interlude": {
+          "bars": [
+            35,
+            43
+          ]
+        },
+        "verse_2": {
+          "bars": [
+            44,
+            50
+          ]
+        },
+        "prechorus_2": {
+          "bars": [
+            51,
+            58
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            59,
+            67
+          ]
+        },
+        "coda": {
+          "bars": [
+            68,
+            75
+          ]
+        },
+        "tag": {
+          "bars": [
+            76,
+            78
+          ]
+        },
+        "outro": {
+          "bars": [
+            79,
+            80
+          ]
+        }
+      }
     },
     {
       "file": "Chung Ta Khong Thuoc Ve Nhau-Ca Phao.mxl",
       "name": "Chúng Ta Không Thuộc Về Nhau",
       "teacher": "ca-phao",
-      "genre": "chua xac nhan",
+      "genre": "ballad",
       "bars": 77,
-      "confidence": "chua chia doan — phieu ingest/phieu-chia-doan-ca-phao-3-bai-moi.md (11/9/2026)",
-      "giong_ghi_chu": "MAY DO, chua chot: La thứ (vòng F G Am Em7 xuyên suốt, hút về Am; A7 ở ô 64/76). Krumhansl ra Đô trưởng 0,87 vì cùng bộ nốt — bạn chốt. Ô 77 kết trên bass Eb (C Eb F G) — lạ, kiểm"
+      "confidence": "NGUOI DUNG chot moc doan tren phieu trinh duyet 11/9/2026 (ban 1); hat/dan tung o dang hoi o ban 2.",
+      "giong_ghi_chu": "La thu (nguoi dung dong y 11/9/2026)",
+      "sections": {
+        "intro": {
+          "bars": [
+            1,
+            8
+          ]
+        },
+        "verse": {
+          "bars": [
+            9,
+            16
+          ]
+        },
+        "prechorus": {
+          "bars": [
+            17,
+            24
+          ]
+        },
+        "chorus": {
+          "bars": [
+            25,
+            32
+          ]
+        },
+        "interlude": {
+          "bars": [
+            33,
+            48
+          ]
+        },
+        "prechorus_2": {
+          "bars": [
+            49,
+            55
+          ]
+        },
+        "chorus_2": {
+          "bars": [
+            56,
+            64
+          ]
+        },
+        "outro": {
+          "bars": [
+            65,
+            77
+          ]
+        }
+      }
     }
   ],
   "_doc_giong": "Truong/thu KHONG co trong file MusicXML (khong file nao ghi <mode>). giong_nguon = md-linh-nhi (chep tu bang trong knowledge/teachers/linh-nhi-piano.md, nguoi dung da xac nhan) hoac nguoi-dung-xac-nhan (nguoi dung doi chieu voi Chordify) hoac suy-tu-ket-doan (suy tu hop am ket cua tung doan + hop am hay dung; CHUA duoc nguoi dung xac nhan). KHONG suy bang dau hoa cua not: cac ban nay ky am tu dong tu MIDI, cach viet thang/giang chay theo bo dau hoa chu khong theo chuc nang — thu nghiem tren 7 bai da biet thi sai 5. Mot so DOAN co truong \"giong\" rieng de bao doan ay chuyen giong — khi do phai lay giong cua doan, khong lay giong cua bai."
