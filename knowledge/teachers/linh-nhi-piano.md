@@ -283,6 +283,7 @@ Trộn hai nhóm lại là mất đúng cái khác biệt lớn nhất đo đư�
 | Một Cõi Đi Về | slow rock | Sol thứ | **3** | 10 |
 
 **5 bolero · 2 slow rock** — và **3 trưởng · 4 thứ**. Một Cõi là bản 3 phách duy nhất.
+*(Sửa 24/9/2026: Một Cõi ghi **6/8** — 3 nốt đen mỗi ô, không phải nhịp 3. Lá Thư ghi 4/4 nhưng là 12/8. Xem 13b, 13c.)*
 
 **Trên đĩa có 9 bản, cỡ mẫu dùng 7.** Hai bản còn lại là **Tuyết Rơi** (người dùng xếp
 riêng, không đưa vào đây để học) và **Papa** (người dùng chốt: để sau, học chung với Tuyết
@@ -313,7 +314,7 @@ Bốn ngoại lệ chỉ gồm hai hợp âm, và cả bốn đều rơi vào đ
 | Đường Xưa | kết | iv thứ |
 | Rừng Lá | dạo | iv thứ |
 | Rừng Lá | kết | iv thứ |
-| Một Cõi | giang | I trưởng (Picardy) |
+| Một Cõi | giang | I trưởng (Picardy) — **không đứng**, tay phải có Bb → vẫn Gm; xem 13c |
 
 Ba trên bốn là **bậc iv thứ mượn**, cái còn lại là **I trưởng Picardy**.
 
@@ -1176,6 +1177,542 @@ sheet bolero thứ trong kho."*
 
 Tách được khi có thêm sheet **bolero giọng thứ** — hiện chỉ có Đừng Xa và Rừng Lá.
 
+### 13b. Lá Thư Trần Thế là 12/8 — sheet ghi SAI nhịp (đo 24/9/2026)
+
+**Bẫy đo.** Sheet ghi 4/4 ♩=86. Nhưng nốt trầm nhất mỗi ô rơi **đều cả bốn phách** (24 ·
+25 · 21 · 20, n=92 ô hát) — đệm có bass phách 1–3 thì phải dồn vào 0 và 2. Tay trái đi từng
+cụm **6 móc đơn cho một hợp âm**: bass rơi cùng một pha chu kỳ 6 móc đơn ở **75/98** lần,
+không trôi từ dạo tới kết (dạo 4/4, phiên 18/24, điệp 10/14, giang 5/5). Tức móc đơn ký âm =
+móc đơn chùm ba thật; nhạc là **slow rock 12/8, ♩. ≈ 57**.
+
+Hệ quả: **mọi số đo của Lá Thư ở file này theo "ô" hay "phách trong ô"** — bảng tuyến mục
+9, "6 ô dạo", "at 0,5" ở #426, ô chia đôi mục 8 — đều đo trên lưới sai. **Chưa đo lại.** Số
+đo không theo vị trí trong ô (bậc, bước đi, cao độ) thì không dính.
+
+**Hai tay ở phần hát**, đếm trên ô 6 móc đơn đã cắt lại (mỗi ô = một hợp âm):
+
+| | ô | tay phải nốt đơn | tay trái rải | tay trái dập hợp âm | tay phải dập hợp âm |
+|---|---:|---:|---:|---:|---:|
+| phiên | 94 | 253/396 lần gõ (64%) | 62/91 | 5/91 | 12/94, toàn cuối câu |
+| điệp | 30 | 70/115 (61%) | 15/30 | **5/30** | 3/30 |
+
+- Tay phải phần lớn là **giai điệu lời** (nốt đơn ngân 3–4 móc đơn) và fill ở quãng cao.
+  Khi tay phải đang hát, tay trái rải sáu móc đơn đều (25 ô, nhịp nhiều nhất); dáng đi lên
+  1–5–8–10 (16 ô) và lên rồi xuống 1–3–5–8–5–3 (17 ô) gần ngang nhau, dích dắc 28 ô.
+- **Tay phải lúc hát là giai điệu lời** — phiên 1 và phiên 3 cùng giai điệu khác lời, tay phải
+  tách/gộp nốt đúng theo âm tiết (c11 E4 · E4 gõ lại, c83 E4 ngân liền; c10 D4 dưới F#4, c82 chỉ
+  D4). Nên lúc hát **phần đệm là tay trái**; các nốt bè dưới giai điệu cũng đi theo nhịp giai điệu.
+  *(Hai ghi chép trước trong mục này — "tay phải còn đệm ở 39/94 ô" và "tay phải đặt một tiếng
+  đầu ô rồi ngân, 42/46 ô" — đếm cả nốt/nhịp của giai điệu. Người dùng nghe hai nút dựng từ đó
+  và bác: "trong sheet không đệm 2 tay như vậy".)*
+- **Hai tay cùng đệm ở chỗ LỜI NGHỈ**: tay phải dập hợp âm 3–4 nốt vùng A3–A4 ở tiếng
+  **2 · 2½ · 3 · 4** (lõi có ở c7, c22, c23, c39, c70, c93, c105), tay trái bass quãng tám.
+  c22 lặp y hệt tay phải ở c93, và **bỏ nốt gốc** ở tiếng 3 đúng lúc tay trái gõ quãng tám.
+  Người dùng nghe cử chỉ này dưới câu fill của KeyTrain: *"chơi rất hay"* — tay phải giữ hợp
+  âm trong lúc bè trầm chạy fill. Lặp nó ở mọi hợp âm thì *"không còn giống sheet"*.
+- Điệp khúc dày lên đúng lối mục 3 — **nắm dày hơn**: tay trái tự dập cụm 3–5 nốt theo từng
+  móc đơn (c41–42, c45–46; cao trào lặp ở c106, c109).
+- Lực: mỗi nốt có thuộc tính `dynamics`. Bass điệp 80–94, bass phiên 53–67 — điệp mạnh hơn.
+
+Cỡ mẫu: **một bài**. Chưa biết Một Cõi Đi Về (slow rock còn lại) có cùng bẫy nhịp không —
+**chưa đo**. KeyTrain: nút "Slow Rock Lá thư" — lúc hát tay trái rải, ô có fill dùng c22 hai tay (commit `1e28641`).
+
+### 13c. Câu solo tám bài — đo lại trên lưới đúng, tách trưởng / thứ (24/9/2026)
+
+Bộ đo: `KeyTrain/tools/slow_rock_linh_nhi.py --do` — **8 bài, 23 đoạn solo**: giọng thứ 14
+(dạo 5 · giang 4 · kết 5), giọng trưởng 9 (3 · 3 · 3). Rừng Lá không có giang.
+
+**Lưới.** Lá Thư cắt lại theo ô 6 móc đơn (mục 13b). **Một Cõi ghi ĐÚNG 6/8** — mục 1 ghi
+"3 phách" là 3 nốt đen mỗi ô; bass rơi đầu ô 72/113 lần. Nỗi Buồn ô 8 phách tách làm hai.
+
+**Ký hiệu hợp âm của hai bài slow rock KHÔNG đọc vòng được.** So ký hiệu với nốt đang vang
+trong đoạn solo: gốc khớp Lá Thư **6/12**, Một Cõi **4/13** (Một Cõi dạo ô 1 ghi Gm, tay trái
+C3/C4–G3–C4). Bolero trưởng thì tin được: Biển Tình 24/24, Đường Xưa 15/17, Mùa Xuân 18/24.
+Nên hai bài slow rock **đọc hợp âm bằng tay theo nốt tay trái** — bảng `HOP_AM_TAY` trong script,
+mỗi ô ghi nốt làm bằng chứng. *Chưa ai duyệt bảng ấy.*
+
+#### Vòng hợp âm từng đoạn
+
+**Giọng thứ** (ô = 6/8 ở slow rock, 4/4 ở bolero; `→` = đổi trong ô):
+
+| bài | dạo | giang | kết |
+|---|---|---|---|
+| Lá Thư *(slow rock)* | i · ♭VII · i · ♭III→iv · iv · ♭VI · ii° · V7 | i · ♭VII · i · ♭III · iv · ♭VI · ii° · V7 | Isus4 · Isus4 · I · I |
+| Một Cõi *(slow rock)* | i · iv · ♭VI · V7 · i · ♭VI · iv · ii° · V7 · V | = dạo | i/♭3 · ♭VIΔ7 · iv · ii° · V7 · V7/4 · i · i · i |
+| Đừng Xa | i · ♭VII · ♭VI · ♭III · iv · i · ii°→V · i · V | ♭VII · ♭VI · ♭III · iv · i · V→ii° · ii° · V7 · V7 · ♭VI→vi° | i · V→ii° · ii° · i · i · i · i |
+| Rừng Lá | V+ · i · ♭VII→iv · ♭III · i · v · v · i · i | — | IV→v · i · ♭VII · ♭III · i · v · ♭VII · v→i · iv ×4 |
+| Nỗi Buồn | IVsus→i · i · ♭VI · ii° · V7 · V7 · i→V7 · V7 · i · i | i · i · iv · ♭VI · V7→ii° · ii° · V7 · V7 · i · i | iv · iv · ♭VII→♭VI · ♭VI · i ×6 |
+
+**Giọng trưởng** (cả ba bolero):
+
+| bài | dạo | giang | kết |
+|---|---|---|---|
+| Biển Tình | · · vi · iii · ii · I · vi · ii · iii→IIsus · I | I · vi · iii · ii · I · vi · ii · iii→IIsus · I · V | vi · iii · ii→V · I7 · I7 |
+| Đường Xưa | · · IV · ii · I · vi · ii · V · vi | I · vi · IV · V · I · ii · V · vi | vi · iv ×5 |
+| Mùa Xuân | I · vi · iii · V→ii · I · iii · I · V | I · I · vi · iii · V→ii · I · iii→V · I · V | iii · vi · IV · Vsus ×2 · I ×6 |
+
+#### Luật hoà âm rút ra
+
+**Giọng thứ** (n=5 bài):
+
+- Vốn đoạn solo: **i · iv · ♭VI · ♭VII · ♭III · ii° · V/V7**. Rừng Lá thêm **v tự nhiên** và IV.
+- **Cửa về V đi qua ii°** — `ii° → V7` ở **4/5 bài** (Lá Thư, Một Cõi, Đừng Xa, Nỗi Buồn).
+- **Đường đi xuống từ chủ âm**: `i → ♭VII` 3 lần ở dạo (Lá Thư, Đừng Xa, Rừng Lá);
+  `iv → ♭VI` 3 lần ở giang.
+- Dạo mở trên **i** 3/5, đóng trên **V/V7** 3/5.
+- **Hai bài slow rock: giang = dạo cùng vòng** (Lá Thư khác một chỗ chia ô, Một Cõi y hệt).
+- Kết nặng chủ âm (**i** 18/46 hợp âm), đóng **i** 3/5 · **I Picardy** 1 (Lá Thư) · **iv** 1 (Rừng Lá).
+
+**Giọng trưởng** (n=3 bài):
+
+- Vốn: **I · vi · iii · ii · V**, thêm IV và **IIsus** (V/V treo).
+- **Chuỗi quãng ba đi xuống `I → vi → iii → ii`** ở Biển Tình và Mùa Xuân; `I → vi` 4 lần ở giang.
+- Giang mở trên **I** 3/3, đóng trên **V** 2/3.
+- Kết mở trên **vi** 2/3; màu kết là **iv thứ mượn** (Đường Xưa, 5 ô), **I7** (Biển Tình), **Vsus → I** (Mùa Xuân).
+
+#### Giai điệu — nốt trên cùng mỗi cú gõ tay phải
+
+| | n nốt | nốt hợp âm | bậc hay dùng (so với chủ âm) | liền bậc | quãng ba | lặp | ≥ quãng tám | đoạn đi xuống |
+|---|---|---|---|---|---|---|---|---|
+| **thứ** · dạo | 287 | **73%** | `1` 62 · `5` 54 · `♭3` 43 · `2` 36 · `4` 32 · `♭6` 22 · `♭7` 18 · `7` 12 | 93/282 (33%) | 22% | 11% | 11% | 3/5 |
+| **thứ** · giang | 233 | 67% | `1` 50 · `♭3` 42 · `5` 39 · `2` 38 · `4` 23 · `♭6` 20 · `7` 12 | 74/229 (32%) | 18% | 10% | 15% | 1/4 |
+| **thứ** · kết | 203 | 63% | `5` 50 · `1` 49 · `♭3` 33 · `4` 23 · `2` 16 · `♭6` 13 | 55/198 (28%) | 20% | 11% | 18% | **0/5** |
+| **trưởng** · dạo | 138 | 64% | `1` 27 · `3` 26 · `5` 22 · `6` 22 · `2` 20 · `4` 9 | 53/135 (39%) | 27% | 5% | 10% | 2/3 |
+| **trưởng** · giang | 146 | 68% | `1` 30 · `5` 28 · `3` 28 · `6` 22 · `2` 18 | 58/143 (41%) | 24% | 6% | 12% | 1/3 |
+| **trưởng** · kết | 109 | 73% | `1` 28 · `5` 24 · `3` 21 · `6` 14 · `2` 13 | 26/106 (25%) | **32%** | 6% | 8% | 1/3 |
+
+Đọc ra, đều khớp chiều với mục 5–6b và thêm hai điều mới:
+
+- **Bậc 7 thăng (nốt cảm) là vốn thật của giọng thứ**: 12 nốt ở dạo, 12 ở giang — đi cùng `ii° → V7`.
+- **Kết giọng thứ không đi xuống bài nào (0/5)**; kết giọng trưởng đi **quãng ba nhiều hơn liền bậc**.
+- Giọng trưởng dùng `6` (13) đều ở cả ba đoạn (14–22 nốt), gần như bỏ `♭3`; giọng thứ lặp nốt gấp đôi.
+
+*Số nốt hợp âm ở đây khác mục 6b* (thứ dạo 73% so với 69%) vì hai bài slow rock nay đo trên hợp
+âm đọc từ nốt chứ không trên ký hiệu lệch.
+
+#### Kỹ thuật đánh tay phải — slow rock khác bolero
+
+| | slow rock thứ | bolero thứ | bolero trưởng |
+|---|---|---|---|
+| đo trên | 2 bài · 49 ô · 275 cú gõ | 3 bài · 77 ô · 448 | 3 bài · 73 ô · 393 |
+| nốt đơn | 186 (68%) | 333 (74%) | 295 (75%) |
+| cú hai nốt | 71 (26%) | 94 (21%) | 82 (21%) |
+| · trong đó **quãng tám** | **32 (45%)** | 11 (12%) | 24 (29%) |
+| · quãng ba · quãng sáu | 14 · 8 | 21 · 15 | 19 · 11 |
+| · quãng 4–5 | 4 | **31 (33%)** | 10 |
+| · láy nửa cung (Ab4 dưới A4) | 2 | 4 | 5 |
+| chồng ≥ 3 nốt | 18 (7%) | 21 (5%) | 16 (4%) |
+| dập cùng hợp âm ≥ 3 lần liền | **5** | 0 | 1 |
+| chuỗi chạy ≥ 4 nốt | 10 (0,20/ô) | 18 (0,23/ô) | 15 (0,21/ô) |
+
+- **Slow rock: nhân quãng tám giai điệu là thủ pháp chính** — 45% cú hai nốt. Bolero thứ lại
+  chuộng quãng 4–5 (33%).
+- **Dạo và giang Lá Thư**: tay phải **rải giai điệu vắt hai quãng tám**, mỗi móc đơn chùm ba một
+  nốt (A4–E6), tay trái chỉ **ngân bass** (D4, C4 ngân cả ô). Cuối câu **dập hợp âm hai tay**
+  (c7 · c80: tay phải C#5/E5/A5 ở tiếng 1 · 2 · 2½ · 3 · 4, tay trái quãng tám A rồi đi xuống G, E).
+- **Một Cõi**: chạy **móc kép** trong ô 6/8 — dạo ô 2 `Bb4 Eb4 A4 Bb4 A4 G4 F#4 Eb4`, ô 3 rải D7 lên
+  `D4 F#4 A4 C5 D5 F#5 A5 F#5 C6 A5`; bass ngân.
+- **Tay trái ở đoạn solo slow rock KHÔNG rải sáu móc đơn như lúc hát**: 147 cú / 49 ô = 3,0 cú/ô,
+  26% ngân ≥ nửa ô. Bolero thứ 4,6 cú/ô, bolero trưởng 5,8.
+
+#### Hai chỗ md cũ ghi sai
+
+- **Lá Thư kết**: mục 2 ghi "0,00 ký hiệu" — đúng là sheet không ghi ký hiệu nào, nhưng hoà âm
+  thật là **Dsus4 · Dsus4 · D · D**: tay trái ngân D, rồi F#4 vào, hợp âm cuối D5 F#5 A5 D6 F#6 A6.
+  **Kết Picardy (Rê trưởng) trong bài thứ.**
+- **Một Cõi giang**: mục 2 ghi mượn **I trưởng (Picardy)** — sheet ghi `G`, nhưng tay phải ô ấy có
+  Bb5 · Bb4, tức vẫn là **Gm**. Ngoại lệ Picardy của Một Cõi **không đứng**; Picardy thật là Lá Thư kết.
+
+#### Bộ soạn KeyTrain dựng từ mục này
+
+`KeyTrain/src/reharm/style/linhNhiSolo.ts`, chạy khi chọn màu hợp âm Linh Nhi (13d).
+Bản đầu (commit 71de0c5) chép một đoạn solo thật rồi **đổi nhịp** khi khác điệu (bolero 4/4 →
+12/8 chùm ba, slow rock → 4/4). **Người dùng bác khi nghe** (24/9/2026, mục 15): không lấy câu điệu
+khác dồn vào. Nay: bolero chép nguyên đoạn bolero; slow rock **soạn mới từ ô slow rock** — xem 13e.
+
+#### Chưa đo
+
+- **Chưa có sheet slow rock giọng trưởng** — mọi thứ về slow rock trưởng đang mượn bolero.
+- Bảng hợp âm đọc tay của hai bài slow rock **chưa ai duyệt**.
+- Rừng Lá: ký hiệu khớp nốt 4/20 theo bộ đọc tự động — nhiều khả năng bộ đọc hụt với bass
+  bolero 1–5, **chưa kiểm tay**.
+- Lực đánh (thuộc tính `dynamics` từng nốt) chưa đưa vào bộ soạn.
+
+### 13d. Chị đặt hợp âm cho phần hát thế nào — tách trưởng / thứ (24/9/2026)
+
+Bộ đo: `KeyTrain/tools/hop_am_linh_nhi.py` — phần hát (phiên + điệp) của 8 bài: trưởng 3
+(Biển Tình, Đường Xưa, Mùa Xuân), thứ 5 (Đừng Xa, Rừng Lá, Nỗi Buồn, Lá Thư, Một Cõi).
+
+**Đọc hợp âm:** bolero theo ký hiệu sheet nhưng chỉ nhận khi tay trái đang vang ủng hộ nó
+(≥ 60% thời lượng tay trái nằm trong hợp âm): 423 đoạn nhận, 42 đoạn đọc lại từ tay trái. Hai
+bài slow rock đọc từ tay trái từng ô 6/8 (211 ô). **Gốc lấy từ tay trái, bậc ba lấy từ mọi nốt
+đang vang** — lần đo đầu lấy bậc ba chỉ từ tay trái (rải 1–5–8 không có bậc ba) và ra 54 hợp âm
+"I trưởng" trong bài thứ, sai. Kiểm bằng cách đo bậc ba từng đoạn: **không đoạn nào của 5 bài
+thứ chuyển sang giọng trưởng** (bậc ba trưởng cao nhất 30%, Lá Thư phiên 4).
+
+**Màu lấy từ NỐT ĐỆM THẬT** (tay trái + nốt dưới nốt đỉnh tay phải, ≥ 8% thời lượng), không từ
+ký hiệu — ký hiệu có thể do plugin dò máy sinh ra và đếm cả nốt giai điệu làm màu.
+
+#### Màu theo bậc
+
+| giọng | bậc | n | trơn | màu hay gặp |
+|---|---|---|---|---|
+| trưởng | I | 61 | **30** | maj7 14 · add9 14 · 6 8 |
+| trưởng | V | 42 | **25** | ♭7 chỉ 7 · 9 10 |
+| trưởng | ii | 38 | **22** | ♭7 13 · 11 11 |
+| trưởng | vi · IV · iii | 34 · 24 · 20 | **25 · 18 · 16** | — |
+| trưởng | **II** (át của V) | 10 | 0 | **♭7 10/10**, 3 bài |
+| thứ | i | 101 | **41** | add9 38 · ♭7 21 |
+| thứ | ♭III | 51 | **22** | maj7 12 · 9 12 |
+| thứ | iv | 48 | 21 | **add9 24** |
+| thứ | ♭VI | 46 | 23 | **maj7 21** |
+| thứ | ♭VII | 30 | **19** | 9 10 |
+| thứ | **V** | 24 | 6 | **♭7 17**, 4 bài |
+| thứ | v | 22 | 3 | ♭7 16 — nhưng **12 của 1 bài** |
+| thứ | ii° | 16 | 5 | ♭7 10, 4 bài |
+| thứ | **I trưởng kéo về iv** | 6 | 0 | **♭7 6/6**, 4 bài (V7/iv) |
+
+**Màu đổi theo đoạn ở giọng thứ** — chỗ gần hoà ở bảng trên tách ra khi chia phiên/điệp:
+
+| thứ | phiên khúc | điệp khúc |
+|---|---|---|
+| ♭VI | trơn 15/25 · maj7 8 | **maj7 13/21**, 3 bài |
+| iv | trơn 18/38 · add9 16 (2 bài) | **add9 7/10**, 3 bài |
+| i | trơn 29/67 · add9 23 · ♭7 15 | trơn 22/34 |
+
+Giọng trưởng thì trơn ở gần mọi bậc cả hai đoạn.
+
+- **Giọng trưởng chị gần như không tô màu** — trơn ở mọi bậc trong giọng; màu duy nhất đứng
+  vững là **II7** (át của V).
+- **Giọng thứ**: V7, ii°(m7b5), I7 kéo về iv; lên **điệp khúc** thì ♭VI thành **maj7** và iv
+  thành **add9**.
+- Át phụ chỉ áp cho hợp âm **trưởng ngoài giọng**. ♭VII→♭III và ♭III→♭VI (đi quãng năm nhưng
+  trong giọng) thì trơn 9/10.
+
+#### Nhịp đổi hợp âm và hợp âm chen
+
+| | ô có hai hợp âm |
+|---|---|
+| bolero trưởng | 30/204 (15%) |
+| bolero thứ | 44/161 (27%) |
+| slow rock (ô 12/8) | 81/111 (**73%**) — gần như mỗi hai phách chấm một hợp âm |
+
+**Hợp âm chen lặp ở ≥ 2 bài chỉ có ba mẫu**: bolero thứ `i → ♭VI` trong ô (5 lần, 3 bài) · slow
+rock `iv → i` (5, 2 bài) · trưởng `V → I` (3, 2 bài). Quá mỏng để thành luật tự chèn.
+
+**Bass đảo hiếm**: trưởng 7/245 đoạn (V/3 ×3 · II/3 ×2 · #iv°/♭3 ×1 · Vsus/5 ×1); ở giọng thứ phần lớn chỗ "đảo" là hợp
+âm giảm đọc ra từ tay trái thiếu gốc — chưa tách được, không kết luận.
+
+**Chuyển tiếp hay gặp**: trưởng `I→vi` 25 (3 bài) · `V→I` 24 (3) · `ii→V` 14 (2); thứ `i→♭VI`
+20 (4 bài) · `V→i` 11 (4) · `iv→i` 11 (3) · `i→♭VII` 10 (4) · `♭VII→♭III` 10 (4) · `♭III→V` 9 (4).
+
+#### Đưa vào KeyTrain
+
+Nút **màu hợp âm Linh Nhi** (`reharmEngine/linhNhiHarmony.ts`) thay bảng tĩnh cũ (I/IV maj7,
+ii/iii/vi m7, V7 — đặt khi chưa đo, và ép cả v thứ thành V7). Chỉ tô hợp âm ba trơn; giữ màu và
+bass đảo người dùng ghi; **không tự chèn hợp âm**. Chọn màu này thì câu dạo · giang · kết soạn bằng
+`style/linhNhiSolo.ts` cho điệu đang chơi — xem 13c.
+
+#### Chưa đo
+
+- Hợp âm đọc từ tay trái ở giọng thứ còn lẫn hợp âm giảm thiếu gốc (iii°/♭3 ×22) — chưa kiểm tay.
+- Chưa có giai điệu hát đầu vào: màu nào hợp với nốt hát thì chưa đo.
+- Chưa tách được "của chị" với "của nhạc sĩ" bằng số nhạc sĩ — chỉ dùng số bài làm đại diện.
+
+### 13e. Quy luật chị soạn nốt ở câu solo — tách điệu và giọng (24/9/2026)
+
+Bộ đo: `KeyTrain/tools/quy_luat_not_linh_nhi.py` trên 23 đoạn solo (dạo · giang · kết) của 8 bài.
+Giai điệu = **nốt cao nhất** mỗi cú gõ tay phải. Phách mạnh: bolero 4 phách của ô; slow rock đầu
+hai chùm ba của ô 6/8 (móc đơn 1 và 4). Hợp âm: slow rock theo bảng đọc tay (13c), bolero theo ký
+hiệu sheet — **hai vế đọc hợp âm khác cách**, so bolero với slow rock thì nhớ điều này.
+
+| | bolero · thứ | bolero · trưởng | slow rock · thứ |
+|---|---|---|---|
+| đoạn · ô | 8 · 77 | 9 · 73 | 6 · 49 |
+| nốt hợp âm ở phách mạnh | 129/201 (64%) | 137/167 (82%) | **67/81 (83%)** |
+| nốt hợp âm ở phách nhẹ | 138/247 (56%) | 131/220 (60%) | **165/194 (85%)** |
+| nhảy 5–11 rồi bước ngược ≤ 4 | 29/95 | 28/77 | 13/71 |
+| nối ô 0-2 · 3-4 · 5-7 · 8-11 · quãng 8 · >quãng 8 | 33·12·9·7·1·4 | 35·9·14·3·2·1 | 23·5·2·7·1·5 |
+| ô lặp hình ô ngay trước | 1 | 0 | 0 |
+| ô nghỉ ≥ nửa ô (giữa · cuối đoạn) | 3 · 2 | 3 · 3 | 1 · 0 |
+| tầm TB đầu · giữa · cuối đoạn (MIDI) | 73,7 · 74,0 · 77,7 | 76,9 · 75,4 · 77,6 | 76,2 · 74,7 · 77,7 |
+| câu chạy (lên · xuống) | 25 (20 · 5) | 20 (16 · 4) | 12 (11 · 1) |
+| câu chạy nửa đầu · nửa sau đoạn | 19 · 6 | 13 · 7 | 4 · 8 |
+| câu chạy đáp vào nốt hợp âm | 17/25 | 11/19 | 11/12 |
+| nốt kết đoạn (bậc) | 5×3 · 1×3 · 7 · 2 | **1×6** · 2 · 5 · 3 | 5×3 · 2×2 · #4 |
+
+Hình ô (theo nốt đầu · giữa · cuối): bolero thứ lòng chảo 20 · đi lên 15 · phẳng 12 · vòm 11 ·
+ít nốt 10 · đi xuống 9; bolero trưởng lòng chảo 25 · lên 14 · vòm 12 · xuống 10 · ít nốt 10 · phẳng
+2; slow rock lòng chảo 17 · **xuống 15** · lên 7 · vòm 5 · ít nốt 4 · phẳng 1.
+
+Ô thưa (≤ 2 cú gõ tay phải) ở slow rock: 4/49.
+
+**Đọc ra** (từ bảng; mẫu slow rock chỉ 2 bài, 6 đoạn):
+
+- **Slow rock bám hợp âm chặt hơn bolero** cả phách mạnh lẫn nhẹ (83% · 85% so với 64% · 56% ở
+  bolero thứ) — nhưng hai điệu đọc hợp âm khác cách, chưa tách được phần do cách đọc.
+- **Nối ô liền**: khoảng một nửa chỗ nối cách ≤ 2 nửa cung (33/66 · 35/64 · 23/43). Nhảy ≥ 8 nửa
+  cung: 12/66 · 6/64 · 13/43 — chỗ nào là dời cả câu lên quãng tám thì **chưa tách**.
+- **Không lặp hình ô liền nhau**: 1/199 ô cả ba nhóm.
+- **Câu chạy đi lên** 47/57, và ở slow rock **dồn về nửa sau đoạn** (8/12) — ở bolero thì ngược lại
+  (nửa đầu 32/45).
+- **Đoạn dâng lên cuối**: tầm cuối đoạn cao hơn đầu đoạn ở cả ba nhóm (+4,0 · +0,7 · +1,5 nửa cung
+  — bolero trưởng gần như không dâng).
+- Bolero trưởng **kết về chủ âm 6/9**; giọng thứ kết bậc 5 hoặc 2 ở 4/8 (bolero) và 5/6 (slow rock).
+
+#### Đưa vào KeyTrain — bộ soạn slow rock (24/9/2026)
+
+`KeyTrain/src/reharm/style/soanSlowRockLinhNhi.ts`. Vật liệu nốt **chỉ** là 49 ô solo slow rock (Lá
+Thư, Một Cõi); mỗi ô **chuyển bậc theo gam** lên hợp âm đích (cả ô dời cùng số bậc), nốt bậc 3 · 5 ·
+7 lệch nửa cung do gam thì về nốt hợp âm. Vòng hợp âm: vòng solo thật của chị cùng giọng, slow rock
+trước; **giọng trưởng mượn vòng bolero trưởng** (chỉ hoà âm, mỗi hợp âm một ô 6/8), nốt vẫn là ô slow
+rock thứ chuyển sang gam trưởng — **biên soạn, chưa có sheet để đối chiếu**. Ô kết là cử chỉ kết thật
+(Lá Thư c7/c80 dập V, c142–c143 Picardy; Một Cõi chạy V7 rồi ngân). Ô giữa chọn bằng điểm phạt theo
+bảng trên; **hệ số phạt là của tôi, chưa đo**.
+
+Đo trên 432 câu soạn (3 loại đoạn × 2 giọng × 12 giọng × 6 lượt), so với sheet slow rock:
+
+| | sheet | bộ soạn |
+|---|---|---|
+| nốt hợp âm phách mạnh | 83% | 90–100% |
+| nốt hợp âm phách nhẹ | 85% | 83–89% |
+| ô thưa | 4/49 | 0–7% |
+| ô trống giữa đoạn | 0 | 0 |
+| ô lặp hình ô trước | 0 | 0 |
+| câu khác nhau / 6 lượt (giọng Rê) | — | 6/6 |
+
+### 13f. Bộ soạn slow rock train lại theo ý kiến nghe 16S — nắn nhịp, vòng mới, giai điệu bolero (24/9/2026)
+
+**Phần soạn Slow Rock, không liên quan Bolero.** Mã: `KeyTrain/src/reharm/style/soanSlowRockLinhNhi.ts`.
+
+**Ý người dùng** (24/9/2026): câu solo *"bị đánh nhanh lên làm lệch tiết tấu … có thể do Sheet gốc có
+chỗ bị hỏng … Bạn có quyền điều chỉnh lại sao cho giai điệu khớp với tiết tấu của điệu đang chơi"* ·
+*"Vòng hợp âm phải được đổi mới chứ ko phải giữ nguyên một vòng rồi đổi giai điệu. Bạn có hợp âm và
+giai điệu từ các sheet bolero nữa nên hãy tận dụng chúng"*.
+
+**Cách hiểu của tôi** (chỗ này là suy luận, không phải số đo): tiết tấu luôn là ô slow rock của chị;
+bolero góp **vòng hợp âm** và **đường cao độ**, đặt lên tiết tấu slow rock — không đổi nhịp bolero
+sang 12/8 như bản đã bị bác (mục 15).
+
+**1. Nắn nhịp.** Số đo: mốc tay phải lệch lưới 6/8 — Một Cõi 31 mốc / 14 trong 29 ô, Lá Thư 0 / 20 ô
+(16S). Ô hỏng dời mốc về móc đơn gần nhất; móc kép giữ khi thuộc câu chạy liền; nốt dư bỏ, bỏ nốt hoa
+mỹ trước. Kết quả: nắn **14/49 ô** (đúng 14 ô Một Cõi hỏng), bỏ **17/275 mốc** tay phải. Ô 1 dạo Một Cõi
+thành 0 · 0,5 · 1 · 1,5 · 2 · 2,5; câu chạy móc kép ô 4 giữ nguyên. Hệ số phạt bỏ nốt (0,1 · 0,35) là
+**biên soạn**.
+
+**2. Vòng mới mỗi lượt.** Ghép **đầu** một vòng solo thật cùng giọng (slow rock hoặc bolero) với **đuôi**
+một vòng thật cùng loại đoạn, nối ở hợp âm hai vòng cùng có; bỏ vòng trùng (hay cắt ngắn) một vòng có
+sẵn; mở bằng hợp âm chị từng mở; dạo/giang ≥ 5 hợp âm khác nhau, dài 7–12 ô (đo trên 23 vòng thật:
+5–10 hợp âm, 7–12 ô); nối vào cử chỉ kết bằng bước gốc chị đã đi. Kho vòng (bài chưa có hợp âm):
+thứ dạo 112 · giang 77 · kết 88; trưởng 47 · 32 · **3**. 40 lượt ở Mi: thứ 35 · 33 · 31 vòng khác nhau,
+trưởng 38 · 28 · **2** — kết trưởng nghèo vì chị chỉ có 3 đoạn kết trưởng, cả ba mở bằng vi hoặc iii.
+
+**3. Giai điệu bolero trên tiết tấu slow rock (ô lai).** Mỗi ô bolero cùng giọng (một hợp âm, ≥ 3 mốc)
+lấy đường cao độ, đặt lên tiết tấu ô slow rock có số mốc gần nhất (bỏ ≤ 3 nốt, giữ nốt đầu và cuối, hợp
+chiều đi nhất); nốt quãng tám và chồng nốt theo ô slow rock. Tỉ lệ ô lai trong câu soạn: 47–71% ô giữa
+đoạn.
+
+**Đo trên 432 câu** (3 đoạn × 2 giọng × 12 giọng × 6 lượt):
+
+| | sheet slow rock | bộ soạn |
+|---|---|---|
+| mốc lệch lưới 6/8 | 31 mốc (Một Cõi) | **0 / 20.248** |
+| mốc móc kép (không phải móc đơn) | — | 10,9% |
+| nốt hợp âm phách mạnh / nhẹ | 83% / 85% | 93–100% / 81–85% |
+| nối ô ≤ 4 nửa cung hoặc quãng 8 | 29/43 | 100% |
+| ô thưa ≤ 2 mốc | 4/49 | ≤ 5,6% |
+| ô trống · ô lặp hình ô trước | 0 · 0 | 0 · 0 |
+
+**Chưa đo:** bảng 13e còn nhiễm nhịp hỏng của Một Cõi (chưa đo lại sau khi nắn); hệ số phạt chưa đo;
+giọng trưởng vẫn là ô slow rock thứ chuyển gam — chưa có sheet slow rock trưởng để đối chiếu; kết trưởng
+chỉ 3 vòng.
+
+### 13g. Câu chạy (run) của chị trong hai sheet slow rock — cả bài, hai tay (25/9/2026)
+
+**Phần soạn Slow Rock, không liên quan Bolero.** Bộ đo: `KeyTrain/tools/chay_ngon_slow_rock.py` trên
+Lá Thư và Một Cõi, cả bài (phần hát + solo), hai tay, lưới ô 6/8 đúng của từng bài (tiếng 1–6 = móc đơn,
+tiếng 1 và 4 là phách mạnh — cách đếm của người dùng). Câu chạy = ≥ 4 cú gõ liền một tay, cách ≤ một móc
+đơn, cùng chiều, bước 1–7 nửa cung. Hợp âm đọc từ nốt đang vang (ký hiệu hai sheet này không tin được).
+
+Bắt được 108 câu; **bỏ 41 hình rải đệm tay trái** (1–5–8–10 từ tiếng 1–2, móc đơn đều, không vắt ô — đó là
+tiết tấu đệm, không phải câu chạy). Còn **67 câu chạy**:
+
+| | số câu |
+|---|---|
+| tay trái · phần hát | **42** |
+| tay trái · solo | 5 |
+| tay phải · solo | **14** |
+| tay phải · phần hát | 6 |
+| đi lên · đi xuống | 54 · 13 |
+| 4 · 5 · 6 nốt | 57 · 3 · 7 |
+| chỉ móc đơn · có móc kép | 36 · 31 |
+| vào ở tiếng 1 · 4 · 3 · 2 · 6 | 17 · **13** · 8 · 6 · 5 |
+| nốt cuối ở tiếng 4 · **7 (vạch ô sau)** · 6 · 5 | 17 · **15** · 8 · 6 |
+| bước 3 · 4 · 2 · 5 · 7 · 1 nửa cung | 55 · 41 · 40 · 39 · 21 · 21 |
+| nốt hợp âm · nốt trong gam | 215/285 · 280/285 |
+| có nốt đáp ngay sau câu · đáp là nốt hợp âm | 64/67 · **56/64** (bậc 5: 21 · bậc 1: 19) |
+| tay kia đang ngân lúc câu chạy vào | 20/67 |
+
+**Đọc ra**
+
+- **Lúc hát, câu chạy nằm ở TAY TRÁI** (42/48): tay phải là giai điệu lời. Lối điển hình là **câu dẫn bè
+  trầm nửa sau ô**: vào ở tiếng 4 (phách mạnh thứ hai), ba móc đơn, nốt thứ tư **rơi đúng vạch** vào gốc
+  hợp âm sau — Lá Thư ô 30 `D E F → G` (Dm → Em7b5), `G F E → D`; ô 45/92 `E C G → D` (C → Dm); Một Cõi
+  ô 42 `Bb G D → C` (Gsus4 → Cm), ô 21 `F C G → C`.
+- **Tay phải chạy ở đoạn solo** (14/20): rải đi lên nửa sau ô rồi đáp vạch — Lá Thư dạo ô 4 `A Bb D G → F`
+  (Gm → Bb), Một Cõi dạo ô 4 móc kép `C D F# A` (D7), ô 9 `A C D F# (A D)` vắt qua vạch.
+- **Đáp vào hợp âm sau**: 56/64 nốt đáp là nốt hợp âm của hợp âm sau, nhiều nhất bậc 5 và gốc.
+- Lúc bè trầm chạy, tay phải giữ hợp âm phía trên — đúng cử chỉ c22 (fill) người dùng đã khen.
+
+**Khuôn cho KeyTrain**: 27 câu chạy **dẫn vào hợp âm sau** (các nốt trước vạch + nốt đáp ở vạch hoặc ngay
+sau nửa phách) — 7 tay phải, 20 tay trái; sinh bằng `--sinh` vào `KeyTrain/src/reharm/style/slowRockChayNgon.ts`.
+Nhịp Một Cõi hỏng (0,375 · 0,625…) dàn đều lại khi dùng.
+
+**Linh Run slow rock mới** (`chayLinhNhi`): mỗi câu là một khuôn trên, tính ngược từ vạch. Khuôn đi liền
+bậc giữ khoảng bậc tới nốt đáp, nốt đáp = cùng bậc trên hợp âm sau; khuôn rải thì nốt trước vạch chuyển bậc
+theo gam lên hợp âm đang vang. Trên hợp âm có nốt cảm (V trong giọng thứ) nốt dẫn đi gam thứ hoà âm. Đo
+(La thứ, 6 cặp hợp âm × 27 lượt = 162 câu): nốt đáp là nốt hợp âm sau 138/162 (85%; sheet 88%), nốt dẫn
+ngoài cả gam lẫn hợp âm 0/612, 111 câu khác nhau.
+
+**Chưa đo**: khuôn chỉ từ hai bài giọng thứ — giọng trưởng là chuyển gam, chưa đối chiếu; chưa đo độ lớn
+(dynamics) của câu chạy; lối "tay phải giữ hợp âm lúc bè trầm chạy" mới dựa vào ô c22, chưa đếm trên cả bài.
+
+### 13h. Bộ soạn Slow Rock ĐÃ ĐẠT — học gì từ sheet, chọn hợp âm và nốt thế nào (25/9/2026)
+
+**Phần soạn Slow Rock, không liên quan Bolero.** Người dùng nghe duyệt ngày 25/9/2026: *"điệu Slow Rock Lá Thư
+và Slow rock hai tay Lá Thư đều đã đạt, các câu solo cũng đã đạt"*. Đường đã duyệt — **đừng đổi nốt nào** khi
+người dùng chưa yêu cầu:
+
+| đã duyệt | ở đâu (KeyTrain) |
+|---|---|
+| Điệu Slow Rock Lá thư (phiên c15–c16, điệp c41–c42, ô fill c22, hợp âm chia đôi thì rải) | `style/styleLibrary/linhNhiSlowRock.ts` |
+| Điệu Slow Rock Lá thư hai tay (sóng rải vắt hai tay) | cùng file, family `slow-rock-la-thu-hai-tay` |
+| Câu solo dạo · giang · kết | `style/soanSlowRockLinhNhi.ts` |
+
+Mục này viết để **giải thích được** bộ soạn: sau này người dùng muốn dựng chức năng "giải thích vì sao chọn hợp
+âm này, nốt này" thì đọc từ đây. Chỗ nào là **số đo**, chỗ nào là **biên soạn của Claude**, chỗ nào là **ý người
+dùng** đều ghi rõ.
+
+#### 1. Đã phân tích được gì từ hai sheet slow rock (số đo)
+
+Nguồn: Lá Thư Trần Thế (Rê thứ), Một Cõi Đi Về (Sol thứ). Bộ đo trong `KeyTrain/tools/`.
+
+1. **Nhịp thật.** Lá Thư ghi 4/4 nhưng là 12/8: bass rơi cùng pha chu kỳ 6 móc đơn ở 75/98 lần (13b). Một Cõi ghi
+   đúng 6/8 (bass đầu ô 72/113). Mọi phép đo sau đều đo trên **ô 6/8 đúng của từng bài** — đo trên ô 4/4 in sẵn
+   thì con số nào cũng lệch.
+2. **Ký hiệu hợp âm không tin được.** Gốc ký hiệu khớp nốt thật 6/12 (Lá Thư) và 4/13 (Một Cõi) → hợp âm đọc tay
+   từ tay trái, từng ô (13c).
+3. **Lúc hát, tay phải là giai điệu lời** — phần đệm là tay trái rải 1–3–5–8–5–3 sáu móc đơn (13b). Hai tay cùng
+   đệm chỉ ở chỗ lời nghỉ (c22: tay phải giữ hợp âm, bè trầm chạy).
+4. **Vòng hợp âm câu solo** (13c): giọng thứ đi về ii°→V7 ở 4/5 bài; một hợp âm mỗi ô 6/8 (48/49 ô solo).
+5. **Quy luật soạn nốt ở câu solo** (13e, 6 đoạn, 49 ô):
+   - nốt hợp âm ở phách mạnh (tiếng 1, 4) **67/81 = 83%**, ở phách nhẹ **165/194 = 85%**;
+   - nốt đầu ô cách nốt cuối ô trước ≤ 2 nửa cung ở **23/43** chỗ nối — câu đi liền;
+   - **0/49** ô lặp hình ô ngay trước; ô nghỉ ≥ nửa ô **1/49**; ô thưa ≤ 2 nốt **4/49**;
+   - câu chạy dồn về nửa sau đoạn (8/12), đi lên 11/12; tầm cuối đoạn cao hơn đầu đoạn;
+   - tay phải nhân quãng tám giai điệu là thủ pháp chính (45% cú hai nốt); tay trái solo 3 cú/ô.
+6. **Bản ký âm Một Cõi hỏng nhịp**: 31 mốc lệch lưới 6/8 trong 14/29 ô; Lá Thư 0/20 (16S). Người dùng nghe ra "bóp
+   nhanh" ở đúng các ô ấy.
+7. **Câu chạy** (13g, cả bài, hai tay): 67 câu; lúc hát ở tay trái 42/48 — câu dẫn bè trầm từ tiếng 4, nốt thứ tư
+   rơi đúng vạch vào gốc hợp âm sau; đáp nốt hợp âm của hợp âm sau 56/64.
+
+#### 2. Những điểm then chốt làm câu solo hay (biên soạn của Claude, dựa trên số đo ở trên)
+
+1. **Mọi nốt là nốt của chị.** Vật liệu là 49 ô solo slow rock thật (+ đường cao độ của ô bolero cùng giọng đặt
+   lên tiết tấu slow rock). Không ô nào sinh bằng xúc xắc; mỗi ô ghi rõ "ô số mấy của đoạn nào, dời mấy bậc".
+2. **Tiết tấu luôn của slow rock.** Người dùng bác việc đổi nhịp câu bolero sang 12/8 ("dồn ép"). Bolero chỉ góp
+   vòng hợp âm và đường cao độ; tiết tấu lấy từ ô slow rock. Ô Một Cõi hỏng nhịp được nắn về lưới 6/8.
+3. **Vòng hợp âm mới mỗi lượt, nhưng ghép từ vòng thật của chị** — nên vừa mới vừa đúng "giọng" hoà âm của chị.
+4. **Chọn ô bằng quy luật đo được** (mục 5 ở trên) — câu liền, bám hợp âm, không lặp, không ngắt quãng.
+5. **Kết bằng cử chỉ kết thật của chị** (ô dập V7 Lá Thư + cú dặm V7 theo ý người dùng #70; ô ngân V Một Cõi; kết
+   Picardy Isus4 → I của Lá Thư) — đầu câu và giữa câu mới, còn chỗ khép câu thì đúng lối chị.
+6. **Đổi theo lượt có kiểm soát**: ô mở xoay qua mọi ô mở hợp hợp âm, ô giữa xoay trong nhóm gần tốt nhất — lượt
+   liền nhau không mở trùng (0/19), mà không bốc thăm.
+
+#### 3. Chọn hợp âm thế nào
+
+**a) Câu solo (dạo · giang · kết) — "ghép vòng thật"** (`vongMoi`):
+
+1. Lấy mọi vòng solo thật của chị **cùng giọng** (thứ: 2 bài slow rock + 3 bài bolero; trưởng: 3 bài bolero), trải
+   mỗi hợp âm thành một ô 6/8.
+2. Vòng mới = **khúc đầu** của vòng A + **khúc đuôi** của vòng B **cùng loại đoạn**, nối ở một hợp âm hai vòng cùng
+   có (cùng bậc, cùng chất). Ví dụ: đầu Đừng Xa + đuôi Lá Thư.
+3. Giữ lại vòng nào (giới hạn đo trên 23 vòng thật): dạo/giang dài 7–12 ô, ≥ 5 hợp âm khác nhau (kết: 5–12 ô, ≥ 3);
+   mở bằng hợp âm chị từng mở loại đoạn ấy; **không trùng và không là khúc đầu** của một vòng có sẵn (so sau khi
+   gộp hợp âm đứng liền); không để một hợp âm đứng ba ô liền; bước vào cử chỉ kết phải là bước gốc chị đã đi.
+4. Xếp theo **độ khớp vốn hợp âm của bài** (bao nhiêu hợp âm của vòng có trong bài) — lấy nhóm cách tốt nhất ≤ 0,2;
+   lượt phát xoay trong nhóm ấy.
+5. Mấy ô cuối nhường cho cử chỉ kết thật, mang hợp âm của chính nó (V7, V, Isus4 → I, i).
+
+**b) Màu hợp âm cho phần hát (nút màu Linh Nhi)** — số đo 13d: giọng trưởng chị để trơn gần hết, chỉ II7 (át
+của V) là màu đứng vững; giọng thứ: V7, ii° thành m7b5, I7 kéo về iv; lên điệp khúc ♭VI thành maj7, iv thành add9.
+
+#### 4. Chọn nốt thế nào — có dùng scale không?
+
+**Có dùng scale, nhưng làm THƯỚC ĐO BẬC, không làm nguồn nốt.** Nốt không bao giờ được "rút ra từ scale"; nốt
+luôn là nốt của một ô thật, và scale chỉ dùng để **dời ô ấy sang hợp âm khác** cho đúng giọng.
+
+1. **Chuyển bậc theo gam (nhắc tiến).** Ô nguồn đứng trên hợp âm gốc X (vd iv), ô đích là hợp âm Y (vd ♭VI). Đếm
+   khoảng cách **theo bậc gam** từ gốc X tới gốc Y (lấy đường ngắn, trong khoảng −3…+3 bậc), rồi dời **mọi nốt** của
+   ô đi đúng bấy nhiêu bậc. Gam dùng: thứ tự nhiên `0 2 3 5 7 8 10` hoặc trưởng `0 2 4 5 7 9 11`. Dời theo bậc chứ
+   không theo nửa cung, nên hình giai điệu giữ nguyên mà nốt vẫn nằm trong giọng — như cách nhạc sĩ nhắc một câu
+   lên bậc khác.
+2. **Hợp âm thắng gam.** Nốt nào rơi vào bậc 3 · 5 · 7 của hợp âm đích mà gam cho lệch nửa cung thì về đúng nốt hợp
+   âm: vd V trưởng trong giọng thứ (E7 trong La thứ cần G#, gam tự nhiên cho G), hay II7 trong giọng trưởng.
+3. **Nốt hoá của chị** (nốt lướt nửa cung) chỉ giữ khi ô không bị dời bậc và cùng giọng — tức nó vẫn đứng đúng
+   chức năng cũ. Dời bậc thì nốt hoá trở về nốt gam.
+4. **Chọn quãng tám** cho cả ô (−1 · 0 · +1 quãng tám), trong tầm 48–103.
+5. **Chấm điểm từng ứng viên** (ô nào × quãng tám nào) theo quy luật đo, điểm phạt thấp thì thắng:
+   | quy luật (số đo) | phạt (biên soạn) |
+   |---|---|
+   | nối ô: ≤ 2 nửa cung · ≤ 4 · đúng quãng tám · ≤ 7 · < 12 · xa hơn (23/43 chỗ nối ≤ 2) | 0 · 1 · 1,5 · 3 · 4 · 5 |
+   | lệch khỏi đường tầm cao của đoạn mẫu | 0,15 mỗi nửa cung |
+   | nốt không phải nốt hợp âm ở phách mạnh · phách nhẹ (83% · 85%) | 2 · 0,5 mỗi nốt |
+   | bậc ba đứng trên hợp âm sus (nghe phô) | 2 mỗi cú |
+   | lặp hình ô ngay trước (0/49) | 4 |
+   | nghỉ ≥ nửa ô giữa đoạn (1/49) | 3 |
+   | ô thưa ≤ 2 nốt (4/49) | 1 |
+   | câu chạy ở nửa đầu đoạn (chạy dồn nửa sau 8/12) | 0,5 |
+   | ô mở đặt giữa câu, hay ô giữa đặt đầu câu | 1 |
+   Hệ số phạt là **biên soạn**; các con số trong ngoặc là **số đo** đứng sau từng luật.
+6. **Không dùng**: ngũ cung, blues, thang chạy tự sinh, hay bốc ngẫu nhiên. Hàm băm không có mặt; "đổi theo lượt"
+   là xoay có thứ tự trong nhóm ứng viên gần tốt nhất.
+7. **Tay trái** của ô solo đi theo ô ấy, dời cùng số bậc (ô lai bolero thì lấy tay trái của ô slow rock làm khuôn).
+8. **Riêng câu chạy (Linh Run)**: khuôn là câu chạy dẫn vào hợp âm sau (13g), tính ngược từ vạch; câu liền bậc giữ
+   khoảng bậc tới nốt đáp, câu rải dời bậc theo hợp âm đang vang; trên V của giọng thứ nốt dẫn đi **gam thứ hoà âm**
+   `0 2 3 5 7 8 11`.
+
+**Ví dụ một ô** (bài La thứ, ô đích là Dm = iv): lấy ô 5 dạo Lá Thư — nguồn Rê thứ, hợp âm Gm (cũng là iv), tay
+phải `G5 (ngân) · A4 Bb4 D5 G5` = gốc rồi chạy lên bậc 2–3–5–1. Gốc nguồn và gốc đích cùng bậc iv → dời 0 bậc, chỉ
+chuyển giọng Rê → La: thành `D5 · E4 F4 A4 D5` trên Dm. Tiếng 1 (D, gốc) và tiếng 4 (F, bậc 3) là nốt hợp âm → không
+bị phạt phách mạnh; ô trước kết ở C5 hay E5 (cách ≤ 2 nửa cung) thì chỗ nối cũng không bị phạt → ô này vào nhóm
+tốt nhất. Cùng ô ấy đặt lên E7 (V) thì dời +1 bậc, và nốt bậc 3 của E7 về G# (hợp âm thắng gam).
+
+#### 5. Dữ liệu để giải thích — đã có sẵn
+
+Mỗi câu soạn ra có `compositionSources`, **mỗi ô một dòng**:
+- `harmony`: vòng ghép từ đâu — vd `vòng dung-xa-em-dem-nay-intro hợp âm 1–7 + la-thu-tran-the-intro từ hợp âm 9`,
+  hoặc `kết la-thu-tran-the-intro`;
+- `melody`: giai điệu từ ô nào, dời mấy bậc, lên xuống mấy quãng tám — vd `rung-la-thap-outro ô 3, chuyển -3 bậc,
+  +1 quãng tám`;
+- `rhythm`: tiết tấu từ ô slow rock nào, có nắn nhịp không;
+- `donorGenre`: `slow rock` hay `bolero (giai điệu) · slow rock (tiết tấu)`.
+
+**Chưa có** (cần thêm khi dựng chức năng giải thích): nhãn cho **từng nốt** (nốt hợp âm / nốt gam / nốt hoá giữ lại /
+nốt đã nắn về hợp âm), và điểm phạt của ô được chọn so với ô thua. Hai thứ này tính được ngay trong `datO` và vòng
+chấm điểm, chỉ chưa ghi ra.
+
+#### 6. Đệm hai tay (nút Slow Rock Lá thư hai tay) — biên soạn đã duyệt
+
+Sóng rải móc đơn vắt hai tay, mở rộng rải c15 của chị ra hai quãng tám: tay trái tiếng 1 · 2 · 3 = gốc (ngân cả ô,
+nhấn mạnh nhất) · 5 · 8; tay phải tiếng 4 · 5 · 6 = 10 · 12 · 10 (ô 1) rồi 12 · 10 · 8 (ô 2). Phách mạnh 1 và 4 theo
+cách đếm của người dùng (6 phách móc đơn một ô). Điệp: gốc kèm quãng tám, đỉnh sóng kèm quãng tám trên. Không lấy từ
+sheet (lúc hát chị chỉ rải tay trái) — **ý người dùng** + biên soạn của Claude.
+
+**Chưa đo / chưa làm**: giọng trưởng slow rock chưa có sheet để đối chiếu (đang dời gam từ ô giọng thứ); hệ số phạt
+chưa đo; lực đánh câu solo cố định (tay phải 76, tay trái 62); Linh Run và mốc chuyển đoạn chưa được người dùng
+duyệt riêng.
+
 ---
 
 ## 14. Luật đã bị số đo lật — đừng khôi phục
@@ -1222,6 +1759,11 @@ Cái từng bị bác là con số 100% và cách đo, không phải bản thân
 
 Ghi riêng để đừng lẫn với thứ đo được:
 
+- **Câu solo chỉ lấy vật liệu từ sheet CÙNG ĐIỆU** (24/9/2026, sau khi nghe câu bolero đổi sang
+  12/8 trong Slow Rock Lá thư): *"đừng lấy những phần từ câu solo của điệu khác rồi dồn ép vào,
+  nghe quá tệ"* · *"nếu muốn lấy các phần từ câu solo trong sheet khác rồi điều chỉnh … thì phải
+  lấy từ sheet nhạc cùng điệu"*. Quy luật soạn nốt thì học từ **mọi** sheet (13e); câu phải
+  *"ko bị phô, bị trùng lặp hoặc ngắt quãng"*.
 - Câu dạo phải **xen kẽ ô thưa với ô dày**.
 - Hợp âm hút cuối câu dạo phải **tắt trước chỗ ca sĩ vào**.
 - Khi train hay đổi một lối chơi, **dựng sau một ô tick nghe thử** thay vì thay thẳng
@@ -1257,6 +1799,17 @@ kiến mới. Số `#` là số câu trong sổ thô — người dùng nói "c�
 | **272** | 2026-09-07 03:38 | *(chưa đặt tên)* | **La thứ** | **Chưa ổn** | *"có nốt gãy và phô"* · **giang** |
 | **278** | 2026-09-07 03:39 | *(chưa đặt tên)* | **La thứ** | **Chưa ổn** | *"Có nốt gãy và phô"* · **giang** |
 | **290** | 2026-09-07 03:50 | *(chưa đặt tên)* | **La thứ** | **Chưa ổn** | *"Có mấy chỗ bị gãy nốt (vd như ở Fadd2) hãy so sánh khắt khe với luật soạn nốt và các giang tấu sheet thứ để điều chỉnh"* · **giang** |
+| **329** | 2026-09-08 08:13 | *(chưa đặt tên)* | **La thứ** | **Chưa ổn** | *"Nốt đầu cách qua lâu mới tới nốt kế tiếp"* · **intro** Bolero Tuấn · 9 ô |
+| **333** | 2026-09-08 08:14 | *(chưa đặt tên)* | **La thứ** | **Chưa ổn** | *"Nghe giai điệu còn gãy quá"* · *"hãy đối chiếu và so sánh khắt khe câu này với các câu solo trong tất cả các sheet giọng thứ để soạn lại"* · **intro** |
+| **337** | 2026-09-08 08:36 | *(chưa đặt tên)* | **La thứ** | **Chưa ổn** | *"các chỗ chuyển từ hợp âm thứ qua các hợp âm trưởng còn gãy nốt vì các hợp âm trưởng chơi còn tươi sáng quá, phải man mác buồn hơn. Đối chiếu khắt khe với các sheet thứ để chỉnh sửa bộ soạn lại"* · **intro** Bolero Tuấn · mẫu `Am G F C…` |
+| **373** | 2026-09-08 12:26 | *Để Nhớ Một Thời Ta Đã Yêu* | **La thứ** | **Chưa ổn** | *"câu còn quá tươi sáng hãy học từ các câu solo sheet thứ để soạn ra màu man mác buồn của giọng thứ"* · **intro** Bolero Tuấn |
+| **386** | 2026-09-08 13:24 | *Để Nhớ Một Thời Ta Đã Yêu* | **La thứ** | **Đã ổn** | *(mẫu — không lời bình)* · **intro** Bolero Tuấn |
+| **393** | 2026-09-08 13:26 | *Để Nhớ Một Thời Ta Đã Yêu* | **La thứ** | **Chưa ổn** | *"đối chiếu với các câu intro và giang tấu trong các sheet giọng thứ để điều chỉnh phần đầu câu này còn tươi sáng quá"* · **intro** Bolero Tuấn |
+| **395** | 2026-09-08 13:35 | *Để Nhớ Một Thời Ta Đã Yêu* | **La thứ** | **Chưa ổn** | *"tiết tấu phần đầu hay nên giữ lại nhưng nốt giai điệu ở phần sau (từ E) bị lặp và lủng củng, hãy đối chiếu với các câu solo sheet thứ để sửa lại"* · **intro** Bolero Tuấn |
+| **406** | 2026-09-08 13:42 | *Để Nhớ Một Thời Ta Đã Yêu* | **La thứ** | **Đã ổn** | *(mẫu — không lời bình)* · **intro** Bolero Tuấn |
+| **411** | 2026-09-08 14:01 | *Để Nhớ Một Thời Ta Đã Yêu* | **La thứ** | **Chưa ổn** | *"Ở hợp âm E đầu tiên (sau Am) tuy là hợp âm trưởng nhưng các nốt giai điệu lại nghe rất đúng màu giọng thứ, còn hai hợp âm trưởng đầu vòng là G và C thì nghe nốt giai điệu bị lệch và phô quá. Hãy đối chiếu với các câu solo giọng thứ và sửa lại"* · **intro** Bolero Tuấn |
+| **412** | 2026-09-08 14:07 | *Để Nhớ Một Thời Ta Đã Yêu* | **La thứ** | **Chưa ổn** | *"cách đánh ở hợp âm Am đầu tiên khá hay nên giữ lại, sao các ô sau lại đánh thưa quá vậy, hãy đối chiếu với các câu solo trong sheets thứ và sửa lại"* · **intro** Bolero Tuấn |
+| **426** | 2026-09-08 14:26 | *Để Nhớ Một Thời Ta Đã Yêu* | **La thứ** | **Chưa ổn** | *"câu này đã đạt màu giọng thứ rồi, chỉ có chỗ Dm đầu tiên bị nghỉ hơi lâu gây ảnh hưởng tiết tấu. Giữ câu này lại và đối chiếu với các sheet thứ để training thêm"* · **intro** Bolero Tuấn |
 
 **Mẫu Đã ổn — tách giọng, học theo đúng cột. Đừng trộn trưởng vào thứ.**
 
@@ -1264,6 +1817,7 @@ kiến mới. Số `#` là số câu trong sổ thô — người dùng nói "c�
 |---|---|---|---|
 | **trưởng** | **#157 · #160 · #163** | *Hoa Trinh Nữ* | 3 |
 | **thứ** | **#182** | *(chưa đặt tên)* | 1 |
+| **thứ** | **#386 · #406** | *Để Nhớ Một Thời Ta Đã Yêu* | 2 · Bolero Tuấn |
 
 > **Đã ổn** → bộ ba làm mẫu, xếp vào **16a trưởng** hoặc **16b thứ**. **Chưa ổn** → bộ ba chỉ khi có lời. Câu **#3** chỉ dòng bảng.
 
@@ -1565,6 +2119,10 @@ Tai chấp nhận (**ý người dùng**, n=3 cùng bài). LH một mình 41% �
 
 Học câu thứ mới thì đối chiếu đây. **Không** lấy #157/#160/#163.
 
+| # | lúc nghe | bài | giọng | chấm | ý kiến |
+|---|---|---|---|---|---|
+| #544 | 14:57 | Để Nhớ Một Thời Ta Đã Yêu | A thứ | Đã ổn | — (mẫu) |
+
 #### Câu #182 — bộ ba *(mẫu Đã ổn, giọng thứ)*
 
 **Vòng** — La thứ, 9 ô, `bolero-linh-nhi-2`:
@@ -1598,6 +2156,79 @@ Toàn bậc giọng thứ, đóng V. Khác mẫu Đừng Xa (i–♭VII–♭VI)
 | tâm RH | 67,9 | **73,2** (n=4 bài / 239 nốt) |
 
 Tai chấp nhận (**ý người dùng**, n=1 thứ). RH dày hơn sheet; LH mỏng; tâm thấp ~5 nửa cung. Ô 3 rải F–A–C; ô 6 rải C–E–A. F#5 ô 4 trên G9 = bậc 7 gam (nốt cảm / 9 của G) — trong GAM_THU. **Chưa xử** — mẫu, n=1.
+
+#### Câu #386 — bộ ba *(mẫu Đã ổn, Bolero Tuấn, giọng thứ)*
+
+**Vòng**
+
+```
+Am  G     C     Dm  F     E  Am  E
+i   ♭VII  ♭III  iv  ♭VI   V  i   V
+```
+
+**Nốt**
+
+```
+ô1 P( 8): C5 A4 G4 E4 D4 E4 E4 C5                    T: 2
+ô2 P( 6): E5 E5 D5 D4 B4 G4                          T: 2
+ô3 P( 7): E5 D5 E5 E4 C5 D4 E4                       T: 6
+ô4 P( 6): F4 A4 D5 D4 C5 F4                          T: 6
+ô5 P( 4): A4 A4 A4 A4                                T: 3
+ô6 P(14): B4 E4 B4 D5 E4 Ab4 E4 E5 E5 E4 E5 E5 E4 Ab4 T: 2
+ô7 P( 9): A4 D5 E4 A4 C5 A4 A4 D5 A4                 T: 6
+ô8 P( 6): E5 D5 D5 E4 D5 E5                          T: 2
+ô9 P( 2): E3 Ab3                                     T: 1
+```
+
+RH/ô **6,9** (= sheet 6,9) · LH/ô 3,3 · LH một mình **40%** (sheet 41%) · tâm 69,1.
+
+**Ý người dùng:** tai ổn (n=1 Tuấn thứ). Số đo: mật độ RH và LH một mình khớp sheet dạo thứ.
+
+#### Câu #406 — bộ ba *(mẫu Đã ổn, Bolero Tuấn, giọng thứ)*
+
+```
+Am  C     Dm  Bm  E  Am  C     E
+i   ♭III  iv  ii  V  i   ♭III  V
+```
+
+```
+ô1 P(12): C4 E4 A4 C4 E4 A4 C4 E4 A4 C4 E4 A4        T: 3
+ô2 P( 6): E5 D5 C5 A4 G4 E4                          T: 2
+ô3 P( 6): C5 F4 D4 A4 D5 C5                          T: 6
+ô4 P(12): D4 F#4 B4 D4 F#4 B4 D4 F#4 B4 D4 F#4 B4    T: 3
+ô5 P( 9): Ab4 E4 Ab4 D4 E4 B4 D5 Ab4 E4              T: 6
+ô6 P( 8): A4 E4 A4 E4 C5 E5 A4 E4                    T: 6
+ô7 P(12): C4 E4 G4 C4 E4 G4 C4 E4 G4 C4 E4 G4        T: 3
+ô8 P( 7): B4 E4 Ab4 E4 B4 E4 Ab4                     T: 6
+ô9 P( 2): E3 Ab3                                     T: 1
+```
+
+RH/ô 8,2 · LH một mình 50% · tâm 66,2. **Ý người dùng:** tai ổn.
+
+#### Câu #544 — bộ ba *(mẫu Đã ổn, Bolero Tuấn, giọng thứ)*
+
+```
+Am  Dm  Am  Dm  Am  Dm  Am  E
+i   iv  i   iv  i   iv  i   V
+```
+
+```
+ô1 P( 7): D5 C5 G5 E5 C5 E4 C5                    T: 1
+ô2 P(12): D4 F4 A4 D4 F4 A4 D4 F4 A4 D4 F4 A4     T: 5
+ô3 P( 7): D5 C5 B4 G5 E5 C5 E4                    T: 3
+ô4 P(11): E4 E4 D4 E4 F4 D4 G4 F4 F4 E4 D4        T: 6
+ô5 P(12): C4 E4 A4 C4 E4 A4 C4 E4 A4 C4 E4 A4     T: 5
+ô6 P(10): C5 C5 F4 A4 C5 D4 E5 D5 E5 G5           T: 6
+ô7 P(10): D5 C5 B4 E4 C5 B4 G5 D5 E5 C5           T: 6
+ô8 P( 7): B4 B4 C5 E4 B4 Ab4 Ab4                  T: 2
+ô9 P( 2): E3 Ab3                                   T: 1
+```
+
+RH/ô **8,7** · LH/ô 3,9 · LH một mình **51%** · tâm RH **68,1**.
+
+**Ý người dùng:** Đã ổn, không kèm lời bình. Đây là mẫu mới quan trọng: vòng i–iv rất
+đơn giản vẫn được tai chấp nhận; ô 1 là giai điệu, ô 2 chuyển sang nắm Pùng-Pắp. So với
+#538 cùng vòng, độ hay nằm ở chính đường nốt và cách nối ô, không nằm ở tên hợp âm.
 
 #### Câu #191 — bộ ba *(Chưa ổn, Bolero Tuấn, giọng thứ)* — **không phải mẫu**
 
@@ -1637,6 +2268,448 @@ i   ♭VII  ♭VI   ♭III  iv  i   V  V
 **Số đo so sheet intro thứ (n=7 bài, 3 thầy):** sheet **0** chuỗi lên ≥5 nốt; #191 có **1** (C–D–E–F–G). Lặp sheet 4–16%; #191 **1%**. 0/71 bậc 3 trưởng. Tai chê tươi vì chuỗi lên + rải 1-3-5 G/F.
 
 **Đã train 7/9/2026 (sau khi người dùng hỏi):** phạt ô chuỗi lên ≥5 và ô rải trưởng lặp; intro/giang thứ Tuấn chỉ câu chạy **4 nốt xuống** (không 10 nốt lên). n=1 tai → hỏi rồi mới sửa.
+
+### 16d. Intro Bolero Tuấn — Chưa ổn (8/9/2026)
+
+Cùng vòng 8 ô + hút, **không** mẫu Đã ổn. `hopAm` có màu (`Am7 F Dm7 G7 C E7`) — không phải mẫu tick sheet thứ (Am G F…).
+
+```
+Am7  F     Dm7  G7    C     E7  Am7  E7
+i    ♭VI   iv   ♭VII  ♭III  V   i    V
+```
+
+| | #329 | #333 | dạo thứ sheet |
+|---|---|---|---|
+| RH nốt/ô | 5,2 | 4,8 | **6,9** |
+| LH mốc/ô | 3,7 | 3,8 | **4,6** |
+| LH một mình | 58% | 76% | **41%** |
+| tâm RH | 67,9 | 69,0 | **73,2** |
+
+**Ý người dùng:** #329 nốt đầu cách lâu; #333 còn gãy, xin so sheet thứ.
+
+**Đã train 8/9/2026:** sheet intro thứ n=8, ô1 **≥6 nốt**, gap 0,25–1,0. #329 ô1 n=2 gap=2. Phạt ô đầu <6 nốt / gap≥1,5; ô giữa <3 nốt. n=2 tai.
+
+**#337** vòng mẫu `Am G F C Dm Am E` (tick sheet thứ). Ô 2 G / 3 F / 4 C = trưởng trong bài thứ.
+
+#### #337 — trưởng trong bài thứ còn tươi
+
+```
+ô1 P( 8): C5 A4 G4 E4 D4 E5 C5 E4                    T: 2
+ô2 P( 6): E4 B4 D4 D4 G4 E4                          T: 2
+ô3 P( 1): D4                                         T: 3
+ô4 P( 3): D4 E4 E4                                   T: 6
+ô5 P( 9): A4 D4 D4 A4 D4 D4 C5 D4 A4                 T: 2
+ô6 P(11): C5 D5 E5 G5 C5 E4 A4 C5 A4 A4 G5           T: 2
+ô7 P( 8): D4 B4 B4 B4 E4 Ab4 E4 D4                   T: 6
+ô8 P( 6): E5 E4 E4 E5 D5 Ab4                         T: 6
+ô9 P( 2): E3 Ab3                                     T: 1
+```
+
+RH/ô 6,0 · LH/ô 3,3 · LH một mình 53% · tâm 67,3.
+
+**Đã train:** phạt ô ≥70% nốt 1-3-5 của hợp âm trưởng khi giọng thứ (`gopThay`). n=1 tai.
+
+Số đo: RH **mỏng hơn** sheet (5,2 / 4,8 vs 6,9) — khớp tai «cách lâu» ở ô 1 #329 (`E5 E4` rồi nghỉ). Tâm thấp ~4–5 nửa cung. LH một mình #333 **76%** vs sheet 41% — hai tay rời hơn, không phải dính.
+
+#### #329 — nốt đầu cách lâu
+
+```
+ô1 P( 2): E5 E4                                      T: 2
+ô2 P( 5): C5 A4 G4 F4 D4                             T: 2
+ô3 P( 7): A4 A4 A4 A4 D4 A4 A4                       T: 6
+ô4 P(10): D4 D5 D4 D5 D4 B4 G5 G5 A4 G4              T: 2
+ô5 P( 6): E5 G5 A4 E4 E5 G4                          T: 6
+ô6 P( 3): D4 E4 E4                                   T: 6
+ô7 P( 6): A4 D4 E4 A4 C5 A4                          T: 2
+ô8 P( 6): B4 B4 E4 Ab4 F#4 Ab4                       T: 6
+ô9 P( 2): E3 Ab3                                     T: 1
+```
+
+#### #333 — còn gãy; xin so sheet thứ
+
+```
+ô1 P( 5): E5 D5 C5 A4 G4                             T: 2
+ô2 P( 2): C5 C5                                      T: 3
+ô3 P( 7): A4 A4 A4 A4 D4 A4 A4                       T: 2
+ô4 P( 4): B4 D4 D5 G4                                T: 6
+ô5 P( 3): D4 E4 E4                                   T: 6
+ô6 P(12): D5 Ab4 B4 E5 E5 E4 E5 E5 E5 D5 Ab4 B4      T: 2
+ô7 P( 2): E5 E4                                      T: 6
+ô8 P( 6): B4 B4 E4 Ab4 F#4 Ab4                       T: 6
+ô9 P( 2): E3 Ab3                                     T: 1
+```
+
+#### #373 — còn tươi; xin học sheet thứ
+
+```
+Am  G     F     C     Dm  Am  E   E
+i   ♭VII  ♭VI   ♭III  iv  i   V   V
+```
+
+```
+ô1 P( 9): A4 E4 A4 G4 E4 D4 E4 A4 E4                 T: 2
+ô2 P( 4): A4 A4 D4 F4                                T: 2
+ô3 P( 2): C5 C5                                      T: 3
+ô4 P( 8): C5 D5 E5 G5 E4 D5 E5 E4                    T: 6
+ô5 P( 9): D4 C5 D4 D5 D4 D4 A4 D4 D5                 T: 2
+ô6 P( 9): C5 C5 C5 C5 E4 C5 C5 C5 C5                 T: 2
+ô7 P( 8): Ab4 Ab4 Ab4 D4 E4 B4 B4 D5                 T: 6
+ô8 P( 1): E4                                         T: 6
+ô9 P( 2): E3 Ab3                                     T: 1
+```
+
+RH/ô 5,8 · LH/ô 3,3 · LH một mình 57% · tâm 68,0.
+
+**Ý người dùng:** cùng «tươi» với #191 #337, sau khi đã ghép tiết tấu từ thứ Đã ổn ≥#207. Chưa train thêm — n=1 tai. Ô4 C: C–E–G trên ♭III.
+
+#### #393 — đầu câu còn tươi
+
+```
+Am  G     C     Am  E  Am  G     E
+i   ♭VII  ♭III  i   V  i   ♭VII  V
+```
+
+```
+ô1 P( 8): C5 G5 E5 D5 C5 A4 E4 C5                    T: 2
+ô2 P( 6): E5 E4 E5 D4 A4 E5                          T: 2
+ô3 P( 8): G5 E5 C5 E4 G5 E5 G5 E5                    T: 2
+ô4 P(12): E5 C5 C5 E5 C5 C5 E4 E5 C5 C5 E5 C5        T: 6
+ô5 P(13): B4 E4 E4 E4 Ab4 B4 E4 B4 E4 E4 Ab4 E4 B4   T: 2
+ô6 P( 4): C5 A4 A4 E4                                T: 2
+ô7 P( 2): A4 D4                                      T: 6
+ô8 P(12): B4 E4 Ab4 B4 E4 Ab4 E4 B4 E4 Ab4 B4 E4     T: 2
+ô9 P( 2): E3 Ab3                                     T: 1
+```
+
+RH/ô 7,4 · LH/ô 2,8 · LH một mình 40% · tâm 69,6.
+
+**Ý người dùng:** «phần đầu còn tươi» — cùng #191 #337 #373. Ô1 C5–G5–E5; ô3 G–E–C trên ♭III. Đã train ô1 ♭III.
+
+#### #395 — sau E lặp / lủng củng; giữ tiết tấu đầu
+
+```
+Am  E  Dm  Am  G     Dm  Am  E
+i   V  iv  i   ♭VII  iv  i   V
+```
+
+```
+ô1 P( 9): C5 A4 C5 A4 G4 E4 D4 D4 C5                 T: 2
+ô2 P( 6): B4 E4 Ab4 E4 B4 B4                         T: 2
+ô3 P( 8): F4 A4 D5 D4 C5 F4 A4 D5                    T: 6
+ô4 P(10): C5 G5 E5 C5 E4 E4 C5 G5 E5 C5              T: 6
+ô5 P(11): B4 E4 E4 A4 B4 D4 B4 E4 E4 A4 B4           T: 2
+ô6 P( 6): D4 A4 D4 D4 D4 D4                          T: 2
+ô7 P( 2): A4 E4                                      T: 6
+ô8 P( 3): E4 E5 D4                                   T: 2
+ô9 P( 2): E3 Ab3                                     T: 1
+```
+
+RH/ô 6,3 · LH một mình 55% · tâm 67,6.
+
+**Ý người dùng:** giữ tiết tấu đầu; từ ô2 (E) nốt lặp/lủng. Số đo: ô6 lap 60% (4×D), ô7 n=2. Sheet intro thứ ô2+ lap tb **9,4%** (n=56 ô), 0 ô giữa n<3.
+
+#### #411 — G/C phô; E (V) đúng màu thứ
+
+```
+Am  G     C     Am  E  Am  Dm  E
+i   ♭VII  ♭III  i   V  i   iv  V
+```
+
+```
+ô1 P( 9): C5 A4 G4 E4 D4 E4 E4 C5 D4                 T: 2
+ô2 P( 5): B4 G5 G5 D4 E5                             T: 2
+ô3 P( 6): E5 G5 A4 E4 E5 G4                          T: 6
+ô4 P( 4): E5 E4 C5 C5                                T: 6
+ô5 P( 5): B4 E4 E4 Ab4 B4                           T: 2
+ô6 P( 4): A4 C5 E4 C5                                T: 6
+ô7 P( 5): F4 D4 A4 D5 C5                             T: 6
+ô8 P( 6): E5 E4 E4 E5 D5 Ab4                         T: 2
+ô9 P( 2): E3 Ab3                                     T: 1
+```
+
+RH/ô 5,1 · LH một mình 48% · tâm 68,8.
+
+**Ý người dùng:** E (V) đúng màu thứ (Ab = nốt cảm); G/C rải 1-3-5 phô. Sheet ♭VII rai 50–67%, ♭III 57–75% (n=5 intro LN). #411 G 80% · C 83%.
+
+#### #412 — ô1 ổn; ô sau thưa
+
+```
+Dm  F     E  Am  Dm  E  Am  E
+iv  ♭VI   V  i   iv  V  i   V
+```
+
+```
+ô1 P(13): C5 D5 A4 D5 C5 D5 C5 B4 A4 G4 G5 A4 C5     T: 2
+ô2 P( 3): C5 C5 C5                                   T: 3
+ô3 P( 3): D5 E4 E5                                   T: 2
+ô4 P( 4): E5 C5 E4 E4                                T: 6
+ô5 P( 5): A4 A4 D4 C5 A4                             T: 6
+ô6 P( 6): B4 B4 E4 Ab4 F#4 Ab4                       T: 2
+ô7 P( 5): C5 E4 C5 E4 E4                             T: 6
+ô8 P( 9): E5 E4 E4 E4 E5 E4 D5 Ab4 E4                T: 3
+ô9 P( 2): E3 Ab3                                     T: 1
+```
+
+RH/ô 5,6. Ô2–3 n=3. Sheet intro thứ ô2 tb **7,9** min 5; ô3 tb **8,4** min 7 (n=8 bài).
+
+**Ý người dùng:** giữ ô đầu; ô sau thưa.
+
+#### #426 — màu thứ đạt; Dm đầu nghỉ lâu
+
+```
+Dm  F     E  Am  Dm  E  Am  E
+iv  ♭VI   V  i   iv  V  i   V
+```
+
+Ô1 Pùng-Pắp at **0,5** (D–F–A ×4). Sheet intro thứ **7/8** at0=0; chỉ Lá Thư at 0,5 (n=8).
+
+**Ý người dùng:** giữ màu; train nghỉ đầu ô1.
+
+### 16e. Intro Bolero Tuấn — Chưa ổn (9/9/2026)
+
+Nguồn: `KeyTrain/Nguon.json`, quét tay lúc 14:27 (UTC+7). Bốn câu dưới nằm trong cửa
+30 phút và chưa có trong sổ. Đây là **ý người dùng**, không phải kết luận từ số đo.
+
+| # | lúc nghe | bài | giọng | chấm | ý kiến |
+|---|---|---|---|---|---|
+| #524 | 14:04–14:06 | Để Nhớ Một Thời Ta Đã Yêu | A thứ | Chưa ổn | Nốt quá dở và phô, không hề có màu thứ, còn tệ hơn bản OpenCode; yêu cầu đối chiếu khắt khe các câu solo trong sheet giọng thứ và sửa lại. Có thêm một bình luận là toàn bộ lời *Chuyến Tàu Hoàng Hôn*, chép nguyên văn bên dưới. |
+| #526 | 14:15 | — | A thứ | Chưa ổn | Giai điệu quá dở và phô, thua các câu OpenCode; yêu cầu so sánh kỹ và khắt khe với solo sheet giọng thứ để cải thiện. |
+| #528 | 14:16 | — | A thứ | Chưa ổn | Giai điệu gần được; yêu cầu so sánh kỹ và khắt khe với solo sheet giọng thứ để cải thiện. |
+| #530 | 14:17 | — | A thứ | Chưa ổn | Giai điệu quá dở; yêu cầu so sánh kỹ và khắt khe với solo sheet giọng thứ để cải thiện. |
+
+#### Câu #524 — bộ ba
+
+```
+Am  G     C      Am  Em  Am  Dm  E
+i   ♭VII  ♭III   i   v   i   iv  V
+```
+
+```
+ô1 P( 9): E5 C5 E5 D5 E5 G5 C5 E5 A4              T: 2
+ô2 P(12): D4 G4 B4 D4 G4 B4 D4 G4 B4 D4 G4 B4     T: 3
+ô3 P(10): B4 E4 E5 D5 E4 E5 D4 G4 C5 E4           T: 4
+ô4 P(11): C5 D4 E4 G4 C5 E4 A4 C5 A4 A4 G4        T: 6
+ô5 P(12): G4 B4 E5 G4 B4 E5 G4 B4 E5 G4 B4 E5     T: 3
+ô6 P(11): C5 D5 E5 G5 C5 E4 A4 C5 A4 A4 G5        T: 6
+ô7 P( 8): B4 E5 D5 G5 F4 D4 A4 A4                 T: 6
+ô8 P( 3): B4 E4 Ab4                                T: 2
+ô9 P( 2): E3 Ab3                                   T: 1
+```
+
+RH/ô **8,7** · LH/ô 3,7 · LH một mình **33%** · tâm RH **69,7**.
+
+Bình luận thứ hai của #524, chép nguyên văn (đây là lời bài, không phải nhận xét về câu):
+
+> 1. Chiều [Am] nao, tiễn nhau [E7] đi khi bóng ngả xế [Am] tàn
+> Hoàng [Dm] hôn đến đâu [G] đây màu tím dâng trong hồn [C] ta
+> Muốn không gian đừng [Dm] trôi, níu đôi chân thời [F] gian
+> Ngừng trôi cho giây [A7] phút chia ly này kéo [Dm] dài
+> Trước khi phân [F] kỳ, ước sao cho [E7] tàu đừng [Am] đi
+>
+> ĐK: Xe lăn êm [F] êm lúc ga [G] chiều sắp lên [C] đèn
+> Mưa thu bay [E7] bay vắt ngang trời ướt vai [Am] mềm
+> [G] Hoàng hôn dần [C] buông
+> Mà ai còn [F] đứng im trong chiều sương [E7] xuống
+>
+> Tâm tư cô [F] đơn trách con [G] tàu nỡ sao [C] đành
+> Đem yêu thương [E7] đi đến nơi nao cách đôi [Am] tình
+> [G] Đường bao nhịp [C] nối
+> Tình trăm nghìn [F] mối trông theo [E7] một bóng [Am] người
+>
+> 2. Tà [Am] dương khuất trong [E7] sương là mỗi lần ngóng [Am] chờ
+> Nhìn [Dm] theo phía chân [G] mây đợi chuyến xe xưa về [C] chưa
+> Nếu hay chăng người [Dm] ơi, chốn xa xôi chàng [F] trai
+> Còn đem yêu thương [A7] rắc lên muôn vạn oán [Dm] hờn
+> Nếu mai đây [F] về cũng trên chuyến [E7] tàu hoàng [Am] hôn.
+
+#### Câu #526 — bộ ba
+
+```
+Am  G     C      Am  Em  Am  Dm  E
+i   ♭VII  ♭III   i   v   i   iv  V
+```
+
+```
+ô1 P( 8): E4 C5 C5 C5 A4 E5 C5 D5                 T: 1
+ô2 P(12): D4 G4 B4 D4 G4 B4 D4 G4 B4 D4 G4 B4     T: 3
+ô3 P(10): B4 E4 E5 D5 E4 E5 D4 G4 C5 E4           T: 4
+ô4 P( 7): C5 C5 G4 B4 G4 E4 G4                    T: 6
+ô5 P(12): G4 B4 E5 G4 B4 E5 G4 B4 E5 G4 B4 E5     T: 3
+ô6 P(11): C5 D5 E5 G5 C5 E4 A4 C5 A4 A4 G5        T: 6
+ô7 P( 8): B4 E5 D5 G5 F4 D4 A4 A4                 T: 6
+ô8 P( 3): B4 E4 Ab4                                T: 2
+ô9 P( 2): E3 Ab3                                   T: 1
+```
+
+RH/ô **8,1** · LH/ô 3,6 · LH một mình **41%** · tâm RH **69,4**.
+
+#### Câu #528 — bộ ba
+
+```
+Am  Dm  F     E7  Am  Dm  Am  E
+i   iv  ♭VI   V7  i   iv  i   V
+```
+
+```
+ô1 P( 8): C5 D5 E5 G5 E5 C5 E4 G5                 T: 1
+ô2 P( 8): A4 A4 A4 A4 D4 A4 B4 A4                 T: 2
+ô3 P(12): A4 C5 F5 A4 C5 F5 A4 C5 F5 A4 C5 F5     T: 3
+ô4 P(10): Ab4 D4 A4 B4 D4 A4 B4 D5 Ab4 E5         T: 1
+ô5 P(11): C5 D5 E5 G5 C5 E4 A4 C5 A4 A4 G5        T: 6
+ô6 P(12): D4 F4 A4 D4 F4 A4 D4 F4 A4 D4 F4 A4     T: 3
+ô7 P( 6): A4 E4 A4 E4 A4 A4                       T: 6
+ô8 P( 7): B4 E4 E4 E4 E4 Ab4 E4                   T: 2
+ô9 P( 2): E3 Ab3                                   T: 1
+```
+
+RH/ô **8,4** · LH/ô 2,8 · LH một mình **36%** · tâm RH **69,1**.
+
+#### Câu #530 — bộ ba
+
+```
+Am  E7  Dm  Am  Gm     Dm  Am  E
+i   V7  iv  i   ♭viim  iv  i   V
+```
+
+```
+ô1 P( 8): E4 C5 C5 C5 A4 E5 C5 D5                 T: 1
+ô2 P( 9): Ab4 A4 B4 A4 E4 Ab4 F4 E4 D4             T: 2
+ô3 P(10): B4 E5 D5 G5 F4 D4 E5 D5 F5 A4           T: 3
+ô4 P(12): C4 E4 A4 C4 E4 A4 C4 E4 A4 C4 E4 A4     T: 3
+ô5 P( 6): E5 B4 D4 D5 G4 E4                       T: 6
+ô6 P(12): E4 D4 C5 E5 D4 D4 E4 D4 F4 A4 D4 D5     T: 2
+ô7 P(12): C4 E4 A4 C4 E4 A4 C4 E4 A4 C4 E4 A4     T: 3
+ô8 P( 3): B4 E4 Ab4                                T: 6
+ô9 P( 2): E3 Ab3                                   T: 1
+```
+
+RH/ô **8,2** · LH/ô 3,0 · LH một mình **59%** · tâm RH **67,0**.
+
+**Rút ra từ ý người dùng:** #524, #526 và #530 đều bị chê dở/phô; #528 chỉ “gần
+được”. Bốn câu cùng dày hơn sheet dạo thứ (**8,1–8,7** so với **6,9 nốt RH/ô**) và thấp
+hơn tâm Linh Nhi (**67,0–69,7** so với **73,2**, n=239 nốt intro thứ Linh Nhi trước khi
+bổ sung Nỗi Buồn Hoa Phượng). Tuy vậy #528 có số đo gần ba câu bị chê mà tai lại đánh giá
+tốt hơn, nên mật độ và tâm âm **không đủ dự đoán độ hay**; phải xét nguồn ô và đường nối.
+
+**Đã xử theo lời bình 9/9/2026:** phát hiện nhánh `gopThay` của intro thứ Bolero Tuấn
+đang trộn ô từ cả ba thầy và cả bossa/ballad/slow rock. Đã khóa vòng sửa này về đúng
+**Linh Nhi + bolero**, gồm *Đừng Xa Em Đêm Nay* và *Nỗi Buồn Hoa Phượng*, vẫn chuyển theo
+bậc/chủ âm bài đích chứ không chép MIDI tuyệt đối. Thêm test chặn tái trộn nguồn; 41 test
+liên quan đạt và TypeScript/build đạt. Đây là một vòng sửa để người dùng nghe, chưa được
+gọi là “đã hay”.
+
+#### Bổ sung 15:07 — câu #536, #538, #540, #542
+
+Nguồn: `KeyTrain/Nguon.json`, quét tay ngày 9/9/2026. Bốn câu đều **Chưa ổn có lời
+bình**, nằm trong cửa nghe liền trước lúc gửi. Đây là **ý người dùng**, không phải kết
+luận từ số đo.
+
+| # | lúc nghe | bài | giọng | chấm | ý kiến |
+|---|---|---|---|---|---|
+| #536 | 14:36–14:37 | Để Nhớ Một Thời Ta Đã Yêu | A thứ | Chưa ổn | Giai điệu chỗ Am thứ 3 quá tệ, phô và gãy tiết tấu; yêu cầu đối chiếu khắt khe solo sheet thứ và sửa lại. |
+| #538 | 14:54–14:55 | Để Nhớ Một Thời Ta Đã Yêu | A thứ | Chưa ổn | Tiết tấu và kỹ thuật rất hay, cần giữ; giai điệu còn hơi tươi sáng, cần đối chiếu solo sheet thứ rồi sửa. |
+| #540 | 14:55–14:56 | Để Nhớ Một Thời Ta Đã Yêu | A thứ | Chưa ổn | Tiết tấu hai hợp âm đầu không phù hợp; yêu cầu ưu tiên tiết tấu Pùng-Pắp ở đầu câu. |
+| #542 | 14:56–14:57 | Để Nhớ Một Thời Ta Đã Yêu | A thứ | Chưa ổn | Ở hợp âm C đầu tiên, tiết tấu đệm hỗn loạn giữa Pùng-Pắp và nốt giai điệu; yêu cầu sửa lại. |
+
+#### Câu #536 — bộ ba
+
+```
+Am  G     F     C      Dm  Am  Dm  E
+i   ♭VII  ♭VI   ♭III   iv  i   iv  V
+```
+
+```
+ô1 P( 8): E4 C5 C5 C5 D5 E4 A4 D5                 T: 1
+ô2 P( 6): E5 C5 E4 E5 D4 A4                       T: 2
+ô3 P(12): F4 A4 C5 F4 A4 C5 F4 A4 C5 F4 A4 C5     T: 5
+ô4 P(10): A4 A4 C5 F4 E4 D5 C5 D5 E5 G5           T: 3
+ô5 P(14): B4 D4 A4 E4 D4 G4 D4 G4 C5 D4 E4 A4 D4 A4 T: 2
+ô6 P(12): C4 E4 A4 C4 E4 A4 C4 E4 A4 C4 E4 A4     T: 5
+ô7 P(12): A4 D4 A4 A4 D4 A4 D4 A4 D4 B4 D4 A4     T: 2
+ô8 P( 3): B4 E4 Ab4                                T: 6
+ô9 P( 2): E3 Ab3                                   T: 1
+```
+
+RH/ô **8,8** · LH/ô 3,0 · LH một mình **67%** · tâm RH **67,3**.
+
+#### Câu #538 — bộ ba
+
+```
+Am  Dm  Am  Dm  Am  Dm  Am  E
+i   iv  i   iv  i   iv  i   V
+```
+
+```
+ô1 P( 9): D5 C5 B4 G4 D4 E4 D5 E5 C5              T: 2
+ô2 P(12): D4 F4 A4 D4 F4 A4 D4 F4 A4 D4 F4 A4     T: 5
+ô3 P(11): D5 C5 B4 E4 C5 B4 G5 B4 G4 D4 E4        T: 4
+ô4 P(11): C5 D5 A4 D5 C5 D5 D4 E5 G5 A4 C5        T: 6
+ô5 P(12): C4 E4 A4 C4 E4 A4 C4 E4 A4 C4 E4 A4     T: 5
+ô6 P(10): C5 C5 F4 A4 C5 D4 E5 D5 E5 G5           T: 6
+ô7 P(10): D5 C5 B4 E4 C5 B4 G5 D5 E5 C5           T: 6
+ô8 P( 7): B4 B4 C5 E4 B4 Ab4 Ab4                  T: 2
+ô9 P( 2): E3 Ab3                                   T: 1
+```
+
+RH/ô **9,3** · LH/ô 4,1 · LH một mình **43%** · tâm RH **68,8**.
+
+#### Câu #540 — bộ ba
+
+```
+Am  Am  Dm  Dm  Dm  Dm  E7  E
+i   i   iv  iv  iv  iv  V7  V
+```
+
+```
+ô1 P( 6): D5 C5 B4 A4 G4 E4                       T: 1
+ô2 P( 6): D5 C5 A4 E4 A4 A4                       T: 2
+ô3 P(12): D4 F4 A4 D4 F4 A4 D4 F4 A4 D4 F4 A4     T: 5
+ô4 P( 8): C5 E4 Ab4 B4 E4 F4 A4 D5                T: 3
+ô5 P( 7): A4 C5 F4 G5 D4 C5 A4                    T: 6
+ô6 P(12): D4 F4 A4 D4 F4 A4 D4 F4 A4 D4 F4 A4     T: 5
+ô7 P(10): E5 D4 E4 Ab4 D4 E4 B4 D4 D5 D4          T: 2
+ô8 P(10): E5 E4 E4 Ab4 E4 E4 B4 E4 D5 E4          T: 2
+ô9 P( 2): E3 Ab3                                   T: 1
+```
+
+RH/ô **8,1** · LH/ô 3,0 · LH một mình **56%** · tâm RH **66,9**.
+
+#### Câu #542 — bộ ba
+
+```
+Am  F     F     G      Am  Am  F     E
+i   ♭VI   ♭VI   ♭VII   i   i   ♭VI   V
+```
+
+```
+ô1 P( 7): C5 B4 B4 C5 D5 E5 C5                    T: 1
+ô2 P( 7): C5 B4 E4 C5 B4 E4 C5                    T: 3
+ô3 P(12): C5 F4 B4 E4 F4 C5 F4 B4 C5 A4 E5 A4     T: 2
+ô4 P(12): D4 G4 B4 D4 G4 B4 D4 G4 B4 D4 G4 B4     T: 5
+ô5 P( 6): C5 B4 C5 E4 B4 C5                       T: 6
+ô6 P( 6): C5 B4 C5 E4 B4 E4                       T: 6
+ô7 P(12): A4 C5 F5 A4 C5 F5 A4 C5 F5 A4 C5 F5     T: 5
+ô8 P( 9): E5 E4 D4 E4 E4 D5 E4 Ab4 E4             T: 2
+ô9 P( 2): E3 Ab3                                   T: 1
+```
+
+RH/ô **8,1** · LH/ô 3,4 · LH một mình **48%** · tâm RH **69,1**.
+
+**Rút ra từ ý người dùng:** #538 chứng minh tiết tấu/kỹ thuật có thể rất hay trong khi
+đường cao độ vẫn quá sáng; phải giữ hình tiết tấu rồi đổi nguồn nốt, không xoá cả ô.
+#538 và mẫu Đã ổn #544 cùng vòng `i–iv` nhưng tai đánh giá khác nhau, nên vòng không đủ
+dự đoán chất lượng. #540 yêu cầu Pùng-Pắp sớm, còn số đo sheet từng nói 7/8 intro thứ có
+nốt ở phách 0 — hai điều này không thật sự loại nhau: giữ giai điệu ô 1, ưu tiên một ô
+Pùng-Pắp ngay sau đó như mẫu #544. #542 cho thấy trong một ô phải chọn dứt khoát hoặc
+Pùng-Pắp hoặc giai điệu; chồng hai cơ chế nghe thành hỗn loạn.
+
+**Đã xử yêu cầu train nguồn hợp âm và nốt:** vòng sửa kế tiếp bỏ sáu mẫu hợp âm thứ tự
+nghĩ, lấy bậc/chất trực tiếp từ các sheet thứ. Mỗi lượt chọn nhất quán một họ câu theo
+vòng Linh Nhi → Cà Pháo → Tôn Hùng; giai điệu không còn trộn từng ô của nhiều thầy.
+Giữ bậc ii của *Nỗi Buồn Hoa Phượng*, hợp âm lặp và ♭VI/♭VII khi sheet có. Khung nhịp
+Bolero Tuấn giữ nguyên. Theo #540/#542 và mẫu #544: ô 1 giữ giai điệu, ô 2 luôn
+Pùng-Pắp; một ô đã Pùng-Pắp thì không nhận thêm câu chạy/giai điệu. 88 test liên quan
+đạt; đây vẫn là vòng sửa chờ người dùng nghe, không tự gọi là đã hay.
 
 ### 16c. Giang tấu giọng thứ — Chưa ổn (Bolero Tuấn)
 
@@ -2078,12 +3151,291 @@ chưa xử:**
 
 1. ~~**`verse_4` 57–70 có thể phải tách**~~ — **không tách.** Người dùng sửa: 67–70 là câu cuối
     **phiên**, gõ nhầm "điệp".
-2. **Chưa hỏi mốc bên trong** các ô 22–27, 30–35, 51–55, 57–66. Chúng đã biết là hát, nhưng
-    chỗ nào chuyển sang tiết tấu đệm trong từng ô thì chưa. Phiếu:
-    `ingest/phieu-moc-trong-o-noi-buon-hoa-phuong.md`.
+2. ~~**Chưa hỏi mốc bên trong** 22–27, 30–35, 51–55, 57–66.~~ Người dùng: ô 31–35 **toàn hát**,
+    máy hỏi thừa. Ghi: **30–35 = 43–48 = 58–63 hát hết ô** (cụm lặp 91–100%). Điệp 22–27 và
+    51–55 hát; cắt đệm/fill chỉ ở **28 và 56** (đã có mốc). 57 mở phiên = hát; 64–66 hát.
 
 Người dùng cũng đã chốt **giữ nguyên đoạn kết 71–78** dù ô 75 và 76 trống hoàn toàn và ô 74·77·78
 dài 4 phách thay vì 8 — nên đừng cắt bài ở ô 73.
+
+---
+
+## 16S. PHẦN SOẠN SLOW ROCK — ý kiến khi nghe (tách khỏi Bolero)
+
+> Mục này **chỉ** cho bộ soạn **Slow Rock Lá thư** (`KeyTrain/src/reharm/style/soanSlowRockLinhNhi.ts`,
+> điệu `slow-rock-la-thu`, ô 6/8 = 3 phách). **Không áp cho Bolero** — 16a–16e là Bolero. Số đo slow
+> rock: 13b · 13c · 13e. Câu slow rock mới thì chép vào đây, không chép vào 16a/16b.
+
+Sổ `Nguon.json` ghi nhầm cột `dieu` = `bolero-linh-nhi-2` cho các câu dưới (app lấy kiểu solo mặc
+định của thầy thay vì điệu của bài) — nhận ra là slow rock nhờ vòng Một Cõi và ô 6/8. App đã sửa
+chỗ ghi (24/9/2026).
+
+| # | lúc nghe | bài | giọng | loại | chấm | ý kiến |
+|---|---|---|---|---|---|---|
+| #1373 | 24/9 21:29 | — | E thứ | dạo | Đã ổn | — (mẫu) |
+| #1374 | 24/9 21:29 | — | E thứ | giang | Chưa ổn | chỗ Em đầu câu đánh lệch tiết tấu |
+| #1376 | 24/9 21:31 | — | E thứ | dạo | Chưa ổn | Chỗ Em và Am đầu câu bị lệch tiết tấu |
+| #1377 | 24/9 21:31 | — | E thứ | kết | Chưa ổn | CHỗ Em/G bị bóp nhanh gây lệch tiết tấu |
+| #1378 | 24/9 21:31 | — | E thứ | giang | Chưa ổn | Chỗ Em đầu câu đánh giai điệu như bị bóp nhanh, gây lệch tiết tấu. Chỗ Am6 đang chạy nốt hay qua Em bị lệch nhịp |
+| #1382 | 24/9 22:05 | — | E thứ | dạo | Đã ổn | — (mẫu) |
+| #1403 | 24/9 22:14 | — | A thứ | dạo | Chưa ổn | tất cả từ đầu tới cuối câu đều hay nhưng ở E7 cuối thì nên thêm 1 cú dặm hợp âm E7 nữa rồi mới vào phiên khúc. Hãy điều chỉnh và nếu sau này có soạn lại câu theo khung này thì nhớ làm tương tự |
+
+**Rút ra**
+
+- **Chưa ổn 4/4 câu, cùng một chỗ: nhịp bị "bóp nhanh"** (ý người dùng). Cả bốn **mở bằng ô 1 của
+  Một Cõi** (dạo, giang hoặc kết), gõ ở mốc 0 · 0,375 · 0,625/0,75 · 1,125… = ba nốt trong chỗ của hai
+  móc đơn — nhanh gấp 1,5 nhịp chùm ba của điệu. #1378: ô 8 F#m7b5 (nghe như Am6 — cùng bốn nốt A C E
+  F#) chạy móc đơn đều, sang ô 9 là **ô kết dạo Một Cõi (B7)** gõ ở 0,875 · 2,625 · 2,875 — đó là chỗ
+  "lệch nhịp".
+- **Số đo khớp ý người dùng "sheet gốc có chỗ hỏng"**: mốc tay phải lệch lưới 6/8 (không rơi vào móc
+  đơn hay móc kép) — **Một Cõi 31 mốc trong 14/29 ô** (dạo 5/10 · giang 4/10 · kết 5/9); **Lá Thư 0/20
+  ô**. Hỏng nằm ở bản ký âm Một Cõi.
+- **Mẫu Đã ổn #1373**: ô đầu nằm gọn trên móc đơn (6 mốc); ô 5 có 2 mốc lệch mà tai vẫn nhận (n=1).
+- **Chỏi với số đo đã ghi**: bảng 13e đếm cả mốc hỏng của Một Cõi (câu chạy, phách mạnh/nhẹ đều tính
+  theo mốc) — con số slow rock ở 13e **có phần nhiễm nhịp hỏng**, chưa đo lại sau khi nắn.
+- **Đã xử** (24/9/2026): xem 13f.
+
+#### Câu #1373 — dạo · Đã ổn *(mẫu)*
+
+**Ý kiến** (ý người dùng): — (mẫu)
+
+**Vòng** — Mi thứ, 10 ô 6/8, `slow-rock-la-thu` (sổ ghi nhầm `bolero-linh-nhi-2`):
+
+```
+Em  Am  C    B7  Em  C    Am  F#m7b5  B7
+i   iv  ♭VI  V7  i   ♭VI  iv  ii°     V7
+```
+
+**Nốt** (`*` = mốc lệch lưới 6/8, không rơi vào móc đơn/móc kép)
+
+```
+ô1  P( 6): E4+B4+E5 G3+B3 F#4 B3+G4+B4 B4 E5   T: 0
+ô2  P( 6): C5 E4+E5 A3+C4 B4+C5 E4+E5 C4+C5   T: 2
+ô3  P( 4): C5 G4 G4 G4   T: 3
+ô4  P( 6): F#4 Eb4 F#3+F#3+Eb4 B3 F#3+Eb4 Eb4+F#4   T: 1
+ô5  P(11): E4 E4* G4+G5 B4+B5 D5 E5 G5 B5 G5 D6 B5*   T: 2
+ô6  P( 6): C6 G4 D5 E5 G5 C6   T: 1
+ô7  P( 6): C5 E3 E3+B3 C4 A4 C5   T: 2
+ô8  P( 5): F#4+F#4+A4+C5 C4 F#4 C4+A4 C5   T: 2
+ô9  P( 6): B4 F#3 C4 F#3+Eb4 F#4 E4   T: 2
+ô10 P( 7): Eb4+F#4+B4 Eb4+F#4+B4 Eb4+F#4+B4 Eb4+F#4+B4 Eb4+F#4+B4 Eb4+A4 Eb4+F#4   T: 4
+```
+
+Tay phải 6.3 mốc/ô · tay trái 1.9 mốc/ô · tay trái một mình 26% · tâm RH 69.9
+
+#### Câu #1374 — giang tấu · Chưa ổn
+
+**Ý kiến** (ý người dùng): chỗ Em đầu câu đánh lệch tiết tấu
+
+**Vòng** — Mi thứ, 10 ô 6/8, `slow-rock-la-thu` (sổ ghi nhầm `bolero-linh-nhi-2`):
+
+```
+Em  Am  C    B7  Em  C    Am  F#m7b5  B7  B
+i   iv  ♭VI  V7  i   ♭VI  iv  ii°     V7  V
+```
+
+**Nốt** (`*` = mốc lệch lưới 6/8, không rơi vào móc đơn/móc kép)
+
+```
+ô1  P(10): G4 G4* G4 B4* B3* G4* E4 G4 G4* G4*   T: 1
+ô2  P( 4): A4 E4 E4 E4   T: 3
+ô3  P( 6): E4 G3+G4 C3+E3 D4+E4 G3+G4 E3+E4   T: 2
+ô4  P( 6): B3+Eb4+F#4 Eb4 F#3 B3 F#3+Eb4 Eb4+F#4   T: 1
+ô5  P( 5): G4 D4+D5* G4* D4+D5* B3*   T: 4
+ô6  P(11): C4 C4* E4+E5 G4+G5 B4 C5 E5 G5 E5 B5 G5*   T: 2
+ô7  P( 6): A5 E4 B4 E4+C5 E5 D5   T: 2
+ô8  P( 5): F#4+C5 C4+C4 F#4 C4+A4 C5   T: 3
+ô9  P( 8): B4+Eb5 B3* Eb4+Eb5 F#4 A4 B4* B4+Eb5 F#5*   T: 2
+ô10 P( 3): B5 A4 Bb4*   T: 1
+```
+
+Tay phải 6.4 mốc/ô · tay trái 2.1 mốc/ô · tay trái một mình 33% · tâm RH 68.6
+
+#### Câu #1376 — dạo · Chưa ổn
+
+**Ý kiến** (ý người dùng): Chỗ Em và Am đầu câu bị lệch tiết tấu
+
+**Vòng** — Mi thứ, 10 ô 6/8, `slow-rock-la-thu` (sổ ghi nhầm `bolero-linh-nhi-2`):
+
+```
+Em  Am  C    B7  Em  C    Am  F#m7b5  B7  B
+i   iv  ♭VI  V7  i   ♭VI  iv  ii°     V7  V
+```
+
+**Nốt** (`*` = mốc lệch lưới 6/8, không rơi vào móc đơn/móc kép)
+
+```
+ô1  P( 9): G4+G5 G4* G4+G5* G4+B4 B3* E4* G4 G4* G4*   T: 1
+ô2  P( 5): A4 G4* E4+E5 E4+E5 E4+E5   T: 3
+ô3  P( 4): C5 G4 G4 G4   T: 3
+ô4  P( 7): B4 Eb4 F#4 A3+B4 F#4+C5 Eb4+Eb5 G4   T: 1
+ô5  P( 6): G4 B3+B4 E3+G3 F#4+G4 B3+B4 G3+G4   T: 2
+ô6  P( 6): G4 E4 G3+G3+E4 C4 G3+E4 E4+G4   T: 1
+ô7  P( 5): A4 E4 G3+A4 G3+E4+B4 C5   T: 3
+ô8  P( 5): F#4+F#4+A4+C5 C4 F#4 C4+A4 C5   T: 2
+ô9  P( 5): B4 B3 Eb4* F#4 A4   T: 2
+ô10 P( 3): B4 B4+Eb5* F#5+B5+B6   T: 1
+```
+
+Tay phải 5.5 mốc/ô · tay trái 1.9 mốc/ô · tay trái một mình 37% · tâm RH 68.7
+
+#### Câu #1377 — kết · Chưa ổn
+
+**Ý kiến** (ý người dùng): CHỗ Em/G bị bóp nhanh gây lệch tiết tấu
+
+**Vòng** — Mi thứ, 9 ô 6/8, `slow-rock-la-thu` (sổ ghi nhầm `bolero-linh-nhi-2`):
+
+```
+Em/G  Cmaj7  Am  F#m7b5  B7  B7/A   Em  E
+i/♭3  ♭VIΔ7  iv  ii°     V7  V7/♭7  i   I (Picardy)
+```
+
+**Nốt** (`*` = mốc lệch lưới 6/8, không rơi vào móc đơn/móc kép)
+
+```
+ô1  P( 9): G4+G5 G4* G4+G5* G4+B4 B3* E4* G4 G4* G4*   T: 1
+ô2  P( 5): E4 B3+B4 E4 B3 G3   T: 4
+ô3  P(10): A3 C4+F#4+C5 E4+E5 G4 E4+G4+A4 C5 E5 C5 G5 E5   T: 2
+ô4  P( 6): F#4+F#5 C4 F#4+G4 C4+A4 C5 B4   T: 0
+ô5  P( 4): B4 F#4 F#4 F#4   T: 3
+ô6  P( 6): F#5 Eb4 Eb4+F#4+F#4 B4 F#4+Eb5 Eb4+F#5   T: 1
+ô7  P( 7): E4+G5 B3 B3 F#4 G4 E5 G5   T: 0
+ô8  P( 6): Ab3+A3 B3+E5+B5 E4+E4 E4 A5 A4+A5+A6   T: 0
+ô9  P( 2): B5 E5+Ab5+B5+E6+Ab6+B6   T: 2
+```
+
+Tay phải 6.1 mốc/ô · tay trái 1.4 mốc/ô · tay trái một mình 46% · tâm RH 70.4
+
+#### Câu #1378 — giang tấu · Chưa ổn
+
+**Ý kiến** (ý người dùng): Chỗ Em đầu câu đánh giai điệu như bị bóp nhanh, gây lệch tiết tấu. Chỗ Am6 đang chạy nốt hay qua Em bị lệch nhịp
+
+**Vòng** — Mi thứ, 10 ô 6/8, `slow-rock-la-thu` (sổ ghi nhầm `bolero-linh-nhi-2`):
+
+```
+Em  Am  C    B7  Em  C    Am  F#m7b5  B7  B
+i   iv  ♭VI  V7  i   ♭VI  iv  ii°     V7  V
+```
+
+**Nốt** (`*` = mốc lệch lưới 6/8, không rơi vào móc đơn/móc kép)
+
+```
+ô1  P(10): G4 G4* G4 B4* B3* G4* E4 G4 G4* G4*   T: 1
+ô2  P( 4): A4 E4 E4 E4   T: 3
+ô3  P( 6): E4 G3+G4 C3+E3 D4+E4 G3+G4 E3+E4   T: 2
+ô4  P( 5): Eb4 A3+A4 Eb4 A3 F#3   T: 4
+ô5  P(10): E3 G3+C4+G4 B3+B4 D4 B3+D4+E4 G4 B4 G4 D5 B4   T: 2
+ô6  P( 1): C5   T: 7
+ô7  P( 6): C5 E3 E3+B3 C4 A4 C5   T: 2
+ô8  P( 5): F#4+C5 C4+C4 F#4 C4+A4 C5   T: 3
+ô9  P( 8): B4+Eb5 B3* Eb4+Eb5 F#4 A4 B4* B4+Eb5 F#5*   T: 2
+ô10 P( 3): B5 A4 Bb4*   T: 1
+```
+
+Tay phải 5.8 mốc/ô · tay trái 2.7 mốc/ô · tay trái một mình 48% · tâm RH 66.5
+
+**Lượt nghe 2 — sau bản 13f (vòng ghép mới, nắn nhịp, ô lai bolero)**
+
+- **#1403 (Chưa ổn): khen cả câu, chỉ xin thêm một cú dặm E7 (V7) sau ô dập cuối rồi mới vào phiên
+  khúc, và làm vậy mỗi lần soạn "theo khung này"** (ý người dùng). Câu kết bằng ô dập V7 của dạo Lá
+  Thư (c7). **Đã xử:** dạo/giang nào kết bằng ô dập V7 Lá Thư (c7 · c80) thì thêm một ô: hai tay dặm
+  V7 đủ bốn nốt ở phách đầu, ngân nửa ô rồi tắt — chừa nửa ô cho ca sĩ (luật mục 15: hợp âm hút cuối
+  câu dạo tắt trước chỗ ca sĩ vào). Kết Một Cõi (chạy V7 rồi ngân V) không thêm. Độ ngân nửa ô là
+  biên soạn.
+- **#1382 (Đã ổn, mẫu)**: vòng ghép mới i/♭3 · ♭VIΔ7 · iv · iiø7 · V7 … kết V; tâm RH 80,5 — cao hơn
+  tâm sheet bolero (73,6) gần một quãng bảy, n=1, **chưa xử**, chỉ ghi lại.
+- **Ý người dùng qua tin nhắn** (không qua sổ), cùng lượt: *"Trong điệu Slow rock Lá Thư thì khi chia
+  đôi hợp âm đừng đánh kiểu dặm hợp âm mà hãy theo kiểu rải"* — đã xử ở nút đệm (`raiHopAmChiaDoi`):
+  hợp âm ngắn hơn một ô rải ba nốt lên theo móc đơn thay cho hai cú dặm ba nốt, và không đổi sang ô
+  fill c22 (tay phải c22 cũng dặm). *"Câu giang tấu bị lỗi ko soạn mới sau mỗi lần bấm phát"* — sổ ghi
+  giang tấu khác nhau mỗi lần bấm (#1383 · 1386 · 1389 · …, lanPhat 1), nhưng giang tấu lặp 2 vòng thì
+  vòng hai bị ép theo độ dài vòng một: cụt ô kết hoặc lặng tới 12 phách (đo 4 lần bấm). Đã sửa
+  `arrangement.ts`: câu soạn sẵn mỗi vòng dài theo câu của vòng ấy.
+
+- **Ý người dùng qua tin nhắn, lần hai**: *"Giang tấu vẫn ko đổi câu mới sau mỗi lần bấm phát"*. **Số đo**:
+  sổ ghi nốt giang đổi mỗi lượt, nhưng 20 lượt liền thì 10/20 câu giang mở bằng cùng một ô (giai điệu dạo
+  Đừng Xa ô 1) và đuôi luôn là một trong hai cử chỉ kết của sheet — đầu và đuôi cố định nên nghe như một
+  câu. **Đã xử**: ô mở xoay theo lượt (lượt liền nhau trùng 0/19, ô nhiều nhất 3–4/20), kết Một Cõi chỉ giữ
+  ô ngân V cuối, ô chạy V7 trước nó soạn mới.
+
+- **Ý người dùng, lần ba**: *"tại sao giang tấu vẫn ko đổi hợp âm mỗi lần phát giống như intro hay
+  outro"* — tiếng đã đổi vòng, nhưng dòng hợp âm hiện dưới nhãn Giang tấu lấy vòng cố định ở đuôi điệp khúc;
+  đã sửa cho hiện đúng vòng vừa soạn. *"Sao chọn Linh Run thì ko hề có gì cả … hãy soạn Linh Run cho điệu
+  đang được chơi"* — ô đang hát bị bỏ qua dù người dùng tự chọn, và sổ Linh Run chỉ có 2 câu bolero 4/4;
+  nay Linh Run slow rock lấy **8 câu chạy slow rock của chị** (đi lên ở nửa sau ô: móc đơn 1 · 1½ · 2 · 2½
+  hoặc móc kép Một Cõi ô 4) + cao độ câu chạy bolero cùng giọng trên tiết tấu ấy, kết đúng cuối hợp âm.
+
+- **Lượt nghe 3 (25/9/2026, ý người dùng qua tin nhắn)**: (1) mốc chuyển đoạn đặt 2 quãng tám · đệm 2
+  phách · im 0 mà *"vẫn ko hề đánh đệm mà chạy nốt luôn và chạy xong vẫn nghỉ phách"* — số đo: câu chạy bắt
+  đầu đúng ở phách đệm rồi dừng sớm, phần còn lại bị tắt đệm thành lặng; phần đệm trước câu chạy bị đổi sang
+  ô c22 (dặm); "phách" của người dùng là móc đơn còn máy đếm nốt đen. Đã sửa: câu chạy đáp đúng vạch, đệm thường
+  tới lúc câu chạy vào, phách nhân `gridUnit`. (2) *"phân tích thật kỹ cách Linh Nhi tạo câu run … Linh Run hiện
+  tại quá dở"* — xem 13g. (3) *"phách mạnh là phách 1 và 4, còn lại là phách nhẹ. Hãy chia đều ra để đánh đệm
+  phối hợp 2 tay"* — kiểu thử "Slow Rock Lá thư hai tay": tay trái 1 · 4, tay phải hợp âm 2 · 3 · 5 · 6.
+
+- **Ý người dùng, sau lượt 3**: *"Chia 2 tay để đánh rải chứ ko phải để dặm hợp âm, và ko nhất thiết phải là
+  chia đều"* — nút thử làm lại thành sóng rải vắt hai tay: trái gốc–5–8 (tiếng 1–3), phải 10–12–10 rồi 12–10–8
+  (tiếng 4–6). Biên soạn trên rải c15 của chị, chưa đối chiếu được với sheet (sheet lúc hát không đệm hai tay).
+
+- **ĐÃ ĐẠT (25/9/2026, ý người dùng)**: *"điệu Slow Rock Lá Thư và Slow rock hai tay Lá Thư đều đã đạt, các câu
+  solo cũng đã đạt"*. Tổng kết cách bộ soạn học từ sheet và chọn hợp âm, nốt: **13h**.
+
+#### Câu #1382 — dạo · Đã ổn *(mẫu)*
+
+**Ý kiến** (ý người dùng): — (mẫu)
+
+**Vòng** — E thứ, 11 ô 6/8, `slow-rock-la-thu`:
+
+```
+Em/G  Cmaj7    Am  F#m7b5  B7  B7/A  Em  F#dim  B  B7  B
+i/G   ♭VImaj7  iv  iiø7  V7  V7/A  i   ii°    V  V7  V
+```
+
+**Nốt**
+
+```
+ô1  P( 5): G6 G5 G6 E5 B6   T: 2
+ô2  P( 6): C7 G5 D6 G5+E6 G6 F#6   T: 2
+ô3  P( 5): A5+C6+E6 E5 A5 E5+C6 E6   T: 3
+ô4  P( 5): F#4+C6 C5+C5 F#5 C5+A5 C6   T: 3
+ô5  P( 4): B5 B4 B4 B4   T: 3
+ô6  P( 4): B4 B5 A4 A4+A5   T: 9
+ô7  P( 8): G5+B5 E5 G4+G5 A5 B4+B5 E5 G4+G5 B5   T: 5
+ô8  P( 5): F#4+A5 A4 A5 A5+B5 A5+C6   T: 1
+ô9  P( 6): B5 F#4 C5 Eb5 F#5 B5   T: 1
+ô10 P( 5): B5 B4 Eb5 F#5 A5   T: 2
+ô11 P( 2): B4 F#5+B5+B6   T: 1
+```
+
+Tay phải 5.0 mốc/ô · tay trái 2.9 mốc/ô · tay trái một mình 59% · tâm RH 80.5
+
+#### Câu #1403 — dạo · Chưa ổn
+
+**Ý kiến** (ý người dùng): tất cả từ đầu tới cuối câu đều hay nhưng ở E7 cuối thì nên thêm 1 cú dặm hợp âm E7 nữa rồi mới vào phiên khúc. Hãy điều chỉnh và nếu sau này có soạn lại câu theo khung này thì nhớ làm tương tự
+
+**Vòng** — A thứ, 10 ô 6/8, `slow-rock-la-thu`:
+
+```
+Am  E  Bdim  Am  F    Dm  Bm7b5   E7
+i   V  ii°   i   ♭VI  iv  iiø7  V7
+```
+
+**Nốt**
+
+```
+ô1  P( 6): E5+A5 C4+E4 B4 E4+C5+E5 E5 A5   T: 1
+ô2  P( 5): Ab5 Ab4 Ab5 A5 B5   T: 2
+ô3  P( 4): B5 F5 F5 F5   T: 3
+ô4  P( 6): D5 F4+F4+F5 B3+D4 C5+D5 F4+F5 D4+D5   T: 1
+ô5  P( 6): C5 E3 E3+B3 C4 A4 C5   T: 2
+ô6  P( 6): C5 F4 F4+G4 C5 G4 A4   T: 2
+ô7  P( 5): D4+F4+A4 A3 D4 A3+F4 A4   T: 3
+ô8  P( 5): B4 C4 D4 F4 B4   T: 2
+ô9  P( 8): B4 E4 Ab4 A4 B4 E4 Ab3+Ab4 B4   T: 4
+ô10 P( 7): Ab4+B4+E5 Ab4+B4+E5 Ab4+B4+E5 Ab4+B4+E5 Ab4+B4+E5 Ab4+D5 Ab4+B4   T: 4
+```
+
+Tay phải 5.8 mốc/ô · tay trái 2.4 mốc/ô · tay trái một mình 25% · tâm RH 70.9
 
 ---
 
