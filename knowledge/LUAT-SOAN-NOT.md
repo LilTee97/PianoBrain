@@ -458,6 +458,67 @@ thì rời hợp âm, nhảy nhiều, và **càng về cuối càng rời**.
 > Nên khi soạn câu giọng trưởng: **siết về nốt hợp âm, giữ bước nhỏ, siết thêm ở đoạn kết**
 > — không phải đi tìm bậc `3` hay bậc `13`.
 
+## "Man mác buồn" — cùng ba trục, chiều ngược
+
+Đo 6/9/2026, `sang_toi.py` + ký hiệu hợp âm đoạn solo, **giong của BÀI** (không giong đoạn — Có Em Chờ kết sang Đô thăng thứ vẫn tính bài trưởng).
+
+**Cỡ mẫu bài giọng thứ:** Linh Nhi **4** (Đừng Xa · Lá Thư · Một Cõi · Rừng Lá) · Cà Pháo **1** (Người hãy quên em đi) · Tôn Hùng **2** (Chiếc Lá · Tình Em). Tôn Hùng **0 bài trưởng**.
+
+Cùng bẫy với tươi sáng: chênh `♭3` / `3` trên gam **không** chứng minh lựa chọn — gam ép. Phép so đúng vẫn là chất hợp âm + bám + bước + tầm.
+
+### 1. Vốn hợp âm — chỗ hai thầy có bài trưởng **giống chiều**
+
+| | min | maj | **dom** | n ký hiệu solo |
+|---|---|---|---|---|
+| Linh Nhi trưởng | 54% | 40% | **2%** | 65 |
+| Linh Nhi thứ | 49% | 37% | **6%** | 70 |
+| Cà Pháo trưởng | 30% | 48% | **9%** | 100 |
+| Cà Pháo thứ | 56% | 7% | **26%** | 27 · **n=1 bài** |
+| Tôn Hùng thứ | 51% | 43% | 5% | 37 |
+
+Bài thứ **dùng át nhiều hơn bài trưởng** — cùng chiều hai thầy đo được. n=2 thầy, chưa luật chung; đủ để thử.
+
+Gốc hợp âm bài thứ (chức năng, ≥6%):
+
+| | i | v/V | iv | bIII | bVII | bVI |
+|---|---|---|---|---|---|---|
+| Linh Nhi n=70 | 26% | 24% | 14% | 10% | 9% | 7% |
+| Cà Pháo n=27 | 41% | 22% | 15% | — | — | — |
+| Tôn Hùng n=37 | 27% | 11% | 16% | — | **22%** | **19%** |
+
+Tôn Hùng buồn bằng **♭VI · ♭VII trưởng** (maj 43% mà bài vẫn thứ). Linh Nhi buồn bằng **i · V · iv** + dim 7%. Cà Pháo n=1: i–iv–V, át 26%.
+
+### 2. Tầm âm — vẫn chỉ Cà Pháo
+
+| | tâm RH trưởng | tâm RH thứ |
+|---|---|---|
+| Linh Nhi | 76,0 n=406 | 74,6 n=601 · lệch **1,4** |
+| Cà Pháo | 70,1 n=665 | **67,8** n=152 · lệch **2,3** · trần 105→85 |
+| Tôn Hùng | — | 74,3 n=292 |
+
+Đừng hạ tầm Linh Nhi / Tôn Hùng vì "buồn". Chỉ Cà Pháo ngồi thấp hơn ở bài thứ.
+
+### 3. Bám hợp âm — **không chung ba thầy**
+
+| | nốt hợp âm trưởng | thứ | dạo→kết thứ |
+|---|---|---|---|
+| Linh Nhi | **70,2%** | **59,9%** | 69% → **50%** rời dần |
+| Cà Pháo | 62,3% | **83,6%** · n=1 | 94% → 89% — **bám chặt hơn** |
+| Tôn Hùng | — | 68,5% | 71% → 65% |
+
+Bước Linh Nhi thứ: lặp 10% (trưởng 6%) · liền+ba 38% (trưởng 55%) · nhảy+8va **52%** (trưởng 40%).
+
+> **CÁCH ĐỌC — người dùng đã chốt 7/9/2026.** Tươi sáng = **chắc chắn**. Man mác buồn =
+> **không chắc + chỗ kéo**. Không phải "chọn ♭3".
+>
+> **Kéo** (hòa âm, chỗ giống chiều): át nhiều hơn bài trưởng; vòng i · iv · V/V7 và ♭VI · ♭VII.
+> **Không chắc** (giai điệu): chỉ chắc ở Linh Nhi — rời hợp âm, nhảy, lặp, càng về kết càng rời.
+> Cà Pháo n=1 **ngược** trục 3 (bám 83,6%). Tôn Hùng buồn bằng ♭VI–♭VII, không bằng rời nốt.
+>
+> Soạn thứ: **đừng siết như trưởng**. Lấy vòng từ vốn bài. Luật rời/nhảy chỉ khi soạn Linh Nhi.
+
+Khi soạn câu **giọng thứ**: lấy vòng i · iv · V/V7 · ♭VI · ♭VII · ♭III từ vốn bài; **đừng siết nốt hợp âm như câu trưởng**. Luật rời/nhảy chỉ chắc ở Linh Nhi (n=4 bài). Cà Pháo thứ: chưa đủ bài để đặt luật giai điệu.
+
 ## Tóm tắt để soạn
 
 Khi đặt một nốt, hỏi theo thứ tự này:
@@ -471,6 +532,8 @@ Khi đặt một nốt, hỏi theo thứ tự này:
    số nốt ngoài gam làm đúng thế).
 7. **Bậc `11` chỉ dùng trên hợp âm thứ và hợp âm át; trên hợp âm trưởng thì tránh** (luật 9).
 8. **Không mượn mode ngoài gam bài** — nốt màu là `9` và `13`, không phải `♭9` (luật 10).
+9. **Giọng trưởng — tươi sáng = chắc chắn** (đã chốt): siết nốt hợp âm, bước nhỏ, siết thêm ở kết. Không tìm bậc `3`/`13`.
+10. **Giọng thứ — man mác buồn = không chắc + chỗ kéo** (chốt 7/9/2026): vòng i · iv · V/V7 · ♭VI · ♭VII từ vốn bài; **đừng siết như trưởng**. Rời/nhảy chỉ khi soạn Linh Nhi.
 
 Không có bước nào cho phép **bốc thăm**. Xem `cau-solo-la-soan-khong-phai-sinh` — nốt nào
 cũng phải trả lời được câu *"nó đến từ đâu"*.
@@ -1249,3 +1312,76 @@ sai số chuẩn **0,103**. Chênh lệch nhỏ hơn **0,20 bội số** thì kh
 trưởng của app bằng đúng công thức này. Trước ngày 6/9/2026 ba con số mốc ấy chỉ nằm trong
 chính bài kiểm, agent gõ tay, **không tra ngược được về bản ký âm** — `boi_so.py --kiem`
 sinh ra để đóng lỗ ấy.
+
+## Luật 14 — Học câu nhạc độc lập với khung điệu, nhưng khi phát phải nhập lại vào khung
+
+Chốt ngày **9/9/2026**, sau mốc nghe Bolero Tuấn La thứ #550.
+
+### 14.1 Đừng học một khối “nốt + nhịp” rồi bê sang điệu khác
+
+Tách dữ liệu sheet thành hai phần:
+
+- **Ngữ pháp câu nhạc:** bậc hợp âm, khoảng cách nốt so với chủ âm, contour, mô-típ,
+  mật độ, khoảng nghỉ, điểm căng và nốt đáp.
+- **Khung điệu đích:** nhịp, pulse, swing/straight, accent của cell, tay trái và kỹ thuật
+  đệm riêng của điệu đang phát.
+
+Khi áp dụng một nguồn Bossa Nova cho Bolero, chỉ lấy vòng theo bậc và đường nét giai điệu;
+phải đặt lại các onset vào pulse Bolero. Nếu bê luôn timing Bossa thì dù nốt đúng, câu vẫn
+sai điệu.
+
+### 14.2 Khoá nguồn ở cấp câu/đoạn
+
+Một lần học và một câu sinh ra phải có khoá:
+
+    (thầy, điệu nguồn, bài nguồn, loại đoạn intro/giang/outro)
+
+Không đổi khoá giữa các ô. Không ghép “ô hay nhất” của ba thầy vì sẽ mất cú pháp dài hơi.
+Nguồn có thể luân phiên giữa các lần sinh. Giang tấu chỉ học ô giang tấu; outro chỉ học
+outro, trừ khi có bằng chứng nghe cho phép chuyển loại.
+
+### 14.3 Chuyển giọng bằng bậc và chủ âm
+
+1. Gọi chủ âm nguồn là 0; đổi gốc mỗi hợp âm thành bậc có dấu thăng/giáng và giữ chất.
+2. Dựng lại bậc ấy trên chủ âm/gam của bài đích; giữ chức năng `V7`, `iv`, `♭VI`, `♭VII`.
+3. Đổi mỗi pitch class giai điệu thành độ lệch so với chủ âm nguồn rồi đặt quanh chủ âm đích.
+4. Chọn quãng bằng cách dời cả câu hoặc cả cell ±12; không fold từng nốt độc lập.
+
+Không được lưu hợp âm hay MIDI tuyệt đối làm “luật của thầy”.
+
+### 14.4 Cổng màu giọng đứng trước điểm hay
+
+**Giọng trưởng:** Ionian/ngũ cung trưởng; ưu tiên đáp chord tone ở trọng âm nhưng không ép
+mọi nốt thành chord tone. Độ sáng đến từ hướng câu và chức năng hoà thanh, không phải rải
+tam âm trưởng liên tục.
+
+**Giọng thứ:** Aeolian/ngũ cung thứ; ♭6 và ♭7 là màu tự nhiên. Bậc 7 nâng chỉ dùng có mục
+đích trước/trên V hoặc để dẫn về i. Hợp âm ♭VI/♭VII trưởng vẫn thuộc màu thứ. Loại hoặc
+phạt: rải tam âm trưởng lặp, bậc 3/6 trưởng vô cớ, nhảy rộng rồi tiếp tục cùng chiều, lặp
+máy và câu không có chỗ thở.
+
+### 14.5 Đúng luật chưa đồng nghĩa hay
+
+Một câu hay cần ít nhất:
+
+- mô-típ có nhận diện rồi biến tấu;
+- contour toàn câu có đích, không đi ngẫu nhiên từng nốt;
+- bước nhỏ làm nền, bước nhảy có chuẩn bị hoặc được bù hướng;
+- mật độ có tương phản và có khoảng nghỉ;
+- nốt căng được giải, nốt kết khớp chức năng hợp âm;
+- tiết tấu giữ căn cước điệu nhưng không lặp một cell cơ học suốt đoạn.
+
+#550 là mẫu nghe đã duyệt, không phải vector đích phải sao chép. #552 đúng nhịp và màu thứ
+nhưng vẫn Chưa ổn cho thấy bộ chấm phải phân biệt **hợp lệ** với **có sức thuyết phục**.
+
+### 14.6 Cách train có kiểm soát
+
+Một vòng train = **một thầy + một điệu + một loại đoạn**, rồi dừng để người dùng nghe.
+Ghép cặp Đã ổn/Chưa ổn gần nhau về điệu, giọng và vòng hợp âm; đọc cả bình luận, không chỉ
+nhãn. Rút ra đặc trưng phân biệt, thêm test bảo vệ lỗi nghe đã biết, rồi mới sinh vòng kế.
+Không tối ưu mù theo một câu Đã ổn và không gọi đây là machine learning: hiện là luật và
+thống kê có giám sát bằng tai người dùng.
+
+Khi không có corpus đúng điệu, được phép dùng ngữ pháp chung + cell của điệu đích để tạo
+bản nháp; **không** được tuyên bố đã học phong cách xác thực. Muốn tuyên bố như vậy phải có
+sheet/audio đúng thầy, đúng điệu và lượt nghe xác nhận.

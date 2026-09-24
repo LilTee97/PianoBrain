@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phiếu bổ sung Cà Pháo — 3 bài</title>
+<style>
+  :root { color-scheme: dark; font: 17px/1.6 system-ui,sans-serif; background:#15191c; color:#edf0f2 }
+  * { box-sizing:border-box } body { max-width:1060px; margin:auto; padding:28px 20px 70px }
+  h1 { font-size:1.8rem; line-height:1.3 } h2 { font-size:1.35rem } h3 { font-size:1.05rem; margin:0 0 8px }
+  p { margin:10px 0 } .muted { color:#bdc8ce } .tag { color:#a1dec7; font-size:.9rem }
+  section { margin-top:32px } article,details { border:1px solid #425059; border-radius:10px; padding:18px; margin:14px 0; background:#1c2328 }
+  summary { cursor:pointer; font-weight:600 } li { margin:7px 0 }
+  label { display:block; margin-top:12px } textarea,select,button { font:inherit; border:1px solid #647681; border-radius:6px; color:inherit; background:#222e36; padding:10px 12px }
+  textarea { width:100%; min-height:110px; resize:vertical } select { max-width:100%; width:100% }
+  button { cursor:pointer; min-height:44px } button:hover { background:#354651 } :focus-visible { outline:3px solid #83d0e9; outline-offset:3px }
+  .primary { background:#275748 } .actions { display:flex; gap:10px; flex-wrap:wrap; margin:16px 0 }
+  #status { padding:12px; background:#22352e; border-radius:6px } #status.error { background:#5a2a29 }
+  .boundary { color:#f2c383 } .note { border-left:3px solid #e4b571; padding-left:14px }
+  #json-preview { min-height:240px; font:14px/1.5 monospace } [hidden] { display:none !important }
+  a { color:#9bd8f1 } footer { margin-top:35px } .optional { color:#d1c6f2 }
+</style>
+<h1>Phiếu bổ sung Cà Pháo</h1>
+<p>Hongkong 1 · Có Em Chờ · Ngày Mai Em Đi</p>
+<p class="muted">5 mục cần rà + 3 mục kỹ thuật tùy chọn. Các câu trả lời cũ được giữ riêng bên dưới; không bắt bạn trả lời lại.</p>
+<p class="note">Không cần biết tên nốt hay số phách. Bạn có thể mô tả “nốt cuối trước vạch ô”, ghi vài chữ lời hát hoặc gửi ảnh đánh dấu kèm mã câu hỏi. Chưa rõ thì chọn “Chưa xác định” — không cần đoán.</p>
+<div class="actions">
+  <button id="save" class="primary" type="button">Lưu trên trình duyệt</button>
+  <button id="download" type="button">Tải JSON để gửi Claude</button>
+  <button id="copy" type="button">Chép JSON</button>
+  <button id="import" type="button">Nhập lại JSON</button>
+  <input id="import-file" type="file" accept=".json,application/json" hidden>
+</div>
+<p id="status" role="status" aria-live="polite">Đang mở phiếu…</p>
+<p id="progress" class="muted"></p>
+<p class="muted">Tự lưu sau mỗi thay đổi trong đúng trình duyệt và địa chỉ này. Lưu không tự gửi cho Claude hoặc cập nhật bộ soạn. Hãy tải JSON làm bản dự phòng; không xóa dữ liệu trình duyệt trước khi tải.</p>
+<details id="export-panel"><summary>JSON để xem hoặc chép thủ công</summary><label for="json-preview">Nội dung xuất (chỉ đọc)</label><textarea id="json-preview" readonly></textarea></details>
+<main id="questions"></main>
+<footer class="muted">Phiếu bổ sung ngày 11/09/2026 · Không thay phiếu 3 bài thứ, không ghi đè corpus hay phiếu cũ.<br>Nguồn rà soát: tools/sheet/corpus.json và ingest/phieu-ca-phao-co-em-cho-ngay-mai.md trong PianoBrain.</footer>
+<script>
+'use strict';
+const FORM_ID = 'ca-phao-three-songs-supplement-2026-09-11';
+const KEY = 'pianobrain:' + FORM_ID;
+const songs = [
+  {id:'hongkong1',name:'Hongkong 1',map:'Dạo 1–15 → phiên 16–31 → điệp 32–46 → giang tấu 47–65 → phiên 2 66–72 → điệp 2 73–99 → kết 100–107',
+   known:['Mốc chia nguyên ô được ghi là người dùng đã xác nhận trực tiếp trên sheet.','Giọng C trưởng; thể loại đang chốt là ballad. Không hỏi lại hai mục này.'],
+   caveat:'Bốn câu dưới chỉ kiểm tra ranh giới bên trong ô, không mặc định mốc chia đoạn cũ sai.',
+   questions:[
+     ['hk-15-16','Ô 15 → 16 · Dạo sang phiên','Lời đầu tiên bắt đầu ở đâu quanh mốc này? Có lời lấy đà ở cuối ô 15, hay bắt đầu trong ô 16? Nếu đàn và lời cùng diễn ra, hãy mô tả phần chồng nhau.'],
+     ['hk-46-47','Ô 46 → 47 · Điệp sang giang tấu','Lời cuối của điệp dứt ở đâu, và câu đàn giang tấu bắt đầu ở đâu? Lời có còn ngân sang ô 47 không? Hai mốc không nhất thiết trùng nhau.'],
+     ['hk-65-66','Ô 65 → 66 · Giang tấu sang phiên 2','Lời hát trở lại ở nốt nào? Câu đàn kết thúc trước, đúng lúc hay sau khi lời vào?'],
+     ['hk-99-100','Ô 99 → 100 · Điệp sang kết','Lời cuối bài kết thúc ở đâu và phần đàn kết bắt đầu ở đâu? Nếu ô 100 còn một phần lời, hãy chỉ đúng nốt hoặc chữ đó.']
+   ]},
+  {id:'coemcho',name:'Có Em Chờ',map:'Dữ liệu cũ: dạo 1–8 → phiên 9–24 → điệp 25–33 → phiên 2 34–40 → điệp 2 41–47 → giang tấu 48–55 → điệp nâng giọng 56–65 → kết 66–72',
+   known:['Hai nốt C, D cuối ô 8 đã là lời hát; không coi toàn bộ ô 8 là dạo.','Điệp đầu là ô 25–32; ô 33 không thuộc điệp. Vai trò cụ thể ô 33 còn cần làm rõ.','Điệp 2 còn nốt hát đầu ô 48; câu đàn bắt đầu sau nốt đó.','Giang tấu lấn hai nốt đầu ô 56. Câu ô 53 nhắc lại câu ô 5.','Điệp sau nâng nửa cung từ E♭ lên E. Từ ô 66 là đàn không hát; người dùng đã xác nhận bài kết ở E.','Người dùng đã xác nhận tay trái điệp đầu không dày hơn phiên.'],
+   caveat:'Nhãn C♯ thứ ở outro trong dữ liệu cũ mâu thuẫn với câu trả lời E trưởng: người phân tích phải rà lại hòa âm, không bắt bạn xác nhận lại chỉ vì máy đo khác.',
+   questions:[['cec-33','Ô 32 → 34 · Ô 33 thuộc đoạn nào?','Bạn đã chốt điệp kết ở ô 32. Trong ô 33 đang hát lời gì, ngân lời cũ hay chỉ có đàn? Ô 33 là đầu phiên 2, đoạn nối riêng, hay cách chia khác? Nếu chuyển ngay trong ô, hãy chỉ nốt chuyển.']]},
+  {id:'ngaymaiemdi',name:'Ngày Mai Em Đi',map:'Dạo 1–18 → phiên 19–34 → điệp 35–50 → giang tấu 51–54 → phiên 2 55–70 → điệp 2 71–86 → kết 87–91',
+   known:['Ô 1–18 hoàn toàn là dạo; lời bắt đầu ở nốt đã đánh dấu trong ô 19, không lấy đà ở cuối ô 18.','Chùm nốt đầu ô 51 còn một chữ hát. Phần sau ô 51–54 không lời; trở lại phiên ở ô 55.','Đây là đoạn đàn ngắn giữa hai phần hát, không phải giang tấu dài như Có Em Chờ.','Nốt lời đầu ô 87 (sheet ghi E♭/G) xong mới sang đàn kết. Bài kết về E♭.','Điệp 2 không nâng giọng; người dùng nhận xét tay trái điệp nghe dày hơn phiên.'],
+   caveat:'Không hỏi lại các mốc trên. Đoạn “lấn hai nốt ô 56, ô 53 = ô 5” bị chép nhầm từ Có Em Chờ trong phiếu cũ, không dùng làm kết luận cho bài này.',questions:[]}
+];
+const optional = songs.map(s => ({id:s.id+'-technique',title:s.name+' · Một ví dụ kỹ thuật (tùy chọn)',prompt:'Nếu có một chỗ đáng học thêm: ghi số ô hoặc mốc video và mô tả tiếng đàn. Lúc đó ca sĩ đang hát, ngân hay đã ngừng? Tay phải đang giai điệu/giữ nốt/nghỉ; tay trái đang đệm hay chạy nối? Bạn không cần tự gọi tên “fill” hoặc kỹ thuật.'}));
+const all = songs.flatMap(s => s.questions.map(([id,title,prompt])=>({id,title,prompt,song:s.name}))).concat(optional);
+const allowed = ['', 'answered', 'uncertain', 'image'];
+let answers = {}, storageBlocked = false, updatedAt = null;
+const $ = id => document.getElementById(id);
+function message(text,error=false) { $('status').textContent=text; $('status').classList.toggle('error',error); }
+function validate(data) {
+  if (!data || data.formId!==FORM_ID || data.schemaVersion!==1 || !data.answers || typeof data.answers!=='object' || Array.isArray(data.answers)) throw Error('JSON không thuộc phiếu bổ sung này.');
+  const out={};
+  for(const q of all) {
+    const a=data.answers[q.id]; if(a===undefined) continue;
+    if(!a || !allowed.includes(a.status) || typeof a.text!=='string' || a.text.length>20000) throw Error('Câu trả lời có định dạng không hợp lệ: '+q.id);
+    out[q.id]={status:a.status,text:a.text};
+  }
+  return out;
+}
+function snapshot() {
+  return {schemaVersion:1,formId:FORM_ID,updatedAt,source:'Phiếu bổ sung; các xác nhận cũ được chép từ hồ sơ, chưa tự cập nhật corpus.',
+    confirmedContext:songs.map(s=>({song:s.name,currentWholeBarMap:s.map,previousUserConfirmations:s.known,analystCaveat:s.caveat})),
+    questions:all,answers};
+}
+function progress() {
+  const required=all.slice(0,5), count=required.filter(q=>answers[q.id]?.status==='answered' && answers[q.id]?.text.trim()).length;
+  $('progress').textContent=`Đã trả lời rõ ${count}/5 mục cần rà. “Chưa xác định” không bị tính thành đã xác minh; các mục kỹ thuật là tùy chọn.`;
+}
+function save() {
+  updatedAt=new Date().toISOString(); progress();
+  if(storageBlocked) { message('Không ghi đè bản lưu lỗi/không đọc được. Hãy tải JSON để giữ câu trả lời mới; dùng Nhập lại JSON để khôi phục bản tốt.',true); return false; }
+  try {localStorage.setItem(KEY,JSON.stringify(snapshot()));message('Đã lưu trên trình duyệt lúc '+new Date(updatedAt).toLocaleTimeString('vi-VN')+' — chưa gửi cho Claude.');return true;}
+  catch(e) {message('Không lưu được trên trình duyệt. Câu trả lời vẫn đang ở trang này; hãy Tải JSON ngay để giữ lại.',true);return false;}
+}
+function element(tag,text,cls) {const el=document.createElement(tag);if(text)el.textContent=text;if(cls)el.className=cls;return el;}
+function card(q) {
+  const article=element('article'); article.append(element('h3',q.title),element('p',q.prompt));
+  article.append(element('p','Mã: '+q.id,'muted'));
+  const statusLabel=element('label','Mức xác nhận');const select=element('select');select.id=q.id+'-status';statusLabel.htmlFor=select.id;
+  [['','Chưa trả lời'],['answered','Tôi xác nhận / đã mô tả rõ'],['uncertain','Chưa xác định — cần cùng xem lại'],['image','Tôi sẽ gửi ảnh đánh dấu kèm mã câu']].forEach(([value,text])=>{const o=element('option',text);o.value=value;select.append(o);});
+  const label=element('label','Câu trả lời / nốt đánh dấu / chữ lời hát');const input=element('textarea');input.id=q.id+'-text';input.maxLength=20000;label.htmlFor=input.id;
+  input.placeholder='Ví dụ: lời còn ngân ở nốt đầu ô…, câu đàn bắt đầu từ…';
+  select.value=answers[q.id]?.status||'';input.value=answers[q.id]?.text||'';
+  const change=()=>{answers[q.id]={status:select.value,text:input.value};save();};select.addEventListener('change',change);input.addEventListener('input',change);
+  article.append(statusLabel,select,label,input);return article;
+}
+function render() {
+  $('questions').replaceChildren();
+  songs.forEach(s=>{const section=element('section');section.append(element('h2',s.name),element('p',s.map,'boundary'));
+    const details=element('details');details.append(element('summary','Đã xác nhận trước đây — giữ lại, không hỏi lại'));
+    const list=element('ul');s.known.forEach(t=>list.append(element('li',t)));details.append(list);section.append(details,element('p',s.caveat,'note'));
+    s.questions.forEach(([id,title,prompt])=>section.append(card({id,title,prompt})));
+    if(!s.questions.length)section.append(element('p','Không có câu hỏi chia đoạn bắt buộc mới.','tag'));
+    $('questions').append(section);
+  });
+  const extras=element('details');extras.append(element('summary','Tùy chọn: bổ sung ví dụ câu nối, fill hoặc phối hợp hai tay'));
+  extras.append(element('p','Chỉ cần một ví dụ tiêu biểu mỗi bài nếu bạn muốn. Không mặc định RH nghỉ là ca sĩ nghỉ, hoặc LH chạy nốt luôn là fill.','muted'));
+  optional.forEach(q=>extras.append(card(q)));$('questions').append(extras);progress();
+}
+function exportText() {updatedAt=new Date().toISOString();const text=JSON.stringify(snapshot(),null,2);$('json-preview').value=text;$('export-panel').open=true;return text;}
+$('save').addEventListener('click',save);
+$('download').addEventListener('click',()=>{save();const text=exportText();const url=URL.createObjectURL(new Blob([text],{type:'application/json;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=FORM_ID+'-answers.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);message('Đã yêu cầu tải JSON. Kiểm tra mục Tải xuống; phiếu chưa được gửi cho Claude.');});
+$('copy').addEventListener('click',async()=>{const text=exportText();try {await navigator.clipboard.writeText(text);message('Đã chép JSON. Bạn có thể dán vào cuộc trò chuyện với Claude.');}catch(e){$('json-preview').focus();$('json-preview').select();message('Trình duyệt không cho chép tự động. JSON đã mở và chọn bên dưới: nhấn Ctrl+C.',true);}});
+$('import').addEventListener('click',()=>$('import-file').click());
+$('import-file').addEventListener('change',async event=>{
+  const file=event.target.files[0];if(!file)return;
+  try {if(file.size>1000000)throw Error('File quá lớn. Chỉ nhập JSON trả lời của phiếu này.');
+    const incoming=validate(JSON.parse(await file.text()));const merged={...answers};let conflicts=0;
+    for(const [id,a] of Object.entries(incoming)) {const old=answers[id];const occupied=old&&(old.text.trim()||old.status);if(occupied&&JSON.stringify(old)!==JSON.stringify(a)){conflicts++;continue;}merged[id]=a;}
+    answers=merged;storageBlocked=false;render();const saved=save();
+    message(`Đã nhập JSON; giữ nguyên ${conflicts} câu hiện có khác bản nhập. `+(saved?'Đã lưu trên trình duyệt.':'Chưa lưu được — hãy tải JSON dự phòng.'),!saved);
+  }catch(e){message('Không nhập: '+e.message+' Câu trả lời hiện tại được giữ nguyên.',true);}finally{event.target.value='';}
+});
+try {const raw=localStorage.getItem(KEY);if(raw){const data=JSON.parse(raw);answers=validate(data);updatedAt=data.updatedAt||null;message('Đã khôi phục câu trả lời lưu trước trên trình duyệt này.');}else message('Phiếu mới, chưa có câu trả lời bổ sung. Các xác nhận cũ đã được giữ bên dưới.');}
+catch(e){storageBlocked=true;message('Không đọc được bản lưu. Chưa ghi đè dữ liệu cũ; hãy giữ bản JSON dự phòng và báo lại.',true);}
+render();
+</script>
+</html>

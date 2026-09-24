@@ -349,6 +349,42 @@
       "kb": 4.0
     },
     {
+      "id": "linh-nhi-noi-buon-hoa-phuong-linh-nhi-interlude",
+      "teacher": "linh-nhi",
+      "song": "Noi buon hoa phuong",
+      "section": "interlude",
+      "bars": [
+        37,
+        41
+      ],
+      "notes": 104,
+      "kb": 4.0
+    },
+    {
+      "id": "linh-nhi-noi-buon-hoa-phuong-linh-nhi-intro",
+      "teacher": "linh-nhi",
+      "song": "Noi buon hoa phuong",
+      "section": "intro",
+      "bars": [
+        1,
+        5
+      ],
+      "notes": 106,
+      "kb": 4.1
+    },
+    {
+      "id": "linh-nhi-noi-buon-hoa-phuong-linh-nhi-outro",
+      "teacher": "linh-nhi",
+      "song": "Noi buon hoa phuong",
+      "section": "outro",
+      "bars": [
+        71,
+        78
+      ],
+      "notes": 81,
+      "kb": 3.2
+    },
+    {
       "id": "linh-nhi-rung-la-thap-linh-nhi-intro",
       "teacher": "linh-nhi",
       "song": "Rung La Thap",

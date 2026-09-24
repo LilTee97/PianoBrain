@@ -154,6 +154,11 @@ Người dùng nêu rằng ở bài giọng trưởng các thầy chọn nốt t
 **Ở Tôn Hùng thì không đo được: cả hai bài đều giọng thứ.** Đây là **chưa đo**, không phải
 "không có". Có bài giọng trưởng thứ ba thì đo lại bằng `tools/sheet/sang_toi.py`.
 
+Đo solo thứ n=2 bài, 37 ký hiệu: gốc **i 27% · ♭VII 22% · ♭VI 19%** (maj 43% — ♭VI/♭VII trưởng).
+Nốt hợp âm 68,5%. Buồn bằng vòng ♭VI–♭VII, không bằng rời nốt.
+
+**Người dùng chốt 7/9/2026:** man mác buồn = không chắc + chỗ kéo. Ở anh đo được **kéo** (♭VI–♭VII). Không có bài trưởng để so trục chắc chắn. Xem `LUAT-SOAN-NOT.md`.
+
 Cũng vì vậy mà KeyTrain **khoá nút chọn Tôn Hùng ở bài giọng trưởng** — không có ô nào để
 ghép, và cũng không có số nào để soạn theo.
 

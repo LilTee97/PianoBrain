@@ -1,7 +1,12 @@
 # Phiếu — mốc hát → đệm *trong ô* (Nỗi buồn hoa phượng)
 
-Điền cột **hát tới nốt #**. Một ô có thể hát hết (ghi `hết`) hoặc chỉ nốt đầu (ghi `#1`).
-Cùng hình thì trả lời **một lần**.
+**Không điền.** Người dùng (8/9/2026): ô 31–35 toàn hát — hỏi thừa. Máy tự ghi:
+
+- 30–35 = 43–48 = 58–63 **hát hết ô**
+- điệp 22–27 và 51–55 **hát**; cắt đệm/fill chỉ 28 và 56 (đã có mốc)
+- 57, 64–70 hát
+
+Giữ bảng nốt dưới làm chứng cứ đo, không phải phiếu hỏi.
 
 Đã chốt 8/9/2026: ô **67–70 = câu cuối phiên**, không tách `verse_4`. Không hỏi lại.
 

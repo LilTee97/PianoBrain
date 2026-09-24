@@ -2,6 +2,10 @@
 
 `id: ca-phao` · đặt cạnh `ca-phao.json` · nguồn `ca-phao-piano-covers`
 
+> **Cập nhật 17/9/2026:** các mục cũ ghi 4 bài/828 nốt là số đo lịch sử, không phải
+> cỡ mẫu mới. Đã đọc lại 9 sheet (8 Ballad, 1 Bossa), xem mục “Thói quen tổ chức solo”
+> bên dưới. Có Em Chờ outro đã được người dùng chốt E trưởng, thay nhận định C# thứ cũ.
+
 File này **chính là thầy Cà Pháo**, giống cách `linh-nhi-piano.md` là thầy Linh Nhi. Mỗi
 lần nói trong vai thầy ấy thì **đọc đây trước**, đừng dựng lại bằng phép đo mới — vừa chậm
 vừa có thể ra con số khác con số đã chốt mà không ai để ý.
@@ -565,6 +569,478 @@ từ bass C#m7 — bỏ).
 
 **Chưa đo**: "tay trái điệp dày hơn phiên" ở *Ngày mai em đi* (ý người dùng khi nghe) — đo
 được bằng lần gõ mới theo đoạn, chưa làm; ở *Có Em Chờ* người dùng xác nhận là **không**.
+
+## Ý kiến khi nghe — Bossa CP cải tiến, 16/09/2026
+
+Chuyển thủ công bằng skill y-kien-intro, đúng hồ sơ Cà Pháo. Cửa sổ UTC 01:39:23–02:09:23. Sổ thô chưa có cột doan, không tự gán mọi câu thành intro. Đây là câu KT tự soạn, không phải câu extracted của Cà Pháo.
+
+| # | lúc nghe (UTC) | bài | giọng | chấm | ý kiến người dùng |
+|---|---|---|---|---|---|
+| #992 | 2026-09-16T01:44:16.409Z | Cánh Hồng Phai (intro) | A thứ | Đã ổn | — |
+| #995 | 2026-09-16T01:48:42.335Z | Cánh Hồng Phai (intro) | A thứ | Đã ổn | — |
+| #1001 | 2026-09-16T01:49:48.025Z | Chuyện Tình | E thứ | Đã ổn | — |
+| #1004 | 2026-09-16T01:53:37.769Z | Chuyện Tình | E thứ | Đã ổn | — |
+| #1005 | 2026-09-16T01:56:42.962Z | Chuyện Tình | E thứ | Chưa ổn | có nhiều chỗ bị lệch nhịp (ví dụ như Bm7) |
+| #1007 | 2026-09-16T01:56:54.875Z | Chuyện Tình | E thứ | Đã ổn | — |
+| #1008 | 2026-09-16T02:00:02.001Z | Chuyện Tình | E thứ | Chưa ổn | có mấy chỗ dặm hợp âm bị lệch nhịp, ví dụ như ở hợp âm D trong lần phát thứ 2 |
+| #1009 | 2026-09-16T01:56:55.155Z | Chuyện Tình | E thứ | Chưa ổn | — |
+| #1010 | 2026-09-16T02:00:12.786Z | Chuyện Tình | E thứ | Đã ổn | — |
+| #1011 | 2026-09-16T02:02:50.301Z | Chuyện Tình | E thứ | Chưa ổn | có quá nhiều chỗ dặm hợp âm, hãy bớt lại |
+| #1012 | 2026-09-16T02:03:06.307Z | Chuyện Tình | E thứ | Chưa ổn | có quá nhiều chỗ dặm hợp âm hãy bớt lại |
+
+### Điều cần giữ và sửa
+
+- **Ý người dùng:** #1005 lệch nhịp ở Bm7; #1008 lệch tại chỗ dặm D trong lượt thứ hai; #1011–1012 dặm quá nhiều. Giảm dặm, sửa vị trí nhấn, kiểm soát va nốt. #1009 chỉ tick: không suy ra chỗ hỏng cụ thể.
+- **Mẫu chấp nhận:** #992, #995, #1001, #1004, #1007, #1010 để đối chiếu vòng, mật độ và tầm; không coi mọi thông số của mẫu là luật chung.
+- **Giới hạn bằng chứng:** #1008 lưu một span giang, lời bình nhắc lượt thứ hai. Chưa đủ chứng minh chỗ D được lưu chính là lần bị chê; cần kiểm cả hai lượt. Không tráo nốt giữa các lượt.
+- Chưa có mâu thuẫn xác nhận với số đo sheet: có dặm không đồng nghĩa dặm mọi nốt dài. Ngưỡng giảm dặm trong KT là điều chỉnh theo tai người dùng, không phải tần suất mới đo từ sheet. Không lấy số đo Linh Nhi làm chuẩn CP.
+- Số đo bên dưới từ chính cột not: P = phải, T = trái. T đánh riêng tính theo attack, không phải độ dài nghỉ P. Tên nốt dùng dấu thăng để tái hiện MIDI. Mốc trong ô bắt đầu từ 1, ngân theo phách.
+- Bậc gốc dùng bộ phân tích PianoBrain với giọng khai báo. III/VI/VII là bậc của thứ tự nhiên (tương ứng ♭III/♭VI/♭VII so với trưởng); chữ hoa/thường của bộ phân tích không luôn biểu thị chất hợp âm. Đọc chất ở hàng ký hiệu, không suy E7 thành Em từ nhãn i. EmMaj7 không được parser nhận nguyên tên nên bậc gốc lấy từ E.
+
+### 16a. Mẫu đã ổn — giọng trưởng
+
+Không có mẫu mới trong cửa sổ.
+
+### 16b. Mẫu đã ổn — giọng thứ
+
+#### #992 — Cánh Hồng Phai (intro) · A thứ
+
+Nhận xét: (mẫu)
+
+Hợp âm (4 phách/ô): Am11 | Em7 | Bm7b5 | E11.
+
+Bậc gốc: i | v | ii | V.
+
+Số đo: P nốt/ô 7, 11, 7, 5; T attack/ô 5, 5, 5, 4; T đánh riêng 36.8%; P trung bình MIDI 69.50.
+
+P đầy đủ (phách:tên nốt/ngân); T lưu số attack phía trên:
+
+- Ô 1 P: 1:A4/1 2:A4/1.5 2:B4/1.5 3.5:A4/1 4.5:D4/1 4.5:E4/1 4.5:G4/1
+- Ô 2 P: 1.5:D4/1 1.5:E4/1 2.5:G4/0.5 3:B4/0.25 3.25:C5/0.25 3.5:D5/0.25 3.75:C5/0.25 4:B4/0.25 4.25:C5/0.25 4.5:D5/0.25 4.75:F5/0.25
+- Ô 3 P: 1:D5/1 2:A4/1.5 2:B4/1.5 3.5:D4/1 3.5:F4/1 3.5:A4/1 4.5:B4/1
+- Ô 4 P: 1.5:C5/0.75 2.25:B4/0.75 2.25:D5/0.75 3:B4/1 4:A4/1
+
+#### #995 — Cánh Hồng Phai (intro) · A thứ
+
+Nhận xét: (mẫu)
+
+Hợp âm (4 phách/ô): Am9 | G7 | Bm7b5 | E7.
+
+Bậc gốc: i | VII | ii | V.
+
+Số đo: P nốt/ô 6, 8, 8, 10; T attack/ô 5, 5, 5, 4; T đánh riêng 31.6%; P trung bình MIDI 69.97.
+
+P đầy đủ (phách:tên nốt/ngân); T lưu số attack phía trên:
+
+- Ô 1 P: 1:C5/1 2:A4/0.75 2.75:G4/0.75 3.5:G4/1 3.5:A4/1 4.5:B4/1
+- Ô 2 P: 1.5:D5/1 2.5:B4/0.5 3:D4/1 3:F4/1 3:G4/1 4:A4/0.5 4.5:F4/0.25 4.75:A4/0.25
+- Ô 3 P: 1:B4/0.5 1.5:D5/0.5 2:C5/0.5 2.5:D5/1 3.5:F4/1 3.5:A4/1 3.5:B4/1 4.5:D5/1
+- Ô 4 P: 1.5:F5/0.75 2.25:E5/0.75 3:D5/0.25 3.25:C5/0.25 3.5:B4/0.25 3.75:A4/0.25 4:G#4/0.25 4.25:G#4/0.25 4.5:A4/0.25 4.75:G#4/0.25
+
+#### #1001 — Chuyện Tình · E thứ
+
+Nhận xét: (mẫu)
+
+Hợp âm (4 phách/ô): Em11 | F#m7b5 | Bm7b5 | E7.
+
+Bậc gốc: i | ii | v | i.
+
+Số đo: P nốt/ô 5, 8, 5, 14; T attack/ô 5, 5, 5, 4; T đánh riêng 36.8%; P trung bình MIDI 68.31.
+
+P đầy đủ (phách:tên nốt/ngân); T lưu số attack phía trên:
+
+- Ô 1 P: 1:E4/1 1:G4/1 2:B4/1.5 3.5:G4/1 4.5:A4/1
+- Ô 2 P: 1.5:E4/0.75 1.5:F#4/0.75 2.25:D4/0.75 3:F#4/1 4:A4/0.25 4.25:B4/0.25 4.5:C5/0.25 4.75:G#4/0.25
+- Ô 3 P: 1:A4/1 2:C5/0.75 2.75:A4/0.75 3.5:B4/1 4.5:D5/1
+- Ô 4 P: 1.5:E4/1 1.5:G#4/1 1.5:B4/1 2.5:G#4/0.5 2.5:B4/0.5 2.5:D#5/0.5 3:B4/0.25 3.25:A4/0.25 3.5:G#4/0.25 3.75:E4/0.25 4:G#4/0.25 4.25:F#4/0.25 4.5:E4/0.25 4.75:G#4/0.25
+
+#### #1004 — Chuyện Tình · E thứ
+
+Nhận xét: (mẫu)
+
+Hợp âm (4 phách/ô): Em7 | Am7 | Bm7b5 | E11.
+
+Bậc gốc: i | iv | v | i.
+
+Số đo: P nốt/ô 8, 6, 6, 13; T attack/ô 5, 5, 5, 4; T đánh riêng 36.8%; P trung bình MIDI 70.97.
+
+P đầy đủ (phách:tên nốt/ngân); T lưu số attack phía trên:
+
+- Ô 1 P: 1:B4/1 2:E5/1 3:B4/0.5 3:D5/0.5 3.5:B4/0.5 4:A4/0.5 4.5:G4/0.25 4.75:B4/0.25
+- Ô 2 P: 1:C5/1 2:B4/0.75 2.75:A4/0.75 3.5:G4/1 4.5:B4/0.25 4.75:A4/0.25
+- Ô 3 P: 1:B4/0.5 1.5:C5/0.5 2:D5/0.5 2.5:A4/1 3.5:B4/1 4.5:D5/0.75
+- Ô 4 P: 1.25:E5/0.75 1.25:F#5/0.75 2:D5/0.25 2.25:C5/0.25 2.5:B4/0.25 2.75:G4/0.25 3:B4/0.5 3.5:B4/0.5 3.5:D5/0.5 4:B4/0.25 4.25:A4/0.25 4.5:F#4/0.25 4.75:D4/0.25
+
+#### #1007 — Chuyện Tình · E thứ
+
+Nhận xét: (mẫu)
+
+Hợp âm (4 phách/ô): Em7 | Cmaj7 | D | C | Em7 | D | Bm7b5 | E7.
+
+Bậc gốc: i | VI | VII | VI | i | VII | v | i.
+
+Số đo: P nốt/ô 4, 8, 6, 9, 6, 10, 11, 9; T attack/ô 5, 5, 5, 5, 5, 5, 5, 4; T đánh riêng 35.9%; P trung bình MIDI 73.90.
+
+P đầy đủ (phách:tên nốt/ngân); T lưu số attack phía trên:
+
+- Ô 1 P: 1:D4/1 2:E4/1.5 3.5:G4/1 4.5:B4/1
+- Ô 2 P: 1.5:G4/0.75 1.5:B4/0.75 1.5:D5/0.75 2.25:E4/0.75 2.25:G4/0.75 2.25:C5/0.75 3:E5/1 4:G5/1
+- Ô 3 P: 1:F#5/1 2:D5/1.5 3.5:A4/1 3.5:D5/1 3.5:F#5/1 4.5:E5/1
+- Ô 4 P: 1.5:G5/1 2.5:E5/0.5 3:C5/0.333 3.333:E5/0.333 3.667:D5/0.333 4:B4/0.25 4.25:D5/0.25 4.5:E5/0.25 4.75:C5/0.25
+- Ô 5 P: 1:D5/0.5 1.5:E5/0.5 2:F#5/0.5 2.5:G5/1 3.5:E5/1 4.5:F#5/1
+- Ô 6 P: 1.5:D5/1 2.5:D#5/0.5 3:F#5/0.25 3.25:D#5/0.25 3.5:F5/0.25 3.75:F#5/0.25 4:D5/0.5 4:F#5/0.5 4:A5/0.5 4.5:B5/0.5
+- Ô 7 P: 1:B5/1.75 1:D6/1.75 2.75:B5/0.25 3:A5/0.25 3.25:F5/0.25 3.5:D5/0.25 3.75:F5/0.25 4:E5/0.25 4.25:D5/0.25 4.5:B4/0.25 4.75:A4/0.25
+- Ô 8 P: 1:B4/1 2:G#4/1 3:E4/0.5 3:G#4/0.5 3:B4/0.5 3.5:A4/0.5 4:G#4/0.5 4.5:B4/0.25 4.75:G#4/0.25
+
+#### #1010 — Chuyện Tình · E thứ
+
+Nhận xét: (mẫu)
+
+Hợp âm (4 phách/ô): Em7 | F#m7b5 | Bm7 | Em7 | Bm7 | Em7 | Bm7b5 | E11.
+
+Bậc gốc: i | ii | v | i | v | i | v | i.
+
+Số đo: P nốt/ô 8, 10, 8, 6, 7, 12, 11, 5; T attack/ô 5, 5, 5, 5, 5, 5, 5, 4; T đánh riêng 30.8%; P trung bình MIDI 71.76.
+
+P đầy đủ (phách:tên nốt/ngân); T lưu số attack phía trên:
+
+- Ô 1 P: 1:D4/1 1:E4/1 2:D4/1 3:E4/0.5 3.5:D4/1 3.5:E4/1 3.5:G4/1 4.5:C5/1
+- Ô 2 P: 1.5:A4/1 2.5:G4/0.5 3:A4/0.25 3.25:C5/0.25 3.5:D5/0.25 3.75:B4/0.25 4:A4/0.25 4.25:B4/0.25 4.5:D5/0.25 4.75:F#5/0.25
+- Ô 3 P: 1:A5/1 2:B5/0.5 2.5:B4/1 2.5:D5/1 2.5:F#5/1 2.5:A5/1 3.5:F#5/1 4.5:D5/1
+- Ô 4 P: 1.5:B4/0.75 1.5:D5/0.75 1.5:E5/0.75 2.25:F#5/0.75 3:E5/1 4:D5/0.8
+- Ô 5 P: 1:B4/1 1:D5/1 1:F#5/1 2:D5/0.75 2.75:C5/0.75 3.5:D5/1 4.5:E5/1
+- Ô 6 P: 1.5:D5/1 1.5:E5/1 1.5:G5/1 2.5:D#5/0.5 3:B4/0.25 3.25:C5/0.25 3.5:D5/0.25 3.75:F#5/0.25 4:D5/0.25 4.25:B4/0.25 4.5:C5/0.25 4.75:D5/0.25
+- Ô 7 P: 1:B4/0.5 1.5:A4/0.5 1.5:B4/0.5 1.5:D5/0.5 2:E5/0.5 2.5:D5/1 3.5:A4/1 3.5:B4/1 4.5:B3/1 4.5:D4/1 4.5:F#4/1
+- Ô 8 P: 1.5:A4/0.75 2.25:B4/0.75 3:A4/1 4:F#4/0.5 4.5:D4/0.5
+
+### Câu chưa ổn có bình luận — bằng chứng để sửa
+
+#### #1005 — Chuyện Tình · E thứ
+
+Nhận xét: có nhiều chỗ bị lệch nhịp (ví dụ như Bm7)
+
+Hợp âm (4 phách/ô): Em7 | Bm7 | Em7 | Am7 | F#m7b5 | B11.
+
+Bậc gốc: i | v | i | iv | ii | V.
+
+Số đo: P nốt/ô 9, 7, 10, 9, 8, 14; T attack/ô 5, 5, 5, 5, 5, 4; T đánh riêng 44.8%; P trung bình MIDI 69.21.
+
+P đầy đủ (phách:tên nốt/ngân); T lưu số attack phía trên:
+
+- Ô 1 P: 1:D4/1 2:D4/1.5 2:E4/1.5 3.5:D4/1 3.5:E4/1 3.5:G4/1 4.5:A4/0.25 4.75:D4/1.25 4.75:F#4/1.25
+- Ô 2 P: 2:A4/1 3:F#4/1.5 3:A4/1.5 3:B4/1.5 4.5:B4/0.5 4.5:D5/0.5 4.5:E5/0.5
+- Ô 3 P: 1:D5/1.75 2.75:F#5/0.25 3:D5/0.25 3.25:D#5/0.25 3.5:B4/0.25 3.75:A4/0.25 4:C5/0.25 4.25:B4/0.25 4.5:C5/0.25 4.75:A4/0.25
+- Ô 4 P: 1:C5/0.25 1.25:B4/0.25 1.5:A4/0.25 1.75:F#4/0.25 2:A4/1.5 3.5:E4/1 3.5:G4/1 4.5:A4/0.25 4.75:E4/0.2
+- Ô 5 P: 1:E4/1 1:F#4/1 2:E4/1.5 2:F#4/1.5 2:A4/1.5 3.5:A4/1 3.5:C5/1 4.5:A4/1
+- Ô 6 P: 1.5:F#4/0.75 1.5:A4/0.75 1.5:B4/0.75 2.25:F#4/0.75 2.25:A4/0.75 2.25:C5/0.75 3:A4/0.25 3.25:B4/0.25 3.5:C5/0.25 3.75:C#5/0.25 4:E5/0.25 4.25:C#5/0.25 4.5:D5/0.25 4.75:D#5/0.25
+
+#### #1008 — Chuyện Tình · E thứ
+
+Nhận xét: có mấy chỗ dặm hợp âm bị lệch nhịp, ví dụ như ở hợp âm D trong lần phát thứ 2
+
+Hợp âm (4 phách/ô): Em7 | D | Em9 | Bm7 | Em9 | F#m7b5 | F#m7b5 | B7.
+
+Bậc gốc: i | VII | i | v | i | ii | ii | V.
+
+Số đo: P nốt/ô 16, 21, 14, 12, 15, 12, 8, 12; T attack/ô 5, 5, 5, 5, 5, 5, 5, 4; T đánh riêng 30.8%; P trung bình MIDI 70.10.
+
+P đầy đủ (phách:tên nốt/ngân); T lưu số attack phía trên:
+
+- Ô 1 P: 1:E4/1 1:G4/1 1:B4/1 1:D5/1 2:G4/1 2:B4/1 3:G4/0.5 3.5:G3/0.5 3.5:B3/0.5 3.5:D#4/0.5 4:B3/0.5 4:D4/0.5 4:E4/0.5 4:F#4/0.5 4.5:G4/0.25 4.75:A4/0.25
+- Ô 2 P: 1:A3/0.5 1:D4/0.5 1:F#4/0.5 1.5:F#3/0.5 1.5:A3/0.5 1.5:D#4/0.5 2:G4/0.333 2.333:A#4/0.333 2.667:B4/0.333 3:A3/0.75 3:D4/0.75 3:F#4/0.75 3:A4/0.75 3.75:G4/0.25 4:F#4/0.5 4:A4/0.5 4:B4/0.5 4.5:D4/0.5 4.5:F#4/0.5 4.5:A4/0.5 4.5:C5/0.5
+- Ô 3 P: 1:E4/1.75 1:G4/1.75 1:B4/1.75 2.75:D#5/0.25 3:F#5/0.25 3.25:D#5/0.25 3.5:D5/0.25 3.75:D#5/0.25 4:B4/0.5 4:D5/0.5 4:E5/0.5 4:F#5/0.5 4.5:F#5/1 4.5:A5/1
+- Ô 4 P: 1.5:B4/1 1.5:D5/1 1.5:F#5/1 2.5:B4/0.5 2.5:D5/0.5 2.5:G5/0.5 3:F#5/1 3:A5/1 4:F#5/0.25 4.25:G5/0.25 4.5:F#5/0.25 4.75:E5/0.25
+- Ô 5 P: 1:D5/1 1:E5/1 1:F#5/1 2:G4/1 2:B4/1 2:D5/1 3:G4/0.5 3:B4/0.5 3.5:G4/0.5 3.5:B4/0.5 3.5:D#5/0.5 4:D5/0.5 4.5:E4/1.5 4.5:F#4/1.5 4.5:C5/1.5
+- Ô 6 P: 2:D#5/0.25 2.25:F5/0.25 2.5:F#5/0.25 2.75:G5/0.25 3:F#5/0.25 3.25:D#5/0.25 3.5:C5/0.25 3.75:D#5/0.25 4:D5/0.25 4.25:E5/0.25 4.5:C5/0.25 4.75:A4/0.25
+- Ô 7 P: 1:F#4/1 2:E4/0.75 2:G4/0.75 2.75:A4/0.75 3.5:C5/1 4.5:F#4/1 4.5:A4/1 4.5:D#5/1
+- Ô 8 P: 1.5:F#4/0.75 1.5:A4/0.75 1.5:B4/0.75 2.25:F#4/0.75 2.25:A4/0.75 2.25:C5/0.75 3:F#4/1 3:A4/1 3:B4/1 4:A4/1 4:B4/1 4:D#5/1
+
+#### #1011 — Chuyện Tình · E thứ
+
+Nhận xét: có quá nhiều chỗ dặm hợp âm, hãy bớt lại
+
+Hợp âm (4 phách/ô): Em9 | Bm7 | Am7 | EmMaj7 | F#m7b5 | Bm7 | F#m7b5 | B11.
+
+Bậc gốc: i | v | iv | i | ii | v | ii | V.
+
+Số đo: P nốt/ô 15, 12, 12, 15, 18, 20, 20, 14; T attack/ô 5, 5, 5, 5, 5, 5, 5, 4; T đánh riêng 30.8%; P trung bình MIDI 70.05.
+
+P đầy đủ (phách:tên nốt/ngân); T lưu số attack phía trên:
+
+- Ô 1 P: 1:B3/1 1:D4/1 1:E4/1 2:F#4/0.75 2.75:B3/0.75 2.75:D4/0.75 2.75:E4/0.75 3.5:B3/1 3.5:D4/1 3.5:E4/1 3.5:G4/1 4.5:F#3/1 4.5:B3/1 4.5:D4/1 4.5:F#4/1
+- Ô 2 P: 1.5:D4/0.75 1.5:F#4/0.75 1.5:A4/0.75 2.25:C5/0.75 3:F#4/1 3:A4/1 3:B4/1 4:D4/0.5 4:F#4/0.5 4:A4/0.5 4:C5/0.5 4.5:D5/0.5
+- Ô 3 P: 1:A4/1.75 1:C5/1.75 1:E5/1.75 2.75:D#5/0.25 3:E5/0.25 3.25:D5/0.25 3.5:D#5/0.25 3.75:E5/0.25 4:D5/0.25 4.25:D#5/0.25 4.5:E5/0.25 4.75:G5/0.25
+- Ô 4 P: 1:E5/0.25 1.25:D#5/0.25 1.5:E5/0.25 1.75:D5/0.25 2:E5/0.5 2.5:E4/1 2.5:G4/1 2.5:B4/1 2.5:D#5/1 3.5:E4/1 3.5:G4/1 3.5:B4/1 3.5:E5/1 4.5:F#5/0.25 4.75:D#5/0.2
+- Ô 5 P: 1:C5/0.5 1:E5/0.5 1.5:F#4/0.5 1.5:A4/0.5 1.5:C5/0.5 1.5:D#5/0.5 2:C5/0.5 2:E5/0.5 2:F#5/0.5 2.5:F#4/1 2.5:A4/1 2.5:C5/1 2.5:E5/1 3.5:C5/1 3.5:E5/1 3.5:F#5/1 4.5:D5/0.25 4.75:C5/0.25
+- Ô 6 P: 1:A4/0.5 1:B4/0.5 1:D5/0.5 1.5:A4/0.5 1.5:B4/0.5 2:F#4/0.5 2:A4/0.5 2:B4/0.5 2:D5/0.5 2.5:D4/0.5 2.5:F#4/0.5 2.5:A4/0.5 2.5:C5/0.5 3:D5/0.25 3.25:E5/0.25 3.5:D5/0.25 3.75:F#5/0.25 4:A5/0.333 4.333:D#5/0.333 4.667:E5/0.333
+- Ô 7 P: 1:C5/0.75 1:E5/0.75 1:F#5/0.75 1.75:A4/0.75 1.75:C5/0.75 1.75:D5/0.75 2.5:A4/0.5 2.5:C5/0.5 2.5:D#5/0.5 3:E5/0.25 3.25:D5/0.25 3.5:D#5/0.25 3.75:B4/0.25 4:E4/0.5 4:F#4/0.5 4:A4/0.5 4:C5/0.5 4.5:F#4/1 4.5:A4/1 4.5:B4/1
+- Ô 8 P: 1.5:E4/0.75 1.5:F#4/0.75 1.5:A4/0.75 2.25:F#4/0.75 2.25:A4/0.75 2.25:C5/0.75 3:A4/0.25 3.25:F4/0.25 3.5:F#4/0.25 3.75:D#4/0.25 4:E4/0.25 4.25:C#4/0.25 4.5:D4/0.25 4.75:D#4/0.25
+
+#### #1012 — Chuyện Tình · E thứ
+
+Nhận xét: có quá nhiều chỗ dặm hợp âm hãy bớt lại
+
+Hợp âm (4 phách/ô): Em7 | F#m7b5 | Bm7 | Em7 | Bm7 | Em7 | B7b13 | Em9.
+
+Bậc gốc: i | ii | v | i | v | i | V | i.
+
+Số đo: P nốt/ô 15, 15, 18, 13, 17, 16, 16, 3; T attack/ô 5, 5, 5, 5, 5, 5, 5, 4; T đánh riêng 33.3%; P trung bình MIDI 70.11.
+
+P đầy đủ (phách:tên nốt/ngân); T lưu số attack phía trên:
+
+- Ô 1 P: 1:B3/1 1:D4/1 1:E4/1 2:G3/1 2:B3/1 2:D4/1 3:G3/0.5 3:B3/0.5 3:D4/0.5 3:E4/0.5 3.5:D4/1 3.5:E4/1 3.5:G4/1 4.5:E4/1 4.5:C5/1
+- Ô 2 P: 1.5:C4/1 1.5:E4/1 1.5:F#4/1 1.5:A4/1 2.5:C4/0.5 2.5:E4/0.5 2.5:G4/0.5 3:A4/0.25 3.25:C5/0.25 3.5:D5/0.25 3.75:B4/0.25 4:A4/0.25 4.25:B4/0.25 4.5:D5/0.25 4.75:F#5/0.25
+- Ô 3 P: 1:D5/1 1:F#5/1 1:A5/1 2:D5/0.5 2:F#5/0.5 2:A5/0.5 2:B5/0.5 2.5:B4/1 2.5:D5/1 2.5:F#5/1 2.5:A5/1 3.5:A4/1 3.5:B4/1 3.5:D5/1 3.5:F#5/1 4.5:D4/1 4.5:B4/1 4.5:D5/1
+- Ô 4 P: 1.5:B4/0.75 1.5:D5/0.75 1.5:E5/0.75 2.25:B4/0.75 2.25:D5/0.75 2.25:E5/0.75 2.25:F#5/0.75 3:B4/1 3:D5/1 3:E5/1 4:G4/0.8 4:B4/0.8 4:D5/0.8
+- Ô 5 P: 1:A4/1 1:B4/1 1:D5/1 1:F#5/1 2:A4/0.75 2:B4/0.75 2:D5/0.75 2.75:F#4/0.75 2.75:A4/0.75 2.75:C5/0.75 3.5:F#4/1 3.5:A4/1 3.5:B4/1 3.5:D5/1 4.5:B4/1 4.5:D5/1 4.5:E5/1
+- Ô 6 P: 1.5:B4/1 1.5:D5/1 1.5:E5/1 1.5:G5/1 2.5:E4/0.5 2.5:G4/0.5 2.5:B4/0.5 2.5:D#5/0.5 3:B4/0.25 3.25:C5/0.25 3.5:D#5/0.25 3.75:G5/0.25 4:D#5/0.25 4.25:B4/0.25 4.5:C5/0.25 4.75:D#5/0.25
+- Ô 7 P: 1:D#4/0.5 1:F#4/0.5 1:A4/0.5 1:B4/0.5 1.5:B4/0.5 1.5:D#5/0.5 2:A4/0.5 2:B4/0.5 2:E5/0.5 2.5:D#5/1 3.5:F#4/1 3.5:A4/1 3.5:B4/1 4.5:G3/1 4.5:B3/1 4.5:G4/1
+- Ô 8 P: 1.5:B3/3.5 1.5:D4/3.5 1.5:E4/3.5
+
+
+## Ý kiến khi nghe — Bossa CP cải tiến, 17/09/2026 (mở rộng cửa thời gian)
+
+Người dùng yêu cầu lấy từ khoảng 12h30, kể cả quá 30 phút. Sổ hiện không có bình luận sau 12h30; hai ý gần nhất là 12:03:13 và 12:10:48 UTC+7, được lấy theo yêu cầu hồi cứu. Không có mẫu Đã ổn mới trong cửa này. Không đổi trạng thái đánh giá hay sửa Nguon.json.
+
+| # | lúc bình luận (UTC+7) | bài | giọng | chấm | ý kiến nguyên văn |
+|---|---|---|---|---|---|
+| #1096 | 2026-09-17 12:03:13 | Cánh Hồng Phai (intro) | A thứ | Chưa ổn | kỹ thuật bạn soạn từ G qua Am9 rồi từ Am qua Dm11 đúng là dấu ấn của Cà Pháo nhưng tôi thấy Cà Pháo ko hề lặp lại nhiều lần như bạn, việc bạn soạn kỹ thuật từ G qua Am9 rồi từ Am qua Dm11 mà lặp lại như vậy gọi là lạm dụng và tôi ko cho phép lạm dụng. Hãy phân tích kỹ hơn các nguyên tắc của Cà Pháo khi chọn chỗ để áp dụng kỹ thuật trong các sheet của anh |
+| #1116 | 2026-09-17 12:10:48 | Cánh Hồng Phai (intro) | A thứ | Chưa ổn | câu intro quá tập trung đánh giai điệu mà bỏ quên phần bass. Tiết tấu đệm bass như kiểu ở Am11 tôi thấy hay xuất hiện trong câu intro Bossa của Sheet Người hãy quên em đi, bạn hãy phát huy tiết tấu đó nhiều hơn trong câu các câu solo. Hãy đối chiều với sheet Người hãy quên em đi và các sheet khác để học cách sắp xếp tiết tấu bass trong câu solo để hòa hợp với giai điệu hơn. |
+
+### Bằng chứng: hai tay, vòng và nhận xét đi cùng nhau
+
+Tên bài ghi `(intro)` nhưng sổ cũ không có cột `doan`; không dùng nhãn ấy để khẳng định loại đoạn của #1096. Bậc lấy bằng `PianoBrain/src/mrhai/analyze.ts`, khai Am: VI/VII tương ứng bVI/bVII so với trưởng; chất hợp âm đọc ở ký hiệu. Nốt dưới đây ghi `mốc trong ô:tên nốt/ngân`, mốc bắt đầu từ 0; mọi nốt cả hai tay được giữ, kể cả đồng thời.
+
+#### #1096
+
+- Nhận xét: kỹ thuật bạn soạn từ G qua Am9 rồi từ Am qua Dm11 đúng là dấu ấn của Cà Pháo nhưng tôi thấy Cà Pháo ko hề lặp lại nhiều lần như bạn, việc bạn soạn kỹ thuật từ G qua Am9 rồi từ Am qua Dm11 mà lặp lại như vậy gọi là lạm dụng và tôi ko cho phép lạm dụng. Hãy phân tích kỹ hơn các nguyên tắc của Cà Pháo khi chọn chỗ để áp dụng kỹ thuật trong các sheet của anh
+- Vòng: `Am11 | G | Am9 | G | Am | Dm11 | Bm7b5 | A#9 | E7b13`.
+- Bậc gốc: `i | VII | i | VII | i | iv | ii | bII | V`.
+- 117 nốt P; 35 mốc T; T đánh riêng 60.0%; cao độ P trung bình 69.74 MIDI. Đây là số đo bản phát, không phải chuẩn của thầy.
+
+```text
+ô1 P: 0:B4/1 1:B3/0.25 1:D4/0.25 1:E4/0.25 1:G4/0.25 2.5:B3/0.5 2.5:D4/0.5 2.5:E4/0.5 2.5:G4/0.5 3.5:D4/0.5 3.5:E4/0.5 3.5:G4/0.5
+ô1 T: 0:A2/1.5 1.5:D#3/0.5 2:E3/2
+  số nốt P=12; mốc T=3
+ô2 P: 0.25:B3/0.125 0.25:D4/0.125 0.25:G4/0.125 0.25:B4/0.125 1:D4/0.75 1:G4/0.75 1:B4/0.75 1:D5/0.75 1.75:B4/0.583 2.333:G4/0.167 2.333:B4/0.167 2.333:D5/0.167 2.667:G4/0.167 2.667:B4/0.167 2.667:D5/0.167 3:G4/0.25 3:B4/0.25 3:D5/0.25 3.5:G4/0.25 3.5:B4/0.25 3.5:D5/0.25
+ô2 T: 0.25:G3/0.125 0.5:G3/0.5 1:G3/0.5 1.5:D3/0.25 1.75:G3/0.25 2:G3/2.25
+  số nốt P=21; mốc T=6
+ô3 P: 0.25:G4/0.125 0.25:A4/0.125 0.25:C5/0.125 0.25:E5/0.125 1:G4/0.75 1:A4/0.75 1:C5/0.75 1:E5/0.75 1.75:C5/0.583 2.333:A4/0.167 2.333:C5/0.167 2.333:E5/0.167 2.667:A4/0.167 2.667:C5/0.167 2.667:E5/0.167 3:A4/0.25 3:C5/0.25 3:E5/0.25 3.5:G4/0.25 3.5:A4/0.25 3.5:C5/0.25
+ô3 T: 0.25:A3/0.125 0.5:A3/0.5 1:A3/0.5 1.5:E3/0.25 1.75:A3/0.25 2:A3/2
+  số nốt P=21; mốc T=6
+ô4 P: 0:G4/0.5 0:B4/0.5 0:D5/0.5 1:G4/0.75 1:B4/0.75 1:D5/0.75 1.75:G4/0.125 1.75:B4/0.125 1.75:D5/0.125 2.5:G4/1 2.5:B4/1 2.5:D5/1 3.5:G4/0.5 3.5:B4/0.5 3.5:D5/0.5
+ô4 T: 0:G3/2 2:G3/0.125 2.25:D3/0.125 3:G3/0.5
+  số nốt P=15; mốc T=4
+ô5 P: 0.25:E4/0.125 0.25:A4/0.125 0.25:C5/0.125 0.25:E5/0.125 1:E4/0.75 1:A4/0.75 1:C5/0.75 1:E5/0.75 1.75:C5/0.583 2.333:A4/0.167 2.333:C5/0.167 2.333:E5/0.167 2.667:A4/0.167 2.667:C5/0.167 2.667:E5/0.167 3:A4/0.25 3:C5/0.25 3:E5/0.25 3.5:A4/0.25 3.5:C5/0.25 3.5:E5/0.25
+ô5 T: 0.25:A3/0.125 0.5:A3/0.5 1:A3/0.5 1.5:E3/0.25 1.75:A3/0.25 2:A3/2
+  số nốt P=21; mốc T=6
+ô6 P: 0:C5/1 1:D5/1 2:C5/0.5 2.5:A4/0.5 3:A4/0.25 3.25:F5/0.25 3.5:G5/0.25 3.75:F5/0.25
+ô6 T: 0:D3/1.5 1.5:A2/2.5 1.5:D3/2.5 1.5:F3/2.5
+  số nốt P=8; mốc T=2
+ô7 P: 0:D5/0.5 0.5:A4/0.5 1:D5/0.5 1.5:D5/1 2.5:A4/1 3.5:C5/0.25 3.75:B4/0.2
+ô7 T: 0:B2/2 2:B2/0.125 2.25:F2/0.125 3:B2/0.5
+  số nốt P=7; mốc T=4
+ô8 P: 0.5:F4/0.25 0.5:G#4/0.25 0.5:A#4/0.25 1.25:D4/0.125 1.25:F4/0.125 1.25:G#4/0.125 2:D4/1 2:E4/1 2:G#4/1 3:D4/1 3:E4/1 3:G#4/1
+ô8 T: 0:A#2/1.5 1.5:A#2/0.5 2:E3/1.5 3.5:E3/0.5
+  số nốt P=12; mốc T=4
+```
+
+#### #1116
+
+- Nhận xét: câu intro quá tập trung đánh giai điệu mà bỏ quên phần bass. Tiết tấu đệm bass như kiểu ở Am11 tôi thấy hay xuất hiện trong câu intro Bossa của Sheet Người hãy quên em đi, bạn hãy phát huy tiết tấu đó nhiều hơn trong câu các câu solo. Hãy đối chiều với sheet Người hãy quên em đi và các sheet khác để học cách sắp xếp tiết tấu bass trong câu solo để hòa hợp với giai điệu hơn.
+- Vòng: `Am7 | F | G | Em7 | Am11 | Bm7b5 | Bm7b5 | A#9 | E7b13`.
+- Bậc gốc: `i | VI | VII | v | i | ii | ii | bII | V`.
+- 69 nốt P; 28 mốc T; T đánh riêng 57.1%; cao độ P trung bình 71.26 MIDI. Đây là số đo bản phát, không phải chuẩn của thầy.
+
+```text
+ô1 P: 0:B4/1 1:G4/1 1:A4/1 1:C5/1 2:B4/0.5 2.5:A4/1 3.5:B4/0.25 3.75:C5/0.25
+ô1 T: 0:A2/1.5 0:E3/1.5 1.5:C3/2 1.5:G3/2 3.5:C3/1 3.5:A3/1 3.5:C4/1
+  số nốt P=8; mốc T=3
+ô2 P: 0:A4/1 1:C5/0.5 1.5:G4/0.5 2:A4/1 3:C5/0.25 3.25:G4/0.25 3.5:A4/0.25 3.75:G4/0.25
+ô2 T: 0.5:C4/2.5 3:C4/1
+  số nốt P=8; mốc T=2
+ô3 P: 0:B4/1 1:G4/0.5 1.5:A4/0.5 2:A4/0.333 2.333:B4/0.333 2.667:E5/0.333 3:G5/0.333 3.333:B5/0.333 3.667:A5/0.333
+ô3 T: 0:G3/0.5 0.5:D3/0.25 0.75:G3/0.25 1:B3/0.25 1.25:D3/0.25 1.5:G3/0.25 1.75:B3/0.25
+  số nốt P=9; mốc T=7
+ô4 P: 0:B5/1 1:G5/0.5 1.5:A5/0.5 2:B5/1 3:G5/1
+ô4 T: 2:E2/2 2:E3/2
+  số nốt P=5; mốc T=1
+ô5 P: 1:D5/0.5 1:E5/0.5 1:G5/0.5 1.5:D5/0.25 1.5:E5/0.25 1.5:G5/0.25 2.5:A4/0.5 2.5:B4/0.5 2.5:D5/0.5 2.5:E5/0.5 3.5:G4/0.5 3.5:A4/0.5 3.5:C5/0.5
+ô5 T: 0:A3/1.5 1.5:E3/0.5 2:E3/2
+  số nốt P=13; mốc T=3
+ô6 P: 0:B4/1 1:A4/1 2:B4/0.5 2.5:D5/0.5 3:D5/0.25 3.25:A4/0.25 3.5:G#4/0.25 3.75:A4/0.25
+ô6 T: 0:B2/0.5 0.5:F3/0.25 0.75:B3/0.25 1:D3/0.25 1.25:F3/0.25 1.5:B3/0.25 1.75:D3/0.25
+  số nốt P=8; mốc T=7
+ô7 P: 0:B4/1 1:B4/0.5 1:D5/0.5 1.5:A4/0.5 2:B4/1 3:A4/1
+ô7 T: 2:B2/2 2:B3/2
+  số nốt P=6; mốc T=1
+ô8 P: 0.5:F4/0.25 0.5:G#4/0.25 0.5:A#4/0.25 1.25:D4/0.125 1.25:F4/0.125 1.25:G#4/0.125 2:D4/1 2:E4/1 2:G#4/1 3:D4/1 3:E4/1 3:G#4/1
+ô8 T: 0:A#3/1.5 1.5:A#3/0.5 2:E3/1.5 3.5:E3/0.5
+  số nốt P=12; mốc T=4
+```
+
+### Rút ra và việc phải sửa
+
+- #1096: số đo có cùng hình tiết tấu hai tay ở ô 2, 3 và 5 (cụm dặm có chùm ba). Mẫu nguồn giang Người hãy quên em đi beat 20 chỉ xuất hiện một lần trong đoạn đã đo; bộ chọn có hoàn lại đã nhân thủ pháp đặc trưng này lên. Đây là lạm dụng trong bản biên soạn, không phải bằng chứng thầy dùng với tần suất đó. Cần giới hạn mỗi thủ pháp nổi bật một lần và có đoạn tuyến giai điệu phân cách các cụm dặm.
+- #1116: Am11 ô 5 có LH tại 0/1.5/2, ngân 1.5/.5/2; người dùng muốn phát huy. Các ô 3 và 6 cùng dùng LH chạy nửa ô rồi nhường, ô 4 và 7 cùng chờ tới phách 2 mới có bass: sự lặp này làm phần nền hụt theo ý người dùng. Cần trả nền bass intro cùng loại đoạn cho các ô thông thường, giữ bàn giao hai tay như điểm nhấn có ngân sách, không lấy mẫu outro làm nền lặp của intro.
+- Không mâu thuẫn với yêu cầu trước là bass có chỗ nghỉ: nghỉ có chủ đích khác với làm thưa phần lớn nền. Không dùng số 41%/73.6 của skill Linh Nhi làm chuẩn Cà Pháo; số mốc T ở bảng cũ và ở đây có định nghĩa/cửa đo khác nhau, không coi là cùng một chỉ tiêu.
+- Hai câu này chỉ là bằng chứng cần sửa, không là mẫu Đã ổn. Đã sửa ở KeyTrain: chống lặp cụm dặm theo signature hai tay, tách các ô dặm ít nhất một ô phát triển, neo bass intro 0/1.5/2 và 0/1.5 cho nền; tối đa một bàn giao LH→RH trong một solo. Việc chọn nền LH không cắt đường RH ở mỗi đầu ô. Kiểm chứng 17/9: 86 test liên quan qua, TypeScript/build và lint hai file sửa qua. Chờ nghe lại, không ghi là đã duyệt; chưa commit.
+
+## Ý kiến khi nghe — #1143, 17/09/2026 15:07 (UTC+7)
+
+Hồi cứu theo yêu cầu “khoảng 3h hay 3h30”, vượt cửa 30 phút. Mốc thật: tạo 14:56:01, bình luận **15:07:18**. Chỉ có **1 câu mới Chưa ổn có bình luận; 0 mẫu Đã ổn mới** sau đợt #1096/#1116. Không sửa sổ thô.
+
+| # | bài | giọng | chấm | ý kiến nguyên văn |
+|---|---|---|---|---|
+| #1143 | Cánh Hồng Phai (intro) | A thứ | Chưa ổn | Những chỗ cần phân tich và học để nắm được nguyên tắc soạn của Cà Pháo: <br> -kỹ thuật chạy đánh chuỗi nốt giai điệu ở Dm11. <br> -tiết tấu đánh bass và kỹ thuật đi bass từ Am11 đến Dm9, tại sao các kỹ thuật đó Cà Pháo xếp liền kề nhau, có phải do thói quen tiết tấu cả bài bossa nên là anh có thể đánh chùm bass và tiết tấu đó. Có nên tách chùm đó ra ko?  <br> -Giai điệu từ Am11 đến Dm9 rồi dẫn qua E7 |
+
+### Bộ ba bằng chứng #1143
+
+- Vòng: `Am9 | Dm7 | Am9 | Dm11 | Am11 | Dm7 | Am7 | Dm9 | E7`.
+- Bậc (parser PianoBrain `analyze(..., 'Am')`): `i | iv | i | iv | i | iv | i | iv | V`. Chất mở rộng nằm trong ký hiệu trên.
+- Sổ không lưu thời lượng từng hợp âm: không tự gán mỗi ký hiệu đúng một ô; có 9 ký hiệu trong 8 ô.
+- Nốt: `mốc trong ô:tên nốt/ngân`, 0-based; đủ cả hai tay, kể cả nốt đồng thời.
+
+- Ô 1 P: 0:B4/1 · 0:D5/1 · 1:C5/1 · 2:B4/0.5 · 2.5:A4/0.5 · 3:G4/0.5 · 3.5:C4/1.5 · 3.5:A4/1.5 · 3.5:C5/1.5
+- Ô 1 T: 0:A2/1.5 · 0:E3/1.5 · 1.5:C3/2 · 1.5:G3/2 · 3.5:C2/1 · 3.5:A2/1 · 3.5:C3/1
+- Ô 2 P: 1:F4/0.25 · 1.25:E4/0.25 · 1.5:C4/0.25 · 1.75:F4/0.25 · 2:A4/0.5 · 2.5:G4/1 · 3.5:A4/0.25 · 3.75:C5/0.25
+- Ô 2 T: 0.5:A2/2.5 · 3:C3/1
+- Ô 3 P: 0:D5/1 · 1:C5/0.5 · 1.5:B5/0.5 · 2:C6/0.25 · 2.25:A5/0.25 · 2.5:B5/0.25 · 2.75:G5/0.25 · 3:A5/0.5 · 3.5:G5/1
+- Ô 3 T: 0:A2/1.5 · 1.5:E2/2.5 · 1.5:A2/2.5 · 1.5:C6/0.5
+- Ô 4 P: 0.5:A5/0.125 · 0.5:C6/0.125 · 0.625:F5/0.125 · 0.75:E5/0.125 · 0.875:D5/0.125 · 1:E5/1 · 2:F5/0.5 · 2.5:G5/0.25 · 3:A5/0.5 · 3.5:D5/1.5 · 3.5:E5/1.5 · 3.5:G5/1.5
+- Ô 4 T: 0:D3/1.5 · 1.5:A2/2.5
+- Ô 5 P: 1:D5/0.5 · 1:E5/0.5 · 1:G5/0.5 · 1.5:D5/0.25 · 1.5:E5/0.25 · 1.5:G5/0.25 · 2.5:A4/0.5 · 2.5:B4/0.5 · 2.5:D5/0.5 · 2.5:E5/0.5 · 3.5:D4/1 · 3.5:A4/1 · 3.5:C5/1
+- Ô 5 T: 0:A2/1.5 · 1.5:E2/0.5 · 2:E2/2
+- Ô 6 P: 0.5:D5/0.833 · 1.333:E5/0.333 · 1.667:F5/0.333 · 2:G5/0.75 · 2.75:F5/0.583 · 3.333:E5/0.333 · 3.667:D5/0.333
+- Ô 6 T: 0:D2/1.5 · 1.5:A2/1.5 · 1.5:F3/1.5 · 1.5:A3/1.5 · 3:A2/1
+- Ô 7 P: 0:C5/0.75 · 0.75:A4/0.75 · 1.5:B4/0.167 · 1.667:C5/0.167 · 1.833:D5/0.167 · 2:C5/1 · 3:A4/0.5 · 3.5:A4/1.5 · 3.5:C5/1.5
+- Ô 7 T: 0:A2/1 · 1:E2/1.5 · 2.5:C2/1 · 3.5:D2/1 · 3.5:A2/1 · 3.5:C3/1
+- Ô 8 P: 1:A4/0.25 · 1:C5/0.25 · 1.5:B4/1 · 2.5:B4/0.25 · 2.5:D5/0.25 · 3:D5/0.25 · 3:E5/0.25 · 3.5:E5/0.5 · 3.5:Ab5/0.5
+- Ô 8 T: 0.5:C3/0.5 · 1:D3/0.25 · 1:C4/0.25 · 1.5:E2/0.5 · 1.5:E3/0.5 · 2:Ab2/2
+
+Số nốt RH/ô: `9, 8, 9, 12, 13, 7, 9, 9`; mốc gõ LH/ô: `3, 2, 2, 2, 3, 3, 4, 4`. Mốc LH gõ riêng: 14/23 (60.9%); tâm RH MIDI 73.59. Đây là số đo câu KT, không phải số đo sheet.
+
+### Điều phải làm từ bình luận và yêu cầu mới
+
+Không biến cả intro Người hãy quên em đi thành khuôn cố định rồi chỉ thay nốt. Phân tích cụm bass–giai điệu và ranh giới kỹ thuật trước khi cho phép tách/di chuyển; giữ đơn vị liên kết khi còn nốt nối, đối đáp hay bass dẫn chưa tới đích. Phân tích cả 9 sheet, phân biệt điệu và giọng; chỉ nguồn đã xác nhận giọng được dạy chọn nốt. “Bỏ nhịp” cần tách thành không gõ mới nhưng còn ngân, một tay nghỉ để tay kia nói, hay cả hai thật sự nghỉ.
+
+
+## Thói quen tổ chức solo — đo lại 9 sheet, 17/09/2026
+
+**Chỉ quan sát được cách viết; không khẳng định biết ý nghĩ của nhạc sĩ.**
+Không lấy nguyên cả solo Người hãy quên em đi làm stencil rồi thay nốt.
+Không chắp các ô kỹ thuật độc lập rồi thêm bass/đổi gate để chữa mối nối.
+
+Đã đo 183 ô nội bộ solo từ đủ 9 XML (bỏ ô đầu/cuối để giảm lẫn lời lấy đà),
+1222 attack RH / 886 attack LH; đã ghép ties, hợp âm cùng tay là một attack.
+Hai bài Kém duyên/Yêu xa chưa xác nhận giọng: được đo nhịp/phối tay, chưa dạy chọn
+nốt trưởng/thứ. Nguồn nốt xác nhận vẫn 7 bài/21 đoạn; không tự suy giọng từ dấu hóa.
+
+| Bài | Ô nội bộ | LH gõ riêng (% attack LH) | Không gõ LH đầu ô / còn ngân |
+|---|---:|---:|---:|
+| Hồng Kông 1 | 36 | 56.6 | 7/5 |
+| Người hãy quên em đi | 16 | 75.4 | 3/3 |
+| Có Em Chờ | 17 | 64.0 | 0/0 |
+| Ngày mai em đi | 21 | 73.0 | 0/0 |
+| Kém duyên | 16 | 39.5 | 0/0 |
+| Yêu xa | 20 | 45.5 | 5/0 |
+| Để Em Rời Xa | 12 | 68.5 | 0/0 |
+| Chưa Bao Giờ | 14 | 58.6 | 1/0 |
+| Chúng Ta Không Thuộc Về Nhau | 31 | 57.3 | 0/0 |
+
+“LH gõ riêng” không có nghĩa RH đang im. Ngân là trường độ ký âm, chưa đo pedal/audio.
+Phải dùng chiều dài ô thật; đoạn kết Hồng Kông 1 có 2/4, không ép mọi ô thành 4 phách.
+
+### Những điều thay cho các định mức cũ
+
+- **Có điểm tựa rồi mới nhường tay.** Bossa 3/3 ô nội bộ không gõ LH đầu vẫn có
+  ngân từ ô trước. Cắt ngân ở vạch ô rồi gọi đó là “bỏ bass theo thầy” là sai.
+  Yêu xa có nhiều vùng RH tự chạy khi LH đã nghỉ; không áp định mức ấy lên Bossa.
+- **Dặm theo vùng chức năng, không theo quota.** Intro Bossa ô 5 là tương phản
+  giữa các tuyến chạy; giang 41–46 thiên về đối đáp hợp âm rồi 47–48 chuyển chạy.
+  Hồng Kông 1 giang 56/60 đặt điểm cụm giữa vùng RH dày. Không dùng luật cứng
+  “cách 8 phách mới được dặm” cho mọi solo như bản sửa #1096 trước.
+- **Có lặp chủ đích.** Có Em Chờ 53 nhắc 5; CTKTVN outro 65–76 có cụm/nốt lặp.
+  CTKTVN có 58/170 bước RH liên tiếp bằng 0 ở mẫu nội bộ; Hồng Kông 1 5/198.
+  Chống lạm dụng một cú biểu diễn không đồng nghĩa cấm ba nốt giống nhau toàn cục.
+- **Kỹ thuật gồm cả hai tay và chỗ giải.** Cú giật Bossa outro 97: LH
+  `0/1.5/2/3.5`, RH `.5/1.25/2/3`, đổi hợp âm tại 2, nhả staccato RH.
+  Không thể khôi phục chỉ bằng thêm nốt trầm hoặc tăng lực RH.
+- **Tách được khi động tác đã hoàn tất.** Bossa intro ô 7→8 có bass/cụm RH ngân
+  qua vạch; câu ở ô 4 là lướt xuống → phát triển lên → cụm đáp cuối ô. Không cắt
+  giữa nhóm chia nhỏ, ngân hoặc bass dẫn chưa tới đích. Có thể lấy thủ pháp cùng
+  điều kiện vào/ra, không phải giữ nguyên toàn bộ intro và vòng hợp âm của nó.
+- **Nốt xét hai trục: giọng đoạn và hợp âm tại chỗ.** Trên hợp âm thứ của đoạn
+  thứ, số đếm RH top nổi bật b3=83, b7=74, 11=49, 5=48, 9=44; trên hợp âm trưởng
+  của đoạn trưởng: 5=73, 3=71, 9=60, 1=53, 7=49, 13=43. Đây chỉ là số đếm mô tả,
+  không phải xác suất gieo từng nốt. Chưa lọc tinh hết cửa lời Ballad nên chưa
+  đưa trực tiếp các tỷ lệ này thành luật runtime.
+
+Các dấu hiệu nối bán cung, quãng gãy, đổi hướng, cụm hợp âm và lệch phách có mặt
+ở cả 9 bài; gọi là vốn thường gặp trong kho, chưa chứng minh là độc quyền Cà Pháo.
+Chỉ có một sheet Bossa nên các suy luận về cấu trúc Bossa vẫn cần nghe duyệt.
+
+### Hệ quả cho bộ soạn (đặc tả, chưa đánh dấu triển khai)
+
+Lập vai trò câu mới trước → chọn kỹ thuật theo điệu/vị trí → xét trạng thái
+hai tay/cửa vào-ra → soạn hòa âm và tuyến nốt cùng nhau → kiểm mối nối.
+Nguồn Ballad chỉ bổ sung màu/quãng/đường chạy cho Bossa, không nhập lưới Ballad.
+Không dùng nguyên timeline solo Bossa qua mọi take; cũng không xào từng ô rời.
+Giữ mô phỏng sheet là chế độ riêng, bảo toàn khung hát 11 tiếng và CP Lick/Run.
+
+Bản phân tích chi tiết từng bài, trả lời #1143 và cách tái lập:
+`D:/KeyTrain/Reference/CP-THOI-QUEN-SOLO-2026-09-17.md`.
+Công cụ read-only: `D:/KeyTrain/tools/cp_solo_habits.py` (`--melody` cho màu nốt).
+Đây là lần học/đối chiếu, không phải tuyên bố bộ soạn đã nghe hay hoặc mô phỏng
+đầy đủ tư duy nhạc sĩ. Các mục “Chưa đo” cũ dưới đây chỉ còn giá trị lịch sử ở
+những nội dung đã được cập nhật bằng số đo phía trên.
+
+## Ý kiến khi nghe — #1222, 18/09/2026 09:35 (UTC+7)
+
+Chuyển thủ công theo yêu cầu, kiểm cửa 30 phút lúc 02:45 UTC: **1 câu Chưa ổn có lời bình, 0 mẫu Đã ổn mới; 1 bộ ba**. Không sửa `Nguon.json`. Cột bài còn tên “Cánh Hồng Phai (intro)” nhưng `doan=interlude`: đây là **giang tấu**, không phải intro.
+
+| # | lúc nghe / bình luận (UTC+7) | bài, đoạn | giọng | chấm | ý kiến nguyên văn |
+|---|---|---|---|---|---|
+| #1222 | 09:33:26 / 09:35:46 | Cánh Hồng Phai — giang tấu | A thứ | Chưa ổn | Từ G13 đến Dm9 giai điệu nghe bị chỏi với phần đầu câu giang tấu. Hãy phân tích trong các sheet giọng thứ của Cà Pháo rồi train lại |
+
+### Bộ ba bằng chứng #1222
+
+- Vòng: `Am11 | G13 | Fmaj7 | G13 | Em7 | G13 | Dm9 | E11`.
+- Bậc từ `PianoBrain analyze(..., 'Am')`: `i | VII | VI | VII | v | VII | iv | V`. Parser dùng VI/VII cho bậc tự nhiên của gam thứ; tương ứng bVI/bVII khi so với gam trưởng. Chất hợp âm giữ ở hàng ký hiệu.
+- Có 8 ô, 144 nốt cả hai tay. Sổ không lưu thời điểm đổi từng hợp âm: không tự coi tám ký hiệu là tám ô bằng nhau khi phân tích gate.
+- Nốt dưới ghi đủ hai tay: `mốc trong ô:tên nốt/ngân`, mốc 0-based, đơn vị phách; Eb là tên enharmonic của D# khi làm nốt dẫn E.
+
+- Ô 1 P: 1:A3/1 · 1:B3/1 · 1:D4/1 · 1:E4/1 · 2:A3/0.125 · 2:B3/0.125 · 2:D4/0.125 · 2:E4/0.125 · 3.5:A3/0.75 · 3.5:B3/0.75 · 3.5:D4/0.75 · 3.5:E4/0.75
+- Ô 1 T: 0:A2/0.75 · 0.75:A2/0.125 · 1.5:A2/0.75 · 2.25:A2/0.125 · 2.5:A2/0.5 · 3:A2/0.5 · 3.5:B2/0.75
+- Ô 2 P: 0.25:B3/0.125 · 0.25:D4/0.125 · 0.25:E4/0.125 · 0.25:G4/0.125 · 1:B3/0.75 · 1:D4/0.75 · 1:E4/0.75 · 1:G4/0.75 · 1.75:F4/0.583 · 2.333:D4/0.167 · 2.333:E4/0.167 · 2.333:G4/0.167 · 2.667:D4/0.167 · 2.667:E4/0.167 · 2.667:G4/0.167 · 3:B3/0.25 · 3:D4/0.25 · 3:F4/0.25 · 3.5:E4/0.25 · 3.5:G4/0.25 · 3.5:A4/0.25
+- Ô 2 T: 0.25:G2/0.125 · 0.5:G2/0.5 · 1:G2/0.5 · 1.5:D2/0.25 · 1.75:G2/0.25 · 2:G2/2
+- Ô 3 P: 0:F4/0.5 · 0:A4/0.5 · 0:C5/0.5 · 1:F4/0.75 · 1:A4/0.75 · 1:C5/0.75 · 1.75:C4/0.125 · 1.75:F4/0.125 · 1.75:A4/0.125 · 2.5:F4/1 · 2.5:A4/1 · 2.5:C5/1 · 3.5:F4/0.75 · 3.5:A4/0.75 · 3.5:E5/0.75
+- Ô 3 T: 0:F2/2 · 2:F2/0.125 · 2.25:C2/0.125 · 3:F2/0.5
+- Ô 4 P: 0.25:B4/0.125 · 0.25:D5/0.125 · 0.25:F5/0.125 · 1:D5/0.5 · 1:E5/0.5 · 1:G5/0.5 · 2.25:B4/0.375 · 2.25:D5/0.375 · 2.25:F5/0.375 · 3:B4/0.25 · 3:D5/0.25 · 3:E5/0.25 · 3.5:G5/0.25 · 3.75:F5/0.25
+- Ô 4 T: 0:G2/0.5 · 0.5:G2/1 · 1.5:B2/0.125 · 1.75:B2/0.125 · 2:G2/0.25 · 2.5:G2/0.125 · 2.75:G2/0.125 · 3.25:G2/0.125
+- Ô 5 P: 0:B4/1 · 0:D5/1 · 1:E5/1 · 2:G5/0.5 · 2.5:E5/0.5 · 3:E5/0.5 · 3.5:D5/1.5 · 3.5:E5/1.5 · 3.5:G5/1.5
+- Ô 5 T: 0:E2/1.5 · 0:B2/1.5 · 1.5:G2/2 · 1.5:D3/2 · 3.5:G2/1 · 3.5:E3/1 · 3.5:G3/1
+- Ô 6 P: 1:F5/0.25 · 1.25:B5/0.25 · 1.5:D5/0.25 · 1.75:G5/0.25 · 2:F5/0.25 · 2.25:E5/0.25 · 2.5:G5/1 · 3.5:F5/0.25 · 3.75:E5/0.25
+- Ô 6 T: 0.5:D3/2.5 · 3:F3/1
+- Ô 7 P: 0:G5/0.75 · 0.75:F5/0.75 · 1.5:Eb5/0.167 · 1.667:E5/0.167 · 1.833:F5/0.167 · 2:D5/1 · 3:E5/0.5 · 3.5:C5/1.5 · 3.5:D5/1.5
+- Ô 7 T: 0:D3/1 · 1:A2/1.5 · 2.5:F2/1 · 3.5:D2/1 · 3.5:A2/1 · 3.5:C3/1
+- Ô 8 P: 1:A4/0.25 · 1:C5/0.25 · 1.5:D5/1 · 2.5:D5/0.25 · 2.5:E5/0.25 · 3:A4/0.25 · 3:C5/0.25 · 3.5:B4/0.5 · 3.5:D5/0.5
+- Ô 8 T: 0.5:C3/0.5 · 1:D3/0.25 · 1:C4/0.25 · 1.5:E2/0.5 · 1.5:E3/0.5 · 2:B2/2
+
+RH nốt/ô: `12, 21, 15, 14, 9, 9, 9, 9`; LH mốc/ô: `7, 6, 4, 8, 3, 2, 4, 4`. LH gõ riêng 27/38 (71.1%); cao độ trung bình RH MIDI 69.89. Đây là số đo câu KT, không áp định mức của Linh Nhi cho Cà Pháo.
+
+### Đối chiếu ban đầu — chưa kết luận chỉ do va chạm hai tay
+
+Ý người dùng chỉ đích danh G13→Dm9 và so với phần đầu giang. Ở ô 6, top line
+F5→B5→D5→G5 có bước +6, −9, +5 trong ba móc kép liên tiếp. Ô 7 có D#5→E5→F5
+ngắn. Việc tất cả nốt (trừ nốt dẫn) thuộc gam hoặc hợp âm **không đủ** để câu
+nghe liên kết. Mở câu top E4, đoạn sau lên tới B5: phải xét phát triển mô-típ,
+đường chạy và tầm âm, không quy lời “chỏi” thành một nốt ngoài gam duy nhất.
+
+Không có mâu thuẫn cần bác lời người dùng: số đo đúng gam không chấm được thẩm mỹ.
+Yêu cầu thực hiện: đối chiếu Người hãy quên em đi và các sheet thứ, sửa cách
+chọn đường giai điệu/nối tension trong engine Bossa; giữ vòng, tiết tấu và kỹ thuật
+đã gần đạt. Không thay câu đã lưu #1222 bằng một câu mới rồi nhận là bản cũ.
 
 ## 6. Chưa đo — đừng suy bừa vào chỗ này
 
