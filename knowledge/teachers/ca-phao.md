@@ -1042,6 +1042,23 @@ Yêu cầu thực hiện: đối chiếu Người hãy quên em đi và các she
 chọn đường giai điệu/nối tension trong engine Bossa; giữ vòng, tiết tấu và kỹ thuật
 đã gần đạt. Không thay câu đã lưu #1222 bằng một câu mới rồi nhận là bản cũ.
 
+## Đệm ballad hai tay — *Để Em Rời Xa*, đo 25/9/2026
+
+Số đo đầy đủ và lệnh tái tạo: `KeyTrain/Reference/CA-PHAO-BALLAD-DE-EM.md` ·
+`KeyTrain/scripts/audit_cp_de_em.py`. Một bài; chưa đối chiếu các bài ballad khác.
+
+**Bẫy: vạch nhịp ký âm lệch nhạc đúng một phách.** Bass rơi ở offset 1 của ô XML trong **68/70 ô**,
+ký hiệu hợp âm lệch theo. Mọi số "phách trong ô" của bài này đo trên lưới XML đều lệch pha, **chưa
+đo lại**. Kho solo của bài cũng vậy.
+
+**Lúc hát tay phải là giai điệu lời**: nốt đỉnh hai lượt phiên trùng từng nốt. Cú tay phải
+không mang giai điệu chỉ **19/454**. Anh phối hợp hai tay bằng cách **chêm bè hoà âm dưới nốt giai
+điệu, đúng chỗ tay trái trống**. Trên 30 ô phiên: tay trái gõ phách 1 (30) · 3& (19) · 4 (29), còn cú
+tay phải có bè dày nhất ở phách 2 (18/21) · 1.75 (15/17) · 2.75 (14/21). Bè luôn gõ cùng một nốt
+giai điệu, không có nhịp riêng. Tay trái tự gánh bass lẫn nốt hợp âm.
+
+Nút KeyTrain **Ballad Để em** dùng ô thật 8–9 (phiên) và 24–25 (điệp). Chờ nghe duyệt.
+
 ## 6. Chưa đo — đừng suy bừa vào chỗ này
 
 - **Sheet có cùng cao độ với bản thu không.** Đã bắt được **một** bài lệch: *Người hãy quên
