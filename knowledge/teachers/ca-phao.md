@@ -1057,7 +1057,7 @@ không mang giai điệu chỉ **19/454**. Anh phối hợp hai tay bằng cách
 tay phải có bè dày nhất ở phách 2 (18/21) · 1.75 (15/17) · 2.75 (14/21). Bè luôn gõ cùng một nốt
 giai điệu, không có nhịp riêng. Tay trái tự gánh bass lẫn nốt hợp âm.
 
-Nút KeyTrain **Ballad Để em** dùng ô thật 8–9 (phiên) và 24–25 (điệp). Chờ nghe duyệt.
+Nút KeyTrain **Ballad Để em**: bản 1 (ô thật 8–9) bị chê *"dở"*. Bản 2 soạn trên mốc gõ Ballad DERX của Codex (cửa sổ 4–5 · 24–25), thêm ngân nối và trả quãng đôi tay phải. Lý do: bỏ giai điệu thì phiên còn 2,09 nốt vang TB so với 3,00 khi đủ hai tay (480 móc kép). Chờ nghe duyệt.
 
 ## 6. Chưa đo — đừng suy bừa vào chỗ này
 
