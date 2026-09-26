@@ -1059,6 +1059,12 @@ giai điệu, không có nhịp riêng. Tay trái tự gánh bass lẫn nốt h�
 
 Nút KeyTrain **Ballad Để em**: bản 1 (ô thật 8–9) bị chê *"dở"*. Bản 2 soạn trên mốc gõ Ballad DERX của Codex (cửa sổ 4–5 · 24–25), thêm ngân nối và trả quãng đôi tay phải. Lý do: bỏ giai điệu thì phiên còn 2,09 nốt vang TB so với 3,00 khi đủ hai tay (480 móc kép). Chờ nghe duyệt.
 
+**Hai tay đan nhau, cú hai tay chỉ ở phách 1 và 4** (đo 26/9/2026, 30 ô thật phiên đủ 4 phách,
+`KeyTrain/scripts/audit_cp_de_em_bum_chat.py`). Hai tay gõ cùng lúc: phách 1 **23/30**, phách 4 **24/30**; mọi mốc móc kép khác
+≤ 8/30. Chỗ khác một tay gõ thì tay kia nghỉ: tay trái đứng riêng một nốt (2½: 19/19 cú tay trái là một nốt), tay phải đứng riêng
+thường chỉ một nốt giai điệu (¼: 8/8, ½: 12/19, 3¼: 13/16), hai nốt ở 1¾ · 2¼ · 2¾, ba nốt ở phách 2 (7/21). Một bài; chưa đối chiếu
+ballad khác.
+
 ## 6. Chưa đo — đừng suy bừa vào chỗ này
 
 - **Sheet có cùng cao độ với bản thu không.** Đã bắt được **một** bài lệch: *Người hãy quên
