@@ -242,6 +242,11 @@ ghép. Xem mục 0 về cỡ mẫu hai bài.
 **2/2 bài** có tay trái ở đoạn kết thưa hơn giang tấu (`3,7 < 5,5` · `4,4 < 8,6`). Cùng
 hướng với Cà Pháo, nhưng cỡ mẫu hai bài thì chỉ đủ để nói *"chưa thấy bài nào ngược"*.
 
+### Mốc chuyển đoạn — chơi tới sát vạch (ballad, đo 26/9/2026)
+
+Phép đo (26/9/2026): ở mỗi đầu đoạn mới (trừ đoạn đầu), lấy mọi nốt bắt đầu trong 4 nốt đen trước vạch, đo từ lúc nốt cuối tắt tới vạch — "lặng trước vạch", nốt đen. Tái lập: `KeyTrain/tools/moc_chuyen_doan.py` (`--trai`: riêng tay trái). Chiếc Lá Mùa Đông · Tình Em Là Đại Dương: cả hai tay lặng 0 ở **14/14** mốc; riêng tay trái 0 ở
+11/14, ¼ ở 1, 1 và 3½ nốt đen ở 2. Cỡ mẫu hai bài. → KeyTrain nút "Mặc định" ở mốc chuyển đoạn = im 0 (chung mọi thầy).
+
 ---
 
 ## 5. Tuyến giai điệu — chép nguyên từng nốt

@@ -1044,6 +1044,13 @@ chọn đường giai điệu/nối tension trong engine Bossa; giữ vòng, ti�
 
 ## Đệm ballad hai tay — *Để Em Rời Xa*, đo 25/9/2026
 
+**Mốc chuyển đoạn — anh chơi tới sát vạch rồi vào thẳng đoạn mới (đo 26/9/2026).** Phép đo (26/9/2026): ở mỗi đầu đoạn mới (trừ đoạn đầu), lấy mọi nốt bắt đầu trong 4 nốt đen trước vạch, đo từ lúc nốt cuối tắt tới vạch — "lặng trước vạch", nốt đen. Tái lập: `KeyTrain/tools/moc_chuyen_doan.py` (`--trai`: riêng tay trái).
+- **Ballad** (Có Em Chờ · Ngày mai em đi · Kém duyên · Yêu xa · Để Em Rời Xa · Chưa Bao Giờ · Chúng Ta; Hồng Kông 1 không
+  đọc được file): cả hai tay lặng 0 ở **40/40** mốc; riêng tay trái 0 ở 32/40, ≤ ½ ở 3, dài hơn ở 5.
+- **Bossa** (Người hãy quên em đi): cả hai tay 0 ở **6/6** mốc; tay trái 0 ở 3/5, 1 và 2 nốt đen ở 2 mốc.
+→ KeyTrain nút **"Mặc định"** ở menu mốc chuyển đoạn = im 0 (chung mọi thầy, `NGHI_MAC_DINH`). Màu Cà Pháo nay cũng nghe
+số phách nghỉ người dùng chọn: câu chạy CP kết ở vạch cũ, nghỉ **đôn ra** thêm vào ô nối, đệm tắt suốt chỗ nghỉ.
+
 Số đo đầy đủ và lệnh tái tạo: `KeyTrain/Reference/CA-PHAO-BALLAD-DE-EM.md` ·
 `KeyTrain/scripts/audit_cp_de_em.py`. Một bài; chưa đối chiếu các bài ballad khác.
 

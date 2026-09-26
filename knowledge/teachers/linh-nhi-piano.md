@@ -836,6 +836,12 @@ Số đo nền: mốc gõ có **cả hai tay** — trung bình năm bài **40%**
 bài: Biển Tình 8% · Đường Xưa 13% · Mùa Xuân 22% · Đừng Xa 31% · Rừng Lá 36%, **trung
 bình 22%**.
 
+### 10c. Mốc chuyển đoạn bolero — chơi tới sát vạch (đo 26/9/2026)
+
+Phép đo (26/9/2026): ở mỗi đầu đoạn mới (trừ đoạn đầu), lấy mọi nốt bắt đầu trong 4 nốt đen trước vạch, đo từ lúc nốt cuối tắt tới vạch — "lặng trước vạch", nốt đen. Tái lập: `KeyTrain/tools/moc_chuyen_doan.py` (`--trai`: riêng tay trái). Sáu bài bolero: cả hai tay lặng 0 ở **29/36** mốc, ≤ ½ nốt đen ở 4, dài hơn ở 3 (1 · 1 · 3¼ —
+Đừng Xa trước điệp ×2, Đường Xưa trước phiên 2). Riêng tay trái: 0 ở 19/36, ≤ ½ ở 7, dài hơn ở 10 — lúc ấy tay phải
+(giai điệu) vẫn chơi tới vạch. → KeyTrain nút "Mặc định" ở mốc chuyển đoạn = im 0 (chung mọi thầy, `NGHI_MAC_DINH`).
+
 ---
 
 ## 11. Câu dạo Đừng Xa Em Đêm Nay — hình mẫu
@@ -1702,7 +1708,7 @@ Mỗi câu soạn ra có `compositionSources`, **mỗi ô một dòng**:
 nốt đã nắn về hợp âm), và điểm phạt của ô được chọn so với ô thua. Hai thứ này tính được ngay trong `datO` và vòng
 chấm điểm, chỉ chưa ghi ra.
 
-#### 6. Đệm hai tay (nút Slow Rock Lá thư hai tay) — biên soạn đã duyệt
+#### 6. Đệm hai tay (nút Slow Rock Lá thư hai tay) — biên soạn đã duyệt (25/9, duyệt lại 26/9 — xem 13i)
 
 Sóng rải móc đơn vắt hai tay, mở rộng rải c15 của chị ra hai quãng tám: tay trái tiếng 1 · 2 · 3 = gốc (ngân cả ô,
 nhấn mạnh nhất) · 5 · 8; tay phải tiếng 4 · 5 · 6 = 10 · 12 · 10 (ô 1) rồi 12 · 10 · 8 (ô 2). Phách mạnh 1 và 4 theo
@@ -1710,8 +1716,57 @@ cách đếm của người dùng (6 phách móc đơn một ô). Điệp: gốc
 sheet (lúc hát chị chỉ rải tay trái) — **ý người dùng** + biên soạn của Claude.
 
 **Chưa đo / chưa làm**: giọng trưởng slow rock chưa có sheet để đối chiếu (đang dời gam từ ô giọng thứ); hệ số phạt
-chưa đo; lực đánh câu solo cố định (tay phải 76, tay trái 62); Linh Run và mốc chuyển đoạn chưa được người dùng
-duyệt riêng.
+chưa đo; lực đánh câu solo cố định (tay phải 76, tay trái 62); Linh Run chưa được người dùng duyệt riêng. Mốc chuyển
+đoạn: duyệt cùng điệu hai tay 26/9 — mục 13i.
+
+### 13i. Điệu Slow Rock Lá thư hai tay ĐÃ DUYỆT LẠI 26/9/2026 — mỗi hợp âm 6 phách, mốc chuyển đoạn, ô fill
+
+Người dùng: *"Điệu slow rock lá thư 2 tay đã ổn"* (26/9/2026), sau một loạt sửa cùng ngày trên bài *Thành phố buồn* (Mi thứ). Đường đã
+duyệt — **đừng đổi nốt, đừng đổi luật** nếu người dùng chưa yêu cầu. Sóng rải hai tay giữ nguyên như mục 13h.6.
+
+**1. Ô tick "Slow rock: mỗi hợp âm 6 phách rồi chuyển"** (cạnh ô chọn "Mỗi hợp âm", chỉ hiện ở họ slow rock; lưu theo bài).
+- **Ý người dùng:** *"có nhiều bài slow rock mà mỗi hợp âm chỉ đánh 6 phách là chuyển qua hợp âm khác … chứ ko phải 2 lần
+  6 phách"* — trước đó họ phải ghép đôi hợp âm để lách.
+- Máy: điệu `gridUnit` 0,5 (Lá thư, LT, Đức Thịnh) có "1 ô nhịp" = 6 nốt đen = HAI ô 6 móc đơn cho mỗi hợp âm. Bật ô tick
+  → mỗi hợp âm = MỘT ô của điệu (`beatsPerMeasure × gridUnit` = 3 nốt đen), ô chọn "Mỗi hợp âm" bị khoá.
+- Ô đệm hai tay dài 12 móc đơn (ô 1 sóng 10–12–10, ô 2 sóng 12–10–8) trải theo thời gian, nên hợp âm một ô lần lượt nhận
+  ô 1 rồi ô 2 — mỗi hợp âm vẫn trọn một sóng rải trên gốc của chính nó (test: phiên · điệp · hai tay).
+- **Bẫy Claude đã sập:** lượt đầu hiểu thành "coi hợp âm ghép đôi là trọn một ô" (đổi ngưỡng chia đôi) — người dùng bác
+  *"bạn hiểu sai ý tôi"*. Bài đã ghép đôi để lách thì bỏ ghép đôi khi bật ô tick; không bỏ thì mỗi hợp âm còn 3 móc đơn và
+  luật "chia đôi thì rải" (13h) áp vào.
+
+**2. Mốc chuyển đoạn — Linh Nhi làm gì ở sheet (số đo 26/9/2026).** Ô 6/8 cuối trước mỗi đầu đoạn, cả hai tay, đếm móc
+đơn lặng trước vạch:
+
+| | lặng trước vạch (cả hai tay) |
+|---|---|
+| Lá Thư Trần Thế (7 mốc) | 0 ở 4 mốc · 0,5 ở 3 mốc (chỉ là nhả nốt) |
+| Một Cõi Đi Về (7 mốc) | 0 ở 4 · 0,25 ở 1 · 1,5–1,75 ở 2 |
+
+Chị **không nghỉ** trước đoạn mới: tay trái đi **bass quãng tám dẫn xuống** vào vạch (Lá Thư: A–G–E ở tiếng 4 · 5 · 6
+trước phiên; G–F–E trước điệp), hoặc tay phải dẫn giai điệu vào thẳng phách 1 (trước phiên 2, trước giang). Ở hai mốc
+ấy tay trái chỉ gõ tiếng 1 rồi im (số đo); tay phải chỗ đó có phải câu đón của lời không thì **chưa đối chiếu lời** — suy
+đoán của Claude. → Nút **"Mặc định"** ở menu mốc chuyển đoạn = im 0, câu chạy đáp
+đúng vạch; người dùng tự đặt "im 0" cho Lá thư hôm 25/9 — khớp. Sau đó đo cả kho (18 sheet, 112 mốc — mục 10c và md Cà
+Pháo · Tôn Hùng): thầy nào cũng im 0 → "Mặc định" = im 0 ở MỌI điệu (`NGHI_MAC_DINH`), bỏ số khai riêng từng điệu.
+
+**3. Mốc chuyển đoạn — luật người dùng đặt (26/9/2026).**
+- Nút "4" trong "Im mấy phách cuối ô nối" thay bằng **"Mặc định"** = *"tuân theo cách mà trong sheet đã làm ở mốc chuyển
+  đoạn"*. Mốc mới đánh dấu chọn sẵn "Mặc định". Người dùng: *"nút nghỉ phách mặc định và cơ chế đôn phách mà vẫn giữ gìn
+  tiết tấu hãy áp dụng cho mọi điệu"* → im 0 ở mọi điệu (cũ ở điệu không có số khai: nghỉ 2 phách TRONG ô, đo từ khoảng
+  lặng GIỌNG HÁT của `reference/nguoi ay.mxl`). **Người dùng nghe duyệt 26/9/2026** (*"đã ổn"*) cả chuỗi này.
+- **Nghỉ đúng N phách sau câu chạy** — người dùng chọn cách này thay luật 17/8 "Không = im điệu chạy ngón ngay từ đầu ô":
+  câu chạy luôn kết đúng chỗ nghỉ, đệm điệu chơi tới lúc câu chạy vào; "Không" = không bắt buộc đệm trước.
+- **Nghỉ bao nhiêu phách thì đôn ra bấy nhiêu phách** — *"đừng dồn câu chạy lại chơi nhanh hơn"*: hợp âm ở mốc dài thêm
+  đúng N phách, câu chạy giữ móc kép, kết ở vạch cũ, rồi lặng N phách. Bản thử dồn câu chạy thành móc kép đôi bị bác.
+
+**4. Ô fill c22 và ô đệm mở lại sau hợp âm dài lẻ.** Đôn ra 2–3 móc đơn làm ô nối dài lẻ; ô đệm và ô fill trải liên tục từ
+đầu bài nên lệch pha — người dùng nghe *"các chỗ gạch dưới đều bị thay đổi tiết tấu"* (gạch chấm = chỗ có fill). c22 gõ
+đều nửa phách nên mốc gõ không đổi; cái lệch là cú quãng tám / nốt đơn / độ ngân rơi sai tiếng. Nay: ô fill mở lại ở đầu
+mỗi hợp âm; ô đệm mở lại ngay hợp âm sau mốc được đôn ra.
+
+**Chưa đo / chưa làm:** thủ pháp bass dẫn xuống A–G–E của chị ở mốc chuyển đoạn chưa dựng vào app (app vẫn chạy
+ngón rải hai quãng tám); "nghỉ ở chỗ fill" nhập số phách chưa nhân `gridUnit` (Lá thư: 1 = một nốt đen = 2 móc đơn).
 
 ---
 
