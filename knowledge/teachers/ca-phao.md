@@ -1057,13 +1057,61 @@ không mang giai điệu chỉ **19/454**. Anh phối hợp hai tay bằng cách
 tay phải có bè dày nhất ở phách 2 (18/21) · 1.75 (15/17) · 2.75 (14/21). Bè luôn gõ cùng một nốt
 giai điệu, không có nhịp riêng. Tay trái tự gánh bass lẫn nốt hợp âm.
 
-Nút KeyTrain **Ballad Để em**: bản 1 (ô thật 8–9) bị chê *"dở"*. Bản 2 soạn trên mốc gõ Ballad DERX của Codex (cửa sổ 4–5 · 24–25), thêm ngân nối và trả quãng đôi tay phải. Lý do: bỏ giai điệu thì phiên còn 2,09 nốt vang TB so với 3,00 khi đủ hai tay (480 móc kép). Chờ nghe duyệt.
+Nút KeyTrain **Ballad Để em**: bản 1 (ô thật 8–9) bị chê *"dở"*. Bản 2 soạn trên mốc gõ Ballad DERX của Codex (cửa sổ 4–5 · 24–25), thêm ngân nối và trả quãng đôi tay phải. Lý do: bỏ giai điệu thì phiên còn 2,09 nốt vang TB so với 3,00 khi đủ hai tay (480 móc kép).
 
 **Hai tay đan nhau, cú hai tay chỉ ở phách 1 và 4** (đo 26/9/2026, 30 ô thật phiên đủ 4 phách,
 `KeyTrain/scripts/audit_cp_de_em_bum_chat.py`). Hai tay gõ cùng lúc: phách 1 **23/30**, phách 4 **24/30**; mọi mốc móc kép khác
 ≤ 8/30. Chỗ khác một tay gõ thì tay kia nghỉ: tay trái đứng riêng một nốt (2½: 19/19 cú tay trái là một nốt), tay phải đứng riêng
 thường chỉ một nốt giai điệu (¼: 8/8, ½: 12/19, 3¼: 13/16), hai nốt ở 1¾ · 2¼ · 2¾, ba nốt ở phách 2 (7/21). Một bài; chưa đối chiếu
 ballad khác.
+
+### Điệu Ballad Để em — ĐÃ NGHE DUYỆT 26/9/2026 (KeyTrain bản 36, `89a8a82`)
+
+Người dùng: *"điệu ballad Để em đã ổn hãy lưu lại"*. Duyệt cả hai nút: phiên (dưới đây) và điệp (mốc gõ DERX của Codex, cửa sổ
+24–25, ngân nối — không đổi từ bản 2). Phiên, 2 ô, trên vòng sheet Bbmaj7 | C | Dm7 (cột "nguồn": **sheet** = số đo, **người
+dùng** = ý người dùng, **Claude** = ý Claude):
+
+| tiếng | vị trí | tay trái | tay phải | nguồn |
+|---|---|---|---|---|
+| 1 Bùm | ô 1 phách 1 | Bb2 F3 A3 (1¾) | D4 (1¾) · F4 (½) | sheet cửa sổ 4 |
+| 2 chát | ô 1 phách 2 | — | F4+Bb4 (¾) | sheet cửa sổ 4 |
+| 3 bùm | ô 1 phách 2¾ | C3 (½) · G3 (¾) | E4+C5 (½) | sheet cửa sổ 4 |
+| 4 chát | ô 1 phách 3¼ | — | E4+G4 (½) | sheet E4/A4 (A4 ngoài hợp âm → G4) |
+| 5 bum | ô 1 phách 3& | A3 (walking) | — | đan tay: sheet; walking: ý người dùng |
+| 6 chát | ô 1 phách 3¾ | — | G4+C5 | sheet 6/6 cửa sổ |
+| 7 bùm | ô 1 phách 4 | G3 (walking) | C4 | sheet 5/6 (cú hai tay duy nhất nửa sau ô) |
+| 8 chát | ô 1 phách 4¼ | — | E4 (½) | sheet 6/6 |
+| 9 bum | ô 1 phách 4& | E3 (walking) | — | đan tay: sheet |
+| 10 chát | ô 1 phách 4¾ | — | C4 | sheet C4 hoặc F4 (2/6 mỗi thứ) |
+| 11 bùm | ô 2 phách 1 | D3 | F4+A4 (½) | khung người dùng ("8bùm-9bum") |
+| 12 bum | ô 2 phách 1¼ | E3 | — | khung người dùng |
+| 13 chát | ô 2 phách 1& | — | F4+C5 | khung người dùng |
+| 14 bùm | ô 2 phách 1¾ | F3 | F4+A4 | khung người dùng |
+| lấp | ô 2 phách 2 → 3 | D3 · Bb2 (walking) | A4+D5 · F4 · F4+C5 (ngân suốt câu chạy) | ý Claude, đan tay như sheet ô 9 · 37 |
+| câu chạy | ô 2 phách 3¼ → 4¾ | A2 D3 E3 F3 E3 D3 C3 | (F4+C5 còn ngân) | sheet cửa sổ 5 |
+
+**Cách chọn hợp âm:** không đổi hợp âm — điệu chơi đúng vòng bài người dùng nhập (kể cả màu add9 · 9sus4), chỉ chọn nốt trên hợp
+âm đang vang.
+
+**Cách chọn nốt:**
+- **Tay phải — theo bậc của hợp âm đang vang, đường đỉnh chép từ sheet.** Ba chát câu chạy một giữ đỉnh bậc 5 → 8 → 3 như tay phải
+  sheet ở cùng mốc (A4 → C5 → E4 trên C; A4 là bậc 6 ngoài hợp âm, đổi về bậc 5 để trên hợp âm thứ không thành nốt ngoài giọng).
+  Tiếng giai điệu một nốt: bậc 1 hoặc bậc 3 (sheet 4¼ E4 6/6). Không dùng scale — chỉ nốt hợp âm.
+- **Tay trái — walking bass** (ý người dùng; sheet ở các mốc ấy đứng bậc 5 G3 G3 G3). Bộ soạn thử mọi dòng từ nốt tay trái của tiếng
+  trước tới nốt bass của tiếng kế, chấm điểm, lấy dòng ít điểm nhất — không xúc xắc:
+  - **có dùng gam**: gam của hợp âm đang vang — trưởng (bảy thứ nếu hợp âm có b7) cho hợp âm trưởng/treo, thứ tự nhiên cho hợp
+    âm thứ; nốt ngoài gam phạt, trừ nốt cuối dẫn nửa cung vào đích (chromatic approach);
+  - tiếng bùm (có tay phải cùng gõ) ưu tiên nốt hợp âm; bước liền bậc 1–2 nửa cung, nhảy quãng 3 chỉ khi liền bậc buộc chói; bước
+    cuối vào đích luôn liền bậc; ít đổi chiều;
+  - không chói (quãng 2 thứ / 7 trưởng / tăng 4) với mọi nốt tay phải vang trong lúc nốt bass ngân.
+  Gam và trọng số là suy đoán của Claude, không có sheet đứng sau — người dùng duyệt bằng tai.
+
+**Ý người dùng qua 36 bản, giữ lại làm căn cứ:**
+- *"tiếng 1 2 3 là phải để nguyên ko chạm tới"* — tiếng đã duyệt không cắt, dời hay rút ngân để lấy chỗ.
+- *"Bum nếu đứng liền trước hoặc sau tiếng bùm thì nó là tiếng dẫn vào hoặc nối tiếp của bùm"*; bum = walking bass, không phải
+  giai điệu.
+- Tiếng "phụ" muốn nhẹ thì hạ lực; tiếng lướt lệch lưới ⅛ phách nghe *"lệch tiết tấu"*.
+- Rồi tự rút lại: *"định nghĩa về bùm chát của tôi đã quá cứng nhắc làm cho câu đệm mất hay"* → chốt theo lối đan tay của sheet.
 
 ## 6. Chưa đo — đừng suy bừa vào chỗ này
 
