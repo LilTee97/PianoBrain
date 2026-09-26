@@ -1113,6 +1113,197 @@ dùng** = ý người dùng, **Claude** = ý Claude):
 - Tiếng "phụ" muốn nhẹ thì hạ lực; tiếng lướt lệch lưới ⅛ phách nghe *"lệch tiết tấu"*.
 - Rồi tự rút lại: *"định nghĩa về bùm chát của tôi đã quá cứng nhắc làm cho câu đệm mất hay"* → chốt theo lối đan tay của sheet.
 
+### Solo ballad (dạo · giang · kết) — phân tích 26/9/2026
+
+Người dùng: *"hãy phân tích kỹ các câu solo sheet ballad của cà pháo để học các kỹ thuật, cách đặt hợp âm và cách Cà Pháo chọn nốt
+giai điệu để đánh. Hãy tham khảo với những phân tích của Codex"*. Phân tích của Codex: `KeyTrain/Reference/CP-BALLAD-COMPOSER-2026-09-23.md`
++ `CP-BALLAD-SOLO-INVENTORY.json` (25 đoạn · 9 sheet). Số đo dưới đây: `KeyTrain/scripts/audit_cp_ballad_solo_hoc.py` trên **20 đoạn đã rõ
+giọng · 7 sheet** (Hồng Kông 1 · Có Em Chờ · Ngày mai em đi · Để Em Rời Xa · Chưa Bao Giờ · Chúng Ta Không Thuộc Về Nhau · Anh Cứ Đi
+Đi). Kém duyên · Yêu xa chưa rõ giọng — chỉ dạy thời gian, không vào số đo cao độ. Nốt đỉnh = nốt cao nhất mỗi cú tay phải.
+
+**Bẫy đã sập — dữ liệu Để Em Rời Xa lệch pha.** Kho của bộ soạn đặt lưới ô theo vạch ký âm, mà vạch ký âm bài này lệch nhạc một
+phách (bass ở phách 2 ô XML, cả dạo · giang · kết). Hợp âm in cũng đặt sớm một phách và đảo thứ tự ở ô 30 · 66 · 68. Hệ quả: 11 cử
+chỉ hai ô của bài lệch pha, bộ soạn **chưa dùng lần nào** (0/72 lượt thử). Đã nắn ở `tools/cp_ballad_solos.py` (chỉ bài này; 22
+đoạn bài khác giữ nguyên từng byte): ô thật bắt đầu ở phách 2 ô XML, hợp âm dựng từ bass thật. Sau nắn: 23/72 lượt có vật liệu bài.
+
+**1. Cách chọn nốt giai điệu.** Nốt đỉnh là nốt của hợp âm đang vang ở **63%** — cả phách nguyên (247/395) lẫn giữa phách (498/785):
+anh KHÔNG giữ nốt ngoài hợp âm cho phách yếu. Bậc so với gốc hợp âm (phách nguyên / giữa phách):
+
+| bậc | 5 | 9 | 3 | 1 | b7 | b3 | 11 | 7 | 13 | #11 · b13 · b9 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| % | 17 / 17 | 16 / 14 | 10 / 13 | 10 / 12 | 12 / 11 | 10 / 10 | 10 / 8 | 7 / 6 | 5 / 6 | ≤ 3 |
+
+- **Bậc 9 gần ngang bậc 5** — màu 9 nằm trên giai điệu chứ không chỉ trong hợp âm (khớp màu add9 · 9sus4 · m9 của anh).
+- Nốt ngoài hợp âm (421 cú): kế tiếp **nhảy về nốt hợp âm 128** · liền bậc lên về nốt hợp âm 89 · liền bậc xuống về nốt hợp âm 69 ·
+  nhảy sang nốt ngoài 74. Tức phần lớn là **nốt màu** (9 · 11 · 13) rời bằng bước nhảy, không phải nốt lướt phải giải liền bậc.
+- Đường đi: bước ≤ 2 nửa cung chỉ 41% (dạo) · 36% (giang) · 22% (kết); nhảy ≥ quãng 5 chiếm 18–23%. Giai điệu **rải hợp âm và nhảy
+  quãng** nhiều hơn chạy liền bậc. Nửa cung 48/363 · 54/522 · 30/275 bước (dạo · giang · kết).
+- Tầm nốt đỉnh (MIDI): trung vị 69 (dạo) · 67 (giang, kết); tứ phân 63–75.
+
+**2. Cách đặt hợp âm.**
+- **Giọng thứ:** vòng **bVI → bVII → i** là trục — Để Em Rời Xa cả 3 đoạn, Chúng Ta dạo · giang. bVI–bVII chung một ô (đổi ở phách 2
+  hoặc 1¾), i một ô. Bậc v là **thứ** (Vm7), không phải V7 — V7 → i chỉ ở cuối ACDD kết. Vòng xuống: bIIImaj7 → bVImaj7 → vm7 → ivm7
+  (Chưa Bao Giờ dạo), imMaj7 → bVImaj7 → vm7 → ivm7 (ACDD giang).
+- **Giọng trưởng:** IVmaj7 → iiim7 → iim7 → V(9)sus4 → V → I (Có Em Chờ dạo · giang); vi → ii → V13 → I (Có Em Chờ kết); V treo
+  (Vsus4, V7sus4) trước khi về I (Hồng Kông 1); mượn bVIImaj7 (Ngày mai em đi).
+- Màu (111 ký hiệu): trưởng 68 · m7 59 · maj7 21 · m 13 · sus4 11 · 7 10 · rồi add9 · 13 · 9sus4 · m9 · mMaj7 · 7b9 · dim7.
+- Nhịp hợp âm: khoảng một hợp âm một ô, ô có hai hợp âm thì hợp âm sau vào ở phách 2 hoặc 1¾.
+
+**3. Kỹ thuật** (cú tay phải; một cụm cùng lúc = một cú):
+
+| | dạo (6 đoạn) | giang (7) | kết (7) |
+|---|---|---|---|
+| cú tay phải / phách | 1,51 | 2,10 | 1,49 |
+| cụm ≥ 3 nốt | 51/369 | 54/529 | **96/282** |
+| quãng tám | 18 | 30 | 28 |
+| bè quãng 3 / 6 | 31 | 42 | 17 |
+| cụm có quãng 2 | 37 | 33 | 44 |
+| giữa phách (móc kép lẻ) | 137 | 238 | 130 |
+| chùm ba | 9 | 12 | 20 |
+| tay trái gõ cùng lúc tay phải | 102 | 141 | 87 |
+| tay trái đáp dưới tay phải đang ngân | 165/291 | 193/357 | 117/233 |
+
+- Giang dày nhất; kết dặm cụm nhiều nhất (Chúng Ta kết 59/67 cú là cụm).
+- Hai tay: tay trái gõ cùng tay phải chỉ ~28% cú; hơn nửa tiếng tay trái **đáp dưới nốt tay phải đang ngân** — tay phải hát, tay trái
+  trả lời bên dưới, đúng như Codex ghi "RH chạy trên bass ngân rồi đáp bằng cụm".
+
+**4. Riêng Để Em Rời Xa** (sau nắn vạch nhịp; `CP-BALLAD-SOLO-INVENTORY.json`):
+- Dạo 32 cú phải · 1 cụm · 0 quãng tám; 21/32 cú phải trên bass đang ngân — **đường đơn** trên nền bass.
+- Giang 41 cú phải · 4 cụm · 4 câu chạy có nhảy rộng (+7 −7 +11 −16 +12): rải vắt nhiều quãng tám.
+- Kết 53 cú phải · **15 cụm treo/quãng 4** ([0,2,5] · [0,5,7] · [0,2,5,7,10] · [0,3,5,8]) — màu sus xếp chồng; tay trái dày (73 cú).
+- **Tay trái dưới câu solo** (15 ô): ô bVI → bVII: gốc thấp + 5 + 8 ở phách 1, 5₃ · 8 · gốc lại khi đổi hợp âm, 5₃ gõ tới cuối ô;
+  ô i: gốc thấp, **8 ngân hai phách**, 5₃ ở 3& và 4 (3/3 ô i ở dạo · giang). Khác hẳn tay trái lúc hát.
+- **Tay phải** (đo 26/9 trên cửa sổ đã nắn vạch; quy về Đô thứ, sheet ở Rê thứ): nốt đỉnh tứ phân C4–Eb4 dạo · Bb3–F4 giang ·
+  Bb3–G4 kết — giai điệu nằm **thấp quanh nốt chủ**. Bè **quãng 4** 6/31 · 6/38 · 8/50 cú (bè 3/6 chỉ 6 · 13 · 14%). Mọi ô dạo ·
+  giang có móc kép lẻ (4/4 · 4/4; kết 7/10); phách giật 44 · 81 · 62% phách. Câu đóng dạo: bè quãng 4 vút từ F4+Bb4 lên F6+Bb6 trong
+  một phách rồi cụm Bb3+C4+Eb4. Nốt dẫn nửa cung lên chủ chỉ 1 lần (dạo, cú đầu) — không phải thói quen.
+
+**5. Đánh giật — nhịp trong một phách** (lưới móc kép `0 ¼ ½ ¾`; 203 · 236 · 146 phách có tay phải ở dạo · giang · kết). Chữ
+ký của anh là phách **`x..x`** — đơn chấm dôi + móc kép, móc kép cuối giật vào phách sau: 13% · 13% · **19%** phách. Kèm các phách
+móc kép lệch `.x..` (6–11%) · `.x.x` (6% giang) · `...x` (4% dạo) · `x.xx` (8% giang) · `..xx`. Gộp lại "phách giật" chiếm **32% ·
+44% · 49%** phách; nghịch phách ngân (vào giữa phách rồi ngân qua phách kế) 25% · 18% · 34% cú. Không có dấu staccato/accent viết
+tường minh — cái giật đến từ nhịp chấm dôi, móc kép lệch và nghịch phách, không phải từ tiếng cắt ngắn (tiếng ngắn ≤ ¼ rồi nghỉ chỉ
+0–4% cú).
+
+**6. Chất liệu theo loại đoạn** (đo cùng thước với bộ soạn, `KeyTrain/src/reharm/style/__tests__/cpSoloTexture.probe.ts`):
+
+| | dặm (cụm ≥ 3 nốt) | quãng tám | nốt trong câu chạy | phách giật | cú / phách |
+|---|---|---|---|---|---|
+| sheet dạo | 14% | 5% | 17% | 32% | 1,51 |
+| sheet giang | 10% | 6% | 45% | 44% | 2,10 |
+| sheet kết | 34% | 10% | 23% | 49% | 1,49 |
+
+Dạo và giang là **đường đơn + câu chạy + bè quãng 3/6**; dặm cụm để dành cho đoạn kết. Giọng thứ riêng: dạo dặm 8% · chạy 8% ·
+giật 38%; giang dặm 12% · chạy 38%; kết dặm 45%.
+
+**Chưa đo:** pedal · rubato · lực thật (chỉ 6 sheet có dynamics); luật nốt màu theo từng chất hợp âm (bảng trên gộp mọi chất); giai
+điệu dạo có mượn motif lời hát không.
+
+**Nút KeyTrain Ballad Để em — solo: ĐÃ DUYỆT 26/9/2026 (lượt 4).** Người dùng: *"điệu Ballad Để em đã ổn và cả các câu solo cũng đã hay"*. Dùng bộ soạn ballad CP của Codex (màu Cà Pháo · Soạn câu mới). Thêm
+`soloCell`: tay trái dưới câu solo chép khuôn ô 28–29 ở trên (cũ: bộ soạn lấy tay trái từ ô đệm hát — ô 2 thành 12 tiếng gõ lặp gốc).
+Lượt 2 — người dùng: *"quá nhiều chỗ dặm hợp âm, còn ít chỗ chạy nốt và ko có nhiều kỹ thuật hay những chỗ đánh giật đặc trưng của
+Cà Pháo"*. Đo ra thân câu dạo lấy 34/72 ô từ đoạn kết (dặm 38% vs sheet 14%). Thêm `cpSoloSheetTexture`: không lấy đoạn kết làm
+thân câu dạo/giang, chấm độ lệch khỏi bảng mục 6 → dặm 12 · 6 · 28%, nốt chạy 16 · 42 · 28%, phách giật 36 · 50 · 42%.
+Lượt 3 — người dùng: *"mô phỏng câu solo Cà Pháo full thì lại lấy câu của sheet Có bao giờ"* và *"còn quá rời rạc và ko khớp với
+tiết tấu điệu"*. Mô phỏng lấy đoạn dài nhất cùng điệu (Chưa Bao Giờ) vì nút chưa khai bài gốc; kho mô phỏng cũng lệch pha — đã sửa
+cả hai. Train lại (`cpSoloOwnRhythm`): **tiết tấu mọi khung từ solo Để Em Rời Xa** (dạo/giang ← dạo/giang, kết ← kết), giai điệu ·
+hợp âm · kỹ thuật vẫn học từ mọi sheet ballad CP, bè quãng 4 của bài giữ nguyên. La thứ, 12 lượt/loại: dặm 6 · 7 · 15% (bài 3 · 8 ·
+30%), nốt chạy 22 · 25 · 0% (bài 23 · 37 · 0%), phách giật 61 · 72 · 80% (bài 44 · 81 · 62%). Chi tiết:
+`KeyTrain/Reference/CA-PHAO-BALLAD-DE-EM.md` mục Solo, Lượt 3. Người dùng chấm **7/10**.
+Lượt 4 — người dùng chấm lượt 3 **7/10**, xin train thêm. Đặt sau ô tick nghe thử (lượt 3 vẫn mặc định). Hai đổi theo số đo
+sheet: **cú dẫn vào hát / đóng kết** bằng câu đóng của chính bài bVI → bVII | i (0/6 đoạn dạo/giang thứ của anh dẫn bằng ii–V;
+0/3 đoạn kết thứ đóng V7–i — bộ soạn Codex dùng cả hai); **nốt màu 9 · 11 · 13 trên giai điệu** khi nốt nguồn cùng vị trí mang
+đúng vai ấy (bậc 9 đúng phách: sheet 16%, lượt 3 1–2%, lượt 4 3–11%). Chi tiết: mục Solo, Lượt 4 của file trên. **Người dùng
+duyệt lượt 4** (26/9: *"nghe rất hay, hãy giữ tick đó lại"*) — xem mục ngay dưới. Lượt 5 (ô tick riêng) giữ đúng bậc nốt của câu
+nguồn chặt hơn → nốt gốc đúng phách dạo 22 → 11% — **người dùng bác**: *"ko hay như lượt 4"*; đã gỡ. Khớp số đo bậc nốt hơn không
+làm câu hay hơn — đừng dựng lại.
+
+#### Bộ soạn solo Ballad Để em lượt 4 ĐÃ DUYỆT — học gì từ sheet, chọn hợp âm và nốt thế nào (26/9/2026)
+
+Người dùng nghe duyệt ngày 26/9/2026: *"ô tick Solo lượt 4 đã soạn ra các câu solo nghe rất hay, hãy giữ tick đó lại"*, rồi chốt
+cả nút: *"điệu Ballad Để em đã ổn và cả các câu solo cũng đã hay"*. Đường đã duyệt — **đừng đổi nốt nào** khi người dùng chưa yêu cầu; lượt sau đi bằng ô tick riêng (lượt 5 đã thử và bị bác).
+
+| đã duyệt | ở đâu (KeyTrain) |
+|---|---|
+| Solo dạo · giang · kết của nút Ballad Để em, màu Cà Pháo · Soạn câu mới, ô tick "Solo lượt 4" (bật sẵn, lưu theo bài) | `src/reharm/style/cpBalladComposition.ts` (`composeCpBallad`, cờ `cpBalladThu`), khai điệu ở `styleLibrary/caPhaoBalladSongs.ts` |
+
+Ba lớp chồng nhau: **Codex** dựng bộ soạn ballad CP (chọn vòng, chọn câu nguồn, bộ giải giai điệu, kỹ thuật); **Claude** thêm
+tiết tấu bài gốc (lượt 3), nốt màu và câu đóng của bài (lượt 4); **tai người dùng** chấm lượt 3 7/10, lượt 4 "rất hay". Mục này
+viết để giải thích được bộ soạn — chỗ nào **số đo**, chỗ nào **biên soạn** (Codex hay Claude), chỗ nào **ý người dùng**.
+
+**1. Đã phân tích được gì từ sheet (số đo).** Chi tiết ở các điểm 1–6 phía trên; cái bộ soạn dùng:
+- Solo *Để Em Rời Xa* (sau khi nắn vạch nhịp lệch một phách): mọi ô dạo · giang có móc kép lệch phách (4/4 · 4/4); giai điệu nằm
+  thấp quanh nốt chủ; bè quãng 4 6/31 · 6/38 · 8/50 cú; câu đóng dạo vút bè quãng 4 lên hai quãng tám trong một phách.
+- Vòng giọng thứ của anh: bVI → bVII → i là trục (Để Em cả 3 đoạn). Dẫn vào hát: 0/6 đoạn dạo/giang thứ dùng ii–V; kết: 0/3 đoạn
+  kết thứ đóng V7–i.
+- Nốt đỉnh đúng phách: nốt hợp âm chỉ 42–80% (18 đoạn · 6 sheet rõ giọng); bậc 9 16% · 11 10% · 13 5% (20 đoạn · 7 sheet).
+- Chất liệu theo loại đoạn (điểm 6): dạo/giang là đường đơn + câu chạy + bè, dặm cụm để cho đoạn kết.
+
+**2. Những điểm then chốt làm câu hay (biên soạn, dựa trên số đo).**
+1. **Tiết tấu là của chính bài** — mọi khung hai ô lấy nhịp tay phải (và tay trái đáp) từ solo *Để Em Rời Xa*: dạo/giang lấy từ
+   dạo/giang, kết từ kết. Người dùng chê bản ghép tiết tấu bài khác là *"rời rạc và ko khớp với tiết tấu điệu"*.
+2. **Giai điệu, vòng hợp âm, kỹ thuật là của cả 7 sheet** — đặt lên tiết tấu ấy (luật người dùng: tiết tấu cùng điệu, cao độ học
+   từ mọi sheet của thầy).
+3. **Nốt màu 9 · 11 · 13 đứng cả ở trọng âm** khi câu nguồn có nốt màu ở đúng chỗ ấy (lượt 4) — lượt 3 gần như chỉ nốt hợp âm.
+4. **Khép câu đúng lối bài**: cú dẫn vào hát và câu đóng kết là bVI → bVII | i của bài, khung tiết tấu cuối là khung đóng của bài
+   trên đúng hoà âm của nó.
+5. **Chất liệu bám mức sheet cùng loại đoạn** — không lấy cử chỉ đoạn kết làm thân câu dạo/giang (lượt 2).
+
+**3. Chọn hợp âm thế nào.**
+1. Kho vòng: cử chỉ hai ô **cùng giọng** của các sheet ballad CP, chỉ giữ ô có hợp âm **đáng tin** — ký hiệu khớp bass thật ở chỗ
+   đổi hợp âm; hợp âm mượn/át phụ phải giải ngay trong ô (xuống quãng 5 hoặc nửa cung). (Codex)
+2. Nối vòng: hai khung chỉ nối được nếu bước từ hợp âm cuối khung trước sang hợp âm đầu khung sau (bậc + chất) **đã xuất hiện**
+   trong kho, và còn nối tiếp được tới hết đoạn. (Codex)
+3. Chọn khung: trong các vòng nối được, chọn theo lượt phát (số giả ngẫu nhiên gieo theo lượt · giọng · loại đoạn — cùng lượt ra
+   cùng câu); 40% ưu tiên vòng của chính *Để Em Rời Xa* chưa dùng. Mọi ứng viên là vòng thật của anh; số gieo chỉ chọn giữa chúng.
+4. Hai ô cuối (lượt 4, giọng thứ): **câu đóng của bài** bVI → bVII | i (La thứ: F · G ở 1¾ phách · Am7), cả dạo · giang · kết.
+   Giọng trưởng vẫn cách Codex: ii–V của hợp âm hát kế / V7–I.
+5. Tay trái dưới câu solo: khuôn ô 28–29 của bài (gốc + 5 + 8, 5₃ gõ đều; ô i ngân 8 hai phách) — điểm 4 phía trên.
+
+**4. Chọn nốt thế nào — có dùng scale không?**
+
+**Có dùng scale, nhưng làm BỘ LỌC, không làm nguồn nốt.** Nốt đến từ vai của nốt trong câu nguồn; gam của bài (thứ tự nhiên
+`0 2 3 5 7 8 10` / trưởng `0 2 4 5 7 9 11`) chỉ để quyết một nốt ngoài hợp âm có được phép không.
+
+1. **Câu nguồn** mỗi khung: một cử chỉ hai ô cùng giọng của 7 sheet, xếp hạng theo độ khớp chức năng hợp âm ở từng tiếng (×.65),
+   độ khớp tiết tấu với mốc tay trái, chất liệu lệch mức sheet, kỹ thuật chưa dùng (−.22 mỗi cái), vòng hát lại câu mở một lần.
+   (Codex; chấm chất liệu: Claude, lượt 2)
+2. **Đường nét**: lấy chuỗi nốt đỉnh của câu nguồn, trải theo thứ tự lên các tiếng của tiết tấu bài gốc (nội suy), giữ **hướng
+   đi và độ lớn bước** (nén tầm ≤ 24 nửa cung) và **vai nốt** (bậc so với gốc hợp âm nguồn). (Codex; tiết tấu bài gốc: Claude)
+3. **Ứng viên cho mỗi tiếng**: nốt của hợp âm đang vang; **nốt màu** khi câu nguồn mang đúng vai ấy trên cùng chất hợp âm, nằm
+   trong gam và không phải nốt tránh (nửa cung trên một nốt hợp âm) — lượt 4, Claude; nốt gam cho tiếng lướt ngắn ở phách lẻ hay
+   trong câu liền bậc (không lấy bậc 3 trái chất hợp âm). Nốt cuối: kết về nốt chủ; dạo/giang về nốt hợp âm cách gốc hợp âm hát
+   kế nửa cung dưới hoặc một cung trên.
+4. **Bộ giải chọn cả câu một lần** (giữ 10 đường tốt nhất, không chọn từng nốt riêng). Phạt: lệch bước nguồn ×.55 · xa tâm tầm
+   ×.25 · nhảy quá 5 nửa cung ×.3 · ngân sang hợp âm chỏi ×12 · nhảy lớn ở chỗ nối khung ×3 · đứng yên khi nguồn chuyển động 2,5 ·
+   đi ngược nguồn 1,5 · lặp ba lần 5 · quay vòng 3 · nốt ngoài hợp âm (không phải màu) .6; **thưởng đúng vai nguồn −1,6**. Hệ số
+   là **biên soạn** của Codex.
+5. **Nốt lướt** (ngoài hợp âm, không phải màu) phải đi ≤ 2 nửa cung, cùng chiều, tối đa hai nốt rồi về nốt hợp âm. Nốt màu thì
+   không bị ép giải — anh rời nốt màu bằng bước nhảy nhiều hơn liền bậc (128 so với 158).
+6. **Nốt tiếp cận nửa cung** chỉ đặt khi câu nguồn có đúng ngữ cảnh ba nốt (chuẩn bị – tiếp cận – giải) cùng giọng, chức năng và
+   chất hợp âm. Không rải chromatic.
+7. **Bè / kỹ thuật**: số bè theo tiết tấu bài gốc; tiếng đơn ngân ≥ ½ phách mà câu nguồn có bè / quãng tám / cụm thì nhận kỹ
+   thuật ấy; bè quãng 4/5 của bài giữ đúng quãng nếu nốt dưới trong gam; bè 3/6 lấy nốt hợp âm cách 3–4 / 8–9 nửa cung.
+8. **Không dùng**: ngũ cung, blues, thang chạy tự sinh, bốc nốt ngẫu nhiên.
+
+**Ví dụ** (lượt 4, La thứ, giang full lượt phát số 3, phần hát mở bằng F): khung ô 1–2 lấy tiết tấu giang ô 28–29 của *Để Em Rời
+Xa*; câu nguồn là giang ô 39–40 của *Chúng Ta Không Thuộc Về Nhau*; hợp âm F · G (1¾) | Am7. Trên F: F5 (gốc) rồi cụm C4+F4+C5;
+trên G: D4 (5) · D4+G4+D5 · C5 (tiếng lướt móc kép) · B4 (3). Phách 1 ô 2 (Am7) giai điệu đứng trên **D (bậc 11) ở trọng âm** —
+nốt màu, vì câu nguồn mang bậc 11 ở đúng chỗ ấy — bè dưới A3 thành quãng 4 A3+D4 như bè của bài; tiếp D4 (11) · D4+G4 (quãng 4,
+đỉnh b7) · G4+C5 · D5 (11) · G5: màu treo kiểu sus4 của anh (vết `color-tone` ở phách 4 · 4¾ · 6¼). Lượt 3 cùng chỗ: B3+E4 — đỉnh
+là E (bậc 5, nốt hợp âm), phách 4¾ là C4+E4.
+
+Khi câu nguồn chính là câu của bài (khung ô 5–6 cùng lượt: tiết tấu và câu nguồn đều là dạo ô 0–1 của *Để Em Rời Xa*), đầu ra gần
+như câu gốc dời một quãng tám (G4+C5 · B4 · C5 · G5 · B4 · C5 …) — đó là **chuyển soạn**, không phải soạn mới; bộ soạn thưởng
+câu của bài −.25 nên chuyện này có xảy ra.
+
+**5. Dữ liệu để giải thích — đã có sẵn.** Mỗi câu có `compositionSources` (mỗi ô một dòng: `harmony` = vòng thật hay
+`cadence:<khung đóng của bài>`; `melody` = câu nguồn; `rhythm` = khung tiết tấu của bài gốc; `sourceKind`) và
+`compositionTechniques` (mỗi kỹ thuật một dòng kèm phách: `color-tone` · `fourth-dyad` · `third-dyad` · `sixth-dyad` ·
+`octave-line` · `semitone-approach` · `neighbor-cluster` · `written-grace` · `left-answer`). **Chưa có**: nhãn từng nốt (nốt hợp
+âm / nốt màu / nốt lướt, và vai của nốt nguồn tương ứng), điểm phạt của đường được chọn so với đường thua, lý do chọn vòng. Ba
+thứ này tính sẵn trong `composeCpBallad` (`lineSlots`, `colorPc`, đường bộ giải), chỉ chưa ghi ra.
+
 ## 6. Chưa đo — đừng suy bừa vào chỗ này
 
 - **Sheet có cùng cao độ với bản thu không.** Đã bắt được **một** bài lệch: *Người hãy quên
