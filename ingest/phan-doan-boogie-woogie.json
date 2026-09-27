@@ -1,0 +1,82 @@
+{
+  "source_file": "video/Linh_Nhi/boogie woogie-Linh Nhi.mxl",
+  "source_sha256": "862e1a4b87a07579945ec360abce52cd3fd942f31c70bc8aa807c311f504100b",
+  "annotated_file": "video/Linh_Nhi/boogie woogie-Linh Nhi-chia-doan.mxl",
+  "source_title": "Boogie Woogie Basics",
+  "source_credit": "Marco Brandt",
+  "attribution_status": "Tên file/thư mục ghi Linh Nhi; credit bên trong ghi Marco Brandt. Chưa xác minh quan hệ giữa hai tên; chưa gán vào kho học của Linh Nhi.",
+  "status": "Phân tích từ MusicXML; các tên chức năng do người phân tích đặt, chưa có xác nhận của người dùng.",
+  "bar_numbering": "Theo thuộc tính measure number trong file gốc, gồm cả ô lấy đà số 1.",
+  "meter": "4/4",
+  "tempo_quarter": 180,
+  "feel_text": "Swing",
+  "pickup_quarter_beats": 1.5,
+  "tonal_center_inferred": "C, blues thiên trưởng; suy từ bass và các cụm nốt, file không ghi mode/hợp âm.",
+  "sections": [
+    {
+      "id": "intro",
+      "label": "Dạo đầu, gồm lấy đà",
+      "bars": [
+        1,
+        5
+      ],
+      "evidence": "Ô 1 lấy đà 1.5 phách; ô 2–5 là câu dạo 4 ô; vạch kép sau ô 5."
+    },
+    {
+      "id": "blues_1",
+      "label": "Vòng blues 1",
+      "bars": [
+        6,
+        17
+      ],
+      "evidence": "12 ô: bass gốc C C C C F F C C G F C C; vạch kép sau ô 17. Tay trái chạy móc đơn, tay phải bấm cụm."
+    },
+    {
+      "id": "interlude",
+      "label": "Đoạn nối, nhắc lại dạo",
+      "bars": [
+        18,
+        21
+      ],
+      "evidence": "Nội dung nốt, nghỉ và ties lặp ô 2–5; vạch kép sau ô 21. Câu lấy đà vào đoạn này bắt đầu ở ô 17, offset 2.5 phách."
+    },
+    {
+      "id": "blues_2_body",
+      "label": "Thân vòng blues 2",
+      "bars": [
+        22,
+        31
+      ],
+      "evidence": "10 ô đầu của vòng 12 ô; bass C C C C F F C C G F. Tay phải chuyển sang câu giai điệu có bè đôi và đảo phách."
+    },
+    {
+      "id": "outro",
+      "label": "Câu kết và ngân cuối",
+      "bars": [
+        32,
+        34
+      ],
+      "evidence": "Ô 32–33 thay hai ô cuối vòng blues 2 bằng câu kết; C9 đánh tại ô 33 offset 3 (phách 4), nối qua toàn ô 34 có fermata."
+    }
+  ],
+  "form_groups": [
+    {
+      "label": "Vòng blues 2 đầy đủ",
+      "bars": [
+        22,
+        33
+      ],
+      "note": "Gồm blues_2_body và hai ô đầu outro; ô 34 là ngân thêm."
+    }
+  ],
+  "annotation_bars": [
+    1,
+    2,
+    6,
+    18,
+    22,
+    32,
+    34
+  ],
+  "timing_caveat": "tools/sheet/mxl.py hiện tính ô 1 thành 4 phách dù dữ liệu chỉ dài 1.5; không dùng bar_start đó làm thời gian tuyệt đối cho bản này. Swing chỉ là chữ, không phải dữ liệu tỷ lệ trường độ phát."
+}
