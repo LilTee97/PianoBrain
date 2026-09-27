@@ -1,0 +1,35 @@
+{
+  "id": "keytrain-blues-duc-thinh-bien-soan",
+  "type": "concept",
+  "name": "Nút \"Blues Đức Thịnh\" bên KeyTrain — biên soạn trên lời thầy, không phải trích thêm từ video",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "duc-thinh",
+    "source_id": "duc-thinh-bai-09-slow-rock",
+    "locator": "không có mốc mới — dùng lại 10:07-10:28 đã trích ở duc-thinh-not-blues-la-bac-5-giang"
+  },
+  "use_when": [
+    "Hỏi vì sao KeyTrain có nút Blues Đức Thịnh, tiết tấu có gì khác Slow Rock (Đức Thịnh)",
+    "So sánh với nút Blues ĐT của Codex — hai nút KHÔNG chung id/family/alias"
+  ],
+  "avoid_when": [
+    "Cần trích lời thầy về câu lick/run Blues cụ thể — thầy KHÔNG dạy phần này ở bài 9, xem output.khong_co_trong_video"
+  ],
+  "input": {
+    "style": ["blues", "slow_rock"]
+  },
+  "output": {
+    "stage": "app_decision",
+    "keytrain_id": "blues-duc-thinh",
+    "tiet_tau": "Copy nguyên `cell` của acc-slow-rock-duc-thinh-mau-3 — không đổi cú gõ, trường độ, lực. Đúng việc thầy nói: tiết tấu đã là Blues, chỉ thiếu bậc 5 giáng.",
+    "bien_soan_them": [
+      "Vòng hợp âm bảy (I7-IV7-V7) và gam Blues cho câu dạo — lý thuyết Blues phổ thông, không phải lời thầy.",
+      "Sổ 6 câu lick/run tay soạn (nốt xanh vào bậc 5, turnaround, groove+rải, vòng b3-4-b5-5-b3, rải hợp âm bảy chen nốt xanh, approach nửa cung) — dựng theo KeyTrain Reference/pianoimprovnotes.md, không đo từ video Đức Thịnh nào."
+    ],
+    "khong_co_trong_video": "Bài 9 của thầy chỉ dạy MẪU ĐỆM (tay trái + hợp âm tay phải), không có đoạn nào thầy chơi lick/run solo Blues. Mọi câu lick trong nút này là KeyTrain tự soạn, không được gán là lời hay ngón của thầy.",
+    "tach_khoi_codex": "Người dùng yêu cầu trực tiếp (27/9/2026): nút này TÁCH khỏi \"Blues ĐT\" mà Codex dựng song song — không chung id, family, hay copy object, dù cả hai cùng lấy cảm hứng từ thầy Đức Thịnh."
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Item này KHÔNG thêm sự thật mới về thầy — nó ghi lại một QUYẾT ĐỊNH DỰNG APP bên KeyTrain, để phiên sau (Claude, Codex, hay OpenCode) khỏi tưởng nhầm sổ lick 6 câu hay vòng I7-IV7-V7 là thứ trích được từ video bài 9. Sự thật thật sự duy nhất vẫn chỉ nằm ở item `duc-thinh-not-blues-la-bac-5-giang`: nốt Blues là bậc 5 giáng, nói ở 10:07-10:28.\n\nBối cảnh: người dùng đưa một khoá học Blues piano tải về máy (\"The Ultimate Blues Piano Course\") và một video YouTube dạy Blues bằng tiếng Việt, hỏi Claude có cần học hết khoá đó không. Claude kiểm được: khoá học 14GB, 268 file, 176 file (66%) là mp4/mp3 không xem/nghe được; chỉ đọc được PDF/ảnh (lý thuyết phổ thông, không phải bí quyết riêng). Video YouTube không có phụ đề, không đọc được. Người dùng chốt đi \"hướng A\": soạn theo lý thuyết Blues phổ thông (không đo từ sheet như Linh Nhi/Cà Pháo/Tôn Hùng), và lấy đúng tiết tấu thật đã có sẵn của thầy Đức Thịnh (item bậc-5-giáng) làm phần đệm.\n\nChưa đo / chưa làm bên KeyTrain: đoạn kết (outro) hiện trống do cổng `coChiDanCodex` app-wide, không riêng nút này; giọng trưởng chưa có gì từ thầy để đối chiếu."
+}
