@@ -1,0 +1,29 @@
+{
+  "id": "marco-brandt-boogie",
+  "type": "teacher",
+  "name": "Boogie Woogie Basics (Marco Brandt)",
+  "difficulty": 2,
+  "source": null,
+  "use_when": [
+    "Người học hỏi về boogie woogie, bass ostinato, hay câu riff Blues thiên trưởng",
+    "Cần một nguồn Blues piano ĐO ĐƯỢC (bản ký âm thật, không phải video không xem được)"
+  ],
+  "avoid_when": [
+    "Câu hỏi về phong cách Linh Nhi — file nằm trong thư mục video/Linh_Nhi/ nhưng credit trong bản nhạc là Marco Brandt, CHƯA xác minh quan hệ giữa hai tên. Không gán style này cho Linh Nhi."
+  ],
+  "input": {
+    "style": ["blues", "boogie_woogie"]
+  },
+  "output": {
+    "declared_focus": [
+      "bass ostinato boogie woogie",
+      "riff tay phải cố định trên nền hợp âm đổi",
+      "vòng 12 ô Blues thiên trưởng"
+    ],
+    "language": "vi",
+    "ingested_sources": 1
+  },
+  "origin": "derived",
+  "status": "draft",
+  "note_vi": "Nguồn: `video/Linh_Nhi/boogie woogie-Linh Nhi.mxl`, tiêu đề bên trong bản nhạc là \"Boogie Woogie Basics\", credit hiển thị \"Boogie Woogie Piano — Marco Brandt\". Bản chia đoạn (Codex, 26/9/2026, `ingest/phan-doan-boogie-woogie.md`) đã kiểm bằng XML thật (`tools/sheet/boogie_woogie_solo.py --kiem`, 27/9/2026): mọi mốc vạch kép, mọi bass gốc từng ô đều khớp. Đây là bản ký âm THẬT, đo được, không phải video — khác hẳn phần lớn khoá học Blues khác đã kiểm (chủ yếu video không xem được). Vẫn CHƯA xác minh Linh Nhi có vai trò gì với bản này (chơi lại, học theo, hay chỉ lưu trong thư mục của chị) — mọi item của thầy này mang teacher_id 'marco-brandt-boogie', không được trộn vào linh-nhi-piano.md."
+}
