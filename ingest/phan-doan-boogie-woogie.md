@@ -4,6 +4,12 @@ Nguồn: `video/Linh_Nhi/boogie woogie-Linh Nhi.mxl`.
 Bản có nhãn: `video/Linh_Nhi/boogie woogie-Linh Nhi-chia-doan.mxl`.
 Mốc máy đọc được: `ingest/phan-doan-boogie-woogie.json`.
 
+**Đã bổ sung (27/9/2026):** ranh đoạn ở trên đã được kiểm lại độc lập bằng `<barline>` và bass thật
+trong XML — khớp 100% (`tools/sheet/boogie_woogie_solo.py --kiem`). Kiến thức về câu solo tay phải và
+bass tay trái của các vòng blues nằm ở `knowledge/concepts/boogie-basics-marco-brandt/` (nguồn
+`marco-brandt-boogie`, KHÔNG gộp vào `linh-nhi-piano.md` — xem lý do ở `attribution_status` trong
+`phan-doan-boogie-woogie.json`).
+
 Phân tích trực tiếp từ MusicXML ngày 26/9/2026. Số ô dưới đây là số `measure`
 trong file gốc, **tính cả ô lấy đà số 1**. Các tên chức năng do người phân tích
 đặt; sheet chỉ có vạch kép, chưa có tên đoạn và chưa có xác nhận của người dùng.
