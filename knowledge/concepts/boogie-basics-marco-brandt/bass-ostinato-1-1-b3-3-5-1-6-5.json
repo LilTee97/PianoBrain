@@ -1,0 +1,34 @@
+{
+  "id": "bass-ostinato-1-1-b3-3-5-1-6-5",
+  "type": "pattern",
+  "name": "Bass ostinato Boogie Woogie — tám móc đơn 1-1-b3-3-5-1-6-5, có cú crush b3→3",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "marco-brandt-boogie",
+    "source_id": "boogie-woogie-basics-mxl",
+    "locator": "ô 6-17 và 22-31 (10/12 ô mỗi vòng dùng nguyên hình này, đo bằng tools/sheet/boogie_woogie_solo.py)"
+  },
+  "use_when": [
+    "Dựng tay trái cho một điệu Boogie Woogie / Blues piano",
+    "Giải thích vì sao bè trầm Boogie Woogie nghe khác bè trầm Bolero/Slow Rock — tám cú gõ đều, không rải chậm"
+  ],
+  "avoid_when": [
+    "Điệu chậm, tình cảm — ostinato này chạy nhanh (180 nốt đen/phút trong bản gốc), rải 8 móc đơn liền một ô, không hợp ballad"
+  ],
+  "input": {
+    "style": ["blues", "boogie_woogie"],
+    "hand": "left"
+  },
+  "output": {
+    "stage": "measured_pattern",
+    "attacks_per_bar": 8,
+    "grid": "8 móc đơn đều, không đảo phách (đo: 0/94 cú gõ tay phải toàn bài lệch lưới móc đơn — dù chữ ghi \"Swing\", trường độ mã hoá vẫn thẳng)",
+    "bac": ["1", "1", "b3", "3", "5", "1", "6", "5"],
+    "vi_du_o_C": ["C2", "C2", "Eb2", "E2", "G2", "C2", "A2", "G2"],
+    "diem_dang_chu_y": "Móc đơn 3-4 là cú CRUSH b3→3 (Eb→E) — nhấn bậc ba giáng rồi giải quyết lên bậc ba đúng, TRONG CÙNG một ô, không phải chờ đổi hợp âm. Cùng một thủ pháp \"nốt xanh rồi giải quyết\" mà thầy Đức Thịnh nói cho bậc 5 giáng (item duc-thinh-not-blues-la-bac-5-giang), chỉ khác bậc.",
+    "do_lai": "10/12 ô vòng 1 và 10/10 ô vòng 2 dùng ĐÚNG hình này (chỉ 1 ô ở cuối vòng 1 cắt ngắn còn 5 nốt vì vào câu lấy đà mới). Bass gốc đổi theo hợp âm (C hoặc F hoặc G) nhưng HÌNH BƯỚC BẬC giữ nguyên — ostinato thật sự, không phải trùng hợp."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Đo trực tiếp từ MusicXML thật (`tools/sheet/boogie_woogie_solo.py`), đã kiểm bass gốc từng ô khớp 100% với bảng của Codex (`--kiem`). KHÔNG phải video, KHÔNG cần rà bằng tai — số liệu lấy thẳng từ nốt mã hoá trong file.\n\nChưa rõ / cần thêm: chưa nghe bản thu thật để biết \"Swing\" (chữ ghi trong file) có nghĩa là móc đơn dài-ngắn kiểu shuffle hay không — dữ liệu mã hoá thẳng đều, có thể người chơi tự thêm swing lúc trình diễn mà bản ký âm không ghi lại. Status để draft vì chưa ai đối chiếu bản thu."
+}

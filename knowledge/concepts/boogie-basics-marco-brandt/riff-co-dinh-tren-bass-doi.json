@@ -1,0 +1,42 @@
+{
+  "id": "riff-co-dinh-tren-bass-doi",
+  "type": "concept",
+  "name": "Câu solo tay phải KHÔNG đổi theo hợp âm — cùng một riff cố định trên tâm C, kể cả khi bass sang F hay G",
+  "difficulty": 3,
+  "source": {
+    "teacher_id": "marco-brandt-boogie",
+    "source_id": "boogie-woogie-basics-mxl",
+    "locator": "ô 22-31 (vòng blues 2, thân câu solo); đối chiếu tuyệt đối ô 23~27, 24~26, 28~30"
+  },
+  "use_when": [
+    "Soạn câu solo/lick Boogie Woogie hay Blues thiên trưởng cho một điệu",
+    "Giải thích vì sao câu riff Blues nghe \"chỏi\" một chút trên hợp âm IV hay V — đó là chủ ý, không phải lỗi"
+  ],
+  "avoid_when": [
+    "Nhạc cụ đòi chord-tone soloing chặt (jazz ii-V-I) — kỹ thuật này NGƯỢC với chord-tone soloing"
+  ],
+  "input": {
+    "style": ["blues", "boogie_woogie"],
+    "hand": "right"
+  },
+  "output": {
+    "stage": "extracted_technique",
+    "phat_hien_chinh": "Ba ô bass F (26, 30) và ô bass G (27) dùng ĐÚNG NGUYÊN cao độ tuyệt đối như ô bass C cùng vị trí trong khung — kiểm bằng so sánh (bar,phách,midi) từng cặp: 3/3 cặp khớp tuyệt đối (ô24≡ô26, ô23≡ô27, ô28≡ô30). Riff KHÔNG dịch giọng theo hợp âm.",
+    "he_qua_hoa_am": "Vì vậy tỉ lệ nốt khớp hợp âm bảy CỦA CHÍNH Ô ĐÓ chỉ 72% (33/46 cú gõ), nhưng khớp tập bảy nốt CỐ ĐỊNH của tâm C {1,b3,3,4,b5,5,6} là 100% (46/46). Hai con số này đo hai thứ khác nhau — đọc nhầm thành \"câu solo bám hợp âm 72%\" là sai hướng.",
+    "von_not_thuc_do_duoc": {
+      "vong_2_solo_46_cu_go": {"1": 20, "5": 18, "3": 10, "4": 8, "6": 8, "b3": 8, "b5": 8},
+      "ghi_chu": "Bảy bậc, không có bậc bảy giáng (b7) trong riff chính — khác thang blues lục âm chuẩn (1-b3-4-b5-5-b7). Có CẢ bậc ba giáng lẫn bậc ba đúng (Eb và E) cùng xuất hiện — b3+b5 đứng thành một cụm hai nốt xanh chồng nhau ở giữa mỗi ô."
+    },
+    "hinh_riff_1_o_tren_C": [
+      {"phach": 0.5, "not": "G4+C5", "bac": "5+1(8ve)"},
+      {"phach": 1.0, "not": "F4+A4", "bac": "4+6"},
+      {"phach": 1.5, "not": "Eb4+Gb4", "bac": "b3+b5", "ghi_chu": "cụm HAI nốt xanh chồng nhau"},
+      {"phach": 2.0, "not": "E4+G4", "bac": "3+5", "ghi_chu": "giải quyết — cùng logic 'nốt xanh rồi về nốt hợp âm'"},
+      {"phach": 2.5, "not": "C4", "bac": "1"}
+    ],
+    "bien_tau": "Ô 4 và 8 của mỗi vòng 12 ô (ô 25, 29) thay riff bằng một cụm nốt láy (grace) F-Gb-A rồi Eb-E-G trước khi về C — chèn thêm màu chromatic đúng chỗ nghỉ của riff chính, không phá nhịp 8 móc đơn."
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Đây là phát hiện có giá trị nhất của bản này cho việc soạn câu Blues: KHÔNG PHẢI \"chọn nốt theo hợp âm đang vang\" (chord-tone soloing) mà là \"giữ một câu/hình cố định trên tâm bài, mặc kệ bass đổi\" — một kỹ thuật khác hẳn, đặc trưng cho câu riff kiểu boogie/blues 12 ô (khác Linh Nhi, nơi 83% nốt phách mạnh khớp ĐÚNG hợp âm đang vang, xem linh-nhi-piano.md mục 13e). Hai lối này không mâu thuẫn — chúng là hai kỹ thuật khác nhau cho hai phong cách khác nhau, ĐỪNG trộn luật của bên này sang bên kia.\n\nSo sánh tuyệt đối bằng Python (so tuple (phách, midi tuple) từng ô), không phải nghe bằng tai — độ tin cậy cao. Bass gốc dùng để tính 'khớp hợp âm' lấy trực tiếp từ nốt tay trái thấp nhất mỗi ô (`goc_bass_thuc`), không suy từ ký hiệu vì file không có ký hiệu hợp âm.\n\nChưa đo: liệu kỹ thuật 'riff cố định trên bass đổi' này có lặp lại ở bài Boogie Woogie khác của Marco Brandt hay chỉ là đặc điểm của đúng bài này (n=1 bài, 1 vòng đầy đủ)."
+}

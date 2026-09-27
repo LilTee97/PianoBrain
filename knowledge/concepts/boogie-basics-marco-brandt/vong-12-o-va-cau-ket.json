@@ -1,0 +1,34 @@
+{
+  "id": "vong-12-o-va-cau-ket",
+  "type": "concept",
+  "name": "Vòng 12 ô Blues (I-I-I-I-IV-IV-I-I-V-IV-I-I) và câu kết chạy xuống ngoài riff",
+  "difficulty": 2,
+  "source": {
+    "teacher_id": "marco-brandt-boogie",
+    "source_id": "boogie-woogie-basics-mxl",
+    "locator": "ô 6-17 (vòng 1), ô 22-33 (vòng 2 + kết), bass gốc kiểm bằng tools/sheet/boogie_woogie_solo.py --kiem"
+  },
+  "use_when": [
+    "Cần một khung 12 ô Blues thật (không phải lý thuyết sách vở) để đối chiếu hay lấy vòng hợp âm mặc định",
+    "Soạn câu kết (turnaround/outro) cho một đoạn Blues"
+  ],
+  "avoid_when": [
+    "File KHÔNG có ký hiệu hợp âm in sẵn — vòng dưới đây suy từ nốt bass thấp nhất mỗi ô, không phải chép ký hiệu"
+  ],
+  "input": {
+    "style": ["blues", "boogie_woogie"]
+  },
+  "output": {
+    "stage": "measured_form",
+    "vong_12_o_tam_C": ["C", "C", "C", "C", "F", "F", "C", "C", "G", "F", "C", "C"],
+    "ghi_chu_vong": "Vòng 2 (ô 22-33) dùng ĐÚNG 10 ô đầu này rồi thay 2 ô cuối bằng câu kết — không phải một biến thể khác, cùng một khung.",
+    "cau_ket_o32_34": {
+      "o32": "Riff chính DỪNG, thay bằng chạy đơn xuống: C5-Bb4-A4-Ab4 (bậc 1-b7-6-b6, mỗi nốt 1 phách) — quãng chạy CHUYỂN từ bậc bảy giáng sang bậc sáu giáng, khác hẳn vốn bảy nốt của riff chính (riff chính không hề dùng b7 hay b6).",
+      "o33": "Chạy tiếp G4-F4-Eb4-C4 (bậc 5-4-b3-1, móc đơn đều) trên bass ĐÃ đổi sang G — đây là ô duy nhất trong cả bài bass rời khỏi {C,F,G} gốc mà chuyển hẳn màu, rồi hợp âm chồng E3+G3+Bb3+D4 (C9 không có bậc 3) đánh ở phách 4, ngân sang trọn ô 34 có dấu ngân (fermata).",
+      "doc_ra": "Câu kết dùng nhiều nốt HƠN cả bảy nốt của riff (thêm b6, b7, bậc 2) — đúng vai trò một turnaround: mở rộng màu ra ngoài vốn nốt chính để báo hết bài, rồi khép bằng một hợp âm chồng ngân dài."
+    }
+  },
+  "origin": "extracted",
+  "status": "draft",
+  "note_vi": "Vòng hợp âm và câu kết đều suy trực tiếp từ nốt bass thật (không có ký hiệu hợp âm in sẵn trong file) — đã kiểm bass gốc từng ô của cả hai vòng khớp 100% với bảng Codex đưa ra ban đầu (`ingest/phan-doan-boogie-woogie.json`).\n\nDùng vòng này làm nguồn 'vòng Blues thật đo được' thì nhớ: đây là vòng 12 ô CHUẨN sách vở (I-I-I-I-IV-IV-I-I-V-IV-I-I), không có gì lạ hay riêng của Marco Brandt — giá trị của bản này KHÔNG nằm ở vòng hợp âm mà ở cách soạn RIFF trên vòng ấy (xem item riff-co-dinh-tren-bass-doi).\n\nChưa đo: liệu câu kết ô 32-34 có phải hình turnaround chuẩn của thể loại Boogie Woogie hay là biến tấu riêng của bản in này — cần đối chiếu thêm bài khác mới kết luận được, hiện n=1."
+}
