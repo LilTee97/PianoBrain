@@ -642,6 +642,50 @@ Xem `KeyTrain/Reference/BLUES-CLAUDE.md`:
   trong sheet, nốt cuối ngân đủ), dài ngắn khác nhau, DẪN NỐI qua hợp âm sau (mục 7d).
 - **Blue Sun lượt 10** — ô tick riêng (chưa nghe): chỗ chạy theo số đo video Đức Thịnh (mục 5, "Chỗ chạy ngón khi đệm hát") —
   ≈ nửa số ô có tay phải, câu chạy tầm cao mỗi 3–4 ô (nửa ở ô hết câu, nửa giữa câu), rải nhẹ tầm thấp ở các ô khác.
+- **Nút Twist — Bộ Soạn Blues là MẶC ĐỊNH** (29/9/2026; người dùng: *"biến nút Twist: bộ soạn Blues … thành mặc định cho điệu
+  Twist"*): câu solo và câu chạy lúc đệm hát của Twist (4/4 swing, sheet Boogie Woogie Basics) soạn bằng Bộ Soạn Blues — mục 9.
+
+## 9. Twist — chọn hợp âm và chọn nốt khi Bộ Soạn Blues soạn trên nhịp 4/4 swing (29/9/2026)
+
+Tách ba lớp: **số đo** (sheet), **biên soạn của Claude** (trọng số, mức cú), **ý người dùng** (trích nguyên).
+
+**Ý người dùng:** *"dùng bộ soạn Blues để soạn các câu solo và các câu fill cho điệu Twist … điều chỉnh câu cho khớp tiết tấu
+của điệu nút Twist … Câu chạy nốt cũng nên sử dụng các riff theo kiểu Blues giống như điệu Slow Blues … ít nốt hơn trong Slow
+Blues nhưng vẫn giữ đủ kết cấu … chủ yếu đặt ở cuối câu hát và nên có nốt dẫn qua hợp âm kế tiếp … chèn những kỹ thuật khác
+của Blues vào tiết tấu đệm hát"*.
+
+**Đã phân tích được gì (số đo):**
+- Rockhouse vốn là 4/4 lưới chùm ba: 735/810 cú nằm đúng lưới ⅓ phách → một NHÓM BA (một phách lớn 6/8 của Slow Blues) chính
+  là MỘT PHÁCH swing của Twist. Rising Sun chép theo thời gian thật: 25/185 cú đúng lưới → không dùng cho Twist.
+- Tay phải solo của sheet Twist (ô 22–31): 76% cú là bè đôi, còn lại nốt đơn; 50 cú / 10 ô; câu nhắc thở ở phách 4, câu đáp
+  có nốt nối qua vạch ô (`KeyTrain/Reference/TWIST-SOLO-SOURCE.md`).
+- Nhóm ba Rockhouse mỗi cú ≤ 2 nốt: nốt đơn 141/163 · bè đôi 60/80 · riff chùm 15/141.
+
+**Chọn hợp âm:**
+- Dạo · giang · kết: khung Twist có sẵn — giang là khung 12 ô Boogie `I I I I | IV IV | I I | V IV | I | báo`; màu I6 · IV9 ·
+  V7 (giọng thứ: i m6 · IV9 · V7, thiên Dorian — chuyển dụng, sheet chỉ có Đô trưởng). Bộ soạn KHÔNG đổi hợp âm.
+- Đệm hát: dùng đúng vòng hợp âm của bài; không tô màu Blues (khác Slow Blues mục 7e), không chèn hợp âm lướt.
+
+**Chọn nốt** — cùng luật Bộ Soạn Blues (mục 3 và 7), thêm ràng buộc cho Twist:
+- vật liệu: nhóm ba Rockhouse dời NGUYÊN theo giọng bài (giọng thứ → giọng trưởng tương đối), chỉ đổi quãng tám cả nhóm —
+  không sửa nốt; mỗi nốt truy được "nhóm nào của ô nào Rockhouse" (`nguon` trong `adaptationNote`);
+- có dùng scale, nhưng làm BỘ LỌC chứ không để sinh nốt: nốt phách mạnh / nốt ngân phải trong giọng hoặc là nốt hợp âm, không
+  là nốt tránh; nốt blue (trưởng b3 · b5 · b7) chỉ lướt; chấm mọi nốt so hợp âm đang vang (mục 7c);
+- mỗi cú ≤ 2 nốt (nốt đơn · bè đôi như sheet Twist);
+- câu chạy lúc đệm hát: nốt cuối câu là NỐT DẪN — cách một nốt của hợp âm sau 1–2 nửa cung mà không phải chính nốt ấy; cú đáp
+  đúng phách 1 hợp âm sau là nốt hợp âm mới (Rockhouse: câu chạy xuyên vạch đổi hợp âm 41/63 — mục 7d);
+- riff = một hình ngắn lặp liền tối đa 2 lần (như Rising Sun E–G ×3), chỉ ở câu chạy lúc đệm hát.
+
+**Kỹ thuật Blues khác trong đệm hát (biên soạn của Claude trên vật liệu sheet):** láy nốt blue của giọng nửa cung dưới bậc 3 / 5
+vào cú chặn đầu hợp âm (sheet Boogie ô 25 · 29: láy [Eb,Gb] → [E,G]); đi bass cuối đoạn — bốn nốt đen, ba nốt cuối nửa cung một lên
+gốc mới (sheet ô 4 · 20: C–E–F–F# vào G). Mẫu đệm ô 6–16 của sheet KHÔNG có láy — đây là chèn thêm.
+
+**Kết quả đo** (KeyTrain `twistBlues.test.ts`, 4 bài × 6 lượt, 96 câu chạy): cú mỗi câu chạy trung vị 4 (2–7) — Slow Blues Bản
+rút gọn cùng bài 6 (4–13); cú đáp vào hợp âm sau 72/72; riff lặp 16/96 câu; láy 108/168 chỗ đổi hợp âm. Solo: 6,4 cú mỗi ô.
+
+**Dữ liệu cho chức năng giải thích:** đã có — id nhóm ba từng phách (`nguon` / `adaptationNote`), luật lọc (`hopVoi`, `tranhVang`),
+điểm từng nốt (`diemBam`). Còn thiếu — lý do chọn từng nhóm (điểm thành phần của tìm chùm không trả ra), nhãn nốt dẫn / nốt blue
+từng nốt trên đầu ra.
 
 ## Chưa đo — đừng suy bừa
 
