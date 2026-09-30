@@ -1120,6 +1120,147 @@ dùng** = ý người dùng, **Claude** = ý Claude):
 - Tiếng "phụ" muốn nhẹ thì hạ lực; tiếng lướt lệch lưới ⅛ phách nghe *"lệch tiết tấu"*.
 - Rồi tự rút lại: *"định nghĩa về bùm chát của tôi đã quá cứng nhắc làm cho câu đệm mất hay"* → chốt theo lối đan tay của sheet.
 
+### Đệm rải hai tay — *Anh Cứ Đi Đi* từ ô 9, đo 29/9/2026 (nút KeyTrain "Ballad cứ đi" — điệu đã duyệt 30/9, xem mục kế)
+
+Người dùng: *"từ ô 9 trở đi … CP đệm bằng kỹ thuật rải hợp âm kết hợp 2 tay và về sau có thể có thêm một số kỹ thuật khác"*.
+Tái lập: `KeyTrain/scripts/audit_cp_acdd_rai.py`; hồ sơ nút: `KeyTrain/Reference/CA-PHAO-BALLAD-CU-DI.md`.
+
+- **Giọng Fa thứ** (4 giáng · hợp âm cuối Fm7 · hay gặp Bbm7 / Fm / Db). **Vạch nhịp đúng pha**: bass đầu ô là gốc in ở mọi ô đo
+  (khác Để Em Rời Xa). Lưới móc kép, 0 cú lệch lưới.
+- **Anh rải VẮT HAI TAY ở phiên**: chuỗi móc kép liền đi lên có cả hai tay ở ô 9–16 **7/8** ô, phiên 2 (38–45) 5/8, ô 1–8 chỉ 3/8
+  (tay trái rải móc đơn), điệp 2/16 · 6/16. Nửa đầu ô: tay trái 1–5–8–9 (–10) rồi tay phải bắt tiếp lên tầm giai điệu — ô 9 F2 C3
+  F3 G3 Ab3 | C4 F4 C5; chuyển tay hay nhất ở phách 2¼ (4/11). Nửa sau: tay trái gốc phách 3 (7/8) · bậc 5 phách 3¼ (7/8) · một
+  nốt phách 4& (6/8); tay phải đệm một cặp phách 4 (4/8: 3+b7 trên hợp âm bảy, 3+5 trên Ab).
+- **Câu rải tay phải lặp ở mọi lượt phiên** (ô 2 · 10 · 39: Db4 F4 Db5 cùng mốc) — nên so hai lượt phiên để tách giai điệu lời sẽ
+  nhận nhầm chuỗi rải là giai điệu. Nốt tay phải nối tiếp làn rải tay trái là phần đệm.
+- **Điệp — kỹ thuật khác, chưa dựng:** tay phải giai điệu quãng tám, dặm cụm ba nốt, tay trái rải nửa vời xen bass quãng tám.
+- **Tay trái DƯỚI CÂU SOLO vẫn là sóng rải** (giang ô 33–37 · kết ô 62–67, n = 11 ô có tay trái): gốc · 5 · 8 (· 9) · 10 móc kép rồi
+  ngân — ô 33 F2 C3 F3 G3 Ab3 đúng sóng lúc hát; phách 4–4¾ gõ nốt hợp âm đang vang (ô 62 G3 → Eb3, ô 35 D3 → F3), không đi bass
+  sang hợp âm sau. Gốc có lúc xuống quãng 1 (Ab1 · G1 · C1).
+- **Chỗ chuyển đoạn** (ô 16 · 32 · 45 · 61, n = 4): **1/4 là câu chạy đàn** — ô 16 vào điệp, tay trái 8 móc kép phách 3–4 Db3 F3 Ab3
+  B3 | Bb3 G3 E3 C3 (C7b9 lên, C7 xuống), tay phải giữ giai điệu quãng tám. Ô 32 · 61: nửa đầu sóng rải, nửa sau tay trái giữ C7
+  hai phách, tay phải là giai điệu lấy đà. Ô 45: tay trái hai quãng Db3+B3 · C3+Bb3, không chạy.
+- **Nghi là câu chêm lúc hát — VAI CHƯA XÁC NHẬN** (ô 21 · 29 · 50 · 58): tay phải 4–6 móc kép từ phách 3½ hoặc 3¾ tới 4¾, xen
+  quãng tám; tay trái chỉ MỘT nốt ngân 1–1½ phách. Đây là suy đoán của Claude từ hình nốt (sheet không có lời, người dùng chưa chốt
+  cửa lời trong phần hát của bài này) — có thể là giai điệu lời. Ghi 29/9 như số đo là sai; sửa 30/9.
+- **Câu fill lúc hát — chỗ đặt** (đo 30/9/2026 trên 5 cửa fill người dùng đã xác nhận ở hai bài khác: Để Em 40 · 59, Chưa Bao Giờ
+  22 · 50→51 · 75→76; `KeyTrain/src/reharm/style/cuDiFill.ts`):
+  · **4/5 ôm lấy vạch nhịp** sau chỗ lời dứt: mở ở phách 4¼ ô trước rồi rơi vào phách 1 ô sau (50→51, 75→76), hoặc mở ngay phách 1
+    ô sau (40, 22); 1/5 giữa ô (59, phách 3). Cả 4 chỗ ôm vạch đều **cùng một hợp âm** hai bên vạch.
+  · **4/5 là thế bấm leo 1–3 quãng tám** (40 A5 → D6+F#6+A6 → D7; 59 cụm năm nốt Db4 → Db6; 22 Ab3 → F7 rồi xuống; 50→51 C4+Bb4+C5
+    → F5+Bb5 → C6+F6 → Bb6+C7+F7); 1/5 đường đơn (75→76 Eb4 G4 | Ab4 Eb5 G4 Ab4 F4).
+  · 3–8 cú móc kép; **4/5 kết bằng một cú ngân ½–1 phách ở đỉnh**; tay phải trở lại sau ≥ ½ phách.
+  · **Tay trái**: 3/5 chỉ giữ một cú ngân dưới câu (40 · 22 · 75→76), 1/5 đi tiếp khuôn thưa (59), 1/5 đáp lúc tay phải ngân (50→51).
+- Solo chính bài đủ làm khung hai ô: giang 34–35 (chạy liền) · 35–36 (nghỉ 1½ phách đầu rồi cụm vút lên C6+Eb6+G6); kết 63–64
+  (chạy liền) · 67–68 (rải vút lên Bb6). Chất liệu: giang dặm 19% · nốt chạy 31%; kết 6% · 50%.
+- Một bài; chưa đối chiếu rải hai tay ở các sheet ballad khác của anh.
+
+### Điệu Ballad cứ đi — ĐÃ NGHE DUYỆT 30/9/2026 (KeyTrain `c58be15`)
+
+Người dùng chốt qua ba lượt ô tick nghe thử: *"tick chêm tiếng nối hợp âm sau đã ổn, hãy đặt ô tick đó làm mặc định"* (29/9) →
+*"2 chỗ tôi chọn hãy đặt làm mặc định cho điệu Ballad cứ đi"* (30/9: mỗi hợp âm 8 phách · solo · lick · run) → *"hãy biến ô tick câu
+fill Cà Pháo làm mặc định cho điệu Ballad Cứ đi"* (30/9). Đường đã duyệt — **đừng đổi khi người dùng chưa yêu cầu**; lượt sau đi bằng
+ô tick riêng. Cột "nguồn": **sheet** = số đo (mục trên), **người dùng** = ý người dùng, **Claude** / **Codex** = biên soạn.
+
+| đã duyệt | ở đâu (KeyTrain) |
+|---|---|
+| Đệm: mỗi hợp âm một lượt 8 tiếng rải vắt hai tay | `src/reharm/style/styleLibrary/caPhaoBalladSongs.ts` (`cuDi`, `CU_DI_MOT_LUOT_CELL`) |
+| Solo dạo · giang · kết (màu Cà Pháo · Soạn câu mới) | `src/reharm/style/cpBalladComposition.ts` (cờ `soloCell` · `cpSoloOwnRhythm` · `cpSoloSheetTexture`) |
+| Lick · run lúc hát, mốc chuyển đoạn (màu Cà Pháo) | `src/reharm/licky/cpLick.ts` (`cpDanSong`, câu chạy ô 16) |
+| Câu fill ở chỗ ca sĩ nghỉ (mọi màu) | `src/reharm/style/cuDiFill.ts` |
+
+**1. Đệm — một lượt 8 tiếng mỗi hợp âm** (ví dụ Fm). "Phách" của người dùng ở điệu này là TIẾNG móc kép: *"mỗi hợp âm chơi 8 phách
+rồi chuyển"* = một lượt 8 tiếng (2 nốt đen), không phải 8 nốt đen.
+
+| tiếng | tay trái | tay phải | nguồn |
+|---|---|---|---|
+| 1 (nhấn) | F2 (ngân 2 phách) | F4 | sóng: sheet ô 9; nhấn + tay phải nhân quãng tám: người dùng |
+| 2 · 3 | C3 · F3 | — | sheet ô 9 |
+| 4 | G3 (bậc 9, ¼) | — | sheet ô 9 |
+| 5 (nhấn) | Ab3 (bậc 10) | Ab4+C5 (nhả ¼) | sóng: sheet; *"phách 5 phải là giai điệu hơi cao lên"*: người dùng chọn cách 1 |
+| 6 · 7 | — | C4 · F4 | sheet ô 9 |
+| 8 (nhấn) | — | C5 | sheet ô 9; nhấn: người dùng |
+
+- **Chọn hợp âm:** chơi đúng vòng người dùng nhập, mỗi hợp âm một lượt (2 nốt đen máy; ô chọn "Mỗi hợp âm" khoá). Không thêm hợp âm —
+  trừ hợp âm lướt ở chỗ câu fill (điểm 4).
+- **Chọn nốt — không dùng scale, chỉ bậc của hợp âm đang vang:** tay trái 1 · 5 · 8 · 9 · 10 (gốc C2–B2), tay phải bắt tiếp 12 · 15 · 19
+  (sàn gốc tay phải C3 → tay phải cao đúng một quãng tám trên tay trái, sóng liền ở mọi hợp âm). Hợp âm treo: nốt treo thay bậc 3. Bậc 9
+  là nốt ngoài hợp âm ba nhưng chỉ móc kép ¼. Chỗ nối hai hợp âm: tiếng tay phải mà cùng các nốt tay phải trong ½ phách trước vượt
+  quãng tám thì dời một quãng tám (Claude — người dùng: *"tay người ko thể đánh như trong ảnh được"*).
+- Để lùi về hai lượt mỗi ô nhịp (lượt hai có 3 tiếng chêm walking vào hợp âm sau — mặc định 29/9): `CU_DI_NOI_CELL`.
+
+**2. Solo dạo · giang · kết** — cùng bộ soạn với Ballad Để em lượt 4 (mục "Bộ soạn solo Ballad Để em lượt 4 ĐÃ DUYỆT" phía dưới:
+vòng thật của các sheet, bộ giải giai điệu, nốt màu), khác ở:
+- **Tiết tấu từ solo chính bài** (người dùng: *"phải soạn cho khớp với tiết tấu điệu ballad anh cứ"*). Bài chỉ có MỘT khung chạy liền mỗi
+  loại đoạn, nên (Claude): dạo/giang = giang ô 34–35 + kết ô 63–64 (đường đơn); kết = kết 63–64 + câu đóng 67–68 (rải vút lên Bb6).
+  Đã thử thêm giang 35–36 cho dạo/giang: dặm 29–30% · nốt chạy 5–7% → bỏ (người dùng từng chê thân dạo/giang nhiều dặm, ít chạy).
+- **Chọn hợp âm:** vòng hai ô cùng giọng từ kho các sheet ballad CP (Codex). Hai ô cuối: dạo/giang = ii–V của hợp âm hát kế (Fa thứ:
+  Gm7b5 → C7, hoặc Gm7b5 → C9sus4 → C7); kết = V7 → i (C7 → Fm9, hoặc C7sus4 → C7 → Fm9) — đo 12 lượt × 3 đoạn: 100% như vậy. Không
+  có "câu đóng của bài" như Để em: kho chưa có khung đóng đáng tin của *Anh Cứ Đi Đi*.
+- **Chọn nốt:** như Để em lượt 4 — scale làm BỘ LỌC, nốt đến từ vai nốt trong câu nguồn; nốt màu 9 · 11 · 13 khi nguồn có đúng vai ấy.
+  Thêm (Claude, tầm tay): bè trong / quãng tám dưới thấp hơn đỉnh cao nhất trong ½ phách quá một quãng tám thì bỏ, nốt giai điệu giữ.
+- **Tay trái dưới solo = sóng rải 13 tiếng** (số đo: tay trái dưới solo của bài vẫn rải, 11 ô; ô 33 F2 C3 F3 G3 Ab3; phách 4–4¾ nốt hợp
+  âm đang vang). Nốt (Claude): bậc 9 móc kép giữ, ngoài giọng thì lấy nốt trong giọng sát dưới (C7 ở Fa thứ: Db = b9); trần tay trái
+  theo nốt tay phải đang vang lúc gõ, tay phải vào thấp sau đó thì cắt ngân tay trái — sóng không gãy.
+- Chất liệu đo (Fa thứ · La thứ · Đô trưởng, 12 lượt mỗi đoạn): dặm dạo 14 · 14 · 17%, giang 13 · 13 · 12%, kết 15 · 15 · 18%; nốt chạy
+  dạo 23 · 27 · 31%, giang 30 · 34 · 32%, kết 47 · 42 · 27% (sheet: giang 19% · 31%; kết 6% · 50%).
+
+**3. Lick · run lúc hát · mốc chuyển đoạn** (màu Cà Pháo):
+- **Lick / run:** câu từ kho CP Lick (các sheet ballad của anh; chưa có *Anh Cứ Đi Đi*), giữ nguyên nhịp nguồn; cao độ soạn lại theo hợp
+  âm — phách nguyên bám nốt hợp âm, phách lẻ theo gam và màu hợp âm, cuối câu ưu tiên nốt chung với hợp âm sau, nốt nửa cung chỉ là
+  nốt tiếp cận ngắn (Codex, `KeyTrain/Reference/CP-LICK.md`): **scale làm bộ lọc cho phách lẻ**. Đan vào sóng rải (Claude): câu chỉ
+  thay tay phải, bỏ bè trầm của sheet nguồn; tay trái sóng giữ tiếng ngân, nhường tiếng móc kép gõ trùng câu — câu dày thì tay trái chỉ
+  còn gốc ngân, như 3/5 cửa fill đã xác nhận.
+- **Mốc chuyển đoạn:** câu chạy tay trái ô 16 của bài, 8 móc kép kết ở vạch — C7 → Fm đúng Db3 F3 Ab3 B3 | Bb3 G3 E3 C3; hợp âm khác:
+  màu · 3 · 5 · 7 · 5 · 3 · màu · gốc (Codex); tay phải giữ. Chọn ô 16 (1/4 chỗ chuyển đoạn của sheet là câu đàn) là lựa chọn của Claude.
+
+**4. Câu fill ở chỗ ca sĩ nghỉ** (mọi màu; người dùng: *"sao quá đơn giản … Cà Pháo có dùng passing chord để nối hợp âm ko"*, rồi
+*"fill là phải chơi đa dạng các kỹ thuật mình có chứ ko phải lặp lại đúng 1 kiểu"*):
+- **Chỗ đặt:** chỗ lời dứt theo lời đã dán (chưa dán: theo mật độ fill). Câu nằm gọn từ phách cuối hợp âm có chỗ nghỉ tới phách đầu hợp
+  âm sau — ôm lấy vạch như 4/5 cửa fill đã xác nhận; không mở sớm hơn để khỏi đè chữ cuối câu hát.
+- **Bảy kỹ thuật, xoay vòng theo thứ tự chỗ fill trong bài** (chỗ fill kế nhau không cùng kiểu; lượt phát sau lệch điểm xuất phát;
+  kiểu không hợp chỗ ấy thì sang kiểu kế). Nhịp và hình từ sheet, ghép với hợp âm bài đang chơi là việc của Claude:
+
+  | kỹ thuật | nguồn | Fm → Bbm (tay trái · tay phải) |
+  |---|---|---|
+  | leo + hợp âm lướt | Chưa Bao Giờ 50→51 · Anh Cứ Đi Đi 53 | A2+Eb3 · A4+Eb5+A5 → C5+Eb5 · Eb5+F5 · F5+A5 → F5+Bb5+Db6 |
+  | tay trái dẫn | Anh Cứ Đi Đi ô 16 nửa sau | C4 Ab3 G3 F3 · tay phải giữ C5+C6 (C7 → Fm: Bb3 G3 E3 C3 · G4+G5 — đúng ô 16) |
+  | mở + hợp âm lướt | Để Em 40 | A2+Eb3 · A4+Eb5+A5 ngân 1 phách → Bb4 · Db5+F5+Bb5 · Db6 |
+  | bass đi nửa cung | Có Em Chờ 20→21 · 22 | Gb2 G2 Ab2 A2 → Bb · tay phải giữ C5+C6 (cần bass cách ≥ 3 nửa cung) |
+  | sóng lên xuống | Chưa Bao Giờ 22 | F4+Ab4+C5 · Ab4+C5+F5 · C5+F5+Ab5 · Ab4+C5+F5 → F4+Bb4+Db5 |
+  | câu đơn | Chưa Bao Giờ 75→76 | C5 Ab5 F5 C5 → Db5 (nốt dẫn nửa cung vào bậc 3 hợp âm sau) |
+  | chuyển quãng tám | Để Em 59 | F4+G4+Ab4+C5 → cùng thế bấm lên quãng tám → Bb5+Db6+F6 (móc đơn — sheet móc kép) |
+
+- **Chọn hợp âm — hợp âm lướt** ở phách cuối hợp âm cũ (hình "leo", "mở"). Luật Claude rút từ 11 chỗ soi tận nốt (mục "Hợp âm lướt"
+  ở phần 6), khớp 10/11 (lệch: Có Em Chờ 44→45 — sheet A7, luật Eb7/G):
+  1. hợp âm sau là 7 trội → bII7 của nó (G7 → **Db7** → C7);
+  2. thứ → thứ đi xuống một cung → bII7, bass nửa cung đi xuống (Em7 → **Eb7** → Dm7);
+  3. hợp âm cũ là át 7 của hợp âm sau → bII7 hàng xóm rồi về lại (C7 → **Db7 → C7** → Fm);
+  4. còn lại → át 7 của hợp âm sau, bass là nốt cảm âm (Fm → **F7/A** → Bbm);
+  bass cũ đã cách gốc sau nửa cung, hoặc trùng gốc → không chèn. Tay trái "vỏ" hai nốt (gốc + bậc 7, hoặc bass cảm âm + quãng 3 cung);
+  tay phải cú ba nốt bậc 3 · 7 · 3 quãng tám (như ô 53: F4+B4+F5).
+- **Chọn nốt — không dùng scale để sinh nốt.** Mỗi nốt là nốt của hợp âm đang vang ở lúc ấy: hợp âm cũ, hợp âm lướt (7 trội: 1 · 3 · 5 ·
+  b7) hoặc hợp âm sau. Ngoài hợp âm chỉ có: bậc 9 (thế bấm "chuyển quãng tám" = hợp âm + 9 như cụm Để Em 59; bậc 2 của "tay trái dẫn"
+  khi hợp âm không có 9), nốt dẫn nửa cung dưới bậc 3 hợp âm sau ("câu đơn"), và bass đi nửa cung ("bass đi"). Leo theo thế đảo (mỗi cú
+  lên một nốt hợp âm), không nhảy nguyên thế bấm lên quãng tám như sheet — mọi nốt một tay trong ½ phách ≤ quãng tám (luật người dùng
+  "đánh được bằng tay người"); đỉnh câu gần D6 (Claude; sheet lên tới D7 · F7).
+- Tay trái sóng nhường đúng khoảng mà tay trái của câu chiếm (vỏ hợp âm lướt, bass đi, tay trái dẫn); bass cũ đang ngân cắt ở đó.
+
+**5. Ý người dùng qua các lượt, giữ làm căn cứ:**
+- *"thêm vào mấy tiếng nữa cho đủ phách nối đến hợp âm kế tiếp … nhớ phải khớp với tiết tấu điệu"* (29/9) → chêm tiếng nối (nay thay bằng
+  một lượt 8 tiếng mỗi hợp âm).
+- *"tiếng 1 5 và 8 là phách mạnh hãy đánh rõ"* · *"nhấn 1 5 8 chưa rõ, sao ko thêm nốt bên tay phải"* · *"phách 5 phải là giai điệu hơi cao
+  lên"* (chọn cách 1: bậc 10 + 12; dặn *"nếu tôi nhắn ko ổn thì đưa ra các phương án khác để chọn lại"* — còn cách 2 · 3).
+- *"sao tay phải đánh phách 5 mà các nốt xa nhau vậy, tay người sao mà đánh được"* · ảnh *"vẫn còn sót chỗ mà tầm nốt xa"* — tầm tay phải
+  đo cả chỗ nối hợp âm, hợp âm treo, và SAU bước app gán lại tay.
+- *"Ô giai điệu dẫn vào hợp âm sau hãy bỏ"* (30/9) — đã gỡ.
+- *"fill là phải chơi đa dạng các kỹ thuật mình có chứ ko phải lặp lại đúng 1 kiểu"* — áp cho câu fill của mọi thầy.
+
+**6. Chưa đo:** chưa nghe trên bài có lời thật (chỗ lấy hơi `breaths`) — không lời thì hợp âm 2 phách + mật độ "Vừa" ≈ mỗi 4 phách một
+câu fill; vai câu chêm ô 21 · 29 · 50 · 58 (chưa xác nhận là fill hay lời); kho CP Lick chưa có *Anh Cứ Đi Đi*; điệp khúc (giai điệu quãng
+tám, dặm cụm, tay trái rải nửa vời) chưa dựng; tần suất fill thật của anh (bao nhiêu chỗ lời nghỉ thì có fill) chưa đo được vì sheet
+không có lời.
+
 ### Solo ballad (dạo · giang · kết) — phân tích 26/9/2026
 
 Người dùng: *"hãy phân tích kỹ các câu solo sheet ballad của cà pháo để học các kỹ thuật, cách đặt hợp âm và cách Cà Pháo chọn nốt
@@ -1320,12 +1461,29 @@ thứ này tính sẵn trong `composeCpBallad` (`lineSlots`, `colorPc`, đườn
   hai từ dưới của đàn 88 phím. Ba bài còn lại người dùng đã đối chiếu Chordify và **khớp**.
 - **Tiết tấu tay trái theo từng điệu.** Bossa nova và ballad chắc chắn khác nhau, nhưng
   chưa tách ra đo — mỗi loại chỉ có 2 bài.
-- **Vị trí câu chèn (fill) trong phần hát.** Chưa đo.
-- **Cách nối giọng giữa các hợp âm.** Chưa đo.
-- **Hợp âm lướt.** Quét cả kho chỉ ra **3 ca thật**, Cà Pháo có 2: *Ngày mai em đi* ô 3
+- **Vị trí câu chèn (fill) trong phần hát.** Đo được một phần (30/9/2026) — chỉ trên **5 cửa fill người dùng đã xác nhận**
+  (Để Em 40 · 59; Chưa Bao Giờ 22 · 50→51 · 75→76), vì **0/9 sheet có thẻ lời**; kết quả ở mục "Câu fill lúc hát — chỗ đặt"
+  dưới phần Anh Cứ Đi Đi. Chưa đo được: tần suất (bao nhiêu chỗ lời nghỉ thì có fill), fill ở các bài chưa có phiếu cửa lời
+  (Hồng Kông, Có Em Chờ, Ngày mai em đi, Anh Cứ Đi Đi).
+- **Cách nối giọng giữa các hợp âm.** Đo được một phần (30/9/2026, `KeyTrain/scripts/audit_cp_noi_hop_am.py`, phần hát 5 bài có vạch
+  đúng pha — Anh Cứ Đi Đi · Chúng Ta · Có Em Chờ · Hồng Kông · Ngày mai; Để Em và Chưa Bao Giờ lệch vạch nên chưa tính): cú tay phải
+  cuối trước chỗ đổi hợp âm (n = 206) là nốt chung 65 · nốt của hợp âm sau vào sớm 64 · nốt hợp âm cũ 46 · nốt ngoài 31; đi liền bậc
+  vào nốt đầu hợp âm sau 76 (37%). Bass cú cuối (n = 199): liền bậc vào gốc sau 65 (33%) · bậc 5 hợp âm sau 41 (21%) · đã về gốc sau
+  34 (17%). Chưa đo: nối bè trong (giọng giữa).
+- **Hợp âm lướt.** Quét KÝ HIỆU cả kho chỉ ra **3 ca thật**, Cà Pháo có 2: *Ngày mai em đi* ô 3
   (`Eb → Bbm7/Db → C7`, bass `Eb → Db → C`) và *Có Em Chờ* ô 58 (`Amaj7 → Abm7 → Bsus4`,
   bass `A → Ab → F#`). Anh ấy dùng thủ pháp này nhiều nhất trong ba thầy, nhưng vẫn là
-  **hiếm** — 2 chỗ trên hơn 400 ký hiệu.
+  **hiếm** — 2 chỗ trên hơn 400 ký hiệu. **Đo trên NỐT (30/9/2026) thì không hiếm**: phần hát 5 bài đúng pha, 288 chỗ đổi hợp âm —
+  hợp âm lướt ghi ký hiệu 19 (7%; 9 là át 7 của hợp âm sau) và **hợp âm lướt ngầm trong tay trái** 16 (6%): át 7 của hợp âm sau với
+  bass là nốt cảm âm 7 · bII7 (7 trội nửa cung trên hợp âm đích) 4 · bII7 hàng xóm 3 · bass đi 3 nốt 2. Soi tận nốt 11 chỗ:
+  · bII7: Anh Cứ Đi Đi 15 G7 → Db7 → C7 (ghi), 44→45; Có Em Chờ 29→30 Abmaj7 → Db9 → C7, 34→35 Gm7 → Gb7 → Fm7, 44→45 Eb → A7 → Abmaj7;
+    Chúng Ta 20→21 · 52→53 Em7 → (bass Eb) → Dm7;
+  · bII7 hàng xóm rồi về: Anh Cứ Đi Đi 45 · 53 trong ô C7 trước Fm — tay trái Db3+B3 → C3+Bb3, tay phải F4+B4+F5;
+  · át 7 bass cảm âm: Anh Cứ Đi Đi 17→18 · 46→47 F7/A → Bbm; Chúng Ta 50→51 E7/G# → Am7; Có Em Chờ 19→20 Bb7/D → Eb; Ngày mai 46→47
+    Eb7/G → Ab (tay trái G3+Db4);
+  · bass đi nửa cung liên tiếp: Có Em Chờ 20→21 Db D Eb F Gb G → Ab.
+  "Vỏ" tay trái của hợp âm lướt là hai nốt: gốc + bậc 7, hoặc bass cảm âm + quãng 3 cung. Đoạn đàn (dạo/giang/kết): hợp âm lướt ngầm
+  1/141 — anh để dành lối này cho phần hát.
 
 ---
 
