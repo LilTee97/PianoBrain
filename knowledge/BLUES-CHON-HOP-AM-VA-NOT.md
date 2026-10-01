@@ -647,6 +647,9 @@ Xem `KeyTrain/Reference/BLUES-CLAUDE.md`:
 
 ## 9. Twist — chọn hợp âm và chọn nốt khi Bộ Soạn Blues soạn trên nhịp 4/4 swing (29/9/2026)
 
+**Đã nghe duyệt 1/10/2026** — người dùng: *"Điệu Twist đã ổn"*. Tổng kết cả điệu (đệm, mặc định, tầm tay, để lùi):
+`knowledge/TWIST.md`. Từ 30/9 câu chạy còn thêm ràng buộc tầm tay một quãng tám — `TWIST.md` mục 6.
+
 Tách ba lớp: **số đo** (sheet), **biên soạn của Claude** (trọng số, mức cú), **ý người dùng** (trích nguyên).
 
 **Ý người dùng:** *"dùng bộ soạn Blues để soạn các câu solo và các câu fill cho điệu Twist … điều chỉnh câu cho khớp tiết tấu
